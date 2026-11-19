@@ -1,0 +1,89 @@
+[
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1.png",
+  "kind": "overview",
+  "page": 1,
+  "px": [
+   3200,
+   2263
+  ]
+ },
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1-r1c1.png",
+  "kind": "tile",
+  "page": 1,
+  "row": 1,
+  "col": 1,
+  "px": [
+   1886,
+   2000
+  ],
+  "region": "top",
+  "side": "left"
+ },
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1-r1c2.png",
+  "kind": "tile",
+  "page": 1,
+  "row": 1,
+  "col": 2,
+  "px": [
+   2000,
+   1945
+  ],
+  "region": "top",
+  "side": "centre"
+ },
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1-r1c3.png",
+  "kind": "tile",
+  "page": 1,
+  "row": 1,
+  "col": 3,
+  "px": [
+   1886,
+   2000
+  ],
+  "region": "top",
+  "side": "right"
+ },
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1-r2c1.png",
+  "kind": "tile",
+  "page": 1,
+  "row": 2,
+  "col": 1,
+  "px": [
+   1886,
+   2001
+  ],
+  "region": "bottom",
+  "side": "left"
+ },
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1-r2c2.png",
+  "kind": "tile",
+  "page": 1,
+  "row": 2,
+  "col": 2,
+  "px": [
+   2000,
+   1946
+  ],
+  "region": "bottom",
+  "side": "centre"
+ },
+ {
+  "file": "C:\\RnD\\.wt\\studio-agent-fal\\files\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local\\projects\\fal-check-mw177b9g\\derived\\.cache\\pdf\\\u05d3\u05d9\u05e8\u05d4_846-_16\\page-1-r2c3.png",
+  "kind": "tile",
+  "page": 1,
+  "row": 2,
+  "col": 3,
+  "px": [
+   1886,
+   2001
+  ],
+  "region": "bottom",
+  "side": "right"
+ }
+]

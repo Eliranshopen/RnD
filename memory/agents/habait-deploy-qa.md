@@ -204,3 +204,9 @@
 
 ## 2026-11-19 · main session → second-reader pointer
 - FULL public repo Eliranshopen/RnD on Eliran's ruling (everything incl. .wt, public, LFS cost accepted): snapshot a92107db in C:/RnD-full.git, 195,313 files, 18,231 LFS objects 49 GB, history as a bundle; scans 0 real keys; tools scripts/snap_*.py; upload running → `memory/project/2026-11-19-full-public-repo-rnd.md`
+
+## 2026-11-19 · main session → second-reader pointer
+- RnD repo changed ruling: everything WITHOUT media; public Eliranshopen/RnD main a195535f, 116,261 files, clone verified byte for byte; media upload stopped at about 18 GB: those LFS objects are public by hash and billed until Eliran deletes + the session recreates the repo; full LFS snapshot a92107db kept local → `memory/project/2026-11-19-full-public-repo-rnd.md`
+
+## 2026-11-19 · main session (3dengine) → second-reader pointer
+- 2026-11-19 engine restore = ONE download: release engine-restore-2026-11-19 of the public repo Eliranshopen/RnD (RnD-engine-restore.zip 1.5 GB + agent-side.zip, source only), RESTORE.cmd proven 3 times on scratch folders; tools and steps in scripts/restore/; keys file by hand → `memory/project/2026-11-19-engine-handoff-other-computer.md`

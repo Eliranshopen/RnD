@@ -1,0 +1,346 @@
+{
+  "assets": [
+    {
+      "id": "polyhaven-modern_arm_chair_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-modern_arm_chair_01\\modern_arm_chair_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-modern_coffee_table_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-modern_coffee_table_01\\modern_coffee_table_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-modern_coffee_table_02",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-modern_coffee_table_02\\modern_coffee_table_02_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-modern_wooden_cabinet",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-modern_wooden_cabinet\\modern_wooden_cabinet_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-modern_ceiling_lamp_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-modern_ceiling_lamp_01\\modern_ceiling_lamp_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-potted_plant_02",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-potted_plant_02\\potted_plant_02_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-hanging_picture_frame_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-hanging_picture_frame_01\\hanging_picture_frame_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-steel_frame_shelves_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-steel_frame_shelves_01\\steel_frame_shelves_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-wooden_display_shelves_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-wooden_display_shelves_01\\wooden_display_shelves_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "polyhaven-outdoor_table_chair_set_01",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\polyhaven-outdoor_table_chair_set_01\\outdoor_table_chair_set_01_2k.blend",
+      "format": "blend",
+      "source_id": "polyhaven"
+    },
+    {
+      "id": "kenney-furniture-kit-loungeDesignSofa",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-loungeDesignSofa\\loungeDesignSofa.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-loungeSofaCorner",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-loungeSofaCorner\\loungeSofaCorner.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-loungeDesignSofaCorner",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-loungeDesignSofaCorner\\loungeDesignSofaCorner.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-loungeChairRelax",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-loungeChairRelax\\loungeChairRelax.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-loungeSofaOttoman",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-loungeSofaOttoman\\loungeSofaOttoman.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-tableCoffee",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-tableCoffee\\tableCoffee.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-cabinetTelevision",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-cabinetTelevision\\cabinetTelevision.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-televisionModern",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-televisionModern\\televisionModern.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bookcaseOpen",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bookcaseOpen\\bookcaseOpen.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-sideTable",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-sideTable\\sideTable.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-lampRoundFloor",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-lampRoundFloor\\lampRoundFloor.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bedDouble",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bedDouble\\bedDouble.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bedSingle",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bedSingle\\bedSingle.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-cabinetBedDrawerTable",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-cabinetBedDrawerTable\\cabinetBedDrawerTable.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bookcaseClosedWide",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bookcaseClosedWide\\bookcaseClosedWide.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-lampRoundTable",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-lampRoundTable\\lampRoundTable.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-rugRound",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-rugRound\\rugRound.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-pillow",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-pillow\\pillow.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bedBunk",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bedBunk\\bedBunk.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-chairDesk",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-chairDesk\\chairDesk.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-desk",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-desk\\desk.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bookcaseOpenLow",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bookcaseOpenLow\\bookcaseOpenLow.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-rugSquare",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-rugSquare\\rugSquare.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-books",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-books\\books.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCabinet",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenCabinet\\kitchenCabinet.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCabinetUpper",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenCabinetUpper\\kitchenCabinetUpper.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCabinetCornerRound",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenCabinetCornerRound\\kitchenCabinetCornerRound.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenSink",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenSink\\kitchenSink.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenStoveElectric",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenStoveElectric\\kitchenStoveElectric.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenFridge",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenFridge\\kitchenFridge.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-hoodModern",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-hoodModern\\hoodModern.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenMicrowave",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenMicrowave\\kitchenMicrowave.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCoffeeMachine",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-kitchenCoffeeMachine\\kitchenCoffeeMachine.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-toilet",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-toilet\\toilet.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomSink",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bathroomSink\\bathroomSink.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomSinkSquare",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bathroomSinkSquare\\bathroomSinkSquare.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-showerRound",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-showerRound\\showerRound.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bathtub",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bathtub\\bathtub.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomCabinet",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bathroomCabinet\\bathroomCabinet.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomMirror",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-bathroomMirror\\bathroomMirror.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-rugDoormat",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-rugDoormat\\rugDoormat.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-table",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-table\\table.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-chairModernCushion",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-chairModernCushion\\chairModernCushion.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-chairModernFrameCushion",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-chairModernFrameCushion\\chairModernFrameCushion.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "kenney-furniture-kit-rugRectangle",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\kenney-furniture-kit-rugRectangle\\rugRectangle.glb",
+      "format": "glb (packed inside a single pack .zip)",
+      "source_id": "kenney-furniture-kit"
+    },
+    {
+      "id": "quaternius-X5kQPKzAWp",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\quaternius-X5kQPKzAWp\\f627491f-7126-4323-8d01-0be933671078.glb",
+      "format": "glb",
+      "source_id": "quaternius-via-polypizza"
+    },
+    {
+      "id": "quaternius-1kwsjhpY84",
+      "path": "C:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\pipeline\\360walkaround\\catalog\\models\\quaternius-1kwsjhpY84\\7cf27481-8505-42f8-9172-ce209242de09.glb",
+      "format": "glb",
+      "source_id": "quaternius-via-polypizza"
+    }
+  ]
+}

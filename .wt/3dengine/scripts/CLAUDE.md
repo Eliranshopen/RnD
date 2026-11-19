@@ -11,6 +11,7 @@ Small scripts that turn a hand-proven harness procedure into one command (root `
 | `mem_entry.py` | one memory entry per root §0.2: the `_TEMPLATE.md` entry, its INDEX line under the existing header (≤ 400 chars), the second-reader pointer. Refuses missing evidence paths and secret-shaped text (§8.1) |
 | `media_pull.py` | gives a feature git worktree under `.wt\<name>` the media git does not carry, from the main checkout: folders become read-only junctions (`_local/` of tour360 apt846, engine, studio; `node_modules`), `platform/_local` is a real copy (builds write there), floor-plan webp copied + sha256. Dry-run default, `--go` acts, record `.wt\<name>.media.json`; **`--unlink --go` BEFORE a worktree is removed** (2026-11-04, first used by `fix-disclosure-badge`) |
 
+| `restore/` | (2026-11-19) the engine's restore pack for another computer: `RESTORE.cmd` / `restore.ps1` (tools, repository from a bundle, worktree, assets, notes, agent side, readiness check), `README-HE.md`, and the tools that build and scan the pack; published as a release asset of `Eliranshopen/RnD`. Its own context file: [`restore/CLAUDE.md`](restore/CLAUDE.md) |
 ## Conventions / gotchas
 - Run from `C:\RnD` in Git Bash: `python scripts/wt.py …`, `python scripts/mem_entry.py …`; `--root <dir>` points either at a test copy.
 - Both force UTF-8 output (the console is cp1255).

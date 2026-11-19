@@ -28,10 +28,12 @@ def main():
     ap.add_argument("--seconds", type=int, default=500)
     ap.add_argument("--transfers", type=int, default=8, help="parallel uploads; 16 choked the line once")
     ap.add_argument("--go", action="store_true")
+    ap.add_argument("--ref", default="refs/heads/main", help="local ref of C:/RnD-full.git whose objects go up")
+    ap.add_argument("--no-push", action="store_true", help="upload the LFS objects only, do not push the commit")
     a = ap.parse_args()
     lfs = BASE + ["-c", "lfs.concurrenttransfers=%d" % a.transfers, "-c", "lfs.activitytimeout=120",
-                  "lfs", "push", "origin", "main"]
-    push = BASE + ["push", "origin", "main:refs/heads/main"]
+                  "lfs", "push", "origin", a.ref]
+    push = BASE + ["push", "origin", "%s:refs/heads/main" % a.ref]
     if not a.go:
         print("would run, for at most %d s: %s\nthen, once it exits 0: %s\n(dry run; add --go)" % (
             a.seconds, " ".join(lfs[1:]), " ".join(push[1:])))
@@ -78,6 +80,9 @@ def main():
         print("  log: " + ln.decode("utf-8", "replace")[:300])
     if rc != 0:
         return 3
+    if a.no_push:
+        print("every LFS object of %s is on the remote; the commit was not pushed (--no-push)" % a.ref)
+        return 0
     r = subprocess.run(push, capture_output=True, text=True)
     print("push of the commit: exit %d\n%s" % (r.returncode, (r.stdout + r.stderr).strip()[-600:]))
     return 0 if r.returncode == 0 else 1

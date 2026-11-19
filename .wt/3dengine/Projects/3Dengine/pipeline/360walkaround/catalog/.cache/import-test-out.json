@@ -1,0 +1,2473 @@
+{
+  "blender": "4.5.10 LTS",
+  "assets": [
+    {
+      "id": "polyhaven-modern_arm_chair_01",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 8916,
+      "bbox_cm": [
+        82.034,
+        98.656,
+        102.285
+      ],
+      "bbox_min_cm": [
+        -40.681,
+        -41.111,
+        0.038
+      ],
+      "bbox_max_cm": [
+        41.354,
+        57.545,
+        102.323
+      ],
+      "materials": [
+        "modern_arm_chair_01_legs",
+        "modern_arm_chair_01_pillow"
+      ],
+      "image_textures": [
+        "modern_arm_chair_01_legs_diff.png",
+        "modern_arm_chair_01_legs_metal.png",
+        "modern_arm_chair_01_legs_nor_gl.png",
+        "modern_arm_chair_01_legs_rough.png",
+        "modern_arm_chair_01_pillow_diff.png",
+        "modern_arm_chair_01_pillow_metal.png",
+        "modern_arm_chair_01_pillow_nor_gl.png",
+        "modern_arm_chair_01_pillow_rough.png"
+      ],
+      "object_names": [
+        "modern_arm_chair_01"
+      ],
+      "tall_mass": {
+        "upper_vertices": 2041,
+        "fractions": {
+          "+X": 0.4885,
+          "-X": 0.5115,
+          "+Y": 0.6756,
+          "-Y": 0.3244
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.3512
+      }
+    },
+    {
+      "id": "polyhaven-modern_coffee_table_01",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 4504,
+      "bbox_cm": [
+        120.183,
+        60.0,
+        39.0
+      ],
+      "bbox_min_cm": [
+        -60.067,
+        -30.0,
+        -0.012
+      ],
+      "bbox_max_cm": [
+        60.116,
+        30.0,
+        38.988
+      ],
+      "materials": [
+        "modern_coffee_table_01"
+      ],
+      "image_textures": [
+        "modern_coffee_table_01_diff.png",
+        "modern_coffee_table_01_nor_gl.png",
+        "modern_coffee_table_01_rough.png"
+      ],
+      "object_names": [
+        "modern_coffee_table_01"
+      ],
+      "tall_mass": {
+        "upper_vertices": 1458,
+        "fractions": {
+          "+X": 0.4993,
+          "-X": 0.5007,
+          "+Y": 0.5007,
+          "-Y": 0.4993
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0014
+      }
+    },
+    {
+      "id": "polyhaven-modern_coffee_table_02",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 13645,
+      "bbox_cm": [
+        119.911,
+        119.966,
+        36.925
+      ],
+      "bbox_min_cm": [
+        -59.857,
+        -60.234,
+        -0.02
+      ],
+      "bbox_max_cm": [
+        60.054,
+        59.732,
+        36.905
+      ],
+      "materials": [
+        "modern_coffee_table_02_base",
+        "modern_coffee_table_02_wood"
+      ],
+      "image_textures": [
+        "coffee_table_02_base_diff_8k_16bit",
+        "coffee_table_02_base_normal_dx_8k_16bit",
+        "coffee_table_02_base_normal_og_8k_16bit",
+        "coffee_table_02_base_roughness_8k_16bit",
+        "coffee_table_02_wood_ao_8k_16bit",
+        "coffee_table_02_wood_diff_8k_16bit",
+        "coffee_table_02_wood_normal_dx_8k_16bit",
+        "coffee_table_02_wood_normal_og_8k_16bit",
+        "coffee_table_02_wood_roughness_8k_16bit",
+        "modern_coffee_table_02_base_diff.png",
+        "modern_coffee_table_02_base_nor_gl.png.001",
+        "modern_coffee_table_02_base_rough.png",
+        "modern_coffee_table_02_wood_diff.png",
+        "modern_coffee_table_02_wood_nor_gl.png",
+        "modern_coffee_table_02_wood_rough.png"
+      ],
+      "object_names": [
+        "modern_coffee_table_02"
+      ],
+      "tall_mass": {
+        "upper_vertices": 6264,
+        "fractions": {
+          "+X": 0.2479,
+          "-X": 0.7521,
+          "+Y": 0.2466,
+          "-Y": 0.7534
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.5068
+      }
+    },
+    {
+      "id": "polyhaven-modern_wooden_cabinet",
+      "ok": true,
+      "error": null,
+      "objects": 3,
+      "tris": 24976,
+      "bbox_cm": [
+        244.0,
+        68.443,
+        68.016
+      ],
+      "bbox_min_cm": [
+        -122.0,
+        -34.221,
+        -0.0
+      ],
+      "bbox_max_cm": [
+        122.0,
+        34.221,
+        68.016
+      ],
+      "materials": [
+        "modern_wooden_cabinet"
+      ],
+      "image_textures": [
+        "modern_wooden_cabinet_diff.png",
+        "modern_wooden_cabinet_nor_gl.png",
+        "modern_wooden_cabinet_rough.png"
+      ],
+      "object_names": [
+        "modern_wooden_cabinet_body",
+        "modern_wooden_cabinet_door_l",
+        "modern_wooden_cabinet_door_r"
+      ],
+      "tall_mass": {
+        "upper_vertices": 5148,
+        "fractions": {
+          "+X": 0.6655,
+          "-X": 0.3345,
+          "+Y": 0.5016,
+          "-Y": 0.4984
+        },
+        "front_axis_guess": "-X",
+        "confidence": 0.331
+      }
+    },
+    {
+      "id": "polyhaven-modern_ceiling_lamp_01",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 5602,
+      "bbox_cm": [
+        43.165,
+        43.166,
+        95.155
+      ],
+      "bbox_min_cm": [
+        -21.58,
+        -21.733,
+        22.109
+      ],
+      "bbox_max_cm": [
+        21.585,
+        21.433,
+        117.264
+      ],
+      "materials": [
+        "modern_ceiling_globe",
+        "modern_ceiling_lamp_01",
+        "modern_ceiling_lamp_01_glass"
+      ],
+      "image_textures": [
+        "modern_ceiling_lamp_01_basecolor.png",
+        "modern_ceiling_lamp_01_gl_normal.png",
+        "modern_ceiling_lamp_01_metallic.png",
+        "modern_ceiling_lamp_01_roughness.png"
+      ],
+      "object_names": [
+        "modern_ceiling_lamp_01"
+      ],
+      "tall_mass": {
+        "upper_vertices": 530,
+        "fractions": {
+          "+X": 0.5472,
+          "-X": 0.4528,
+          "+Y": 0.6,
+          "-Y": 0.4
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.2
+      }
+    },
+    {
+      "id": "polyhaven-potted_plant_02",
+      "ok": true,
+      "error": null,
+      "objects": 3,
+      "tris": 69806,
+      "bbox_cm": [
+        72.895,
+        75.749,
+        63.257
+      ],
+      "bbox_min_cm": [
+        -39.376,
+        -33.65,
+        -9.663
+      ],
+      "bbox_max_cm": [
+        33.519,
+        42.1,
+        53.594
+      ],
+      "materials": [
+        "potted_plant_02_leaves",
+        "potted_plant_02_pot"
+      ],
+      "image_textures": [
+        "potted_plant_02_leaves_alpha.png",
+        "potted_plant_02_leaves_diff.png",
+        "potted_plant_02_leaves_nor_gl.png",
+        "potted_plant_02_leaves_rough.png",
+        "potted_plant_02_pot_diff.png",
+        "potted_plant_02_pot_nor_gl.png",
+        "potted_plant_02_pot_rough.png"
+      ],
+      "object_names": [
+        "potted_plant_02_dirt",
+        "potted_plant_02_leaves",
+        "potted_plant_02_pot"
+      ],
+      "tall_mass": {
+        "upper_vertices": 4033,
+        "fractions": {
+          "+X": 0.362,
+          "-X": 0.638,
+          "+Y": 0.5348,
+          "-Y": 0.4652
+        },
+        "front_axis_guess": "+X",
+        "confidence": 0.276
+      }
+    },
+    {
+      "id": "polyhaven-hanging_picture_frame_01",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 2586,
+      "bbox_cm": [
+        59.4,
+        1.575,
+        84.1
+      ],
+      "bbox_min_cm": [
+        -29.7,
+        -1.585,
+        -42.05
+      ],
+      "bbox_max_cm": [
+        29.7,
+        -0.011,
+        42.05
+      ],
+      "materials": [
+        "hanging_picture_frame_01",
+        "hanging_picture_frame_01_artwork",
+        "hanging_picture_frame_01_glass"
+      ],
+      "image_textures": [
+        "hanging_picture_frame_01_artwork_diff.png",
+        "hanging_picture_frame_01_artwork_nor_gl.png",
+        "hanging_picture_frame_01_artwork_roughness.png",
+        "hanging_picture_frame_01_diff.png",
+        "hanging_picture_frame_01_metallic.png",
+        "hanging_picture_frame_01_nor_gl.png",
+        "hanging_picture_frame_01_opacity.png",
+        "hanging_picture_frame_01_roughness.png"
+      ],
+      "object_names": [
+        "hanging_picture_frame_01"
+      ],
+      "tall_mass": {
+        "upper_vertices": 1020,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.9118,
+          "-Y": 0.0882
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.8236
+      }
+    },
+    {
+      "id": "polyhaven-steel_frame_shelves_01",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 4348,
+      "bbox_cm": [
+        109.741,
+        50.212,
+        214.05
+      ],
+      "bbox_min_cm": [
+        -54.869,
+        -25.106,
+        -0.107
+      ],
+      "bbox_max_cm": [
+        54.873,
+        25.106,
+        213.943
+      ],
+      "materials": [
+        "steel_frame_shelves_01"
+      ],
+      "image_textures": [
+        "steel_frame_shelves_01_diff.png",
+        "steel_frame_shelves_01_metal.png",
+        "steel_frame_shelves_01_nor_gl.png",
+        "steel_frame_shelves_01_rough.png"
+      ],
+      "object_names": [
+        "steel_frame_shelves_01"
+      ],
+      "tall_mass": {
+        "upper_vertices": 1196,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "polyhaven-wooden_display_shelves_01",
+      "ok": true,
+      "error": null,
+      "objects": 4,
+      "tris": 3174,
+      "bbox_cm": [
+        107.776,
+        37.151,
+        155.618
+      ],
+      "bbox_min_cm": [
+        -53.888,
+        -18.575,
+        0.044
+      ],
+      "bbox_max_cm": [
+        53.888,
+        18.575,
+        155.662
+      ],
+      "materials": [
+        "wooden_display_shelves_01"
+      ],
+      "image_textures": [
+        "wooden_display_shelves_01_diff.png",
+        "wooden_display_shelves_01_metal.png",
+        "wooden_display_shelves_01_nor_gl.png",
+        "wooden_display_shelves_01_rough.png"
+      ],
+      "object_names": [
+        "wooden_display_shelves_01",
+        "wooden_display_shelves_01_drawer_01",
+        "wooden_display_shelves_01_drawer_02",
+        "wooden_display_shelves_01_drawer_03"
+      ],
+      "tall_mass": {
+        "upper_vertices": 424,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "polyhaven-outdoor_table_chair_set_01",
+      "ok": true,
+      "error": null,
+      "objects": 3,
+      "tris": 9828,
+      "bbox_cm": [
+        79.254,
+        170.628,
+        85.858
+      ],
+      "bbox_min_cm": [
+        -42.551,
+        -86.406,
+        -0.594
+      ],
+      "bbox_max_cm": [
+        36.704,
+        84.222,
+        85.264
+      ],
+      "materials": [
+        "outdoor_table_chair_set_01_chair",
+        "outdoor_table_chair_set_01_table"
+      ],
+      "image_textures": [
+        "outdoor_table_chair_set_01_chair_diff.png",
+        "outdoor_table_chair_set_01_chair_metal.png",
+        "outdoor_table_chair_set_01_chair_nor_gl.png",
+        "outdoor_table_chair_set_01_chair_rough.png",
+        "outdoor_table_chair_set_01_table_diff.png",
+        "outdoor_table_chair_set_01_table_metal.png",
+        "outdoor_table_chair_set_01_table_nor_gl.png",
+        "outdoor_table_chair_set_01_table_rough.png"
+      ],
+      "object_names": [
+        "outdoor_table_chair_set_01_chair_01",
+        "outdoor_table_chair_set_01_chair_02",
+        "outdoor_table_chair_set_01_table"
+      ],
+      "tall_mass": {
+        "upper_vertices": 2184,
+        "fractions": {
+          "+X": 0.5852,
+          "-X": 0.4148,
+          "+Y": 0.4789,
+          "-Y": 0.5211
+        },
+        "front_axis_guess": "-X",
+        "confidence": 0.1704
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-loungeDesignSofa",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 116,
+      "bbox_cm": [
+        112.0,
+        41.0,
+        40.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        112.0,
+        41.0,
+        40.0
+      ],
+      "materials": [
+        "carpetBlue",
+        "metal"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "loungeDesignSofa(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 64,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5938,
+          "-Y": 0.4062
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.1876
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-loungeSofaCorner",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 190,
+      "bbox_cm": [
+        98.0,
+        98.0,
+        46.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        98.0,
+        98.0,
+        46.0
+      ],
+      "materials": [
+        "carpet",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "loungeSofaCorner(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 78,
+        "fractions": {
+          "+X": 0.5385,
+          "-X": 0.4615,
+          "+Y": 0.5385,
+          "-Y": 0.4615
+        },
+        "front_axis_guess": null,
+        "confidence": 0.077
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-loungeDesignSofaCorner",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 176,
+      "bbox_cm": [
+        134.983,
+        134.983,
+        40.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "bbox_max_cm": [
+        134.983,
+        134.983,
+        40.0
+      ],
+      "materials": [
+        "carpetBlue",
+        "metal"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "Group",
+        "loungeDesignSofaCorner(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 76,
+        "fractions": {
+          "+X": 0.5789,
+          "-X": 0.4211,
+          "+Y": 0.5789,
+          "-Y": 0.4211
+        },
+        "front_axis_guess": "-X",
+        "confidence": 0.1578
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-loungeChairRelax",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 188,
+      "bbox_cm": [
+        49.0,
+        67.469,
+        63.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        49.0,
+        67.469,
+        63.0
+      ],
+      "materials": [
+        "carpet",
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "loungeChairRelax(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 80,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.7,
+          "-Y": 0.3
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.4
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-loungeSofaOttoman",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 84,
+      "bbox_cm": [
+        43.983,
+        45.0,
+        23.0
+      ],
+      "bbox_min_cm": [
+        47.0,
+        -41.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        90.983,
+        4.0,
+        23.0
+      ],
+      "materials": [
+        "carpet",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "loungeSofaOttoman(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 36,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-tableCoffee",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 124,
+      "bbox_cm": [
+        66.1,
+        40.0,
+        23.0
+      ],
+      "bbox_min_cm": [
+        -46.1,
+        -10.0,
+        -0.0
+      ],
+      "bbox_max_cm": [
+        20.0,
+        30.0,
+        23.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "tableCoffee(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 48,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-cabinetTelevision",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 154,
+      "bbox_cm": [
+        80.0,
+        25.0,
+        31.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        80.0,
+        25.0,
+        31.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "cabinetTelevision(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 112,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.2143,
+          "-Y": 0.7857
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.5714
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-televisionModern",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 72,
+      "bbox_cm": [
+        68.48,
+        12.84,
+        45.475
+      ],
+      "bbox_min_cm": [
+        -34.24,
+        -6.42,
+        0.0
+      ],
+      "bbox_max_cm": [
+        34.24,
+        6.42,
+        45.475
+      ],
+      "materials": [
+        "metal",
+        "metalDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "televisionModern(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 36,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bookcaseOpen",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 320,
+      "bbox_cm": [
+        40.0,
+        25.0,
+        88.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        40.0,
+        25.0,
+        88.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bookcaseOpen(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 200,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-sideTable",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 118,
+      "bbox_cm": [
+        53.448,
+        22.0,
+        38.441
+      ],
+      "bbox_min_cm": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        52.448,
+        21.0,
+        38.441
+      ],
+      "materials": [
+        "_defaultMat",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "sideTable(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 78,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-lampRoundFloor",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 76,
+      "bbox_cm": [
+        15.204,
+        17.556,
+        86.0
+      ],
+      "bbox_min_cm": [
+        -1.602,
+        -2.778,
+        0.0
+      ],
+      "bbox_max_cm": [
+        13.602,
+        14.778,
+        86.0
+      ],
+      "materials": [
+        "lamp",
+        "metal"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "lampRoundFloor(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 84,
+        "fractions": {
+          "+X": 0.6429,
+          "-X": 0.3571,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": "-X",
+        "confidence": 0.2858
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bedDouble",
+      "ok": true,
+      "error": null,
+      "objects": 4,
+      "tris": 264,
+      "bbox_cm": [
+        95.6,
+        112.5,
+        37.5
+      ],
+      "bbox_min_cm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        95.6,
+        112.5,
+        37.5
+      ],
+      "materials": [
+        "carpet",
+        "carpetWhite",
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bedDouble(Clone)",
+        "cover",
+        "pillowLeft",
+        "pillowRight"
+      ],
+      "tall_mass": {
+        "upper_vertices": 278,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.9065,
+          "-Y": 0.0935
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.813
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bedSingle",
+      "ok": true,
+      "error": null,
+      "objects": 3,
+      "tris": 214,
+      "bbox_cm": [
+        57.1,
+        112.5,
+        37.5
+      ],
+      "bbox_min_cm": [
+        38.5,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        95.6,
+        112.5,
+        37.5
+      ],
+      "materials": [
+        "carpet",
+        "carpetWhite",
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bedSingle(Clone)",
+        "cover",
+        "pillow"
+      ],
+      "tall_mass": {
+        "upper_vertices": 182,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.8571,
+          "-Y": 0.1429
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.7142
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-cabinetBedDrawerTable",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 140,
+      "bbox_cm": [
+        26.6,
+        21.73,
+        26.32
+      ],
+      "bbox_min_cm": [
+        -1.0,
+        -1.23,
+        0.0
+      ],
+      "bbox_max_cm": [
+        25.6,
+        20.5,
+        26.32
+      ],
+      "materials": [
+        "_defaultMat",
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "cabinetBedDrawerTable(Clone)",
+        "drawer"
+      ],
+      "tall_mass": {
+        "upper_vertices": 178,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.4607,
+          "-Y": 0.5393
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0786
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bookcaseClosedWide",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 372,
+      "bbox_cm": [
+        80.0,
+        25.0,
+        79.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        80.0,
+        25.0,
+        79.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bookcaseClosedWide(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 232,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5776,
+          "-Y": 0.4224
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.1552
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-lampRoundTable",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 76,
+      "bbox_cm": [
+        15.204,
+        17.556,
+        31.425
+      ],
+      "bbox_min_cm": [
+        -1.602,
+        -2.778,
+        0.0
+      ],
+      "bbox_max_cm": [
+        13.602,
+        14.778,
+        31.425
+      ],
+      "materials": [
+        "lamp",
+        "metal"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "lampRoundTable(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 48,
+        "fractions": {
+          "+X": 0.625,
+          "-X": 0.375,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": "-X",
+        "confidence": 0.25
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-rugRound",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 188,
+      "bbox_cm": [
+        92.0,
+        92.0,
+        1.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        92.0,
+        92.0,
+        1.0
+      ],
+      "materials": [
+        "carpet",
+        "carpetDarker"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "rugRound(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 167,
+        "fractions": {
+          "+X": 0.5449,
+          "-X": 0.4551,
+          "+Y": 0.5389,
+          "-Y": 0.4611
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0898
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-pillow",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 50,
+      "bbox_cm": [
+        23.0,
+        8.848,
+        22.216
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        23.0,
+        8.848,
+        22.216
+      ],
+      "materials": [
+        "carpet"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "pillow(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 48,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.75,
+          "-Y": 0.25
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.5
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bedBunk",
+      "ok": true,
+      "error": null,
+      "objects": 5,
+      "tris": 580,
+      "bbox_cm": [
+        57.1,
+        109.5,
+        85.0
+      ],
+      "bbox_min_cm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        57.1,
+        109.5,
+        85.0
+      ],
+      "materials": [
+        "carpet",
+        "carpetWhite",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bedBunk(Clone)",
+        "coverBottom",
+        "coverTop",
+        "pillowBottom",
+        "pillowTop"
+      ],
+      "tall_mass": {
+        "upper_vertices": 432,
+        "fractions": {
+          "+X": 0.5278,
+          "-X": 0.4722,
+          "+Y": 0.6667,
+          "-Y": 0.3333
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.3334
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-chairDesk",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 588,
+      "bbox_cm": [
+        33.495,
+        31.43,
+        60.76
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        33.495,
+        31.43,
+        60.76
+      ],
+      "materials": [
+        "carpet",
+        "metalMedium"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "chair",
+        "chairDesk(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 416,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.7404,
+          "-Y": 0.2596
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.4808
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-desk",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 198,
+      "bbox_cm": [
+        73.448,
+        39.23,
+        38.441
+      ],
+      "bbox_min_cm": [
+        -1.0,
+        -1.23,
+        0.0
+      ],
+      "bbox_max_cm": [
+        72.448,
+        38.0,
+        38.441
+      ],
+      "materials": [
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "desk(Clone)",
+        "drawer"
+      ],
+      "tall_mass": {
+        "upper_vertices": 224,
+        "fractions": {
+          "+X": 0.2411,
+          "-X": 0.7589,
+          "+Y": 0.3214,
+          "-Y": 0.6786
+        },
+        "front_axis_guess": "+X",
+        "confidence": 0.5178
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bookcaseOpenLow",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 184,
+      "bbox_cm": [
+        40.0,
+        25.0,
+        40.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        40.0,
+        25.0,
+        40.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bookcaseOpenLow(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 124,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-rugSquare",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 28,
+      "bbox_cm": [
+        90.433,
+        92.0,
+        1.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        90.433,
+        92.0,
+        1.0
+      ],
+      "materials": [
+        "carpet",
+        "carpetDarker"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "rugSquare(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 28,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-books",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 62,
+      "bbox_cm": [
+        15.045,
+        9.45,
+        10.39
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        15.045,
+        9.45,
+        10.39
+      ],
+      "materials": [
+        "carpetDarker",
+        "carpetWhite",
+        "metal",
+        "plant"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "books(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 64,
+        "fractions": {
+          "+X": 0.5312,
+          "-X": 0.4688,
+          "+Y": 0.4688,
+          "-Y": 0.5312
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0624
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCabinet",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 114,
+      "bbox_cm": [
+        43.0,
+        45.0,
+        45.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        45.0,
+        45.0
+      ],
+      "materials": [
+        "metal",
+        "wood",
+        "woodDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "door",
+        "kitchenCabinet(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 120,
+        "fractions": {
+          "+X": 0.625,
+          "-X": 0.375,
+          "+Y": 0.3333,
+          "-Y": 0.6667
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.3334
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCabinetUpper",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 80,
+      "bbox_cm": [
+        43.0,
+        22.0,
+        39.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        21.0,
+        39.0
+      ],
+      "materials": [
+        "metal",
+        "wood",
+        "woodDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "door",
+        "kitchenCabinetUpper(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 52,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.3462,
+          "-Y": 0.6538
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.3076
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCabinetCornerRound",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 194,
+      "bbox_cm": [
+        45.0,
+        45.0,
+        45.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        45.0,
+        45.0,
+        45.0
+      ],
+      "materials": [
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "kitchenCabinetCornerRound(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 162,
+        "fractions": {
+          "+X": 0.3827,
+          "-X": 0.6173,
+          "+Y": 0.3827,
+          "-Y": 0.6173
+        },
+        "front_axis_guess": "+X",
+        "confidence": 0.2346
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenSink",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 318,
+      "bbox_cm": [
+        43.0,
+        45.0,
+        49.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        45.0,
+        49.0
+      ],
+      "materials": [
+        "_defaultMat",
+        "metal",
+        "metalDark",
+        "metalLight",
+        "wood",
+        "woodDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "door",
+        "kitchenSink(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 402,
+        "fractions": {
+          "+X": 0.5448,
+          "-X": 0.4552,
+          "+Y": 0.7239,
+          "-Y": 0.2761
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.4478
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenStoveElectric",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 338,
+      "bbox_cm": [
+        43.0,
+        45.0,
+        45.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        45.0,
+        45.0
+      ],
+      "materials": [
+        "carpetWhite",
+        "glass",
+        "metal",
+        "metalDark",
+        "metalMedium",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "kitchenStoveElectric(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 330,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.3455,
+          "-Y": 0.6545
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.309
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenFridge",
+      "ok": true,
+      "error": null,
+      "objects": 3,
+      "tris": 250,
+      "bbox_cm": [
+        43.0,
+        29.193,
+        92.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        28.193,
+        92.0
+      ],
+      "materials": [
+        "glass",
+        "metal",
+        "metalDark",
+        "metalLight"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "doorFreezer",
+        "doorFridge",
+        "kitchenFridge(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 224,
+        "fractions": {
+          "+X": 0.6071,
+          "-X": 0.3929,
+          "+Y": 0.1429,
+          "-Y": 0.8571
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.7142
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-hoodModern",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 28,
+      "bbox_cm": [
+        43.0,
+        28.49,
+        39.953
+      ],
+      "bbox_min_cm": [
+        -0.0,
+        0.0,
+        -3.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        28.49,
+        36.953
+      ],
+      "materials": [
+        "_defaultMat",
+        "metalMedium"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "hoodModern(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 12,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 1.0,
+          "-Y": 0.0
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 1.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenMicrowave",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 152,
+      "bbox_cm": [
+        29.0,
+        23.0,
+        18.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        29.0,
+        22.0,
+        18.0
+      ],
+      "materials": [
+        "carpetWhite",
+        "glass",
+        "metalDark",
+        "metalMedium"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "Group",
+        "kitchenMicrowave(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 84,
+        "fractions": {
+          "+X": 0.631,
+          "-X": 0.369,
+          "+Y": 0.2857,
+          "-Y": 0.7143
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.4286
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-kitchenCoffeeMachine",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 166,
+      "bbox_cm": [
+        18.954,
+        24.017,
+        17.749
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        18.954,
+        24.017,
+        17.749
+      ],
+      "materials": [
+        "carpetWhite",
+        "metal",
+        "metalMedium"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "kitchenCoffeeMachine(Clone)",
+        "mug"
+      ],
+      "tall_mass": {
+        "upper_vertices": 90,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.2667,
+          "-Y": 0.7333
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.4666
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-toilet",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 230,
+      "bbox_cm": [
+        31.255,
+        47.718,
+        45.096
+      ],
+      "bbox_min_cm": [
+        0.0,
+        -47.718,
+        0.0
+      ],
+      "bbox_max_cm": [
+        31.255,
+        0.0,
+        45.096
+      ],
+      "materials": [
+        "_defaultMat",
+        "carpetWhite",
+        "metalDark",
+        "metalLight"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "cover",
+        "toilet(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 182,
+        "fractions": {
+          "+X": 0.3846,
+          "-X": 0.6154,
+          "+Y": 0.7802,
+          "-Y": 0.2198
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.5604
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomSink",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 316,
+      "bbox_cm": [
+        34.0,
+        29.0,
+        56.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        -40.0
+      ],
+      "bbox_max_cm": [
+        34.0,
+        29.0,
+        16.0
+      ],
+      "materials": [
+        "_defaultMat",
+        "carpetWhite",
+        "metalLight"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bathroomSink(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 488,
+        "fractions": {
+          "+X": 0.5164,
+          "-X": 0.4836,
+          "+Y": 0.5328,
+          "-Y": 0.4672
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0656
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomSinkSquare",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 234,
+      "bbox_cm": [
+        43.0,
+        30.0,
+        58.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        15.0,
+        5.681
+      ],
+      "bbox_max_cm": [
+        43.0,
+        45.0,
+        63.681
+      ],
+      "materials": [
+        "carpetWhite",
+        "metalDark",
+        "metalLight"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bathroomSinkSquare(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 326,
+        "fractions": {
+          "+X": 0.5061,
+          "-X": 0.4939,
+          "+Y": 0.8528,
+          "-Y": 0.1472
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.7056
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-showerRound",
+      "ok": true,
+      "error": null,
+      "objects": 4,
+      "tris": 960,
+      "bbox_cm": [
+        56.179,
+        56.179,
+        109.403
+      ],
+      "bbox_min_cm": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        56.179,
+        56.179,
+        109.403
+      ],
+      "materials": [
+        "_defaultMat",
+        "carpetWhite",
+        "glass",
+        "metalDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "doorLeft",
+        "doorRight",
+        "faucet",
+        "showerRound(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 873,
+        "fractions": {
+          "+X": 0.4559,
+          "-X": 0.5441,
+          "+Y": 0.7549,
+          "-Y": 0.2451
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.5098
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bathtub",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 602,
+      "bbox_cm": [
+        119.0,
+        56.0,
+        42.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "bbox_max_cm": [
+        119.0,
+        56.0,
+        42.0
+      ],
+      "materials": [
+        "carpetWhite",
+        "metalDark",
+        "metalLight"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bathtub(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 660,
+        "fractions": {
+          "+X": 0.6652,
+          "-X": 0.3348,
+          "+Y": 0.5045,
+          "-Y": 0.4955
+        },
+        "front_axis_guess": "-X",
+        "confidence": 0.3304
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomCabinet",
+      "ok": true,
+      "error": null,
+      "objects": 2,
+      "tris": 64,
+      "bbox_cm": [
+        23.0,
+        13.0,
+        39.0
+      ],
+      "bbox_min_cm": [
+        20.0,
+        8.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        43.0,
+        21.0,
+        39.0
+      ],
+      "materials": [
+        "metal",
+        "wood",
+        "woodDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bathroomCabinet(Clone)",
+        "door"
+      ],
+      "tall_mass": {
+        "upper_vertices": 52,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.3462,
+          "-Y": 0.6538
+        },
+        "front_axis_guess": "+Y",
+        "confidence": 0.3076
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-bathroomMirror",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 72,
+      "bbox_cm": [
+        30.134,
+        14.44,
+        43.463
+      ],
+      "bbox_min_cm": [
+        0.0,
+        -9.56,
+        0.0
+      ],
+      "bbox_max_cm": [
+        30.134,
+        4.88,
+        43.463
+      ],
+      "materials": [
+        "glass",
+        "metal",
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "bathroomMirror(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 48,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 1.0,
+          "-Y": 0.0
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 1.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-rugDoormat",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 204,
+      "bbox_cm": [
+        42.93,
+        23.701,
+        1.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        42.93,
+        23.701,
+        1.0
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "rugDoormat(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 156,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-table",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 120,
+      "bbox_cm": [
+        84.149,
+        44.737,
+        32.673
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        84.149,
+        44.737,
+        32.673
+      ],
+      "materials": [
+        "wood"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "table(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 48,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-chairModernCushion",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 92,
+      "bbox_cm": [
+        20.0,
+        20.0,
+        46.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "bbox_max_cm": [
+        20.0,
+        20.0,
+        46.0
+      ],
+      "materials": [
+        "carpetBlue",
+        "metal"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "chairModernCushion(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 50,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.88,
+          "-Y": 0.12
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.76
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-chairModernFrameCushion",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 284,
+      "bbox_cm": [
+        20.0,
+        20.0,
+        46.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "bbox_max_cm": [
+        20.0,
+        20.0,
+        46.0
+      ],
+      "materials": [
+        "carpetBlue",
+        "metal"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "chairModernFrameCushion(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 196,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.9694,
+          "-Y": 0.0306
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.9388
+      }
+    },
+    {
+      "id": "kenney-furniture-kit-rugRectangle",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 28,
+      "bbox_cm": [
+        157.0,
+        92.0,
+        1.0
+      ],
+      "bbox_min_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max_cm": [
+        157.0,
+        92.0,
+        1.0
+      ],
+      "materials": [
+        "carpet",
+        "carpetDarker"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "rugRectangle(Clone)"
+      ],
+      "tall_mass": {
+        "upper_vertices": 28,
+        "fractions": {
+          "+X": 0.5,
+          "-X": 0.5,
+          "+Y": 0.5,
+          "-Y": 0.5
+        },
+        "front_axis_guess": null,
+        "confidence": 0.0
+      }
+    },
+    {
+      "id": "quaternius-X5kQPKzAWp",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 3886,
+      "bbox_cm": [
+        400.265,
+        280.119,
+        145.243
+      ],
+      "bbox_min_cm": [
+        -202.019,
+        -215.234,
+        -1.761
+      ],
+      "bbox_max_cm": [
+        198.246,
+        64.884,
+        143.481
+      ],
+      "materials": [
+        "Legs",
+        "Sofa"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "Sofa3"
+      ],
+      "tall_mass": {
+        "upper_vertices": 2932,
+        "fractions": {
+          "+X": 0.4843,
+          "-X": 0.5157,
+          "+Y": 0.9563,
+          "-Y": 0.0437
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 0.9126
+      }
+    },
+    {
+      "id": "quaternius-1kwsjhpY84",
+      "ok": true,
+      "error": null,
+      "objects": 1,
+      "tris": 1423,
+      "bbox_cm": [
+        561.441,
+        432.697,
+        226.132
+      ],
+      "bbox_min_cm": [
+        -329.928,
+        -294.676,
+        -1.545
+      ],
+      "bbox_max_cm": [
+        231.512,
+        138.021,
+        224.587
+      ],
+      "materials": [
+        "Couch_Beige",
+        "Couch_BeigeDark"
+      ],
+      "image_textures": [],
+      "object_names": [
+        "Couch_L"
+      ],
+      "tall_mass": {
+        "upper_vertices": 278,
+        "fractions": {
+          "+X": 0.4964,
+          "-X": 0.5036,
+          "+Y": 1.0,
+          "-Y": 0.0
+        },
+        "front_axis_guess": "-Y",
+        "confidence": 1.0
+      }
+    }
+  ]
+}

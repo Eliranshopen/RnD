@@ -6,7 +6,10 @@ ROOT = "C:/RnD"
 STATE = "C:/RnD-full.git"
 
 # Re-installable or generated folders: never in the snapshot.
-SKIP_DIRS = {"node_modules", "__pycache__", ".venv", "venv", ".next", ".cache", ".git"}
+# `.cache` is NOT here on purpose (2026-11-19, from the engine session): the folder
+# Projects/3Dengine/pipeline/360walkaround/catalog/.cache holds a furniture pack zip that can no longer be
+# downloaded, and all the .cache folders together are about 20 MB.
+SKIP_DIRS = {"node_modules", "__pycache__", ".venv", "venv", ".next", ".git"}
 REPARSE = 0x400
 
 # Binary / media types: stored through Git LFS.

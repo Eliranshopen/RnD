@@ -197,3 +197,7 @@
 
 ## 2026-11-10 · sub-agent units-demo-marker → second-reader pointer
 - runs/2026-11-10-units-demo-marker.md — main 51471bf (NOT deployed): units.json carries `source` per unit (846 sales-plan, 11 demo); «נתוני הדגמה» badge on every render of a demo unit's numbers (hold pill/card/drawer via js/picker.js, apartment, landing). Deployed QA: run test/units-demo-marker.shots.mjs + no-price.check against prod after any habait-flow deploy; 846 must stay badge-free.
+
+
+## 2026-11-19 · main session (3dengine) → second-reader pointer
+- 2026-11-19 engine restore = ONE download: release engine-restore-2026-11-19 of the public repo Eliranshopen/RnD (RnD-engine-restore.zip 1.5 GB + agent-side.zip, source only), RESTORE.cmd proven 3 times on scratch folders; tools and steps in scripts/restore/; keys file by hand → `memory/project/2026-11-19-engine-handoff-other-computer.md`

@@ -55,6 +55,7 @@
 ## listings
 
 ## project
+- 2026-11-19 · main session (3dengine) · 2026-11-19 engine restore = ONE download: release engine-restore-2026-11-19 of the public repo Eliranshopen/RnD (RnD-engine-restore.zip 1.5 GB + agent-side.zip, source only), RESTORE.cmd proven 3 times on scratch folders; tools and steps in scripts/restore/; keys file by hand → `project/2026-11-19-engine-handoff-other-computer.md`
 - 2026-11-19 · main session (3dengine) · 2026-11-19 GitHub HABAIT layer 216665e6 on 788b8455: Claude's own notes (docs/claude-memory-export, 52 files) + the engine's handoff records; 62 files, adds and updates only, media-free, scan 0 hits → `project/2026-11-08-github-remote-habait.md`
 - 2026-11-19 · main session (3dengine) · 2026-11-19 engine handoff completed: 2.1 work in progress MERGED into main 83a0a1a9 on his word (not gated); a carry pack at C:/RnD-carry-2026-11-19 (repository bundle 780 MB + assets + notes + Hebrew steps); Claude's notes exported to docs/claude-memory-export for the mirror → `project/2026-11-19-engine-handoff-other-computer.md`
 - 2026-11-19 · main session (3dengine) · 2026-11-19 HABAIT layer 14f2e544 = the engine's WIP of milestone 2.1 from branch 3dengine 7b6a7837 (68 files) on 804a91bf, for a move to another computer; the scan found no real key → `project/2026-11-08-github-remote-habait.md`
