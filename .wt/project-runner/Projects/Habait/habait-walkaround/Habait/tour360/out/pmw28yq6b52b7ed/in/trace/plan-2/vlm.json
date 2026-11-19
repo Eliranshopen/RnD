@@ -1,0 +1,296 @@
+{
+ "scale_denominator": null,
+ "rooms": [
+  {
+   "name_he": "כניסה",
+   "name_en": "entrance",
+   "type": "entrance",
+   "is_outdoor": true,
+   "label_box_2d": [
+    138,
+    309,
+    152,
+    360
+   ],
+   "room_box_2d": [
+    126,
+    276,
+    203,
+    397
+   ],
+   "dims_cm": null
+  },
+  {
+   "name_he": "מטבח",
+   "name_en": "kitchen",
+   "type": "kitchen",
+   "is_outdoor": false,
+   "label_box_2d": [
+    400,
+    187,
+    428,
+    239
+   ],
+   "room_box_2d": [
+    203,
+    83,
+    449,
+    290
+   ],
+   "dims_cm": [
+    310,
+    485
+   ]
+  },
+  {
+   "name_he": "חדר מגורים",
+   "name_en": "living room",
+   "type": "living",
+   "is_outdoor": false,
+   "label_box_2d": [
+    390,
+    460,
+    418,
+    534
+   ],
+   "room_box_2d": [
+    200,
+    319,
+    574,
+    613
+   ],
+   "dims_cm": [
+    450,
+    735
+   ]
+  },
+  {
+   "name_he": "עליה לקומה 1",
+   "name_en": "stairs to floor 1",
+   "type": "stairs",
+   "is_outdoor": false,
+   "label_box_2d": [
+    514,
+    137,
+    530,
+    226
+   ],
+   "room_box_2d": [
+    447,
+    85,
+    574,
+    257
+   ],
+   "dims_cm": null
+  },
+  {
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "label_box_2d": [
+    595,
+    149,
+    623,
+    218
+   ],
+   "room_box_2d": [
+    575,
+    84,
+    673,
+    258
+   ],
+   "dims_cm": [
+    250,
+    170
+   ]
+  },
+  {
+   "name_he": "ממ\"ד",
+   "name_en": "safe room (MAMAD)",
+   "type": "mamad",
+   "is_outdoor": false,
+   "label_box_2d": [
+    721,
+    184,
+    750,
+    237
+   ],
+   "room_box_2d": [
+    675,
+    83,
+    833,
+    315
+   ],
+   "dims_cm": [
+    375,
+    300
+   ]
+  },
+  {
+   "name_he": "פטיו בהתאם לתכנית הפיתוח",
+   "name_en": "patio according to development plan",
+   "type": "patio",
+   "is_outdoor": true,
+   "label_box_2d": [
+    611,
+    442,
+    636,
+    535
+   ],
+   "room_box_2d": [
+    580,
+    329,
+    876,
+    612
+   ],
+   "dims_cm": null
+  }
+ ],
+ "fixtures": [
+  {
+   "kind": "counter",
+   "label": "kitchen counter run",
+   "box_2d": [
+    204,
+    85,
+    396,
+    276
+   ],
+   "box_px": [
+    192.78,
+    547.1279999999999,
+    625.9680000000001,
+    1062.0720000000001
+   ]
+  },
+  {
+   "kind": "sink",
+   "label": "כיור מטבח",
+   "box_2d": [
+    211,
+    166,
+    237,
+    222
+   ],
+   "box_px": [
+    376.488,
+    565.9019999999999,
+    503.496,
+    635.634
+   ]
+  },
+  {
+   "kind": "hob",
+   "label": "כיריים",
+   "box_2d": [
+    283,
+    88,
+    328,
+    119
+   ],
+   "box_px": [
+    199.58399999999997,
+    759.006,
+    269.892,
+    879.696
+   ]
+  },
+  {
+   "kind": "island",
+   "label": "אי מטבח",
+   "box_2d": [
+    277,
+    183,
+    388,
+    245
+   ],
+   "box_px": [
+    415.044,
+    742.9140000000001,
+    555.66,
+    1040.616
+   ]
+  },
+  {
+   "kind": "wc",
+   "label": "אסלה",
+   "box_2d": [
+    587,
+    101,
+    614,
+    137
+   ],
+   "box_px": [
+    229.068,
+    1574.3339999999998,
+    310.716,
+    1646.748
+   ]
+  },
+  {
+   "kind": "shower",
+   "label": "מקלחון",
+   "box_2d": [
+    624,
+    94,
+    663,
+    160
+   ],
+   "box_px": [
+    213.192,
+    1673.568,
+    362.88,
+    1778.1660000000002
+   ]
+  },
+  {
+   "kind": "vanity",
+   "label": "ארון וכיור רחצה",
+   "box_2d": [
+    638,
+    167,
+    664,
+    232
+   ],
+   "box_px": [
+    378.75600000000003,
+    1711.116,
+    526.176,
+    1780.8480000000002
+   ]
+  },
+  {
+   "kind": "wardrobe",
+   "label": "ארון בגדים",
+   "box_2d": [
+    679,
+    85,
+    710,
+    192
+   ],
+   "box_px": [
+    192.78,
+    1821.0780000000002,
+    435.456,
+    1904.2199999999998
+   ]
+  }
+ ],
+ "printed_dims_cm": [
+  170,
+  250,
+  300,
+  310,
+  375,
+  450,
+  485,
+  735
+ ],
+ "_meta": {
+  "model": "google/gemini-3.7-flash",
+  "usd": 0.0103185,
+  "at": "2026-11-05T09:20:51.590Z",
+  "label": "read"
+ }
+}

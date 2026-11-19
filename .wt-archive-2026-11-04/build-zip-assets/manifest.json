@@ -1,0 +1,13 @@
+{
+ "name": "build-zip-assets",
+ "purpose": "build_zip.mjs: also ship tokens.css, components.css and fonts/*.woff2 (+ OFL licences) in the apartment dist/ZIP, for rnd-23's platform-ui-ux style.css (Eliran's go 2026-11-03, rnd-fd)",
+ "opened": "2026-11-03T21:54:40",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_zip.mjs",
+   "sha256_at_open": "083933613172188870b51c791d98bf847e73f9e2c7ed6cc18f6d97ad11225861",
+   "sha256_at_close": "ae5026ceafc9f1b1008a422e981ad39addd0a4490688ca79d4ed0bae7b826f29"
+  }
+ ],
+ "closed": "2026-11-03T22:01:44"
+}

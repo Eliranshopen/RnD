@@ -1,0 +1,11 @@
+{
+  "name": "habait-3dengine",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node --test --experimental-test-coverage --test-coverage-lines=80 \"--test-coverage-include=engine/**/*.mjs\" \"tests/unit/**/*.test.mjs\" \"tests/milestones/**/*.test.mjs\"",
+    "test:unit": "node --test --experimental-test-coverage --test-coverage-lines=80 \"--test-coverage-include=engine/**/*.mjs\" \"tests/unit/**/*.test.mjs\"",
+    "doctor": "node engine/cli.mjs doctor"
+  }
+}

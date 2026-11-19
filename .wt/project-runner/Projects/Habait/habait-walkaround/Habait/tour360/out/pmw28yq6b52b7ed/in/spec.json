@@ -1,0 +1,965 @@
+{
+ "developer": "הרי זהב (Harei Zahav)",
+ "project_name": "מעלה אפרים - הרי זהב",
+ "address": null,
+ "city": "מעלה אפרים",
+ "building": {
+  "name": null,
+  "floors_total": null,
+  "floor_of_unit": null,
+  "typical_floor_to_floor_cm": null,
+  "has_floor_key": false,
+  "has_site_key": false,
+  "site_buildings": [],
+  "facade_note": "Terraced white-plaster houses with wood-look and brick cladding, black aluminium windows, steel balustrades, stone retaining walls; each house has a private garden."
+ },
+ "unit": {
+  "number": null,
+  "type_mark": "שור (Shor)",
+  "rooms_count": 5,
+  "area_m2": 158,
+  "terrace_m2": null,
+  "other_areas": []
+ },
+ "drawing": {
+  "scale": null,
+  "date": null,
+  "architect": null,
+  "north_deg_clockwise_from_up": null,
+  "north_note": "No north arrow on any unit plan. Page 4 settlement map arrow points up (0°). Page 6 plot map arrow, labelled צ, points right (90° on that map only).",
+  "printed_dimensions_cm": [
+   310,
+   485,
+   450,
+   735,
+   250,
+   170,
+   375,
+   300,
+   280,
+   330,
+   300,
+   330,
+   170,
+   125,
+   190,
+   275,
+   270,
+   145,
+   390,
+   345,
+   505,
+   555,
+   380,
+   392,
+   115,
+   155,
+   275,
+   155,
+   275,
+   490,
+   265,
+   350,
+   265,
+   340,
+   305,
+   185,
+   150,
+   185,
+   355,
+   265,
+   440,
+   660,
+   360,
+   250,
+   125,
+   150,
+   340,
+   275,
+   140,
+   170,
+   280,
+   180,
+   390,
+   275,
+   340,
+   370,
+   185,
+   185,
+   235,
+   175
+  ],
+  "is_vector_pdf": null
+ },
+ "rooms": [
+  {
+   "name_he": "מטבח",
+   "name_en": "kitchen",
+   "type": "kitchen",
+   "printed_dims_cm": [
+    310,
+    485
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window on top wall above sink",
+   "openings": "Open to living area; window on top wall above the double sink.",
+   "fixed_elements": "Double sink on top wall, gas hob on left wall, island with stools, fridge at bottom-left, L-shaped counter.",
+   "notes": null
+  },
+  {
+   "name_he": "חדר מגורים",
+   "name_en": "living room",
+   "type": "living",
+   "printed_dims_cm": [
+    450,
+    735
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window top wall; glazed sliding wall on right wall; window bottom wall",
+   "openings": "Entrance door top-left; right glass wall opens to garden; bottom window to patio.",
+   "fixed_elements": "Sofa on top wall, dining table at bottom, stair up to floor 1 at left.",
+   "notes": "Dining area included in the same open space, no separate dimensions."
+  },
+  {
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom (ground)",
+   "type": "bathroom",
+   "printed_dims_cm": [
+    250,
+    170
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Door on right side facing the corridor to the mamad.",
+   "fixed_elements": "WC, shower, basin.",
+   "notes": null
+  },
+  {
+   "name_he": "ממ\"ד",
+   "name_en": "safe room",
+   "type": "mamad",
+   "printed_dims_cm": [
+    375,
+    300
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window on right wall to patio",
+   "openings": "Door on top wall; window right wall to ground-floor patio.",
+   "fixed_elements": "Closet on top wall; bed and desk shown.",
+   "notes": null
+  },
+  {
+   "name_he": "פטיו בהתאם לתכנית הפיתוח",
+   "name_en": "ground-floor patio",
+   "type": "terrace",
+   "printed_dims_cm": null,
+   "area_m2": null,
+   "is_outdoor": true,
+   "glazing": null,
+   "openings": null,
+   "fixed_elements": "Planted square in centre.",
+   "notes": "Next to the mamad; subject to development plan."
+  },
+  {
+   "name_he": "חדר שינה",
+   "name_en": "bedroom 1",
+   "type": "bedroom",
+   "printed_dims_cm": [
+    280,
+    330
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window on top wall",
+   "openings": "Door on bottom wall; window top wall.",
+   "fixed_elements": "Desk on left-top, double bed, closet along bottom wall.",
+   "notes": "Floor A, left bedroom."
+  },
+  {
+   "name_he": "חדר שינה",
+   "name_en": "bedroom 2",
+   "type": "bedroom",
+   "printed_dims_cm": [
+    300,
+    330
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Windows on top and right walls",
+   "openings": "Door on bottom wall; window top wall; window right wall to yard.",
+   "fixed_elements": "Desk top-right, double bed, closet along bottom wall.",
+   "notes": "Floor A, right bedroom."
+  },
+  {
+   "name_he": "חדר כביסה",
+   "name_en": "laundry room",
+   "type": "laundry",
+   "printed_dims_cm": [
+    170,
+    125
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Door on right side.",
+   "fixed_elements": "Stacked washer and dryer on left wall.",
+   "notes": null
+  },
+  {
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom (floor A, bath)",
+   "type": "bathroom",
+   "printed_dims_cm": [
+    190,
+    275
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window on bottom wall",
+   "openings": "Door on left; window bottom wall.",
+   "fixed_elements": "Bathtub on top wall, basin vanity right, WC bottom.",
+   "notes": "Dimensions as printed on tile: 190/275."
+  },
+  {
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom (floor A, shower)",
+   "type": "bathroom",
+   "printed_dims_cm": [
+    270,
+    145
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Door on right side.",
+   "fixed_elements": "Shower/bath on left, WC and basin on top.",
+   "notes": null
+  },
+  {
+   "name_he": "חדר שינה הורים",
+   "name_en": "master bedroom",
+   "type": "master_bedroom",
+   "printed_dims_cm": [
+    390,
+    345
+   ],
+   "area_|m2": null,
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window on right wall; glazed door/window on bottom wall",
+   "openings": "Entry arrow and glass door on bottom wall to private yard; window right wall.",
+   "fixed_elements": "Double bed with side tables on left wall, wardrobe along top wall.",
+   "notes": null
+  },
+  {
+   "name_he": "חצר פרטית",
+   "name_en": "private courtyard",
+   "type": "terrace",
+   "printed_dims_cm": null,
+   "area_m2": null,
+   "is_outdoor": true,
+   "glazing": null,
+   "openings": null,
+   "fixed_elements": "Paved, with sun loungers and umbrella.",
+   "notes": "Over ground floor; includes open void 'פטיו בקומת קרקע'."
+  }
+ ],
+ "units": [
+  {
+   "type_mark": "שור (Shor)",
+   "number": null,
+   "rooms_count": 5,
+   "area_m2": 158,
+   "terrace_m2": null,
+   "other_areas": [],
+   "floors": "קומת קרקע + קומה א'",
+   "plan_file": "brochure.pdf",
+   "plan_page": 7,
+   "rooms": [
+    {
+     "name_he": "מטבח",
+     "name_en": "kitchen",
+     "type": "kitchen",
+     "printed_dims_cm": [
+      310,
+      485
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on top wall above sink",
+     "openings": "Open to living area; window on top wall above the double sink.",
+     "fixed_elements": "Double sink on top wall, gas hob on left wall, island with stools, fridge at bottom-left, L-shaped counter.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר מגורים",
+     "name_en": "living room",
+     "type": "living",
+     "printed_dims_cm": [
+      450,
+      735
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window top wall; glazed sliding wall on right wall; window bottom wall",
+     "openings": "Entrance door top-left; right glass wall opens to garden; bottom window to patio.",
+     "fixed_elements": "Sofa on top wall, dining table at bottom, stair up to floor 1 at left.",
+     "notes": "Dining area included in the same open space, no separate dimensions."
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (ground)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      250,
+      170
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": null,
+     "openings": "Door on right side facing the corridor to the mamad.",
+     "fixed_elements": "WC, shower, basin.",
+     "notes": null
+    },
+    {
+     "name_he": "ממ\"ד",
+     "name_en": "safe room",
+     "type": "mamad",
+     "printed_dims_cm": [
+      375,
+      300
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on right wall to patio",
+     "openings": "Door on top wall; window right wall to ground-floor patio.",
+     "fixed_elements": "Closet on top wall; bed and desk shown.",
+     "notes": null
+    },
+    {
+     "name_he": "פטיו בהתאם לתכנית הפיתוח",
+     "name_en": "ground-floor patio",
+     "type": "terrace",
+     "printed_dims_cm": null,
+     "area_m2": null,
+     "is_outdoor": true,
+     "glazing": null,
+     "openings": null,
+     "fixed_elements": "Planted square in centre.",
+     "notes": "Next to the mamad; subject to development plan."
+    },
+    {
+     "name_he": "חדר שינה",
+     "name_en": "bedroom 1",
+     "type": "bedroom",
+     "printed_dims_cm": [
+      280,
+      330
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on top wall",
+     "openings": "Door on bottom wall; window top wall.",
+     "fixed_elements": "Desk on left-top, double bed, closet along bottom wall.",
+     "notes": "Floor A, left bedroom."
+    },
+    {
+     "name_he": "חדר שינה",
+     "name_en": "bedroom 2",
+     "type": "bedroom",
+     "printed_dims_cm": [
+      300,
+      330
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Windows on top and right walls",
+     "openings": "Door on bottom wall; window top wall; window right wall to yard.",
+     "fixed_elements": "Desk top-right, double bed, closet along bottom wall.",
+     "notes": "Floor A, right bedroom."
+    },
+    {
+     "name_he": "חדר כביסה",
+     "name_en": "laundry room",
+     "type": "laundry",
+     "printed_dims_cm": [
+      170,
+      125
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": null,
+     "openings": "Door on right side.",
+     "fixed_elements": "Stacked washer and dryer on left wall.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (floor A, bath)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      190,
+      275
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on left; window bottom wall.",
+     "fixed_elements": "Bathtub on top wall, basin vanity right, WC bottom.",
+     "notes": "Dimensions as printed on tile: 190/275."
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (floor A, shower)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      270,
+      145
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": null,
+     "openings": "Door on right side.",
+     "fixed_elements": "Shower/bath on left, WC and basin on top.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר שינה הורים",
+     "name_en": "master bedroom",
+     "type": "master_bedroom",
+     "printed_dims_cm": [
+      390,
+      345
+     ],
+     "area_|m2": null,
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on right wall; glazed door/window on bottom wall",
+     "openings": "Entry arrow and glass door on bottom wall to private yard; window right wall.",
+     "fixed_elements": "Double bed with side tables on left wall, wardrobe along top wall.",
+     "notes": null
+    },
+    {
+     "name_he": "חצר פרטית",
+     "name_en": "private courtyard",
+     "type": "terrace",
+     "printed_dims_cm": null,
+     "area_m2": null,
+     "is_outdoor": true,
+     "glazing": null,
+     "openings": null,
+     "fixed_elements": "Paved, with sun loungers and umbrella.",
+     "notes": "Over ground floor; includes open void 'פטיו בקומת קרקע'."
+    }
+   ]
+  },
+  {
+   "type_mark": "ירקון (Yarkon)",
+   "number": null,
+   "rooms_count": 6,
+   "area_m2": 160,
+   "terrace_m2": 21,
+   "other_areas": [],
+   "floors": "קומה -1 + קומה -2",
+   "plan_file": "brochure.pdf",
+   "plan_page": 9,
+   "rooms": [
+    {
+     "name_he": "חדר מגורים",
+     "name_en": "living room",
+     "type": "living",
+     "printed_dims_cm": [
+      505,
+      555
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Glazed wall on left wall to terrace; window on bottom wall",
+     "openings": "Glass wall on left to terrace; stair down to floor -2 at top.",
+     "fixed_elements": "Sofa on top wall, armchairs, dining table at right.",
+     "notes": "Dining is in same open space."
+    },
+    {
+     "name_he": "מרפסת",
+     "name_en": "terrace",
+     "type": "terrace",
+     "printed_dims_cm": null,
+     "area_m2": 21,
+     "is_outdoor": true,
+     "glazing": null,
+     "openings": null,
+     "fixed_elements": "Round table and umbrella.",
+     "notes": "Printed 'כ-21 מ\"ר' (approx.)."
+    },
+    {
+     "name_he": "מטבח",
+     "name_en": "kitchen",
+     "type": "kitchen",
+     "printed_dims_cm": [
+      380,
+      392
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Open to living; entrance door top-left; window bottom wall.",
+     "fixed_elements": "Hob on right wall, double sink on bottom wall, fridge on right wall.",
+     "notes": null
+    },
+    {
+     "name_he": "שירותים",
+     "name_en": "WC (entrance floor)",
+     "type": "wc",
+     "printed_dims_cm": [
+      115,
+      155
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on top wall",
+     "openings": "Door on left; window top wall.",
+     "fixed_elements": "WC; separate basin in alcove just below.",
+     "notes": "No label printed, only dimensions."
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (master)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      275,
+      155
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on left wall",
+     "openings": "Door at bottom to master bedroom; window left wall.",
+     "fixed_elements": "WC, basin, shower on right.",
+     "notes": "Floor -2."
+    },
+    {
+     "name_he": "חדר שינה הורים",
+     "name_en": "master bedroom",
+     "type": "master_bedroom",
+     "printed_dims_cm": [
+      275,
+      490
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on left wall to deck",
+     "openings": "Door on right wall to family area; window left wall to wooden deck.",
+     "fixed_elements": "Double bed on right wall, closet along bottom wall.",
+     "notes": null
+    },
+    {
+     "name_he": "פינת משפחה",
+     "name_en": "family area",
+     "type": "other",
+     "printed_dims_cm": [
+      265,
+      350
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall to deck",
+     "openings": "Window bottom wall; stair up to floor -1 at top.",
+     "fixed_elements": "Sofa, desk and closet shown.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר שינה",
+     "name_en": "bedroom 1",
+     "type": "bedroom",
+     "printed_dims_cm": [
+      265,
+      340
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on top wall; window bottom wall.",
+     "fixed_elements": "Bed, desk, closet on left wall.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר שינה",
+     "name_en": "bedroom 2",
+     "type": "bedroom",
+     "printed_dims_cm": [
+      265,
+      340
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on top wall; window bottom wall.",
+     "fixed_elements": "Bed, desk, closet on right wall.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר כביסה",
+     "name_en": "laundry room",
+     "type": "laundry",
+     "printed_dims_cm": [
+      150,
+      185
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": null,
+     "openings": "Door on bottom wall.",
+     "fixed_elements": "Stacked washer and dryer.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (bath)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      305,
+      185
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": null,
+     "openings": "Door on bottom wall.",
+     "fixed_elements": "Bathtub on right, basin on top, WC on left.",
+     "notes": null
+    },
+    {
+     "name_he": "ממ\"ד",
+     "name_en": "safe room",
+     "type": "mamad",
+     "printed_dims_cm": [
+      355,
+      265
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on top wall; window bottom wall to garden.",
+     "fixed_elements": "Closet on top wall, bed and desk.",
+     "notes": null
+    }
+   ]
+  },
+  {
+   "type_mark": "ירדן (Yarden)",
+   "number": null,
+   "rooms_count": 5,
+   "area_m2": 165,
+   "terrace_m2": 40,
+   "other_areas": [],
+   "floors": "קומת כניסה + קומה 1 + קומה -1",
+   "plan_file": "brochure.pdf",
+   "plan_page": 10,
+   "rooms": [
+    {
+     "name_he": "חדר מגורים",
+     "name_en": "living room",
+     "type": "living",
+     "printed_dims_cm": [
+      440,
+      660
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Windows on top wall; glazed wall on left to terrace; window bottom-left",
+     "openings": "Entrance door on right wall; glass wall on left to terrace; stairs top-right.",
+     "fixed_elements": "Sofa and armchairs; dining table at bottom-left; stair with up and down flights top-right.",
+     "notes": "Dining is in the same open space."
+    },
+    {
+     "name_he": "מטבח",
+     "name_en": "kitchen",
+     "type": "kitchen",
+     "printed_dims_cm": [
+      360,
+      250
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Windows on bottom wall",
+     "openings": "Open to living; two windows on bottom wall.",
+     "fixed_elements": "Hob and double sink on bottom wall, tall unit and fridge on right wall.",
+     "notes": null
+    },
+    {
+     "name_he": "שירותים",
+     "name_en": "WC",
+     "type": "wc",
+     "printed_dims_cm": [
+      125,
+      150
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on left.",
+     "fixed_elements": "WC; basin in alcove above, by entrance.",
+     "notes": "No label printed, only dimensions."
+    },
+    {
+     "name_he": "מרפסת",
+     "name_en": "terrace",
+     "type": "terrace",
+     "printed_dims_cm": null,
+     "area_m2": 40,
+     "is_outdoor": true,
+     "glazing": null,
+     "openings": null,
+     "fixed_elements": "Sun loungers, umbrella, dining table, planters.",
+     "notes": "Printed 'כ-40 מ\"ר' (approx.)."
+    },
+    {
+     "name_he": "חדר שינה",
+     "name_en": "bedroom 1",
+     "type": "bedroom",
+     "printed_dims_cm": [
+      340,
+      275
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Windows on top and left walls",
+     "openings": "Door to corridor on right; windows top and left walls.",
+     "fixed_elements": "Bed, desk and closet on right wall.",
+     "notes": "Floor 1."
+    },
+    {
+     "name_he": "חדר כביסה",
+     "name_en": "laundry room",
+     "type": "laundry",
+     "printed_dims_cm": [
+      140,
+      170
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on top wall",
+     "openings": "Door on right.",
+     "fixed_elements": "Washer and dryer.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (bath)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      280,
+      180
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on right wall",
+     "openings": "Door on left.",
+     "fixed_elements": "Bathtub on right, basin, WC on top.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר שינה",
+     "name_en": "bedroom 2",
+     "type": "bedroom",
+     "printed_dims_cm": [
+      390,
+      275
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Windows on right and bottom walls",
+     "openings": "Door on left wall.",
+     "fixed_elements": "Bed, desk and closet on top-right.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר שינה הורים",
+     "name_en": "master bedroom",
+     "type": "master_bedroom",
+     "printed_dims_cm": [
+      340,
+      370
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Windows on left wall",
+     "openings": "Door on right to corridor.",
+     "fixed_elements": "Double bed on top wall, closet along bottom wall.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (master)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      185,
+      185
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on top.",
+     "fixed_elements": "Shower, WC, basin.",
+     "notes": null
+    },
+    {
+     "name_he": "חדר רחצה",
+     "name_en": "bathroom (floor -1)",
+     "type": "bathroom",
+     "printed_dims_cm": [
+      235,
+      175
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": null,
+     "openings": "Door on left.",
+     "fixed_elements": "Basin, shower, WC.",
+     "notes": null
+    },
+    {
+     "name_he": "ממ\"ד",
+     "name_en": "safe room",
+     "type": "mamad",
+     "printed_dims_cm": [
+      355,
+      265
+     ],
+     "area_m2": null,
+     "is_outdoor": false,
+     "glazing": "Window on bottom wall",
+     "openings": "Door on left wall; window bottom wall.",
+     "fixed_elements": "Closet on top wall, bed, desk.",
+     "notes": null
+    }
+   ]
+  }
+ ],
+ "openings_summary": "Houses open to private gardens or terraces through large sliding glass walls in the living rooms; bedrooms and kitchens have standard windows; each type has a mamad with a window.",
+ "images": [
+  {
+   "file": "brochure.pdf p.1",
+   "kind": "other",
+   "description": "Cover: project name, Harei Zahav logo, line sketch of settlement"
+  },
+  {
+   "file": "brochure.pdf p.2",
+   "kind": "logo",
+   "description": "Welcome page with Maale Efraim logo"
+  },
+  {
+   "file": "brochure.pdf p.3",
+   "kind": "text",
+   "description": "Community text beside aerial photo of the settlement"
+  },
+  {
+   "file": "brochure.pdf p.4",
+   "kind": "site_plan",
+   "description": "Settlement map with amenities; project location; north arrow up"
+  },
+  {
+   "file": "brochure.pdf p.5",
+   "kind": "exterior_render",
+   "description": "Aerial render of terraced white houses"
+  },
+  {
+   "file": "brochure.pdf p.6",
+   "kind": "site_plan",
+   "description": "Regional road map and plot map with Shor, Yarkon, Yarden plots"
+  },
+  {
+   "file": "brochure.pdf p.7",
+   "kind": "floor_plan",
+   "description": "Shor plans, ground floor and floor A; exterior render"
+  },
+  {
+   "file": "brochure.pdf p.8",
+   "kind": "interior_render",
+   "description": "Living and dining room render"
+  },
+  {
+   "file": "brochure.pdf p.9",
+   "kind": "floor_plan",
+   "description": "Yarkon plans, floors -1 and -2; exterior render"
+  },
+  {
+   "file": "brochure.pdf p.10",
+   "kind": "floor_plan",
+   "description": "Yarden plans, entrance floor, floors 1 and -1; exterior render"
+  },
+  {
+   "file": "brochure.pdf p.11",
+   "kind": "interior_render",
+   "description": "Living room render with balcony"
+  },
+  {
+   "file": "brochure.pdf p.12",
+   "kind": "photo",
+   "description": "Sunset over hills and winding road"
+  },
+  {
+   "file": "brochure.pdf p.13",
+   "kind": "interior_render",
+   "description": "General specification text beside dining render"
+  },
+  {
+   "file": "brochure.pdf p.14",
+   "kind": "exterior_render",
+   "description": "Aerial render of project and neighbourhood"
+  },
+  {
+   "file": "brochure.pdf p.15",
+   "kind": "logo",
+   "description": "Closing page, Maale Efraim logo"
+  },
+  {
+   "file": "brochure.pdf p.16",
+   "kind": "other",
+   "description": "Back cover with Harei Zahav logo and sketch"
+  }
+ ],
+ "style_hints": [
+  "modern white plaster",
+  "wood-look and brick cladding",
+  "black aluminium windows",
+  "black steel railings",
+  "stone retaining walls",
+  "light beige interiors with large format tiles",
+  "private gardens"
+ ],
+ "uncertainties": [
+  "No address; only the settlement name is given.",
+  "Unit areas (158/160/165 m²) and room counts are read from the legend icons beside each plan, not a title-block table.",
+  "Terrace areas (21 and 40 m²) are printed as approximate ('כ-').",
+  "Room dimensions are printed as 'a/b'; which number is width and which is depth is not stated, so the order is kept as printed.",
+  "No scale, date, architect or north arrow on any unit plan; the north arrows exist only on the maps.",
+  "Shor master bedroom reads 390/345 on the tile but looks like 390/375 in the overview; the tile value is used.",
+  "WC rooms in Yarkon and Yarden have dimensions but no label.",
+  "The 'כניסה' labels are arrows on the outside, not rooms, so they are not listed as rooms.",
+  "Shor has no printed terrace; it has a private yard and a ground-floor patio without dimensions.",
+  "Plot numbers on the plot map are not tied to a specific unit.",
+  "No floor-to-floor height is given.",
+  "Window and door positions are read from drawing symbols and may be approximate."
+ ],
+ "confidence": 0.8,
+ "_meta": {
+  "files": [
+   "brochure.pdf (56 page renders)"
+  ],
+  "images": 56,
+  "pages": [
+   "brochure.pdf#4",
+   "brochure.pdf#6",
+   "brochure.pdf#7",
+   "brochure.pdf#9",
+   "brochure.pdf#10"
+  ],
+  "skipped": [],
+  "model": "anthropic/claude-sonnet-5.5",
+  "usd": 0.447998,
+  "at": "2026-11-04T15:09:10.252Z"
+ }
+}

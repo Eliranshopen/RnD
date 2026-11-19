@@ -1,0 +1,43 @@
+{
+  "schema": "habait-studio/worker-snapshot.v1",
+  "snapshotId": "snap_DXWv2R1bYGj8Q9ItGqBhsfg3UkQc",
+  "key": "e3df3be+cea778c453cc+py5",
+  "head": "e3df3be",
+  "listHash": "cea778c453cc7f822327e90d46d09832e13052c31b3404f71c9952d2b42acdf4",
+  "files": 165,
+  "bytes": 5882167,
+  "withBlender": false,
+  "pip": [
+    "numpy",
+    "opencv-python-headless",
+    "pymupdf",
+    "shapely",
+    "scikit-image"
+  ],
+  "blender": null,
+  "built": "2026-11-05T10:36:11.108Z",
+  "seconds": 34.1,
+  "phases": [
+    {
+      "name": "tooling",
+      "s": 5.9
+    },
+    {
+      "name": "python-venv",
+      "s": 16.1
+    },
+    {
+      "name": "upload",
+      "s": 7.5
+    },
+    {
+      "name": "smoke",
+      "s": 0.5
+    },
+    {
+      "name": "snapshot",
+      "s": 3.3
+    }
+  ],
+  "vcpus": 2
+}

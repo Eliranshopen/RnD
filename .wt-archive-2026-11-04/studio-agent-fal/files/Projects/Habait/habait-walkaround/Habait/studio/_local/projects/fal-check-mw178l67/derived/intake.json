@@ -1,0 +1,308 @@
+{
+  "developer": "ישראל קנדה (Israel Canada)",
+  "project_name": "RAINBOW TEL AVIV",
+  "address": "שדה דב",
+  "city": "תל אביב",
+  "building": {
+    "name": "TOWER-RED",
+    "floors_total": null,
+    "floor_of_unit": 16,
+    "typical_floor_to_floor_cm": null,
+    "has_floor_key": true,
+    "has_site_key": true,
+    "site_buildings": [
+      "R",
+      "R²",
+      "Y",
+      "G",
+      "B",
+      "O",
+      "I",
+      "P"
+    ],
+    "facade_note": "The north-east edge of the unit follows the plot boundary and building line (קו בניין, see note 12). A decorative beam (קורה דקורטיבית) runs along that edge. The sun terrace is on the east side with a curved glazed edge. Structural columns stand in the terrace zone. A dashed 'קו קומה מעל' marks the floor above. A narrow passage (מעבר צר) sits at the south end of the terrace, with a printed height of about 1.80 m (H=כ-1.80 מ')."
+  },
+  "unit": {
+    "number": "846",
+    "type_mark": "L",
+    "rooms_count": 3,
+    "area_m2": 106.72,
+    "terrace_m2": 26.15,
+    "other_areas": [
+      {
+        "label": "חלקה המקורה (covered part of the terrace)",
+        "m2": 14.34
+      },
+      {
+        "label": "חלקה הבולטת לתחום הציבורי (part projecting into the public domain)",
+        "m2": 0.28
+      }
+    ]
+  },
+  "drawing": {
+    "scale": "1:50",
+    "date": "15.10.2025",
+    "architect": "DBLK Architects",
+    "north_deg_clockwise_from_up": 292,
+    "north_note": "The north arrow is beside the floor key in the title block. Its pointer lies about 22° above the left horizontal, which gives roughly 292° clockwise from the top of the sheet. The unit plan is drawn rotated on the sheet. The site key has its own small north arrow at the bottom right, which was not measured. The building permit reference on the sheet is 25-1222.",
+    "printed_dimensions_cm": [
+      275,
+      342,
+      140,
+      199,
+      744,
+      270,
+      530,
+      474,
+      1213,
+      822,
+      212,
+      210,
+      185,
+      160,
+      348,
+      344
+    ],
+    "is_vector_pdf": null
+  },
+  "rooms": [
+    {
+      "name_he": "חדר שינה",
+      "name_en": "Bedroom",
+      "type": "bedroom",
+      "printed_dims_cm": [
+        342,
+        275
+      ],
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "facade glazing on the north-east side under the decorative beam",
+      "notes": "Furniture is drawn as a dashed bed."
+    },
+    {
+      "name_he": "חדר רחצה כללי",
+      "name_en": "General bathroom",
+      "type": "bathroom",
+      "printed_dims_cm": [
+        199,
+        140
+      ],
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "none",
+      "notes": "The 199 and 140 dimensions may refer to the shower/tub rather than the whole room. Next to it is a shaft labelled אוורור (ventilation)."
+    },
+    {
+      "name_he": "מטבח",
+      "name_en": "Kitchen",
+      "type": "kitchen",
+      "printed_dims_cm": null,
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "curved facade glazing towards the terrace",
+      "notes": "Linear kitchen along a wall, with hob and sink. It is open to the dining area and living room."
+    },
+    {
+      "name_he": "פינת אוכל",
+      "name_en": "Dining area",
+      "type": "dining",
+      "printed_dims_cm": null,
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "facade glazing",
+      "notes": "Round table drawn with six chairs. The dimension 744 runs along the whole east glazing line (kitchen, dining and living), not a single room."
+    },
+    {
+      "name_he": "חדר דיור",
+      "name_en": "Living room",
+      "type": "living",
+      "printed_dims_cm": [
+        530
+      ],
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "facade glazing with an exit to the terrace (יציאה למרפסת)",
+      "notes": "Only one dimension (530) is printed. The depth is not printed."
+    },
+    {
+      "name_he": "חדר שינה הורים",
+      "name_en": "Master bedroom",
+      "type": "master_bedroom",
+      "printed_dims_cm": [
+        348,
+        344
+      ],
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "facade glazing facing the terrace",
+      "notes": ""
+    },
+    {
+      "name_he": "פינת ארונות",
+      "name_en": "Wardrobe nook",
+      "type": "wardrobe",
+      "printed_dims_cm": [
+        185,
+        160
+      ],
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "none",
+      "notes": "Between the master bathroom and the master bedroom."
+    },
+    {
+      "name_he": "חדר רחצה הורים",
+      "name_en": "Master bathroom",
+      "type": "bathroom",
+      "printed_dims_cm": [
+        212,
+        210
+      ],
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "none",
+      "notes": "Contains a toilet, a basin and a tub or shower. The 210 dimension may refer to the tub or shower."
+    },
+    {
+      "name_he": "מרפסת שמש",
+      "name_en": "Sun terrace",
+      "type": "terrace",
+      "printed_dims_cm": [
+        474,
+        270
+      ],
+      "area_m2": 26.15,
+      "is_outdoor": true,
+      "glazing": "railing",
+      "notes": "Curved east edge, two structural column blocks, and the plot boundary running diagonally beside it. The dimension 1213 is a long overall dimension outside the terrace edge."
+    },
+    {
+      "name_he": "אוורור",
+      "name_en": "Ventilation shaft",
+      "type": "other",
+      "printed_dims_cm": null,
+      "area_m2": null,
+      "is_outdoor": false,
+      "glazing": "none",
+      "notes": "Shaft next to the general bathroom, near the entrance."
+    }
+  ],
+  "openings_summary": "The unit entrance (כניסה) is on the west side. There is a swing door to the general bathroom, a swing door to the master bathroom, and a door to the master bedroom area. The living room has an exit to the terrace (יציאה למרפסת). The east facade and the curved glazing along the kitchen, dining area and living room face the sun terrace. The bedroom's glazing is on the north-east edge under the decorative beam.",
+  "images": [
+    {
+      "file": "דירה 846- 16.pdf",
+      "kind": "floor_plan",
+      "description": "Single-page sales plan (תכנית מכר) for apartment 846, type L, floor 16, TOWER-RED, Rainbow Tel Aviv, at 1:50.",
+      "useful_for": [
+        "plan_trace",
+        "tower_mass",
+        "site_context"
+      ]
+    },
+    {
+      "file": "page-1.png",
+      "kind": "floor_plan",
+      "description": "Whole-page overview of the sales plan: title block, floor key, north arrow, site key, notes and the unit plan.",
+      "useful_for": [
+        "plan_trace",
+        "tower_mass",
+        "site_context"
+      ]
+    },
+    {
+      "file": "page-1-r1c1.png",
+      "kind": "floor_plan",
+      "description": "Top-left 300-dpi tile: title block, areas table, date and scale, north arrow, floor key, entrance, bathroom and ventilation shaft.",
+      "useful_for": [
+        "plan_trace",
+        "tower_mass"
+      ]
+    },
+    {
+      "file": "page-1-r1c2.png",
+      "kind": "floor_plan",
+      "description": "Top-centre 300-dpi tile: bedroom, general bathroom, kitchen, dining area, decorative beam, building line and plot boundary, and terrace dimension 270.",
+      "useful_for": [
+        "plan_trace",
+        "facade_look"
+      ]
+    },
+    {
+      "file": "page-1-r1c3.png",
+      "kind": "floor_plan",
+      "description": "Top-right 300-dpi tile: unit tag (846, 3 rooms, type L), upper part of the terrace and plot boundary.",
+      "useful_for": [
+        "plan_trace"
+      ]
+    },
+    {
+      "file": "page-1-r2c1.png",
+      "kind": "site_plan",
+      "description": "Bottom-left 300-dpi tile: floor key, site key with buildings R, R², Y, G, B, O, I, P (R hatched), signature block, DBLK Architects logo, and the master bathroom.",
+      "useful_for": [
+        "tower_mass",
+        "site_context",
+        "plan_trace"
+      ]
+    },
+    {
+      "file": "page-1-r2c2.png",
+      "kind": "floor_plan",
+      "description": "Bottom-centre 300-dpi tile: living room, master bedroom, master bathroom, wardrobe nook, terrace and the dimensions 530, 348, 344, 185, 160, 822.",
+      "useful_for": [
+        "plan_trace",
+        "facade_look"
+      ]
+    },
+    {
+      "file": "page-1-r2c3.png",
+      "kind": "text",
+      "description": "Bottom-right 300-dpi tile: notes text, terrace dimension 1213, and the permit reference 25-1222.",
+      "useful_for": [
+        "plan_trace"
+      ]
+    }
+  ],
+  "style_hints": [],
+  "uncertainties": [
+    "The printed documents give no street address. The address 'שדה דב' and the city come from the user's input only.",
+    "The project name 'fal-check-mw178l67' provided by the user is a temporary label. The printed project name is RAINBOW TEL AVIV.",
+    "The total number of floors is not printed, so it is null. Floor-to-floor height is not printed.",
+    "Individual room areas are not printed, so they are null. Only the unit total (106.72), terrace (26.15), covered part (14.34) and public-domain projection (0.28) are printed.",
+    "The 199, 140, 212 and 210 dimensions in the bathrooms may refer to fixtures or to the rooms. The rooms' printed dimensions are not clearly separable.",
+    "The dimensions 744, 1213 and 822 are long overall dimensions, not single rooms.",
+    "The north arrow angle (292°) was read from the arrow geometry on the tile and is approximate. The site key's north arrow was not measured.",
+    "The 300-dpi tiles and the overview agree on all numbers read. No mamad (ממ\"ד) or WC room is labelled on this plan.",
+    "Whether the PDF is vector or raster cannot be determined from the rendered images.",
+    "No renders or photos are included, so style_hints is empty."
+  ],
+  "confidence": 0.85,
+  "_meta": {
+    "source": "llm",
+    "backend": "fal",
+    "model": "anthropic/claude-sonnet-5.5",
+    "files": [
+      "דירה 846- 16.pdf",
+      "page-1.png",
+      "page-1-r1c1.png",
+      "page-1-r1c2.png",
+      "page-1-r1c3.png",
+      "page-1-r2c1.png",
+      "page-1-r2c2.png",
+      "page-1-r2c3.png"
+    ],
+    "usage": {
+      "prompt_tokens": 37988,
+      "completion_tokens": 5766,
+      "total_tokens": 43754,
+      "cost": 0.133636,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0
+      }
+    },
+    "usd": 0.133636,
+    "note": "fal anthropic/claude-sonnet-5.5",
+    "at": "2026-11-03T21:28:35.642Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+ "version": 3,
+ "blend": "aligned@cut+laplacian-6",
+ "parent": "01-entrance__seam3__s7__0f774583f067.png",
+ "band": {
+  "u": 0.8611,
+  "deg": 21
+ },
+ "cut_search_px": 40,
+ "align_max_px": 16,
+ "cuts": [
+  {
+   "u": 0.813,
+   "structure": 1.79,
+   "tone": 3.47,
+   "aligned_px": 0,
+   "line_step_px": 3,
+   "lines": 2
+  },
+  {
+   "u": 0.8975,
+   "structure": 1.95,
+   "tone": 2.74,
+   "aligned_px": 3.5,
+   "line_step_px": 2,
+   "lines": 20
+  }
+ ]
+}

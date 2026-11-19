@@ -1,0 +1,29 @@
+{
+ "$schema": "tour360/ledger.v1",
+ "cap_usd": 3,
+ "note": "reserve before send, settle after",
+ "rows": [
+  {
+   "seq": 1,
+   "ts": "2026-11-05T10:09:03.971Z",
+   "op": "auto-trace-read",
+   "apartment": "pmw25zqqf4bb478",
+   "model": "google/gemini-3.7-flash",
+   "images": 1,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.01091775,
+   "status": "done"
+  },
+  {
+   "seq": 2,
+   "ts": "2026-11-05T10:12:18.200Z",
+   "op": "auto-trace-judge",
+   "apartment": "pmw25zqqf4bb478",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.00856875,
+   "status": "done"
+  }
+ ]
+}

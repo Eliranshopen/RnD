@@ -1,0 +1,316 @@
+{
+ "open_radius_px": 5,
+ "simplify_cm": 3,
+ "door_dilate_px": 5,
+ "cut_px": 8,
+ "near_wall_px": 16,
+ "dimension_min_cm": 100,
+ "straight_density_max": 4.5,
+ "opening_min_cm": 60,
+ "apartment_id": "pmw25zqqf4bb478",
+ "cameras_json": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1\\cameras.json",
+ "eye_cm": 160,
+ "ceiling_height_cm": 290,
+ "floor_height_cm": 0,
+ "floor_height_note": "unknown: the sales plan has no section",
+ "roofed_outdoor": false,
+ "fixtures": [],
+ "source_file": "דירה 846- 16.pdf page 1",
+ "trace_date": "2026-11-05",
+ "scale_basis": "3.292 px/cm: guessed from 6 room boxes vs printed dims, then fitted",
+ "rights_state": "developer-uploaded",
+ "rights_note": "uploaded by the developer through the Habait Studio portal",
+ "assumptions": [
+  "ceiling 290 cm, door heads 215 cm (no section on the sales plan)",
+  "outdoor rooms unroofed unless the plan shows a floor-above line (follow the sales plan)",
+  "open-plan zone boundaries: auto-trace geodesic split between the printed room labels"
+ ],
+ "stroke_ignore_boxes": [
+  [
+   79.60571081409478,
+   337.51184690157964,
+   379.6057108140948,
+   637.5118469015797
+  ],
+  [
+   -19.13912515188332,
+   800.4541312272174,
+   280.8608748481167,
+   1100.4541312272174
+  ]
+ ],
+ "double_ignore_boxes": [
+  [
+   79.60571081409478,
+   337.51184690157964,
+   379.6057108140948,
+   637.5118469015797
+  ],
+  [
+   -19.13912515188332,
+   800.4541312272174,
+   280.8608748481167,
+   1100.4541312272174
+  ]
+ ],
+ "cameras": [
+  {
+   "id": "living-room",
+   "room_id": "r-living-room",
+   "name_he": "חדר דיור",
+   "name_en": "living room",
+   "type": "living",
+   "is_outdoor": false,
+   "at_cm": [
+    477.9058323207777,
+    790.1054070473876
+   ],
+   "links": [
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ]
+  },
+  {
+   "id": "kitchen",
+   "room_id": "r-kitchen",
+   "name_he": "מטבח",
+   "name_en": "kitchen",
+   "type": "kitchen",
+   "is_outdoor": false,
+   "at_cm": [
+    517.6913730255163,
+    488.8049817739976
+   ],
+   "links": [
+    "living-room",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ]
+  },
+  {
+   "id": "dining-area",
+   "room_id": "r-dining-area",
+   "name_he": "פינת אוכל",
+   "name_en": "dining area",
+   "type": "hall",
+   "is_outdoor": false,
+   "at_cm": [
+    614.9981773997571,
+    565.0999392466586
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ]
+  },
+  {
+   "id": "bedroom",
+   "room_id": "r-bedroom",
+   "name_he": "חדר שינה",
+   "name_en": "bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "at_cm": [
+    390.18590522478746,
+    303.886695018226
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ],
+   "printed_dims_cm": [
+    275,
+    342
+   ]
+  },
+  {
+   "id": "bathroom",
+   "room_id": "r-bathroom",
+   "name_he": "חדר רחצה כללי",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "at_cm": [
+    229.60571081409478,
+    487.51184690157964
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ],
+   "hull": true,
+   "printed_dims_cm": [
+    140,
+    199
+   ]
+  },
+  {
+   "id": "master-bedroom",
+   "room_id": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "name_en": "master bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "at_cm": [
+    434.7648845686513,
+    1042.2667071688943
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ],
+   "printed_dims_cm": [
+    348,
+    344
+   ]
+  },
+  {
+   "id": "walk-in-closet",
+   "room_id": "r-walk-in-closet",
+   "name_he": "פינת ארונות",
+   "name_en": "walk-in closet",
+   "type": "storage",
+   "is_outdoor": false,
+   "at_cm": [
+    249.2588092345079,
+    1004.1192284325639
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "master-bathroom",
+    "sun-terrace",
+    "entrance"
+   ],
+   "printed_dims_cm": [
+    160,
+    185
+   ]
+  },
+  {
+   "id": "master-bathroom",
+   "room_id": "r-master-bathroom",
+   "name_he": "חדר רחצה הורים",
+   "name_en": "master bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "at_cm": [
+    130.86087484811668,
+    950.4541312272174
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "sun-terrace",
+    "entrance"
+   ],
+   "hull": true,
+   "printed_dims_cm": [
+    212,
+    210
+   ]
+  },
+  {
+   "id": "sun-terrace",
+   "room_id": "r-sun-terrace",
+   "name_he": "מרפסת שמש",
+   "name_en": "sun terrace",
+   "type": "balcony",
+   "is_outdoor": true,
+   "at_cm": [
+    777.9750911300122,
+    797.2176488456864
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "entrance"
+   ],
+   "printed_dims_cm": [
+    270,
+    474
+   ]
+  },
+  {
+   "id": "entrance",
+   "room_id": "r-entrance",
+   "name_he": "כניסה",
+   "name_en": "entrance",
+   "type": "hall",
+   "is_outdoor": false,
+   "at_cm": [
+    54.64520048602673,
+    569.6259113001215
+   ],
+   "links": [
+    "living-room",
+    "kitchen",
+    "dining-area",
+    "bedroom",
+    "bathroom",
+    "master-bedroom",
+    "walk-in-closet",
+    "master-bathroom",
+    "sun-terrace"
+   ]
+  }
+ ],
+ "dump_barrier_png": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1\\barrier.png",
+ "dump_barrier_only": true
+}

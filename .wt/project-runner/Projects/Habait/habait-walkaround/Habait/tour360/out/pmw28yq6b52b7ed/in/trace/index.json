@@ -1,0 +1,293 @@
+{
+ "input": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\brochure.pdf",
+ "id": "pmw28yq6b52b7ed",
+ "model": "google/gemini-3.7-flash",
+ "plans": [
+  {
+   "dir": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1",
+   "page": 7,
+   "floor_label": "קומה א'",
+   "dwelling_label": "דגם שור",
+   "status": "FAIL",
+   "rounds": 2,
+   "plan": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\plan.general.json",
+   "overlay": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\overlay.png",
+   "report": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\report.json",
+   "trace_check": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\trace-check.json",
+   "rooms": 10,
+   "fixtures": 10,
+   "scale_px_per_cm": 1.3402,
+   "failures": [
+    {
+     "check": "dims",
+     "room": "r-bedroom",
+     "name": "חדר שינה",
+     "expected": [
+      330,
+      280
+     ],
+     "got": [
+      284,
+      264
+     ]
+    },
+    {
+     "check": "dims",
+     "room": "r-bedroom-2",
+     "name": "חדר שינה",
+     "expected": [
+      330,
+      300
+     ],
+     "got": [
+      321,
+      303
+     ]
+    },
+    {
+     "check": "dims",
+     "room": "r-master-bedroom",
+     "name": "חדר שינה הורים",
+     "expected": [
+      390,
+      345
+     ],
+     "got": [
+      356,
+      349
+     ]
+    },
+    {
+     "check": "room_has_label",
+     "room": "r-corridor-1",
+     "name": null,
+     "expected": "a printed label",
+     "got": "מעבר"
+    },
+    {
+     "check": "room_has_label",
+     "room": "r-corridor-7",
+     "name": null,
+     "expected": "a printed label",
+     "got": "מעבר"
+    },
+    {
+     "check": "room_has_label",
+     "room": "r-corridor-8",
+     "name": null,
+     "expected": "a printed label",
+     "got": "מעבר"
+    },
+    {
+     "check": "room_count",
+     "room": null,
+     "name": null,
+     "expected": 7,
+     "got": 10
+    },
+    {
+     "check": "door_arc",
+     "room": null,
+     "name": null,
+     "expected": "an opening between two rooms",
+     "got": "both sides of the door lie in the same traced room (a wrong split or a missing room)"
+    },
+    {
+     "check": "shape_iou",
+     "room": "r-bedroom",
+     "name": "חדר שינה",
+     "expected": ">= 0.85 with the printed rectangle",
+     "got": 0.812
+    },
+    {
+     "check": "shape_iou",
+     "room": "r-bedroom-2",
+     "name": "חדר שינה",
+     "expected": ">= 0.85 with the printed rectangle",
+     "got": 0.746
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-patio",
+     "name": "פטיו בקומת קרקע",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      45,
+      40,
+      65,
+      144,
+      97
+     ]
+    },
+    {
+     "check": "label_in_room",
+     "room": "r-patio",
+     "name": "פטיו בקומת קרקע",
+     "expected": "the printed label inside its room (<= 50 cm)",
+     "got": "74 cm away"
+    },
+    {
+     "check": "unlabelled_room",
+     "room": "r-corridor-1",
+     "name": null,
+     "expected": "<= 3 m²",
+     "got": 3.37
+    },
+    {
+     "check": "unlabelled_room",
+     "room": "r-corridor-7",
+     "name": null,
+     "expected": "<= 3 m²",
+     "got": 11.91
+    }
+   ],
+   "judge_mismatches": [
+    {
+     "room": "חדר רחצה (190/275)",
+     "issue": "The bathroom is incorrectly split into two separate traced rooms (4 and 10)."
+    },
+    {
+     "room": null,
+     "issue": "A spurious long vertical green line runs through bathroom 5 and master bedroom 6."
+    },
+    {
+     "room": "חדר שינה (280/330)",
+     "issue": "Missing green line on the bedroom door."
+    },
+    {
+     "room": "חדר כביסה",
+     "issue": "Missing green line on the laundry room door."
+    },
+    {
+     "room": "חדר רחצה (190/275)",
+     "issue": "Missing green line on the sliding bathroom entrance door."
+    },
+    {
+     "room": "חדר שינה 2",
+     "issue": "The traced polygon for bedroom 2 extends incorrectly to the left outside its room boundary."
+    },
+    {
+     "room": "חצר פרטית",
+     "issue": "The traced outdoor area (7) has an arbitrary boundary that does not follow the actual courtyard/patio borders."
+    }
+   ],
+   "could_not_read": [
+    "room 'מבואה' (r-hall-auto-11): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+    "room 'חדר שינה' (r-bedroom): traced [284, 264] cm vs printed [280, 330] cm ([-13.9, -5.7] %) — check the trace or the reading",
+    "room 'חדר כביסה' (r-laundry): traced [172, 121] cm vs printed [170, 125] cm ([1.2, -3.2] %) — check the trace or the reading",
+    "room 'חדר שינה הורים' (r-master-bedroom): traced [356, 349] cm vs printed [390, 345] cm ([-8.7, 1.2] %) — check the trace or the reading",
+    "room 'פטיו בקומת קרקע' (r-patio): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מעבר' (r-corridor-1): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מעבר' (r-corridor-7): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מעבר' (r-corridor-8): no printed dimensions were read; its size comes from the drawing only"
+   ]
+  },
+  {
+   "dir": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2",
+   "page": 7,
+   "floor_label": "קומת קרקע",
+   "dwelling_label": "דגם שור",
+   "status": "FAIL",
+   "rounds": 2,
+   "plan": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\plan.general.json",
+   "overlay": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\overlay.png",
+   "report": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\report.json",
+   "trace_check": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\trace-check.json",
+   "rooms": 7,
+   "fixtures": 8,
+   "scale_px_per_cm": 1.3904,
+   "failures": [
+    {
+     "check": "dims",
+     "room": "r-kitchen",
+     "name": "מטבח",
+     "expected": [
+      485,
+      310
+     ],
+     "got": [
+      514,
+      310
+     ]
+    },
+    {
+     "check": "dims",
+     "room": "r-living-room",
+     "name": "חדר מגורים",
+     "expected": [
+      735,
+      450
+     ],
+     "got": [
+      741,
+      473
+     ]
+    },
+    {
+     "check": "dims",
+     "room": "r-safe-room-mamad",
+     "name": "ממ\"ד",
+     "expected": [
+      375,
+      300
+     ],
+     "got": [
+      375,
+      289
+     ]
+    },
+    {
+     "check": "door_arc",
+     "room": null,
+     "name": null,
+     "expected": "an opening between two rooms",
+     "got": "neither side lies in a traced room"
+    },
+    {
+     "check": "label_in_room",
+     "room": "r-entrance",
+     "name": "כניסה",
+     "expected": "the printed label inside its room (<= 50 cm)",
+     "got": "57 cm away"
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-patio-according-to-development",
+     "name": "פטיו בהתאם לתכנית הפיתוח",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      41,
+      31,
+      38,
+      34,
+      37
+     ]
+    }
+   ],
+   "judge_mismatches": [
+    {
+     "room": "3",
+     "issue": "There is a stray/misplaced green opening line near the right wall where no door or passage exists on the drawing."
+    },
+    {
+     "room": "5",
+     "issue": "The entrance door from the hallway into the bathroom is missing a green opening line."
+    },
+    {
+     "room": "6",
+     "issue": "The entrance door from the hallway into the bedroom/safe room is missing a green opening line."
+    }
+   ],
+   "could_not_read": [
+    "room 'כניסה' (r-entrance): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מטבח' (r-kitchen): traced [514, 310] cm vs printed [310, 485] cm ([6.0, 0.0] %) — check the trace or the reading",
+    "room 'חדר מגורים' (r-living-room): traced [741, 473] cm vs printed [450, 735] cm ([0.8, 5.1] %) — check the trace or the reading",
+    "room 'עליה לקומה 1' (r-stairs-to-floor-1): no printed dimensions were read; its size comes from the drawing only",
+    "room 'ממ\"ד' (r-safe-room-mamad): traced [375, 289] cm vs printed [375, 300] cm ([0.0, -3.7] %) — check the trace or the reading",
+    "room 'פטיו בהתאם לתכנית הפיתוח' (r-patio-according-to-development): no printed dimensions were read; its size comes from the drawing only"
+   ]
+  }
+ ],
+ "spent_usd": 0.052922250000000004,
+ "status": "FAIL"
+}

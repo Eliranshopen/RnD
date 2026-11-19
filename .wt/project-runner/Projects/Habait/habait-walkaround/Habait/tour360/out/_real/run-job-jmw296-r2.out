@@ -1,0 +1,6 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+Vercel CLI 65.9.0 (Node.js 24.22.1)
+run-job: 4 queued (vercel blob (private store)) · --job jmw296xof74ed6e: 1 matched
+  jmw296xof74ed6e · הורדו 1 קבצים והקריאה המאושרת
+  jmw296xof74ed6e · הסוכן משרטט את הדירה מתוך תכנית המכר ובודק אותה מול התכנית
+  jmw296xof74ed6e · ההדמיה לא עברה בדיקת התאמה אוטומטית לתכנית המכר והועברה לבדיקה של Habait

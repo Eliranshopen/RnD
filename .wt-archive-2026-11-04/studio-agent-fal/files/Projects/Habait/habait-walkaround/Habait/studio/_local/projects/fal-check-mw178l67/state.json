@@ -1,0 +1,16 @@
+{
+  "stages": {
+    "intake": {
+      "status": "done",
+      "note": "anthropic/claude-sonnet-5.5: 10 rooms, 8 files read, confidence 0.85; 10 open points",
+      "at": "2026-11-03T21:28:35.644Z",
+      "outputs": [
+        "derived/intake.json"
+      ],
+      "cost_usd": 0.133636,
+      "seconds": 46.55
+    }
+  },
+  "running": false,
+  "ledger_usd": 0.1681
+}

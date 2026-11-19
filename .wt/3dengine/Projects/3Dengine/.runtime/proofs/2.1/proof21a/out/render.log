@@ -1,0 +1,23 @@
+render_tour.mjs v0.1.0  tour=360walkaround/tours/proof21a  mode=draft 1024x512@8spp  wrap-pad=512  points=1
+          golden depth fixture: golden: 32/32 pixels match; unknown-encoding refused: true | OK
+          scene: STALE — scene-full.blend does not exist
+
+=== scene build ==============================================
+          REPORT    camera clearance: cp-wardrobeArea 32.95 cm from closet CLOSET_fx-drawn-14-wardrobe_carcass - under the 40 cm bar; a general plan's points are authored, so this is reported, not failed
+          OK
+          scene built in 34.2 s
+
+=== chunk 1/1: 1 point(s) ====================
+          === [1/1] cp-livingRoom ===================================
+          [render_pano] point      : cp-livingRoom  plan (761.3,1151.7,160) yaw 109
+          [render_pano] wrap pad   : 512 px each side  -> rendered 2048x512 over -360.0000..360.0000 deg, cropped back
+          [render_pano] render 1/1: 31.296 s wall  (cycles 30.65s, device peak 265.93 MB, host peak 467.51 MB)
+          [render_pano] depth      : depth.png 51,941 B  valid 516,404 / 524,288  sky 7,884  range 1.300..136.345 m  (0.104 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 1024x512 19,246 B  zenith mean 181.2/255 (4 colours) · nadir mean 192.5/255 (7 colours) · no_hole=True
+          OK
+
+=== summary =================================================
+  OK   cp-livingRoom        31.3 s  nadir 1.6 m (0 cm)  valid 98.50%  19 KB
+  total 69.2 s · 1 rendered, 0 skipped · $0.00 · verdict PASS
+OK

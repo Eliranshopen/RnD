@@ -1,0 +1,48 @@
+{
+ "errors": [
+  "desktop console: Failed to load resource: the server responded with a status of 404 (Not Found)"
+ ],
+ "walk": {
+  "p0": {
+   "x": 2.121,
+   "z": 6.428
+  },
+  "p1": {
+   "x": 6.121,
+   "z": 6.428
+  },
+  "p2": {
+   "x": 6.8085,
+   "z": 6.428,
+   "free": true
+  },
+  "moved_m": 4,
+  "still_on_free_floor": true
+ },
+ "overflow": {
+  "desktop": [],
+  "phone": [
+   "BUTTON.",
+   "BUTTON.",
+   "BUTTON.",
+   "BUTTON.",
+   "BUTTON."
+  ]
+ },
+ "views": [
+  "desktop/foyer:כניסה:27",
+  "desktop/living:חדר מגורים:13",
+  "desktop/dining:חדר מגורים:24",
+  "desktop/kitchen:מטבח:10",
+  "desktop/balcony:מרפסת:13",
+  "desktop/corridor:מסדרון:24",
+  "desktop/master:חדר שינה הורים:9",
+  "desktop/ensuite:חדר רחצה הורים:20",
+  "desktop/mamad:חדר שינה / ממ\"ד:11",
+  "desktop/bath:חדר רחצה:13",
+  "desktop/bedroom:חדר שינה:11",
+  "phone/foyer:כניסה:18",
+  "phone/living:חדר מגורים:11",
+  "phone/kitchen:מטבח:7"
+ ]
+}

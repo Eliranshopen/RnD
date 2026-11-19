@@ -1,0 +1,9 @@
+{
+ "asset": "01-kitchen",
+ "tag": "island",
+ "parent": "01-kitchen__seam3__s7__1f1d63b34d09.png",
+ "yaw": -28.0,
+ "pitch": -18.0,
+ "hfov": 96.0,
+ "size": 1024
+}

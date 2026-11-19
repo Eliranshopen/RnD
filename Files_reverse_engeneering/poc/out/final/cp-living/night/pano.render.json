@@ -1,0 +1,209 @@
+{
+  "generator": {
+    "script": "pipeline/render_pano.py",
+    "version": "0.3.0",
+    "script_sha256": "13d695a96f8c864072c2a8e6747ce22c12460c047464c3c11440bf90159d1aa9",
+    "blender": "4.5.10 LTS",
+    "rendered_utc": "2026-11-17T14:42:36+00:00"
+  },
+  "point": {
+    "id": "cp-living",
+    "room_id": "r-living",
+    "plan_cm": [
+      937.6,
+      779,
+      160
+    ],
+    "yaw_deg": 50,
+    "world_m": [
+      9.376,
+      -7.79,
+      1.6
+    ],
+    "euler_xyz_deg": [
+      90.000003,
+      0.0,
+      -50.0
+    ]
+  },
+  "projection": {
+    "type": "equirectangular",
+    "api": "camera.panorama_type (4.3+)",
+    "fov": "360x180",
+    "resolution": [
+      2048,
+      1024
+    ],
+    "row_mapping": "lat = -90 + (row+0.5)/H*180 ; row 0 = BOTTOM (Blender buffer)",
+    "col_mapping": "u = (col+0.5)/W ; u=0.5 = camera forward ; u increases to the right",
+    "png_scanline_order": "top row first (this file flips the Blender buffer)"
+  },
+  "wrap_pad": {
+    "pad_px_each_side": 512,
+    "rendered_resolution": [
+      3072,
+      1024
+    ],
+    "longitude_range_deg": {
+      "longitude_min_deg": -270.0,
+      "longitude_max_deg": 270.0,
+      "latitude_deg": [
+        -90.0,
+        90.0
+      ]
+    },
+    "cropped_to": [
+      2048,
+      1024
+    ],
+    "why": "F-360-118: OIDN and the WebP encoder are wrap-blind 2-D operators, so the two edge columns of an equirect frame keep denoiser residue the interior loses. The pad renders real azimuthal overlap, is denoised and encoded WITH it, and is cropped off in the compositor — same angular grid, same file size.",
+    "grid_identity": "pad angle = pad_px * 360/W, so azimuth(col) = -180 + (col+0.5)*360/W for the surviving columns, exactly as with pad 0"
+  },
+  "depth_encoding": "rgb24-be",
+  "depth_scale": 100,
+  "depth_units": "metres",
+  "depth_decode": "(R<<16 | G<<8 | B) / 100 => metres (radial distance from the camera origin)",
+  "depth_invalid_value": 0,
+  "depth_quantisation": "round-half-to-even to the nearest centimetre",
+  "depth_note": "radial per-ray distance, NOT planar depth (ENV.md §4.1). Through glazing the value is the distance to the PANE, which is what a ruler should measure.",
+  "render": {
+    "engine": "CYCLES",
+    "backend": "CPU",
+    "devices": [],
+    "device_note": "no GPU backend available -- fell back to CPU",
+    "samples": 16,
+    "adaptive_sampling": true,
+    "adaptive_threshold": 0.01,
+    "denoise": true,
+    "denoiser": "OPENIMAGEDENOISE",
+    "denoising_use_gpu": false,
+    "use_auto_tile": true,
+    "tile_size": 2048,
+    "texture_limit_render": "OFF",
+    "seed": 0,
+    "view_transform": "AgX",
+    "look": "AgX - Punchy",
+    "film_exposure": -0.9
+  },
+  "encode": {
+    "pano_format": "WEBP",
+    "webp_quality": 90,
+    "png_compression": 15,
+    "depth_png": "hand-rolled, colour type 2, 8-bit, filter Sub, zlib level 6 (no colour management touches a depth byte)"
+  },
+  "timings_s": {
+    "render_wall_clock": [
+      392.974
+    ],
+    "cycles_time": [
+      389.87
+    ],
+    "depth_pack": 0.621
+  },
+  "memory": {
+    "device_peak_mb": 626.21,
+    "host_peak_mb": 1010.29,
+    "post_render_peak_mb": null,
+    "source": "Cycles' own status field; nvidia-smi per-process is N/A on this WDDM GPU",
+    "note": "device_peak_mb = Cycles' `Mem:…, Peak:…` during the render phases only; post_render_peak_mb is the same field during Finishing/Compositing, where it reports HOST buffers, not VRAM; host_peak_mb is Blender's own `(Peak …)`",
+    "hybrid_masks_device_figure": false
+  },
+  "outputs": {
+    "pano_png": {
+      "file": "pano.png",
+      "bytes": 1865180,
+      "sha256": "2fec7df44c4e0082f101ed84652f4577ff719bedf8333a0242a852db583a803a"
+    },
+    "pano": {
+      "file": "pano.webp",
+      "bytes": 47148,
+      "sha256": "e7e1e3ce587978ca83e778943b6c930a29a7a7b88e3917d870df391b304c7900"
+    },
+    "depth": {
+      "file": "depth.png",
+      "bytes": 153253,
+      "sha256": "beac324afc9c7d6fcb148455dcd5103f9535ec25447b9095b8ddbea8f13a93bf"
+    }
+  },
+  "depth_stats": {
+    "png_bytes": 153253,
+    "pack_seconds": 0.621,
+    "pixels": 2097152,
+    "valid_pixels": 2097152,
+    "sky_pixels": 0,
+    "min_m": 1.2517138719558716,
+    "max_m": 6.3636956214904785,
+    "clipped_above_24bit": 0,
+    "clipped_below_1cm": 0,
+    "packed_data_sha256": "03bb6f325ef07d4875a9eccc832b54abfdb8482341c78d6337fafd06ac189e06",
+    "roundtrip_max_byte_diff": 0,
+    "nadir_row_m": [
+      1.6,
+      1.6
+    ],
+    "zenith_row_m": [
+      1.3,
+      1.3
+    ]
+  },
+  "pano_checks": {
+    "size": [
+      2048,
+      1024
+    ],
+    "is_requested_size": true,
+    "is_2to1": true,
+    "poles": {
+      "zenith": {
+        "min_std": 0.002109,
+        "mean_luma_255": 105.6719,
+        "unique_row0": 3,
+        "all_black_rows": 0,
+        "any_all_black": false
+      },
+      "nadir": {
+        "min_std": 0.002905,
+        "mean_luma_255": 124.0553,
+        "unique_row0": 9,
+        "all_black_rows": 0,
+        "any_all_black": false
+      },
+      "rows_examined": 15,
+      "note": "a polar row is one point of the sphere smeared across W px, so near-constant is CORRECT; only an ALL-BLACK row (plus an invalid depth zenith/nadir) is a hole"
+    },
+    "no_polar_hole": true
+  },
+  "depth_checks": [],
+  "depth_check_worst_cm": null,
+  "inputs": {
+    "point": "cp-living",
+    "scene": {},
+    "settings": {
+      "res": [
+        2048,
+        1024
+      ],
+      "samples": 16,
+      "adaptive": "on",
+      "adaptive_threshold": 0.01,
+      "denoise": "on",
+      "denoise_device": "cpu",
+      "device": "AUTO",
+      "hybrid": false,
+      "tile_size": 0,
+      "texture_limit": "OFF",
+      "seed": 0,
+      "pano": "pano.webp",
+      "webp_quality": 90,
+      "depth": "on",
+      "wrap_pad": 512,
+      "script": "0.3.0",
+      "script_sha256": "13d695a96f8c864072c2a8e6747ce22c12460c047464c3c11440bf90159d1aa9",
+      "depth_encoding": "rgb24-be",
+      "depth_scale": 100
+    }
+  },
+  "input_key": "512a385bb857029906501e2007b563e07e2e6aa557ad321b9edbc4b45d0dbc25",
+  "cost_usd": 0.0,
+  "machine": "local — RTX A2000 Laptop 4 GB (ENV.md §1); $0, see RENDER-LEDGER.md"
+}

@@ -1,0 +1,23 @@
+[auto-trace 6s] plan 1: 3156×4257 (page 1)
+[auto-trace 6s] auto_prep: sheet mode (saturated 0.00 %), unchanged
+[auto-trace 9s] auto_walls_pdf: 103 gap(s) <= 15 cm in window lines joined
+auto_walls_pdf: beam strip from 7 V25 edge / glass pair(s), 107705 px
+auto_walls_pdf --dims-only: 866 dimension segments, 36 door paths (walls stay raster)
+[auto-trace 24s] read: $0.0093
+[auto-trace 24s] scale 2.2677 px/cm (printed dimension lines: 15 printed values measured tick to tick (140, 160, 185, 199, 210, 212, 270, 275, 342, 344, 348, 474, 530, 744, 1213)); 9 seeds, 10 fixtures read
+[auto-trace 33s] r1 auto_split: 10 seeds, 27 boundary lines, wall angle 18.0, 3 notes
+[auto-trace 33s] r1 note: envelope closing 120 cm (94 % of the walls' hull)
+[auto-trace 33s] r1 note: envelope: 141.6 m� closed footprint, 3 gap line(s) on its outline
+[auto-trace 33s] r1 note: hall-auto-92: 2.8 m� of open space carried no label; made a hall
+[auto-trace 75s] r1 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace\trace\plan-1\plan.general.json: 10 rooms, 7 wall pieces, 4 openings, 11 panes, 10 cameras, 0 fixtures
+[auto-trace 83s] r1 auto_rooms: 1 built-in box(es) set into a wall: not floor
+auto_rooms: 12 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 10 rooms (axis 17.5 deg), 8 printed rectangles, 6 snapped; 18 notes
+[auto-trace 86s] r1 auto_finalize: 10 rooms, 21 fixtures, wall angle 17.5 deg, scale 2.2677 px/cm (fit x1.0000), 6 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace\trace\plan-1\overlay.png
+[auto-trace 87s] r1 trace_check: FAIL � 73/78 checks pass; corrections: force_rect []
+[auto-trace 87s] r1 no further correction applies
+[auto-trace 97s] judge: $0.0064
+[auto-trace 106s] judge: $0.0062
+[auto-trace 117s] judge: $0.0062
+[auto-trace 117s] plan 1: FAIL after 1 round(s) — 5 mechanical failure(s), judge 1 mismatch(es)
+[auto-trace 117s] done: FAIL — plan-1 FAIL; $0.0281 → C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace\trace\index.json

@@ -1,0 +1,908 @@
+{
+ "name": "platform-ui-ux",
+ "purpose": "the look and UX of the Habait platform shell itself (home, project pick, upload-and-generate, project and apartment pages) WITHOUT touching the video or the visualizations (/hold/, /tour/, clips, Kling, Blender). Eliran's ask 2026-11-03. Research first: Projects/Habait/research/platform-ui-ux-2026-11-03/README.md",
+ "opened": "2026-11-03",
+ "session": "rnd-ed",
+ "phase": "research — no project file copied yet; files are copied here with their sha256 when the plan names them, before any edit",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/index.html",
+   "sha256_at_open": "d5a558d6184699f0c39dba5640b15acf48b8863b9052871a92008cdd5e3100da",
+   "sha256_at_close": "05198b8568621ca04d54c840a6eac579282f5fb984ef3bddf061bb8d273bb7d7"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/app.js",
+   "sha256_at_open": "9e4122fb9f8605c3b87515c234342c03ea14de5a74102cb393012e7e0913e17d",
+   "sha256_at_close": "13e398aa09201e923014aed2e81149f470655918e1a747b2b80a1e3862396471"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/style.css",
+   "sha256_at_open": "f440adcb8656ddcab4322c1b1bd631374ad843a78413ed619877d940d4445254",
+   "sha256_at_close": "c42c68ac1259143452422ab17108a4d712005259af73f87642784ca541dab64d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/styles/presets.json",
+   "sha256_at_open": "43b45f5cb51087d12de2259b187f20f241465a6a4ec70b67e3e775bfe78b533d",
+   "sha256_at_close": "43b45f5cb51087d12de2259b187f20f241465a6a4ec70b67e3e775bfe78b533d"
+  },
+  {
+   "path": "Projects/Habait/tools/deploy-vercel/stage_flow.py",
+   "rounds": [
+    {
+     "sha256_at_open": "1a7952015993c8c4096685a2e167512a64b0c2a3f25d69c31d91b524d56fcbee",
+     "sha256_at_close": "eb974bcb4e5cc8184ff363cb7593248861ca516e78261c4256a178f368d73900"
+    }
+   ],
+   "sha256_at_open": "eb974bcb4e5cc8184ff363cb7593248861ca516e78261c4256a178f368d73900",
+   "sha256_at_close": "b49711e6cb7bb640447e2fef6b6679f25a157bdef9cc585a249539e68e06a114"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/tokens.css",
+   "sha256_at_open": null,
+   "sha256_at_close": "2a0a39758c1514374753b41e6e4a7f43a68c7eea9039ddf40b280b35891d5504"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/components.css",
+   "sha256_at_open": null,
+   "sha256_at_close": "896878911bda7f77200f2dab63370fde4aa213b160425d563f3653f59fc7fa29"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/styleguide.html",
+   "sha256_at_open": null,
+   "sha256_at_close": "3784d24d4a00867c8f2325867dc5a7ebb5558309f673ebfc8cd056b72e0743a2"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/contrast.mjs",
+   "sha256_at_open": null,
+   "sha256_at_close": "fd8f0cfc5944f07fc78aca0ad9c6fb6b89a6dd7f02b56401e678e91f55cb2b71"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/CLAUDE.md",
+   "sha256_at_open": null,
+   "sha256_at_close": "a37190e084a9dc1b04d3528d7d213bbb0f022274724e2911c09f401295b1f524"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/OFL-FrankRuhlLibre.txt",
+   "sha256_at_open": null,
+   "sha256_at_close": "7eb9208b0f057da5220ebe784da4683f950a73be271f074d8bdfb6eac0ef4463"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/OFL-Heebo.txt",
+   "sha256_at_open": null,
+   "sha256_at_close": "50ac3e340fcd4822b2904413d14b457e02392f0bef38cd790e88da82014be44f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/SOURCES.md",
+   "sha256_at_open": null,
+   "sha256_at_close": "7bb188add98ca43bd75e41222360193f285c1d24e45fd13e658cf7461eee2370"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/frank-ruhl-libre-hebrew-500-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "4a453ca787a3817f86b9b89dfd9aba66b3180ec5fb900f125047d65832354530"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/frank-ruhl-libre-hebrew-700-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "51189306f07fdb3ede7c51193b76be170e175c1808bbc4d94e26e714b424ea83"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/frank-ruhl-libre-latin-500-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "4beaeeb42ab87bd5d008e833ba5f6d95a6eed587ba52e63851fa8ae8c24525e5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/frank-ruhl-libre-latin-700-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "5acad89af9e7ae0f88fabb94cc6b4ac37eb7a008ae7f3507be2506cf02d6ab9c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/heebo-hebrew-wght-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "f1f7cfaef59431c7b391df81fb05520273303840bbe917213a2ab9f41b839675"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/heebo-latin-ext-wght-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "dd3af41d4eac7f8b09b12d8d4a4bbf7ae13b0ff812560722d1a1d7c2077e02ea"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fonts/heebo-latin-wght-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "50dae2e12dae22c920388023e35aaebcd1e1d27bbe915c83d64210377e083e60"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/sync-tokens.mjs",
+   "sha256_at_open": null,
+   "sha256_at_close": "cfc313333c9bb1d7577e9ce72dcea60edba1f37b5d039a4615767b37a175cbc3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/tokens-sync.test.mjs",
+   "sha256_at_open": null,
+   "sha256_at_close": "f09a391a6953111ec4a4c2ec080350e355c23b9f1483dfe666467d3e076043b2"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/tokens.css",
+   "sha256_at_open": null,
+   "sha256_at_close": "d3160e835f0e2c50266d813c952703017bb30340844a44ce69a20c0c4ee5e4e2"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/components.css",
+   "sha256_at_open": null,
+   "sha256_at_close": "1579645b03bb28fa3b7effc3206ff2c68fdc39f316a41a0040877d49d6091953"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/CLAUDE.md",
+   "sha256_at_open": null,
+   "sha256_at_close": "f87899561c9da12c1e5700ae63b4a5b5c1ac7541030c60f6c6863a25b8983325"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/frank-ruhl-libre-hebrew-500-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "4a453ca787a3817f86b9b89dfd9aba66b3180ec5fb900f125047d65832354530"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/frank-ruhl-libre-hebrew-700-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "51189306f07fdb3ede7c51193b76be170e175c1808bbc4d94e26e714b424ea83"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/frank-ruhl-libre-latin-500-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "4beaeeb42ab87bd5d008e833ba5f6d95a6eed587ba52e63851fa8ae8c24525e5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/frank-ruhl-libre-latin-700-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "5acad89af9e7ae0f88fabb94cc6b4ac37eb7a008ae7f3507be2506cf02d6ab9c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/heebo-hebrew-wght-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "f1f7cfaef59431c7b391df81fb05520273303840bbe917213a2ab9f41b839675"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/heebo-latin-ext-wght-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "dd3af41d4eac7f8b09b12d8d4a4bbf7ae13b0ff812560722d1a1d7c2077e02ea"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/fonts/heebo-latin-wght-normal.woff2",
+   "sha256_at_open": null,
+   "sha256_at_close": "50dae2e12dae22c920388023e35aaebcd1e1d27bbe915c83d64210377e083e60"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/flow.html",
+   "sha256_at_open": "9fa1eba957b118dcd3bc91971ad00f92e831fefcb9ce1cdf0fbcb7e54c9b5042",
+   "sha256_at_close": "0cab0aa1d2182b3a58375b98ef436e515a9a35a41d7cbf1e56578f85613c0dca"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/index.html",
+   "sha256_at_open": "da66461918f5d60fa60e7142ad9a140bd3b25c54e6fd1864d2a7f0141abfe5c5",
+   "sha256_at_close": "3bedfe8a875527f70fa11143f86dcbfc617e2587e0f0ace60964d7f33d477731"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/landing.html",
+   "rounds": [
+    {
+     "sha256_at_open": "db9da909c6df122a69447114e6c14241858c7a7e5173ed15a4642b7d5188a4a3",
+     "sha256_at_close": "bfdfdae4aa1a5941bb44f0bfa3e5090bd92700048878e82cb2d8fc7360d3b796"
+    }
+   ],
+   "sha256_at_open": "bfdfdae4aa1a5941bb44f0bfa3e5090bd92700048878e82cb2d8fc7360d3b796",
+   "sha256_at_close": "71fa127b11bf767a4a5e3201348475d23b245087a85073c87540aed67a7a82be"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/package.json",
+   "sha256_at_open": "1ee7e2daad3acea5fb791bfad85477dd7d4cc86cffe8a982f04d39113df37731",
+   "sha256_at_close": "1ee7e2daad3acea5fb791bfad85477dd7d4cc86cffe8a982f04d39113df37731"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/serve.mjs",
+   "sha256_at_open": "e6afe6f60ac40348e6f3731623e8f174dd10d1a000fc019a50d5bbfe9ffa6b21",
+   "sha256_at_close": "e6afe6f60ac40348e6f3731623e8f174dd10d1a000fc019a50d5bbfe9ffa6b21"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apps-script/CLAUDE.md",
+   "sha256_at_open": "2fc9baf1619403786d619cadeb32026813d7c6ae1337119bac61bace59fea8bc",
+   "sha256_at_close": "2fc9baf1619403786d619cadeb32026813d7c6ae1337119bac61bace59fea8bc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/audio/CLAUDE.md",
+   "sha256_at_open": "ceb8beae16540024ea2a517ad6295c521e664e8d9af4d3a768a1ad75491f0eb8",
+   "sha256_at_close": "ceb8beae16540024ea2a517ad6295c521e664e8d9af4d3a768a1ad75491f0eb8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/CLAUDE.md",
+   "sha256_at_open": "5f1b964ef0bcf5175820389fd91e58a188f9a7990a8aa48611471693275e15ce",
+   "sha256_at_close": "5f1b964ef0bcf5175820389fd91e58a188f9a7990a8aa48611471693275e15ce"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/dashboard.css",
+   "sha256_at_open": "f992801e82421fa6e898c12de0f84ecfd4acd9469a16ce783c6373e6854a52d7",
+   "sha256_at_close": "d68f1e8897f6732bae4c0f1fbbd2f5c5d5560511d101b3f9b79699ed9a81121e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/flow-real.css",
+   "sha256_at_open": "5d2febae998e6dc83352916988bab33c689e39e80213f25a6f64db941a270359",
+   "sha256_at_close": "18387ba125b561b25bfd7d752d54f414af3594c88547405aa67c5df8cf5eb272"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/landing.css",
+   "sha256_at_open": "7cd76e93848e006ad72887ef5046fe9baf305355bfa30089188a5a095ed25762",
+   "sha256_at_close": "40e64f4cd888fd062c05bdcdd61c328db95743278841c5248b61262b40fbb042"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/style.css",
+   "sha256_at_open": "418012a9aaaaab8b5e6d378fb2157f2c4700ad35f99f0589044316ad2a19bc69",
+   "sha256_at_close": "0305b09f6af9b6abadb89175bf3e489461e1342c7d885c0af57b12cae44120cf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/CLAUDE.md",
+   "sha256_at_open": "6d138b366871f2cd8a7ef8e41694b88ae66fd8b68b8118276e0c5eabf1e6d3c3",
+   "sha256_at_close": "6d138b366871f2cd8a7ef8e41694b88ae66fd8b68b8118276e0c5eabf1e6d3c3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/CLAUDE.md",
+   "sha256_at_open": "537e86b674c27c59ce6dbf3bc5794e850713cda05197b587ee6acf3af9ad6a7a",
+   "sha256_at_close": "537e86b674c27c59ce6dbf3bc5794e850713cda05197b587ee6acf3af9ad6a7a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/approach.mp4",
+   "sha256_at_open": "00178c902428b80c5672581a6aa830349b5e65dfa8affbfc68a9acf0ba40163b",
+   "sha256_at_close": "00178c902428b80c5672581a6aa830349b5e65dfa8affbfc68a9acf0ba40163b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/cover-aerial-skinned.jpg",
+   "sha256_at_open": "6da6efe626284761f7868a92030c538763425d8742a2950a7f1db90e47143d7f",
+   "sha256_at_close": "6da6efe626284761f7868a92030c538763425d8742a2950a7f1db90e47143d7f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/descend-846.mp4",
+   "sha256_at_open": "c7f6d3a11760da5dcefd1bc394e2e93b756b0fc0e4c3043cf3b5393b1ca6211c",
+   "sha256_at_close": "c7f6d3a11760da5dcefd1bc394e2e93b756b0fc0e4c3043cf3b5393b1ca6211c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/flow.cine.json",
+   "sha256_at_open": "4880018567bf8002b2be1a5ad1f967a8d1f04dd6638171655ce310671b25ddc1",
+   "sha256_at_close": "4880018567bf8002b2be1a5ad1f967a8d1f04dd6638171655ce310671b25ddc1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/flow.json",
+   "sha256_at_open": "c1e50495aed4682b4e40b163e4869c971098a982c0c10267f8962697a5b22322",
+   "sha256_at_close": "c1e50495aed4682b4e40b163e4869c971098a982c0c10267f8962697a5b22322"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/flow.real.json",
+   "sha256_at_open": "b826dde8e86c7562605547e97511b2d65b7d58042d1a956f1a55a884d080b0cb",
+   "sha256_at_close": "b826dde8e86c7562605547e97511b2d65b7d58042d1a956f1a55a884d080b0cb"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/intro-approach-interim.mp4",
+   "sha256_at_open": "7283d73d331e849bdce656773d61854a784b3ebb7de8009a11d9e49bcedb8bc3",
+   "sha256_at_close": "7283d73d331e849bdce656773d61854a784b3ebb7de8009a11d9e49bcedb8bc3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/logo.svg",
+   "sha256_at_open": "12a207ada38fd8ecbbd0eb124192516b6fc9191b67a58c8779e1800f82add7d9",
+   "sha256_at_close": "12a207ada38fd8ecbbd0eb124192516b6fc9191b67a58c8779e1800f82add7d9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-a-aerial.png",
+   "sha256_at_open": "f9a671b299904e8ed661fec60a198da318df65b6e01f50903ae16b54d294fd9b",
+   "sha256_at_close": "f9a671b299904e8ed661fec60a198da318df65b6e01f50903ae16b54d294fd9b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-b-tower.png",
+   "sha256_at_open": "d575eeea529286cbfda73588f0bb8984e99eddb9a410bb13e90eb09d01796591",
+   "sha256_at_close": "d575eeea529286cbfda73588f0bb8984e99eddb9a410bb13e90eb09d01796591"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-c-facade.png",
+   "sha256_at_open": "9fa5b2976148b1afde8485edf65ffaca25b40840e48a10da3eb3864ac55f78c1",
+   "sha256_at_close": "9fa5b2976148b1afde8485edf65ffaca25b40840e48a10da3eb3864ac55f78c1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-d-terrace.png",
+   "sha256_at_open": "1a5f8290cffaf9ed5c55ad2cdd4182106f3dd8fdc2ddabd9ea4293c4d76b3fcc",
+   "sha256_at_close": "1a5f8290cffaf9ed5c55ad2cdd4182106f3dd8fdc2ddabd9ea4293c4d76b3fcc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/project.json",
+   "rounds": [
+    {
+     "sha256_at_open": "ab23a2d4aac184f18e3d4cdfb26c5ee787eaf7e8eb7f331945686bdd8cd9b3ad",
+     "sha256_at_close": "ab23a2d4aac184f18e3d4cdfb26c5ee787eaf7e8eb7f331945686bdd8cd9b3ad"
+    }
+   ],
+   "sha256_at_open": "ab23a2d4aac184f18e3d4cdfb26c5ee787eaf7e8eb7f331945686bdd8cd9b3ad",
+   "sha256_at_close": "b555774f63bbfdb8b986626ab42b0d4000d34e17f6f3f0fb0ce42890adb435d6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/units.json",
+   "sha256_at_open": "db903c3dbe8fb325e22b1613b89bc8b4574084bcba0108cd8d7415df455b12ad",
+   "sha256_at_close": "db903c3dbe8fb325e22b1613b89bc8b4574084bcba0108cd8d7415df455b12ad"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/i18n.js",
+   "sha256_at_open": "53a345b67458ca49d50ee9e27fa618d3c3349f7b0cc59a64deccba89d77cd889",
+   "sha256_at_close": "42e4051c77ef9ab02a550644d08a17d6528cfefc35496b97a92770e19f23ea5a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/landing.js",
+   "rounds": [
+    {
+     "sha256_at_open": "f8595e80903f97379e3ab0d4ecc4b3c7b9a5a1ad59965088c560950ddec6fbe7",
+     "sha256_at_close": "1d0554950bf44f4f78cc7d9b6de14742ad7d01cb18830ac95e76c9b45e26862c"
+    },
+    {
+     "sha256_at_open": "1d0554950bf44f4f78cc7d9b6de14742ad7d01cb18830ac95e76c9b45e26862c",
+     "sha256_at_close": "c33ba3ba5780521a0f978a3014b8265253be951794d63ce4e7e0a67807a742e0"
+    }
+   ],
+   "sha256_at_open": "c33ba3ba5780521a0f978a3014b8265253be951794d63ce4e7e0a67807a742e0",
+   "sha256_at_close": "a29983e54376940f1130cb6a36f0c70ccea93e3435b26a50be10de8994e5d8b6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/picker.js",
+   "sha256_at_open": "3a451bd099bd4ae780bc6e5aea5a285f3bfb8c44bc786f30b31162525b4827f4",
+   "sha256_at_close": "3a451bd099bd4ae780bc6e5aea5a285f3bfb8c44bc786f30b31162525b4827f4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/CLAUDE.md",
+   "sha256_at_open": "f3d78cf42e61144f538ad7d35c2121109fdbfe74957ba5ad8d5aca132aa2547f",
+   "sha256_at_close": "f3d78cf42e61144f538ad7d35c2121109fdbfe74957ba5ad8d5aca132aa2547f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/CLAUDE.md",
+   "sha256_at_open": "532526d0d736234d0af746dc193fc7272319bc141cfbca441f3ff12bf1116fdf",
+   "sha256_at_close": "532526d0d736234d0af746dc193fc7272319bc141cfbca441f3ff12bf1116fdf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/analytics.test.mjs",
+   "sha256_at_open": "72b0d8a2b5f2482575351b7c5eb5dd5eb299c6218a4f8a83ace302ce3b9a108e",
+   "sha256_at_close": "72b0d8a2b5f2482575351b7c5eb5dd5eb299c6218a4f8a83ace302ce3b9a108e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/apartment.test.mjs",
+   "sha256_at_open": "3e2682b7ec62ac8a091f4ba826ba77a54124a691200c64faf7b67c690cca6e98",
+   "sha256_at_close": "3e2682b7ec62ac8a091f4ba826ba77a54124a691200c64faf7b67c690cca6e98"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/browser.mjs",
+   "sha256_at_open": "31f3e108d5721cf3e653d13faf5a32523dd9e2b106f8dfa07d30b152319231ce",
+   "sha256_at_close": "23fc8d3a8dd18f3f2c6e7db6fa17858f906e9ed0b3be7360187098ad92008f40"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/build_units.test.mjs",
+   "sha256_at_open": "a8c6fc9b59288e2834e5e8718a1111aa1fb1c45783aa9007d0f7a6e1308f0e7a",
+   "sha256_at_close": "a8c6fc9b59288e2834e5e8718a1111aa1fb1c45783aa9007d0f7a6e1308f0e7a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/card-overflow.test.mjs",
+   "sha256_at_open": "5eceb37473d48193b8845a8d63c069ee40042d2bd43ace2f97a27a22cf4c2cba",
+   "sha256_at_close": "5eceb37473d48193b8845a8d63c069ee40042d2bd43ace2f97a27a22cf4c2cba"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/flow-cine.test.mjs",
+   "sha256_at_open": "8b0987a818a6d3dab5f83f13abaa2253b025123e828f52d2c3db2c64b149ea47",
+   "sha256_at_close": "8b0987a818a6d3dab5f83f13abaa2253b025123e828f52d2c3db2c64b149ea47"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/flow-real.test.mjs",
+   "sha256_at_open": "dfe2aaf00a1bf0f94c6c29f9d38c24e90f651b50bacf0b314a1a5ac8170dcc94",
+   "sha256_at_close": "dfe2aaf00a1bf0f94c6c29f9d38c24e90f651b50bacf0b314a1a5ac8170dcc94"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/landing.test.mjs",
+   "rounds": [
+    {
+     "sha256_at_open": "6da49c06c38e664334952715cdd14a3ae34be874ebc975db8b0bfea397e34a5c",
+     "sha256_at_close": "6da49c06c38e664334952715cdd14a3ae34be874ebc975db8b0bfea397e34a5c"
+    }
+   ],
+   "sha256_at_open": "6da49c06c38e664334952715cdd14a3ae34be874ebc975db8b0bfea397e34a5c",
+   "sha256_at_close": "3bc081818cf1075cc7c0f5b2d449cb35c53f1f9241602611c84e9cf73a171422"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/minimap.test.mjs",
+   "sha256_at_open": "d0afb38de12e1b7145df17223339d7c55d59f22c0790febaec8872a778993420",
+   "sha256_at_close": "d0afb38de12e1b7145df17223339d7c55d59f22c0790febaec8872a778993420"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/smoke.mjs",
+   "sha256_at_open": "0bd2f9c35a09675ee801f0fac5195048edeef65a4c2924889052b96f59a469f4",
+   "sha256_at_close": "0bd2f9c35a09675ee801f0fac5195048edeef65a4c2924889052b96f59a469f4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/transition.test.mjs",
+   "sha256_at_open": "2be894615a4592c6070cb2652ff6c617de6d4efa09a95e536a207165546df9d5",
+   "sha256_at_close": "2be894615a4592c6070cb2652ff6c617de6d4efa09a95e536a207165546df9d5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/dev.js",
+   "sha256_at_open": null,
+   "sha256_at_close": "497989be9b4f268bd2ca97facc69b27c28da5c2daa961515cedd38389f709d86"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/home.css",
+   "sha256_at_open": null,
+   "sha256_at_close": "c91c23e1b6c0b0739734106a26002b7332a0668f96dd89d7791f83d834d89962"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/CLAUDE.md",
+   "sha256_at_open": "6e515b9aa9f2bc97df5310c18e925813975c898621c5fa9ebecc5e2b18058835",
+   "sha256_at_close": "6e515b9aa9f2bc97df5310c18e925813975c898621c5fa9ebecc5e2b18058835"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/README.md",
+   "sha256_at_open": "cd2ea003cf8f207dd2e0d5e4e28672d8a16d6790afeb85d499d6eff77fba6df2",
+   "sha256_at_close": "cd2ea003cf8f207dd2e0d5e4e28672d8a16d6790afeb85d499d6eff77fba6df2"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/cli.mjs",
+   "sha256_at_open": "73c3c210940b7b27ffe1ef946507b83f5e6c082020a4c57593a0510088677f5d",
+   "sha256_at_close": "73c3c210940b7b27ffe1ef946507b83f5e6c082020a4c57593a0510088677f5d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/dashboard/CLAUDE.md",
+   "sha256_at_open": "f0de6290dc08d0ec16aa0fc9f078a5201134445ca2f44b65e40f6ac35f4cdda1",
+   "sha256_at_close": "f0de6290dc08d0ec16aa0fc9f078a5201134445ca2f44b65e40f6ac35f4cdda1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/fixtures/CLAUDE.md",
+   "sha256_at_open": "b8e3ce412e079c2dc3c648566f23e16cb461c93a303c68048849a1ad3621ca5e",
+   "sha256_at_close": "b8e3ce412e079c2dc3c648566f23e16cb461c93a303c68048849a1ad3621ca5e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/fixtures/apt846.intake.json",
+   "sha256_at_open": "a7ecdec4a215a471ddc2c648babd912c8eb79a416bdad441b5ded541f3fc30e8",
+   "sha256_at_close": "a7ecdec4a215a471ddc2c648babd912c8eb79a416bdad441b5ded541f3fc30e8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/lib/CLAUDE.md",
+   "sha256_at_open": "c3b9888eb8dbf4b1d62bcb64fad40031121eb84602a2ca0f604ec019f8d4321a",
+   "sha256_at_close": "c3b9888eb8dbf4b1d62bcb64fad40031121eb84602a2ca0f604ec019f8d4321a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/lib/env.mjs",
+   "sha256_at_open": "d6bba1c6496038ab3ee14e488606f1be94e4ba91488f8e27281e0052e56fb761",
+   "sha256_at_close": "d6bba1c6496038ab3ee14e488606f1be94e4ba91488f8e27281e0052e56fb761"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/lib/llm.mjs",
+   "sha256_at_open": "227587e6f511547342b1b6ada5df59c4ae125bd46d4d607fe91e1685b225f181",
+   "sha256_at_close": "227587e6f511547342b1b6ada5df59c4ae125bd46d4d607fe91e1685b225f181"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/lib/projects.mjs",
+   "sha256_at_open": "a69bdd6d204c2a3b69cab379703166ed164ff1cb1aede67181862a7b6c0a0f9f",
+   "sha256_at_close": "a69bdd6d204c2a3b69cab379703166ed164ff1cb1aede67181862a7b6c0a0f9f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/package-lock.json",
+   "sha256_at_open": "a890fc0dedd37757cad3bdc06e1d19f2083a297bbc7ab065366eaf37465b6fa2",
+   "sha256_at_close": "a890fc0dedd37757cad3bdc06e1d19f2083a297bbc7ab065366eaf37465b6fa2"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/package.json",
+   "sha256_at_open": "ade7ce50797eeae3d633780b287df4bcc3abfbb66ed8746335b1808041530caa",
+   "sha256_at_close": "ade7ce50797eeae3d633780b287df4bcc3abfbb66ed8746335b1808041530caa"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/CLAUDE.md",
+   "sha256_at_open": "4fe7d8428007b0d9ac1b031c2901d846d52222ae1ea52e518a055301bd9f4300",
+   "sha256_at_close": "4fe7d8428007b0d9ac1b031c2901d846d52222ae1ea52e518a055301bd9f4300"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/index.mjs",
+   "sha256_at_open": "0ed49a2ffb898b343782ad6b2663440349b5be4c42d57448299db717fe83d153",
+   "sha256_at_close": "0ed49a2ffb898b343782ad6b2663440349b5be4c42d57448299db717fe83d153"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/CLAUDE.md",
+   "sha256_at_open": "449556334a8aeebdfb6e20d82045214a5860d73d29aa6487122330ad3b4f69de",
+   "sha256_at_close": "449556334a8aeebdfb6e20d82045214a5860d73d29aa6487122330ad3b4f69de"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/assemble.mjs",
+   "sha256_at_open": "cb8a5c7d5c5bac7b87299704fd036225f898b215e4e25ff142db350e2dd9c840",
+   "sha256_at_close": "cb8a5c7d5c5bac7b87299704fd036225f898b215e4e25ff142db350e2dd9c840"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/clay.mjs",
+   "sha256_at_open": "510dae217cc7b7bcb890c9be904927abeba5411eb9830a892d71efbe38f5acdd",
+   "sha256_at_close": "510dae217cc7b7bcb890c9be904927abeba5411eb9830a892d71efbe38f5acdd"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/intake.mjs",
+   "sha256_at_open": "99a6e54656ade527be735c7954c3e0c0187c18486b3cb3769a4c9f5607b2c379",
+   "sha256_at_close": "99a6e54656ade527be735c7954c3e0c0187c18486b3cb3769a4c9f5607b2c379"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/keyframes.mjs",
+   "sha256_at_open": "bb32281968b0da7c9200e22febe95fda944fb97795ee9c0f10ffc2cb76525c3c",
+   "sha256_at_close": "bb32281968b0da7c9200e22febe95fda944fb97795ee9c0f10ffc2cb76525c3c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/plan.mjs",
+   "sha256_at_open": "f48ef8c8fcc3cd5cae9b5679d93e5c69a2f9f7bec30fca5914bb0878800c6db5",
+   "sha256_at_close": "f48ef8c8fcc3cd5cae9b5679d93e5c69a2f9f7bec30fca5914bb0878800c6db5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/scene.mjs",
+   "sha256_at_open": "b13b6cd3978b2a0feb6b6630219957d4d46f28151da03d7e71e67aa7f1847793",
+   "sha256_at_close": "b13b6cd3978b2a0feb6b6630219957d4d46f28151da03d7e71e67aa7f1847793"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/shots.mjs",
+   "sha256_at_open": "37ee4002a23204bfb67ad19ab8d3dc599e9c2dca4f74ee73df929706997af586",
+   "sha256_at_close": "37ee4002a23204bfb67ad19ab8d3dc599e9c2dca4f74ee73df929706997af586"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/site.mjs",
+   "sha256_at_open": "0fc61d1a30269d8ed7888ee7bcb9d1345d47fba6261c8d2b8eaee10975a9db01",
+   "sha256_at_close": "0fc61d1a30269d8ed7888ee7bcb9d1345d47fba6261c8d2b8eaee10975a9db01"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/pipeline/stages/video.mjs",
+   "sha256_at_open": "17d7656776125cecea58726d9ec6097007a98683686a3befa05685776f9cc221",
+   "sha256_at_close": "17d7656776125cecea58726d9ec6097007a98683686a3befa05685776f9cc221"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/server.mjs",
+   "sha256_at_open": "b6ec7a4e3202f36b8c5fc7c384533c43304538610bdc83db6996efeac933949d",
+   "sha256_at_close": "b6ec7a4e3202f36b8c5fc7c384533c43304538610bdc83db6996efeac933949d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/styles/CLAUDE.md",
+   "sha256_at_open": "9b1cddbab56370f13df476ef71f501fc3aef5d539167fd6ac1e349e666f45077",
+   "sha256_at_close": "9b1cddbab56370f13df476ef71f501fc3aef5d539167fd6ac1e349e666f45077"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/test/CLAUDE.md",
+   "sha256_at_open": "66436da1b8b69bb748603ed960d02f2515ce5cd5c2cecd539acf51bfa8b5422d",
+   "sha256_at_close": "66436da1b8b69bb748603ed960d02f2515ce5cd5c2cecd539acf51bfa8b5422d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/test/run.mjs",
+   "sha256_at_open": "066cf2ae2e9023816d69bf9b4dee4f93d125bba38bb2df52545c4f2d57b4cacf",
+   "sha256_at_close": "066cf2ae2e9023816d69bf9b4dee4f93d125bba38bb2df52545c4f2d57b4cacf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/CLAUDE.md",
+   "sha256_at_open": "b4b107a769e69d067e1e38959abd324d9432c467201aecb5b45d5634ec96d19b",
+   "sha256_at_close": "b4b107a769e69d067e1e38959abd324d9432c467201aecb5b45d5634ec96d19b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/cube2equi.py",
+   "sha256_at_open": "a8086fa4e519a0517c553012ec810e4e98d4b5352f187b0b2453ed99d64f6133",
+   "sha256_at_close": "a8086fa4e519a0517c553012ec810e4e98d4b5352f187b0b2453ed99d64f6133"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/export_site_glb.py",
+   "sha256_at_open": "4b8cbc659ad699ce6be5fd7a7ce26ae3c1b5481b329fc8a7dbe6696bfd3c31d9",
+   "sha256_at_close": "4b8cbc659ad699ce6be5fd7a7ce26ae3c1b5481b329fc8a7dbe6696bfd3c31d9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/fal_audio.py",
+   "sha256_at_open": "3efe4cd3146c88c7839fc29e57ec4fe604a7d9ce26cb282900a700440bdcc75e",
+   "sha256_at_close": "3efe4cd3146c88c7839fc29e57ec4fe604a7d9ce26cb282900a700440bdcc75e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/fal_image.py",
+   "sha256_at_open": "cc7cc8217137f846575ff9cb1d693d0c7bc11b7d0c9b796c8512e5f144370c7c",
+   "sha256_at_close": "cc7cc8217137f846575ff9cb1d693d0c7bc11b7d0c9b796c8512e5f144370c7c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/fal_video.py",
+   "sha256_at_open": "c697516cfe600943a5ad7ab6b51c17256b1b7ff00ace91ce0af1797c2689e979",
+   "sha256_at_close": "c697516cfe600943a5ad7ab6b51c17256b1b7ff00ace91ce0af1797c2689e979"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/hold_arc_clay.py",
+   "sha256_at_open": "b61ae465703104a2e5bbff3abbca64fad6e988d5e27a011cf61f63b55d3cf369",
+   "sha256_at_close": "b61ae465703104a2e5bbff3abbca64fad6e988d5e27a011cf61f63b55d3cf369"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/hold_pan_clay.py",
+   "sha256_at_open": "c160038e0bbb6357c42ca27ccb4a577294f6f1d10b99f000d4d334342cdcd764",
+   "sha256_at_close": "c160038e0bbb6357c42ca27ccb4a577294f6f1d10b99f000d4d334342cdcd764"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/maai.py",
+   "sha256_at_open": "e48b264d5fa243c7f5dce7692791c1795057cc851f2910d596db5bbfc2db3c60",
+   "sha256_at_close": "e48b264d5fa243c7f5dce7692791c1795057cc851f2910d596db5bbfc2db3c60"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/orthophoto.py",
+   "sha256_at_open": "016da786cdc1e255c6e72952a56170e11ce7c4eaf2a35c997c873c4c35ffb661",
+   "sha256_at_close": "016da786cdc1e255c6e72952a56170e11ce7c4eaf2a35c997c873c4c35ffb661"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/pano_crop.py",
+   "sha256_at_open": "109f616fee716c4c61abedc4a636bf579337be3a59a85a02333648775246bd77",
+   "sha256_at_close": "109f616fee716c4c61abedc4a636bf579337be3a59a85a02333648775246bd77"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/pick_views.mjs",
+   "sha256_at_open": "e18cc6387780c3c7d0183d5db2ebed6d90f2d50defeaa38aeb08fb5fe2d894ca",
+   "sha256_at_close": "e18cc6387780c3c7d0183d5db2ebed6d90f2d50defeaa38aeb08fb5fe2d894ca"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/prep_image.py",
+   "sha256_at_open": "396b5f6217a03f6785bb19b6910c4a4d1de7ea4e288a9929ae8b0c90d0595c97",
+   "sha256_at_close": "396b5f6217a03f6785bb19b6910c4a4d1de7ea4e288a9929ae8b0c90d0595c97"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/prep_pdf.py",
+   "sha256_at_open": "08f7adf91b9edd7b6e4fe58505d6341fbae7e2de116cea787dbbc19793fd5855",
+   "sha256_at_close": "08f7adf91b9edd7b6e4fe58505d6341fbae7e2de116cea787dbbc19793fd5855"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/render_shots.py",
+   "sha256_at_open": "18e58328667875e081a4834137a8d2bb285121bd74421b3d27e70aa25fc915ab",
+   "sha256_at_close": "18e58328667875e081a4834137a8d2bb285121bd74421b3d27e70aa25fc915ab"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/seam_feather.py",
+   "sha256_at_open": "22ac08ef16de3eab38a0d6e6dfa3b88cf7f84a8e7bbc0172552dd50c2ea1fd1d",
+   "sha256_at_close": "22ac08ef16de3eab38a0d6e6dfa3b88cf7f84a8e7bbc0172552dd50c2ea1fd1d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/site_key.py",
+   "sha256_at_open": "65d79b56c75881bc7b263de4d686611d6c6740de4f9fcdbb8e449137d111762e",
+   "sha256_at_close": "65d79b56c75881bc7b263de4d686611d6c6740de4f9fcdbb8e449137d111762e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/view_pick.py",
+   "sha256_at_open": "5d92dccff24e24d829b4ca460992e9d083148c6024763c99c00f87433682066e",
+   "sha256_at_close": "5d92dccff24e24d829b4ca460992e9d083148c6024763c99c00f87433682066e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/studio/tools/world2equi.py",
+   "sha256_at_open": "0a5f97b694fc2ee871b974f87d2c816a3911c327f8d085d9d0a954032bb7f9e1",
+   "sha256_at_close": "0a5f97b694fc2ee871b974f87d2c816a3911c327f8d085d9d0a954032bb7f9e1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/target.js",
+   "sha256_at_open": null,
+   "sha256_at_close": "80f388ab1fa801fc483c7f1e4d45e425ed52ef540312ae903ca408bbac9bb654"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/README.md",
+   "sha256_at_open": "75389f70f2bedbde112ef48eb225d190fd58606727606c9387137d0e85b47fb1",
+   "sha256_at_close": "75389f70f2bedbde112ef48eb225d190fd58606727606c9387137d0e85b47fb1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apartment.html",
+   "sha256_at_open": "e2588079715bd9e95582b42f0bf7669bc9e0d1124338d5a479fd39f1ed94f2b3",
+   "sha256_at_close": "c2b41cbc6a3d8b757767d84588fc2b37a8cbcbf4606eec3c46036137ab0de714"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/build_units.mjs",
+   "sha256_at_open": "018f763b41c88b8e441798cf653836f9b6f9f1de9a821c1a5b7417b937c40175",
+   "sha256_at_close": "018f763b41c88b8e441798cf653836f9b6f9f1de9a821c1a5b7417b937c40175"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/dashboard.html",
+   "sha256_at_open": "24dfffa08a57fa19beb4b510b715687872b8674b513d1fc0b44e1f2a3ef55f75",
+   "sha256_at_close": "24dfffa08a57fa19beb4b510b715687872b8674b513d1fc0b44e1f2a3ef55f75"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/demo-transition.html",
+   "sha256_at_open": "62f0d187bceb9cc34dcaa3ba55af9775cf803403972430bb44f6e9c267805250",
+   "sha256_at_close": "62f0d187bceb9cc34dcaa3ba55af9775cf803403972430bb44f6e9c267805250"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/intro.html",
+   "sha256_at_open": "951f84b4a112c72efe1e0d3589aecf025dd55b6da2e573c8ad29c52852be3d7a",
+   "sha256_at_close": "951f84b4a112c72efe1e0d3589aecf025dd55b6da2e573c8ad29c52852be3d7a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/package-lock.json",
+   "sha256_at_open": "7a0ee65cf5d7e2056b85cf08cc86304ce562eac31f25697c8e443f450ab7a37b",
+   "sha256_at_close": "7a0ee65cf5d7e2056b85cf08cc86304ce562eac31f25697c8e443f450ab7a37b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/projects.json",
+   "sha256_at_open": "ff5dfd9b99ee620b2e984a9bc8c081c37eefdd2f5ad968f6dc5ac3b891333472",
+   "sha256_at_close": "ff5dfd9b99ee620b2e984a9bc8c081c37eefdd2f5ad968f6dc5ac3b891333472"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/report_weekly.mjs",
+   "sha256_at_open": "ad609305eee9641fd7bff805368f91ec0f03397b902426538e4adec127bc97c9",
+   "sha256_at_close": "ad609305eee9641fd7bff805368f91ec0f03397b902426538e4adec127bc97c9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apps-script/README-he.md",
+   "sha256_at_open": "9791262228649458c1b8906186d96099d59c2dc0dba9fd79f5660b1b5c2cd48e",
+   "sha256_at_close": "9791262228649458c1b8906186d96099d59c2dc0dba9fd79f5660b1b5c2cd48e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apps-script/lead-to-sheet.gs",
+   "sha256_at_open": "3a604c358b5a5195795e0e267cf01ade1d6666b71820360e2f0e8a15bf3970e4",
+   "sha256_at_close": "3a604c358b5a5195795e0e267cf01ade1d6666b71820360e2f0e8a15bf3970e4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/audio/README.md",
+   "sha256_at_open": "4b4681f5256d88afbf4e505ef7600a8d0b07ff21bcf628a5daaec7f2aaedca3f",
+   "sha256_at_close": "4b4681f5256d88afbf4e505ef7600a8d0b07ff21bcf628a5daaec7f2aaedca3f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/audio/ambience.m4a",
+   "sha256_at_open": "63762b3684d7da934a8479af8bb8803388ee0c738006c7caed3c4a877edbe2a1",
+   "sha256_at_close": "63762b3684d7da934a8479af8bb8803388ee0c738006c7caed3c4a877edbe2a1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/flow.schema.json",
+   "sha256_at_open": "15153d1b08033dfa35544c948fe7cc4be8efc73ed894d0a7e1457b1b6fbbb7b9",
+   "sha256_at_close": "15153d1b08033dfa35544c948fe7cc4be8efc73ed894d0a7e1457b1b6fbbb7b9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/project.schema.json",
+   "sha256_at_open": "44ca0eff42403c10bbce8306d07725ba2e6512b63aa1f119bddf56edee788cd6",
+   "sha256_at_close": "44ca0eff42403c10bbce8306d07725ba2e6512b63aa1f119bddf56edee788cd6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/units.schema.json",
+   "sha256_at_open": "cf497144a811b3397438e40f826836fefb0e7f63a03eac6e7a0981bf136f508e",
+   "sha256_at_close": "cf497144a811b3397438e40f826836fefb0e7f63a03eac6e7a0981bf136f508e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/validate.mjs",
+   "sha256_at_open": "faad56b1fbbe2defa5a5bea4f6590c419e6505f243ad5eaf4d87a273ddb730bc",
+   "sha256_at_close": "faad56b1fbbe2defa5a5bea4f6590c419e6505f243ad5eaf4d87a273ddb730bc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/apartment.css",
+   "rounds": [
+    {
+     "sha256_at_open": "f41cf612e4a2b5dfecb66c1325135738950856c0beb803a5acf354954afda862",
+     "sha256_at_close": "0a66a1a87e68488b66f3406c6727a97e7a2b5d863ee9d32c811bcff3e1659d1c"
+    }
+   ],
+   "sha256_at_open": "0a66a1a87e68488b66f3406c6727a97e7a2b5d863ee9d32c811bcff3e1659d1c",
+   "sha256_at_close": "157327ad4c4862fb19317e3ecb22df9c8dae8ffb3fa5f047a15618e11357ad07"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/cine.css",
+   "sha256_at_open": "0c3d1733c2095085ef71133a78ad2696611a18ae6c1a35ea24e7fd90a10a1f5a",
+   "sha256_at_close": "0c3d1733c2095085ef71133a78ad2696611a18ae6c1a35ea24e7fd90a10a1f5a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/transition.css",
+   "sha256_at_open": "731de0e5bcbea27af906a7bd6f8a692128bf0b358a1db4ac97ecd2c42d758a0c",
+   "sha256_at_close": "731de0e5bcbea27af906a7bd6f8a692128bf0b358a1db4ac97ecd2c42d758a0c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/analytics.js",
+   "sha256_at_open": "f9fa5ca4f59390db03459a1dac5927e4d814f333f10193e67c94df9048ef6309",
+   "sha256_at_close": "f9fa5ca4f59390db03459a1dac5927e4d814f333f10193e67c94df9048ef6309"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/apartment.js",
+   "sha256_at_open": "153653ced64c35b052bc9c1ed8a913b38b15e88fdeb183ea3bd5dab5ce3ce453",
+   "sha256_at_close": "70269cf3042c57be5c2d4b57f53446733dbc17327add5b1e058176eb041e4cfd"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/cine.js",
+   "sha256_at_open": "7d7b854ce31c204cae80aba0413eda2f04b01505cad2d61cadac978ad1543c1d",
+   "sha256_at_close": "7d7b854ce31c204cae80aba0413eda2f04b01505cad2d61cadac978ad1543c1d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/config.js",
+   "sha256_at_open": "1d8b9e9d50613a03eb4f6679dd633f10a1bc6dffed6da83eba33e988bde67336",
+   "sha256_at_close": "1d8b9e9d50613a03eb4f6679dd633f10a1bc6dffed6da83eba33e988bde67336"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/dashboard.js",
+   "sha256_at_open": "321aa3ad1019f3a8c95a65befb5c914eb1e9e596c69542a61f0a3f800a1b836d",
+   "sha256_at_close": "321aa3ad1019f3a8c95a65befb5c914eb1e9e596c69542a61f0a3f800a1b836d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/depthmesh.js",
+   "sha256_at_open": "8105d4989dda0f6425e7957a5936e1ff240054a029e4f1fa51055c69c5596e5d",
+   "sha256_at_close": "8105d4989dda0f6425e7957a5936e1ff240054a029e4f1fa51055c69c5596e5d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/flow.js",
+   "sha256_at_open": "eb68a674cd7d2ca5e218b71283868d64a42521895a4bad1151290586506d1c1b",
+   "sha256_at_close": "eb68a674cd7d2ca5e218b71283868d64a42521895a4bad1151290586506d1c1b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/lead.js",
+   "sha256_at_open": "6a61dc63ae75377f62c87ea4a7a5eb2746d41911323170c4021885196771fe09",
+   "sha256_at_close": "6a61dc63ae75377f62c87ea4a7a5eb2746d41911323170c4021885196771fe09"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/minimap.js",
+   "sha256_at_open": "7f508f613804e7dbad4b86e2b8d9311b36ee4463a555c1059f912ccf6ddacc12",
+   "sha256_at_close": "7f508f613804e7dbad4b86e2b8d9311b36ee4463a555c1059f912ccf6ddacc12"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/posthog-adapter.js",
+   "sha256_at_open": "3eb8d69a7c50e4b5d43d2699362fc83f3f60dd54362a9de2c1f60fe5f71c528b",
+   "sha256_at_close": "3eb8d69a7c50e4b5d43d2699362fc83f3f60dd54362a9de2c1f60fe5f71c528b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/transition360.js",
+   "sha256_at_open": "e0c6ad8285920195b40564b3bfb805fb99ad7f139feb40912cd62b121624fcc4",
+   "sha256_at_close": "e0c6ad8285920195b40564b3bfb805fb99ad7f139feb40912cd62b121624fcc4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/viewer360.js",
+   "sha256_at_open": "2b25eeb18f33bc0a04c54bb0d153e33e8050fcea488ecfc3950e78182447822f",
+   "sha256_at_close": "2b25eeb18f33bc0a04c54bb0d153e33e8050fcea488ecfc3950e78182447822f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/zip.js",
+   "sha256_at_open": "e6c37448ec9c8bbd51cd9edafb9d949ed9cf94e1d9d2453e245bb2ba6d6eab76",
+   "sha256_at_close": "e6c37448ec9c8bbd51cd9edafb9d949ed9cf94e1d9d2453e245bb2ba6d6eab76"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/jszip-3.10.2.min.js",
+   "sha256_at_open": "7f839b2d4688b845c105ebf5d2f9803075f91ea0fe72bdaac176c3a04dd3d2c1",
+   "sha256_at_close": "7f839b2d4688b845c105ebf5d2f9803075f91ea0fe72bdaac176c3a04dd3d2c1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/posthog-js-1.444.2.LICENSE.txt",
+   "sha256_at_open": "d3fb92ac01f0bef4078f89aac9f20f76da3383ad45becf6204abdf5495f43f8f",
+   "sha256_at_close": "d3fb92ac01f0bef4078f89aac9f20f76da3383ad45becf6204abdf5495f43f8f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/posthog-js-1.444.2.module.slim.no-external.js",
+   "sha256_at_open": "f5f293375ced7f5be1cf1cba68bf5d8267d3e38b61a42b2bcba58bf4ad485eb7",
+   "sha256_at_close": "f5f293375ced7f5be1cf1cba68bf5d8267d3e38b61a42b2bcba58bf4ad485eb7"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_segments.mjs",
+   "sha256_at_open": "e96058e6bdef5f9d0a84b2679718ac765456cc5417a264b58fd4e4b182b4dd98",
+   "sha256_at_close": "e96058e6bdef5f9d0a84b2679718ac765456cc5417a264b58fd4e4b182b4dd98"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/events-sink.mjs",
+   "sha256_at_open": "cf83adb3da8082ae6e0e3090b0bc7674ef10421288a4c959d5e4dd530508a950",
+   "sha256_at_close": "cf83adb3da8082ae6e0e3090b0bc7674ef10421288a4c959d5e4dd530508a950"
+  }
+ ],
+ "released": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_zip.mjs",
+   "sha256_at_open": "083933613172188870b51c791d98bf847e73f9e2c7ed6cc18f6d97ad11225861",
+   "released": "2026-11-03T21:54:25",
+   "why": "never changed here; rnd-fd needs it (.wt/build-zip-assets) to copy tokens/components/fonts into the apartment dist"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/apartment-3d.js",
+   "sha256_at_open": "e74df68ee05d908bc3b32a7df8ad9a045c499d5c8e346fc8617ee5b917ef1e8a",
+   "released": "2026-11-03T22:05:31",
+   "why": "never changed here (card 16 kept it untouched); rnd-fd board dollhouse-in-tour needs it"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/CLAUDE.md",
+   "sha256_at_open": "a8e1ffaa14ebd6d3a314b06c21cf796e21598d185de593729b2929bbc7646181",
+   "released": "2026-11-03T23:15:39",
+   "why": "reconciled at close: unchanged here; the live copy is newer (rnd-fd generate-cards refresh 19:42) — the live version is kept"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/CLAUDE.md",
+   "sha256_at_open": "388c278e12d23c5fd83beb628d9a88df7207e1e304406b97b4f2109fb6a7f575",
+   "released": "2026-11-03T23:15:39",
+   "why": "reconciled at close: unchanged here; the live copy is newer (rnd-fd generate-cards refresh 19:42) — the live version is kept"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/CLAUDE.md",
+   "sha256_at_open": "2d614e7acc00147c504fd3f1dd6c8e8ab7760f316d99e16fe501cc5925bd1713",
+   "released": "2026-11-03T23:15:39",
+   "why": "reconciled at close: unchanged here; the live copy is newer (rnd-fd generate-cards refresh 19:42) — the live version is kept"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/CLAUDE.md",
+   "sha256_at_open": "2d8cc6ec6df91efcade5af7cea42105bb2965bdbdb17d0380147add4b70efa8a",
+   "released": "2026-11-03T23:15:39",
+   "why": "reconciled at close: unchanged here; the live copy is newer (rnd-fd generate-cards refresh 19:42) — the live version is kept"
+  }
+ ],
+ "closed": "2026-11-04T10:35:14"
+}

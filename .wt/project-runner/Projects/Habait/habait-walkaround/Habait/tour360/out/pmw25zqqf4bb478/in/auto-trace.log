@@ -1,0 +1,34 @@
+[auto-trace 7s] plan 1: 3156×4257 (page 1)
+[auto-trace 8s] auto_prep: sheet mode (saturated 0.00 %), unchanged
+[auto-trace 23s] read: $0.0109
+[auto-trace 23s] scale 3.292 px/cm (guessed from 6 room boxes vs printed dims, then fitted); 10 seeds, 10 fixtures read
+[auto-trace 33s] r1 auto_split: 10 seeds, 13 boundary lines, wall angle 17.5, 5 notes
+[auto-trace 33s] r1 note: envelope closing 120 cm (95 % of the walls' hull)
+[auto-trace 33s] r1 note: envelope: 67.9 m� closed footprint, 3 gap line(s) on its outline
+[auto-trace 33s] r1 note: entrance: label outside the building, moved 34 cm inside
+[auto-trace 33s] r1 note: master-bathroom: its printed [212, 210] cm rectangle fits the drawing only 83 %
+[auto-trace 33s] r1 note: master-bedroom: its printed [348, 344] cm rectangle fits the drawing only 67 %
+[auto-trace 77s] r1 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\plan-1\plan.general.json: 10 rooms, 7 wall pieces, 6 openings, 11 panes, 10 cameras, 0 fixtures
+[auto-trace 82s] r1 auto_rooms: 4 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 10 rooms (axis 17.5 deg), 8 printed rectangles, 6 snapped; 3 notes
+[auto-trace 107s] r1 auto_finalize: 10 rooms, 10 fixtures, wall angle 17.5 deg, scale 3.2741 px/cm (fit x0.9946), 7 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\plan-1\overlay.png
+[auto-trace 107s] r1 trace_check: FAIL � 53/72 checks pass; corrections: force_rect ['bedroom', 'master-bathroom', 'sun-terrace']
+[auto-trace 107s] r1 correcting: re-seed bedroom, master-bathroom, sun-terrace from their printed rectangles, re-cut the open space
+[auto-trace 110s] r2 auto_split: 11 seeds, 18 boundary lines, wall angle 17.5, 8 notes
+[auto-trace 110s] r2 note: envelope closing 120 cm (95 % of the walls' hull)
+[auto-trace 110s] r2 note: envelope: 67.9 m� closed footprint, 3 gap line(s) on its outline
+[auto-trace 110s] r2 note: entrance: label outside the building, moved 34 cm inside
+[auto-trace 110s] r2 note: bedroom: its printed [275, 342] cm rectangle fits the drawing only 47 %
+[auto-trace 110s] r2 note: sun-terrace: its printed [270, 474] cm rectangle fits the drawing only 55 %
+[auto-trace 110s] r2 note: hall-auto-40: 3.3 m� of open space carried no label; made a hall
+[auto-trace 110s] r2 note: master-bathroom: its printed [212, 210] cm rectangle fits the drawing only 83 %
+[auto-trace 110s] r2 note: master-bedroom: its printed [348, 344] cm rectangle fits the drawing only 67 %
+[auto-trace 166s] r2 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\plan-1\plan.general.json: 11 rooms, 7 wall pieces, 5 openings, 10 panes, 11 cameras, 0 fixtures
+[auto-trace 172s] r2 auto_rooms: 4 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 10 rooms (axis 17.5 deg), 8 printed rectangles, 6 snapped; 3 notes
+[auto-trace 202s] r2 auto_finalize: 10 rooms, 10 fixtures, wall angle 17.5 deg, scale 3.2741 px/cm (fit x0.9946), 8 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\plan-1\overlay.png
+[auto-trace 202s] r2 trace_check: FAIL � 53/72 checks pass; corrections: force_rect ['bedroom', 'master-bathroom', 'sun-terrace']
+[auto-trace 202s] r2 no further correction applies
+[auto-trace 217s] judge: $0.0086
+[auto-trace 217s] plan 1: FAIL after 2 round(s) — 19 mechanical failure(s), judge 5 mismatch(es)
+[auto-trace 217s] done: FAIL — plan-1 FAIL; $0.0195 → C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\index.json

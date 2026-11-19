@@ -1,0 +1,422 @@
+{
+ "arcs": [
+  {
+   "hinge_px": [
+    137.2,
+    2313.8
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 105,
+   "a0_deg": 340,
+   "a1_deg": 85,
+   "chord_px": [
+    [
+     137.2,
+     2313.8
+    ],
+    [
+     281.2,
+     2261.4
+    ]
+   ],
+   "leaf_px": [
+    150.6,
+    2466.3
+   ],
+   "wall_hits": 8,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    338.2,
+    2591.2
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 115,
+   "a0_deg": 215,
+   "a1_deg": 330,
+   "chord_px": [
+    [
+     338.2,
+     2591.2
+    ],
+    [
+     212.8,
+     2503.4
+    ]
+   ],
+   "leaf_px": [
+    470.9,
+    2514.7
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    123.8,
+    2436.8
+   ],
+   "r_px": 149.9,
+   "r_cm": 106.8,
+   "span_deg": 110,
+   "a0_deg": 280,
+   "a1_deg": 30,
+   "chord_px": [
+    [
+     123.8,
+     2436.8
+    ],
+    [
+     149.8,
+     2289.2
+    ]
+   ],
+   "leaf_px": [
+    253.5,
+    2511.7
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    158.2,
+    2465.2
+   ],
+   "r_px": 148.2,
+   "r_cm": 105.6,
+   "span_deg": 110,
+   "a0_deg": 270,
+   "a1_deg": 20,
+   "chord_px": [
+    [
+     158.2,
+     2465.2
+    ],
+    [
+     158.2,
+     2317.1
+    ]
+   ],
+   "leaf_px": [
+    297.5,
+    2515.9
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    65.2,
+    2372.2
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 110,
+   "a0_deg": 305,
+   "a1_deg": 55,
+   "chord_px": [
+    [
+     65.2,
+     2372.2
+    ],
+    [
+     153.1,
+     2246.8
+    ]
+   ],
+   "leaf_px": [
+    153.1,
+    2497.7
+   ],
+   "wall_hits": 5,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    219.8,
+    2543.2
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 105,
+   "a0_deg": 245,
+   "a1_deg": 350,
+   "chord_px": [
+    [
+     219.8,
+     2543.2
+    ],
+    [
+     155.0,
+     2404.4
+    ]
+   ],
+   "leaf_px": [
+    370.6,
+    2516.7
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    500.2,
+    2594.2
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 115,
+   "a0_deg": 210,
+   "a1_deg": 325,
+   "chord_px": [
+    [
+     500.2,
+     2594.2
+    ],
+    [
+     367.6,
+     2517.7
+    ]
+   ],
+   "leaf_px": [
+    625.7,
+    2506.4
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    429.8,
+    2598.8
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 120,
+   "a0_deg": 210,
+   "a1_deg": 330,
+   "chord_px": [
+    [
+     429.8,
+     2598.8
+    ],
+    [
+     297.1,
+     2522.2
+    ]
+   ],
+   "leaf_px": [
+    562.4,
+    2522.2
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    276.8,
+    2592.8
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 110,
+   "a0_deg": 220,
+   "a1_deg": 330,
+   "chord_px": [
+    [
+     276.8,
+     2592.8
+    ],
+    [
+     159.4,
+     2494.3
+    ]
+   ],
+   "leaf_px": [
+    409.4,
+    2516.2
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    638.2,
+    2592.8
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 125,
+   "a0_deg": 205,
+   "a1_deg": 330,
+   "chord_px": [
+    [
+     638.2,
+     2592.8
+    ],
+    [
+     499.4,
+     2528.0
+    ]
+   ],
+   "leaf_px": [
+    770.9,
+    2516.2
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    1392.8,
+    828.8
+   ],
+   "r_px": 146.6,
+   "r_cm": 104.4,
+   "span_deg": 125,
+   "a0_deg": 120,
+   "a1_deg": 245,
+   "chord_px": [
+    [
+     1392.8,
+     828.8
+    ],
+    [
+     1319.5,
+     955.7
+    ]
+   ],
+   "leaf_px": [
+    1330.8,
+    695.9
+   ],
+   "wall_hits": 0,
+   "rooms": [
+    "r-living-room",
+    null
+   ],
+   "added_opening": "o-arc-11"
+  },
+  {
+   "hinge_px": [
+    182.2,
+    2508.8
+   ],
+   "r_px": 141.6,
+   "r_cm": 100.9,
+   "span_deg": 105,
+   "a0_deg": 260,
+   "a1_deg": 5,
+   "chord_px": [
+    [
+     182.2,
+     2508.8
+    ],
+    [
+     157.7,
+     2369.3
+    ]
+   ],
+   "leaf_px": [
+    323.3,
+    2521.1
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    591.8,
+    2607.8
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 105,
+   "a0_deg": 215,
+   "a1_deg": 320,
+   "chord_px": [
+    [
+     591.8,
+     2607.8
+    ],
+    [
+     466.3,
+     2519.9
+    ]
+   ],
+   "leaf_px": [
+    709.1,
+    2509.3
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    1136.2,
+    2622.8
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 90,
+   "a0_deg": 225,
+   "a1_deg": 315,
+   "chord_px": [
+    [
+     1136.2,
+     2622.8
+    ],
+    [
+     1244.5,
+     2514.5
+    ]
+   ],
+   "leaf_px": [
+    1028.0,
+    2514.5
+   ],
+   "wall_hits": 4,
+   "rooms": [
+    null,
+    null
+   ],
+   "problem": "neither side lies in a traced room"
+  },
+  {
+   "hinge_px": [
+    117.8,
+    2270.2
+   ],
+   "r_px": 153.1,
+   "r_cm": 109.2,
+   "span_deg": 80,
+   "a0_deg": 355,
+   "a1_deg": 75,
+   "chord_px": [
+    [
+     117.8,
+     2270.2
+    ],
+    [
+     270.3,
+     2256.9
+    ]
+   ],
+   "leaf_px": [
+    157.4,
+    2418.2
+   ],
+   "wall_hits": 8,
+   "ignored": "outside the building envelope (not a door)"
+  }
+ ],
+ "added": 1,
+ "entrance": {
+  "opening": "o-2",
+  "dist_to_label_cm": 112.3
+ }
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "habait.apartment-page.v0",
+  "generated": "2026-11-04T05:26:35.294Z",
+  "version": "0.1.20261104",
+  "project": {
+    "id": "rainbow",
+    "name": {
+      "he": "Rainbow תל אביב",
+      "en": "Rainbow Tel Aviv"
+    },
+    "tagline": {
+      "he": "מגדל מגורים על קו הים · הדמיה",
+      "en": "Seafront residential tower · concept"
+    },
+    "developer": {
+      "he": "יזם (השם מוסתר עד אישור)",
+      "en": "Developer (name withheld until approved)"
+    },
+    "brand": {
+      "logo": "media/logo.svg",
+      "primary": "#0f5c8f",
+      "accent": "#f2a900",
+      "background": "#0b1220"
+    },
+    "leads": {
+      "whatsapp_number": "972500000000",
+      "agent": null,
+      "email": null
+    },
+    "exterior": {
+      "mode": "external",
+      "url": "http://127.0.0.1:8899/",
+      "params": {
+        "tour": "http://127.0.0.1:8848/?scope=apartment&room=terraceLiving&floor=parquet&video=0",
+        "from": "platform"
+      },
+      "intro": {
+        "clip": "orbit_real.mp4",
+        "mode": "inline",
+        "note": "Step 1: Kling 4.0 v2v over the Blender clay orbit (Habait/flyover/orbit, 2026-11-02 15:37): one clockwise 14 s orbit at 228 m + 3 s descent, ends at the node-b-tower pose where the hold opens; 17.0 s, 1280x720. mode inline (Eliran 15:55: no loading screen between the video and the hold): the card links straight to the hold viewer with ?orbit=<clip url>, and the viewer plays the clip full-screen while its scene loads behind it; mode absent = intro.html plays the clip, then navigates. Previous interim clip: intro-approach-interim.mp4."
+      },
+      "alt": {
+        "label": {
+          "he": "גרסת תחנות 360 (גיבוי)",
+          "en": "360-node version (fallback)"
+        },
+        "url": "http://127.0.0.1:8848/",
+        "params": {
+          "from": "platform"
+        }
+      },
+      "note": "Eliran's rulings 2026-11-02: step 1 = rendered orbit VIDEO (Habait/flyover/orbit, ends at node-b-tower pose); step 2 = :8899 three.js hold at node-b (photoreal node-b 360 as sphere, picker pills per unit, click -> PBR flight to the terrace), presentable again since 13:50 (habait-89); step 3 = :8848 ?scope=apartment photoreal 360 of the apartment. :8848 node chain = fallback for step 2. flow.json = internal placeholder player and the reference UX."
+    },
+    "fixture": true,
+    "currency": "ILS",
+    "analytics": {
+      "posthog_host": "https://us.i.posthog.com",
+      "whatsapp_viewed_line": false
+    }
+  },
+  "unit": {
+    "id": "846",
+    "floor": 16,
+    "type": "L",
+    "rooms": 4,
+    "area_m2": 118,
+    "outdoor_m2": 22,
+    "price": 7950000,
+    "status": "for-sale",
+    "tour_url": "http://127.0.0.1:8848/?scope=apartment&room=terraceLiving&floor=parquet&video=0&return=http://127.0.0.1:8899/?from=platform%26project=rainbow",
+    "note": "the real apartment of the pitch (sales plan DBLK 15.10.2025); descend-846 / enter-846 exist in flow.json",
+    "currency": "ILS"
+  },
+  "tour": {
+    "url": "http://127.0.0.1:8848/?scope=apartment&room=terraceLiving&floor=parquet&video=0&return=http://127.0.0.1:8899/?from=platform%26project=rainbow",
+    "scope": "apartment",
+    "rooms": 0,
+    "hold": null
+  },
+  "back": {
+    "url": "http://127.0.0.1:8899/?tour=http%3A%2F%2F127.0.0.1%3A8848%2F%3Fscope%3Dapartment%26room%3DterraceLiving%26floor%3Dparquet%26video%3D0&from=platform&project=rainbow"
+  },
+  "plan": null,
+  "panos": [],
+  "stills": [],
+  "glb": null,
+  "minimap": null,
+  "legal": {
+    "short": {
+      "he": "הדמיה להמחשה בלבד. הופקה בסיוע בינה מלאכותית מתכנית המכר של דירה 846, Rainbow תל אביב, מיום {PLAN_DATE}. המסמכים המחייבים הם המפרט והתכניות החתומים. ריהוט, גימורים ונוף להמחשה.",
+      "en": "Illustration only. Generated with AI assistance from the sales plan of unit 846, Rainbow Tel Aviv, dated {PLAN_DATE}. The binding documents are the signed specification and plans. Furniture, finishes and views are illustrative."
+    },
+    "full": {
+      "he": "הדמיה להמחשה בלבד.\nההדמיה הופקה על ידי Habait עבור יזם (השם מוסתר עד אישור) בסיוע כלי בינה מלאכותית, על בסיס תכנית המכר של דירה 846 בפרויקט Rainbow תל אביב מיום {PLAN_DATE} (אדריכל: {ARCHITECT}). הגאומטריה של הדירה (חדרים, קירות, פתחים) נגזרה מתכנית המכר; מראה החומרים, התאורה, הריהוט, האביזרים, הצמחייה, האנשים והנוף הם פרשנות חזותית ואינם חלק מהממכר.\nהמסמכים המחייבים הם אך ורק המפרט הטכני (לפי חוק המכר (דירות), תשל\"ג-1973, וצו מכר דירות (טופס של מפרט), תשל\"ד-1974) והתכניות החתומות המצורפות לחוזה המכר. בכל סתירה בין ההדמיה לבין המפרט והתכניות, המפרט והתכניות גוברים.\nריהוט, גימורים, כלים סניטריים, מטבח, ארונות, תאורה ואביזרים אינם כלולים בדירה אלא אם נאמר במפורש במפרט. גוונים, חומרים ופריטים שמופיעים בהדמיה עשויים להיות שונים מאלה שיסופקו בפועל.\nשטחים ומידות הם לפי תכניות היזם והמפרט; המידות בהדמיה מוצגות באופן מקורב ואינן מהוות מדידה. מיקום עמודים, קורות, פירים ומערכות עשוי להשתנות בהתאם לתכנון המפורט ולהוראות כל דין.\nהסביבה, הבניינים השכנים, הנוף והתאורה הטבעית מוצגים להמחשה בלבד ואינם מתחייבים.\nהופק: 2026-11-04, גרסה 0.1.20261104. גילוי: חלקים מההדמיה נוצרו או עובדו באמצעות בינה מלאכותית.",
+      "en": "Illustration only.\nThis visualization was produced by Habait for Developer (name withheld until approved) with the assistance of artificial-intelligence tools, based on the sales plan of unit 846 in Rainbow Tel Aviv dated {PLAN_DATE} (architect: {ARCHITECT}). The apartment geometry (rooms, walls, openings) is derived from the sales plan; materials, lighting, furniture, accessories, vegetation, people and views are a visual interpretation and are not part of the property sold.\nThe binding documents are solely the technical specification (under the Sale (Apartments) Law, 5733-1973, and the Sale (Apartments) (Specification Form) Order, 5734-1974) and the signed plans attached to the sale agreement. In any discrepancy between this visualization and the specification and plans, the specification and plans prevail.\nFurniture, finishes, sanitary fixtures, kitchen, closets, lighting and accessories are not included unless expressly stated in the specification. Colours, materials and items shown may differ from those actually supplied.\nAreas and dimensions are per the developer's plans and specification; dimensions in the visualization are approximate and do not constitute a measurement. The location of columns, beams, shafts and building systems may change according to the detailed design and applicable law.\nSurroundings, neighbouring buildings, views and natural light are shown for illustration only and are not guaranteed.\nProduced 2026-11-04, version 0.1.20261104. Disclosure: parts of this visualization were created or processed using artificial intelligence."
+    },
+    "status": "DRAFT v0 (2026-11-02), ממתין לחוות דעת עו״ד / pending legal review",
+    "source": "C:/RnD/Projects/Habait/data/sales-plans/legal/disclaimer-he-en.md"
+  },
+  "zip": {
+    "src": "846.zip",
+    "name": "rainbow-846.zip",
+    "bytes": 2864,
+    "files": 2,
+    "sha256": "0352c13c4096d9d58e706e3b30f70a2fe999269be0f599d84c9d5d5c8ecd5a6b"
+  }
+}

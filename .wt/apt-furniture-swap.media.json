@@ -1,0 +1,51 @@
+{
+ "worktree": "C:\\RnD\\.wt\\apt-furniture-swap",
+ "links": [
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\_local",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\plan\\floorplan.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\plan\\floorplan.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\demo-01\\plan\\floorplan.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\demo-01\\plan\\floorplan.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\platform\\_local",
+   "kind": "copydir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\platform\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\engine\\_local",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\engine\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\platform\\node_modules",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\platform\\node_modules"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\studio\\node_modules",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\node_modules"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\engine\\node_modules",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\engine\\node_modules"
+  }
+ ],
+ "copied_from": "fix-disclosure-badge.media.json"
+}

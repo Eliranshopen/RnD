@@ -1,0 +1,13 @@
+{
+ "name": "workflow-cleanup",
+ "purpose": "plan workflow-cleanup step 3: the project's plan-to-tasks copy becomes a pointer to the root skill",
+ "opened": "2026-11-04T11:32:21",
+ "files": [
+  {
+   "path": "Projects/Habait/.claude/skills/plan-to-tasks/SKILL.md",
+   "sha256_at_open": "4d98f47649ff6127cdab8aa246ef4af9f05d0de44ffc5459e9b8773407b285a4",
+   "sha256_at_close": "c79e1c29a954c6e598f661a5d18fa1f6bdc2f688c5371904ee60be5b6bd15b60"
+  }
+ ],
+ "closed": "2026-11-04T11:32:36"
+}

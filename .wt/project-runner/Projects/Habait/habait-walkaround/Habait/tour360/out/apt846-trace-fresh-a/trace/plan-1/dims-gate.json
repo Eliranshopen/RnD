@@ -1,0 +1,1037 @@
+{
+ "bar_pct": 1.0,
+ "ppc_true": 2.2677,
+ "measurement": "printed_dimensions.measure (one rule, fork A b066848)",
+ "dimension_lines": 30,
+ "gated_rows": 17,
+ "rows": [
+  {
+   "line": "pdf#1",
+   "kind": "room",
+   "room": "r-bedroom-main",
+   "fixture": null,
+   "printed_cm": 347.7,
+   "hand_cm": 347.4,
+   "hand_pct": 0.1,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-master-bedroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 347.9,
+   "auto_pct": 0.06,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#2",
+   "kind": "room",
+   "room": "r-wardrobe",
+   "fixture": null,
+   "printed_cm": 160.0,
+   "hand_cm": 159.9,
+   "hand_pct": 0.08,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-wardrobe-area",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 160.5,
+   "auto_pct": 0.56,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#2/w-closet-1",
+   "kind": "fixture",
+   "room": "r-wardrobe",
+   "fixture": "w-closet-1",
+   "printed_cm": 160.0,
+   "hand_cm": 159.6,
+   "hand_pct": 0.27,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-wardrobe-area",
+   "auto_fixture": "fx-drawn-14-wardrobe",
+   "auto_kind": "fixture",
+   "auto_cm": 159.1,
+   "auto_pct": 0.58,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#3",
+   "kind": "room",
+   "room": "r-bath-main",
+   "fixture": null,
+   "printed_cm": 210.0,
+   "hand_cm": 210.3,
+   "hand_pct": 0.13,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-master-bathroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 211.0,
+   "auto_pct": 0.48,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#3/bm-shower",
+   "kind": "fixture",
+   "room": "r-bath-main",
+   "fixture": "bm-shower",
+   "printed_cm": 210.0,
+   "hand_cm": 209.6,
+   "hand_pct": 0.2,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-master-bathroom",
+   "auto_fixture": "fx-drawn-13-shower",
+   "auto_kind": "fixture",
+   "auto_cm": 208.5,
+   "auto_pct": 0.73,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#5",
+   "kind": "room",
+   "room": "r-bedroom-main",
+   "fixture": null,
+   "printed_cm": 343.6,
+   "hand_cm": 343.6,
+   "hand_pct": 0.03,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-master-bedroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 345.3,
+   "auto_pct": 0.5,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#6",
+   "kind": "room",
+   "room": "r-living",
+   "fixture": null,
+   "printed_cm": 744.3,
+   "hand_cm": 745.7,
+   "hand_pct": 0.19,
+   "hand_pass": true,
+   "open_plan": true,
+   "auto_room": "r-dining-area",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 745.4,
+   "auto_pct": 0.16,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#8",
+   "kind": "room",
+   "room": "r-living",
+   "fixture": null,
+   "printed_cm": 529.5,
+   "hand_cm": 528.4,
+   "hand_pct": 0.21,
+   "hand_pass": true,
+   "open_plan": true,
+   "auto_room": "r-living-room",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 529.2,
+   "auto_pct": 0.06,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#9",
+   "kind": "fixture",
+   "room": "r-wardrobe",
+   "fixture": "w-closet-2",
+   "printed_cm": 185.0,
+   "hand_cm": 184.4,
+   "hand_pct": 0.33,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-master-bedroom",
+   "auto_fixture": "fx-drawn-15-wardrobe",
+   "auto_kind": "fixture",
+   "auto_cm": 184.0,
+   "auto_pct": 0.53,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#10",
+   "kind": "room",
+   "room": "r-bath-main",
+   "fixture": null,
+   "printed_cm": 212.5,
+   "hand_cm": 212.5,
+   "hand_pct": 0.09,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-master-bathroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 211.7,
+   "auto_pct": 0.61,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#25",
+   "kind": "room",
+   "room": "r-bedroom-2",
+   "fixture": null,
+   "printed_cm": 275.0,
+   "hand_cm": 275.2,
+   "hand_pct": 0.08,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-bedroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 275.9,
+   "auto_pct": 0.36,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#27",
+   "kind": "room",
+   "room": "r-bedroom-2",
+   "fixture": null,
+   "printed_cm": 342.2,
+   "hand_cm": 342.2,
+   "hand_pct": 0.01,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-bedroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 342.9,
+   "auto_pct": 0.22,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#28",
+   "kind": "room",
+   "room": "r-bath-guest",
+   "fixture": null,
+   "printed_cm": 199.1,
+   "hand_cm": 199.7,
+   "hand_pct": 0.29,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-bathroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 199.6,
+   "auto_pct": 0.25,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#29",
+   "kind": "room",
+   "room": "r-bath-guest",
+   "fixture": null,
+   "printed_cm": 140.0,
+   "hand_cm": 139.7,
+   "hand_pct": 0.23,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-bathroom",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 140.0,
+   "auto_pct": 0.07,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#29/bg-shower",
+   "kind": "fixture",
+   "room": "r-bath-guest",
+   "fixture": "bg-shower",
+   "printed_cm": 140.0,
+   "hand_cm": 140.0,
+   "hand_pct": 0.09,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-bathroom",
+   "auto_fixture": "fx-drawn-12-shower",
+   "auto_kind": "fixture",
+   "auto_cm": 141.1,
+   "auto_pct": 0.82,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#32",
+   "kind": "room",
+   "room": "r-terrace-living",
+   "fixture": null,
+   "printed_cm": 474.2,
+   "hand_cm": 473.9,
+   "hand_pct": 0.07,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-sun-terrace",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 474.7,
+   "auto_pct": 0.11,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  },
+  {
+   "line": "pdf#33",
+   "kind": "room",
+   "room": "r-terrace-living",
+   "fixture": null,
+   "printed_cm": 270.1,
+   "hand_cm": 270.1,
+   "hand_pct": 0.0,
+   "hand_pass": true,
+   "open_plan": false,
+   "auto_room": "r-sun-terrace",
+   "auto_fixture": null,
+   "auto_kind": "room",
+   "auto_cm": 270.1,
+   "auto_pct": 0.0,
+   "auto_verdict": "PASS",
+   "auto_pass": true
+  }
+ ],
+ "hand_untied_or_outline": [
+  {
+   "id": "pdf#7",
+   "printed_cm": 243.9,
+   "a_cm": [
+    782.6,
+    1584.2
+   ],
+   "b_cm": [
+    704.1,
+    1815.1
+   ],
+   "drawn_cm": 243.9,
+   "drawn_pct": -0.01,
+   "ends": [
+    {
+     "offset_cm": -3.2,
+     "feature": "corner of wall w-15",
+     "on": "wall w-15"
+    },
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#12",
+   "printed_cm": 525.1,
+   "a_cm": [
+    816.1,
+    1642.2
+   ],
+   "b_cm": [
+    319.0,
+    1473.2
+   ],
+   "drawn_cm": 525.1,
+   "drawn_pct": -0.01,
+   "ends": [
+    {
+     "offset_cm": -1.6,
+     "feature": "crosses loop r-terrace-bedroom",
+     "on": "loop r-terrace-bedroom"
+    },
+    {
+     "offset_cm": -1.1,
+     "feature": "corner of wall w-15",
+     "on": "wall w-15"
+    }
+   ],
+   "kind": "outline",
+   "room": null,
+   "trace_cm": 525.5,
+   "trace_pct": 0.08,
+   "face_a_cm": [
+    817.6,
+    1642.7
+   ],
+   "face_b_cm": [
+    320.1,
+    1473.6
+   ],
+   "pct": 0.3,
+   "verdict": "REPORTED"
+  },
+  {
+   "id": "pdf#13",
+   "printed_cm": 165.2,
+   "a_cm": [
+    309.6,
+    1470.0
+   ],
+   "b_cm": [
+    153.2,
+    1416.8
+   ],
+   "drawn_cm": 165.2,
+   "drawn_pct": 0.0,
+   "ends": [
+    {
+     "offset_cm": 1.7,
+     "feature": "corner of wall w-29",
+     "on": "wall w-29"
+    },
+    {
+     "offset_cm": -39.0,
+     "feature": "corner of wall w-8",
+     "on": "wall w-8"
+    }
+   ],
+   "kind": "outline",
+   "room": null,
+   "trace_cm": 124.5,
+   "trace_pct": -24.62,
+   "face_a_cm": [
+    308.0,
+    1469.5
+   ],
+   "face_b_cm": [
+    190.1,
+    1429.4
+   ],
+   "pct": 24.62,
+   "verdict": "REPORTED"
+  },
+  {
+   "id": "pdf#14",
+   "printed_cm": 275.8,
+   "a_cm": [
+    206.5,
+    1388.2
+   ],
+   "b_cm": [
+    117.6,
+    1649.3
+   ],
+   "drawn_cm": 275.8,
+   "drawn_pct": 0.01,
+   "ends": [
+    {
+     "offset_cm": -2.6,
+     "feature": "corner of wall w-29",
+     "on": "wall w-29"
+    },
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#15",
+   "printed_cm": 151.9,
+   "a_cm": [
+    160.2,
+    1672.7
+   ],
+   "b_cm": [
+    111.3,
+    1816.6
+   ],
+   "drawn_cm": 151.9,
+   "drawn_pct": 0.02,
+   "ends": [
+    null,
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#16",
+   "printed_cm": 133.6,
+   "a_cm": [
+    850.9,
+    1691.0
+   ],
+   "b_cm": [
+    807.8,
+    1817.5
+   ],
+   "drawn_cm": 133.7,
+   "drawn_pct": 0.04,
+   "ends": [
+    {
+     "offset_cm": 0.0,
+     "feature": "inside wall w-end-screen",
+     "on": "wall w-end-screen"
+    },
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#19",
+   "printed_cm": 55.2,
+   "a_cm": [
+    861.2,
+    1749.9
+   ],
+   "b_cm": [
+    809.0,
+    1732.2
+   ],
+   "drawn_cm": 55.2,
+   "drawn_pct": -0.01,
+   "ends": [
+    null,
+    {
+     "offset_cm": 25.2,
+     "feature": "corner of wall w-end-screen",
+     "on": "wall w-end-screen"
+    }
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#20",
+   "printed_cm": 93.2,
+   "a_cm": [
+    809.0,
+    1732.2
+   ],
+   "b_cm": [
+    720.7,
+    1702.2
+   ],
+   "drawn_cm": 93.2,
+   "drawn_pct": -0.01,
+   "ends": [
+    {
+     "offset_cm": 25.2,
+     "feature": "corner of wall w-end-screen",
+     "on": "wall w-end-screen"
+    },
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#21",
+   "printed_cm": 608.6,
+   "a_cm": [
+    720.7,
+    1702.2
+   ],
+   "b_cm": [
+    144.5,
+    1506.3
+   ],
+   "drawn_cm": 608.6,
+   "drawn_pct": 0.01,
+   "ends": [
+    null,
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#22",
+   "printed_cm": 120.4,
+   "a_cm": [
+    144.5,
+    1506.3
+   ],
+   "b_cm": [
+    30.5,
+    1467.6
+   ],
+   "drawn_cm": 120.4,
+   "drawn_pct": -0.01,
+   "ends": [
+    null,
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#23",
+   "printed_cm": 439.1,
+   "a_cm": [
+    433.1,
+    317.3
+   ],
+   "b_cm": [
+    81.1,
+    54.9
+   ],
+   "drawn_cm": 439.1,
+   "drawn_pct": -0.0,
+   "ends": [
+    {
+     "offset_cm": -1.1,
+     "feature": "corner of wall w-19",
+     "on": "wall w-19"
+    },
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#24",
+   "printed_cm": 525.3,
+   "a_cm": [
+    502.2,
+    212.1
+   ],
+   "b_cm": [
+    81.1,
+    -101.9
+   ],
+   "drawn_cm": 525.3,
+   "drawn_pct": -0.0,
+   "ends": [
+    {
+     "offset_cm": -5.8,
+     "feature": "corner of wall w-33",
+     "on": "wall w-33"
+    },
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#26",
+   "printed_cm": 341.2,
+   "a_cm": [
+    456.1,
+    240.6
+   ],
+   "b_cm": [
+    252.2,
+    514.1
+   ],
+   "drawn_cm": 341.2,
+   "drawn_pct": -0.01,
+   "ends": [
+    {
+     "offset_cm": -1.4,
+     "feature": "corner of wall w-33",
+     "on": "wall w-33"
+    },
+    {
+     "offset_cm": 0.6,
+     "feature": "corner of wall w-34",
+     "on": "wall w-34"
+    }
+   ],
+   "kind": "outline",
+   "room": null,
+   "trace_cm": 343.1,
+   "trace_pct": 0.57,
+   "face_a_cm": [
+    456.9,
+    239.5
+   ],
+   "face_b_cm": [
+    251.9,
+    514.6
+   ],
+   "pct": 0.57,
+   "verdict": "REPORTED"
+  },
+  {
+   "id": "pdf#30",
+   "printed_cm": 207.6,
+   "a_cm": [
+    410.6,
+    175.6
+   ],
+   "b_cm": [
+    534.7,
+    9.1
+   ],
+   "drawn_cm": 207.6,
+   "drawn_pct": -0.02,
+   "ends": [
+    null,
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#31",
+   "printed_cm": 128.9,
+   "a_cm": [
+    80.2,
+    537.1
+   ],
+   "b_cm": [
+    209.1,
+    537.1
+   ],
+   "drawn_cm": 128.9,
+   "drawn_pct": -0.0,
+   "ends": [
+    null,
+    {
+     "offset_cm": -4.5,
+     "feature": "corner of wall w-9",
+     "on": "wall w-9"
+    }
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  },
+  {
+   "id": "pdf#34",
+   "printed_cm": 1212.7,
+   "a_cm": [
+    1619.0,
+    587.5
+   ],
+   "b_cm": [
+    1228.5,
+    1735.6
+   ],
+   "drawn_cm": 1212.7,
+   "drawn_pct": -0.0,
+   "ends": [
+    null,
+    null
+   ],
+   "kind": "outline",
+   "room": null,
+   "verdict": "UNTIED"
+  }
+ ],
+ "closed_rooms": [
+  "r-bath-guest",
+  "r-bath-main",
+  "r-bedroom-2",
+  "r-bedroom-main",
+  "r-terrace-living",
+  "r-wardrobe"
+ ],
+ "closed_rooms_hand_pass": 6,
+ "rows_hand_pass": 17,
+ "closed_rooms_auto_pass": 6,
+ "rows_auto_pass": 17,
+ "rooms_exist": {
+  "hand": 10,
+  "with_auto_counterpart": 10,
+  "missing": []
+ },
+ "floor_definition": "ONE floor rule on both sides (coordinator's ruling, option 1): the room loop minus ALL drawn counters and casework — the built-in appliance squares (closed 4-sided shapes 45-75 cm a side on the plumbing/casework layer) and the casework auto_finalize reads from that layer (counter runs, tall units, sinks, hobs, and the counter-depth panel beside a tall unit that ends a run): 3 square(s) + 7 casework shape(s) (of them 1 panel(s)), 4.80 m² in the open plan, subtracted from BOTH the hand and the auto region",
+ "open_plan": {
+  "hand_m2": 53.2,
+  "auto_m2": 53.43,
+  "area_err_pct": 0.44,
+  "outline_dev_pct": 4.29,
+  "pass": false,
+  "auto_only": [
+   {
+    "m2": 0.186,
+    "at_cm": [
+     1056,
+     979
+    ]
+   },
+   {
+    "m2": 0.134,
+    "at_cm": [
+     595,
+     505
+    ]
+   },
+   {
+    "m2": 0.128,
+    "at_cm": [
+     233,
+     1001
+    ]
+   },
+   {
+    "m2": 0.09,
+    "at_cm": [
+     476,
+     589
+    ]
+   },
+   {
+    "m2": 0.089,
+    "at_cm": [
+     1154,
+     544
+    ]
+   },
+   {
+    "m2": 0.085,
+    "at_cm": [
+     976,
+     1212
+    ]
+   }
+  ],
+  "hand_only": [
+   {
+    "m2": 0.376,
+    "at_cm": [
+     873,
+     1202
+    ]
+   },
+   {
+    "m2": 0.176,
+    "at_cm": [
+     859,
+     260
+    ]
+   },
+   {
+    "m2": 0.124,
+    "at_cm": [
+     632,
+     809
+    ]
+   },
+   {
+    "m2": 0.092,
+    "at_cm": [
+     1086,
+     434
+    ]
+   },
+   {
+    "m2": 0.073,
+    "at_cm": [
+     1155,
+     679
+    ]
+   },
+   {
+    "m2": 0.072,
+    "at_cm": [
+     442,
+     1098
+    ]
+   }
+  ]
+ },
+ "openings": {
+  "hand": 13,
+  "gated": 8,
+  "auto": 9,
+  "matched_within_15cm": 7,
+  "zone_splits_reported": [
+   "o-1",
+   "o-2",
+   "o-3",
+   "o-4",
+   "o-7"
+  ],
+  "rows": [
+   {
+    "id": "o-1",
+    "rooms": [
+     "r-entrance",
+     "r-living"
+    ],
+    "zone_split": true,
+    "width_cm": 432.4,
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-2",
+    "rooms": [
+     "r-kitchen",
+     "r-living"
+    ],
+    "zone_split": true,
+    "width_cm": 218,
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-3",
+    "rooms": [
+     "r-dining",
+     "r-kitchen"
+    ],
+    "zone_split": true,
+    "width_cm": 417.2,
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-4",
+    "rooms": [
+     "r-dining",
+     "r-living"
+    ],
+    "zone_split": true,
+    "width_cm": 249.5,
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-5",
+    "rooms": [
+     "r-living",
+     "r-terrace-living"
+    ],
+    "zone_split": false,
+    "width_cm": 186.1,
+    "matched": true,
+    "dist_cm": 3.7
+   },
+   {
+    "id": "o-6",
+    "rooms": [
+     "r-living",
+     "r-wardrobe"
+    ],
+    "zone_split": false,
+    "width_cm": 93.1,
+    "matched": true,
+    "dist_cm": 1.7
+   },
+   {
+    "id": "o-7",
+    "rooms": [
+     "r-terrace-bedroom",
+     "r-terrace-living"
+    ],
+    "zone_split": true,
+    "width_cm": 177.9,
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-8",
+    "rooms": [
+     "r-bedroom-main",
+     "r-wardrobe"
+    ],
+    "zone_split": false,
+    "width_cm": 159.8,
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-9",
+    "rooms": [
+     "r-bath-main",
+     "r-wardrobe"
+    ],
+    "zone_split": false,
+    "width_cm": 66.1,
+    "matched": true,
+    "dist_cm": 8.9
+   },
+   {
+    "id": "o-10",
+    "rooms": [
+     "r-bedroom-2",
+     "r-entrance"
+    ],
+    "zone_split": false,
+    "width_cm": 92.9,
+    "matched": true,
+    "dist_cm": 1.7
+   },
+   {
+    "id": "o-11",
+    "rooms": [
+     "r-bath-guest",
+     "r-entrance"
+    ],
+    "zone_split": false,
+    "width_cm": 60.4,
+    "matched": true,
+    "dist_cm": 4.1
+   },
+   {
+    "id": "o-12",
+    "rooms": [
+     "outside",
+     "r-entrance"
+    ],
+    "zone_split": false,
+    "width_cm": 110,
+    "matched": true,
+    "dist_cm": 0.3
+   },
+   {
+    "id": "o-13",
+    "rooms": [
+     "r-bedroom-main",
+     "r-terrace-bedroom"
+    ],
+    "zone_split": false,
+    "width_cm": 130.9,
+    "matched": true,
+    "dist_cm": 5.0
+   }
+  ]
+ },
+ "fixed_elements": {
+  "hand": 3,
+  "within_10cm": 3,
+  "rows": [
+   {
+    "id": "k-counter",
+    "kind": "counter",
+    "dist_cm": 0.1,
+    "pass": true
+   },
+   {
+    "id": "k-tall",
+    "kind": "tall_unit",
+    "dist_cm": 0.1,
+    "pass": true
+   },
+   {
+    "id": "k-counter-2",
+    "kind": "counter",
+    "dist_cm": 0.1,
+    "pass": true
+   }
+  ]
+ }
+}

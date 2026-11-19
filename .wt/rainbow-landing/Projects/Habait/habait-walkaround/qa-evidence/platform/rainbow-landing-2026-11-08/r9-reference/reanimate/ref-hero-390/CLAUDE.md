@@ -1,0 +1,31 @@
+# ref-hero-390/ — context file
+<!-- last-updated: 2026-11-09 -->
+<!-- generated-by: generate-cards.py · tables are facts from disk and regenerate; Purpose and Gotchas are kept as written -->
+
+## Purpose
+_Not written yet — one line on what this folder is for. Until then the parent context file's row for this folder is the description._
+
+## What's here (2026-11-09)
+6 files here · 3 subfolders · 88 files / 2.8 MB in the whole tree (vendor and build output excluded)
+
+| File | Size | Modified |
+|---|---|---|
+| `capture.json` | 823 B | 2026-11-09 |
+| `final.png` | 16.0 KB | 2026-11-09 |
+| `frames.json` | 379 B | 2026-11-09 |
+| `inspect.json` | 5.8 KB | 2026-11-09 |
+| `track.json` | 80.0 KB | 2026-11-09 |
+| `video.webm` | 116.3 KB | 2026-11-09 |
+
+## Subfolders
+| Folder | Card | Files in tree |
+|---|---|---|
+| `.video/` | [`.video/CLAUDE.md`](.video/CLAUDE.md) | 0 (0 B) |
+| `frames/` | [`frames/CLAUDE.md`](frames/CLAUDE.md) | 80 (2.3 MB) |
+| `sheets/` | [`sheets/CLAUDE.md`](sheets/CLAUDE.md) | 2 (344.7 KB) |
+
+## Gotchas
+_none recorded_
+
+## Links
+Parent: [../CLAUDE.md](../CLAUDE.md) · Root: [../../../CLAUDE.md](../../../CLAUDE.md) · Rule: root `CLAUDE.md` §8.6 · Full list: `docs/context-map.generated.md`

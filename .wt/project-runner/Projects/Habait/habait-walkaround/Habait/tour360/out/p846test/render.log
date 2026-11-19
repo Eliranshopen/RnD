@@ -1,0 +1,42 @@
+render_tour.mjs v0.1.0  tour=360walkaround/tours/p846test  mode=draft 1024x512@16spp  wrap-pad=512  points=11
+          golden depth fixture: golden: 32/32 pixels match; unknown-encoding refused: true | OK
+          scene: CLEAN — plan.json + the style lock + the material board + the generator scripts hash the same as the scene report (built 2026-11-04T15:43:02+00:00, checks 192/192)
+
+=== chunk 1/1: 11 point(s) ====================
+          === [1/11] cp-entrance =====================================
+          SKIP      cp-entrance: manifest input_key matches and outputs exist
+          === [2/11] cp-kitchen ======================================
+          SKIP      cp-kitchen: manifest input_key matches and outputs exist
+          === [3/11] cp-dining =======================================
+          SKIP      cp-dining: manifest input_key matches and outputs exist
+          === [4/11] cp-living =======================================
+          SKIP      cp-living: manifest input_key matches and outputs exist
+          === [5/11] cp-terraceLiving ================================
+          SKIP      cp-terraceLiving: manifest input_key matches and outputs exist
+          === [6/11] cp-terraceBedroom ===============================
+          SKIP      cp-terraceBedroom: manifest input_key matches and outputs exist
+          === [7/11] cp-bedroomMain ==================================
+          SKIP      cp-bedroomMain: manifest input_key matches and outputs exist
+          === [8/11] cp-wardrobe =====================================
+          SKIP      cp-wardrobe: manifest input_key matches and outputs exist
+          === [9/11] cp-bathMain =====================================
+          SKIP      cp-bathMain: manifest input_key matches and outputs exist
+          === [10/11] cp-bedroom2 =====================================
+          SKIP      cp-bedroom2: manifest input_key matches and outputs exist
+          === [11/11] cp-bathGuest ====================================
+          SKIP      cp-bathGuest: manifest input_key matches and outputs exist
+
+=== summary =================================================
+  OK   cp-entrance         SKIPPED  nadir 1.6 m (0 cm)  valid 100.00%  17 KB
+  OK   cp-kitchen          SKIPPED  nadir 1.6 m (0 cm)  valid 100.00%  25 KB
+  OK   cp-dining           SKIPPED  nadir 1.6 m (0 cm)  valid 100.00%  28 KB
+  OK   cp-living           SKIPPED  nadir 1.6 m (0 cm)  valid 100.00%  20 KB
+  OK   cp-terraceLiving    SKIPPED  nadir 1.6 m (0 cm)  valid 86.39%  33 KB
+  OK   cp-terraceBedroom    SKIPPED  nadir 1.6 m (0 cm)  valid 90.59%  28 KB
+  OK   cp-bedroomMain      SKIPPED  nadir 1.6 m (0 cm)  valid 99.54%  14 KB
+  OK   cp-wardrobe         SKIPPED  nadir 1.6 m (0 cm)  valid 99.74%  15 KB
+  OK   cp-bathMain         SKIPPED  nadir 1.58 m (-2 cm)  valid 100.00%  11 KB
+  OK   cp-bedroom2         SKIPPED  nadir 1.58 m (-2 cm)  valid 100.00%  16 KB
+  OK   cp-bathGuest        SKIPPED  nadir 1.6 m (0 cm)  valid 100.00%  15 KB
+  total 1.2 s · 0 rendered, 11 skipped · $0.00 · verdict PASS
+OK

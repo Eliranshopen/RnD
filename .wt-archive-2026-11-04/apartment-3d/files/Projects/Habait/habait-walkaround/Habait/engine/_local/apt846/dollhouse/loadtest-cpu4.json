@@ -1,0 +1,47 @@
+{
+  "glb": "apt846.glb",
+  "bytes": 177656,
+  "cpu_throttle": 4,
+  "model_viewer": "https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js",
+  "runs": {
+    "fast-4g": [
+      {
+        "ok": true,
+        "why": "load",
+        "ms": 2928
+      },
+      {
+        "ok": true,
+        "why": "load",
+        "ms": 5006
+      },
+      {
+        "ok": true,
+        "why": "load",
+        "ms": 3693
+      }
+    ],
+    "slow-4g": [
+      {
+        "ok": true,
+        "why": "load",
+        "ms": 4933
+      },
+      {
+        "ok": true,
+        "why": "load",
+        "ms": 3745
+      },
+      {
+        "ok": true,
+        "why": "load",
+        "ms": 3408
+      }
+    ]
+  },
+  "console_errors": [],
+  "median_ms": {
+    "fast-4g": 3693,
+    "slow-4g": 3745
+  }
+}

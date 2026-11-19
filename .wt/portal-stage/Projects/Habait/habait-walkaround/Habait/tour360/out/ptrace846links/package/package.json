@@ -1,0 +1,31 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "ptrace846links",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "apartment": {
+   "seconds": 0,
+   "plan": "Habait\\tour360\\out\\ptrace846\\trace\\plan-1\\plan.general.json",
+   "plan_sha256": "a3bb26727a0f49188d0ad819abb888c3cc710a448c419783c1464bf41021f621",
+   "rooms": 11,
+   "spec": "spec-apt846-auto.json",
+   "at": "2026-11-06T13:56:26.502Z"
+  },
+  "casework": {
+   "seconds": 2,
+   "symbols": 2,
+   "registration_cm": 0,
+   "tall_units": {
+    "fx-drawn-4-tall_unit": "fridge"
+   },
+   "at": "2026-11-06T13:56:28.851Z"
+  },
+  "cameras": {
+   "seconds": 2,
+   "scenes": 11,
+   "links": 24,
+   "orphans": [],
+   "at": "2026-11-06T13:56:47.098Z"
+  }
+ }
+}

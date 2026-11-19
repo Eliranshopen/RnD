@@ -1,0 +1,807 @@
+[
+ {
+  "dist": "catalog\\ai\\ai-arm-oak.jpg",
+  "same_as": null,
+  "bytes": 86188
+ },
+ {
+  "dist": "catalog\\ai\\ai-arm-rattan.jpg",
+  "same_as": null,
+  "bytes": 112289
+ },
+ {
+  "dist": "catalog\\ai\\ai-arm-velvet.jpg",
+  "same_as": null,
+  "bytes": 48843
+ },
+ {
+  "dist": "catalog\\ai\\ai-bed-boucle.jpg",
+  "same_as": null,
+  "bytes": 78379
+ },
+ {
+  "dist": "catalog\\ai\\ai-bed-linen.jpg",
+  "same_as": null,
+  "bytes": 49324
+ },
+ {
+  "dist": "catalog\\ai\\ai-bed-oak.jpg",
+  "same_as": null,
+  "bytes": 69835
+ },
+ {
+  "dist": "catalog\\ai\\ai-chair-cane.jpg",
+  "same_as": null,
+  "bytes": 77998
+ },
+ {
+  "dist": "catalog\\ai\\ai-chair-uphol.jpg",
+  "same_as": null,
+  "bytes": 65592
+ },
+ {
+  "dist": "catalog\\ai\\ai-coffee-marble.jpg",
+  "same_as": null,
+  "bytes": 34400
+ },
+ {
+  "dist": "catalog\\ai\\ai-coffee-walnut.jpg",
+  "same_as": null,
+  "bytes": 50330
+ },
+ {
+  "dist": "catalog\\ai\\ai-dining-oak.jpg",
+  "same_as": null,
+  "bytes": 49294
+ },
+ {
+  "dist": "catalog\\ai\\ai-dining-round.jpg",
+  "same_as": null,
+  "bytes": 28078
+ },
+ {
+  "dist": "catalog\\ai\\ai-lamp-arc.jpg",
+  "same_as": null,
+  "bytes": 26392
+ },
+ {
+  "dist": "catalog\\ai\\ai-lamp-paper.jpg",
+  "same_as": null,
+  "bytes": 33544
+ },
+ {
+  "dist": "catalog\\ai\\ai-rug-berber.jpg",
+  "same_as": null,
+  "bytes": 105612
+ },
+ {
+  "dist": "catalog\\ai\\ai-sofa-boucle.jpg",
+  "same_as": null,
+  "bytes": 67041
+ },
+ {
+  "dist": "catalog\\ai\\ai-sofa-leather.jpg",
+  "same_as": null,
+  "bytes": 71689
+ },
+ {
+  "dist": "catalog\\ai\\ai-sofa-linen.jpg",
+  "same_as": null,
+  "bytes": 59360
+ },
+ {
+  "dist": "depth\\01-entrance.png",
+  "same_as": null,
+  "bytes": 47407
+ },
+ {
+  "dist": "depth\\02-kitchen.png",
+  "same_as": null,
+  "bytes": 43924
+ },
+ {
+  "dist": "depth\\03-dining.png",
+  "same_as": null,
+  "bytes": 41112
+ },
+ {
+  "dist": "depth\\04-living.png",
+  "same_as": null,
+  "bytes": 44220
+ },
+ {
+  "dist": "depth\\05-terrace-living.png",
+  "same_as": null,
+  "bytes": 39768
+ },
+ {
+  "dist": "depth\\06-terrace-bedroom.png",
+  "same_as": null,
+  "bytes": 56244
+ },
+ {
+  "dist": "depth\\07-bedroom-main.png",
+  "same_as": null,
+  "bytes": 51634
+ },
+ {
+  "dist": "depth\\09-bath-main.png",
+  "same_as": null,
+  "bytes": 47555
+ },
+ {
+  "dist": "depth\\10-bedroom-2.png",
+  "same_as": null,
+  "bytes": 51273
+ },
+ {
+  "dist": "depth\\11-bath-guest.png",
+  "same_as": null,
+  "bytes": 52946
+ },
+ {
+  "dist": "panos\\01-entrance.webp",
+  "same_as": "panos\\balanced\\01-entrance.webp",
+  "bytes": 164796
+ },
+ {
+  "dist": "panos\\02-kitchen.webp",
+  "same_as": "panos\\balanced\\02-kitchen.webp",
+  "bytes": 192862
+ },
+ {
+  "dist": "panos\\03-dining.webp",
+  "same_as": "panos\\balanced\\03-dining.webp",
+  "bytes": 235712
+ },
+ {
+  "dist": "panos\\04-living.webp",
+  "same_as": "panos\\balanced\\04-living.webp",
+  "bytes": 284316
+ },
+ {
+  "dist": "panos\\05-terrace-living.webp",
+  "same_as": "panos\\balanced\\05-terrace-living.webp",
+  "bytes": 239098
+ },
+ {
+  "dist": "panos\\06-terrace-bedroom.webp",
+  "same_as": "panos\\balanced\\06-terrace-bedroom.webp",
+  "bytes": 241870
+ },
+ {
+  "dist": "panos\\07-bedroom-main.webp",
+  "same_as": "panos\\balanced\\07-bedroom-main.webp",
+  "bytes": 223930
+ },
+ {
+  "dist": "panos\\08-wardrobe.webp",
+  "same_as": "panos\\balanced\\08-wardrobe.webp",
+  "bytes": 168022
+ },
+ {
+  "dist": "panos\\09-bath-main.webp",
+  "same_as": "panos\\balanced\\09-bath-main.webp",
+  "bytes": 209816
+ },
+ {
+  "dist": "panos\\10-bedroom-2.webp",
+  "same_as": "panos\\balanced\\10-bedroom-2.webp",
+  "bytes": 189218
+ },
+ {
+  "dist": "panos\\11-bath-guest.webp",
+  "same_as": "panos\\balanced\\11-bath-guest.webp",
+  "bytes": 175046
+ },
+ {
+  "dist": "panos\\node-a-aerial.webp",
+  "same_as": "_local\\panos-parquet\\node-a-aerial.webp",
+  "bytes": 587860
+ },
+ {
+  "dist": "panos\\node-b-tower.webp",
+  "same_as": "_local\\panos-parquet\\node-b-tower.webp",
+  "bytes": 630822
+ },
+ {
+  "dist": "panos\\node-c-facade.webp",
+  "same_as": "_local\\panos-parquet\\node-c-facade.webp",
+  "bytes": 612204
+ },
+ {
+  "dist": "panos\\node-d-terrace.webp",
+  "same_as": "_local\\panos-parquet\\node-d-terrace.webp",
+  "bytes": 587344
+ },
+ {
+  "dist": "panos\\node-e-approach45.webp",
+  "same_as": "_local\\panos-parquet\\node-e-approach45.webp",
+  "bytes": 577746
+ },
+ {
+  "dist": "panos\\node-f-approach25.webp",
+  "same_as": "_local\\panos-parquet\\node-f-approach25.webp",
+  "bytes": 619412
+ },
+ {
+  "dist": "panos\\node-o1-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o1-orbit.webp",
+  "bytes": 601880
+ },
+ {
+  "dist": "panos\\node-o2-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o2-orbit.webp",
+  "bytes": 613874
+ },
+ {
+  "dist": "panos\\node-o3-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o3-orbit.webp",
+  "bytes": 636842
+ },
+ {
+  "dist": "panos\\node-o4-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o4-orbit.webp",
+  "bytes": 621328
+ },
+ {
+  "dist": "panos\\node-o5-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o5-orbit.webp",
+  "bytes": 617608
+ },
+ {
+  "dist": "panos-concrete\\01-entrance.webp",
+  "same_as": "_local\\panos-concrete\\01-entrance.webp",
+  "bytes": 108874
+ },
+ {
+  "dist": "panos-concrete\\02-kitchen.webp",
+  "same_as": "_local\\panos-concrete\\02-kitchen.webp",
+  "bytes": 126084
+ },
+ {
+  "dist": "panos-concrete\\03-dining.webp",
+  "same_as": "_local\\panos-concrete\\03-dining.webp",
+  "bytes": 169290
+ },
+ {
+  "dist": "panos-concrete\\04-living.webp",
+  "same_as": "_local\\panos-concrete\\04-living.webp",
+  "bytes": 190852
+ },
+ {
+  "dist": "panos-concrete\\05-terrace-living.webp",
+  "same_as": "_local\\panos-concrete\\05-terrace-living.webp",
+  "bytes": 172744
+ },
+ {
+  "dist": "panos-concrete\\06-terrace-bedroom.webp",
+  "same_as": "_local\\panos-concrete\\06-terrace-bedroom.webp",
+  "bytes": 172104
+ },
+ {
+  "dist": "panos-concrete\\07-bedroom-main.webp",
+  "same_as": "_local\\panos-concrete\\07-bedroom-main.webp",
+  "bytes": 164298
+ },
+ {
+  "dist": "panos-concrete\\08-wardrobe.webp",
+  "same_as": "_local\\panos-concrete\\08-wardrobe.webp",
+  "bytes": 93786
+ },
+ {
+  "dist": "panos-concrete\\09-bath-main.webp",
+  "same_as": "_local\\panos-concrete\\09-bath-main.webp",
+  "bytes": 119822
+ },
+ {
+  "dist": "panos-concrete\\10-bedroom-2.webp",
+  "same_as": "_local\\panos-concrete\\10-bedroom-2.webp",
+  "bytes": 150034
+ },
+ {
+  "dist": "panos-concrete\\11-bath-guest.webp",
+  "same_as": "_local\\panos-concrete\\11-bath-guest.webp",
+  "bytes": 104234
+ },
+ {
+  "dist": "panos-concrete\\node-a-aerial.webp",
+  "same_as": "_local\\panos-parquet\\node-a-aerial.webp",
+  "bytes": 587860
+ },
+ {
+  "dist": "panos-concrete\\node-b-tower.webp",
+  "same_as": "_local\\panos-parquet\\node-b-tower.webp",
+  "bytes": 630822
+ },
+ {
+  "dist": "panos-concrete\\node-c-facade.webp",
+  "same_as": "_local\\panos-parquet\\node-c-facade.webp",
+  "bytes": 612204
+ },
+ {
+  "dist": "panos-concrete\\node-d-terrace.webp",
+  "same_as": "_local\\panos-concrete\\node-d-terrace.webp",
+  "bytes": 605984
+ },
+ {
+  "dist": "panos-concrete\\node-e-approach45.webp",
+  "same_as": "_local\\panos-parquet\\node-e-approach45.webp",
+  "bytes": 577746
+ },
+ {
+  "dist": "panos-concrete\\node-f-approach25.webp",
+  "same_as": "_local\\panos-parquet\\node-f-approach25.webp",
+  "bytes": 619412
+ },
+ {
+  "dist": "panos-concrete\\node-o1-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o1-orbit.webp",
+  "bytes": 601880
+ },
+ {
+  "dist": "panos-concrete\\node-o2-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o2-orbit.webp",
+  "bytes": 613874
+ },
+ {
+  "dist": "panos-concrete\\node-o3-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o3-orbit.webp",
+  "bytes": 636842
+ },
+ {
+  "dist": "panos-concrete\\node-o4-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o4-orbit.webp",
+  "bytes": 621328
+ },
+ {
+  "dist": "panos-concrete\\node-o5-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o5-orbit.webp",
+  "bytes": 617608
+ },
+ {
+  "dist": "panos-marble\\01-entrance.webp",
+  "same_as": "_local\\panos-marble\\01-entrance.webp",
+  "bytes": 111088
+ },
+ {
+  "dist": "panos-marble\\02-kitchen.webp",
+  "same_as": "_local\\panos-marble\\02-kitchen.webp",
+  "bytes": 121950
+ },
+ {
+  "dist": "panos-marble\\03-dining.webp",
+  "same_as": "_local\\panos-marble\\03-dining.webp",
+  "bytes": 195078
+ },
+ {
+  "dist": "panos-marble\\04-living.webp",
+  "same_as": "_local\\panos-marble\\04-living.webp",
+  "bytes": 196480
+ },
+ {
+  "dist": "panos-marble\\05-terrace-living.webp",
+  "same_as": "_local\\panos-marble\\05-terrace-living.webp",
+  "bytes": 190916
+ },
+ {
+  "dist": "panos-marble\\06-terrace-bedroom.webp",
+  "same_as": "_local\\panos-marble\\06-terrace-bedroom.webp",
+  "bytes": 185300
+ },
+ {
+  "dist": "panos-marble\\07-bedroom-main.webp",
+  "same_as": "_local\\panos-marble\\07-bedroom-main.webp",
+  "bytes": 191968
+ },
+ {
+  "dist": "panos-marble\\08-wardrobe.webp",
+  "same_as": "_local\\panos-marble\\08-wardrobe.webp",
+  "bytes": 123680
+ },
+ {
+  "dist": "panos-marble\\09-bath-main.webp",
+  "same_as": "_local\\panos-marble\\09-bath-main.webp",
+  "bytes": 137706
+ },
+ {
+  "dist": "panos-marble\\10-bedroom-2.webp",
+  "same_as": "_local\\panos-marble\\10-bedroom-2.webp",
+  "bytes": 146876
+ },
+ {
+  "dist": "panos-marble\\11-bath-guest.webp",
+  "same_as": "_local\\panos-marble\\11-bath-guest.webp",
+  "bytes": 121372
+ },
+ {
+  "dist": "panos-marble\\node-a-aerial.webp",
+  "same_as": "_local\\panos-parquet\\node-a-aerial.webp",
+  "bytes": 587860
+ },
+ {
+  "dist": "panos-marble\\node-b-tower.webp",
+  "same_as": "_local\\panos-parquet\\node-b-tower.webp",
+  "bytes": 630822
+ },
+ {
+  "dist": "panos-marble\\node-c-facade.webp",
+  "same_as": "_local\\panos-parquet\\node-c-facade.webp",
+  "bytes": 612204
+ },
+ {
+  "dist": "panos-marble\\node-d-terrace.webp",
+  "same_as": "_local\\panos-marble\\node-d-terrace.webp",
+  "bytes": 614406
+ },
+ {
+  "dist": "panos-marble\\node-e-approach45.webp",
+  "same_as": "_local\\panos-parquet\\node-e-approach45.webp",
+  "bytes": 577746
+ },
+ {
+  "dist": "panos-marble\\node-f-approach25.webp",
+  "same_as": "_local\\panos-parquet\\node-f-approach25.webp",
+  "bytes": 619412
+ },
+ {
+  "dist": "panos-marble\\node-o1-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o1-orbit.webp",
+  "bytes": 601880
+ },
+ {
+  "dist": "panos-marble\\node-o2-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o2-orbit.webp",
+  "bytes": 613874
+ },
+ {
+  "dist": "panos-marble\\node-o3-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o3-orbit.webp",
+  "bytes": 636842
+ },
+ {
+  "dist": "panos-marble\\node-o4-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o4-orbit.webp",
+  "bytes": 621328
+ },
+ {
+  "dist": "panos-marble\\node-o5-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o5-orbit.webp",
+  "bytes": 617608
+ },
+ {
+  "dist": "panos-original\\01-entrance.webp",
+  "same_as": "panos\\original\\01-entrance.webp",
+  "bytes": 44768
+ },
+ {
+  "dist": "panos-original\\02-kitchen.webp",
+  "same_as": "panos\\original\\02-kitchen.webp",
+  "bytes": 70674
+ },
+ {
+  "dist": "panos-original\\03-dining.webp",
+  "same_as": "panos\\original\\03-dining.webp",
+  "bytes": 85024
+ },
+ {
+  "dist": "panos-original\\04-living.webp",
+  "same_as": "panos\\original\\04-living.webp",
+  "bytes": 67248
+ },
+ {
+  "dist": "panos-original\\05-terrace-living.webp",
+  "same_as": "panos\\original\\05-terrace-living.webp",
+  "bytes": 54724
+ },
+ {
+  "dist": "panos-original\\06-terrace-bedroom.webp",
+  "same_as": "panos\\original\\06-terrace-bedroom.webp",
+  "bytes": 75728
+ },
+ {
+  "dist": "panos-original\\07-bedroom-main.webp",
+  "same_as": "panos\\original\\07-bedroom-main.webp",
+  "bytes": 42192
+ },
+ {
+  "dist": "panos-original\\08-wardrobe.webp",
+  "same_as": "panos\\original\\08-wardrobe.webp",
+  "bytes": 37726
+ },
+ {
+  "dist": "panos-original\\09-bath-main.webp",
+  "same_as": "panos\\original\\09-bath-main.webp",
+  "bytes": 28562
+ },
+ {
+  "dist": "panos-original\\10-bedroom-2.webp",
+  "same_as": "panos\\original\\10-bedroom-2.webp",
+  "bytes": 40610
+ },
+ {
+  "dist": "panos-original\\11-bath-guest.webp",
+  "same_as": "panos\\original\\11-bath-guest.webp",
+  "bytes": 39862
+ },
+ {
+  "dist": "panos-original\\node-a-aerial.webp",
+  "same_as": "panos\\original\\node-a-aerial.webp",
+  "bytes": 223384
+ },
+ {
+  "dist": "panos-original\\node-b-tower.webp",
+  "same_as": "panos\\original\\node-b-tower.webp",
+  "bytes": 181888
+ },
+ {
+  "dist": "panos-original\\node-c-facade.webp",
+  "same_as": "panos\\original\\node-c-facade.webp",
+  "bytes": 218148
+ },
+ {
+  "dist": "panos-original\\node-d-terrace.webp",
+  "same_as": "panos\\original\\node-d-terrace.webp",
+  "bytes": 221696
+ },
+ {
+  "dist": "panos-original\\node-e-approach45.webp",
+  "same_as": "panos\\original\\node-e-approach45.webp",
+  "bytes": 186202
+ },
+ {
+  "dist": "panos-original\\node-f-approach25.webp",
+  "same_as": "panos\\original\\node-f-approach25.webp",
+  "bytes": 192834
+ },
+ {
+  "dist": "panos-original\\node-o1-orbit.webp",
+  "same_as": "panos\\original\\node-o1-orbit.webp",
+  "bytes": 230354
+ },
+ {
+  "dist": "panos-original\\node-o2-orbit.webp",
+  "same_as": "panos\\original\\node-o2-orbit.webp",
+  "bytes": 214010
+ },
+ {
+  "dist": "panos-original\\node-o3-orbit.webp",
+  "same_as": "panos\\original\\node-o3-orbit.webp",
+  "bytes": 207338
+ },
+ {
+  "dist": "panos-original\\node-o4-orbit.webp",
+  "same_as": "panos\\original\\node-o4-orbit.webp",
+  "bytes": 218084
+ },
+ {
+  "dist": "panos-original\\node-o5-orbit.webp",
+  "same_as": "panos\\original\\node-o5-orbit.webp",
+  "bytes": 226950
+ },
+ {
+  "dist": "panos-parquet\\01-entrance.webp",
+  "same_as": "_local\\panos-parquet\\01-entrance.webp",
+  "bytes": 126126
+ },
+ {
+  "dist": "panos-parquet\\02-kitchen.webp",
+  "same_as": "_local\\panos-parquet\\02-kitchen.webp",
+  "bytes": 152824
+ },
+ {
+  "dist": "panos-parquet\\03-dining.webp",
+  "same_as": "_local\\panos-parquet\\03-dining.webp",
+  "bytes": 223178
+ },
+ {
+  "dist": "panos-parquet\\04-living.webp",
+  "same_as": "_local\\panos-parquet\\04-living.webp",
+  "bytes": 201696
+ },
+ {
+  "dist": "panos-parquet\\05-terrace-living.webp",
+  "same_as": "_local\\panos-parquet\\05-terrace-living.webp",
+  "bytes": 215110
+ },
+ {
+  "dist": "panos-parquet\\06-terrace-bedroom.webp",
+  "same_as": "_local\\panos-parquet\\06-terrace-bedroom.webp",
+  "bytes": 203340
+ },
+ {
+  "dist": "panos-parquet\\07-bedroom-main.webp",
+  "same_as": "_local\\panos-parquet\\07-bedroom-main.webp",
+  "bytes": 198468
+ },
+ {
+  "dist": "panos-parquet\\08-wardrobe.webp",
+  "same_as": "_local\\panos-parquet\\08-wardrobe.webp",
+  "bytes": 149828
+ },
+ {
+  "dist": "panos-parquet\\09-bath-main.webp",
+  "same_as": "_local\\panos-parquet\\09-bath-main.webp",
+  "bytes": 143254
+ },
+ {
+  "dist": "panos-parquet\\10-bedroom-2.webp",
+  "same_as": "_local\\panos-parquet\\10-bedroom-2.webp",
+  "bytes": 169182
+ },
+ {
+  "dist": "panos-parquet\\11-bath-guest.webp",
+  "same_as": "_local\\panos-parquet\\11-bath-guest.webp",
+  "bytes": 132994
+ },
+ {
+  "dist": "panos-parquet\\node-a-aerial.webp",
+  "same_as": "_local\\panos-parquet\\node-a-aerial.webp",
+  "bytes": 587860
+ },
+ {
+  "dist": "panos-parquet\\node-b-tower.webp",
+  "same_as": "_local\\panos-parquet\\node-b-tower.webp",
+  "bytes": 630822
+ },
+ {
+  "dist": "panos-parquet\\node-c-facade.webp",
+  "same_as": "_local\\panos-parquet\\node-c-facade.webp",
+  "bytes": 612204
+ },
+ {
+  "dist": "panos-parquet\\node-d-terrace.webp",
+  "same_as": "_local\\panos-parquet\\node-d-terrace.webp",
+  "bytes": 587344
+ },
+ {
+  "dist": "panos-parquet\\node-e-approach45.webp",
+  "same_as": "_local\\panos-parquet\\node-e-approach45.webp",
+  "bytes": 577746
+ },
+ {
+  "dist": "panos-parquet\\node-f-approach25.webp",
+  "same_as": "_local\\panos-parquet\\node-f-approach25.webp",
+  "bytes": 619412
+ },
+ {
+  "dist": "panos-parquet\\node-o1-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o1-orbit.webp",
+  "bytes": 601880
+ },
+ {
+  "dist": "panos-parquet\\node-o2-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o2-orbit.webp",
+  "bytes": 613874
+ },
+ {
+  "dist": "panos-parquet\\node-o3-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o3-orbit.webp",
+  "bytes": 636842
+ },
+ {
+  "dist": "panos-parquet\\node-o4-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o4-orbit.webp",
+  "bytes": 621328
+ },
+ {
+  "dist": "panos-parquet\\node-o5-orbit.webp",
+  "same_as": "_local\\panos-parquet\\node-o5-orbit.webp",
+  "bytes": 617608
+ },
+ {
+  "dist": "plan\\floorplan.webp",
+  "same_as": null,
+  "bytes": 172778
+ },
+ {
+  "dist": "thumbs\\01-entrance.webp",
+  "same_as": "panos\\thumb\\01-entrance.webp",
+  "bytes": 14752
+ },
+ {
+  "dist": "thumbs\\02-kitchen.webp",
+  "same_as": "panos\\thumb\\02-kitchen.webp",
+  "bytes": 15620
+ },
+ {
+  "dist": "thumbs\\03-dining.webp",
+  "same_as": "panos\\thumb\\03-dining.webp",
+  "bytes": 14932
+ },
+ {
+  "dist": "thumbs\\04-living.webp",
+  "same_as": "panos\\thumb\\04-living.webp",
+  "bytes": 19870
+ },
+ {
+  "dist": "thumbs\\05-terrace-living.webp",
+  "same_as": "panos\\thumb\\05-terrace-living.webp",
+  "bytes": 13628
+ },
+ {
+  "dist": "thumbs\\06-terrace-bedroom.webp",
+  "same_as": "panos\\thumb\\06-terrace-bedroom.webp",
+  "bytes": 20170
+ },
+ {
+  "dist": "thumbs\\07-bedroom-main.webp",
+  "same_as": "panos\\thumb\\07-bedroom-main.webp",
+  "bytes": 4716
+ },
+ {
+  "dist": "thumbs\\08-wardrobe.webp",
+  "same_as": "panos\\thumb\\08-wardrobe.webp",
+  "bytes": 8824
+ },
+ {
+  "dist": "thumbs\\09-bath-main.webp",
+  "same_as": "panos\\thumb\\09-bath-main.webp",
+  "bytes": 4862
+ },
+ {
+  "dist": "thumbs\\10-bedroom-2.webp",
+  "same_as": "panos\\thumb\\10-bedroom-2.webp",
+  "bytes": 9338
+ },
+ {
+  "dist": "thumbs\\11-bath-guest.webp",
+  "same_as": "panos\\thumb\\11-bath-guest.webp",
+  "bytes": 6592
+ },
+ {
+  "dist": "thumbs\\node-a-aerial.webp",
+  "same_as": "panos\\thumb\\node-a-aerial.webp",
+  "bytes": 48966
+ },
+ {
+  "dist": "thumbs\\node-b-tower.webp",
+  "same_as": "panos\\thumb\\node-b-tower.webp",
+  "bytes": 52646
+ },
+ {
+  "dist": "thumbs\\node-c-facade.webp",
+  "same_as": "panos\\thumb\\node-c-facade.webp",
+  "bytes": 54898
+ },
+ {
+  "dist": "thumbs\\node-d-terrace.webp",
+  "same_as": "panos\\thumb\\node-d-terrace.webp",
+  "bytes": 52906
+ },
+ {
+  "dist": "thumbs\\node-e-approach45.webp",
+  "same_as": "panos\\thumb\\node-e-approach45.webp",
+  "bytes": 49928
+ },
+ {
+  "dist": "thumbs\\node-f-approach25.webp",
+  "same_as": "panos\\thumb\\node-f-approach25.webp",
+  "bytes": 53830
+ },
+ {
+  "dist": "thumbs\\node-o1-orbit.webp",
+  "same_as": "panos\\thumb\\node-o1-orbit.webp",
+  "bytes": 50014
+ },
+ {
+  "dist": "thumbs\\node-o2-orbit.webp",
+  "same_as": "panos\\thumb\\node-o2-orbit.webp",
+  "bytes": 49782
+ },
+ {
+  "dist": "thumbs\\node-o3-orbit.webp",
+  "same_as": "panos\\thumb\\node-o3-orbit.webp",
+  "bytes": 50054
+ },
+ {
+  "dist": "thumbs\\node-o4-orbit.webp",
+  "same_as": "panos\\thumb\\node-o4-orbit.webp",
+  "bytes": 50474
+ },
+ {
+  "dist": "thumbs\\node-o5-orbit.webp",
+  "same_as": "panos\\thumb\\node-o5-orbit.webp",
+  "bytes": 51094
+ }
+]

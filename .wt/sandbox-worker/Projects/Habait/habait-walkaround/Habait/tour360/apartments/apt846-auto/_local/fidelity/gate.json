@@ -1,0 +1,397 @@
+{
+ "$schema": "tour360/fidelity-gate.v2",
+ "rows": [
+  {
+   "at": "2026-11-05T12:52:07.765Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\01-entrance.webp",
+   "picture_hash": "073971e8409e",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 57.58,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {},
+   "cg_vs_plan": {
+    "columns": 82,
+    "occluded_columns": 678,
+    "median_cm": 2.5,
+    "p90_cm": 272,
+    "p95_cm": 325.8,
+    "pct": 57.58
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__balanced__073971e8409e.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:08.291Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\02-kitchen.webp",
+   "picture_hash": "b07ea61631cb",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 29.65,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {},
+   "cg_vs_plan": {
+    "columns": 269,
+    "occluded_columns": 319,
+    "median_cm": 38.8,
+    "p90_cm": 163.3,
+    "p95_cm": 177.5,
+    "pct": 29.65
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__balanced__b07ea61631cb.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:08.761Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\03-dining.webp",
+   "picture_hash": "8bba0e763568",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 15.15,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {},
+   "cg_vs_plan": {
+    "columns": 228,
+    "occluded_columns": 170,
+    "median_cm": 5.1,
+    "p90_cm": 69.3,
+    "p95_cm": 432,
+    "pct": 15.15
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__balanced__8bba0e763568.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:09.269Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\04-living.webp",
+   "picture_hash": "465e07e61773",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 2.02,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {},
+   "cg_vs_plan": {
+    "columns": 208,
+    "occluded_columns": 506,
+    "median_cm": 0.5,
+    "p90_cm": 18.5,
+    "p95_cm": 45.4,
+    "pct": 2.02
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__balanced__465e07e61773.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:09.749Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\05-terrace-living.webp",
+   "picture_hash": "6ce39a185dce",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 12.94,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "length_cm": {
+     "printed": 1213,
+     "traced": 1213,
+     "pct": 0
+    }
+   },
+   "cg_vs_plan": {
+    "columns": 63,
+    "occluded_columns": 17,
+    "median_cm": 0.8,
+    "p90_cm": 105.1,
+    "p95_cm": 241,
+    "pct": 12.94
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__balanced__6ce39a185dce.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:10.185Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\06-terrace-bedroom.webp",
+   "picture_hash": "a6bcc9a975c9",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 5.75,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "length_cm": {
+     "printed": 1213,
+     "traced": 1213,
+     "pct": 0
+    }
+   },
+   "cg_vs_plan": {
+    "columns": 395,
+    "occluded_columns": 265,
+    "median_cm": 13.3,
+    "p90_cm": 26.4,
+    "p95_cm": 80.8,
+    "pct": 5.75
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__balanced__a6bcc9a975c9.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:10.631Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\07-bedroom-main.webp",
+   "picture_hash": "557e931d6c05",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.9,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "printed_m2": 11.97,
+    "traced_m2": 12.188,
+    "linear_pct": 0.9
+   },
+   "cg_vs_plan": {
+    "columns": 528,
+    "occluded_columns": 394,
+    "median_cm": 0.5,
+    "p90_cm": 2.1,
+    "p95_cm": 4.6,
+    "pct": 0.47
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__balanced__557e931d6c05.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:11.187Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\08-wardrobe.webp",
+   "picture_hash": "b6cabdf8f321",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.95,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {},
+   "cg_vs_plan": {
+    "columns": 180,
+    "occluded_columns": 747,
+    "median_cm": 0.6,
+    "p90_cm": 3.5,
+    "p95_cm": 4.6,
+    "pct": 0.95
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__balanced__b6cabdf8f321.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:11.932Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\09-bath-main.webp",
+   "picture_hash": "54ee6db3ffaa",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.38,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "printed_m2": 4.45,
+    "traced_m2": 4.466,
+    "linear_pct": 0.16
+   },
+   "cg_vs_plan": {
+    "columns": 280,
+    "occluded_columns": 744,
+    "median_cm": 0.4,
+    "p90_cm": 1,
+    "p95_cm": 1.2,
+    "pct": 0.38
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__balanced__54ee6db3ffaa.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:12.740Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\10-bedroom-2.webp",
+   "picture_hash": "9c8f5e5684be",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.63,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "printed_m2": 9.4,
+    "traced_m2": 9.314,
+    "linear_pct": -0.48
+   },
+   "cg_vs_plan": {
+    "columns": 343,
+    "occluded_columns": 515,
+    "median_cm": 0.5,
+    "p90_cm": 2.7,
+    "p95_cm": 32.1,
+    "pct": 0.63
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__balanced__9c8f5e5684be.gate.jpg"
+  },
+  {
+   "at": "2026-11-05T12:52:13.473Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "balanced",
+   "cg_tour": "apt846-auto",
+   "picture": "panos\\balanced\\11-bath-guest.webp",
+   "picture_hash": "a80986b366ab",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.23,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {},
+   "cg_vs_plan": {
+    "columns": 198,
+    "occluded_columns": 735,
+    "median_cm": 0.3,
+    "p90_cm": 0.6,
+    "p95_cm": 0.7,
+    "pct": 0.23
+   },
+   "findings": [],
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__balanced__a80986b366ab.gate.jpg"
+  }
+ ],
+ "rule": {
+  "max_deviation_pct": 1,
+  "min_finding_deg": 0.35,
+  "source": "Habait/tour360/fidelity.json"
+ }
+}

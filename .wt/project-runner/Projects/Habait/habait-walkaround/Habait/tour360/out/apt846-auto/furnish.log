@@ -1,0 +1,48 @@
+furnish_from_plan.py v0.1.0 (general_furnish v0.1.1)
+plan  C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\plan.base.json
+style C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\catalog\style-habait-modern.json
+out   C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\_furnish
+roles      r-entrance=entrance, r-kitchen=kitchen, r-dining=dining, r-living=living, r-terrace-living=terrace, r-terrace-bedroom=terrace, r-bedroom-main=bedroom, r-wardrobe=wardrobe, r-bath-main=bathroom, r-bedroom-2=bedroom, r-bath-guest=bathroom
+phase 1    template fixtures for rooms whose role lacks a drawn one
+  (none: every room's role is covered by the plan's own fixtures)
+phase 1b   fit: re-seat any built fixture that cuts a wall (dense 1 cm samples)
+  fit b2-closet    [496.03, 401.79] [200, 60] -> [520.59, 412.22] [120.0, 60.01]: moved -6 cm across it (554 cm2 in a wall)
+  fit bg-shower    [465.41, 472.69] [140, 90] -> [464.82, 473.5] [140.0, 90.0]: moved +1 cm across it (15 cm2 in a wall)
+  fit bg-vanity    [391.87, 636.9] [80, 50] -> [394.31, 626.31] [71.5, 50.01]: trimmed 0.0 cm at -L, 8.5 cm at +L (141 cm2 in a wall)
+phase 2    fixture hints (sink, hob, uppers)
+  hint k-counter    {"uppers": "shelves", "hob_at_cm": [820.7, 391.7], "sink_at_cm": [688.0, 559.0]} (back probes: 7/7 in a wall, 1/7 within 25 cm of glass; uppers: shelves (material board: a brushed stainless-steel function-wall splashback with one long horizontal rail and two slim open shelves); hob: the drawing's symbol (4 burner circles in a 60.1x60.0 cm square); sink: the drawing's symbol (4 drain/tap holes))
+  hint k-counter-2  {"uppers": false} (back probes: 0/7 in a wall, 7/7 within 25 cm of glass)
+phase 3    template pieces per room role
+  piece ffp-entrance-console           tv_unit     at (231,881) yaw 100 - a 120x40x75 console (no console class: the TV cabinet) on the longest legal wall run
+  piece ffp-entrance-art               wall_art    at (211,877) yaw 100 - centred on a wall run (165 cm), bottom 120 cm
+  piece ffp-entrance-doormat           bath_mat    at (265,718) yaw 103 - inside the entrance door o-12, 32 cm in
+  piece ffp-living-rug                 rug         at (757,1003) yaw 200 - 240x170 under the coffee table, along the sofa
+  piece ffp-living-lamp                floor_lamp  at (942,922) yaw 200 - beside the sofa, at the end farther from the openings
+  piece ffp-living-art                 wall_art    at (553,1106) yaw 19 - centred on a wall run (456 cm), bottom 120 cm
+  piece ffp-terrace-living-set         outdoor_set at (1223,652) yaw 199 - the legal spot farthest from the terrace openings, along the terrace's axis
+  piece ffp-terrace-living-plant-1     plant       at (1221,819) yaw 0 - a convex terrace corner, far from the openings
+  piece ffp-terrace-living-plant-2     plant       at (1134,1208) yaw 0 - a convex terrace corner, far from the openings
+  piece ffp-bedroom-main-rug           rug         at (726,1363) yaw 20 - 240x170 under the lower bed, 40 cm past its foot
+  piece ffp-bath-main-mat              bath_mat    at (321,1256) yaw 200 - in front of the basin
+  piece ffp-bedroom-2-rug              rug         at (677,311) yaw 126 - 240x170 under the lower bed, 40 cm past its foot
+Traceback (most recent call last):
+  File "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\pipeline\furnish_from_plan.py", line 1804, in <module>
+    sys.exit(main(sys.argv[1:]))
+             ~~~~^^^^^^^^^^^^^^
+  File "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\pipeline\furnish_from_plan.py", line 1795, in main
+    _plan, _plan1, block, _added, res, aud, pngs = run_one(plan_path, style_path, out_dir, print)
+                                                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\pipeline\furnish_from_plan.py", line 1644, in run_one
+    pngs = write_outputs(plan_path, style_path, plan, plan1, block, added, translated, roles, res, aud, out_dir, log)
+  File "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\pipeline\furnish_from_plan.py", line 1595, in write_outputs
+    pngs = draw_previews(plan1, res, aud, out_dir)
+  File "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\pipeline\furnish_from_plan.py", line 1554, in draw_previews
+    render(f"preview-{rid}.png", bb, {rid}, title)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\pipeline\furnish_from_plan.py", line 1519, in render
+    dr.polygon(pts, fill=col, outline=(40, 40, 40))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\RnD\Projects\Habait\tools\habait-venv\Lib\site-packages\PIL\ImageDraw.py", line 353, in polygon
+    self.draw.draw_polygon(xy, fill_ink, 1)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: coordinate list must contain at least 2 coordinates

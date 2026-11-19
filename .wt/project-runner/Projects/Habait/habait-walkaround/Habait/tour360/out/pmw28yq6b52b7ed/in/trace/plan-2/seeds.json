@@ -1,0 +1,221 @@
+[
+ {
+  "id": "entrance",
+  "room_id": "r-entrance",
+  "name_he": "כניסה",
+  "name_en": "entrance",
+  "type": "hall",
+  "vlm_type": "entrance",
+  "is_outdoor": false,
+  "at_px": [
+   810.0,
+   531.0
+  ],
+  "room_box_px": [
+   625.9680000000001,
+   337.932,
+   900.3960000000001,
+   544.446
+  ],
+  "dims_cm": null,
+  "moved_inside": true,
+  "label_px": [
+   758.646,
+   388.89
+  ],
+  "at_px_work": [
+   810,
+   531
+  ],
+  "from_strip": true
+ },
+ {
+  "id": "kitchen",
+  "room_id": "r-kitchen",
+  "name_he": "מטבח",
+  "name_en": "kitchen",
+  "type": "kitchen",
+  "vlm_type": "kitchen",
+  "is_outdoor": false,
+  "at_px": [
+   483.0,
+   1110.0
+  ],
+  "room_box_px": [
+   188.244,
+   544.446,
+   657.7199999999999,
+   1204.218
+  ],
+  "dims_cm": [
+   310,
+   485
+  ],
+  "force_rect": true,
+  "label_px": [
+   483.084,
+   1110.348
+  ],
+  "at_px_work": [
+   483,
+   1110
+  ],
+  "rect_fit": 0.986
+ },
+ {
+  "id": "living-room",
+  "room_id": "r-living-room",
+  "name_he": "חדר מגורים",
+  "name_en": "living room",
+  "type": "living",
+  "vlm_type": "living",
+  "is_outdoor": false,
+  "at_px": [
+   1002.0,
+   864.0
+  ],
+  "room_box_px": [
+   723.492,
+   536.4,
+   1390.2839999999999,
+   1539.4679999999998
+  ],
+  "dims_cm": [
+   450,
+   735
+  ],
+  "force_rect": true,
+  "label_px": [
+   1127.196,
+   1083.528
+  ],
+  "at_px_work": [
+   1002,
+   864
+  ],
+  "rect_fit": 0.992
+ },
+ {
+  "id": "stairs-to-floor-1",
+  "room_id": "r-stairs-to-floor-1",
+  "name_he": "עליה לקומה 1",
+  "name_en": "stairs to floor 1",
+  "type": "hall",
+  "vlm_type": "stairs",
+  "is_outdoor": false,
+  "at_px": [
+   411.0,
+   1401.0
+  ],
+  "room_box_px": [
+   192.78,
+   1198.854,
+   582.876,
+   1539.4679999999998
+  ],
+  "dims_cm": null,
+  "label_px": [
+   411.642,
+   1400.004
+  ],
+  "at_px_work": [
+   411,
+   1401
+  ],
+  "from_box": true
+ },
+ {
+  "id": "bathroom",
+  "room_id": "r-bathroom",
+  "name_he": "חדר רחצה",
+  "name_en": "bathroom",
+  "type": "bathroom",
+  "vlm_type": "bathroom",
+  "is_outdoor": false,
+  "at_px": [
+   417.0,
+   1632.0
+  ],
+  "room_box_px": [
+   190.512,
+   1542.1499999999999,
+   585.144,
+   1804.986
+  ],
+  "dims_cm": [
+   250,
+   170
+  ],
+  "label_px": [
+   416.178,
+   1633.338
+  ],
+  "at_px_work": [
+   417,
+   1632
+  ],
+  "rect_fit": 0.971
+ },
+ {
+  "id": "safe-room-mamad",
+  "room_id": "r-safe-room-mamad",
+  "name_he": "ממ\"ד",
+  "name_en": "safe room (MAMAD)",
+  "type": "safe_room",
+  "vlm_type": "mamad",
+  "is_outdoor": false,
+  "at_px": [
+   477.0,
+   1974.0
+  ],
+  "room_box_px": [
+   188.244,
+   1810.3500000000001,
+   714.42,
+   2234.1059999999998
+  ],
+  "dims_cm": [
+   375,
+   300
+  ],
+  "force_rect": true,
+  "label_px": [
+   477.414,
+   1972.6109999999999
+  ],
+  "at_px_work": [
+   477,
+   1974
+  ],
+  "rect_fit": 0.955
+ },
+ {
+  "id": "patio-according-to-development",
+  "room_id": "r-patio-according-to-development",
+  "name_he": "פטיו בהתאם לתכנית הפיתוח",
+  "name_en": "patio according to development plan",
+  "type": "balcony",
+  "vlm_type": "patio",
+  "is_outdoor": true,
+  "at_px": [
+   1155.0,
+   1947.0
+  ],
+  "room_box_px": [
+   746.172,
+   1555.56,
+   1388.016,
+   2349.432
+  ],
+  "dims_cm": null,
+  "label_px": [
+   1107.9180000000001,
+   1672.2269999999999
+  ],
+  "at_px_work": [
+   1155,
+   1947
+  ],
+  "kept_flood": true
+ }
+]

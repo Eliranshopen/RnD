@@ -1,0 +1,62 @@
+furnish_from_plan.py v0.1.0 (general_furnish v0.1.1)
+plan  C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\plan.base.json
+style C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\catalog\style-habait-modern.json
+out   C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\_furnish
+roles      r-entrance=entrance, r-kitchen=kitchen, r-dining=dining, r-living=living, r-terrace-living=terrace, r-terrace-bedroom=terrace, r-bedroom-main=bedroom, r-wardrobe=wardrobe, r-bath-main=bathroom, r-bedroom-2=bedroom, r-bath-guest=bathroom
+phase 1    template fixtures for rooms whose role lacks a drawn one
+  (none: every room's role is covered by the plan's own fixtures)
+phase 1b   fit: re-seat any built fixture that cuts a wall (dense 1 cm samples)
+  fit w-closet-1   [420, 1405] [160, 60] -> [429.42, 1408.35] [144.01, 60.01]: slid +2 cm along its axis (17 cm2 in a wall)
+  fit b2-closet    [500, 405] [200, 60] -> [509.98, 403.6] [173.51, 60.01]: trimmed 19.5 cm at -L, 0.0 cm at +L; moved -2 cm across it (743 cm2 in a wall)
+  fit bg-shower    [490, 492] [140, 90] -> [479.48, 484.36] [118.0, 90.01]: slid -1 cm along its axis (128 cm2 in a wall); slid -1 cm along its axis (61 cm2 in a wall)
+  fit bg-vanity    [395, 642] [80, 50] -> [397.44, 631.41] [71.5, 50.01]: trimmed 0.0 cm at -L, 8.5 cm at +L (136 cm2 in a wall)
+phase 2    fixture hints (sink, hob, uppers)
+  hint k-counter    {"uppers": true, "sink_at_cm": [731.0, 523.5]} (back probes: 7/7 in a wall, 0/7 within 25 cm of glass; sink: the centre of the longest run)
+  hint k-counter-2  {"uppers": false, "hob_at_cm": [895.0, 459.0]} (back probes: 0/7 in a wall, 0/7 within 25 cm of glass; hob: the centre of the second run)
+phase 3    template pieces per room role
+  piece ffp-entrance-console           tv_unit     at (234,889) yaw 100 - a 120x40x75 console (no console class: the TV cabinet) on the longest legal wall run
+  piece ffp-entrance-art               wall_art    at (214,886) yaw 100 - centred on a wall run (166 cm), bottom 120 cm
+  piece ffp-entrance-doormat           bath_mat    at (266,724) yaw 103 - inside the entrance door o-12, 32 cm in
+  piece ffp-living-rug                 rug         at (763,1011) yaw 200 - 240x170 under the coffee table, along the sofa
+  piece ffp-living-lamp                floor_lamp  at (948,929) yaw 200 - beside the sofa, at the end farther from the openings
+  piece ffp-living-art                 wall_art    at (560,1114) yaw 19 - centred on a wall run (460 cm), bottom 120 cm
+  piece ffp-living-plant               plant       at (348,1042) yaw 0 - a free wall station, farthest from the openings
+  piece ffp-terrace-living-set         outdoor_set at (1372,787) yaw 199 - the legal spot farthest from the terrace openings, along the terrace's axis
+  piece ffp-terrace-living-plant-1     plant       at (1254,828) yaw 0 - a convex terrace corner, far from the openings
+  piece ffp-terrace-living-plant-2     plant       at (1119,1066) yaw 0 - a convex terrace corner, far from the openings
+  piece ffp-terrace-bedroom-chair      armchair    at (1057,1391) yaw 99 - the legal spot farthest from the door, facing away from it (out over the railing)
+  piece ffp-bedroom-main-rug           rug         at (732,1374) yaw 20 - 240x170 under the lower bed, 40 cm past its foot
+  piece ffp-bath-main-mat              bath_mat    at (279,1266) yaw 20 - in front of the shower
+  piece ffp-bedroom-2-rug              rug         at (682,313) yaw 126 - 240x170 under the lower bed, 40 cm past its foot
+  r-entrance         entrance    6.25 m2  items   3 (plan  0, template  3)  floor   7.3%  walk 4/4
+  r-kitchen          kitchen    10.37 m2  items  16 (plan 16, template  0)  floor  25.8%  walk 2/2
+  r-dining           dining      8.95 m2  items   5 (plan  5, template  0)  floor  23.4%  walk 2/2
+  r-living           living     31.05 m2  items  10 (plan  6, template  4)  floor  17.8%  walk 5/5
+  r-terrace-living   terrace    15.71 m2  items   3 (plan  0, template  3)  floor  15.6%  walk -
+  r-terrace-bedroom  terrace     2.98 m2  items   1 (plan  0, template  1)  floor  24.5%  walk -
+  r-bedroom-main     bedroom    12.19 m2  items   7 (plan  6, template  1)  floor  33.9%  walk 2/2
+  r-wardrobe         wardrobe    5.13 m2  items   2 (plan  2, template  0)  floor  32.1%  walk 3/3
+  r-bath-main        bathroom    4.47 m2  items   5 (plan  4, template  1)  floor  55.2%  walk 1/1
+  r-bedroom-2        bedroom     9.31 m2  items   8 (plan  7, template  1)  floor  48.6%  walk 1/1
+  r-bath-guest       bathroom    3.38 m2  items   4 (plan  4, template  0)  floor  45.0%  walk 1/1
+  opening o-1   opening        435.9 cm  free  308.0 / need  80.0  swing -           ok  zone: ffp-entrance-console
+  opening o-2   opening        219.7 cm  free  202.0 / need  80.0  swing -           ok  zone: k-counter-m6,k-tall
+  opening o-3   opening        420.5 cm  free   84.0 / need  80.0  swing -           ok  zone: d-table,d-table-chair-1,d-table-chair-4,k-counter-2-m1,k-counter-2-m2
+  opening o-4   opening        251.5 cm  free  114.0 / need  80.0  swing -           ok  zone: d-table,d-table-chair-1
+  opening o-5   opening        187.6 cm  free  120.0 / need  80.0  swing -           ok  zone: ffp-terrace-living-plant-2
+  opening o-6   door            93.8 cm  free   92.0 / need  80.0  swing clear       ok  zone: -
+  opening o-7   opening        179.3 cm  free  178.0 / need  80.0  swing -           ok  zone: -
+  opening o-8   opening        161.1 cm  free  132.0 / need  80.0  swing -           ok  zone: w-closet-2
+  opening o-9   door            66.6 cm  free   64.0 / need  62.6  swing clear       ok  zone: bm-shower
+  opening o-10  door            93.6 cm  free   92.0 / need  80.0  swing clear       ok  zone: -
+  opening o-11  door            60.9 cm  free   60.0 / need  56.9  swing clear       ok  zone: -
+  opening o-12  entrance_door  110.9 cm  free  110.0 / need  80.0  swing -           ok  zone: -
+  opening o-13  door           131.9 cm  free  130.0 / need  80.0  swing -           ok  zone: -
+rooms furnished: 11 of 11
+items placed: 64 (from plan: 50 = 27 fixtures + 23 derived; from template: 14 = 14 + 0 derived)
+openings blocked: 0 of 13
+items intersecting walls: 0
+items outside their room: 0
+size violations: 0
+floor coverage: 27.6% of the indoor floor
+previews: 12 written

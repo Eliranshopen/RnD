@@ -1,0 +1,18 @@
+{
+ "name": "tour-dollhouse-developer",
+ "purpose": "rebuild the tour's 3D dollhouse from the platform 846 dist after Eliran's Q4 ruling (developer name shown), for rnd-23",
+ "opened": "2026-11-04T10:36:59",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/3d/dollhouse.html",
+   "sha256_at_open": "cb209927e631b624ced7fe7025e65f0936874f767cc127b22965b86f1e47aefa",
+   "sha256_at_close": "5bcfb231290ffd37cd9cac2c0695cc7cb6ce99493f99a4ff77b85a6c8c0e3623"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/index.html",
+   "sha256_at_open": "8ac550b29a29d8b867c9fcb451c0611017c331edb37da47fdd05afb3698b932a",
+   "sha256_at_close": "8ac550b29a29d8b867c9fcb451c0611017c331edb37da47fdd05afb3698b932a"
+  }
+ ],
+ "closed": "2026-11-04T10:39:47"
+}

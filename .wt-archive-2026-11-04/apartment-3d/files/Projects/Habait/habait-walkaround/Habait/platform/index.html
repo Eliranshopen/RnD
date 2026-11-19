@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<title>Habait · Projects</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5c8f'/%3E%3Cpath d='M8 24 Q16 6 24 24' fill='none' stroke='%23f2a900' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-index">
+<header class="topbar">
+  <div class="brand"><span class="brand-mark"></span><span class="brand-name">Habait</span></div>
+  <button class="lang-toggle" id="langToggle" type="button" aria-label="language">EN</button>
+</header>
+
+<main class="index-main">
+  <h1 class="index-title" data-i18n="index.title">בחרו פרויקט</h1>
+  <p class="index-sub" data-i18n="index.sub">טיסת 360° סביב הבניין, בחירת דירה מתוך הטיסה וכניסה אליה.</p>
+  <section id="projects" class="project-grid" aria-live="polite">
+    <div class="skeleton-card"></div>
+  </section>
+  <p class="index-foot" data-i18n="index.foot">Habait · v0 · fixtures only</p>
+</main>
+
+<script type="module">
+  import { loadProjects, loadProjectMeta } from './js/config.js';
+  import { getLang, setLang, pick, applyI18n, t } from './js/i18n.js';
+  import { capture } from './js/analytics.js';
+
+  const grid = document.getElementById('projects');
+  const toggle = document.getElementById('langToggle');
+  let projects = [];
+  // Development artefacts (fixture badge, backup-flow link, the v0 footer) show only on the laptop or with ?dev=1 (habait-98's request, 2026-11-02).
+  const DEV = new URLSearchParams(location.search).get('dev') === '1' || ['127.0.0.1', 'localhost'].includes(location.hostname);
+  if (!DEV) document.querySelector('.index-foot')?.setAttribute('hidden', '');
+
+  function render() {
+    applyI18n(document);
+    toggle.textContent = getLang() === 'he' ? 'EN' : 'עב';
+    grid.innerHTML = '';
+    for (const p of projects) {
+      const a = document.createElement('a');
+      a.className = 'project-card';
+      const ext = p.meta.exterior;
+      const extUrl = (e) => { const u = new URL(e.url, location.href); for (const [k, v] of Object.entries(e.params || {})) u.searchParams.set(k, v); u.searchParams.set('project', p.id); return u.toString(); };
+      if (ext && ext.mode === 'external' && ext.url) {
+        // project level = the continuous flow (today habait-16's :8848); the apartment level is inside it
+        if (ext.intro && ext.intro.clip && ext.intro.mode === 'inline') {
+          // the hold viewer plays the clip itself (?orbit=) while it preloads its scene: no loading screen between the video and the hold
+          const u = new URL(extUrl(ext));
+          u.searchParams.set('orbit', new URL(`${p.dir}/${ext.intro.clip}`, location.href).toString());
+          a.href = u.toString();
+        } else {
+          a.href = ext.intro && ext.intro.clip ? `intro.html?project=${encodeURIComponent(p.id)}&next=${encodeURIComponent(extUrl(ext))}` : extUrl(ext);
+        }
+      } else {
+        a.href = `flow.html?project=${encodeURIComponent(p.id)}`;
+      }
+      a.style.setProperty('--primary', p.meta.brand?.primary || '#0f5c8f');
+      a.style.setProperty('--accent', p.meta.brand?.accent || '#f2a900');
+      const cover = p.meta.cover ? `${p.dir}/${p.meta.cover}` : '';
+      a.innerHTML = `
+        <div class="project-cover" style="${cover ? `background-image:url('${cover}')` : ''}"></div>
+        <div class="project-body">
+          ${p.meta.brand?.logo ? `<img class="project-logo" src="${p.dir}/${p.meta.brand.logo}" alt="">` : ''}
+          <h2>${pick(p.meta.name)}</h2>
+          <p>${pick(p.meta.tagline) || ''}</p>
+          <span class="btn btn-primary">${t('index.open')}</span>
+          ${DEV && ext && ext.alt ? `<a class="alt-link" href="${extUrl(ext.alt)}" onclick="event.stopPropagation()">${pick(ext.alt.label)}</a>` : ''}
+          ${DEV && p.meta.fixture ? `<span class="badge badge-fixture">${t('index.fixture')}</span>` : ''}
+        </div>`;
+      a.addEventListener('click', () => capture('project_open', { project: p.id, from: 'index' }));
+      grid.appendChild(a);
+    }
+    if (!projects.length) grid.innerHTML = `<p class="empty">${t('index.none')}</p>`;
+  }
+
+  toggle.addEventListener('click', () => { setLang(getLang() === 'he' ? 'en' : 'he'); render(); });
+  setLang(getLang());
+  try {
+    const list = await loadProjects();
+    projects = await Promise.all(list.map(async (p) => ({ ...p, meta: await loadProjectMeta(p.dir) })));
+  } catch (e) {
+    console.error(e);
+    grid.innerHTML = `<p class="empty">${t('index.error')}: ${e.message}</p>`;
+    throw e;
+  }
+  render();
+</script>
+</body>
+</html>

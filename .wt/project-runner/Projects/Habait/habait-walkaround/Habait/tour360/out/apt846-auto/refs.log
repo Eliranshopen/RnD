@@ -1,0 +1,12 @@
+entrance: ref apartments\apt846-auto\_local\refs\plan-01-entrance.png 1700x1700, camera at (703,1729) bearing 296.0°
+kitchen: ref apartments\apt846-auto\_local\refs\plan-02-kitchen.png 1700x1700, camera at (1784,1475) bearing 21.1°
+dining: ref apartments\apt846-auto\_local\refs\plan-03-dining.png 1700x1700, camera at (2379,1292) bearing 93.0°
+living: ref apartments\apt846-auto\_local\refs\plan-04-living.png 1700x1700, camera at (950,2154) bearing 101.0°
+terraceLiving: ref apartments\apt846-auto\_local\refs\plan-05-terrace-living.png 1700x1700, camera at (2984,1712) bearing 161.0°
+terraceBedroom: ref apartments\apt846-auto\_local\refs\plan-06-terrace-bedroom.png 1700x1700, camera at (2084,3670) bearing 53.0°
+bedroomMain: ref apartments\apt846-auto\_local\refs\plan-07-bedroom-main.png 1700x1700, camera at (1905,2941) bearing 129.0°
+wardrobe: ref apartments\apt846-auto\_local\refs\plan-08-wardrobe.png 1700x1700, camera at (1117,2750) bearing 331.0°
+bathMain: ref apartments\apt846-auto\_local\refs\plan-09-bath-main.png 1700x1700, camera at (706,2848) bearing 244.0°
+bedroom2: ref apartments\apt846-auto\_local\refs\plan-10-bedroom-2.png 1700x1700, camera at (1425,953) bearing 38.0°
+bathGuest: ref apartments\apt846-auto\_local\refs\plan-11-bath-guest.png 1700x1700, camera at (947,1306) bearing 139.0°
+plan sheet apartments\apt846-auto\plan\floorplan.webp 1500x1560 (169 KB)

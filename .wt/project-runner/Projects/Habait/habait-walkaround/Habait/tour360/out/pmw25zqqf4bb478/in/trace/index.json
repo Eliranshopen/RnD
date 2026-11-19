@@ -1,0 +1,247 @@
+{
+ "input": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\דירה 846- 16.pdf",
+ "id": "pmw25zqqf4bb478",
+ "model": "google/gemini-3.7-flash",
+ "plans": [
+  {
+   "dir": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1",
+   "page": 1,
+   "floor_label": null,
+   "dwelling_label": null,
+   "status": "FAIL",
+   "rounds": 2,
+   "plan": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1\\plan.general.json",
+   "overlay": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1\\overlay.png",
+   "report": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1\\report.json",
+   "trace_check": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw25zqqf4bb478\\in\\trace\\plan-1\\trace-check.json",
+   "rooms": 10,
+   "fixtures": 10,
+   "scale_px_per_cm": 3.2741,
+   "failures": [
+    {
+     "check": "dims",
+     "room": "r-bedroom",
+     "name": "חדר שינה",
+     "expected": [
+      342,
+      275
+     ],
+     "got": [
+      344,
+      238
+     ]
+    },
+    {
+     "check": "dims",
+     "room": "r-master-bathroom",
+     "name": "חדר רחצה הורים",
+     "expected": [
+      212,
+      210
+     ],
+     "got": [
+      193,
+      151
+     ]
+    },
+    {
+     "check": "dims",
+     "room": "r-sun-terrace",
+     "name": "מרפסת שמש",
+     "expected": [
+      474,
+      270
+     ],
+     "got": [
+      337,
+      204
+     ]
+    },
+    {
+     "check": "door_arc",
+     "room": null,
+     "name": null,
+     "expected": "an opening between two rooms",
+     "got": "both sides of the door lie in the same traced room (a wrong split or a missing room)"
+    },
+    {
+     "check": "door_arc",
+     "room": null,
+     "name": null,
+     "expected": "an opening between two rooms",
+     "got": "both sides of the door lie in the same traced room (a wrong split or a missing room)"
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-living-room",
+     "name": "חדר דיור",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      89
+     ]
+    },
+    {
+     "check": "label_in_room",
+     "room": "r-living-room",
+     "name": "חדר דיור",
+     "expected": "the printed label inside its room (<= 50 cm)",
+     "got": "114 cm away"
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-kitchen",
+     "name": "מטבח",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      150,
+      40,
+      135,
+      194,
+      49,
+      53,
+      143,
+      183
+     ]
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-dining-area",
+     "name": "פינת אוכל",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      170,
+      123,
+      81,
+      45,
+      37
+     ]
+    },
+    {
+     "check": "shape_iou",
+     "room": "r-bedroom",
+     "name": "חדר שינה",
+     "expected": ">= 0.85 with the printed rectangle",
+     "got": 0.805
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-bedroom",
+     "name": "חדר שינה",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      183,
+      143,
+      231,
+      249
+     ]
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-bathroom",
+     "name": "חדר רחצה כללי",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      42,
+      78,
+      70,
+      60,
+      75,
+      140,
+      59,
+      55,
+      198,
+      140
+     ]
+    },
+    {
+     "check": "shape_iou",
+     "room": "r-master-bedroom",
+     "name": "חדר שינה הורים",
+     "expected": ">= 0.85 with the printed rectangle",
+     "got": 0.824
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-master-bedroom",
+     "name": "חדר שינה הורים",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      37
+     ]
+    },
+    {
+     "check": "shape_iou",
+     "room": "r-master-bathroom",
+     "name": "חדר רחצה הורים",
+     "expected": ">= 0.85 with the printed rectangle",
+     "got": 0.56
+    },
+    {
+     "check": "shape_iou",
+     "room": "r-sun-terrace",
+     "name": "מרפסת שמש",
+     "expected": ">= 0.85 with the printed rectangle",
+     "got": 0.278
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-sun-terrace",
+     "name": "מרפסת שמש",
+     "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+     "got": [
+      204,
+      333
+     ]
+    },
+    {
+     "check": "label_in_room",
+     "room": "r-sun-terrace",
+     "name": "מרפסת שמש",
+     "expected": "the printed label inside its room (<= 50 cm)",
+     "got": "91 cm away"
+    },
+    {
+     "check": "label_in_room",
+     "room": "r-entrance",
+     "name": "כניסה",
+     "expected": "the printed label inside its room (<= 50 cm)",
+     "got": "74 cm away"
+    }
+   ],
+   "judge_mismatches": [
+    {
+     "room": "3",
+     "issue": "The traced area for the dining area (3) spills through the exterior glass wall onto the outdoor sun balcony (מרפסת שמש) and beyond the building perimeter."
+    },
+    {
+     "room": "2",
+     "issue": "The open-concept living, dining, and kitchen area is arbitrarily split into multiple fragmented rooms (2, 3, 10, and an untagged central living room area)."
+    },
+    {
+     "room": "חדר שינה הורים",
+     "issue": "The master bedroom is improperly split into two separate polygons (the main room area and a purple strip along the bottom wall)."
+    },
+    {
+     "room": "מרפסת שמש",
+     "issue": "The balcony (מרפסת שמש) is not traced as a single outdoor space; it is fragmented across room 3, room 6, room 9, and room 1."
+    },
+    {
+     "room": "4",
+     "issue": "The bottom entrance portion of the bedroom is cut off and incorrectly separated into an adjacent light-blue polygon."
+    }
+   ],
+   "could_not_read": [
+    "room 'מבואה' (r-hall-auto-40): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+    "room 'חדר דיור' (r-living-room): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מטבח' (r-kitchen): no printed dimensions were read; its size comes from the drawing only",
+    "room 'פינת אוכל' (r-dining-area): no printed dimensions were read; its size comes from the drawing only",
+    "room 'חדר שינה' (r-bedroom): traced [344, 238] cm vs printed [275, 342] cm ([0.6, -13.5] %) — check the trace or the reading",
+    "room 'חדר רחצה הורים' (r-master-bathroom): traced [193, 151] cm vs printed [212, 210] cm ([-9.0, -28.1] %) — check the trace or the reading",
+    "room 'מרפסת שמש' (r-sun-terrace): traced [337, 204] cm vs printed [270, 474] cm ([-28.9, -24.4] %) — check the trace or the reading",
+    "room 'כניסה' (r-entrance): no printed dimensions were read; its size comes from the drawing only"
+   ]
+  }
+ ],
+ "spent_usd": 0.0194865,
+ "status": "FAIL"
+}

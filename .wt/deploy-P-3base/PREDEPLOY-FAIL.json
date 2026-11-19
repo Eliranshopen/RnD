@@ -1,0 +1,276 @@
+{
+ "at": "2026-11-06T12:11:50.514Z",
+ "verdict": "C:\\RnD\\.wt\\deploy-P-3base.predeploy\\verdict.json",
+ "failing": [
+  {
+   "page": "/",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: a.home-card__alt.hb-link «גרסת תחנות 360 (גיבוי)» 153×26"
+   ]
+  },
+  {
+   "page": "/",
+   "size": "390",
+   "fails": [
+    "target under 44 px: a.home-card__link «Rainbow תל אביב» 205×36",
+    "target under 44 px: a.home-card__alt.hb-link «גרסת תחנות 360 (גיבוי)» 153×26"
+   ]
+  },
+  {
+   "page": "/landing.html",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: a#flightFull.hb-btn.hb-btn--secondary «פתיחה במסך מלא» 139×36"
+   ]
+  },
+  {
+   "page": "/landing.html",
+   "size": "390",
+   "fails": [
+    "target under 44 px: a#flightFull.hb-btn.hb-btn--secondary «פתיחה במסך מלא» 139×36"
+   ]
+  },
+  {
+   "page": "/hold/",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button.hotspot.status-for-sale «846קומה 16 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-sold «845קומה 16 · 3 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-for-sale «856קומה 17 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-sold «855קומה 17 · 3 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-for-sale «836קומה 15 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-reserved «835קומה 15 · 3 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-for-sale «866קומה 18 · 4 חדרים» 150×27",
+    "target under 44 px: button.hotspot.status-sold «826קומה 14 · 4 חדרים» 150×27",
+    "target under 44 px: button.hotspot.status-for-sale «876קומה 19 · 6 חדרים» 150×27",
+    "target under 44 px: button.hud-chip.picker-units-btn «▤ דירות» 85×42",
+    "target under 44 px: button#soundBtn «צליל» 40×40"
+   ]
+  },
+  {
+   "page": "/hold/",
+   "size": "390",
+   "fails": [
+    "target under 44 px: button.hotspot.status-for-sale «846קומה 16 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-sold «845קומה 16 · 3 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-for-sale «856קומה 17 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-sold «855קומה 17 · 3 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-for-sale «836קומה 15 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-reserved «835קומה 15 · 3 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-for-sale «866קומה 18 · 4 חדרים» 52×24",
+    "target under 44 px: button.hotspot.status-sold «826קומה 14 · 4 חדרים» 52×24",
+    "target under 44 px: button.hud-chip.picker-units-btn «▤ דירות» 85×42",
+    "target under 44 px: button#soundBtn «צליל» 40×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=entrance",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=entrance",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -1..41 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=kitchen",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=kitchen",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=dining",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=dining",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=living",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=living",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=terraceLiving",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=terraceLiving",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=terraceBedroom",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=terraceBedroom",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=bedroomMain",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=bedroomMain",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=wardrobe",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=wardrobe",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=bathMain",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=bathMain",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -9..33 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=bedroom2",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=bedroom2",
+   "size": "390",
+   "fails": [
+    "overflow button «עב» (a control cut by the edge) -8..34 (viewport 0..390)",
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  },
+  {
+   "page": "/tour/?room=bathguest",
+   "size": "1440",
+   "fails": [
+    "target under 44 px: button «עב» 44×38",
+    "target under 44 px: button «EN» 44×38",
+    "target under 44 px: button «FR» 44×38"
+   ]
+  },
+  {
+   "page": "/tour/?room=bathguest",
+   "size": "390",
+   "fails": [
+    "target under 44 px: button#t-guide.t-icon-btn.t-guide «» 43×44",
+    "target under 44 px: button#t-ruler.t-icon-btn.t-ruler «» 43×44",
+    "target under 44 px: button «עב» 42×40"
+   ]
+  }
+ ]
+}

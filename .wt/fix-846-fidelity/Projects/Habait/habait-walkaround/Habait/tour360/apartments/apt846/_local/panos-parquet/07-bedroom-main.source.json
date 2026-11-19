@@ -1,0 +1,5 @@
+{
+ "answer": "07-bedroom-main__floor-parquet__s7__640999941f1f.png",
+ "source": "07-bedroom-main__seam__s7__fbd17cbb7b8c.png",
+ "source_inferred": "backfilled 2026-11-05 (band-edge audit): the answer matched to the shipped webp by pixels (mean |diff| 0.40-0.46 of 255 at 512x256); the source is the room pick the finish was made from (finishes were redone after the last pick change)"
+}

@@ -1,0 +1,137 @@
+{
+ "axis_deg": 17.5,
+ "rects": {
+  "bathroom": {
+   "rect_px": [
+    340.29560098387196,
+    629.4416010724067,
+    446.0872981093097,
+    779.902759437673
+   ],
+   "fit": 0.97,
+   "snapped": true,
+   "own_fixtures_in": "2/3",
+   "other_labels_covered": 0,
+   "local_axis_deg": 18.0,
+   "anchored": {
+    "x": 140.0,
+    "y": 199.1
+   }
+  },
+  "wardrobe-area": {
+   "rect_px": [
+    550.1688659227855,
+    1229.2010655010508,
+    671.1087264758487,
+    1369.0149742844585
+   ],
+   "fit": 0.975,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0,
+   "anchored": {
+    "x": 160.0,
+    "y": 185.0
+   }
+  },
+  "master-bathroom": {
+   "rect_px": [
+    383.9242435098608,
+    1202.6768256128994,
+    542.6657581270125,
+    1363.2836636560758
+   ],
+   "fit": 0.99,
+   "snapped": true,
+   "own_fixtures_in": "3/3",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0,
+   "anchored": {
+    "x": 210.0,
+    "y": 212.5
+   }
+  },
+  "bedroom": {
+   "rect_px": [
+    407.2433503087126,
+    384.248715147029,
+    615.071933899255,
+    642.8923073722311
+   ],
+   "fit": 0.981,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 18.0,
+   "anchored": {
+    "x": 275.0,
+    "y": 342.2
+   }
+  },
+  "master-bedroom": {
+   "rect_px": [
+    678.6754154016714,
+    1115.4140828531704,
+    941.4099269125419,
+    1375.1038764457414
+   ],
+   "fit": 0.992,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0,
+   "anchored": {
+    "x": 347.7,
+    "y": 343.6
+   }
+  },
+  "living-room": {
+   "rect_px": [
+    359.0,
+    746.0,
+    921.0,
+    1147.0
+   ],
+   "fit": 0.91,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 18.0,
+   "anchored": {}
+  },
+  "kitchen": {
+   "rect_px": null,
+   "fit": null,
+   "snapped": false,
+   "from": "open-plan slab 1/2 (walls + glazing)"
+  },
+  "dining-area": {
+   "rect_px": null,
+   "fit": null,
+   "snapped": false,
+   "from": "open-plan slab 2/2 (walls + glazing)"
+  }
+ },
+ "notes": [
+  "sun-balcony: an outdoor label inside the building envelope: this floor's terrace / patio, outside the rooms",
+  "35 printed dimension lines read from the PDF (tick to tick)",
+  "a 1.6 m² piece the open-plan split cut off its own region: back to the open plan",
+  "a 0.1 m² label-less piece beyond the windows (0 % walls, 100 % windows, 20 cm wide): outside (a beam / ledge strip)",
+  "a 0.9 m² label-less piece bounded 12 % by walls, 65 % by windows: beyond the facade (outside)",
+  "a 0.6 m² piece opens into no hall or living room: left untraced",
+  "corridor-177: a 157 cm wide passage serving ['living-room', 'master-bedroom', 'wardrobe-area']: its own room «מעבר»",
+  "a 0.3 m² piece opens into no hall or living room: left untraced",
+  "sun-balcony: dimension line 474.2 cm drawn in it: +0 px toward its ticks",
+  "sun-balcony: dimension line 270.1 cm drawn in it: +859 px toward its ticks",
+  "glass wall to the terrace: 0.13 m² of glazing band joined the open-plan rooms (threshold on the terrace side)",
+  "7 opening(s) from room adjacency",
+  "0.14 m² of small free notches joined the open-plan room around them",
+  "corridor-177: piece 7.0 m², 0 % of its edge on the outside / an outdoor room, indoor neighbours ['living-room', 'master-bedroom', 'wardrobe-area']",
+  "open-plan rooms grew 0.14 m² into the window mask, up to its inner face (<= 10 cm)",
+  "living-room: a stray 0.2 m² piece of its claim joined dining-area",
+  "sun-balcony: faces moved onto the extension lines of its 474.2 cm dimension line",
+  "sun-balcony: faces moved onto the extension lines of its 270.1 cm dimension line"
+ ],
+ "niches": {}
+}

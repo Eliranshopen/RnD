@@ -1,0 +1,14 @@
+{
+ "film": "C:/RnD/.wt/exterior-film/work\\building-film-720.mp4",
+ "sha256": "c46aa6ab0640698af27f102131d7c904af98ee1050c9a3042d5a6d5c850f012e",
+ "seconds": 28.417,
+ "orbit_s": 17.041667,
+ "arc_s": 8.041667,
+ "arc_frames": [
+  66,
+  169,
+  66
+ ],
+ "ease": "cosine ping-pong",
+ "fps": 24
+}

@@ -1,0 +1,13 @@
+{
+  "stages": {
+    "intake": {
+      "status": "blocked",
+      "note": "fal HTTP 400: \"Reasoning is mandatory for this endpoint and cannot be disabled.\"",
+      "at": "2026-11-03T21:26:57.066Z",
+      "cost_usd": 0,
+      "seconds": 7.45
+    }
+  },
+  "running": false,
+  "ledger_usd": 0
+}

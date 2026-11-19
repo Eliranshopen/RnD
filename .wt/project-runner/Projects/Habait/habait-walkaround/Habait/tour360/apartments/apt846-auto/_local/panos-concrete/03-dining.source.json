@@ -1,0 +1,7 @@
+{
+ "answer": "03-dining__gpt25__s7__fb222e11fa0f.png",
+ "source": "03-dining__gpt25__s7__fb222e11fa0f.png",
+ "mode": "floor-composite --whole",
+ "composite": "03-dining__floorcomp-concrete__fb222e11fa0f.png",
+ "floor_from": "03-dining.answer-03-dining__gpt25__s7__fb222e11fa0f.webp"
+}

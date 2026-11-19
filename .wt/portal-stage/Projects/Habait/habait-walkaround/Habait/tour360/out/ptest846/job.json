@@ -1,0 +1,25 @@
+{
+ "id": "ptest846",
+ "stage": "failed",
+ "percent": 0,
+ "log": [
+  "13:19:56 steps: apartment,casework,cameras,prompts,furnish",
+  "13:19:56 apartment: start",
+  "13:19:56 apartment: done in 0 s",
+  "13:19:56 casework: start",
+  "13:19:58 מטבח: כיריים וכיור במקום שבשרטוט",
+  "13:19:58 ארון גבוה במטבח: ארון אחסון, מקרר",
+  "13:19:58 casework: done in 2 s",
+  "13:19:58 cameras: start",
+  "13:19:58 cameras: done in 0 s",
+  "13:19:58 prompts: start",
+  "13:19:58 prompts: done in 0 s",
+  "13:19:58 furnish: start",
+  "13:19:59 furnish_from_plan exited 1 without its outputs:     return self.auto_front(f[\"room_id\"], cx, cy, cands, depth)\r |            ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r |   File \"C:\\RnD\\.wt\\portal-stage\\Projects\\Habait\\habait-walkaround\\360walkaround\\pipeline\\general_furnish.py\", line 414, in auto_front\r |     loop = self.loops[room_id]\r |            ~~~~~~~~~~^^^^^^^^^\r | KeyError: None",
+  "13:20:24 steps: furnish",
+  "13:20:24 furnish: start",
+  "13:20:29 furnish audit refused the plan: openings blocked: 2 of 9 (o-arc-6, o-arc-7)\r | items intersecting walls: 2 (fx-drawn-10-counter-m4 271.0/0.0 cm2, fx-drawn-15-wardrobe 434.0/0.0 cm2)\r | items outside their room: 0\r | size violations: 0\r | floor coverage: 16.6% of the indoor floor\r | previews: 12 written"
+ ],
+ "links": {},
+ "updatedAt": "2026-11-06T13:20:29.106Z"
+}

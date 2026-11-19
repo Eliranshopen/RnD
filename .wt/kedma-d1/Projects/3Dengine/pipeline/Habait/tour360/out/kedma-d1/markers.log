@@ -1,0 +1,14 @@
+kitchen: unchanged (6b9148cdf25a), kept — $0
+pantry: unchanged (20ff4f2c1a4e), kept — $0
+living: unchanged (4df9eeb5a85f), kept — $0
+dining: unchanged (3362c36eefa5), kept — $0
+family: unchanged (62fc32dd167d), kept — $0
+corridor: 9 pieces (bed 1, coffee_table 1, sofa 1, chair 3, dining_table 1, other 1, rug 1) · 5 markers · set of 3 · $0.0399 in 16.0s
+master: 9 pieces (bed 1, lamp 2, other 4, rug 2) · 4 markers · $0.0312 in 12.5s
+shower: 4 pieces (bed 1, rug 1, other 2) · 0 markers · $0.0262 in 10.4s
+bed1: 8 pieces (lamp 2, other 2, bed 1, chair 1, rug 2) · 4 markers · $0.0313 in 11.1s
+bed2: 7 pieces (lamp 1, other 2, rug 2, bed 1, chair 1) · 3 markers · $0.0264 in 11.2s
+bath: 3 pieces (other 1, chair 1, rug 1) · 1 markers · $0.0276 in 11.6s
+mamad: 9 pieces (lamp 1, other 3, chair 2, bed 1, rug 2) · 4 markers · $0.0377 in 14.2s
+balcony: 13 pieces (sofa 1, armchair 2, chair 7, dining_table 1, rug 1, coffee_table 1) · 3 markers · set of 5 · $0.0434 in 14.7s
+scan-pieces kedma-d1: 8 scene(s) scanned, 13 in the file · 131 pieces · 48 markers · this run $0.2637 · ledger $18.519 of $19.99 · sheet qa-evidence\tour360\T16\scan\index.html

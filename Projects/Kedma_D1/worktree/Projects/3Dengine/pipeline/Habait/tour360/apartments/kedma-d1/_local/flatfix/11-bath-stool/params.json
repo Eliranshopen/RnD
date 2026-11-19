@@ -1,0 +1,10 @@
+{
+ "asset": "11-bath",
+ "tag": "stool",
+ "parent": "11-bath__flat__vanity.png",
+ "yaw": 150,
+ "pitch": 0,
+ "hfov": 112,
+ "size": 1024,
+ "note": "restore: the old view pixels of a part the vanity answer cut (a stool, a second handle)"
+}

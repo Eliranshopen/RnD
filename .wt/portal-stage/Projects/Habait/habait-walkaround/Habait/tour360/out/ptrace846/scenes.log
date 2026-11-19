@@ -1,0 +1,12 @@
+start view: wardrobeArea faces 152 cm of clear sight at its centre; heading 149 deg (601 cm)
+scenes.json: 10 scenes, 22 links
+  bedroom         centre    55°  entrance@u0.873
+  bathroom        centre    17°  entrance@u0.763
+  kitchen         centre    22°  diningArea@u0.109
+  diningArea      centre    99°  kitchen@u0.382  livingRoom@u0.674  entrance@u0.951
+  livingRoom      centre   109°  wardrobeArea@u0.864  sunTerrace@u0.517  diningArea@u0.165  entrance@u0.014
+  sunTerrace      centre   193°  masterBedroom@u0.61  livingRoom@u0.627
+  masterBedroom   centre   117°  sunTerrace@u0.382  wardrobeArea@u0.074
+  wardrobeArea    centre   333°  masterBedroom@u0.765  livingRoom@u0.513  masterBathroom@u0.275
+  masterBathroom  centre   153°  wardrobeArea@u0.378
+  entrance        centre    30°  bedroom@u0.503  bathroom@u0.435  diningArea@u0.648  livingRoom@u0.968

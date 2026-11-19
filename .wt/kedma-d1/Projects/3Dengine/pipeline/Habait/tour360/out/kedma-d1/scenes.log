@@ -1,0 +1,15 @@
+start view: dining faces 183 cm of clear sight at its centre; heading -149 deg (532 cm)
+scenes.json: 13 scenes, 26 links
+  kitchen         centre   270°  pantry@u0.034  living@u0.247  dining@u0.093
+  pantry          centre   243°  kitchen@u0.54
+  living          centre    50°  kitchen@u0.368  dining@u0.509  corridor@u0.837  balcony@u0.165
+  dining          centre    44°  living@u0.047  family@u0.62  kitchen@u0.328
+  family          centre    98°  dining@u0.031
+  corridor        centre 263.9°  living@u0.78  bath@u0.041  mamad@u0.018  master@u0.515  bed1@u0.507  bed2@u0.078
+  master          centre   248°  shower@u0.369  corridor@u0.062
+  shower          centre   115°  master@u0.186
+  bed1            centre   185°  corridor@u0.037
+  bed2            centre   193°  corridor@u0.015
+  bath            centre   167°  corridor@u0.022
+  mamad           centre   175°  corridor@u0.868
+  balcony         centre   199°  living@u0.329

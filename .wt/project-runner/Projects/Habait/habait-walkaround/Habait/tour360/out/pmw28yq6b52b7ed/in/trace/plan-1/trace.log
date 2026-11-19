@@ -1,0 +1,36 @@
+stroke_ignore_boxes removed 60 stroke pixels
+DOUBLE-line pixels 523, kept as barriers 523
+STROKES 7 components (cut at walls); touching 6; kept 2; auto-dropped straight >= 100 cm 0; blacklisted 0
+  st-1   diag    93 cm  px    130 elong  0.002  bbox [208,1240,300,1241]
+LINES 1 far-from-wall black components >= 60 cm; kept 0
+  ln-1   diag    83 cm  px    116  bbox [217,1241,300,1241]
+AUTO gap-1     91 cm  452,54 -> 544,51
+AUTO gap-2     75 cm  382,382 -> 307,381
+AUTO gap-3     75 cm  407,386 -> 482,384
+AUTO gap-4    115 cm  388,509 -> 491,458
+AUTO gap-5     75 cm  402,746 -> 478,747
+AUTO gap-6     75 cm  495,460 -> 496,536
+ROOM bedroom          region   161616 px  area 8.40 m²  verts 16
+ROOM bedroom-2        region   171352 px  area 8.91 m²  verts 26
+ROOM laundry          region    76225 px  area 3.98 m²  verts 15
+ROOM bathroom: convex hull, 7 vertices
+ROOM bathroom         region    91729 px  area 5.09 m²  verts 7
+ROOM bathroom-2: convex hull, 7 vertices
+ROOM bathroom-2       region   246271 px  area 13.14 m²  verts 7
+ROOM master-bedroom   region   246271 px  area 12.80 m²  verts 21
+ROOM patio            region   337056 px  area 17.60 m²  verts 25
+ROOM hall-auto-11     region    60946 px  area 2.92 m²  verts 20
+DOOR bedroom|laundry                width   81 cm  centre 345,382  angle 1°  px 342
+DOOR bedroom-2|laundry              width   81 cm  centre 443,385  angle -1°  px 359
+DOOR bathroom-2|master-bedroom      width  407 cm  centre 317,945  angle -87°  px 260950
+GLAZING 0 double-line networks -> 0 panes
+GAP gap-1: bedroom-2|outside is not a door (an outdoor passage), skipped
+DOOR o-bedroom-laundry: width set from the wall gap gap-2 = 75 cm
+DOOR o-bedroom-2-laundry: width set from the wall gap gap-3 = 75 cm
+GAP gap-4: outside|laundry is not a door (an outdoor passage), skipped
+GAP gap-5: bathroom-2|outside is not a door (an outdoor passage), skipped
+GAP gap-6: outside|bathroom is not a door (an outdoor passage), skipped
+WALLS 5 components after closing
+DOORS kept at their traced centres (2 real openings), ends checked against the wall edges
+PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-1\plan.general.json: 8 rooms, 5 wall pieces, 3 openings, 0 panes, 8 cameras, 0 fixtures
+overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-1\trace-debug.png

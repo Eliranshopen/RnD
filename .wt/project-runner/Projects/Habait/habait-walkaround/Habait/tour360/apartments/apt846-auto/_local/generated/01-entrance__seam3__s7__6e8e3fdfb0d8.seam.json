@@ -1,0 +1,38 @@
+{
+ "version": 3,
+ "blend": "aligned@cut+laplacian-6",
+ "parent": "01-entrance__seam3__s7__f060d2362dd8.png",
+ "band": {
+  "u": 0.85,
+  "deg": 70
+ },
+ "cut_search_px": 140,
+ "align_max_px": 16,
+ "cuts": [
+  {
+   "u": 0.6846,
+   "structure": 0.98,
+   "tone": 1.53,
+   "aligned_px": 1,
+   "line_step_px": 0,
+   "lines": 3
+  },
+  {
+   "u": 0.9609,
+   "structure": 1.71,
+   "tone": 3.6,
+   "aligned_px": 0.5,
+   "line_step_px": 14,
+   "lines": 25
+  }
+ ],
+ "ref": "02-kitchen__gpt25__s32__1fd6490ac915.png",
+ "ref_scale": {
+  "verdict": "FAIL",
+  "ratio": null,
+  "class": "transplant",
+  "against": "01-entrance__seam3__s7__f060d2362dd8.png",
+  "object": "the largest piece of furniture or built-in element in the middle of the image",
+  "sheet": "_local\\fidelity\\ref-scale__01-entrance__0abfd9728f6a.jpg"
+ }
+}

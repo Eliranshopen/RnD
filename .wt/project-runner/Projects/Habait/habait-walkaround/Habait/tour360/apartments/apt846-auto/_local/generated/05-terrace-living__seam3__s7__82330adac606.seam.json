@@ -1,0 +1,29 @@
+{
+ "version": 3,
+ "blend": "aligned@cut+laplacian-6",
+ "parent": "05-terrace-living__gpt25__s7__5b28748e79e7.png",
+ "band": {
+  "u": 0,
+  "deg": 12
+ },
+ "cut_search_px": 300,
+ "align_max_px": 16,
+ "cuts": [
+  {
+   "u": 0.8892,
+   "structure": 1.4,
+   "tone": 1.36,
+   "aligned_px": 1,
+   "line_step_px": 0,
+   "lines": 40
+  },
+  {
+   "u": 0.0947,
+   "structure": 0.9,
+   "tone": 0.78,
+   "aligned_px": 1,
+   "line_step_px": 1,
+   "lines": 23
+  }
+ ]
+}

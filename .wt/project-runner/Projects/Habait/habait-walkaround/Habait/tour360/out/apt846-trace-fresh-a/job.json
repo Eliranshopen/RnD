@@ -1,0 +1,19 @@
+{
+ "id": "apt846-trace-fresh-a",
+ "stage": "done",
+ "percent": 100,
+ "log": [
+  "11:06:23 steps: trace",
+  "11:06:23 trace: start",
+  "11:06:23 הסוכן משרטט את הדירה מתוך תכנית המכר ובודק אותה מול התכנית",
+  "11:09:23 the auto-trace budget (0) was reached: [auto-trace 179s] r1 auto_finalize: 11 rooms, 20 fixtures, wall angle 17.5 deg, scale 2.2677 px/cm (fit x1.0000), 8 notes, overlay C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-a\\trace\\plan-1\\overlay.png | [auto-trace 179s] r1 trace_check: PASS � 85/85 checks pass; corrections: force_rect [] | auto-trace: budget $0 reached ($0.000 booked)",
+  "11:18:15 steps: trace",
+  "11:18:15 trace: start",
+  "11:18:15 הסוכן משרטט את הדירה מתוך תכנית המכר ובודק אותה מול התכנית",
+  "11:21:29 השרטוט עבר את בדיקת ההתאמה: 11 חדרים",
+  "11:21:29 trace: done in 194 s",
+  "11:21:29 timings {\"trace\":194}"
+ ],
+ "links": {},
+ "updatedAt": "2026-11-06T11:21:29.497Z"
+}

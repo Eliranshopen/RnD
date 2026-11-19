@@ -1,0 +1,36 @@
+{
+ "input": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\דירה 846- 16.pdf",
+ "id": "apt846-trace-fresh-b",
+ "model": "google/gemini-3.7-flash",
+ "plans": [
+  {
+   "dir": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1",
+   "page": 1,
+   "floor_label": null,
+   "dwelling_label": null,
+   "status": "PASS",
+   "rounds": 1,
+   "plan": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\plan.general.json",
+   "overlay": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\overlay.png",
+   "report": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\report.json",
+   "trace_check": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\trace-check.json",
+   "rooms": 11,
+   "fixtures": 20,
+   "scale_px_per_cm": 2.2677,
+   "failures": [],
+   "judge_mismatches": [],
+   "could_not_read": [
+    "room 'מבואה' (r-hall-auto-91): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+    "room 'מעבר' (r-corridor-75): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+    "room 'מטבח' (r-kitchen): no printed dimensions were read; its size comes from the drawing only",
+    "room 'פינת אוכל' (r-dining-area): no printed dimensions were read; its size comes from the drawing only",
+    "room 'חדר דיור' (r-living-room): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מרפסת שמש' (r-sun-balcony): traced [1061, 347] cm vs printed [270, 474] cm ([123.8, 28.5] %) — check the trace or the reading",
+    "room 'כניסה' (r-entrance): no printed dimensions were read; its size comes from the drawing only",
+    "room 'מעבר' (r-corridor-20): no printed dimensions were read; its size comes from the drawing only"
+   ]
+  }
+ ],
+ "spent_usd": 0,
+ "status": "PASS"
+}

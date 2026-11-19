@@ -1,0 +1,284 @@
+[
+ {
+  "id": "bedroom",
+  "room_id": "r-bedroom",
+  "name_he": "חדר שינה",
+  "name_en": "bedroom",
+  "type": "bedroom",
+  "vlm_type": "bedroom",
+  "is_outdoor": false,
+  "at_px": [
+   300.0,
+   339.0
+  ],
+  "room_box_px": [
+   158.00400000000002,
+   66.136,
+   536.3820000000001,
+   524.364
+  ],
+  "dims_cm": [
+   280,
+   330
+  ],
+  "force_rect": true,
+  "label_px": [
+   301.45500000000004,
+   340.12800000000004
+  ],
+  "at_px_work": [
+   300,
+   339
+  ],
+  "rect_fit": 0.887
+ },
+ {
+  "id": "bedroom-2",
+  "room_id": "r-bedroom-2",
+  "name_he": "חדר שינה",
+  "name_en": "bedroom",
+  "type": "bedroom",
+  "vlm_type": "bedroom",
+  "is_outdoor": false,
+  "at_px": [
+   816.0,
+   339.0
+  ],
+  "room_box_px": [
+   548.856,
+   66.136,
+   960.4979999999999,
+   522.002
+  ],
+  "dims_cm": [
+   300,
+   330
+  ],
+  "force_rect": true,
+  "label_px": [
+   817.047,
+   340.12800000000004
+  ],
+  "at_px_work": [
+   816,
+   339
+  ],
+  "rect_fit": 0.904
+ },
+ {
+  "id": "laundry",
+  "room_id": "r-laundry",
+  "name_he": "חדר כביסה",
+  "name_en": "laundry",
+  "type": "storage",
+  "vlm_type": "laundry",
+  "is_outdoor": false,
+  "at_px": [
+   345.0,
+   633.0
+  ],
+  "room_box_px": [
+   177.40800000000002,
+   529.088,
+   421.344,
+   703.876
+  ],
+  "dims_cm": [
+   170,
+   125
+  ],
+  "label_px": [
+   344.421,
+   633.016
+  ],
+  "at_px_work": [
+   345,
+   633
+  ]
+ },
+ {
+  "id": "bathroom",
+  "room_id": "r-bathroom",
+  "name_he": "חדר רחצה",
+  "name_en": "bathroom",
+  "type": "bathroom",
+  "vlm_type": "bathroom",
+  "is_outdoor": false,
+  "at_px": [
+   783.0,
+   741.0
+  ],
+  "room_box_px": [
+   676.3679999999999,
+   524.364,
+   950.796,
+   885.75
+  ],
+  "dims_cm": [
+   190,
+   275
+  ],
+  "label_px": [
+   783.09,
+   741.668
+  ],
+  "at_px_work": [
+   783,
+   741
+  ]
+ },
+ {
+  "id": "bathroom-2",
+  "room_id": "r-bathroom-2",
+  "name_he": "חדר רחצה",
+  "name_en": "bathroom",
+  "type": "bathroom",
+  "vlm_type": "bathroom",
+  "is_outdoor": false,
+  "at_px": [
+   384.0,
+   1176.0
+  ],
+  "room_box_px": [
+   189.882,
+   1032.194,
+   541.926,
+   1242.412
+  ],
+  "dims_cm": [
+   270,
+   145
+  ],
+  "label_px": [
+   383.922,
+   1176.276
+  ],
+  "at_px_work": [
+   384,
+   1176
+  ],
+  "rect_fit": 0.959
+ },
+ {
+  "id": "master-bedroom",
+  "room_id": "r-master-bedroom",
+  "name_he": "חדר שינה הורים",
+  "name_en": "master bedroom",
+  "type": "bedroom",
+  "vlm_type": "master_bedroom",
+  "is_outdoor": false,
+  "at_px": [
+   366.0,
+   1407.0
+  ],
+  "room_box_px": [
+   158.00400000000002,
+   1258.9460000000001,
+   688.842,
+   1712.45
+  ],
+  "dims_cm": [
+   390,
+   345
+  ],
+  "force_rect": true,
+  "label_px": [
+   545.391,
+   1503.413
+  ],
+  "at_px_work": [
+   366,
+   1407
+  ],
+  "rect_fit": 0.978
+ },
+ {
+  "id": "patio",
+  "room_id": "r-patio",
+  "name_he": "פטיו בקומת קרקע",
+  "name_en": "patio",
+  "type": "balcony",
+  "vlm_type": "patio",
+  "is_outdoor": true,
+  "at_px": [
+   1092.0,
+   1404.0
+  ],
+  "room_box_px": [
+   873.18,
+   1270.756,
+   1315.3139999999999,
+   1899.048
+  ],
+  "dims_cm": null,
+  "label_px": [
+   1092.8609999999999,
+   1403.0279999999998
+  ],
+  "at_px_work": [
+   1092,
+   1404
+  ],
+  "kept_flood": true
+ },
+ {
+  "id": "hall-auto-11",
+  "room_id": "r-hall-auto-11",
+  "name_he": "מבואה",
+  "name_en": "Hall",
+  "type": "hall",
+  "is_outdoor": false,
+  "at_px": [
+   303.0,
+   1632.0
+  ],
+  "at_px_work": [
+   303,
+   1632
+  ],
+  "dims_cm": null,
+  "auto": true
+ },
+ {
+  "id": "corridor-1",
+  "room_id": "r-corridor-1",
+  "name_he": "מעבר",
+  "name_en": "Corridor",
+  "type": "hall",
+  "is_outdoor": false,
+  "auto": true,
+  "auto_reason": "corridor",
+  "at_px": [
+   0,
+   0
+  ]
+ },
+ {
+  "id": "corridor-7",
+  "room_id": "r-corridor-7",
+  "name_he": "מעבר",
+  "name_en": "Corridor",
+  "type": "hall",
+  "is_outdoor": false,
+  "auto": true,
+  "auto_reason": "corridor",
+  "at_px": [
+   0,
+   0
+  ]
+ },
+ {
+  "id": "corridor-8",
+  "room_id": "r-corridor-8",
+  "name_he": "מעבר",
+  "name_en": "Corridor",
+  "type": "hall",
+  "is_outdoor": false,
+  "auto": true,
+  "auto_reason": "corridor",
+  "at_px": [
+   0,
+   0
+  ]
+ }
+]

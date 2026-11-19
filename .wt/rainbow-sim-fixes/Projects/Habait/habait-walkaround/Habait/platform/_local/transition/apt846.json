@@ -1,0 +1,174 @@
+{
+ "$schema": "habait/transition360.v1",
+ "apartment": "apt846",
+ "eye_m": 1.6,
+ "note": "derived by test/transition.test.mjs: depth = 360walkaround/tours/apt846-furnished/renders/cp-<id>/depth.png (rgb24-be cm, radial) block-median to 128x64, same encoding; pano = Habait/tour360/apartments/apt846/panos/balanced; pos_cm = cameras.json at / pxPerCm; bearing0 = scenes.json centreBearingDeg",
+ "depth_all": {
+  "entrance": {
+   "depth": "entrance.depth.png",
+   "pos_cm": [
+    305.33,
+    768.44
+   ],
+   "bearing0": 105.9,
+   "asset": "01-entrance"
+  },
+  "kitchen": {
+   "depth": "kitchen.depth.png",
+   "pos_cm": [
+    837.78,
+    532.44
+   ],
+   "bearing0": 125.5,
+   "asset": "02-kitchen"
+  },
+  "dining": {
+   "depth": "dining.depth.png",
+   "pos_cm": [
+    925.78,
+    787.11
+   ],
+   "bearing0": 56.8,
+   "asset": "03-dining"
+  },
+  "living": {
+   "depth": "living.depth.png",
+   "pos_cm": [
+    685.33,
+    935.11
+   ],
+   "bearing0": 111.3,
+   "asset": "04-living"
+  },
+  "terraceLiving": {
+   "depth": "terraceLiving.depth.png",
+   "pos_cm": [
+    1244.44,
+    955.56
+   ],
+   "bearing0": 355.9,
+   "asset": "05-terrace-living"
+  },
+  "terraceBedroom": {
+   "depth": "terraceBedroom.depth.png",
+   "pos_cm": [
+    1000,
+    1370.22
+   ],
+   "bearing0": 16.3,
+   "asset": "06-terrace-bedroom"
+  },
+  "bedroomMain": {
+   "depth": "bedroomMain.depth.png",
+   "pos_cm": [
+    840,
+    1444.89
+   ],
+   "bearing0": 344.9,
+   "asset": "07-bedroom-main"
+  },
+  "wardrobe": {
+   "depth": "wardrobe.depth.png",
+   "pos_cm": [
+    435.11,
+    1324
+   ],
+   "bearing0": 106.4,
+   "asset": "08-wardrobe"
+  },
+  "bathMain": {
+   "depth": "bathMain.depth.png",
+   "pos_cm": [
+    305.33,
+    1296.44
+   ],
+   "bearing0": 36.8,
+   "asset": "09-bath-main"
+  },
+  "bedroom2": {
+   "depth": "bedroom2.depth.png",
+   "pos_cm": [
+    641.78,
+    437.78
+   ],
+   "bearing0": 35.2,
+   "asset": "10-bedroom-2"
+  },
+  "bathguest": {
+   "depth": "bathguest.depth.png",
+   "pos_cm": [
+    463.11,
+    564.89
+   ],
+   "bearing0": 15.7,
+   "asset": "11-bath-guest"
+  }
+ },
+ "scenes": {
+  "living": {
+   "pano": "04-living.webp",
+   "depth": "living.depth.png",
+   "pos_cm": [
+    685.33,
+    935.11
+   ],
+   "bearing0": 111.3,
+   "name": {
+    "he": "סלון",
+    "en": "Living room"
+   },
+   "hotspots": [
+    {
+     "to": "terraceLiving",
+     "u": 0.511,
+     "v": 0.68
+    },
+    {
+     "to": "kitchen",
+     "u": 0.249,
+     "v": 0.68
+    }
+   ]
+  },
+  "kitchen": {
+   "pano": "02-kitchen.webp",
+   "depth": "kitchen.depth.png",
+   "pos_cm": [
+    837.78,
+    532.44
+   ],
+   "bearing0": 125.5,
+   "name": {
+    "he": "מטבח",
+    "en": "Kitchen"
+   },
+   "hotspots": [
+    {
+     "to": "living",
+     "u": 0.684,
+     "v": 0.68
+    }
+   ]
+  },
+  "terraceLiving": {
+   "pano": "05-terrace-living.webp",
+   "depth": "terraceLiving.depth.png",
+   "pos_cm": [
+    1244.44,
+    955.56
+   ],
+   "bearing0": 355.9,
+   "name": {
+    "he": "מרפסת שמש",
+    "en": "Sun terrace"
+   },
+   "hotspots": [
+    {
+     "to": "living",
+     "u": 0.183,
+     "v": 0.68
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "at": "2026-11-03T21:28:35.637Z",
+    "stage": "intake",
+    "endpoint": "fal:anthropic/claude-sonnet-5.5",
+    "usd": 0.1336,
+    "note": "fal anthropic/claude-sonnet-5.5"
+  },
+  {
+    "at": "2026-11-03T21:28:43.206Z",
+    "stage": "chat",
+    "endpoint": "fal:anthropic/claude-sonnet-5.5",
+    "usd": 0.0148,
+    "note": "chat answer (5044 tokens)"
+  },
+  {
+    "at": "2026-11-03T21:28:52.641Z",
+    "stage": "chat",
+    "endpoint": "fal:anthropic/claude-sonnet-5.5",
+    "usd": 0.0197,
+    "note": "chat answer (5888 tokens)"
+  }
+]

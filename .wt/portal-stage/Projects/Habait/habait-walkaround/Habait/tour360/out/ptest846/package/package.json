@@ -1,0 +1,41 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "ptest846",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "apartment": {
+   "seconds": 0,
+   "plan": "..\\..\\..\\..\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-a\\trace\\plan-1\\plan.general.json",
+   "plan_sha256": "fc50cd1fc6f28312735310da4e976576839177d58da697b7fb5d4f9301dbae6c",
+   "rooms": 11,
+   "spec": "spec-apt846-auto.json",
+   "at": "2026-11-06T13:19:56.090Z"
+  },
+  "casework": {
+   "seconds": 2,
+   "symbols": 2,
+   "registration_cm": 0,
+   "tall_units": {
+    "fx-drawn-1-tall_unit": "pantry",
+    "fx-drawn-5-tall_unit": "fridge"
+   },
+   "at": "2026-11-06T13:19:58.408Z"
+  },
+  "cameras": {
+   "seconds": 0,
+   "scenes": 11,
+   "links": 12,
+   "orphans": [
+    "kitchen",
+    "diningArea"
+   ],
+   "at": "2026-11-06T13:19:58.796Z"
+  },
+  "prompts": {
+   "seconds": 0,
+   "scenes": 11,
+   "shared_material_block": true,
+   "at": "2026-11-06T13:19:58.813Z"
+  }
+ }
+}

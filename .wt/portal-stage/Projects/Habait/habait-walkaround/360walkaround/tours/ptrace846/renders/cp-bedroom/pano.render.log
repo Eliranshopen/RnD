@@ -1,0 +1,347 @@
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)
+Read blend: "C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\scene-full.blend"
+Fra:1 Mem:65.34M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FLOOR_r-bedroom
+Fra:1 Mem:65.35M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FLOOR_r-entrance
+Fra:1 Mem:65.35M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CEIL_r-entrance
+Fra:1 Mem:65.36M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WALL_w-1
+Fra:1 Mem:65.50M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WALL_w-3
+Fra:1 Mem:65.56M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WALL_w-4
+Fra:1 Mem:65.59M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WALL_w-5
+Fra:1 Mem:65.58M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_lever_b
+Fra:1 Mem:65.57M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | WALL_w-7
+Fra:1 Mem:65.60M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_neck_b
+Fra:1 Mem:65.61M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e1_r0
+Fra:1 Mem:65.62M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e3_r0
+Fra:1 Mem:65.64M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e4_r0
+Fra:1 Mem:65.64M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e5_r0
+Fra:1 Mem:65.64M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e6_r0
+Fra:1 Mem:65.64M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e8_r0
+Fra:1 Mem:65.64M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e9_r0
+Fra:1 Mem:65.65M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e10_r0
+Fra:1 Mem:65.65M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e11_r0
+Fra:1 Mem:65.65M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e14_r0
+Fra:1 Mem:65.66M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e14_r1
+Fra:1 Mem:65.67M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bedroom_e15_r0
+Fra:1 Mem:65.65M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e5_r0
+Fra:1 Mem:65.65M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e6_r1
+Fra:1 Mem:65.67M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e19_r0
+Fra:1 Mem:65.66M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_lever_a
+Fra:1 Mem:65.66M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e161_r0
+Fra:1 Mem:65.66M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_neck_a
+Fra:1 Mem:65.66M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e307_r0
+Fra:1 Mem:65.66M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e322_r0
+Fra:1 Mem:65.67M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e334_r0
+Fra:1 Mem:65.72M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e462_r0
+Fra:1 Mem:65.72M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-bathroom_e474_r0
+Fra:1 Mem:65.71M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-living-room_e38_r0
+Fra:1 Mem:65.71M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-living-room_e60_r0
+Fra:1 Mem:65.72M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-living-room_e62_r0
+Fra:1 Mem:65.72M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-living-room_e63_r0
+Fra:1 Mem:65.73M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-living-room_e64_r0
+Fra:1 Mem:65.73M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-sun-terrace_e93_r0
+Fra:1 Mem:65.73M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bedroom_e0_r0
+Fra:1 Mem:65.73M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bedroom_e1_r0
+Fra:1 Mem:65.73M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_rose_a
+Fra:1 Mem:65.74M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bedroom_e3_r0
+Fra:1 Mem:65.74M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_leaf
+Fra:1 Mem:65.74M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bedroom_e4_r0
+Fra:1 Mem:65.74M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-wardrobe-area_e3_r0
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-wardrobe-area_e8_r0
+Fra:1 Mem:65.75M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-wardrobe-area_e14_r0
+Fra:1 Mem:65.75M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-wardrobe-area_e16_r0
+Fra:1 Mem:65.75M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-wardrobe-area_e17_r0
+Fra:1 Mem:65.75M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-wardrobe-area_e18_r1
+Fra:1 Mem:65.75M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bathroom_e1_r0
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bathroom_e1_r1
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bathroom_e2_r0
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bathroom_e4_r0
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-master-bathroom_e5_r0
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e2_r0
+Fra:1 Mem:65.76M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e3_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e4_r0
+Fra:1 Mem:65.77M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e5_r0
+Fra:1 Mem:65.77M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e6_r0
+Fra:1 Mem:65.77M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e7_r0
+Fra:1 Mem:65.77M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e18_r0
+Fra:1 Mem:65.77M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e19_r0
+Fra:1 Mem:65.77M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e30_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e32_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FACING_r-entrance_e34_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e2_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e3_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e5_r0
+Fra:1 Mem:65.78M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e7_r0
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e8_r0
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e9_r0
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e10_r0
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e13_r0
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e14_r0
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e14_r1
+Fra:1 Mem:65.79M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bedroom_e15_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e5_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e6_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e6_r1
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e77_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e161_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e173_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e307_r0
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_casing_m_m
+Fra:1 Mem:65.80M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e322_r0
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_casing_m_p
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e334_r0
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_casing_p_head
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-bathroom_e474_r0
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-dining-area_e32_r0
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-living-room_e38_r0
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-living-room_e60_r0
+Fra:1 Mem:65.81M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-living-room_e62_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-living-room_e63_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-living-room_e64_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bedroom_e1_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bedroom_e3_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bedroom_e4_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-wardrobe-area_e1_r0
+Fra:1 Mem:65.82M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-wardrobe-area_e14_r0
+Fra:1 Mem:65.83M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-wardrobe-area_e16_r0
+Fra:1 Mem:65.83M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_casing_p_m
+Fra:1 Mem:65.83M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-wardrobe-area_e18_r0
+Fra:1 Mem:65.83M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-wardrobe-area_e18_r1
+Fra:1 Mem:65.83M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bathroom_e1_r0
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bathroom_e1_r1
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bathroom_e2_r0
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bathroom_e3_r0
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-master-bathroom_e5_r0
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e3_r0
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e4_r0
+Fra:1 Mem:65.84M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e5_r0
+Fra:1 Mem:65.85M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e6_r0
+Fra:1 Mem:65.85M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e18_r0
+Fra:1 Mem:65.85M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e33_r0
+Fra:1 Mem:65.85M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SKIRT_r-entrance_e34_r0
+Fra:1 Mem:65.85M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_facade-1
+Fra:1 Mem:65.88M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_facade-3
+Fra:1 Mem:65.88M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_facade-4
+Fra:1 Mem:65.88M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_facade-5
+Fra:1 Mem:65.88M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_railing-6
+Fra:1 Mem:65.91M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_railing-7
+Fra:1 Mem:65.92M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_railing-8
+Fra:1 Mem:65.94M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | GLASS_railing-11
+Fra:1 Mem:65.94M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_facade-1_end0
+Fra:1 Mem:65.95M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_facade-2_end0
+Fra:1 Mem:65.95M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_facade-2_end1
+Fra:1 Mem:65.95M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_facade-4_end0
+Fra:1 Mem:65.95M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_facade-4_end1
+Fra:1 Mem:65.95M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_facade-5_end1
+Fra:1 Mem:65.98M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_railing-6_end1
+Fra:1 Mem:65.98M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_railing-7_end0
+Fra:1 Mem:65.98M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_railing-8_end0
+Fra:1 Mem:66.00M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_railing-8_end1
+Fra:1 Mem:66.02M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_railing-9_end0
+Fra:1 Mem:66.03M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | POST_railing-11_end1
+Fra:1 Mem:66.04M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | INFILL_o-4
+Fra:1 Mem:66.04M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | INFILL_o-arc-2
+Fra:1 Mem:66.04M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | INFILL_o-arc-3
+Fra:1 Mem:66.06M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | INFILL_o-arc-7
+Fra:1 Mem:66.06M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | INFILL_o-adj-5
+Fra:1 Mem:66.08M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOORFRAME_o-4_railing-10_R
+Fra:1 Mem:66.07M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FLOORFILL_floor
+Fra:1 Mem:66.07M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FLOORFILL_floor_wet
+Fra:1 Mem:66.19M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CEILFILL
+Fra:1 Mem:66.24M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TERRAIN_ground
+Fra:1 Mem:66.27M (Peak 66.31M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-bedroom
+Fra:1 Mem:66.45M (Peak 66.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | L_ceil_r-bathroom
+Fra:1 Mem:66.49M (Peak 66.49M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | L_ceil_r-kitchen
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-kitchen
+Fra:1 Mem:66.56M (Peak 66.56M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-dining-area
+Fra:1 Mem:66.74M (Peak 66.74M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | L_ceil_r-master-bedroom
+Fra:1 Mem:66.78M (Peak 66.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-master-bedroom
+Fra:1 Mem:66.79M (Peak 66.79M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | L_ceil_r-wardrobe-area
+Fra:1 Mem:66.96M (Peak 66.96M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_head
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_jamb_m
+Fra:1 Mem:67.02M (Peak 67.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-wardrobe-area
+Fra:1 Mem:67.03M (Peak 67.03M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-7_jamb_p
+Fra:1 Mem:67.12M (Peak 67.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-master-bathroom
+Fra:1 Mem:67.12M (Peak 67.12M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_lever_b
+Fra:1 Mem:67.21M (Peak 67.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | L_ceil_r-entrance
+Fra:1 Mem:67.21M (Peak 67.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FIXTURE_r-entrance
+Fra:1 Mem:67.21M (Peak 67.21M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchenFridge(Clone)
+Fra:1 Mem:67.40M (Peak 67.42M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | doorFreezer
+Fra:1 Mem:67.43M (Peak 67.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | doorFridge
+Fra:1 Mem:67.42M (Peak 67.43M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | bathroomSinkSquare(Clone).001
+Fra:1 Mem:67.46M (Peak 67.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | bathroomMirror(Clone).001
+Fra:1 Mem:67.48M (Peak 67.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | toilet(Clone)
+Fra:1 Mem:67.47M (Peak 67.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cover
+Fra:1 Mem:67.44M (Peak 67.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | toilet(Clone).001
+Fra:1 Mem:67.47M (Peak 67.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cover.001
+Fra:1 Mem:67.46M (Peak 67.48M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchenCabinet(Clone)
+Fra:1 Mem:67.57M (Peak 67.57M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | door
+Fra:1 Mem:67.56M (Peak 67.57M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchenCabinet(Clone).001
+Fra:1 Mem:67.68M (Peak 67.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | door.001
+Fra:1 Mem:67.66M (Peak 67.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | door.002
+Fra:1 Mem:67.65M (Peak 67.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchenCabinet(Clone).004
+Fra:1 Mem:67.66M (Peak 67.69M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchenCabinet(Clone).005
+Fra:1 Mem:67.68M (Peak 67.72M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | door.005
+Fra:1 Mem:67.72M (Peak 67.72M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | kitchenSink(Clone)
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | door.006
+Fra:1 Mem:67.77M (Peak 67.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | hoodModern(Clone)
+Fra:1 Mem:67.75M (Peak 67.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_rose_b
+Fra:1 Mem:67.74M (Peak 67.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | table(Clone)
+Fra:1 Mem:67.74M (Peak 67.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_lever_a
+Fra:1 Mem:67.75M (Peak 67.77M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | chairModernCushion(Clone)
+Fra:1 Mem:67.78M (Peak 67.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | chairModernCushion(Clone).001
+Fra:1 Mem:67.76M (Peak 67.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cabinetTelevision(Clone)
+Fra:1 Mem:67.77M (Peak 67.78M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | televisionModern(Clone)
+Fra:1 Mem:67.82M (Peak 67.82M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | modern_coffee_table_01
+Fra:1 Mem:68.02M (Peak 68.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | bedDouble(Clone)
+Fra:1 Mem:68.24M (Peak 68.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cover.002
+Fra:1 Mem:68.13M (Peak 68.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | pillowRight
+Fra:1 Mem:68.19M (Peak 68.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_neck_a
+Fra:1 Mem:68.14M (Peak 68.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | cabinetBedDrawerTable(Clone)
+Fra:1 Mem:68.17M (Peak 68.24M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_rose_a
+Fra:1 Mem:68.33M (Peak 68.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | drawer
+Fra:1 Mem:68.53M (Peak 68.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | lampRoundTable(Clone)
+Fra:1 Mem:68.47M (Peak 68.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | hanging_picture_frame_01
+Fra:1 Mem:68.44M (Peak 68.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | lampRoundFloor(Clone)
+Fra:1 Mem:68.45M (Peak 68.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | hanging_picture_frame_01.001
+Fra:1 Mem:68.54M (Peak 68.54M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_dirt
+Fra:1 Mem:68.60M (Peak 68.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_pot
+Fra:1 Mem:68.67M (Peak 68.67M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | outdoor_table_chair_set_01_chair_01
+Fra:1 Mem:68.70M (Peak 68.70M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_leaf
+Fra:1 Mem:68.89M (Peak 68.89M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_casing_m_head
+Fra:1 Mem:69.05M (Peak 69.05M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_dirt.001
+Fra:1 Mem:69.15M (Peak 69.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_casing_m_m
+Fra:1 Mem:69.34M (Peak 69.34M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_leaves.001
+Fra:1 Mem:69.53M (Peak 69.53M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_pot.001
+Fra:1 Mem:70.46M (Peak 70.46M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_dirt.002
+Fra:1 Mem:70.64M (Peak 70.64M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_leaves.002
+Fra:1 Mem:71.65M (Peak 71.65M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_casing_m_p
+Fra:1 Mem:71.88M (Peak 71.88M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_casing_p_head
+Fra:1 Mem:72.22M (Peak 72.22M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_casing_p_m
+Fra:1 Mem:72.86M (Peak 72.86M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_casing_p_p
+Fra:1 Mem:73.71M (Peak 73.71M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_head
+Fra:1 Mem:74.15M (Peak 74.15M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_jamb_m
+Fra:1 Mem:74.45M (Peak 74.45M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-6_jamb_p
+Fra:1 Mem:74.51M (Peak 74.51M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | potted_plant_02_pot.002
+Fra:1 Mem:74.60M (Peak 74.60M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_lever_b
+Fra:1 Mem:74.83M (Peak 74.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_neck_b
+Fra:1 Mem:75.00M (Peak 75.00M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_rose_b
+Fra:1 Mem:75.07M (Peak 75.07M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rugRectangle(Clone).001
+Fra:1 Mem:76.33M (Peak 76.33M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_lever_a
+Fra:1 Mem:77.55M (Peak 77.55M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_neck_a
+Fra:1 Mem:77.58M (Peak 77.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_rose_a
+Fra:1 Mem:77.56M (Peak 77.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_leaf
+Fra:1 Mem:77.52M (Peak 77.58M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_casing_m_head
+Fra:1 Mem:77.80M (Peak 77.80M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_casing_m_m
+Fra:1 Mem:77.94M (Peak 77.94M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_casing_m_p
+Fra:1 Mem:78.04M (Peak 78.04M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | rugDoormat(Clone).001
+Fra:1 Mem:79.26M (Peak 79.26M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | hanging_picture_frame_01.002
+Fra:1 Mem:80.68M (Peak 80.68M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-13-wardrobe_carcass
+Fra:1 Mem:81.23M (Peak 81.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_casing_p_m
+Fra:1 Mem:81.20M (Peak 81.23M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_casing_p_p
+Fra:1 Mem:82.15M (Peak 82.15M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-13-wardrobe_door1
+Fra:1 Mem:82.13M (Peak 82.15M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_head
+Fra:1 Mem:84.01M (Peak 84.01M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_jamb_m
+Fra:1 Mem:83.93M (Peak 84.01M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-13-wardrobe_handle1
+Fra:1 Mem:84.04M (Peak 84.04M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-3_jamb_p
+Fra:1 Mem:84.04M (Peak 84.04M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-13-wardrobe_door2
+Fra:1 Mem:84.05M (Peak 84.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_lever_b
+Fra:1 Mem:84.12M (Peak 84.12M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_neck_b
+Fra:1 Mem:84.22M (Peak 84.22M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_rose_b
+Fra:1 Mem:84.27M (Peak 84.27M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_lever_a
+Fra:1 Mem:84.30M (Peak 84.30M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_neck_a
+Fra:1 Mem:84.33M (Peak 84.33M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_rose_a
+Fra:1 Mem:84.38M (Peak 84.38M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_leaf
+Fra:1 Mem:84.39M (Peak 84.39M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_casing_m_head
+Fra:1 Mem:84.72M (Peak 84.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_casing_m_m
+Fra:1 Mem:84.75M (Peak 84.75M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_casing_m_p
+Fra:1 Mem:84.75M (Peak 84.75M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_casing_p_head
+Fra:1 Mem:84.79M (Peak 84.79M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_casing_p_m
+Fra:1 Mem:84.97M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_casing_p_p
+Fra:1 Mem:84.87M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_head
+Fra:1 Mem:84.86M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_jamb_m
+Fra:1 Mem:84.85M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | DOOR_o-arc-2_jamb_p
+Fra:1 Mem:84.95M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-12-shower_head
+Fra:1 Mem:84.95M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-12-shower_riser
+Fra:1 Mem:84.71M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-12-shower_screen_rail
+Fra:1 Mem:84.71M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-12-shower_screen
+Fra:1 Mem:84.71M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-12-shower_tray
+Fra:1 Mem:84.80M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-11-shower_head
+Fra:1 Mem:84.85M (Peak 84.97M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-11-shower_riser
+Fra:1 Mem:84.99M (Peak 84.99M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-11-shower_screen_rail
+Fra:1 Mem:85.10M (Peak 85.10M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-11-shower_screen
+Fra:1 Mem:85.11M (Peak 85.11M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SHOWER_fx-drawn-11-shower_tray
+Fra:1 Mem:85.17M (Peak 85.17M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KITCHEN_fx-drawn-9-counter_shelf2_2
+Fra:1 Mem:85.17M (Peak 85.17M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KITCHEN_fx-drawn-9-counter_shelf1_2
+Fra:1 Mem:85.21M (Peak 85.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KITCHEN_fx-drawn-9-counter_shelf2_1
+Fra:1 Mem:85.02M (Peak 85.21M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-13-wardrobe_handle2
+Fra:1 Mem:85.32M (Peak 85.32M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-14-wardrobe_plinth
+Fra:1 Mem:85.47M (Peak 85.47M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-14-wardrobe_door1
+Fra:1 Mem:85.47M (Peak 85.47M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KITCHEN_fx-drawn-9-counter_rail
+Fra:1 Mem:86.22M (Peak 86.22M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | KITCHEN_fx-drawn-9-counter_splashback
+Fra:1 Mem:87.05M (Peak 87.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_handle5
+Fra:1 Mem:86.86M (Peak 87.05M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-14-wardrobe_handle1
+Fra:1 Mem:87.24M (Peak 87.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_door5
+Fra:1 Mem:86.93M (Peak 87.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-14-wardrobe_door2
+Fra:1 Mem:86.64M (Peak 87.24M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_fx-drawn-14-wardrobe_handle2
+Fra:1 Mem:87.36M (Peak 87.36M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_plinth
+Fra:1 Mem:87.72M (Peak 87.72M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_door1
+Fra:1 Mem:87.85M (Peak 87.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_handle1
+Fra:1 Mem:87.81M (Peak 87.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_door2
+Fra:1 Mem:87.78M (Peak 87.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_handle2
+Fra:1 Mem:87.79M (Peak 87.85M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_door3
+Fra:1 Mem:87.98M (Peak 87.98M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CLOSET_t-bedroom-closet_handle3
+Fra:1 Mem:93.05M (Peak 94.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:76.52M (Peak 94.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:76.52M (Peak 94.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:76.52M (Peak 94.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:76.52M (Peak 94.71M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:76.64M (Peak 94.71M) | Time:00:00.06 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:76.64M (Peak 94.71M) | Time:00:00.06 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:76.64M (Peak 94.71M) | Time:00:00.06 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:76.64M (Peak 94.71M) | Time:00:00.06 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:76.64M (Peak 94.71M) | Time:00:00.06 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:76.64M (Peak 94.71M) | Time:00:00.06 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:76.74M (Peak 94.71M) | Time:00:00.06 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:76.74M (Peak 94.71M) | Time:00:00.06 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:76.74M (Peak 94.71M) | Time:00:00.06 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:89.98M (Peak 94.71M) | Time:00:00.15 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:89.98M (Peak 94.71M) | Time:00:00.15 | Mem:0.13M, Peak:0.13M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:107.85M (Peak 107.85M) | Time:00:00.16 | Mem:0.16M, Peak:0.16M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:107.81M (Peak 107.85M) | Time:00:00.16 | Mem:17.96M, Peak:17.96M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:107.81M (Peak 107.85M) | Time:00:00.16 | Mem:17.96M, Peak:17.96M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:107.81M (Peak 107.85M) | Time:00:00.16 | Mem:25.71M, Peak:25.71M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:107.81M (Peak 107.85M) | Time:00:00.17 | Mem:34.15M, Peak:41.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:107.81M (Peak 107.85M) | Time:00:00.17 | Mem:34.15M, Peak:41.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:115.49M (Peak 115.49M) | Time:00:00.17 | Mem:34.15M, Peak:41.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:115.49M (Peak 115.49M) | Time:00:00.17 | Mem:41.83M, Peak:41.91M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:115.49M (Peak 115.49M) | Time:00:00.17 | Mem:41.83M, Peak:41.91M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:115.49M (Peak 115.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:115.49M (Peak 115.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading hanging_picture_frame_01_nor_gl_2k.exr
+Fra:1 Mem:147.49M (Peak 147.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading hanging_picture_frame_01_opacity_2k.png
+Fra:1 Mem:155.49M (Peak 155.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading modern_coffee_table_01_diff_2k.jpg
+Fra:1 Mem:171.49M (Peak 171.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading hanging_picture_frame_01_diff_2k.jpg
+Fra:1 Mem:171.49M (Peak 171.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading potted_plant_02_pot_rough_2k.png
+Fra:1 Mem:195.49M (Peak 195.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading outdoor_table_chair_set_01_table_rough_2k.png
+Fra:1 Mem:195.49M (Peak 195.49M) | Time:00:00.17 | Mem:41.84M, Peak:41.91M | Scene, ViewLayer | Updating Images | Loading modern_coffee_table_01_nor_gl_2k.exr
+Fra:1 Mem:579.51M (Peak 579.51M) | Time:00:00.21 | Mem:49.84M, Peak:49.84M | Scene, ViewLayer | Updating Images | Loading potted_plant_02_leaves_nor_gl_2k.png
+Fra:1 Mem:611.51M (Peak 611.51M) | Time:00:00.22 | Mem:57.84M, Peak:57.84M | Scene, ViewLayer | Updating Images | Loading hanging_picture_frame_01_roughness_2k.jpg
+Fra:1 Mem:615.51M (Peak 615.51M) | Time:00:00.23 | Mem:65.84M, Peak:65.84M | Scene, ViewLayer | Updating Images | Loading outdoor_table_chair_set_01_table_nor_gl_2k.png
+Fra:1 Mem:647.51M (Peak 647.51M) | Time:00:00.24 | Mem:81.84M, Peak:81.84M | Scene, ViewLayer | Updating Images | Loading outdoor_table_chair_set_01_chair_nor_gl_2k.png
+Fra:1 Mem:679.51M (Peak 679.51M) | Time:00:00.24 | Mem:81.84M, Peak:81.84M | Scene, ViewLayer | Updating Images | Loading hanging_picture_frame_01_artwork_nor_gl_2k.png
+Fra:1 Mem:711.51M (Peak 711.51M) | Time:00:00.51 | Mem:637.84M, Peak:637.84M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:711.51M (Peak 711.51M) | Time:00:00.51 | Mem:637.84M, Peak:637.84M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:711.51M (Peak 711.51M) | Time:00:00.51 | Mem:637.92M, Peak:637.92M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:711.51M (Peak 711.51M) | Time:00:00.51 | Mem:637.92M, Peak:637.92M | Scene, ViewLayer | Updating Lights | Importance map
+Fra:1 Mem:775.54M (Peak 1063.51M) | Time:00:00.72 | Mem:701.96M, Peak:861.93M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:775.71M (Peak 1063.51M) | Time:00:00.72 | Mem:702.14M, Peak:861.93M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:775.71M (Peak 1063.51M) | Time:00:00.72 | Mem:702.14M, Peak:861.93M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:775.72M (Peak 1063.51M) | Time:00:00.72 | Mem:702.06M, Peak:861.93M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:775.72M (Peak 1063.51M) | Time:00:00.72 | Mem:702.14M, Peak:861.93M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:775.72M (Peak 1063.51M) | Time:00:00.72 | Mem:702.14M, Peak:861.93M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:775.73M (Peak 1063.51M) | Time:00:00.72 | Mem:702.14M, Peak:861.93M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:775.73M (Peak 1063.51M) | Time:00:00.72 | Mem:702.14M, Peak:861.93M | Scene, ViewLayer | Sample 0/16
+Fra:1 Mem:1016.01M (Peak 1063.51M) | Time:00:03.37 | Remaining:00:39.78 | Mem:942.14M, Peak:942.14M | Scene, ViewLayer | Sample 1/16
+Fra:1 Mem:1016.01M (Peak 1063.51M) | Time:00:26.87 | Remaining:00:20.34 | Mem:942.14M, Peak:942.14M | Scene, ViewLayer | Sample 9/16
+Fra:1 Mem:1124.01M (Peak 1280.01M) | Time:00:58.34 | Mem:942.14M, Peak:942.14M | Scene, ViewLayer | Sample 16/16
+Fra:1 Mem:1124.01M (Peak 1280.01M) | Time:00:58.34 | Mem:942.14M, Peak:942.14M | Scene, ViewLayer | Finished
+Fra:1 Mem:167.44M (Peak 1280.01M) | Time:00:58.37 | Compositing

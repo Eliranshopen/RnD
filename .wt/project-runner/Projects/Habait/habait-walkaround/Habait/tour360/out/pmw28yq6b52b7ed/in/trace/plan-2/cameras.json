@@ -1,0 +1,90 @@
+{
+ "$schema": "tour360/cameras.v1",
+ "apartment": "pmw28yq6b52b7ed",
+ "note": "auto-trace: one camera per room label; refined by auto_finalize",
+ "plan": {
+  "crop": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\crop.png",
+  "width": 2268,
+  "height": 2682,
+  "pxPerCm": 1.4031
+ },
+ "scenes": [
+  {
+   "id": "entrance",
+   "at": [
+    810,
+    531
+   ],
+   "lookAt": [
+    910,
+    531
+   ]
+  },
+  {
+   "id": "kitchen",
+   "at": [
+    483,
+    1110
+   ],
+   "lookAt": [
+    583,
+    1110
+   ]
+  },
+  {
+   "id": "living-room",
+   "at": [
+    1002,
+    864
+   ],
+   "lookAt": [
+    1102,
+    864
+   ]
+  },
+  {
+   "id": "stairs-to-floor-1",
+   "at": [
+    411,
+    1401
+   ],
+   "lookAt": [
+    511,
+    1401
+   ]
+  },
+  {
+   "id": "bathroom",
+   "at": [
+    417,
+    1632
+   ],
+   "lookAt": [
+    517,
+    1632
+   ]
+  },
+  {
+   "id": "safe-room-mamad",
+   "at": [
+    477,
+    1974
+   ],
+   "lookAt": [
+    577,
+    1974
+   ]
+  },
+  {
+   "id": "patio-according-to-development",
+   "at": [
+    1155,
+    1947
+   ],
+   "lookAt": [
+    1255,
+    1947
+   ]
+  }
+ ]
+}

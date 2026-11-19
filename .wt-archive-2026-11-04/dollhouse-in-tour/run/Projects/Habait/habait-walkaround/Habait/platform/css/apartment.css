@@ -1,0 +1,132 @@
+/* The apartment sales page (apartment.html). Loads after css/style.css and reuses its variables, .btn, .badge, .fact. */
+.page-apartment { min-height: 100dvh; overflow-x: hidden; }
+.page-apartment body, body.page-apartment { line-height: 1.45; }
+
+.apt-top {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: calc(10px + var(--safe-top)) 14px 10px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.apt-brand { display: flex; align-items: center; gap: 8px; font-weight: 800; min-height: 36px; min-width: 0; }
+.apt-brand img { height: 26px; width: auto; }
+.apt-brand span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.apt-top-actions { display: flex; gap: 8px; align-items: center; flex: none; }
+.apt-back { padding: 7px 12px; font-size: 14px; }
+.apt-back::before { content: '›'; margin-inline-end: 6px; font-size: 18px; line-height: 0; }
+[dir="ltr"] .apt-back::before { content: '‹'; }
+
+.apt-main { max-width: 1100px; margin: 0 auto; padding: 14px 14px calc(96px + var(--safe-bottom)); display: grid; gap: 14px; }
+
+.apt-hero { display: grid; gap: 6px; }
+.apt-hero-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.apt-hero-head h1 { margin: 0; font-size: clamp(26px, 6vw, 36px); font-weight: 800; }
+.apt-project { margin: 0; color: var(--muted); }
+.apt-price { font-size: 24px; font-weight: 800; }
+.apt-warn { margin: 0; font-size: 13px; color: var(--warn); }
+
+/* the apartment strip: five tabs, scrollable on narrow phones, sticky under the top bar */
+.apt-tabs {
+  position: sticky; top: calc(57px + var(--safe-top)); z-index: 9;
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none;
+  padding: 8px 0; background: var(--bg);
+}
+.apt-tabs::-webkit-scrollbar { display: none; }
+.apt-tabs [role=tab] {
+  flex: 1 0 auto; min-height: 42px; padding: 8px 14px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line); background: rgba(255,255,255,.04); color: var(--fg); font-weight: 600; white-space: nowrap;
+}
+.apt-tabs [role=tab][aria-selected=true] { background: var(--primary); border-color: transparent; color: #fff; }
+
+.apt-panel { display: grid; gap: 10px; }
+.apt-frame { position: relative; width: 100%; border-radius: var(--radius); overflow: hidden; background: #000; border: 1px solid var(--line); }
+.apt-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.apt-frame-tour { height: min(68dvh, 620px); }
+.apt-frame-3d { height: min(60dvh, 560px); }
+/* board apartment-3d card 04: on phones the opened panel scrolls up under the sticky bars, and the 3D frame fills the
+   space between the tab strip and the WhatsApp bar (top bar ~57 + tabs ~58 + bar ~64, plus the safe areas) */
+.apt-panel { scroll-margin-top: calc(57px + 58px + var(--safe-top)); }
+.apt-back3d::before { content: '‹'; margin-inline-end: 6px; font-size: 18px; line-height: 0; }
+[dir="ltr"] .apt-back3d::before { content: '›'; }
+@media (max-width: 899px) {
+  .apt-frame-3d { height: calc(100dvh - 57px - 58px - 64px - 24px - var(--safe-top) - var(--safe-bottom)); min-height: 360px; max-height: 640px; }
+}
+.apt-panel-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.apt-note { margin: 0; font-size: 13px; color: var(--muted); }
+.apt-empty { margin: 0; padding: 18px; border: 1px dashed var(--line); border-radius: var(--radius); color: var(--muted); text-align: center; }
+
+.apt-plan { display: block; background: #fff; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+.apt-plan img { display: block; width: 100%; height: auto; max-height: 80dvh; object-fit: contain; }
+
+.apt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); gap: 10px; }
+.apt-photo { margin: 0; display: grid; gap: 4px; }
+.apt-photo button { padding: 0; border: 0; background: #111; border-radius: 12px; overflow: hidden; cursor: zoom-in; display: block; width: 100%; }
+/* stills carry the burned legal strip at the bottom: show the whole image, never crop it */
+.apt-photo img { display: block; width: 100%; height: auto; }
+.apt-photo figcaption { font-size: 13px; color: var(--muted); }
+
+.apt-dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; }
+.apt-dl dt { color: var(--muted); }
+.apt-dl dd { margin: 0; font-weight: 600; }
+.apt-panel h2 { margin: 4px 0 0; font-size: 20px; }
+.apt-panel h3 { margin: 8px 0 0; font-size: 16px; }
+.apt-tagline { margin: 0; color: var(--muted); }
+
+/* the legal caption: short line at the bottom of every tab, full text in "about" and the page footer */
+.legal-short { margin: 2px 0 0; font-size: 11.5px; line-height: 1.4; color: var(--muted); border-top: 1px solid var(--line); padding-top: 8px; }
+.legal-full { font-size: 13px; color: var(--muted); }
+.legal-full p { margin: 0 0 8px; }
+.apt-foot { max-width: 1100px; margin: 0 auto; padding: 0 14px calc(90px + var(--safe-bottom)); font-size: 12px; color: var(--muted); }
+.apt-foot summary { cursor: pointer; list-style: none; }
+.apt-foot summary::-webkit-details-marker { display: none; }
+.apt-more { color: var(--fg); text-decoration: underline; white-space: nowrap; }
+
+/* agent card */
+.agent-card {
+  display: grid; grid-template-columns: auto 1fr; gap: 12px; align-items: center;
+  padding: 14px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--panel-solid);
+}
+.agent-avatar { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--primary); color: #fff; font-weight: 800; }
+.agent-id { display: grid; }
+.agent-id span { font-size: 13px; color: var(--muted); }
+.agent-actions { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.agent-actions .apt-zip { grid-column: 1 / -1; }
+.apt-zip small { opacity: .8; font-weight: 500; direction: ltr; unicode-bidi: isolate; }
+
+/* phones: the WhatsApp/call bar stays reachable */
+.apt-mobilebar {
+  position: fixed; inset-inline: 0; bottom: 0; z-index: 12; display: grid; grid-template-columns: 2fr 1fr; gap: 8px;
+  padding: 10px 14px calc(10px + var(--safe-bottom)); background: color-mix(in srgb, var(--bg) 92%, transparent);
+  border-top: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+}
+
+.apt-lightbox { width: min(1100px, 96vw); max-height: 94dvh; padding: 10px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel-solid); color: var(--fg); }
+.apt-lightbox::backdrop { background: rgba(0,0,0,.8); }
+.apt-lightbox img { display: block; width: 100%; height: auto; max-height: 78dvh; object-fit: contain; border-radius: 10px; }
+.apt-lightbox .sheet-close { z-index: 2; background: var(--panel); }
+.apt-lb-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding-top: 8px; }
+
+@media (max-width: 479px) {
+  .apt-brand img:not([hidden]) + span { display: none; } /* phones: the logo alone, room for "back to the building" */
+}
+
+@media (min-width: 900px) {
+  .apt-main { grid-template-columns: 1fr 320px; align-items: start; padding-bottom: 32px; }
+  .apt-hero, .apt-tabs, .apt-panel { grid-column: 1; }
+  .agent-card { grid-column: 2; grid-row: 1 / span 3; position: sticky; top: 76px; }
+  .apt-mobilebar { display: none; }
+  .apt-foot { padding-bottom: 24px; }
+}
+
+/* ---- card 10: the minimap in the corner of the 360 tour (plan-up top view, dot = the camera, cone = the view) ---- */
+.apt-minimap { position: absolute; z-index: 2; top: 10px; inset-inline-end: 10px; width: clamp(104px, 30vw, 168px); aspect-ratio: 1 / 1;
+  border-radius: 12px; background: rgba(8, 12, 22, .62); backdrop-filter: blur(4px); border: 1px solid rgba(255, 255, 255, .18);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, .35); padding: 4px; cursor: zoom-in; transition: width .25s ease; }
+.apt-minimap.is-big { width: clamp(200px, 62vw, 320px); cursor: zoom-out; }
+.apt-minimap-svg { display: block; width: 100%; height: 100%; }
+.apt-minimap .mm-node { fill: rgba(255, 255, 255, .55); stroke: rgba(11, 18, 32, .7); stroke-width: 1.5; vector-effect: non-scaling-stroke; cursor: pointer; }
+.apt-minimap .mm-node.is-here { fill: none; stroke: none; }
+.apt-minimap .mm-cone { fill: rgba(242, 169, 0, .38); stroke: rgba(242, 169, 0, .9); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.apt-minimap .mm-dot { fill: #f2a900; stroke: #fff; stroke-width: 2; vector-effect: non-scaling-stroke; }

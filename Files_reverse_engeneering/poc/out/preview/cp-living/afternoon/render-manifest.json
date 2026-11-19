@@ -1,0 +1,103 @@
+{
+  "schema": "render-manifest/0.1.0",
+  "tour_id": "variants",
+  "points": {
+    "cp-living": {
+      "kind": "pano",
+      "point_id": "cp-living",
+      "room_id": "r-living",
+      "dir": ".",
+      "outputs": {
+        "pano_png": {
+          "file": "pano.png",
+          "bytes": 517689,
+          "sha256": "d27d22bdd7f069192749619248a132cbb43a023b3517067f2671b4b13db400d6"
+        },
+        "pano": {
+          "file": "pano.webp",
+          "bytes": 19668,
+          "sha256": "fbfe56d83654eb75128c2eaf1f4b94cc05e56d78f91c3774c5eb8a8838336e97"
+        },
+        "depth": {
+          "file": "depth.png",
+          "bytes": 55052,
+          "sha256": "fa4e857082e1e4bf32a777efa1db247914b4cf009758081cf1bfd828b71a9da7"
+        }
+      },
+      "depth_encoding": "rgb24-be",
+      "depth_scale": 100,
+      "depth_invalid_value": 0,
+      "resolution": [
+        1024,
+        512
+      ],
+      "wrap_pad_px": 512,
+      "render": {
+        "backend": "CPU",
+        "samples": 16,
+        "adaptive_sampling": true,
+        "denoise": true,
+        "tile_size": 2048,
+        "texture_limit_render": "OFF",
+        "seed": 0
+      },
+      "timings_s": {
+        "render_wall_clock": [
+          117.737
+        ],
+        "cycles_time": [
+          115.02
+        ],
+        "depth_pack": 0.297
+      },
+      "memory": {
+        "device_peak_mb": 610.97,
+        "host_peak_mb": 858.76,
+        "post_render_peak_mb": null,
+        "source": "Cycles' own status field; nvidia-smi per-process is N/A on this WDDM GPU",
+        "note": "device_peak_mb = Cycles' `Mem:…, Peak:…` during the render phases only; post_render_peak_mb is the same field during Finishing/Compositing, where it reports HOST buffers, not VRAM; host_peak_mb is Blender's own `(Peak …)`",
+        "hybrid_masks_device_figure": false
+      },
+      "input_key": "6aa5d4e962af959f91e0b877d4e3e472bb20f6ab54e652bc23aea04808229e30",
+      "inputs": {
+        "point": "cp-living",
+        "scene": {},
+        "settings": {
+          "res": [
+            1024,
+            512
+          ],
+          "samples": 16,
+          "adaptive": "on",
+          "adaptive_threshold": 0.01,
+          "denoise": "on",
+          "denoise_device": "cpu",
+          "device": "AUTO",
+          "hybrid": false,
+          "tile_size": 0,
+          "texture_limit": "OFF",
+          "seed": 0,
+          "pano": "pano.webp",
+          "webp_quality": 90,
+          "depth": "on",
+          "wrap_pad": 512,
+          "script": "0.3.0",
+          "script_sha256": "13d695a96f8c864072c2a8e6747ce22c12460c047464c3c11440bf90159d1aa9",
+          "depth_encoding": "rgb24-be",
+          "depth_scale": 100
+        }
+      },
+      "cost_usd": 0.0,
+      "sidecar": "pano.render.json",
+      "rendered_utc": "2026-11-17T14:19:07+00:00",
+      "note": "rerun-skip keys on INPUT hashes only — an output hash drifts on every identical re-render (ENV.md §4.3) and would re-trigger an expensive render."
+    }
+  },
+  "updated_utc": "2026-11-17T14:19:07+00:00",
+  "depth_contract": {
+    "encoding": "rgb24-be",
+    "scale": 100,
+    "decode": "(R<<16 | G<<8 | B) / 100 => metres (radial distance from the camera origin)",
+    "invalid_value": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+ "asset": "01-kitchen",
+ "tag": "north",
+ "parent": "01-kitchen__flat__level2.png",
+ "yaw": 55.0,
+ "pitch": 0.0,
+ "hfov": 104.0,
+ "size": 1024
+}

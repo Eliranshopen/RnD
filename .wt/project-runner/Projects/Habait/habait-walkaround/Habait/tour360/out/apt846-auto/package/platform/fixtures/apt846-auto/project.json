@@ -1,0 +1,37 @@
+{
+ "cover": "cover.webp",
+ "id": "apt846-auto",
+ "name": {
+  "he": "RAINBOW TEL AVIV – TOWER-RED",
+  "en": "RAINBOW TEL AVIV – TOWER-RED"
+ },
+ "tagline": {
+  "he": "Tel Aviv · הדמיה",
+  "en": "Tel Aviv · concept"
+ },
+ "developer": {
+  "he": "ישראל קנדה (Israel Canada)",
+  "en": "ישראל קנדה (Israel Canada)"
+ },
+ "brand": {
+  "primary": "#0f5c8f",
+  "accent": "#f2a900",
+  "background": "#0b1220"
+ },
+ "flow": "flow.json",
+ "units": "units.json",
+ "film": false,
+ "exterior": null,
+ "leads": {
+  "whatsapp_number": ""
+ },
+ "analytics": {
+  "posthog_key": ""
+ },
+ "disclaimer": {
+  "he": "הדמיה לפי תכנית המכר. הריהוט והגימורים להמחשה בלבד.",
+  "en": "A visualization from the sales plan. Furniture and finishes are illustrative."
+ },
+ "fixture": false,
+ "fixture_note": "written by tools/run-project.mjs from the approved spec.json"
+}

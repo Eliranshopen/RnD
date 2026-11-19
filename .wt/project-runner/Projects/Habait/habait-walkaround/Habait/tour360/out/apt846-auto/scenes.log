@@ -1,0 +1,15 @@
+start view: entrance faces 90 cm of clear sight at its centre; heading 176 deg (796 cm)
+start view: bedroomMain faces 96 cm of clear sight at its centre; heading 159 deg (416 cm)
+start view: wardrobe faces 110 cm of clear sight at its centre; heading 150 deg (597 cm)
+scenes.json: 11 scenes, 24 links
+  entrance        centre   296°  living@u0.054  bedroom2@u0.797  bathGuest@u0.761
+  kitchen         centre  21.1°  living@u0.008  dining@u0.621
+  dining          centre    93°  kitchen@u0.972  living@u0.766
+  living          centre   101°  entrance@u0.138  kitchen@u0.371  dining@u0.394  terraceLiving@u0.524  wardrobe@u0.721
+  terraceLiving   centre   161°  living@u0.769  terraceBedroom@u0.63
+  terraceBedroom  centre    53°  terraceLiving@u0.465  bedroomMain@u0.314
+  bedroomMain     centre   129°  wardrobe@u0.96  terraceBedroom@u0.419
+  wardrobe        centre   331°  living@u0.462  bedroomMain@u0.847  bathMain@u0.261
+  bathMain        centre   244°  wardrobe@u0.143
+  bedroom2        centre    38°  entrance@u0.956
+  bathGuest       centre   139°  entrance@u0.424

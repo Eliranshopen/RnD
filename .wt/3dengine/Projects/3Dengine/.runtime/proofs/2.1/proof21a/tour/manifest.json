@@ -1,0 +1,165 @@
+{
+  "schema": "render-manifest/0.1.0",
+  "tour_id": "tour",
+  "points": {
+    "cp-livingRoom": {
+      "kind": "pano",
+      "point_id": "cp-livingRoom",
+      "room_id": "r-living-room",
+      "dir": "renders/cp-livingRoom",
+      "outputs": {
+        "pano": {
+          "file": "pano.webp",
+          "bytes": 19246,
+          "sha256": "44aa619b32b4fce34fa8eff771e56705cae706148ec4f73bc12f4a993c117788"
+        },
+        "depth": {
+          "file": "depth.png",
+          "bytes": 51941,
+          "sha256": "0f8d7963650bb97bb475db644bb21d9a3444565192bbedd2388822f87d14bf64"
+        }
+      },
+      "depth_encoding": "rgb24-be",
+      "depth_scale": 100,
+      "depth_invalid_value": 0,
+      "resolution": [
+        1024,
+        512
+      ],
+      "wrap_pad_px": 512,
+      "render": {
+        "backend": "CPU",
+        "samples": 8,
+        "adaptive_sampling": true,
+        "denoise": true,
+        "tile_size": 2048,
+        "texture_limit_render": "OFF",
+        "seed": 0
+      },
+      "timings_s": {
+        "render_wall_clock": [
+          31.296
+        ],
+        "cycles_time": [
+          30.65
+        ],
+        "depth_pack": 0.104
+      },
+      "memory": {
+        "device_peak_mb": 265.93,
+        "host_peak_mb": 467.51,
+        "post_render_peak_mb": null,
+        "source": "Cycles' own status field; nvidia-smi per-process is N/A on this WDDM GPU",
+        "note": "device_peak_mb = Cycles' `Mem:…, Peak:…` during the render phases only; post_render_peak_mb is the same field during Finishing/Compositing, where it reports HOST buffers, not VRAM; host_peak_mb is Blender's own `(Peak …)`",
+        "hybrid_masks_device_figure": false
+      },
+      "input_key": "f3e1e8647d1262b27183ba3be79a1d1fb9c48964032996df8845326696882023",
+      "inputs": {
+        "point": "cp-livingRoom",
+        "scene": {
+          "generator": {
+            "script": "pipeline/build_scene.py",
+            "version": "1.5.0",
+            "script_sha256": "57495c186ba20c67e7dcfa141c8016d68c9ccdced8d3870ff434df00a5ead8b5",
+            "materials_kit_version": "0.3.0",
+            "place_cameras_version": "0.2.0",
+            "placement_templates_version": "1.0.0",
+            "placement_templates_sha256": "3c25bedb5461f741044b2c9790da3fe59fe6a708e35c0e8a7f4d2111a27c3161",
+            "materials_kit_sha256": "7018a8bc12c75ae39bffe9e3769cd53c21d5177af1f6fc0d4d0dd3c5b4253a88",
+            "blender": "4.5.10 LTS",
+            "generated_utc": "2026-11-19T08:49:46+00:00",
+            "plan_general_version": "0.2.0",
+            "plan_general_sha256": "9616d913b2889dded3d7a1758c4466ea782f463cdf6e5ee4997071cf6e35dc47",
+            "general_furnish_version": "0.1.1",
+            "general_furnish_sha256": "f54ac130d39a49e0beee1cde067dce9814c2cac32338f0a9d317fb7eaf847eb6"
+          },
+          "inputs": {
+            "plan": "c:/RnD/.wt/3dengine/Projects/3Dengine/pipeline/360walkaround/tours/proof21a/plan.json",
+            "plan_sha256": "ade5ef07c08afdd96c8b995d236822a4140fc6c0a2e8dfd47ceae2631e09e1f8",
+            "assets_dir": "c:/RnD/.wt/3dengine/Projects/3Dengine/pipeline/360walkaround/pipeline/probe/probe-assets",
+            "style": "c:/RnD/.wt/3dengine/Projects/3Dengine/pipeline/360walkaround/catalog/style-habait-modern.json",
+            "style_sha256": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0",
+            "furnish_seed": 0,
+            "seed": 0,
+            "room_mode": "all",
+            "cap_virtual": "on",
+            "furniture": true,
+            "material_board": {
+              "mode": "auto",
+              "path": "Habait/tour360/apartments/proof21a/material-board.json",
+              "sha256": "62bd45976c447f4dc3999890cc1d1f90e9ac9225aa68fff8ba57e71d225303ef",
+              "words": {
+                "room_surfaces": {
+                  "bathroom": "bathrooms",
+                  "balcony": "terrace"
+                },
+                "surfaces": {
+                  "floor": "large-format pale limestone-look porcelain floor tiles (120 by 120 cm, matte, light sand, thin grout lines) — Image 1 already draws this floor’s grout grid at its true places and spacing: keep every grout line exactly where it is, make the tiles follow that grid, and draw no other floor pattern",
+                  "bathrooms": "large pale stone-look tiles, a floating handleless vanity in matte sand-grey lacquer, a round backlit mirror, matte black fittings, a frameless glass shower screen (the floor’s grout grid is drawn in Image 1 at its true places: keep every grout line where it is)",
+                  "terrace": "pale porcelain terrace tiles, a built-in planter with olive trees, a lounger and a low table (the floor’s grout grid is drawn in Image 1 at its true places: keep every grout line where it is)"
+                }
+              },
+              "version": "1.3.0"
+            },
+            "general_furnish": "on"
+          }
+        },
+        "settings": {
+          "res": [
+            1024,
+            512
+          ],
+          "samples": 8,
+          "adaptive": "on",
+          "adaptive_threshold": 0.01,
+          "denoise": "on",
+          "denoise_device": "cpu",
+          "device": "AUTO",
+          "hybrid": false,
+          "tile_size": 0,
+          "texture_limit": "OFF",
+          "seed": 0,
+          "pano": "pano.webp",
+          "webp_quality": 90,
+          "depth": "on",
+          "wrap_pad": 512,
+          "script": "0.3.0",
+          "script_sha256": "13d695a96f8c864072c2a8e6747ce22c12460c047464c3c11440bf90159d1aa9",
+          "depth_encoding": "rgb24-be",
+          "depth_scale": 100
+        }
+      },
+      "cost_usd": 0,
+      "sidecar": "pano.render.json",
+      "rendered_utc": "2026-11-19T08:50:20+00:00",
+      "note": "rerun-skip keys on INPUT hashes only — an output hash drifts on every identical re-render (ENV.md §4.3) and would re-trigger an expensive render."
+    }
+  },
+  "updated_utc": "2026-11-19T08:50:20+00:00",
+  "depth_contract": {
+    "encoding": "rgb24-be",
+    "scale": 100,
+    "decode": "(R<<16 | G<<8 | B) / 100 => metres (radial distance from the camera origin)",
+    "invalid_value": 0
+  },
+  "batches": [
+    {
+      "tool": "pipeline/render_tour.mjs",
+      "version": "0.1.0",
+      "finished_utc": "2026-11-19T08:50:21+00:00",
+      "mode": "draft",
+      "resolution": [
+        1024,
+        512
+      ],
+      "samples": 8,
+      "wrap_pad": 512,
+      "points": [
+        "cp-livingRoom"
+      ],
+      "seconds": 69.21,
+      "verdict": "PASS",
+      "cost_usd": 0
+    }
+  ]
+}

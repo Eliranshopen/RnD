@@ -1,0 +1,11 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"></head><body>
+<div id="lead"></div>
+<script>window.HABAIT_CONFIG = {"posthog_key":"phc_test_habait_dummy","posthog_host":"http://127.0.0.1:52098","posthog_transport":"sdk","sheet_endpoint":"http://127.0.0.1:52098/macros/s/TEST/exec","posthog_allow_bots":true,"lead_secret":"habait-test-secret-1234"};</script>
+<script type="module">
+import * as a from '../../js/analytics.js';
+import * as lead from '../../js/lead.js';
+window.__a = a; window.__lead = lead;
+a.initAnalytics({ base: { project: 'rainbow', page: 'harness' }, debug: false });
+document.addEventListener('click', (e) => { if (e.target.closest('a')) e.preventDefault(); }, true);
+window.__ready = true;
+</script></body></html>

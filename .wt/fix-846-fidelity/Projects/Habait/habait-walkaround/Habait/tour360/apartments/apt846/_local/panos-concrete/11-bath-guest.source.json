@@ -1,0 +1,5 @@
+{
+ "answer": "11-bath-guest__floor-concrete__s7__adf2590f8084.png",
+ "source": "11-bath-guest__gpt25__s12__789ba26af802.png",
+ "source_inferred": "backfilled 2026-11-05 (band-edge audit): the answer matched to the shipped webp by pixels (mean |diff| 0.40-0.46 of 255 at 512x256); the source is the room pick the finish was made from (finishes were redone after the last pick change)"
+}

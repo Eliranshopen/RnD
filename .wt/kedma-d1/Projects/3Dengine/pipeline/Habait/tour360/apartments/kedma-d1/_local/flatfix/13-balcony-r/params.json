@@ -1,0 +1,9 @@
+{
+ "asset": "13-balcony",
+ "tag": "r",
+ "parent": "13-balcony__flat__l.png",
+ "yaw": 128.0,
+ "pitch": -15.0,
+ "hfov": 112.0,
+ "size": 1024
+}

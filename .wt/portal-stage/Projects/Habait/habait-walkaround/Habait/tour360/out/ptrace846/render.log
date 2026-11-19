@@ -1,0 +1,18 @@
+render_tour.mjs v0.1.0  tour=360walkaround/tours/ptrace846  mode=draft 2048x1024@16spp  wrap-pad=512  points=1
+          golden depth fixture: golden: 32/32 pixels match; unknown-encoding refused: true | OK
+          scene: CLEAN — plan.json + the style lock + the material board + the generator scripts hash the same as the scene report (built 2026-11-07T22:12:52+00:00, checks 93/93)
+
+=== chunk 1/1: 1 point(s) ====================
+          === [1/1] cp-entrance =====================================
+          [render_pano] point      : cp-entrance  plan (380.7,880.6,160) yaw 30
+          [render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+          [render_pano] render 1/1: 61.080 s wall  (cycles 60.55s, device peak 942.14 MB, host peak 1280.01 MB)
+          [render_pano] depth      : depth.png 182,244 B  valid 2,069,350 / 2,097,152  sky 27,802  range 0.647..1811.942 m  (0.153 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 2048x1024 46,890 B  zenith mean 168.6/255 (6 colours) · nadir mean 181.9/255 (10 colours) · no_hole=True
+          OK
+
+=== summary =================================================
+  OK   cp-entrance          61.1 s  nadir 1.6 m (0 cm)  valid 98.67%  46 KB
+  total 63.2 s · 1 rendered, 0 skipped · $0.00 · verdict PASS
+OK

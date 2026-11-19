@@ -1,0 +1,26 @@
+{
+ "id": "proof21a",
+ "stage": "done",
+ "percent": 100,
+ "log": [
+  "08:48:50 steps: apartment,casework,cameras,furnish",
+  "08:48:50 apartment: start",
+  "08:48:50 apartment: done in 0 s",
+  "08:48:50 casework: start",
+  "08:48:53 מטבח: כיריים וכיור במקום שבשרטוט",
+  "08:48:53 ארון גבוה במטבח: מקרר",
+  "08:48:53 casework: done in 2 s",
+  "08:48:53 cameras: start",
+  "08:48:55 cameras: done in 2 s",
+  "08:48:55 furnish: start",
+  "08:49:11 ריהוט: 0 פריטי תבנית נוגעים בקיר או בזכוכית (עד -Infinity סמ\"ר); נרשם, הבנייה ממשיכה",
+  "08:49:11 furnish: done in 16 s",
+  "08:49:11 timings {\"apartment\":0,\"casework\":2,\"cameras\":2,\"furnish\":16}",
+  "08:49:11 steps: render",
+  "08:49:11 render: start",
+  "08:50:21 render: done in 69 s",
+  "08:50:21 timings {\"render\":69}"
+ ],
+ "links": {},
+ "updatedAt": "2026-11-19T08:50:21.397Z"
+}

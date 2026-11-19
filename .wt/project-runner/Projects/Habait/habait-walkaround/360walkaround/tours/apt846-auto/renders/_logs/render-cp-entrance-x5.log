@@ -1,0 +1,115 @@
+
+=== [1/5] cp-entrance =====================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\scene-full.blend
+[render_pano] point      : cp-entrance  plan (310,762.4,160) yaw 296
+[render_pano] camera     : (3.1, -7.624, 1.6) m  euler (90.0, 0.0, -296.0) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 16 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-entrance
+[render_pano] input_key  : e0e4a6fab66ef28d…
+[render_pano] render 1/1: 67.589 s wall  (cycles 66.84s, device peak 1092.62 MB, host peak 1423.45 MB)
+[render_pano] depth      : depth.png 174,251 B  valid 2,097,152 / 2,097,152  sky 0  range 0.547..8.834 m  (0.224 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-entrance floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-entrance ceiling z=290 cm]
+              SKIP  room r-entrance is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 44,178 B  zenith mean 175.8/255 (6 colours) · nadir mean 170.1/255 (8 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-entrance\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\manifest.json (key 'cp-entrance')
+OK
+
+=== [2/5] cp-kitchen ======================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\scene-full.blend
+[render_pano] point      : cp-kitchen  plan (786.8,650.3,160) yaw 21
+[render_pano] camera     : (7.868, -6.503, 1.6) m  euler (90.0, 0.0, -21.0) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 16 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-kitchen
+[render_pano] input_key  : 06c771e9ec9e508d…
+[render_pano] render 1/1: 68.705 s wall  (cycles 68.26s, device peak 1092.62 MB, host peak 1423.45 MB)
+[render_pano] depth      : depth.png 145,564 B  valid 2,097,152 / 2,097,152  sky 0  range 1.157..7.428 m  (0.141 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-kitchen floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-kitchen ceiling z=290 cm]
+              SKIP  room r-kitchen is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 65,364 B  zenith mean 157.0/255 (7 colours) · nadir mean 182.5/255 (11 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-kitchen\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\manifest.json (key 'cp-kitchen')
+OK
+
+=== [3/5] cp-dining =======================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\scene-full.blend
+[render_pano] point      : cp-dining  plan (1048.9,569.7,160) yaw 93
+[render_pano] camera     : (10.489, -5.697, 1.6) m  euler (90.0, 0.0, -93.0) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 16 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-dining
+[render_pano] input_key  : 132d0e920598a132…
+[render_pano] render 1/1: 71.636 s wall  (cycles 71.18s, device peak 1092.62 MB, host peak 1423.46 MB)
+[render_pano] depth      : depth.png 163,678 B  valid 2,097,152 / 2,097,152  sky 0  range 0.844..10.072 m  (0.143 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-dining floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-dining ceiling z=290 cm]
+              SKIP  room r-dining is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 87,392 B  zenith mean 151.5/255 (11 colours) · nadir mean 170.2/255 (11 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-dining\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\manifest.json (key 'cp-dining')
+OK
+
+=== [4/5] cp-living =======================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\scene-full.blend
+[render_pano] point      : cp-living  plan (418.9,949.8,160) yaw 101
+[render_pano] camera     : (4.189, -9.498, 1.6) m  euler (90.0, 0.0, -101.0) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 16 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-living
+[render_pano] input_key  : bbcf50a9cb998735…
+[render_pano] render 1/1: 74.267 s wall  (cycles 73.86s, device peak 1092.62 MB, host peak 1423.46 MB)
+[render_pano] depth      : depth.png 163,426 B  valid 2,097,151 / 2,097,152  sky 1  range 1.274..8.717 m  (0.147 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-living floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-living ceiling z=290 cm]
+              SKIP  room r-living is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 49,568 B  zenith mean 153.5/255 (7 colours) · nadir mean 157.7/255 (15 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-living\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\manifest.json (key 'cp-living')
+OK
+
+=== [5/5] cp-terraceLiving ================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\scene-full.blend
+[render_pano] point      : cp-terraceLiving  plan (1315.8,754.8,160) yaw 161
+[render_pano] camera     : (13.158, -7.548, 1.6) m  euler (90.0, 0.0, -161.0) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 16 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-terraceLiving
+[render_pano] input_key  : bb3fe2d20776c107…
+[render_pano] render 1/1: 58.493 s wall  (cycles 58.07s, device peak 1092.62 MB, host peak 1423.46 MB)
+[render_pano] depth      : depth.png 138,796 B  valid 1,774,869 / 2,097,152  sky 322,283  range 1.149..2025.071 m  (0.143 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-terrace-living floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-terrace-living ceiling z=290 cm]
+              SKIP  room r-terrace-living is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 82,244 B  zenith mean 177.4/255 (9 colours) · nadir mean 209.7/255 (3 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-terraceLiving\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\manifest.json (key 'cp-terraceLiving')
+OK
+
+[render_pano] batch summary
+              rendered  cp-entrance      67.59 s
+              rendered  cp-kitchen       68.70 s
+              rendered  cp-dining        71.64 s
+              rendered  cp-living        74.27 s
+              rendered  cp-terraceLiving 58.49 s
+Saved: 'C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-terraceLiving\pano-depth-0001'
+Saved: 'C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-auto\renders\cp-terraceLiving\pano-pano-0001'
+

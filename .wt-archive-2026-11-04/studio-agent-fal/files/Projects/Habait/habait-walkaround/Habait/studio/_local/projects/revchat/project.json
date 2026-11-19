@@ -1,0 +1,29 @@
+{
+  "id": "revchat",
+  "name": "revchat",
+  "developer": "",
+  "address": "",
+  "latlon": null,
+  "style": "tlv-golden-hour",
+  "notes": "",
+  "options": {
+    "variants": [
+      "morning",
+      "evening"
+    ],
+    "clay": {
+      "res": "640x360",
+      "samples": 16,
+      "engine": "CYCLES",
+      "fps": 24
+    },
+    "video": {
+      "resolution": "720p",
+      "detail_refine": false,
+      "seeds": 1
+    },
+    "panos_dir": null,
+    "fixture": null
+  },
+  "created_at": "2026-11-03T21:31:26.008Z"
+}

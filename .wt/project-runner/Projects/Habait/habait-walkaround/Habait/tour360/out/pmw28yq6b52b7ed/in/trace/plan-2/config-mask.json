@@ -1,0 +1,205 @@
+{
+ "open_radius_px": 5,
+ "simplify_cm": 3,
+ "door_dilate_px": 5,
+ "cut_px": 8,
+ "near_wall_px": 16,
+ "dimension_min_cm": 100,
+ "straight_density_max": 4.5,
+ "opening_min_cm": 60,
+ "apartment_id": "pmw28yq6b52b7ed",
+ "cameras_json": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\cameras.json",
+ "eye_cm": 160,
+ "ceiling_height_cm": 290,
+ "floor_height_cm": 0,
+ "floor_height_note": "unknown: the sales plan has no section",
+ "roofed_outdoor": false,
+ "fixtures": [],
+ "source_file": "brochure.pdf page 7 (קומת קרקע)",
+ "trace_date": "2026-11-05",
+ "scale_basis": "1.4031 px/cm: guessed from 4 room boxes vs printed dims, then fitted",
+ "rights_state": "developer-uploaded",
+ "rights_note": "uploaded by the developer through the Habait Studio portal",
+ "assumptions": [
+  "ceiling 290 cm, door heads 215 cm (no section on the sales plan)",
+  "outdoor rooms unroofed unless the plan shows a floor-above line (follow the sales plan)",
+  "open-plan zone boundaries: auto-trace geodesic split between the printed room labels"
+ ],
+ "stroke_ignore_boxes": [
+  [
+   146.61321359846056,
+   1014.09236690186,
+   446.61321359846056,
+   1314.09236690186
+  ]
+ ],
+ "double_ignore_boxes": [
+  [
+   146.61321359846056,
+   1014.09236690186,
+   446.61321359846056,
+   1314.09236690186
+  ]
+ ],
+ "cameras": [
+  {
+   "id": "entrance",
+   "room_id": "r-entrance",
+   "name_he": "כניסה",
+   "name_en": "entrance",
+   "type": "hall",
+   "is_outdoor": false,
+   "at_cm": [
+    540.6927517639513,
+    277.1648492623477
+   ],
+   "links": [
+    "kitchen",
+    "living-room",
+    "stairs-to-floor-1",
+    "bathroom",
+    "safe-room-mamad",
+    "patio-according-to-development"
+   ]
+  },
+  {
+   "id": "kitchen",
+   "room_id": "r-kitchen",
+   "name_he": "מטבח",
+   "name_en": "kitchen",
+   "type": "kitchen",
+   "is_outdoor": false,
+   "at_cm": [
+    344.2976266837716,
+    791.3534316869788
+   ],
+   "links": [
+    "entrance",
+    "living-room",
+    "stairs-to-floor-1",
+    "bathroom",
+    "safe-room-mamad",
+    "patio-according-to-development"
+   ],
+   "printed_dims_cm": [
+    310,
+    485
+   ]
+  },
+  {
+   "id": "living-room",
+   "room_id": "r-living-room",
+   "name_he": "חדר מגורים",
+   "name_en": "living room",
+   "type": "living",
+   "is_outdoor": false,
+   "at_cm": [
+    803.3611289288004,
+    772.2386144964721
+   ],
+   "links": [
+    "entrance",
+    "kitchen",
+    "stairs-to-floor-1",
+    "bathroom",
+    "safe-room-mamad",
+    "patio-according-to-development"
+   ],
+   "printed_dims_cm": [
+    450,
+    735
+   ]
+  },
+  {
+   "id": "stairs-to-floor-1",
+   "room_id": "r-stairs-to-floor-1",
+   "name_he": "עליה לקומה 1",
+   "name_en": "stairs to floor 1",
+   "type": "hall",
+   "is_outdoor": false,
+   "at_cm": [
+    293.3803720333547,
+    997.7934573444514
+   ],
+   "links": [
+    "entrance",
+    "kitchen",
+    "living-room",
+    "bathroom",
+    "safe-room-mamad",
+    "patio-according-to-development"
+   ]
+  },
+  {
+   "id": "bathroom",
+   "room_id": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "at_cm": [
+    296.61321359846056,
+    1164.09236690186
+   ],
+   "links": [
+    "entrance",
+    "kitchen",
+    "living-room",
+    "stairs-to-floor-1",
+    "safe-room-mamad",
+    "patio-according-to-development"
+   ],
+   "hull": true,
+   "printed_dims_cm": [
+    250,
+    170
+   ]
+  },
+  {
+   "id": "safe-room-mamad",
+   "room_id": "r-safe-room-mamad",
+   "name_he": "ממ\"ד",
+   "name_en": "safe room (MAMAD)",
+   "type": "safe_room",
+   "is_outdoor": false,
+   "at_cm": [
+    340.25657472738936,
+    1405.8948043617702
+   ],
+   "links": [
+    "entrance",
+    "kitchen",
+    "living-room",
+    "stairs-to-floor-1",
+    "bathroom",
+    "patio-according-to-development"
+   ],
+   "printed_dims_cm": [
+    375,
+    300
+   ]
+  },
+  {
+   "id": "patio-according-to-development",
+   "room_id": "r-patio-according-to-development",
+   "name_he": "פטיו בהתאם לתכנית הפיתוח",
+   "name_en": "patio according to development plan",
+   "type": "balcony",
+   "is_outdoor": true,
+   "at_cm": [
+    789.6215522771008,
+    1191.808851828095
+   ],
+   "links": [
+    "entrance",
+    "kitchen",
+    "living-room",
+    "stairs-to-floor-1",
+    "bathroom",
+    "safe-room-mamad"
+   ]
+  }
+ ],
+ "dump_barrier_png": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-2\\barrier.png",
+ "dump_barrier_only": true
+}

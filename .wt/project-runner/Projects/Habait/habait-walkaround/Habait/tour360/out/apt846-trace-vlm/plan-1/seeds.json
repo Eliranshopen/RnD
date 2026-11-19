@@ -1,0 +1,382 @@
+[
+ {
+  "id": "entrance",
+  "room_id": "r-entrance",
+  "name_he": "כניסה",
+  "name_en": "entrance",
+  "type": "hall",
+  "vlm_type": "entrance",
+  "is_outdoor": false,
+  "at_px": [
+   342.0,
+   1824.0
+  ],
+  "room_box_px": [
+   255.636,
+   1779.426,
+   621.732,
+   2051.874
+  ],
+  "dims_cm": null,
+  "moved_inside": true,
+  "label_px": [
+   164.112,
+   1873.08
+  ],
+  "at_px_work": [
+   342,
+   1824
+  ],
+  "from_box": true,
+  "door_strip_m2": 3.0
+ },
+ {
+  "id": "bedroom",
+  "room_id": "r-bedroom",
+  "name_he": "חדר שינה",
+  "name_en": "bedroom",
+  "type": "bedroom",
+  "vlm_type": "bedroom",
+  "is_outdoor": false,
+  "at_px": [
+   1284.0,
+   999.0
+  ],
+  "room_box_px": [
+   795.312,
+   595.98,
+   1660.056,
+   1409.067
+  ],
+  "dims_cm": [
+   275,
+   342
+  ],
+  "label_px": [
+   1282.914,
+   1000.395
+  ],
+  "at_px_work": [
+   1284,
+   999
+  ],
+  "anchored_by_dimension_lines": {
+   "x": 275.0,
+   "y": 342.2
+  }
+ },
+ {
+  "id": "general-bathroom",
+  "room_id": "r-general-bathroom",
+  "name_he": "חדר רחצה כללי",
+  "name_en": "general bathroom",
+  "type": "bathroom",
+  "vlm_type": "bathroom",
+  "is_outdoor": false,
+  "at_px": [
+   756.0,
+   1608.0
+  ],
+  "room_box_px": [
+   463.93199999999996,
+   1162.161,
+   1098.288,
+   1868.823
+  ],
+  "dims_cm": [
+   140,
+   199
+  ],
+  "label_px": [
+   757.44,
+   1609.1460000000002
+  ],
+  "at_px_work": [
+   756,
+   1608
+  ],
+  "rect_fit": 0.964,
+  "anchored_by_dimension_lines": {
+   "x": 140.0,
+   "y": 199.1
+  }
+ },
+ {
+  "id": "kitchen",
+  "room_id": "r-kitchen",
+  "name_he": "מטבח",
+  "name_en": "kitchen",
+  "type": "kitchen",
+  "vlm_type": "kitchen",
+  "is_outdoor": false,
+  "at_px": [
+   1704.0,
+   1611.0
+  ],
+  "room_box_px": [
+   1057.26,
+   1051.479,
+   2146.08,
+   1962.477
+  ],
+  "dims_cm": null,
+  "label_px": [
+   1704.24,
+   1611.2745
+  ],
+  "at_px_work": [
+   1704,
+   1611
+  ],
+  "from_box": true
+ },
+ {
+  "id": "dining-area",
+  "room_id": "r-dining-area",
+  "name_he": "פינת אוכל",
+  "name_en": "dining area",
+  "type": "hall",
+  "vlm_type": "dining",
+  "is_outdoor": false,
+  "at_px": [
+   2211.0,
+   1653.0
+  ],
+  "room_box_px": [
+   1678.9920000000002,
+   1238.7869999999998,
+   2486.928,
+   2264.724
+  ],
+  "dims_cm": null,
+  "label_px": [
+   2024.574,
+   1862.4375
+  ],
+  "at_px_work": [
+   2211,
+   1653
+  ],
+  "from_box": true
+ },
+ {
+  "id": "living-room",
+  "room_id": "r-living-room",
+  "name_he": "חדר דיור",
+  "name_en": "living room",
+  "type": "living",
+  "vlm_type": "living",
+  "is_outdoor": false,
+  "at_px": [
+   1572.0,
+   2598.0
+  ],
+  "room_box_px": [
+   848.964,
+   1902.8790000000001,
+   2256.54,
+   3133.152
+  ],
+  "dims_cm": null,
+  "label_px": [
+   1573.266,
+   2598.8985000000002
+  ],
+  "at_px_work": [
+   1572,
+   2598
+  ],
+  "rect_fit": 0.976,
+  "dims_rejected": [
+   530,
+   744
+  ],
+  "from_box": true
+ },
+ {
+  "id": "walk-in-closet",
+  "room_id": "r-walk-in-closet",
+  "name_he": "פינת ארונות",
+  "name_en": "walk-in closet",
+  "type": "storage",
+  "vlm_type": "wardrobe",
+  "is_outdoor": false,
+  "at_px": [
+   816.0,
+   3303.0
+  ],
+  "room_box_px": [
+   621.732,
+   3162.951,
+   1104.6,
+   3631.221
+  ],
+  "dims_cm": [
+   160,
+   185
+  ],
+  "label_px": [
+   817.404,
+   3303.432
+  ],
+  "at_px_work": [
+   816,
+   3303
+  ],
+  "rect_fit": 0.976,
+  "anchored_by_dimension_lines": {
+   "x": 160.0,
+   "y": 185.0
+  }
+ },
+ {
+  "id": "master-bedroom",
+  "room_id": "r-master-bedroom",
+  "name_he": "חדר שינה הורים",
+  "name_en": "master bedroom",
+  "type": "bedroom",
+  "vlm_type": "master_bedroom",
+  "is_outdoor": false,
+  "at_px": [
+   1434.0,
+   3432.0
+  ],
+  "room_box_px": [
+   637.5120000000001,
+   2745.765,
+   1991.436,
+   3895.155
+  ],
+  "dims_cm": [
+   348,
+   344
+  ],
+  "label_px": [
+   1432.824,
+   3431.142
+  ],
+  "at_px_work": [
+   1434,
+   3432
+  ],
+  "rect_fit": 0.982,
+  "anchored_by_dimension_lines": {
+   "x": 347.7,
+   "y": 343.6
+  }
+ },
+ {
+  "id": "master-bathroom",
+  "room_id": "r-master-bathroom",
+  "name_he": "חדר רחצה הורים",
+  "name_en": "master bathroom",
+  "type": "bathroom",
+  "vlm_type": "bathroom",
+  "is_outdoor": false,
+  "at_px": [
+   432.0,
+   3129.0
+  ],
+  "room_box_px": [
+   119.928,
+   2839.4190000000003,
+   779.532,
+   3529.053
+  ],
+  "dims_cm": [
+   212,
+   210
+  ],
+  "label_px": [
+   430.79400000000004,
+   3128.895
+  ],
+  "at_px_work": [
+   432,
+   3129
+  ],
+  "rect_fit": 0.966,
+  "anchored_by_dimension_lines": {
+   "x": 210.0,
+   "y": 212.5
+  }
+ },
+ {
+  "id": "sun-terrace",
+  "room_id": "r-sun-terrace",
+  "name_he": "מרפסת שמש",
+  "name_en": "sun terrace",
+  "type": "balcony",
+  "vlm_type": "terrace",
+  "is_outdoor": true,
+  "at_px": [
+   2694.0,
+   1827.0
+  ],
+  "room_box_px": [
+   1776.8279999999997,
+   1404.8100000000002,
+   3096.036,
+   3792.987
+  ],
+  "dims_cm": [
+   270,
+   474
+  ],
+  "label_px": [
+   2556.36,
+   2628.6975
+  ],
+  "at_px_work": [
+   2694,
+   1827
+  ]
+ },
+ {
+  "id": "hall-auto-91",
+  "room_id": "r-hall-auto-91",
+  "name_he": "מבואה",
+  "name_en": "Hall",
+  "type": "hall",
+  "is_outdoor": false,
+  "at_px": [
+   1029.0,
+   3045.0
+  ],
+  "at_px_work": [
+   1029,
+   3045
+  ],
+  "dims_cm": null,
+  "auto": true
+ },
+ {
+  "id": "corridor-23",
+  "room_id": "r-corridor-23",
+  "name_he": "מעבר",
+  "name_en": "Corridor",
+  "type": "hall",
+  "is_outdoor": false,
+  "auto": true,
+  "auto_reason": "corridor",
+  "at_px": [
+   0,
+   0
+  ]
+ },
+ {
+  "id": "corridor-75",
+  "room_id": "r-corridor-75",
+  "name_he": "מעבר",
+  "name_en": "Corridor",
+  "type": "hall",
+  "is_outdoor": false,
+  "auto": true,
+  "auto_reason": "corridor",
+  "at_px": [
+   0,
+   0
+  ],
+  "merged_into": "r-entrance"
+ }
+]

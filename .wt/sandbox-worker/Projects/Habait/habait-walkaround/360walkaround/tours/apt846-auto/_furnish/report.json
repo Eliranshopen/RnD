@@ -1,0 +1,426 @@
+{
+ "schema": "habait.furnish-from-plan/0.1/report",
+ "plan": {
+  "path": "C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/360walkaround/tours/apt846-auto/plan.base.json",
+  "sha256": "166a30ef40c17d4f17f9af9874453e6bb728b1b46cc0db31d0f31b6abe8f525c"
+ },
+ "style": {
+  "path": "C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/360walkaround/catalog/style-habait-modern.json",
+  "sha256": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0"
+ },
+ "generator": {
+  "name": "furnish_from_plan.py",
+  "version": "0.1.0",
+  "sha256": "95bacd168754fc649ad0c03538072b53cbf50a4a2f16ef813f8a030937069294",
+  "general_furnish": "0.1.1",
+  "plan_general": "0.2.0"
+ },
+ "bars_cm": {
+  "probe_out": 9.0,
+  "template_camera": 40.0,
+  "virtual_zone": 60.0,
+  "audit_depth": 60.0,
+  "passage_min": 80.0,
+  "wall_tol": 1.5,
+  "wall_tol_area_cm2": 4.0,
+  "walkway": 50.0
+ },
+ "rooms": {
+  "r-entrance": {
+   "role": "entrance",
+   "area_m2": 6.25,
+   "items": 3,
+   "plan": 0,
+   "template": 3,
+   "coverage_pct": 7.3,
+   "walk": {
+    "reachable": 4,
+    "of": 4,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-kitchen": {
+   "role": "kitchen",
+   "area_m2": 10.37,
+   "items": 16,
+   "plan": 16,
+   "template": 0,
+   "coverage_pct": 25.8,
+   "walk": {
+    "reachable": 2,
+    "of": 2,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-dining": {
+   "role": "dining",
+   "area_m2": 8.95,
+   "items": 5,
+   "plan": 5,
+   "template": 0,
+   "coverage_pct": 23.4,
+   "walk": {
+    "reachable": 2,
+    "of": 2,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-living": {
+   "role": "living",
+   "area_m2": 31.05,
+   "items": 11,
+   "plan": 7,
+   "template": 4,
+   "coverage_pct": 19.1,
+   "walk": {
+    "reachable": 5,
+    "of": 5,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-terrace-living": {
+   "role": "terrace",
+   "area_m2": 15.71,
+   "items": 3,
+   "plan": 0,
+   "template": 3,
+   "coverage_pct": 15.6,
+   "walk": null
+  },
+  "r-terrace-bedroom": {
+   "role": "terrace",
+   "area_m2": 6.03,
+   "items": 1,
+   "plan": 0,
+   "template": 1,
+   "coverage_pct": 15.3,
+   "walk": null
+  },
+  "r-bedroom-main": {
+   "role": "bedroom",
+   "area_m2": 12.19,
+   "items": 7,
+   "plan": 6,
+   "template": 1,
+   "coverage_pct": 33.9,
+   "walk": {
+    "reachable": 2,
+    "of": 2,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-wardrobe": {
+   "role": "wardrobe",
+   "area_m2": 5.13,
+   "items": 2,
+   "plan": 2,
+   "template": 0,
+   "coverage_pct": 32.1,
+   "walk": {
+    "reachable": 3,
+    "of": 3,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-bath-main": {
+   "role": "bathroom",
+   "area_m2": 4.47,
+   "items": 5,
+   "plan": 4,
+   "template": 1,
+   "coverage_pct": 55.2,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-bedroom-2": {
+   "role": "bedroom",
+   "area_m2": 9.31,
+   "items": 8,
+   "plan": 7,
+   "template": 1,
+   "coverage_pct": 48.6,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-bath-guest": {
+   "role": "bathroom",
+   "area_m2": 3.38,
+   "items": 4,
+   "plan": 4,
+   "template": 0,
+   "coverage_pct": 45.0,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  }
+ },
+ "rooms_furnished": [
+  "r-entrance",
+  "r-kitchen",
+  "r-dining",
+  "r-living",
+  "r-terrace-living",
+  "r-terrace-bedroom",
+  "r-bedroom-main",
+  "r-wardrobe",
+  "r-bath-main",
+  "r-bedroom-2",
+  "r-bath-guest"
+ ],
+ "items_total": 65,
+ "items_by_origin": {
+  "plan_fixture": 28,
+  "plan_derived": 23,
+  "template": 14,
+  "template_derived": 0
+ },
+ "openings_blocked": [],
+ "wall_hits": [],
+ "outside_room": [],
+ "size_violations": [],
+ "floor_coverage_pct": 28.0,
+ "dropped": [],
+ "openings": [
+  {
+   "id": "o-1",
+   "kind": "opening",
+   "rooms": [
+    "r-entrance",
+    "r-living"
+   ],
+   "width_cm": 435.9,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 308.0,
+   "in_zone": [
+    "ffp-entrance-console"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-2",
+   "kind": "opening",
+   "rooms": [
+    "r-kitchen",
+    "r-living"
+   ],
+   "width_cm": 219.7,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 202.0,
+   "in_zone": [
+    "k-counter-m6",
+    "k-tall"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-3",
+   "kind": "opening",
+   "rooms": [
+    "r-dining",
+    "r-kitchen"
+   ],
+   "width_cm": 420.5,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 84.0,
+   "in_zone": [
+    "d-table",
+    "d-table-chair-1",
+    "d-table-chair-4",
+    "k-counter-2-m1",
+    "k-counter-2-m2"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-4",
+   "kind": "opening",
+   "rooms": [
+    "r-dining",
+    "r-living"
+   ],
+   "width_cm": 251.5,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 114.0,
+   "in_zone": [
+    "d-table",
+    "d-table-chair-1"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-5",
+   "kind": "opening",
+   "rooms": [
+    "r-living",
+    "r-terrace-living"
+   ],
+   "width_cm": 187.6,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 120.0,
+   "in_zone": [
+    "ffp-terrace-living-plant-2"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-6",
+   "kind": "door",
+   "rooms": [
+    "r-living",
+    "r-wardrobe"
+   ],
+   "width_cm": 93.8,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-7",
+   "kind": "opening",
+   "rooms": [
+    "r-terrace-bedroom",
+    "r-terrace-living"
+   ],
+   "width_cm": 179.3,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [
+    "ffp-terrace-bedroom-set"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-8",
+   "kind": "opening",
+   "rooms": [
+    "r-bedroom-main",
+    "r-wardrobe"
+   ],
+   "width_cm": 161.1,
+   "virtual": true,
+   "need_cm": 80.0,
+   "free_cm": 132.0,
+   "in_zone": [
+    "w-closet-2"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-9",
+   "kind": "door",
+   "rooms": [
+    "r-bath-main",
+    "r-wardrobe"
+   ],
+   "width_cm": 66.6,
+   "virtual": false,
+   "need_cm": 62.599999999999994,
+   "free_cm": 64.0,
+   "in_zone": [
+    "bm-shower"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-10",
+   "kind": "door",
+   "rooms": [
+    "r-bedroom-2",
+    "r-entrance"
+   ],
+   "width_cm": 93.6,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-11",
+   "kind": "door",
+   "rooms": [
+    "r-bath-guest",
+    "r-entrance"
+   ],
+   "width_cm": 60.9,
+   "virtual": false,
+   "need_cm": 56.9,
+   "free_cm": 60.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-12",
+   "kind": "entrance_door",
+   "rooms": [
+    "outside",
+    "r-entrance"
+   ],
+   "width_cm": 110.9,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 110.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-13",
+   "kind": "door",
+   "rooms": [
+    "r-bedroom-main",
+    "r-terrace-bedroom"
+   ],
+   "width_cm": 131.9,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 130.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  }
+ ],
+ "warnings": [
+  "w-closet-2: run trimmed 52 cm (a wall, a door zone or an earlier piece)",
+  "l-laundry: run trimmed 8 cm (a wall, a door zone or an earlier piece)",
+  "k-counter: run trimmed 15 cm (a wall, a door zone or an earlier piece)",
+  "k-counter-2: run trimmed 31 cm (a wall, a door zone or an earlier piece)",
+  "bm-vanity: moved 8 cm off its traced line, out of the wall behind it"
+ ]
+}

@@ -1,0 +1,400 @@
+{
+  "generator": {
+    "script": "pipeline/render_tour.mjs",
+    "version": "0.1.0",
+    "started_utc": "2026-11-01T10:27:15+00:00",
+    "finished_utc": "2026-11-01T11:15:06+00:00",
+    "seconds": 2871.21
+  },
+  "settings": {
+    "mode": "draft",
+    "resolution": [
+      2048,
+      1024
+    ],
+    "samples": 32,
+    "wrap_pad": 512,
+    "scene": "scene-full.blend",
+    "chunk": 11,
+    "blender": "C:/Program Files/Blender Foundation/Blender 4.5/blender.exe",
+    "px_per_m": 80
+  },
+  "scene": {
+    "clean": true,
+    "why": "plan.json + the style lock + the material board + the generator scripts hash the same as the scene report",
+    "planHash": "6e9b42d2e755d80dbc17f30bc39d8f576711c570d958fcf4f1dac84e76a5dc84",
+    "scripts": [
+      {
+        "file": "build_scene.py",
+        "sha256": "49e485fc3b739df7df4ebb8780b54cc6d2d1bf5c11b8e15398ccf045757c059c"
+      },
+      {
+        "file": "materials_kit.py",
+        "sha256": "7018a8bc12c75ae39bffe9e3769cd53c21d5177af1f6fc0d4d0dd3c5b4253a88"
+      },
+      {
+        "file": "place_cameras.py",
+        "sha256": "e946fa0a0e147108151779986e1830a1e69a83c74a9d7cb5f2031bf4de1692b4"
+      },
+      {
+        "file": "placement_templates.py",
+        "sha256": "3c25bedb5461f741044b2c9790da3fe59fe6a708e35c0e8a7f4d2111a27c3161"
+      },
+      {
+        "file": "plan_general.py",
+        "sha256": "9616d913b2889dded3d7a1758c4466ea782f463cdf6e5ee4997071cf6e35dc47"
+      },
+      {
+        "file": "general_furnish.py",
+        "sha256": "c0beb324f6abf89ce299821b9d196370aa412f3d7a913df2b65fe95f2fe8ddb2"
+      }
+    ],
+    "styleHash": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0",
+    "built_utc": "2026-11-01T10:26:14+00:00",
+    "checks": "192/192"
+  },
+  "points_requested": [
+    "cp-entrance",
+    "cp-kitchen",
+    "cp-dining",
+    "cp-living",
+    "cp-terraceLiving",
+    "cp-terraceBedroom",
+    "cp-bedroomMain",
+    "cp-wardrobe",
+    "cp-bathMain",
+    "cp-bedroom2",
+    "cp-bathguest"
+  ],
+  "forced": [],
+  "runs": [
+    {
+      "points": [
+        "cp-entrance",
+        "cp-kitchen",
+        "cp-dining",
+        "cp-living",
+        "cp-terraceLiving",
+        "cp-terraceBedroom",
+        "cp-bedroomMain",
+        "cp-wardrobe",
+        "cp-bathMain",
+        "cp-bedroom2",
+        "cp-bathguest"
+      ],
+      "skip_if_clean": true,
+      "exit": 0,
+      "seconds": 2869.36,
+      "skipped": [],
+      "rendered": [
+        "cp-entrance",
+        "cp-kitchen",
+        "cp-dining",
+        "cp-living",
+        "cp-terraceLiving",
+        "cp-terraceBedroom",
+        "cp-bedroomMain",
+        "cp-wardrobe",
+        "cp-bathMain",
+        "cp-bedroom2",
+        "cp-bathguest"
+      ],
+      "log": "renders/_logs/render-cp-entrance-x11.log"
+    }
+  ],
+  "skipped_this_run": [],
+  "rendered_this_run": [
+    "cp-entrance",
+    "cp-kitchen",
+    "cp-dining",
+    "cp-living",
+    "cp-terraceLiving",
+    "cp-terraceBedroom",
+    "cp-bedroomMain",
+    "cp-wardrobe",
+    "cp-bathMain",
+    "cp-bedroom2",
+    "cp-bathguest"
+  ],
+  "point_checks": [
+    {
+      "id": "cp-entrance",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 44444,
+      "depth_bytes": 175803,
+      "seconds": 232.137,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "74d39a9717cf1dfa8b65791e31e801343375da5bbbdffb03f26c92d87f8fa854",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-kitchen",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 70072,
+      "depth_bytes": 151437,
+      "seconds": 184.059,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "af6e2a751e8828bcdd207318dbcc595c5d8e3c23fcc2e7523418c3f8df008ad0",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-dining",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 67268,
+      "depth_bytes": 147372,
+      "seconds": 188.575,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "43df7c13b4d08eaf2f8f4b735c97432cdf798a44e20a586c6562d35c3ead2f15",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-living",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.58,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": -2,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 0.999999,
+        "invalid_pixels": 3
+      },
+      "pano_bytes": 66728,
+      "depth_bytes": 154044,
+      "seconds": 174.012,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 1,
+      "depth_check_worst_cm": 2,
+      "input_key": "1035ace59ae7a27102d8e51d6f099157433c63fd9d3991a0b946507882fb8c0a",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-terraceLiving",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 0.882643,
+        "invalid_pixels": 246116
+      },
+      "pano_bytes": 53190,
+      "depth_bytes": 129274,
+      "seconds": 307.508,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "efd5865b163759f047dff9db5751fa38912dcda368a699dde5df16a21067dd89",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-terraceBedroom",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 0.925628,
+        "invalid_pixels": 155969
+      },
+      "pano_bytes": 62630,
+      "depth_bytes": 194548,
+      "seconds": 168.253,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "b0b6b1e11f726a1852ff846da13f674b4716cf18b4d7632281fba1e15ff25e87",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-bedroomMain",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 0.993977,
+        "invalid_pixels": 12631
+      },
+      "pano_bytes": 42416,
+      "depth_bytes": 179704,
+      "seconds": 203.406,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "b727dd3c74ee0bea2f4b792d2b02ad022e47d999d95c2b1381825cf4565191d7",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-wardrobe",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 42184,
+      "depth_bytes": 194727,
+      "seconds": 164.437,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "11ac591ef5f4d6ac37320bc1699d218b54eeb639a452beffb3a79e46c89ab7dc",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-bathMain",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 29666,
+      "depth_bytes": 176071,
+      "seconds": 357.808,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "0587822784ad0f7e4347529d0ef0fb1139bf2f08cf80b82253135f531f1f5933",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-bedroom2",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 1
+      },
+      "pano_bytes": 39584,
+      "depth_bytes": 187997,
+      "seconds": 614.315,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "b1b3fc3b7510dca485d16e52bf44fb801e679a70d25922f841a5ba11fa082f84",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-bathguest",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 38904,
+      "depth_bytes": 193399,
+      "seconds": 260.255,
+      "device_peak_mb": 1093.68,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "52955acc9c50097ef3e9c96ba376d2f658ce8a63f1754b5455ef504e4d1a3a29",
+      "skipped_this_run": false
+    }
+  ],
+  "top_view": null,
+  "cost_usd": 0,
+  "machine": "local — RTX A2000 Laptop 4 GB (ENV.md §1); $0, see pipeline/RENDER-LEDGER.md",
+  "verdict": "PASS"
+}

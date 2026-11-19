@@ -1,0 +1,60 @@
+furnish_from_plan.py v0.1.0 (general_furnish v0.1.1)
+plan  C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptest846\plan.base.json
+style C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\catalog\style-habait-modern.json
+out   C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptest846\_furnish
+  fixture fx-3-vanity had no room (None): put in r-bathroom (21 cm from it)
+roles      r-bedroom=bedroom, r-bathroom=bathroom, r-kitchen=kitchen, r-dining-area=dining, r-living-room=living, r-sun-terrace=terrace, r-master-bedroom=bedroom, r-wardrobe-area=wardrobe, r-master-bathroom=bathroom, r-entrance=hall, r-corridor-23=hall
+phase 1    template fixtures for rooms whose role lacks a drawn one
+  template fixture t-bedroom-closet             wardrobe  240x60 at (454,418) - a closet run on the longest free wall
+  template fixture t-dining-area-table          table     160x90 at (838,884) - the deepest legal point of the zone, along its dominant axis
+  template fixture t-living-room-tv             tv_unit   180x45 at (156,1027) - the longest legal wall run = the TV wall
+  template fixture t-living-room-sofa           sofa      220x90 at (479,1086) - facing the TV wall at 260 cm
+  template fixture t-living-room-coffee         table     90x60 at (360,1064) - 45 cm in front of the sofa
+phase 1b   fit: re-seat any built fixture that cuts a wall (dense 1 cm samples)
+  fit fx-3-vanity  [321.5, 770.6] [75, 60] -> [320.75, 763.02] [75.0, 60.01]: slid -3 cm along its axis; moved -1 cm across it (58 cm2 in a wall)
+  fit fx-drawn-9-counter [877.5, 515.9] [126, 70] -> [855.85, 520.9] [82.5, 70.0]: trimmed 0.0 cm at -L, 40.3 cm at +L; moved +4 cm across it (66 cm2 in a wall)
+  fit fx-drawn-10-counter [692.8, 599.4] [425, 70] -> [692.8, 599.4] [425, 70]: refused (slid +20 cm along its axis; would move 105 cm); refused (slid +20 cm along its axis; would move 105 cm)
+  fit fx-drawn-14-wardrobe [359.6, 1537.3] [160, 49] -> [362.6, 1522.3] [156.0, 49.0]: slid +1 cm along its axis (9 cm2 in a wall)
+  fit fx-drawn-15-wardrobe [436.6, 1498.4] [185, 61] -> [436.6, 1498.4] [185, 61]: refused (no move <= 25 cm / trim <= share clears the walls); refused (no move <= 25 cm / trim <= share clears the walls)
+phase 2    fixture hints (sink, hob, uppers)
+  hint fx-drawn-10-counter {"uppers": false, "hob_at_cm": [747.2, 527.0], "sink_at_cm": [609.5, 695.2]} (back probes: 0/7 in a wall, 0/7 within 25 cm of glass; hob: the drawing's symbol (4 burner circles in a 60.1x60.0 cm square); sink: the drawing's symbol (4 drain/tap holes))
+  hint fx-drawn-9-counter {"uppers": false} (back probes: 0/7 in a wall, 2/7 within 25 cm of glass)
+phase 3    template pieces per room role
+  piece ffp-living-room-rug            rug         at (375,1067) yaw 280 - 200x140 under the coffee table, along the sofa
+  piece ffp-living-room-lamp           floor_lamp  at (527,955) yaw 280 - beside the sofa, at the end farther from the openings
+  piece ffp-living-room-art            wall_art    at (599,1275) yaw 18 - centred on a wall run (455 cm), bottom 120 cm
+  piece ffp-living-room-plant          plant       at (787,1293) yaw 0 - a free wall corner, farthest from the openings
+  piece ffp-sun-terrace-set            outdoor_set at (1292,946) yaw 199 - the legal spot farthest from the terrace openings, along the terrace's axis
+  piece ffp-sun-terrace-plant-1        plant       at (1173,759) yaw 0 - a convex terrace corner, far from the openings
+  piece ffp-sun-terrace-plant-2        plant       at (1199,1141) yaw 0 - a convex terrace corner, far from the openings
+  piece ffp-master-bathroom-mat        bath_mat    at (197,1396) yaw 0 - in front of the shower
+  piece ffp-entrance-art               wall_art    at (509,742) yaw 307 - centred on a wall run (150 cm), bottom 120 cm
+  piece ffp-corridor-23-art            wall_art    at (524,1265) yaw 198 - centred on a wall run (328 cm), bottom 120 cm
+  r-bedroom          bedroom     9.33 m2  items   1 (plan  0, template  1)  floor  15.4%  walk 1/1
+  r-bathroom         bathroom    2.78 m2  items   4 (plan  4, template  0)  floor  45.6%  walk 1/1
+  r-kitchen          kitchen    12.31 m2  items   5 (plan  5, template  0)  floor  18.9%  walk 0/0
+  r-dining-area      dining     11.84 m2  items   6 (plan  1, template  5)  floor  22.7%  walk 0/0
+  r-living-room      living     28.37 m2  items   9 (plan  1, template  8)  floor  15.9%  walk 1/2 (unreached o-arc-3)
+  r-sun-terrace      terrace    18.90 m2  items   3 (plan  0, template  3)  floor  13.0%  walk -
+  r-master-bedroom   bedroom    11.83 m2  items   1 (plan  1, template  0)  floor   3.3%  walk 2/2
+  r-wardrobe-area    wardrobe    2.92 m2  items   1 (plan  1, template  0)  floor  26.1%  walk 1/1
+  r-master-bathroom  bathroom    4.39 m2  items   5 (plan  4, template  1)  floor  40.6%  walk 0/1 (unreached o-arc-6)
+  r-entrance         hall        5.69 m2  items   1 (plan  0, template  1)  floor   0.0%  walk 4/4
+  r-corridor-23      hall        2.79 m2  items   1 (plan  0, template  1)  floor   0.0%  walk 1/1
+  opening o-4   door           130.9 cm  free  130.0 / need  80.0  swing -           ok  zone: -
+  opening o-3   door           119.5 cm  free  118.0 / need  80.0  swing -           ok  zone: -
+  opening o-arc-1 entry_door     110.0 cm  free  110.0 / need  80.0  swing -           ok  zone: -
+  opening o-arc-2 door            93.0 cm  free   92.0 / need  80.0  swing clear       ok  zone: -
+  opening o-arc-3 door            93.0 cm  free   92.0 / need  80.0  swing clear       ok  zone: -
+  opening o-arc-6 door            78.9 cm  free   40.0 / need  74.9  swing clear       BLOCKED  zone: fx-9-vanity,fx-drawn-13-shower
+  opening o-arc-8 door            71.5 cm  free   70.0 / need  67.5  swing -           ok  zone: -
+  opening o-arc-7 door            67.2 cm  free   22.0 / need  63.2  swing clear       BLOCKED  zone: fx-2-wc,fx-3-vanity
+  opening o-adj-6 opening        200.0 cm  free  200.0 / need  80.0  swing -           ok  zone: -
+rooms furnished: 11 of 11
+items placed: 37 (from plan: 17 = 15 fixtures + 2 derived; from template: 20 = 15 + 5 derived)
+openings blocked: 2 of 9 (o-arc-6, o-arc-7)
+items intersecting walls: 2 (fx-drawn-10-counter-m4 271.0/0.0 cm2, fx-drawn-15-wardrobe 434.0/0.0 cm2)
+items outside their room: 0
+size violations: 0
+floor coverage: 16.6% of the indoor floor
+previews: 12 written

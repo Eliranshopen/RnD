@@ -1,0 +1,281 @@
+{
+ "$schema": "tour360/consistency.v1",
+ "rows": [
+  {
+   "at": "2026-11-06T08:11:47.137Z",
+   "group": "kitchen",
+   "set": "balanced",
+   "cg_tour": "apt846-furnished",
+   "render_context": false,
+   "misplaced": [
+    "view 3 (03-dining) hob at 331°, the plan has it at 346° (15° off)"
+   ],
+   "runs": [
+    {
+     "verdict": "FAIL",
+     "same": true,
+     "differences": [],
+     "usd": 0.006258
+    },
+    {
+     "verdict": "FAIL",
+     "same": true,
+     "differences": [],
+     "usd": 0.0077205
+    },
+    {
+     "verdict": "PASS",
+     "same": true,
+     "differences": [],
+     "usd": 0.006813
+    }
+   ],
+   "views": [
+    {
+     "asset": "01-entrance",
+     "bearing": 61,
+     "dist": 521,
+     "hfov": 70,
+     "picture": "panos\\balanced\\01-entrance.webp"
+    },
+    {
+     "asset": "02-kitchen",
+     "bearing": 292,
+     "dist": 105,
+     "hfov": 120,
+     "picture": "panos\\balanced\\02-kitchen.webp"
+    },
+    {
+     "asset": "03-dining",
+     "bearing": 333,
+     "dist": 306,
+     "hfov": 120,
+     "picture": "panos\\balanced\\03-dining.webp"
+    },
+    {
+     "asset": "04-living",
+     "bearing": 13,
+     "dist": 430,
+     "hfov": 100.02052771243189,
+     "picture": "panos\\balanced\\04-living.webp"
+    }
+   ],
+   "sheet": "_local\\fidelity\\consistency__kitchen__balanced__e19aa53ba043.jpg",
+   "verdict": "FAIL",
+   "judge": {
+    "same": true,
+    "differences": [],
+    "per_view": [
+     {
+      "view": 1,
+      "visible": false,
+      "material": "",
+      "colour": "",
+      "shape": "",
+      "position_note": "Hidden behind entrance wall",
+      "hob_x": null,
+      "sink_x": null,
+      "tall_x": null
+     },
+     {
+      "view": 2,
+      "visible": true,
+      "material": "stainless steel and laminate",
+      "colour": "greige and metallic",
+      "shape": "curved linear counter with tall unit",
+      "position_note": "Against curved rear wall",
+      "hob_x": 830,
+      "sink_x": 395,
+      "tall_x": 230,
+      "hob_bearing": 341,
+      "hob_plan_bearing": 340,
+      "hob_off_deg": 1,
+      "sink_bearing": 272,
+      "sink_plan_bearing": 263,
+      "sink_off_deg": 9,
+      "tall_bearing": 249,
+      "tall_plan_bearing": 244,
+      "tall_off_deg": 5
+     },
+     {
+      "view": 3,
+      "visible": true,
+      "material": "stainless steel and laminate",
+      "colour": "greige and metallic",
+      "shape": "curved L-shaped counter with tall unit",
+      "position_note": "Against rear wall extending toward window",
+      "hob_x": 488,
+      "sink_x": 348,
+      "tall_x": 195,
+      "hob_bearing": 331,
+      "hob_plan_bearing": 346,
+      "hob_off_deg": 15,
+      "sink_bearing": 305,
+      "sink_plan_bearing": 313,
+      "sink_off_deg": 7,
+      "tall_bearing": 286,
+      "tall_plan_bearing": 290,
+      "tall_off_deg": 3
+     },
+     {
+      "view": 4,
+      "visible": true,
+      "material": "stainless steel and laminate",
+      "colour": "greige and metallic",
+      "shape": "curved L-shaped counter with tall unit",
+      "position_note": "Against rear wall extending toward window",
+      "hob_x": 450,
+      "sink_x": 365,
+      "tall_x": 280,
+      "hob_bearing": 6,
+      "hob_plan_bearing": 15,
+      "hob_off_deg": 9,
+      "sink_bearing": 355,
+      "sink_plan_bearing": 2,
+      "sink_off_deg": 6,
+      "tall_bearing": 345,
+      "tall_plan_bearing": 346,
+      "tall_off_deg": 1
+     }
+    ]
+   }
+  },
+  {
+   "at": "2026-11-06T08:12:44.086Z",
+   "group": "kitchen",
+   "set": "balanced",
+   "cg_tour": "apt846-furnished",
+   "render_context": true,
+   "misplaced": [],
+   "runs": [
+    {
+     "verdict": "PASS",
+     "same": true,
+     "differences": [],
+     "usd": 0.01152375
+    },
+    {
+     "verdict": "PASS",
+     "same": true,
+     "differences": [],
+     "usd": 0.008209575
+    },
+    {
+     "verdict": "PASS",
+     "same": true,
+     "differences": [],
+     "usd": 0.0109875
+    }
+   ],
+   "views": [
+    {
+     "asset": "01-entrance",
+     "bearing": 61,
+     "dist": 521,
+     "hfov": 70,
+     "picture": "panos\\balanced\\01-entrance.webp"
+    },
+    {
+     "asset": "02-kitchen",
+     "bearing": 292,
+     "dist": 105,
+     "hfov": 120,
+     "picture": "panos\\balanced\\02-kitchen.webp"
+    },
+    {
+     "asset": "03-dining",
+     "bearing": 333,
+     "dist": 306,
+     "hfov": 120,
+     "picture": "panos\\balanced\\03-dining.webp"
+    },
+    {
+     "asset": "04-living",
+     "bearing": 13,
+     "dist": 430,
+     "hfov": 100.02052771243189,
+     "picture": "panos\\balanced\\04-living.webp"
+    }
+   ],
+   "sheet": "_local\\fidelity\\consistency__kitchen__balanced__e19aa53ba043.jpg",
+   "verdict": "PASS",
+   "judge": {
+    "same": true,
+    "differences": [],
+    "per_view": [
+     {
+      "view": 1,
+      "visible": false,
+      "material": "",
+      "colour": "",
+      "shape": "",
+      "position_note": "hidden behind wall",
+      "hob_x": null,
+      "sink_x": null,
+      "tall_x": null
+     },
+     {
+      "view": 2,
+      "visible": true,
+      "material": "matte laminate and stainless steel",
+      "colour": "taupe and silver",
+      "shape": "linear counter with tall column",
+      "position_note": "along kitchen wall",
+      "hob_x": 835,
+      "sink_x": 395,
+      "tall_x": 240,
+      "hob_bearing": 341,
+      "hob_plan_bearing": 340,
+      "hob_off_deg": 1,
+      "sink_bearing": 272,
+      "sink_plan_bearing": 263,
+      "sink_off_deg": 9,
+      "tall_bearing": 250,
+      "tall_plan_bearing": 244,
+      "tall_off_deg": 6
+     },
+     {
+      "view": 3,
+      "visible": true,
+      "material": "matte laminate and stainless steel",
+      "colour": "taupe and silver",
+      "shape": "L-shaped kitchen run with tall column",
+      "position_note": "along back and window wall",
+      "hob_x": 490,
+      "sink_x": 348,
+      "tall_x": 195,
+      "hob_bearing": 331,
+      "hob_plan_bearing": 346,
+      "hob_off_deg": 15,
+      "sink_bearing": 305,
+      "sink_plan_bearing": 313,
+      "sink_off_deg": 7,
+      "tall_bearing": 286,
+      "tall_plan_bearing": 290,
+      "tall_off_deg": 3
+     },
+     {
+      "view": 4,
+      "visible": true,
+      "material": "matte laminate and stainless steel",
+      "colour": "taupe and silver",
+      "shape": "L-shaped kitchen run with tall column",
+      "position_note": "along back and window wall",
+      "hob_x": 454,
+      "sink_x": 372,
+      "tall_x": 308,
+      "hob_bearing": 7,
+      "hob_plan_bearing": 15,
+      "hob_off_deg": 8,
+      "sink_bearing": 356,
+      "sink_plan_bearing": 2,
+      "sink_off_deg": 6,
+      "tall_bearing": 348,
+      "tall_plan_bearing": 346,
+      "tall_off_deg": 2
+     }
+    ]
+   }
+  }
+ ]
+}

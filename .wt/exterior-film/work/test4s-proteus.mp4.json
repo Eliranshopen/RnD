@@ -1,0 +1,18 @@
+{
+ "endpoint": "fal-ai/topaz/upscale/video",
+ "args": {
+  "video_url": "https://v3b.fal.media/files/b/0ab118ad/LlN443ggoyAfX6atEZrcS_test4s.mp4",
+  "model": "Proteus",
+  "upscale_factor": 1.5,
+  "H264_output": true
+ },
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0ab118b2/KkRBF1B3OvTbOZfonvQG1_video.mp4",
+   "content_type": "video/mp4",
+   "file_name": "video.mp4",
+   "file_size": 9341361
+  }
+ },
+ "secs": 44
+}

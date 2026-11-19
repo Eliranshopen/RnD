@@ -1,0 +1,15 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "apt846-trace-fresh-a",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "trace": {
+   "seconds": 194,
+   "floors": 1,
+   "rooms": 11,
+   "fixtures": 20,
+   "scale_px_per_cm": 2.2677,
+   "at": "2026-11-06T11:21:29.494Z"
+  }
+ }
+}

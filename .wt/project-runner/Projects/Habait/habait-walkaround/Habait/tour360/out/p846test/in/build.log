@@ -1,0 +1,151 @@
+
+===== apartment =====
+run-project p846test: apartment done in 0 s
+
+===== cameras =====
+  bedroom          01-bedroom           yaw  39  clear 135 cm  links livingRoom
+  bathroom         02-bathroom          yaw 140  clear 60 cm  links 
+  kitchen          03-kitchen           yaw  35  clear 117 cm  links 
+  diningArea       04-dining-area       yaw  63  clear 133 cm  links sunBalcony
+  livingRoom       05-living-room       yaw 100  clear 191 cm  links bedroom,walkInCloset
+  sunBalcony       06-sun-balcony       yaw 191  clear 102 cm  links diningArea,masterBedroom
+  masterBathroom   07-master-bathroom   yaw 121  clear 65 cm  links walkInCloset
+  walkInCloset     08-walk-in-closet    yaw 353  clear 82 cm  links livingRoom,masterBathroom
+  masterBedroom    09-master-bedroom    yaw 104  clear 170 cm  links sunBalcony
+  narrowPassageway 10-narrow-passageway yaw 318  clear 107 cm  links 
+run-project p846test: cameras done in 2 s
+cameras: no link for bathroom, kitchen, narrowPassageway
+
+===== prompts =====
+run-project p846test: prompts done in 0 s
+
+===== furnish =====
+run-project: -I exited 1: openings blocked: 0 of 7 | items intersecting walls: 3 (t-bedroom-bed-nightstand-r 0.0/28.3 cm2, t-bedroom-bed-lamp-r 0.0/18.7 cm2, t-dining-area-table-chair-3 0.0/8.0 cm2) | items outside their room: 0 | size violations: 0 | floor coverage: 16.9% of the indoor floor | previews: 12 written
+
+===== apartment =====
+run-project p846test: apartment done in 0 s
+
+===== cameras =====
+  bedroom          01-bedroom           yaw  39  clear 135 cm  links livingRoom
+  bathroom         02-bathroom          yaw 140  clear 60 cm  links 
+  kitchen          03-kitchen           yaw  35  clear 117 cm  links 
+  diningArea       04-dining-area       yaw  63  clear 133 cm  links sunBalcony
+  livingRoom       05-living-room       yaw 100  clear 191 cm  links bedroom,walkInCloset
+  sunBalcony       06-sun-balcony       yaw 191  clear 102 cm  links diningArea,masterBedroom
+  masterBathroom   07-master-bathroom   yaw 121  clear 65 cm  links walkInCloset
+  walkInCloset     08-walk-in-closet    yaw 353  clear 82 cm  links livingRoom,masterBathroom
+  masterBedroom    09-master-bedroom    yaw 104  clear 170 cm  links sunBalcony
+  narrowPassageway 10-narrow-passageway yaw 318  clear 107 cm  links 
+run-project p846test: cameras done in 1 s
+cameras: no link for bathroom, kitchen, narrowPassageway
+
+===== prompts =====
+run-project p846test: prompts done in 0 s
+
+===== furnish =====
+run-project p846test: furnish done in 11 s
+
+===== render =====
+run-project: render_tour.mjs exited 1:   OK   cp-masterBathroom     21.6 s  nadir 1.6 m (0 cm)  valid 100.00%  10 KB |   OK   cp-walkInCloset      22.5 s  nadir 1.6 m (0 cm)  valid 100.00%  12 KB |   OK   cp-masterBedroom     21.3 s  nadir 1.6 m (0 cm)  valid 98.72%  15 KB |   OK   cp-narrowPassageway     11.0 s  nadir 1.6 m (0 cm)  valid 53.71%  16 KB |   total 221.6 s · 10 rendered, 0 skipped · $0.00 · verdict FAIL | FAIL      blender exited 1 for [cp-bedroom,cp-bathroom,cp-kitchen,cp-diningArea,cp-livingRoom,cp-sunBalcony,cp-masterBathroom,cp-walkInCloset,cp-masterBedroom,cp-narrowPassageway] — see C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\_logs\render-cp-bedroom-x10.log
+
+===== apartment =====
+run-project p846test: apartment done in 0 s
+
+===== cameras =====
+  entrance         01-entrance          yaw 297  clear 84 cm  links living,bedroom2,bathGuest
+  kitchen          02-kitchen           yaw  21  clear 100 cm  links living,dining
+  dining           03-dining            yaw  93  clear 102 cm  links kitchen,living
+  living           04-living            yaw 102  clear 128 cm  links entrance,kitchen,dining,terraceLiving,wardrobe
+  terraceLiving    05-terrace-living    yaw 150  clear 102 cm  links living,terraceBedroom
+  terraceBedroom   06-terrace-bedroom   yaw 121  clear 58 cm  links terraceLiving,bedroomMain
+  bedroomMain      07-bedroom-main      yaw 118  clear 78 cm  links wardrobe,terraceBedroom
+  wardrobe         08-wardrobe          yaw 330  clear 72 cm  links living,bedroomMain,bathMain
+  bathMain         09-bath-main         yaw 164  clear 60 cm  links wardrobe
+  bedroom2         10-bedroom-2         yaw  38  clear 58 cm  links entrance
+  bathGuest        11-bath-guest        yaw 140  clear 57 cm  links entrance
+run-project p846test: cameras done in 1 s
+
+===== prompts =====
+run-project p846test: prompts done in 0 s
+
+===== apartment =====
+run-project p846test: apartment done in 0 s
+
+===== cameras =====
+  entrance         01-entrance          yaw 297  clear 84 cm  links living,bedroom2,bathGuest
+  kitchen          02-kitchen           yaw  21  clear 100 cm  links living,dining
+  dining           03-dining            yaw  93  clear 102 cm  links kitchen,living
+  living           04-living            yaw 102  clear 128 cm  links entrance,kitchen,dining,terraceLiving,wardrobe
+  terraceLiving    05-terrace-living    yaw 150  clear 102 cm  links living,terraceBedroom
+  terraceBedroom   06-terrace-bedroom   yaw 121  clear 58 cm  links terraceLiving,bedroomMain
+  bedroomMain      07-bedroom-main      yaw 118  clear 78 cm  links wardrobe,terraceBedroom
+  wardrobe         08-wardrobe          yaw 330  clear 72 cm  links living,bedroomMain,bathMain
+  bathMain         09-bath-main         yaw 164  clear 60 cm  links wardrobe
+  bedroom2         10-bedroom-2         yaw  38  clear 58 cm  links entrance
+  bathGuest        11-bath-guest        yaw 140  clear 57 cm  links entrance
+run-project p846test: cameras done in 1 s
+
+===== prompts =====
+run-project p846test: prompts done in 0 s
+
+===== furnish =====
+run-project p846test: furnish done in 12 s
+
+===== render =====
+run-project p846test: render done in 1055 s
+
+===== scenes =====
+run-project p846test: scenes done in 1 s
+
+===== sets =====
+run-project p846test: sets done in 4 s
+
+===== gate =====
+run-project p846test: gate done in 0 s
+
+===== build =====
+run-project p846test: build done in 0 s
+
+===== package =====
+run-project p846test: package done in 0 s
+
+===== apartment =====
+run-project p846test: apartment done in 0 s
+
+===== cameras =====
+  entrance         01-entrance          yaw 297  clear 84 cm  links living,bedroom2,bathGuest
+  kitchen          02-kitchen           yaw  21  clear 100 cm  links living,dining
+  dining           03-dining            yaw  93  clear 102 cm  links kitchen,living
+  living           04-living            yaw 102  clear 128 cm  links entrance,kitchen,dining,terraceLiving,wardrobe
+  terraceLiving    05-terrace-living    yaw 150  clear 102 cm  links living,terraceBedroom
+  terraceBedroom   06-terrace-bedroom   yaw 121  clear 58 cm  links terraceLiving,bedroomMain
+  bedroomMain      07-bedroom-main      yaw 118  clear 78 cm  links wardrobe,terraceBedroom
+  wardrobe         08-wardrobe          yaw 330  clear 72 cm  links living,bedroomMain,bathMain
+  bathMain         09-bath-main         yaw 164  clear 60 cm  links wardrobe
+  bedroom2         10-bedroom-2         yaw  38  clear 58 cm  links entrance
+  bathGuest        11-bath-guest        yaw 140  clear 57 cm  links entrance
+run-project p846test: cameras done in 0 s
+
+===== prompts =====
+run-project p846test: prompts done in 0 s
+
+===== furnish =====
+run-project p846test: furnish done in 7 s
+
+===== render =====
+run-project p846test: render done in 1 s
+
+===== scenes =====
+run-project p846test: scenes done in 1 s
+
+===== sets =====
+run-project p846test: sets done in 4 s
+
+===== gate =====
+run-project p846test: gate done in 0 s
+
+===== build =====
+run-project p846test: build done in 0 s
+
+===== package =====
+run-project p846test: package done in 0 s

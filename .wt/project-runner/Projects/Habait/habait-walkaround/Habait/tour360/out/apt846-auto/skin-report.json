@@ -1,0 +1,1541 @@
+{
+ "$schema": "tour360/skin-report.v1",
+ "apartment": "apt846-auto",
+ "started": "2026-11-06T09:51:49.450Z",
+ "rule": {
+  "max_deviation_pct": 1,
+  "max_attempts": 5
+ },
+ "model": "gpt25",
+ "caps": {
+  "soft": 1.5,
+  "hard": 1.5
+ },
+ "scenes": {
+  "08-wardrobe": {
+   "camera": "wardrobe",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "08-wardrobe__gpt25__s7__a96126cfe737.png",
+     "seam": {
+      "wrap": 2.75,
+      "base": 7.02,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.65,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.65,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-02",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 160,
+         "drawn_cm": 160,
+         "trace_cm": 159.8,
+         "mode": "room",
+         "pct": 0.12,
+         "ends": [
+          {
+           "offset_cm": 0.2,
+           "feature": "wall surface (loop r-wardrobe)",
+           "on": "loop r-wardrobe"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-wardrobe)",
+           "on": "loop r-wardrobe"
+          }
+         ]
+        },
+        {
+         "id": "pdf-02/w-closet-1",
+         "kind": "fixture",
+         "fixture": "w-closet-1",
+         "printed_cm": 160,
+         "drawn_cm": 160,
+         "trace_cm": 159.5,
+         "mode": "fixture",
+         "pct": 0.29,
+         "ends": [
+          {
+           "offset_cm": 0.2,
+           "feature": "fixture w-closet-1"
+          },
+          {
+           "offset_cm": -0.2,
+           "feature": "fixture w-closet-1"
+          }
+         ]
+        },
+        {
+         "id": "pdf-09",
+         "kind": "fixture",
+         "fixture": "w-closet-2",
+         "printed_cm": 185,
+         "drawn_cm": 185,
+         "trace_cm": 184.4,
+         "mode": "fixture",
+         "pct": 0.33,
+         "ends": [
+          {
+           "offset_cm": 0.3,
+           "feature": "corner of fixture w-closet-2",
+           "on": "fixture w-closet-2"
+          },
+          {
+           "offset_cm": -0.4,
+           "feature": "corner of fixture w-closet-2",
+           "on": "fixture w-closet-2"
+          }
+         ]
+        }
+       ],
+       "niche": null,
+       "unchecked": [],
+       "max_pct": 0.33
+      },
+      "evidence": "_local\\fidelity\\08-wardrobe__picks__14ee50a73900.gate.jpg"
+     },
+     "pick": "08-wardrobe__gpt25__s7__a96126cfe737.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.65,
+   "pick": "08-wardrobe__gpt25__s7__a96126cfe737.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.65,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "07-bedroom-main": {
+   "camera": "bedroomMain",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "07-bedroom-main__gpt25__s7__4e87285e0d33.png",
+     "seam": {
+      "wrap": 13.32,
+      "base": 5.2,
+      "closed": false,
+      "error": "close-seam exited 0"
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "FAIL",
+      "deviation_pct": 3.68,
+      "resolution_pct": 1,
+      "findings": 1,
+      "cg_pct": 0.81,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-01",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 347.7,
+         "drawn_cm": 347.6,
+         "trace_cm": 347.8,
+         "mode": "room",
+         "pct": 0.06,
+         "ends": [
+          {
+           "offset_cm": -0.2,
+           "feature": "corner of facade facade-5",
+           "on": "facade facade-5"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bedroom-main)",
+           "on": "loop r-bedroom-main"
+          }
+         ]
+        },
+        {
+         "id": "pdf-05",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 343.6,
+         "drawn_cm": 343.6,
+         "trace_cm": 343.5,
+         "mode": "room",
+         "pct": 0.03,
+         "ends": [
+          {
+           "offset_cm": 0.1,
+           "feature": "wall surface (loop r-bedroom-main)",
+           "on": "loop r-bedroom-main"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bedroom-main)",
+           "on": "loop r-bedroom-main"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-bedroom-main",
+        "measured_by": [
+         "pdf-01",
+         "pdf-05"
+        ],
+        "rectangle_m2": 11.948,
+        "niche_m2": 0.405,
+        "niche_edges": 3,
+        "niche_face_median_cm": 4.5
+       },
+       "unchecked": [],
+       "max_pct": 0.06
+      },
+      "evidence": "_local\\fidelity\\07-bedroom-main__picks__9e7c300ef510.gate.jpg"
+     },
+     "pick": "07-bedroom-main__gpt25__s7__4e87285e0d33.png"
+    },
+    {
+     "attempt": 2,
+     "generated": "07-bedroom-main__gpt25__s8__79cc58d15742.png",
+     "seam": {
+      "wrap": 1.93,
+      "base": 5.98,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.81,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.81,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-01",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 347.7,
+         "drawn_cm": 347.6,
+         "trace_cm": 347.8,
+         "mode": "room",
+         "pct": 0.06,
+         "ends": [
+          {
+           "offset_cm": -0.2,
+           "feature": "corner of facade facade-5",
+           "on": "facade facade-5"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bedroom-main)",
+           "on": "loop r-bedroom-main"
+          }
+         ]
+        },
+        {
+         "id": "pdf-05",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 343.6,
+         "drawn_cm": 343.6,
+         "trace_cm": 343.5,
+         "mode": "room",
+         "pct": 0.03,
+         "ends": [
+          {
+           "offset_cm": 0.1,
+           "feature": "wall surface (loop r-bedroom-main)",
+           "on": "loop r-bedroom-main"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bedroom-main)",
+           "on": "loop r-bedroom-main"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-bedroom-main",
+        "measured_by": [
+         "pdf-01",
+         "pdf-05"
+        ],
+        "rectangle_m2": 11.948,
+        "niche_m2": 0.405,
+        "niche_edges": 3,
+        "niche_face_median_cm": 4.5
+       },
+       "unchecked": [],
+       "max_pct": 0.06
+      },
+      "evidence": "_local\\fidelity\\07-bedroom-main__picks__59594a81658d.gate.jpg"
+     },
+     "pick": "07-bedroom-main__gpt25__s8__79cc58d15742.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.81,
+   "pick": "07-bedroom-main__gpt25__s8__79cc58d15742.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.81,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "10-bedroom-2": {
+   "camera": "bedroom2",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "10-bedroom-2__gpt25__s7__79a9220a97fe.png",
+     "seam": {
+      "wrap": 2.04,
+      "base": 5.09,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.46,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.46,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-25",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 275,
+         "drawn_cm": 275,
+         "trace_cm": 275.2,
+         "mode": "room",
+         "pct": 0.07,
+         "ends": [
+          {
+           "offset_cm": -0.1,
+           "feature": "corner of loop r-bedroom-2",
+           "on": "loop r-bedroom-2"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bedroom-2)",
+           "on": "loop r-bedroom-2"
+          }
+         ]
+        },
+        {
+         "id": "pdf-27",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 342.2,
+         "drawn_cm": 342.2,
+         "trace_cm": 342.2,
+         "mode": "room",
+         "pct": 0.01,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bedroom-2)",
+           "on": "loop r-bedroom-2"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "inside facade facade-1",
+           "on": "facade facade-1"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-bedroom-2",
+        "measured_by": [
+         "pdf-25",
+         "pdf-27"
+        ],
+        "rectangle_m2": 9.417,
+        "niche_m2": 0.083,
+        "niche_edges": 8,
+        "niche_face_median_cm": 1.5
+       },
+       "unchecked": [],
+       "max_pct": 0.07
+      },
+      "evidence": "_local\\fidelity\\10-bedroom-2__picks__8bbf47534116.gate.jpg"
+     },
+     "pick": "10-bedroom-2__gpt25__s7__79a9220a97fe.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.46,
+   "pick": "10-bedroom-2__gpt25__s7__79a9220a97fe.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.46,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "11-bath-guest": {
+   "camera": "bathGuest",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "11-bath-guest__gpt25__s7__953cbf7e949a.png",
+     "seam": {
+      "wrap": 6.3,
+      "base": 6.34,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.28,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.27,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-28",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 199.1,
+         "drawn_cm": 199.2,
+         "trace_cm": 199.7,
+         "mode": "room",
+         "pct": 0.28,
+         "ends": [
+          {
+           "offset_cm": -0.3,
+           "feature": "corner of wall w-4",
+           "on": "wall w-4"
+          },
+          {
+           "offset_cm": 0.2,
+           "feature": "corner of wall w-4",
+           "on": "wall w-4"
+          }
+         ]
+        },
+        {
+         "id": "pdf-29",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 140,
+         "drawn_cm": 140,
+         "trace_cm": 139.7,
+         "mode": "room",
+         "pct": 0.24,
+         "ends": [
+          {
+           "offset_cm": 0.3,
+           "feature": "wall surface (loop r-bath-guest)",
+           "on": "loop r-bath-guest"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-guest)",
+           "on": "loop r-bath-guest"
+          }
+         ]
+        },
+        {
+         "id": "pdf-29/bg-shower",
+         "kind": "fixture",
+         "fixture": "bg-shower",
+         "printed_cm": 140,
+         "drawn_cm": 140,
+         "trace_cm": 140,
+         "mode": "fixture",
+         "pct": 0.02,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "fixture bg-shower"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "fixture bg-shower"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-bath-guest",
+        "measured_by": [
+         "pdf-28",
+         "pdf-29"
+        ],
+        "rectangle_m2": 2.788,
+        "niche_m2": 0.744,
+        "niche_edges": 7,
+        "niche_face_median_cm": 2.8
+       },
+       "unchecked": [],
+       "max_pct": 0.28
+      },
+      "evidence": "_local\\fidelity\\11-bath-guest__picks__886c3580a415.gate.jpg"
+     },
+     "pick": "11-bath-guest__gpt25__s7__953cbf7e949a.png"
+    },
+    {
+     "attempt": "consistency-living-ref",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.28
+     },
+     "pick": "11-bath-guest__seam__s7__96d93277769f.png"
+    },
+    {
+     "attempt": "consistency-living-regen",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.28
+     },
+     "pick": "11-bath-guest__gpt25__s22__4247a1b59ea9.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.28,
+   "pick": "11-bath-guest__gpt25__s22__4247a1b59ea9.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.28,
+    "mirror_exempted": [
+     {
+      "bearing": "208-224°",
+      "crop": "_local\\fidelity\\11-bath-guest__mirror__216__32db08757595.jpg"
+     }
+    ]
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "06-terrace-bedroom": {
+   "camera": "terraceBedroom",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "06-terrace-bedroom__gpt25__s7__865ff9b2ad18.png",
+     "seam": {
+      "wrap": 19.79,
+      "base": 10.94,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "FAIL",
+      "deviation_pct": 26.97,
+      "resolution_pct": 1,
+      "findings": 1,
+      "cg_pct": 0.14,
+      "dims": {
+       "rows": [],
+       "niche": null,
+       "unchecked": [],
+       "max_pct": null
+      },
+      "evidence": "_local\\fidelity\\06-terrace-bedroom__picks__c768060fef9d.gate.jpg"
+     },
+     "pick": "06-terrace-bedroom__gpt25__s7__865ff9b2ad18.png"
+    },
+    {
+     "attempt": 2,
+     "generated": "06-terrace-bedroom__gpt25__s8__4404786e990d.png",
+     "seam": {
+      "wrap": 4.43,
+      "base": 8.25,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.14,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.14,
+      "dims": {
+       "rows": [],
+       "niche": null,
+       "unchecked": [],
+       "max_pct": null
+      },
+      "evidence": "_local\\fidelity\\06-terrace-bedroom__picks__bc582bd4c043.gate.jpg"
+     },
+     "pick": "06-terrace-bedroom__gpt25__s8__4404786e990d.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.14,
+   "pick": "06-terrace-bedroom__gpt25__s8__4404786e990d.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.14,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "09-bath-main": {
+   "camera": "bathMain",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "09-bath-main__gpt25__s7__222ff9363baa.png",
+     "seam": {
+      "wrap": 16.32,
+      "base": 5.73,
+      "closed": false,
+      "error": "close-seam exited 0"
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "FAIL",
+      "deviation_pct": 2.4,
+      "resolution_pct": 1,
+      "findings": 2,
+      "cg_pct": 0.41,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-03",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 210,
+         "drawn_cm": 210.1,
+         "trace_cm": 210.2,
+         "mode": "room",
+         "pct": 0.11,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          },
+          {
+           "offset_cm": 0.2,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          }
+         ]
+        },
+        {
+         "id": "pdf-03/bm-shower",
+         "kind": "fixture",
+         "fixture": "bm-shower",
+         "printed_cm": 210,
+         "drawn_cm": 210.1,
+         "trace_cm": 209.6,
+         "mode": "fixture",
+         "pct": 0.21,
+         "ends": [
+          {
+           "offset_cm": 0.2,
+           "feature": "fixture bm-shower"
+          },
+          {
+           "offset_cm": -0.3,
+           "feature": "fixture bm-shower"
+          }
+         ]
+        },
+        {
+         "id": "pdf-10",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 212.5,
+         "drawn_cm": 212.5,
+         "trace_cm": 212.5,
+         "mode": "room",
+         "pct": 0.01,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-bath-main",
+        "measured_by": [
+         "pdf-03",
+         "pdf-10"
+        ],
+        "rectangle_m2": 4.469,
+        "niche_m2": 0.074,
+        "niche_edges": 7,
+        "niche_face_median_cm": 1.6
+       },
+       "unchecked": [],
+       "max_pct": 0.21
+      },
+      "evidence": "_local\\fidelity\\09-bath-main__picks__a29aadb9cb04.gate.jpg"
+     },
+     "pick": "09-bath-main__gpt25__s7__222ff9363baa.png"
+    },
+    {
+     "attempt": 2,
+     "generated": "09-bath-main__gpt25__s8__d16a184b8af0.png",
+     "seam": {
+      "wrap": 4.77,
+      "base": 6.29,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.41,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.41,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-03",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 210,
+         "drawn_cm": 210.1,
+         "trace_cm": 210.2,
+         "mode": "room",
+         "pct": 0.11,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          },
+          {
+           "offset_cm": 0.2,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          }
+         ]
+        },
+        {
+         "id": "pdf-03/bm-shower",
+         "kind": "fixture",
+         "fixture": "bm-shower",
+         "printed_cm": 210,
+         "drawn_cm": 210.1,
+         "trace_cm": 209.6,
+         "mode": "fixture",
+         "pct": 0.21,
+         "ends": [
+          {
+           "offset_cm": 0.2,
+           "feature": "fixture bm-shower"
+          },
+          {
+           "offset_cm": -0.3,
+           "feature": "fixture bm-shower"
+          }
+         ]
+        },
+        {
+         "id": "pdf-10",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 212.5,
+         "drawn_cm": 212.5,
+         "trace_cm": 212.5,
+         "mode": "room",
+         "pct": 0.01,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          },
+          {
+           "offset_cm": 0,
+           "feature": "wall surface (loop r-bath-main)",
+           "on": "loop r-bath-main"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-bath-main",
+        "measured_by": [
+         "pdf-03",
+         "pdf-10"
+        ],
+        "rectangle_m2": 4.469,
+        "niche_m2": 0.074,
+        "niche_edges": 7,
+        "niche_face_median_cm": 1.6
+       },
+       "unchecked": [],
+       "max_pct": 0.21
+      },
+      "evidence": "_local\\fidelity\\09-bath-main__picks__4c60be091db5.gate.jpg"
+     },
+     "pick": "09-bath-main__gpt25__s8__d16a184b8af0.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.41,
+   "pick": "09-bath-main__gpt25__s8__d16a184b8af0.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.41,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "04-living": {
+   "camera": "living",
+   "attempts": [
+    {
+     "attempt": 1,
+     "generated": "04-living__gpt25__s7__7d9d828ff503.png",
+     "seam": {
+      "wrap": 8.41,
+      "base": 8.36,
+      "closed": false
+     },
+     "gate": {
+      "mirror_exempted": [],
+      "verdict": "PASS",
+      "deviation_pct": 0.19,
+      "resolution_pct": 1,
+      "findings": 0,
+      "cg_pct": 0.19,
+      "dims": {
+       "rows": [
+        {
+         "id": "pdf-06",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 744.3,
+         "drawn_cm": 744.2,
+         "trace_cm": 745.6,
+         "mode": "room",
+         "pct": 0.19,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "corner of loop r-living",
+           "on": "loop r-living"
+          },
+          {
+           "offset_cm": 1.4,
+           "feature": "corner of facade facade-1",
+           "on": "facade facade-1"
+          }
+         ]
+        },
+        {
+         "id": "pdf-08",
+         "kind": "room",
+         "fixture": null,
+         "printed_cm": 529.5,
+         "drawn_cm": 529.5,
+         "trace_cm": 528.5,
+         "mode": "room",
+         "pct": 0.19,
+         "ends": [
+          {
+           "offset_cm": 0,
+           "feature": "inside facade facade-3",
+           "on": "facade facade-3"
+          },
+          {
+           "offset_cm": -1,
+           "feature": "corner of wall w-10",
+           "on": "wall w-10"
+          }
+         ]
+        }
+       ],
+       "niche": {
+        "room": "r-living",
+        "measured_by": [
+         "pdf-06",
+         "pdf-08"
+        ],
+        "rectangle_m2": 39.415,
+        "niche_m2": 9.526,
+        "niche_edges": 23,
+        "niche_face_median_cm": 1.5
+       },
+       "unchecked": [],
+       "max_pct": 0.19
+      },
+      "evidence": "_local\\fidelity\\04-living__picks__28e621575157.gate.jpg"
+     },
+     "pick": "04-living__gpt25__s7__7d9d828ff503.png"
+    },
+    {
+     "attempt": "consistency-kitchen-ref",
+     "gate": {
+      "verdict": "FAIL",
+      "deviation_pct": 0.19
+     },
+     "pick": "04-living__seam3__s7__28bba1843b16.png"
+    },
+    {
+     "attempt": "consistency-kitchen-regen",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.19
+     },
+     "pick": "04-living__gpt25__s22__ae0deb82bab8.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.19,
+   "pick": "04-living__gpt25__s22__ae0deb82bab8.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.19,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "01-entrance": {
+   "camera": "entrance",
+   "attempts": [
+    {
+     "attempt": "kept",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.85
+     },
+     "pick": "01-entrance__seam3__s7__f0f2efb32699.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.85,
+   "pick": "01-entrance__seam3__s7__f0f2efb32699.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.85,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "05-terrace-living": {
+   "camera": "terraceLiving",
+   "attempts": [
+    {
+     "attempt": "kept",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.22
+     },
+     "pick": "05-terrace-living__seam3__s7__82330adac606.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.22,
+   "pick": "05-terrace-living__seam3__s7__82330adac606.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.22,
+    "mirror_exempted": []
+   },
+   "kept_from": "2026-11-06T09:41:55.204Z"
+  },
+  "02-kitchen": {
+   "camera": "kitchen",
+   "attempts": [
+    {
+     "attempt": "kept",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.33
+     },
+     "pick": "02-kitchen__gpt25__s32__1fd6490ac915.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.33,
+   "pick": "02-kitchen__gpt25__s32__1fd6490ac915.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.33,
+    "mirror_exempted": []
+   }
+  },
+  "03-dining": {
+   "camera": "dining",
+   "attempts": [
+    {
+     "attempt": "kept",
+     "gate": {
+      "verdict": "PASS",
+      "deviation_pct": 0.7
+     },
+     "pick": "03-dining__gpt25__s7__fb222e11fa0f.png"
+    }
+   ],
+   "verdict": "PASS",
+   "deviation_pct": 0.7,
+   "pick": "03-dining__gpt25__s7__fb222e11fa0f.png",
+   "balanced": {
+    "verdict": "PASS",
+    "deviation_pct": 0.7,
+    "mirror_exempted": []
+   }
+  }
+ },
+ "consistency": {},
+ "finishes": {
+  "08-wardrobe": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 21.17,
+      "findings": 2
+     },
+     {
+      "k": 2,
+      "verdict": "PASS",
+      "deviation_pct": 0.65,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.65,
+      "findings": 1
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.65,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "07-bedroom-main": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.81,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.81,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.81,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "10-bedroom-2": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.46,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.46,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.46,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "11-bath-guest": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 10,
+      "findings": 1
+     },
+     {
+      "k": 2,
+      "verdict": "FAIL",
+      "deviation_pct": 27.32,
+      "findings": 1
+     },
+     {
+      "k": 3,
+      "verdict": "FAIL",
+      "deviation_pct": 7.63,
+      "findings": 1
+     },
+     {
+      "k": 4,
+      "verdict": "PASS",
+      "deviation_pct": 0.28,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.28,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 8.48,
+      "findings": 1
+     },
+     {
+      "k": 2,
+      "verdict": "PASS",
+      "deviation_pct": 0.28,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "06-terrace-bedroom": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 11.87,
+      "findings": 1
+     },
+     {
+      "k": 2,
+      "verdict": "PASS",
+      "deviation_pct": 0.14,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.14,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.14,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "09-bath-main": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.41,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.41,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.41,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "04-living": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.19,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.19,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.19,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS"
+   }
+  },
+  "01-entrance": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.85,
+      "findings": 0
+     },
+     {
+      "mode": "floor-composite",
+      "verdict": "PASS",
+      "deviation_pct": 0.85,
+      "band_edge": "PASS",
+      "eye_crops": "_local\\fidelity\\01-entrance__floorcomp-parquet__eye.jpg",
+      "composite": "01-entrance__floorcomp-parquet__f0f2efb32699.png"
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "floor-composite"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 2.39,
+      "findings": 1
+     },
+     {
+      "mode": "floor-composite",
+      "verdict": "PASS",
+      "deviation_pct": 0.85,
+      "band_edge": "PASS",
+      "eye_crops": "_local\\fidelity\\01-entrance__floorcomp-concrete__eye.jpg",
+      "composite": "01-entrance__floorcomp-concrete__f0f2efb32699.png"
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "floor-composite"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.85,
+      "findings": 0
+     },
+     {
+      "mode": "floor-composite",
+      "verdict": "PASS",
+      "deviation_pct": 0.85,
+      "band_edge": "PASS",
+      "eye_crops": "_local\\fidelity\\01-entrance__floorcomp-marble__eye.jpg",
+      "composite": "01-entrance__floorcomp-marble__f0f2efb32699.png"
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "floor-composite"
+   }
+  },
+  "05-terrace-living": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.22,
+      "findings": 0
+     },
+     {
+      "mode": "floor-composite",
+      "verdict": "ERROR",
+      "band_edge": null,
+      "eye_crops": "_local\\fidelity\\05-terrace-living__floorcomp-parquet__eye.jpg",
+      "composite": "05-terrace-living__floorcomp-parquet__82330adac606.png"
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "direct",
+    "note": "the floor-only composite did not pass: the direct answer ships — check it by eye for doors and casework"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.22,
+      "findings": 0
+     },
+     {
+      "mode": "floor-composite",
+      "verdict": "PASS",
+      "deviation_pct": 0.22,
+      "band_edge": "PASS",
+      "eye_crops": "_local\\fidelity\\05-terrace-living__floorcomp-concrete__eye.jpg",
+      "composite": "05-terrace-living__floorcomp-concrete__82330adac606.png"
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "floor-composite"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "PASS",
+      "deviation_pct": 0.22,
+      "findings": 0
+     },
+     {
+      "mode": "floor-composite",
+      "verdict": "PASS",
+      "deviation_pct": 0.22,
+      "band_edge": "PASS",
+      "eye_crops": "_local\\fidelity\\05-terrace-living__floorcomp-marble__eye.jpg",
+      "composite": "05-terrace-living__floorcomp-marble__82330adac606.png"
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "floor-composite"
+   }
+  },
+  "02-kitchen": {
+   "parquet": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 4.96,
+      "findings": 1
+     },
+     {
+      "k": 2,
+      "verdict": "FAIL",
+      "deviation_pct": 31.85,
+      "findings": 4
+     },
+     {
+      "k": 3,
+      "verdict": "PASS",
+      "deviation_pct": 0.33,
+      "findings": 0
+     }
+    ],
+    "verdict": "PASS",
+    "shipped": "direct",
+    "note": "the floor-only composite did not pass: the direct answer ships — check it by eye for doors and casework"
+   },
+   "concrete": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 2.14,
+      "findings": 1
+     },
+     {
+      "k": 2,
+      "verdict": "FAIL",
+      "deviation_pct": 8.79,
+      "findings": 1
+     },
+     {
+      "k": 3,
+      "verdict": "FAIL",
+      "deviation_pct": 44.21,
+      "findings": 4
+     },
+     {
+      "k": 4,
+      "verdict": "FAIL",
+      "deviation_pct": 64.54,
+      "findings": 3
+     },
+     {
+      "k": 5,
+      "verdict": "FAIL",
+      "deviation_pct": 2.16,
+      "findings": 1
+     }
+    ],
+    "verdict": "FAIL"
+   },
+   "marble": {
+    "attempts": [
+     {
+      "k": 1,
+      "verdict": "FAIL",
+      "deviation_pct": 6.35,
+      "findings": 1
+     },
+     {
+      "k": 2,
+      "verdict": "FAIL",
+      "deviation_pct": 60.57,
+      "findings": 4
+     },
+     {
+      "k": 3,
+      "verdict": "FAIL",
+      "deviation_pct": 31.12,
+      "findings": 4
+     },
+     {
+      "k": 4,
+      "verdict": "FAIL",
+      "deviation_pct": 34.56,
+      "findings": 1
+     }
+    ],
+    "verdict": "FAIL"
+   }
+  }
+ },
+ "spend_usd": 0.9,
+ "verdict": "HARD-CAP",
+ "previous": {
+  "started": "2026-11-06T09:41:55.204Z",
+  "consistency": {},
+  "spend_usd": 1.47
+ },
+ "sight_lines": [
+  {
+   "group": "kitchen",
+   "home": "02-kitchen",
+   "viewers": [
+    "02-kitchen",
+    "03-dining"
+   ]
+  },
+  {
+   "group": "dining",
+   "home": "03-dining",
+   "viewers": [
+    "02-kitchen",
+    "03-dining"
+   ]
+  },
+  {
+   "group": "living",
+   "home": "04-living",
+   "viewers": [
+    "02-kitchen",
+    "03-dining"
+   ]
+  },
+  {
+   "group": "terrace-railing",
+   "home": null,
+   "viewers": [
+    "02-kitchen",
+    "03-dining"
+   ]
+  }
+ ],
+ "sets": "ok",
+ "stopped": "hard cap: 02-kitchen marble finish 5 (booked $0.61) would take the job's spend $0.9 past $1.5"
+}

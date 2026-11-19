@@ -1,0 +1,439 @@
+{
+ "$schema": "tour360/hotspots-check.v1",
+ "at": "2026-11-06T10:39:53.807Z",
+ "renders": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-auto\\renders",
+ "rows": [
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "living",
+   "u": 0.054,
+   "v": 0.84,
+   "bearing": 135,
+   "pitch": -34.5,
+   "depth_cm": 282,
+   "height_cm": 0,
+   "hit_cm": [
+    473,
+    928
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE l-tv (CG depth) to floor"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "bedroom2",
+   "u": 0.797,
+   "v": 1,
+   "bearing": 403,
+   "pitch": -63.3,
+   "depth_cm": 179,
+   "height_cm": 0,
+   "hit_cm": [
+    365,
+    703
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "the visible floor toward the target camera (the hand via and its opening are hidden); R23b moved off wall (CG depth) to floor"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "bathGuest",
+   "u": 0.761,
+   "v": 1,
+   "bearing": 390,
+   "pitch": -63.3,
+   "depth_cm": 179,
+   "height_cm": 0,
+   "hit_cm": [
+    350,
+    693
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "the visible floor toward the target camera (the hand via and its opening are hidden); R23b moved off wall (CG depth) to floor"
+  },
+  {
+   "scene": "kitchen",
+   "asset": "02-kitchen",
+   "to": "living",
+   "u": 0.008,
+   "v": 0.55,
+   "bearing": -156,
+   "pitch": -10.3,
+   "depth_cm": 519,
+   "height_cm": 68,
+   "hit_cm": [
+    579,
+    1117
+   ],
+   "what": "opening o-8",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE l-armchair (the ray skims it) (CG depth) to opening o-8"
+  },
+  {
+   "scene": "kitchen",
+   "asset": "02-kitchen",
+   "to": "dining",
+   "u": 0.621,
+   "v": 0.68,
+   "bearing": 65,
+   "pitch": -14.8,
+   "depth_cm": 380,
+   "height_cm": 63,
+   "hit_cm": [
+    1119,
+    493
+   ],
+   "what": "glass facade-1",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "dining",
+   "asset": "03-dining",
+   "to": "kitchen",
+   "u": 0.972,
+   "v": 0.82,
+   "bearing": 263,
+   "pitch": -30.9,
+   "depth_cm": 310,
+   "height_cm": 1,
+   "hit_cm": [
+    785,
+    602
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE k-counter (CG depth) to floor"
+  },
+  {
+   "scene": "dining",
+   "asset": "03-dining",
+   "to": "living",
+   "u": 0.766,
+   "v": 0.69,
+   "bearing": 189,
+   "pitch": -15.1,
+   "depth_cm": 610,
+   "height_cm": 1,
+   "hit_cm": [
+    959,
+    1152
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE l-tv (floor 4 cm from it) (CG depth) to floor"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "entrance",
+   "u": 0.138,
+   "v": 0.68,
+   "bearing": -29,
+   "pitch": -14.8,
+   "depth_cm": 343,
+   "height_cm": 72,
+   "hit_cm": [
+    257,
+    661
+   ],
+   "what": "opening o-12",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (CG depth) to opening o-12"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "kitchen",
+   "u": 0.371,
+   "v": 0.68,
+   "bearing": 55,
+   "pitch": -14.8,
+   "depth_cm": 624,
+   "height_cm": 1,
+   "hit_cm": [
+    910,
+    600
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE d-table (floor 0 cm from it) (within 2° of the marker) (CG depth) to floor"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "dining",
+   "u": 0.394,
+   "v": 0.76,
+   "bearing": 63,
+   "pitch": -20.1,
+   "depth_cm": 465,
+   "height_cm": 0,
+   "hit_cm": [
+    807,
+    750
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE l-sofa (CG depth) to floor"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "terraceLiving",
+   "u": 0.524,
+   "v": 0.65,
+   "bearing": 110,
+   "pitch": -13.8,
+   "depth_cm": 618,
+   "height_cm": 13,
+   "hit_cm": [
+    984,
+    1152
+   ],
+   "what": "opening o-5",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE l-coffee (the ray skims it) (CG depth) to opening o-5"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "wardrobe",
+   "u": 0.721,
+   "v": 0.68,
+   "bearing": 181,
+   "pitch": -14.8,
+   "depth_cm": 232,
+   "height_cm": 101,
+   "hit_cm": [
+    417,
+    1174
+   ],
+   "what": "opening o-6",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE w-closet-2 (CG depth) to opening o-6"
+  },
+  {
+   "scene": "terraceLiving",
+   "asset": "05-terrace-living",
+   "to": "living",
+   "u": 0.769,
+   "v": 0.68,
+   "bearing": 258,
+   "pitch": -14.8,
+   "depth_cm": 194,
+   "height_cm": 110,
+   "hit_cm": [
+    1132,
+    794
+   ],
+   "what": "glass facade-1",
+   "ok": true,
+   "source": "the visible floor toward the target camera (the hand via and its opening are hidden)"
+  },
+  {
+   "scene": "terraceLiving",
+   "asset": "05-terrace-living",
+   "to": "terraceBedroom",
+   "u": 0.63,
+   "v": 0.68,
+   "bearing": 208,
+   "pitch": -14.8,
+   "depth_cm": 624,
+   "height_cm": 1,
+   "hit_cm": [
+    1034,
+    1288
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (within 2° of the marker) (CG depth) to floor"
+  },
+  {
+   "scene": "terraceBedroom",
+   "asset": "06-terrace-bedroom",
+   "to": "terraceLiving",
+   "u": 0.465,
+   "v": 0.68,
+   "bearing": 40,
+   "pitch": -14.8,
+   "depth_cm": 133,
+   "height_cm": 126,
+   "hit_cm": [
+    1002,
+    1520
+   ],
+   "what": "glass railing-13",
+   "ok": true,
+   "source": "the visible floor toward the target camera (the hand via and its opening are hidden); R23b moved off wall (CG depth) to glass railing-13"
+  },
+  {
+   "scene": "terraceBedroom",
+   "asset": "06-terrace-bedroom",
+   "to": "bedroomMain",
+   "u": 0.314,
+   "v": 0.68,
+   "bearing": -14,
+   "pitch": -14.8,
+   "depth_cm": 160,
+   "height_cm": 119,
+   "hit_cm": [
+    882,
+    1468
+   ],
+   "what": "glass facade-5",
+   "ok": true,
+   "source": "the visible floor toward the target camera (the hand via and its opening are hidden)"
+  },
+  {
+   "scene": "bedroomMain",
+   "asset": "07-bedroom-main",
+   "to": "wardrobe",
+   "u": 0.96,
+   "v": 0.68,
+   "bearing": 295,
+   "pitch": -14.8,
+   "depth_cm": 433,
+   "height_cm": 49,
+   "hit_cm": [
+    459,
+    1122
+   ],
+   "what": "opening o-6",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (CG depth) to opening o-6"
+  },
+  {
+   "scene": "bedroomMain",
+   "asset": "07-bedroom-main",
+   "to": "terraceBedroom",
+   "u": 0.419,
+   "v": 0.68,
+   "bearing": 100,
+   "pitch": -14.8,
+   "depth_cm": 300,
+   "height_cm": 83,
+   "hit_cm": [
+    1126,
+    1346
+   ],
+   "what": "glass railing-7",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "living",
+   "u": 0.462,
+   "v": 0.65,
+   "bearing": 317,
+   "pitch": -13.8,
+   "depth_cm": 383,
+   "height_cm": 69,
+   "hit_cm": [
+    240,
+    939
+   ],
+   "what": "opening o-1",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (CG depth) to opening o-1"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "bedroomMain",
+   "u": 0.847,
+   "v": 0.68,
+   "bearing": 456,
+   "pitch": -14.8,
+   "depth_cm": 624,
+   "height_cm": 1,
+   "hit_cm": [
+    1092,
+    1275
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (CG depth) to floor"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "bathMain",
+   "u": 0.261,
+   "v": 0.68,
+   "bearing": 245,
+   "pitch": -14.8,
+   "depth_cm": 106,
+   "height_cm": 133,
+   "hit_cm": [
+    399,
+    1256
+   ],
+   "what": "opening o-9",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (CG depth) to opening o-9"
+  },
+  {
+   "scene": "bathMain",
+   "asset": "09-bath-main",
+   "to": "wardrobe",
+   "u": 0.143,
+   "v": 0.68,
+   "bearing": 115,
+   "pitch": -14.8,
+   "depth_cm": 96,
+   "height_cm": 135,
+   "hit_cm": [
+    395,
+    1296
+   ],
+   "what": "opening o-9",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "bedroom2",
+   "asset": "10-bedroom-2",
+   "to": "entrance",
+   "u": 0.956,
+   "v": 0.68,
+   "bearing": 202,
+   "pitch": -14.8,
+   "depth_cm": 120,
+   "height_cm": 129,
+   "hit_cm": [
+    585,
+    528
+   ],
+   "what": "opening o-10",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "bathGuest",
+   "asset": "11-bath-guest",
+   "to": "entrance",
+   "u": 0.424,
+   "v": 0.68,
+   "bearing": 112,
+   "pitch": -14.8,
+   "depth_cm": 69,
+   "height_cm": 142,
+   "hit_cm": [
+    480,
+    601
+   ],
+   "what": "opening o-11",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  }
+ ]
+}

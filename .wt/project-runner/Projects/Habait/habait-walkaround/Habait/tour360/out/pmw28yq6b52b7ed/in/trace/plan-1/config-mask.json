@@ -1,0 +1,226 @@
+{
+ "open_radius_px": 5,
+ "simplify_cm": 3,
+ "door_dilate_px": 5,
+ "cut_px": 8,
+ "near_wall_px": 16,
+ "dimension_min_cm": 100,
+ "straight_density_max": 4.5,
+ "opening_min_cm": 60,
+ "apartment_id": "pmw28yq6b52b7ed",
+ "cameras_json": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\cameras.json",
+ "eye_cm": 160,
+ "ceiling_height_cm": 290,
+ "floor_height_cm": 0,
+ "floor_height_note": "unknown: the sales plan has no section",
+ "roofed_outdoor": false,
+ "fixtures": [],
+ "source_file": "brochure.pdf page 7 (קומה א')",
+ "trace_date": "2026-11-05",
+ "scale_basis": "1.3814 px/cm: guessed from 6 room boxes vs printed dims, then fitted",
+ "rights_state": "developer-uploaded",
+ "rights_note": "uploaded by the developer through the Habait Studio portal",
+ "assumptions": [
+  "ceiling 290 cm, door heads 215 cm (no section on the sales plan)",
+  "outdoor rooms unroofed unless the plan shows a floor-above line (follow the sales plan)",
+  "open-plan zone boundaries: auto-trace geodesic split between the printed room labels"
+ ],
+ "stroke_ignore_boxes": [
+  [
+   416.8814246416679,
+   386.89590270739836,
+   716.8814246416679,
+   686.8959027073984
+  ],
+  [
+   127.92239756768498,
+   701.5100622556827,
+   427.922397567685,
+   1001.5100622556827
+  ]
+ ],
+ "double_ignore_boxes": [
+  [
+   416.8814246416679,
+   386.89590270739836,
+   716.8814246416679,
+   686.8959027073984
+  ],
+  [
+   127.92239756768498,
+   701.5100622556827,
+   427.922397567685,
+   1001.5100622556827
+  ]
+ ],
+ "cameras": [
+  {
+   "id": "bedroom",
+   "room_id": "r-bedroom",
+   "name_he": "חדר שינה",
+   "name_en": "bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "at_cm": [
+    218.2242652381642,
+    246.2197770377878
+   ],
+   "links": [
+    "bedroom-2",
+    "laundry",
+    "bathroom",
+    "bathroom-2",
+    "master-bedroom",
+    "patio"
+   ],
+   "printed_dims_cm": [
+    280,
+    330
+   ]
+  },
+  {
+   "id": "bedroom-2",
+   "room_id": "r-bedroom-2",
+   "name_he": "חדר שינה",
+   "name_en": "bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "at_cm": [
+    591.4630085420588,
+    246.2197770377878
+   ],
+   "links": [
+    "bedroom",
+    "laundry",
+    "bathroom",
+    "bathroom-2",
+    "master-bedroom",
+    "patio"
+   ],
+   "printed_dims_cm": [
+    300,
+    330
+   ]
+  },
+  {
+   "id": "laundry",
+   "room_id": "r-laundry",
+   "name_he": "חדר כביסה",
+   "name_en": "laundry",
+   "type": "storage",
+   "is_outdoor": false,
+   "at_cm": [
+    249.32749384682208,
+    458.2423628203272
+   ],
+   "links": [
+    "bedroom",
+    "bedroom-2",
+    "bathroom",
+    "bathroom-2",
+    "master-bedroom",
+    "patio"
+   ],
+   "printed_dims_cm": [
+    170,
+    125
+   ]
+  },
+  {
+   "id": "bathroom",
+   "room_id": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "at_cm": [
+    566.8814246416679,
+    536.8959027073984
+   ],
+   "links": [
+    "bedroom",
+    "bedroom-2",
+    "laundry",
+    "bathroom-2",
+    "master-bedroom",
+    "patio"
+   ],
+   "hull": true,
+   "printed_dims_cm": [
+    190,
+    275
+   ]
+  },
+  {
+   "id": "bathroom-2",
+   "room_id": "r-bathroom-2",
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "at_cm": [
+    277.922397567685,
+    851.5100622556827
+   ],
+   "links": [
+    "bedroom",
+    "bedroom-2",
+    "laundry",
+    "bathroom",
+    "master-bedroom",
+    "patio"
+   ],
+   "hull": true,
+   "printed_dims_cm": [
+    270,
+    145
+   ]
+  },
+  {
+   "id": "master-bedroom",
+   "room_id": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "name_en": "master bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "at_cm": [
+    394.8103373389315,
+    1088.325611698277
+   ],
+   "links": [
+    "bedroom",
+    "bedroom-2",
+    "laundry",
+    "bathroom",
+    "bathroom-2",
+    "patio"
+   ],
+   "printed_dims_cm": [
+    390,
+    345
+   ]
+  },
+  {
+   "id": "patio",
+   "room_id": "r-patio",
+   "name_he": "פטיו בקומת קרקע",
+   "name_en": "patio",
+   "type": "balcony",
+   "is_outdoor": true,
+   "at_cm": [
+    791.12566961054,
+    1015.6565802808743
+   ],
+   "links": [
+    "bedroom",
+    "bedroom-2",
+    "laundry",
+    "bathroom",
+    "bathroom-2",
+    "master-bedroom"
+   ]
+  }
+ ],
+ "dump_barrier_png": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\barrier.png",
+ "dump_barrier_only": true
+}

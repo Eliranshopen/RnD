@@ -1,0 +1,769 @@
+{
+ "$schema": "tour360/consistency-recheck.v1",
+ "group": "kitchen",
+ "run": {
+  "id": "k-counter",
+  "d": [
+   -0.5977071973596004,
+   0.8017144792409151
+  ],
+  "o": [
+   618.05,
+   673.55
+  ]
+ },
+ "expect": {
+  "upper_cabinets": {
+   "want": [
+    "no"
+   ],
+   "source": "the furnished plan's fixture_hints uppers (shelves, false)"
+  },
+  "shelves_open": {
+   "want": [
+    "yes"
+   ],
+   "source": "the furnished plan's fixture_hints uppers = \"shelves\""
+  },
+  "tall_type": {
+   "want": [
+    "fridge"
+   ],
+   "source": "the plan's tall_unit tall_type = fridge (parity row 23)"
+  },
+  "backsplash": {
+   "want": [
+    "stainless"
+   ],
+   "source": "material-board.json kitchen: a brushed stainless-steel function-wall splashback; plan k-counter words_en"
+  },
+  "tall_front": {
+   "want": [
+    "same_as_run"
+   ],
+   "source": "material-board.json fixture_words.tall_unit_fridge: behind the SAME handleless matte sand-grey lacquer fronts as the run"
+  },
+  "oven_visible": {
+   "want": [
+    "yes"
+   ],
+   "source": "Eliran's ruling 2026-11-06: the oven is built in under the hob (plan k-tall tall_type_source)"
+  },
+  "oven_where": {
+   "want": [
+    "under_hob"
+   ],
+   "source": "Eliran's ruling 2026-11-06: the oven is built in under the hob"
+  }
+ },
+ "spacing_rule": {
+  "pairs": [
+   [
+    "sink",
+    "tall"
+   ],
+   [
+    "hob",
+    "sink"
+   ]
+  ],
+  "tol_cm": 30,
+  "grazing_deg": 20,
+  "note": "x → bearing → the ray meets the run line (the sink's counter, its longest edge) through the fixture's plan point; the along-run gap between two fixtures vs the plan's. Hand measurement noise on the 2026-11-06 kitchen views was about ±15-20 cm, hence ±30. A ray within 20° of the run line is skipped."
+ },
+ "rows": [
+  {
+   "row": 249,
+   "at": "2026-11-06T09:26:18.024Z",
+   "cached_verdict": "PASS",
+   "recheck_verdict": "UNREADABLE",
+   "pictures": [
+    "_local\\generated\\01-entrance__seam3__s7__b9673fc3c010.png",
+    "_local\\generated\\02-kitchen__seam3__s7__dfeeee8ac056.png",
+    "_local\\generated\\03-dining__seam3__s7__61bde65cbf87.png",
+    "_local\\generated\\04-living__seam3__s7__cb468dab033a.png",
+    "_local\\generated\\06-terrace-bedroom__gpt25__s12__e86fbdc9173a.png"
+   ],
+   "misplaced": [],
+   "spacing": {
+    "fails": [
+     "view 2 (02-kitchen) hob↔sink 183 cm along the run, the plan has 219 cm (-35 cm, ±30)",
+     "view 3 (03-dining) hob↔sink 171 cm along the run, the plan has 219 cm (-48 cm, ±30)",
+     "view 4 (04-living) hob↔sink 114 cm along the run, the plan has 219 cm (-105 cm, ±30)"
+    ],
+    "rows": [
+     {
+      "view": 2,
+      "asset": "02-kitchen",
+      "pair": "sink-tall",
+      "got_cm": 110,
+      "plan_cm": 126,
+      "off_cm": -16
+     },
+     {
+      "view": 2,
+      "asset": "02-kitchen",
+      "pair": "hob-sink",
+      "got_cm": 183,
+      "plan_cm": 219,
+      "off_cm": -35
+     },
+     {
+      "view": 3,
+      "asset": "03-dining",
+      "pair": "sink-tall",
+      "got_cm": 143,
+      "plan_cm": 126,
+      "off_cm": 18
+     },
+     {
+      "view": 3,
+      "asset": "03-dining",
+      "pair": "hob-sink",
+      "got_cm": 171,
+      "plan_cm": 219,
+      "off_cm": -48
+     },
+     {
+      "view": 4,
+      "asset": "04-living",
+      "pair": "sink-tall",
+      "got_cm": 110,
+      "plan_cm": 126,
+      "off_cm": -15
+     },
+     {
+      "view": 4,
+      "asset": "04-living",
+      "pair": "hob-sink",
+      "got_cm": 114,
+      "plan_cm": 219,
+      "off_cm": -105
+     }
+    ]
+   },
+   "checklist": {
+    "fails": [],
+    "missing": [
+     "view 1 (01-entrance) upper_cabinets",
+     "view 2 (02-kitchen) upper_cabinets",
+     "view 3 (03-dining) upper_cabinets",
+     "view 4 (04-living) upper_cabinets",
+     "view 1 (01-entrance) shelves_open",
+     "view 2 (02-kitchen) shelves_open",
+     "view 3 (03-dining) shelves_open",
+     "view 4 (04-living) shelves_open",
+     "view 1 (01-entrance) shelves_shape",
+     "view 2 (02-kitchen) shelves_shape",
+     "view 3 (03-dining) shelves_shape",
+     "view 4 (04-living) shelves_shape",
+     "view 1 (01-entrance) backsplash",
+     "view 2 (02-kitchen) backsplash",
+     "view 3 (03-dining) backsplash",
+     "view 4 (04-living) backsplash",
+     "view 1 (01-entrance) tall_type",
+     "view 2 (02-kitchen) tall_type",
+     "view 3 (03-dining) tall_type",
+     "view 4 (04-living) tall_type",
+     "view 1 (01-entrance) tall_front",
+     "view 2 (02-kitchen) tall_front",
+     "view 3 (03-dining) tall_front",
+     "view 4 (04-living) tall_front",
+     "view 1 (01-entrance) oven_visible",
+     "view 2 (02-kitchen) oven_visible",
+     "view 3 (03-dining) oven_visible",
+     "view 4 (04-living) oven_visible",
+     "view 1 (01-entrance) oven_where",
+     "view 2 (02-kitchen) oven_where",
+     "view 3 (03-dining) oven_where",
+     "view 4 (04-living) oven_where",
+     "view 1 (01-entrance) sink_fridge_gap_units",
+     "view 2 (02-kitchen) sink_fridge_gap_units",
+     "view 3 (03-dining) sink_fridge_gap_units",
+     "view 4 (04-living) sink_fridge_gap_units"
+    ],
+    "table": {
+     "upper_cabinets": {},
+     "shelves_open": {},
+     "shelves_shape": {},
+     "backsplash": {},
+     "tall_type": {},
+     "tall_front": {},
+     "oven_visible": {},
+     "oven_where": {},
+     "sink_fridge_gap_units": {}
+    }
+   },
+   "per_view": [
+    {
+     "view": 1,
+     "visible": true,
+     "material": "lacquered panel",
+     "colour": "greige",
+     "shape": "tall rectangular column",
+     "position_note": "tall unit framing kitchen opening on left",
+     "hob_x": null,
+     "sink_x": null,
+     "tall_x": 550,
+     "tall_is": "fridge",
+     "tall_bearing": 65,
+     "tall_plan_bearing": 73,
+     "tall_off_deg": 8,
+     "tall_along_off_cm": -93
+    },
+    {
+     "view": 2,
+     "visible": true,
+     "material": "lacquered base cabinets, stainless steel top",
+     "colour": "greige and metallic silver",
+     "shape": "linear curved run with tall end column and steel shelves",
+     "position_note": "along main kitchen wall",
+     "hob_x": 830,
+     "sink_x": 400,
+     "tall_x": 240,
+     "tall_is": "fridge",
+     "hob_bearing": 341,
+     "hob_plan_bearing": 340,
+     "hob_off_deg": 1,
+     "sink_bearing": 273,
+     "sink_plan_bearing": 263,
+     "sink_off_deg": 10,
+     "tall_bearing": 250,
+     "tall_plan_bearing": 244,
+     "tall_off_deg": 6,
+     "hob_along_off_cm": -2,
+     "sink_along_off_cm": -38,
+     "tall_along_off_cm": -54,
+     "sink_tall_gap_cm": 110,
+     "hob_sink_gap_cm": 183
+    },
+    {
+     "view": 3,
+     "visible": true,
+     "material": "lacquered base cabinets, stainless steel top",
+     "colour": "greige and metallic silver",
+     "shape": "L-shaped kitchen run with tall column",
+     "position_note": "along rear wall and window side",
+     "hob_x": 540,
+     "sink_x": 400,
+     "tall_x": 210,
+     "tall_is": "fridge",
+     "hob_bearing": 341,
+     "hob_plan_bearing": 346,
+     "hob_off_deg": 5,
+     "sink_bearing": 314,
+     "sink_plan_bearing": 313,
+     "sink_off_deg": 1,
+     "tall_bearing": 288,
+     "tall_plan_bearing": 290,
+     "tall_off_deg": 2,
+     "hob_along_off_cm": 41,
+     "sink_along_off_cm": -7,
+     "tall_along_off_cm": 11,
+     "sink_tall_gap_cm": 143,
+     "hob_sink_gap_cm": 171
+    },
+    {
+     "view": 4,
+     "visible": true,
+     "material": "lacquered base cabinets, stainless steel top",
+     "colour": "greige and metallic silver",
+     "shape": "L-shaped kitchen run with tall column",
+     "position_note": "along left wall extending to window",
+     "hob_x": 460,
+     "sink_x": 385,
+     "tall_x": 250,
+     "tall_is": "fridge",
+     "hob_bearing": 8,
+     "hob_plan_bearing": 15,
+     "hob_off_deg": 7,
+     "sink_bearing": 358,
+     "sink_plan_bearing": 2,
+     "sink_off_deg": 4,
+     "tall_bearing": 342,
+     "tall_plan_bearing": 346,
+     "tall_off_deg": 4,
+     "hob_along_off_cm": 143,
+     "sink_along_off_cm": 38,
+     "tall_along_off_cm": 23,
+     "sink_tall_gap_cm": 110,
+     "hob_sink_gap_cm": 114
+    },
+    {
+     "view": 5,
+     "visible": false,
+     "material": "not visible",
+     "colour": "not visible",
+     "shape": "not visible",
+     "position_note": "obscured by exterior glazed door mullions and curtains",
+     "hob_x": null,
+     "sink_x": null,
+     "tall_x": null,
+     "tall_is": "not_visible"
+    }
+   ]
+  },
+  {
+   "row": 250,
+   "at": "2026-11-06T09:26:33.280Z",
+   "cached_verdict": "PASS",
+   "recheck_verdict": "UNREADABLE",
+   "pictures": [
+    "_local\\generated\\01-entrance__seam3__s7__b9673fc3c010.png",
+    "_local\\generated\\02-kitchen__seam3__s7__dfeeee8ac056.png",
+    "_local\\generated\\03-dining__seam3__s7__61bde65cbf87.png",
+    "_local\\generated\\04-living__seam3__s7__cb468dab033a.png",
+    "_local\\generated\\06-terrace-bedroom__gpt25__s12__e86fbdc9173a.png"
+   ],
+   "misplaced": [],
+   "spacing": {
+    "fails": [
+     "view 2 (02-kitchen) hob↔sink 188 cm along the run, the plan has 219 cm (-31 cm, ±30)",
+     "view 3 (03-dining) hob↔sink 173 cm along the run, the plan has 219 cm (-45 cm, ±30)",
+     "view 4 (04-living) hob↔sink 114 cm along the run, the plan has 219 cm (-105 cm, ±30)"
+    ],
+    "rows": [
+     {
+      "view": 2,
+      "asset": "02-kitchen",
+      "pair": "sink-tall",
+      "got_cm": 98,
+      "plan_cm": 126,
+      "off_cm": -27
+     },
+     {
+      "view": 2,
+      "asset": "02-kitchen",
+      "pair": "hob-sink",
+      "got_cm": 188,
+      "plan_cm": 219,
+      "off_cm": -31
+     },
+     {
+      "view": 3,
+      "asset": "03-dining",
+      "pair": "sink-tall",
+      "got_cm": 136,
+      "plan_cm": 126,
+      "off_cm": 10
+     },
+     {
+      "view": 3,
+      "asset": "03-dining",
+      "pair": "hob-sink",
+      "got_cm": 173,
+      "plan_cm": 219,
+      "off_cm": -45
+     },
+     {
+      "view": 4,
+      "asset": "04-living",
+      "pair": "sink-tall",
+      "got_cm": 116,
+      "plan_cm": 126,
+      "off_cm": -10
+     },
+     {
+      "view": 4,
+      "asset": "04-living",
+      "pair": "hob-sink",
+      "got_cm": 114,
+      "plan_cm": 219,
+      "off_cm": -105
+     }
+    ]
+   },
+   "checklist": {
+    "fails": [],
+    "missing": [
+     "view 1 (01-entrance) upper_cabinets",
+     "view 2 (02-kitchen) upper_cabinets",
+     "view 3 (03-dining) upper_cabinets",
+     "view 4 (04-living) upper_cabinets",
+     "view 1 (01-entrance) shelves_open",
+     "view 2 (02-kitchen) shelves_open",
+     "view 3 (03-dining) shelves_open",
+     "view 4 (04-living) shelves_open",
+     "view 1 (01-entrance) shelves_shape",
+     "view 2 (02-kitchen) shelves_shape",
+     "view 3 (03-dining) shelves_shape",
+     "view 4 (04-living) shelves_shape",
+     "view 1 (01-entrance) backsplash",
+     "view 2 (02-kitchen) backsplash",
+     "view 3 (03-dining) backsplash",
+     "view 4 (04-living) backsplash",
+     "view 1 (01-entrance) tall_type",
+     "view 2 (02-kitchen) tall_type",
+     "view 3 (03-dining) tall_type",
+     "view 4 (04-living) tall_type",
+     "view 1 (01-entrance) tall_front",
+     "view 2 (02-kitchen) tall_front",
+     "view 3 (03-dining) tall_front",
+     "view 4 (04-living) tall_front",
+     "view 1 (01-entrance) oven_visible",
+     "view 2 (02-kitchen) oven_visible",
+     "view 3 (03-dining) oven_visible",
+     "view 4 (04-living) oven_visible",
+     "view 1 (01-entrance) oven_where",
+     "view 2 (02-kitchen) oven_where",
+     "view 3 (03-dining) oven_where",
+     "view 4 (04-living) oven_where",
+     "view 1 (01-entrance) sink_fridge_gap_units",
+     "view 2 (02-kitchen) sink_fridge_gap_units",
+     "view 3 (03-dining) sink_fridge_gap_units",
+     "view 4 (04-living) sink_fridge_gap_units"
+    ],
+    "table": {
+     "upper_cabinets": {},
+     "shelves_open": {},
+     "shelves_shape": {},
+     "backsplash": {},
+     "tall_type": {},
+     "tall_front": {},
+     "oven_visible": {},
+     "oven_where": {},
+     "sink_fridge_gap_units": {}
+    }
+   },
+   "per_view": [
+    {
+     "view": 1,
+     "visible": true,
+     "material": "matte lacquer",
+     "colour": "beige",
+     "shape": "tall column",
+     "position_note": "beside opening leading to kitchen",
+     "hob_x": null,
+     "sink_x": null,
+     "tall_x": 550,
+     "tall_is": "fridge",
+     "tall_bearing": 65,
+     "tall_plan_bearing": 73,
+     "tall_off_deg": 8,
+     "tall_along_off_cm": -93
+    },
+    {
+     "view": 2,
+     "visible": true,
+     "material": "matte lacquer, stainless steel",
+     "colour": "beige and silver",
+     "shape": "linear base counter with tall unit and shelves",
+     "position_note": "along main kitchen wall",
+     "hob_x": 835,
+     "sink_x": 395,
+     "tall_x": 250,
+     "tall_is": "fridge",
+     "hob_bearing": 341,
+     "hob_plan_bearing": 340,
+     "hob_off_deg": 1,
+     "sink_bearing": 272,
+     "sink_plan_bearing": 263,
+     "sink_off_deg": 9,
+     "tall_bearing": 251,
+     "tall_plan_bearing": 244,
+     "tall_off_deg": 7,
+     "hob_along_off_cm": -4,
+     "sink_along_off_cm": -35,
+     "tall_along_off_cm": -62,
+     "sink_tall_gap_cm": 98,
+     "hob_sink_gap_cm": 188
+    },
+    {
+     "view": 3,
+     "visible": true,
+     "material": "matte lacquer, stainless steel",
+     "colour": "beige and silver",
+     "shape": "L-shaped base counter with tall unit and shelves",
+     "position_note": "along rear wall returning at window",
+     "hob_x": 545,
+     "sink_x": 405,
+     "tall_x": 230,
+     "tall_is": "fridge",
+     "hob_bearing": 342,
+     "hob_plan_bearing": 346,
+     "hob_off_deg": 4,
+     "sink_bearing": 315,
+     "sink_plan_bearing": 313,
+     "sink_off_deg": 2,
+     "tall_bearing": 290,
+     "tall_plan_bearing": 290,
+     "tall_off_deg": 0,
+     "hob_along_off_cm": 33,
+     "sink_along_off_cm": -12,
+     "tall_along_off_cm": -1,
+     "sink_tall_gap_cm": 136,
+     "hob_sink_gap_cm": 173
+    },
+    {
+     "view": 4,
+     "visible": true,
+     "material": "matte lacquer, stainless steel",
+     "colour": "beige and silver",
+     "shape": "L-shaped base counter with tall unit and shelves",
+     "position_note": "along rear wall returning at window",
+     "hob_x": 460,
+     "sink_x": 385,
+     "tall_x": 240,
+     "tall_is": "fridge",
+     "hob_bearing": 8,
+     "hob_plan_bearing": 15,
+     "hob_off_deg": 7,
+     "sink_bearing": 358,
+     "sink_plan_bearing": 2,
+     "sink_off_deg": 4,
+     "tall_bearing": 341,
+     "tall_plan_bearing": 346,
+     "tall_off_deg": 5,
+     "hob_along_off_cm": 143,
+     "sink_along_off_cm": 38,
+     "tall_along_off_cm": 28,
+     "sink_tall_gap_cm": 116,
+     "hob_sink_gap_cm": 114
+    },
+    {
+     "view": 5,
+     "visible": false,
+     "material": "not visible",
+     "colour": "not visible",
+     "shape": "not visible",
+     "position_note": "obscured by terrace glass reflections and furniture",
+     "hob_x": null,
+     "sink_x": null,
+     "tall_x": null,
+     "tall_is": "not_visible"
+    }
+   ]
+  },
+  {
+   "row": 251,
+   "at": "2026-11-06T09:26:46.753Z",
+   "cached_verdict": "PASS",
+   "recheck_verdict": "UNREADABLE",
+   "pictures": [
+    "_local\\generated\\01-entrance__seam3__s7__b9673fc3c010.png",
+    "_local\\generated\\02-kitchen__seam3__s7__dfeeee8ac056.png",
+    "_local\\generated\\03-dining__seam3__s7__61bde65cbf87.png",
+    "_local\\generated\\04-living__seam3__s7__cb468dab033a.png",
+    "_local\\generated\\06-terrace-bedroom__gpt25__s12__e86fbdc9173a.png"
+   ],
+   "misplaced": [],
+   "spacing": {
+    "fails": [
+     "view 2 (02-kitchen) hob↔sink 183 cm along the run, the plan has 219 cm (-35 cm, ±30)",
+     "view 3 (03-dining) hob↔sink 171 cm along the run, the plan has 219 cm (-48 cm, ±30)",
+     "view 4 (04-living) hob↔sink 125 cm along the run, the plan has 219 cm (-94 cm, ±30)"
+    ],
+    "rows": [
+     {
+      "view": 2,
+      "asset": "02-kitchen",
+      "pair": "sink-tall",
+      "got_cm": 118,
+      "plan_cm": 126,
+      "off_cm": -7
+     },
+     {
+      "view": 2,
+      "asset": "02-kitchen",
+      "pair": "hob-sink",
+      "got_cm": 183,
+      "plan_cm": 219,
+      "off_cm": -35
+     },
+     {
+      "view": 3,
+      "asset": "03-dining",
+      "pair": "sink-tall",
+      "got_cm": 140,
+      "plan_cm": 126,
+      "off_cm": 15
+     },
+     {
+      "view": 3,
+      "asset": "03-dining",
+      "pair": "hob-sink",
+      "got_cm": 171,
+      "plan_cm": 219,
+      "off_cm": -48
+     },
+     {
+      "view": 4,
+      "asset": "04-living",
+      "pair": "sink-tall",
+      "got_cm": 104,
+      "plan_cm": 126,
+      "off_cm": -21
+     },
+     {
+      "view": 4,
+      "asset": "04-living",
+      "pair": "hob-sink",
+      "got_cm": 125,
+      "plan_cm": 219,
+      "off_cm": -94
+     }
+    ]
+   },
+   "checklist": {
+    "fails": [],
+    "missing": [
+     "view 1 (01-entrance) upper_cabinets",
+     "view 2 (02-kitchen) upper_cabinets",
+     "view 3 (03-dining) upper_cabinets",
+     "view 4 (04-living) upper_cabinets",
+     "view 1 (01-entrance) shelves_open",
+     "view 2 (02-kitchen) shelves_open",
+     "view 3 (03-dining) shelves_open",
+     "view 4 (04-living) shelves_open",
+     "view 1 (01-entrance) shelves_shape",
+     "view 2 (02-kitchen) shelves_shape",
+     "view 3 (03-dining) shelves_shape",
+     "view 4 (04-living) shelves_shape",
+     "view 1 (01-entrance) backsplash",
+     "view 2 (02-kitchen) backsplash",
+     "view 3 (03-dining) backsplash",
+     "view 4 (04-living) backsplash",
+     "view 1 (01-entrance) tall_type",
+     "view 2 (02-kitchen) tall_type",
+     "view 3 (03-dining) tall_type",
+     "view 4 (04-living) tall_type",
+     "view 1 (01-entrance) tall_front",
+     "view 2 (02-kitchen) tall_front",
+     "view 3 (03-dining) tall_front",
+     "view 4 (04-living) tall_front",
+     "view 1 (01-entrance) oven_visible",
+     "view 2 (02-kitchen) oven_visible",
+     "view 3 (03-dining) oven_visible",
+     "view 4 (04-living) oven_visible",
+     "view 1 (01-entrance) oven_where",
+     "view 2 (02-kitchen) oven_where",
+     "view 3 (03-dining) oven_where",
+     "view 4 (04-living) oven_where",
+     "view 1 (01-entrance) sink_fridge_gap_units",
+     "view 2 (02-kitchen) sink_fridge_gap_units",
+     "view 3 (03-dining) sink_fridge_gap_units",
+     "view 4 (04-living) sink_fridge_gap_units"
+    ],
+    "table": {
+     "upper_cabinets": {},
+     "shelves_open": {},
+     "shelves_shape": {},
+     "backsplash": {},
+     "tall_type": {},
+     "tall_front": {},
+     "oven_visible": {},
+     "oven_where": {},
+     "sink_fridge_gap_units": {}
+    }
+   },
+   "per_view": [
+    {
+     "view": 1,
+     "visible": true,
+     "material": "taupe laminate / lacquer",
+     "colour": "taupe / light beige",
+     "shape": "tall integrated cabinet unit",
+     "position_note": "tall unit seen in foreground beside entry opening",
+     "hob_x": null,
+     "sink_x": null,
+     "tall_x": 550,
+     "tall_is": "fridge",
+     "tall_bearing": 65,
+     "tall_plan_bearing": 73,
+     "tall_off_deg": 8,
+     "tall_along_off_cm": -93
+    },
+    {
+     "view": 2,
+     "visible": true,
+     "material": "taupe lacquer and stainless steel",
+     "colour": "taupe and silver",
+     "shape": "linear counter with tall column and wall shelves",
+     "position_note": "along back kitchen wall",
+     "hob_x": 830,
+     "sink_x": 400,
+     "tall_x": 230,
+     "tall_is": "fridge",
+     "hob_bearing": 341,
+     "hob_plan_bearing": 340,
+     "hob_off_deg": 1,
+     "sink_bearing": 273,
+     "sink_plan_bearing": 263,
+     "sink_off_deg": 10,
+     "tall_bearing": 249,
+     "tall_plan_bearing": 244,
+     "tall_off_deg": 5,
+     "hob_along_off_cm": -2,
+     "sink_along_off_cm": -38,
+     "tall_along_off_cm": -45,
+     "sink_tall_gap_cm": 118,
+     "hob_sink_gap_cm": 183
+    },
+    {
+     "view": 3,
+     "visible": true,
+     "material": "taupe cabinetry and stainless steel",
+     "colour": "taupe and silver",
+     "shape": "L-shaped counter with tall column on left",
+     "position_note": "along kitchen wall extending toward window",
+     "hob_x": 540,
+     "sink_x": 400,
+     "tall_x": 215,
+     "tall_is": "fridge",
+     "hob_bearing": 341,
+     "hob_plan_bearing": 346,
+     "hob_off_deg": 5,
+     "sink_bearing": 314,
+     "sink_plan_bearing": 313,
+     "sink_off_deg": 1,
+     "tall_bearing": 288,
+     "tall_plan_bearing": 290,
+     "tall_off_deg": 1,
+     "hob_along_off_cm": 41,
+     "sink_along_off_cm": -7,
+     "tall_along_off_cm": 8,
+     "sink_tall_gap_cm": 140,
+     "hob_sink_gap_cm": 171
+    },
+    {
+     "view": 4,
+     "visible": true,
+     "material": "taupe cabinetry and stainless steel",
+     "colour": "taupe and silver",
+     "shape": "L-shaped counter with tall column on left",
+     "position_note": "along kitchen wall behind dining area",
+     "hob_x": 460,
+     "sink_x": 375,
+     "tall_x": 240,
+     "tall_is": "fridge",
+     "hob_bearing": 8,
+     "hob_plan_bearing": 15,
+     "hob_off_deg": 7,
+     "sink_bearing": 356,
+     "sink_plan_bearing": 2,
+     "sink_off_deg": 5,
+     "tall_bearing": 341,
+     "tall_plan_bearing": 346,
+     "tall_off_deg": 5,
+     "hob_along_off_cm": 143,
+     "sink_along_off_cm": 49,
+     "tall_along_off_cm": 28,
+     "sink_tall_gap_cm": 104,
+     "hob_sink_gap_cm": 125
+    },
+    {
+     "view": 5,
+     "visible": false,
+     "material": "not visible",
+     "colour": "not visible",
+     "shape": "not visible",
+     "position_note": "occluded behind glass partition frames and reflections",
+     "hob_x": null,
+     "sink_x": null,
+     "tall_x": null,
+     "tall_is": "not_visible"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "tour360/catalog.v1",
+  "source": {
+    "retailer": "IKEA Israel",
+    "site": "https://www.ikea.com/il/he/",
+    "read_on": "2026-10-07",
+    "how": "one product page per item, read by hand on the date above; no crawl; the photo is the page's own main product image",
+    "licence": "reference-only for an internal prototype on the laptop host (D-T360-27, 2026-10-07); not for any public host until CATALOG-PLAN.md OQ-C1 is ruled"
+  },
+  "items": [
+    {
+      "id": "kivik-3",
+      "brand": "IKEA",
+      "name": "KIVIK",
+      "article": "494.405.97",
+      "category": "sofa",
+      "colour": "Tibbleby beige/grey",
+      "size_cm": {
+        "w": 228,
+        "d": 95,
+        "h": 83
+      },
+      "price": {
+        "ils": 2295,
+        "read_on": "2026-10-07"
+      },
+      "url": "https://www.ikea.com/il/he/p/kivik-3-seat-sofa-tibbleby-beige-grey-s49440597/",
+      "image": "kivik-3.jpg",
+      "view": "living",
+      "name_he": "KIVIK ספה תלת-מושבית",
+      "description_en": "a three-seat sofa with a low straight back, deep seats, wide flat armrests and a light beige-grey fabric cover, standing on short legs",
+      "image_sha256": "78b3cf773afd6d02da0eac2451faa365be618581e1d5ef64f62879fad785cb6b"
+    },
+    {
+      "id": "strandmon",
+      "brand": "IKEA",
+      "name": "STRANDMON",
+      "article": "004.946.38",
+      "category": "armchair",
+      "colour": "Grann/Bomstad dark brown",
+      "size_cm": {
+        "w": 82,
+        "d": 96,
+        "h": 101
+      },
+      "price": {
+        "ils": 1995,
+        "read_on": "2026-10-07"
+      },
+      "url": "https://www.ikea.com/il/he/p/strandmon-wing-chair-grann-bomstad-dark-brown-00494638/",
+      "image": "strandmon.jpg",
+      "view": "living",
+      "name_he": "STRANDMON כורסה",
+      "description_en": "a high-backed wing chair in dark brown leather-look upholstery, with a rounded winged back, flared armrests and short dark wooden legs",
+      "image_sha256": "d549ec0262f11f5e1d8a422a5ddf89cca967e635f7eb34d7c14fbf9cded215ea"
+    },
+    {
+      "id": "kragsta",
+      "brand": "IKEA",
+      "name": "KRAGSTA",
+      "article": "202.866.38",
+      "category": "coffee_table",
+      "colour": "white",
+      "size_cm": {
+        "w": 90,
+        "d": 90,
+        "h": 48
+      },
+      "price": {
+        "ils": 595,
+        "read_on": "2026-10-07"
+      },
+      "url": "https://www.ikea.com/il/he/p/kragsta-coffee-table-white-20286638/",
+      "image": "kragsta.jpg",
+      "view": "living",
+      "name_he": "KRAGSTA שולחן קפה",
+      "description_en": "a round white coffee table, 90 cm across, with a thin round top, a lower round shelf and four slim white legs",
+      "image_sha256": "b526560208f1793a21ffd0e24abb38db6f282a11a9f179ff8db7b91265602169"
+    },
+    {
+      "id": "skansnaes",
+      "brand": "IKEA",
+      "name": "SKANSNÄS",
+      "article": "005.657.58",
+      "category": "dining_table",
+      "colour": "brown beech veneer",
+      "size_cm": {
+        "w": 150,
+        "d": 90,
+        "h": 75
+      },
+      "price": {
+        "ils": 2995,
+        "read_on": "2026-10-07"
+      },
+      "url": "https://www.ikea.com/il/he/p/skansnaes-extendable-table-brown-beech-veneer-00565758/",
+      "image": "skansnaes.jpg",
+      "view": "dining",
+      "name_he": "SKANSNÄS שולחן נפתח",
+      "description_en": "a rectangular dining table in brown-stained beech veneer with softly rounded corners and four tapered round legs, 150 cm long and 90 cm wide",
+      "image_sha256": "93dd4dcfac5738741972924d75462e717f3718e8277039b95fc53bb7bbc41310"
+    },
+    {
+      "id": "odger",
+      "brand": "IKEA",
+      "name": "ODGER",
+      "article": "504.573.13",
+      "category": "chair",
+      "colour": "anthracite",
+      "size_cm": {
+        "w": 45,
+        "d": 51,
+        "h": 81
+      },
+      "price": {
+        "ils": 395,
+        "read_on": "2026-10-07"
+      },
+      "url": "https://www.ikea.com/il/he/p/odger-chair-anthracite-50457313/",
+      "image": "odger.jpg",
+      "view": "dining",
+      "name_he": "ODGER כיסא",
+      "description_en": "a dining chair with a dark anthracite moulded seat shell, a rounded backrest and four tapered wooden legs",
+      "image_sha256": "c9a1aedfece8e39a3481382193a12fffc39af0b6ba2600e1ba32f5580a678dcf"
+    }
+  ]
+}

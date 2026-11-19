@@ -1,0 +1,10 @@
+{
+ "asset": "05-family",
+ "tag": "win2",
+ "parent": "05-family__flat__win.png",
+ "yaw": 8,
+ "pitch": -10,
+ "hfov": 108,
+ "size": 1024,
+ "note": "the lower part of the window of the same answer (a second box)"
+}

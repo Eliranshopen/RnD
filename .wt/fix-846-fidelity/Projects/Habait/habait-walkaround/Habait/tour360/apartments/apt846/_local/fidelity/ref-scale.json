@@ -1,0 +1,1537 @@
+{
+ "rows": [
+  {
+   "at": "2026-11-06T08:04:23.583Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__e923e6ce05ee.png",
+   "object": "the cream L-shaped sectional sofa",
+   "band": {
+    "u0": 0.5547,
+    "u1": 0.8037,
+    "deg": 89.6
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.131,
+   "tolerance": 0.1,
+   "why": "apparent width 1.131x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      493,
+      281,
+      702,
+      506
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      525,
+      411,
+      639,
+      610
+     ]
+    },
+    "note": "cream L-shaped sectional sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__230c304dfe2b.jpg"
+  },
+  {
+   "at": "2026-11-06T08:04:42.191Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__4623b2a43a91.png",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.5547,
+    "u1": 0.8037,
+    "deg": 89.6
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.1,
+   "tolerance": 0.1,
+   "why": "apparent width 1.1x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      511,
+      406,
+      651,
+      626
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      526,
+      411,
+      640,
+      611
+     ]
+    },
+    "note": "cream sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__b3c58c88b9b9.jpg"
+  },
+  {
+   "at": "2026-11-06T08:05:08.004Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__8f1f0a48d93c.png",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.8984,
+    "u1": 0.11719999999999997,
+    "deg": 78.8
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.123,
+   "tolerance": 0.1,
+   "why": "apparent width 1.123x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      620,
+      0,
+      1000,
+      549
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      587,
+      110,
+      1000,
+      599
+     ]
+    },
+    "note": "the cream sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__0bedb164dc3d.jpg"
+  },
+  {
+   "at": "2026-11-06T08:05:13.812Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__26a092bffc5d.png",
+   "object": "the kitchen's tall column with the oven",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 0.88,
+   "tolerance": 0.1,
+   "why": "apparent width 0.88x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      78,
+      332,
+      663,
+      442
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      287,
+      344,
+      720,
+      469
+     ]
+    },
+    "note": "In the render, a tall metallic block/refrigerator placeholder is placed where the tall oven column cabinet stands in the photo."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__c81c5dbffe92.jpg"
+  },
+  {
+   "at": "2026-11-06T08:05:18.377Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__26a092bffc5d.png",
+   "object": "the kitchen counter run",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.165,
+   "tolerance": 0.1,
+   "why": "apparent width 1.165x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      451,
+      417,
+      642,
+      650
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      471,
+      463,
+      662,
+      663
+     ]
+    },
+    "note": "Kitchen base cabinet / counter run along the kitchen perimeter wall."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__80be22dd8b7e.jpg"
+  },
+  {
+   "at": "2026-11-06T08:05:24.229Z",
+   "asset": "08-wardrobe",
+   "picture": "08-wardrobe__seam__s7__067ab7558cd8.png",
+   "object": "the bed",
+   "band": {
+    "u0": 0.518,
+    "u1": 0.602,
+    "deg": 30.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.308,
+   "tolerance": 0.1,
+   "why": "apparent width 1.308x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      257,
+      280,
+      911,
+      968
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      578,
+      413,
+      1000,
+      939
+     ]
+    },
+    "note": "the bed"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__08-wardrobe__1a1727c30c35.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:04.620Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__13710eda0a4f.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.8013,
+    "u1": 0.9448,
+    "deg": 51.7
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.057,
+   "tolerance": 0.1,
+   "why": "apparent width 1.057x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      639,
+      270,
+      1000,
+      566
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      650,
+      240,
+      1000,
+      520
+     ]
+    },
+    "note": "the low wooden console/storage unit"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__816e0e7cb949.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:10.614Z",
+   "asset": "08-wardrobe",
+   "picture": "08-wardrobe__seam__s7__d084c4d42b57.png",
+   "object": "the bed",
+   "band": {
+    "u0": 0.518,
+    "u1": 0.602,
+    "deg": 30.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.249,
+   "tolerance": 0.1,
+   "why": "apparent width 1.249x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      257,
+      317,
+      891,
+      969
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      577,
+      414,
+      1000,
+      936
+     ]
+    },
+    "note": "the bed"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__08-wardrobe__ef20c3a1c0c4.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:15.185Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__4ac497b1c1bc.png",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.8984,
+    "u1": 0.11719999999999997,
+    "deg": 78.8
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.099,
+   "tolerance": 0.1,
+   "why": "apparent width 1.099x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      703,
+      0,
+      1000,
+      542
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      586,
+      106,
+      1000,
+      599
+     ]
+    },
+    "note": "the cream sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__de9d858b8197.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:21.291Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__26a092bffc5d.png",
+   "object": "the kitchen's tall column with the oven",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 0.883,
+   "tolerance": 0.1,
+   "why": "apparent width 0.883x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      78,
+      334,
+      666,
+      447
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      285,
+      341,
+      719,
+      469
+     ]
+    },
+    "note": "The built-in tall kitchen cabinet column containing the oven corresponds to the tall unit placeholder at the end of the counter in the render."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__c81c5dbffe92.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:44.607Z",
+   "asset": "10-bedroom-2",
+   "picture": "10-bedroom-2__gpt25__s13__a73d7dcbc983.png",
+   "object": "the bed",
+   "band": {
+    "u0": 0.05,
+    "u1": 0.3,
+    "deg": 90
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.105,
+   "tolerance": 0.1,
+   "why": "apparent width 1.105x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      578,
+      685,
+      1000,
+      1000
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      702,
+      715,
+      1000,
+      1000
+     ]
+    },
+    "note": null
+   },
+   "sheet": "_local\\fidelity\\ref-scale__10-bedroom-2__6ee73cc0c27e.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:48.962Z",
+   "asset": "07-bedroom-main",
+   "picture": "07-bedroom-main__seam__s7__fbd17cbb7b8c.png",
+   "object": "the bed",
+   "band": {
+    "u0": 0.05,
+    "u1": 0.3,
+    "deg": 90
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.156,
+   "tolerance": 0.1,
+   "why": "apparent width 1.156x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      502,
+      313,
+      999,
+      786
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      568,
+      330,
+      999,
+      739
+     ]
+    },
+    "note": "The bed is precisely localized in both the photo and the 3D render."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__07-bedroom-main__d25e75626d44.jpg"
+  },
+  {
+   "at": "2026-11-06T08:06:54.955Z",
+   "asset": "06-terrace-bedroom",
+   "picture": "06-terrace-bedroom__gpt25__s12__e86fbdc9173a.png",
+   "object": "the bed",
+   "band": {
+    "u0": 0.05,
+    "u1": 0.3,
+    "deg": 90
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.02,
+   "tolerance": 0.1,
+   "why": "apparent width 1.02x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      479,
+      437,
+      752,
+      590
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      525,
+      440,
+      764,
+      590
+     ]
+    }
+   },
+   "sheet": "_local\\fidelity\\ref-scale__06-terrace-bedroom__bd2c1370fb24.jpg"
+  },
+  {
+   "at": "2026-11-06T08:10:54.722Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__4623b2a43a91.png",
+   "class": "transplant",
+   "against": "02-kitchen__gpt25__s43__7e85af6b6146.png",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.6035,
+    "u1": 0.7896,
+    "deg": 67
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1,
+   "tolerance": 0.1,
+   "why": "apparent width 1x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      509,
+      373,
+      655,
+      590
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      507,
+      373,
+      655,
+      590
+     ]
+    },
+    "note": "the cream sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__16b255bc7772.jpg"
+  },
+  {
+   "at": "2026-11-06T08:11:04.238Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__13710eda0a4f.png",
+   "class": "transplant",
+   "against": "01-entrance__gpt25__s42__90f716f5035c.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.8013,
+    "u1": 0.9448,
+    "deg": 51.7
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.296,
+   "tolerance": 0.1,
+   "why": "apparent width 1.296x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      640,
+      270,
+      1000,
+      568
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      640,
+      270,
+      1000,
+      500
+     ]
+    },
+    "note": "the largest piece of furniture or built-in element in the middle of the image"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__ea0cdbd8ecb5.jpg"
+  },
+  {
+   "at": "2026-11-06T08:11:12.580Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__8f1f0a48d93c.png",
+   "class": "transplant",
+   "against": "03-dining__gpt25__s21__fcd49341ba36.png",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.8984,
+    "u1": 0.11719999999999997,
+    "deg": 78.8
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.97,
+   "tolerance": 0.1,
+   "why": "apparent width 0.97x the render's (tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      621,
+      0,
+      1000,
+      550
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      531,
+      0,
+      1000,
+      567
+     ]
+    },
+    "note": "the cream sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__00dfa976a9d3.jpg"
+  },
+  {
+   "at": "2026-11-06T08:11:36.727Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__13710eda0a4f.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the wooden console with open shelves",
+   "band": {
+    "u0": 0.8013,
+    "u1": 0.9448,
+    "deg": 51.7
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.057,
+   "tolerance": 0.25,
+   "why": "apparent width 1.057x the render's (tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      639,
+      271,
+      1000,
+      566
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      651,
+      240,
+      1000,
+      519
+     ]
+    },
+    "note": "the wooden console with open shelves"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__9f0ecfc5074d.jpg"
+  },
+  {
+   "at": "2026-11-06T08:12:06.995Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__4623b2a43a91.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.6035,
+    "u1": 0.7896,
+    "deg": 67
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.111,
+   "tolerance": 0.25,
+   "why": "apparent width 1.111x the render's (loose, tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      508,
+      370,
+      655,
+      591
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      530,
+      377,
+      633,
+      576
+     ]
+    },
+    "note": "The primary cream-colored sofa positioned centrally in the living room area facing the TV."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__24254b7c7901.jpg"
+  },
+  {
+   "at": "2026-11-06T08:12:13.793Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__13710eda0a4f.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the wooden console with open shelves",
+   "band": {
+    "u0": 0.8013,
+    "u1": 0.9448,
+    "deg": 51.7
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.053,
+   "tolerance": 0.25,
+   "why": "apparent width 1.053x the render's (loose, tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      641,
+      270,
+      1000,
+      567
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      651,
+      239,
+      1000,
+      521
+     ]
+    },
+    "note": null
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__9f0ecfc5074d.jpg"
+  },
+  {
+   "at": "2026-11-06T08:12:20.818Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__8f1f0a48d93c.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the cream sofa",
+   "band": {
+    "u0": 0.8984,
+    "u1": 0.11719999999999997,
+    "deg": 78.8
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.123,
+   "tolerance": 0.25,
+   "why": "apparent width 1.123x the render's (loose, tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      622,
+      0,
+      1000,
+      549
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      586,
+      110,
+      1000,
+      599
+     ]
+    },
+    "note": "the cream sofa"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__0bedb164dc3d.jpg"
+  },
+  {
+   "at": "2026-11-06T08:13:59.467Z",
+   "asset": "08-wardrobe",
+   "picture": "08-wardrobe__seam3__s7__9b3bde55ca93.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the bed",
+   "band": {
+    "u0": 0.518,
+    "u1": 0.602,
+    "deg": 30.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.202,
+   "tolerance": 0.25,
+   "why": "apparent width 1.202x the render's (loose, tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      328,
+      332,
+      1000,
+      970
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      580,
+      413,
+      1000,
+      944
+     ]
+    },
+    "note": "Bed with frame, mattress, bedding and headboard."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__08-wardrobe__3ae4693f40cc.jpg"
+  },
+  {
+   "at": "2026-11-06T08:15:14.423Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__2c6e238baef3.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the kitchen's tall column with the oven",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.056,
+   "tolerance": 0.15,
+   "why": "apparent width 1.056x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      221,
+      334,
+      661,
+      467
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      287,
+      343,
+      720,
+      469
+     ]
+    },
+    "note": "the kitchen tall cabinet/column containing the oven in the photo corresponds to the tall metal column unit in the render"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__c816a737d2b4.jpg"
+  },
+  {
+   "at": "2026-11-06T08:15:21.334Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__2c6e238baef3.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the kitchen counter run",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.944,
+   "tolerance": 0.15,
+   "why": "apparent width 0.944x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      447,
+      463,
+      599,
+      650
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      471,
+      465,
+      658,
+      663
+     ]
+    },
+    "note": "the kitchen counter run"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__50fba64a606a.jpg"
+  },
+  {
+   "at": "2026-11-06T08:26:30.072Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__b30bee9648e1.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the kitchen's tall column with the oven",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.937,
+   "tolerance": 0.15,
+   "why": "apparent width 0.937x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      259,
+      318,
+      656,
+      437
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      286,
+      342,
+      720,
+      469
+     ]
+    },
+    "note": "The tall kitchen cabinet containing the oven in the photo corresponds to the tall silver cabinet block in the render."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__7a5e05539c52.jpg"
+  },
+  {
+   "at": "2026-11-06T08:26:39.324Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__b30bee9648e1.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the kitchen counter run",
+   "band": {
+    "u0": 0.108,
+    "u1": 0.292,
+    "deg": 66.2
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 1.096,
+   "tolerance": 0.15,
+   "why": "apparent width 1.096x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      449,
+      434,
+      614,
+      651
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      471,
+      464,
+      661,
+      662
+     ]
+    },
+    "note": "the kitchen counter run"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__bd4313e525c8.jpg"
+  },
+  {
+   "at": "2026-11-06T08:49:00.691Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__bc2f78e974db.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall kitchen column (the fridge)",
+   "band": {
+    "u0": 0.7842,
+    "u1": 0.9398,
+    "deg": 56
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.165,
+   "tolerance": 0.15,
+   "why": "apparent width 1.165x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      442,
+      804,
+      597
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      263,
+      359,
+      725,
+      492
+     ]
+    },
+    "note": null
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__0f7e40e76609.jpg"
+  },
+  {
+   "at": "2026-11-06T08:50:18.061Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__dfeeee8ac056.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall kitchen column (the fridge)",
+   "band": {
+    "u0": 0.7309,
+    "u1": 0.9531,
+    "deg": 80
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.353,
+   "tolerance": 0.15,
+   "why": "apparent width 1.353x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      69,
+      479,
+      745,
+      617
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      308,
+      428,
+      678,
+      530
+     ]
+    },
+    "note": "tall kitchen column (integrated fridge unit) next to the kitchen counter"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__20dc92f7534d.jpg"
+  },
+  {
+   "at": "2026-11-06T08:50:41.518Z",
+   "asset": "02-kitchen",
+   "picture": "02-kitchen__seam3__s7__dfeeee8ac056.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall full-height fridge column beside the sink run: box its whole visible width from its left edge to where the counter run begins",
+   "band": {
+    "u0": 0.7864,
+    "u1": 0.8976,
+    "deg": 40
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.244,
+   "tolerance": 0.15,
+   "why": "apparent width 1.244x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      465,
+      977,
+      715
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      134,
+      359,
+      847,
+      560
+     ]
+    },
+    "note": "tall integrated fridge cabinet in photo vs stainless steel fridge placeholder in render"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__02-kitchen__a7fa3daee06b.jpg"
+  },
+  {
+   "at": "2026-11-06T08:52:44.438Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__cb468dab033a.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall full-height fridge column beside the white pilaster",
+   "band": {
+    "u0": 0.066,
+    "u1": 0.21,
+    "deg": 51.8
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.889,
+   "tolerance": 0.15,
+   "why": "apparent width 0.889x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      134,
+      455,
+      676,
+      591
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      214,
+      464,
+      786,
+      617
+     ]
+    },
+    "note": "the tall full-height fridge column beside the white pilaster"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__04-living__680983787c94.jpg"
+  },
+  {
+   "at": "2026-11-06T08:54:13.821Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__61bde65cbf87.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall kitchen column (the fridge)",
+   "band": {
+    "u0": 0.0854,
+    "u1": 0.1966,
+    "deg": 40
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.901,
+   "tolerance": 0.15,
+   "why": "apparent width 0.901x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      468,
+      674,
+      596
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      161,
+      446,
+      789,
+      588
+     ]
+    },
+    "note": "Tall built-in fridge/cabinet column next to the kitchen counter/sink area."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__df701e8047ee.jpg"
+  },
+  {
+   "at": "2026-11-06T08:55:24.038Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__0bf08aebbe3d.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall kitchen column (the fridge)",
+   "band": {
+    "u0": 0.368,
+    "u1": 0.468,
+    "deg": 36
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 1.873,
+   "tolerance": 0.15,
+   "why": "apparent width 1.873x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      237,
+      996,
+      443
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      111,
+      454,
+      855,
+      564
+     ]
+    },
+    "note": "the tall kitchen column (the fridge)"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__f9c26a6deea5.jpg"
+  },
+  {
+   "at": "2026-11-06T09:15:46.948Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__nano-banana-2__s50__f114ff112f48.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall full-height fridge column at the end of the kitchen run",
+   "band": {
+    "u0": 0.39,
+    "u1": 0.45,
+    "deg": 21.6
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 0.789,
+   "tolerance": 0.15,
+   "why": "apparent width 0.789x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      114,
+      1000,
+      451
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      0,
+      147,
+      1000,
+      574
+     ]
+    },
+    "note": "The tall tall fridge column/cabinet unit in the immediate foreground left."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__de75c7e439e8.jpg"
+  },
+  {
+   "at": "2026-11-06T09:16:35.541Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__gpt25-medium__s50__9c0a65ecf982.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall full-height fridge column at the end of the kitchen run",
+   "band": {
+    "u0": 0.39,
+    "u1": 0.45,
+    "deg": 21.6
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 0.668,
+   "tolerance": 0.15,
+   "why": "apparent width 0.668x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      0,
+      990,
+      286
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      0,
+      147,
+      1000,
+      575
+     ]
+    },
+    "note": "The tall kitchen column on the left foreground, rendered as a full-height block in the 3D model."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__545e63030a73.jpg"
+  },
+  {
+   "at": "2026-11-06T09:22:06.883Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__gpt25__s51__ec8e7773db07.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall full-height fridge column at the end of the kitchen run",
+   "band": {
+    "u0": 0.39,
+    "u1": 0.45,
+    "deg": 21.6
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 0.744,
+   "tolerance": 0.15,
+   "why": "apparent width 0.744x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      143,
+      1000,
+      462
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      0,
+      147,
+      1000,
+      576
+     ]
+    },
+    "note": "Tall full-height fridge cabinet/column in the foreground left."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__c83bf96be32d.jpg"
+  },
+  {
+   "at": "2026-11-06T09:24:03.281Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__gpt25__s52__219778546927.png",
+   "class": "builtin",
+   "against": "render",
+   "object": "the tall full-height fridge column at the end of the kitchen run",
+   "band": {
+    "u0": 0.39,
+    "u1": 0.45,
+    "deg": 21.6
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": 0.701,
+   "tolerance": 0.15,
+   "why": "apparent width 0.701x the render's (builtin, tolerance +-15%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      0,
+      150,
+      998,
+      448
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      0,
+      148,
+      1000,
+      573
+     ]
+    },
+    "note": "The tall integrated fridge cabinet column positioned at the front-left edge of the kitchen cabinetry."
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__8ec06f23fd36.jpg"
+  },
+  {
+   "at": "2026-11-06T09:25:16.104Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__b9673fc3c010.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the furniture in the middle of the band",
+   "band": {
+    "u0": 0.8364,
+    "u1": 0.9087,
+    "deg": 26
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.89,
+   "tolerance": 0.25,
+   "why": "apparent width 0.89x the render's (loose, tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      816,
+      59,
+      1000,
+      398
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      816,
+      0,
+      1000,
+      381
+     ]
+    },
+    "note": "the furniture in the middle of the band"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__d32259ca9eaa.jpg"
+  },
+  {
+   "at": "2026-11-06T09:25:18.687Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__b9673fc3c010.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the furniture in the middle of the band",
+   "band": {
+    "u0": 0.8364,
+    "u1": 0.9087,
+    "deg": 26
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.25,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__d32259ca9eaa.jpg"
+  },
+  {
+   "at": "2026-11-06T09:25:21.269Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__b9673fc3c010.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the furniture in the middle of the band",
+   "band": {
+    "u0": 0.8213,
+    "u1": 0.9282,
+    "deg": 38.5
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.25,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__d42b1ba19d55.jpg"
+  },
+  {
+   "at": "2026-11-06T09:25:23.831Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__b9673fc3c010.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the furniture in the middle of the band",
+   "band": {
+    "u0": 0.8213,
+    "u1": 0.9434,
+    "deg": 44
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.25,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__284d1ea627c2.jpg"
+  },
+  {
+   "at": "2026-11-06T09:25:26.560Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__b9673fc3c010.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the furniture in the middle of the band",
+   "band": {
+    "u0": 0.7612,
+    "u1": 0.9619,
+    "deg": 72.3
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.25,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__f378855f0c7b.jpg"
+  },
+  {
+   "at": "2026-11-06T09:25:48.828Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__b9673fc3c010.png",
+   "class": "loose",
+   "against": "render",
+   "object": "the furniture in the middle of the band",
+   "band": {
+    "u0": 0.8213,
+    "u1": 0.9434,
+    "deg": 44
+   },
+   "cg_tour": "apt846-furnished",
+   "verdict": "PASS",
+   "ratio": 0.942,
+   "tolerance": 0.25,
+   "why": "apparent width 0.942x the render's (loose, tolerance +-25%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      694,
+      201,
+      1000,
+      541
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      695,
+      137,
+      1000,
+      498
+     ]
+    },
+    "note": "the console table / shelving unit"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__284d1ea627c2.jpg"
+  }
+ ]
+}

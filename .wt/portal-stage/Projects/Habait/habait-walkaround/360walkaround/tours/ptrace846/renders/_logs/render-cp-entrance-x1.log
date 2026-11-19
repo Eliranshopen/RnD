@@ -1,0 +1,24 @@
+
+=== [1/1] cp-entrance =====================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\scene-full.blend
+[render_pano] point      : cp-entrance  plan (380.7,880.6,160) yaw 30
+[render_pano] camera     : (3.807, -8.806, 1.6) m  euler (90.0, 0.0, -30.0) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 16 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\renders\cp-entrance
+[render_pano] input_key  : 1b3dac2438808fce…
+[render_pano] render 1/1: 61.080 s wall  (cycles 60.55s, device peak 942.14 MB, host peak 1280.01 MB)
+[render_pano] depth      : depth.png 182,244 B  valid 2,069,350 / 2,097,152  sky 27,802  range 0.647..1811.942 m  (0.153 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-entrance floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-entrance ceiling z=290 cm]
+              SKIP  room r-entrance is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 46,890 B  zenith mean 168.6/255 (6 colours) · nadir mean 181.9/255 (10 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\renders\cp-entrance\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\manifest.json (key 'cp-entrance')
+OK
+Saved: 'C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\renders\cp-entrance\pano-depth-0001'
+Saved: 'C:\RnD\.wt\portal-stage\Projects\Habait\habait-walkaround\360walkaround\tours\ptrace846\renders\cp-entrance\pano-pano-0001'
+

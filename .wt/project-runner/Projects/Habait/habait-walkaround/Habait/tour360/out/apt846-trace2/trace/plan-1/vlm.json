@@ -1,0 +1,367 @@
+{
+ "scale_denominator": null,
+ "rooms": [
+  {
+   "name_he": "חדר שינה",
+   "name_en": "bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "label_box_2d": [
+    227,
+    357,
+    242,
+    458
+   ],
+   "room_box_2d": [
+    140,
+    249,
+    319,
+    534
+   ],
+   "dims_cm": [
+    275,
+    342
+   ]
+  },
+  {
+   "name_he": "חדר רחצה כללי",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "label_box_2d": [
+    357,
+    211,
+    396,
+    269
+   ],
+   "room_box_2d": [
+    273,
+    164,
+    431,
+    351
+   ],
+   "dims_cm": [
+    140,
+    199
+   ]
+  },
+  {
+   "name_he": "מטבח",
+   "name_en": "kitchen",
+   "type": "kitchen",
+   "is_outdoor": false,
+   "label_box_2d": [
+    372,
+    510,
+    384,
+    570
+   ],
+   "room_box_2d": [
+    223,
+    336,
+    482,
+    693
+   ],
+   "dims_cm": null
+  },
+  {
+   "name_he": "פינת אוכל",
+   "name_en": "dining area",
+   "type": "dining",
+   "is_outdoor": false,
+   "label_box_2d": [
+    426,
+    615,
+    451,
+    668
+   ],
+   "room_box_2d": [
+    386,
+    563,
+    508,
+    725
+   ],
+   "dims_cm": null
+  },
+  {
+   "name_he": "חדר דיור",
+   "name_en": "living room",
+   "type": "living",
+   "is_outdoor": false,
+   "label_box_2d": [
+    603,
+    449,
+    618,
+    547
+   ],
+   "room_box_2d": [
+    447,
+    226,
+    726,
+    698
+   ],
+   "dims_cm": [
+    530,
+    744
+   ]
+  },
+  {
+   "name_he": "חדר שינה הורים",
+   "name_en": "master bedroom",
+   "type": "master_bedroom",
+   "is_outdoor": false,
+   "label_box_2d": [
+    793,
+    404,
+    820,
+    503
+   ],
+   "room_box_2d": [
+    643,
+    237,
+    893,
+    629
+   ],
+   "dims_cm": [
+    348,
+    344
+   ]
+  },
+  {
+   "name_he": "פינת ארונות",
+   "name_en": "wardrobe area",
+   "type": "wardrobe",
+   "is_outdoor": false,
+   "label_box_2d": [
+    763,
+    226,
+    790,
+    294
+   ],
+   "room_box_2d": [
+    748,
+    194,
+    856,
+    352
+   ],
+   "dims_cm": [
+    160,
+    185
+   ]
+  },
+  {
+   "name_he": "חדר רחצה הורים",
+   "name_en": "master bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "label_box_2d": [
+    717,
+    107,
+    755,
+    166
+   ],
+   "room_box_2d": [
+    665,
+    33,
+    831,
+    252
+   ],
+   "dims_cm": [
+    210,
+    212
+   ]
+  },
+  {
+   "name_he": "מרפסת שמש",
+   "name_en": "sun balcony",
+   "type": "balcony",
+   "is_outdoor": true,
+   "label_box_2d": [
+    609,
+    749,
+    626,
+    873
+   ],
+   "room_box_2d": [
+    336,
+    638,
+    730,
+    979
+   ],
+   "dims_cm": [
+    270,
+    474
+   ]
+  }
+ ],
+ "fixtures": [
+  {
+   "kind": "shower",
+   "label": "shower",
+   "box_2d": [
+    279,
+    212,
+    372,
+    347
+   ],
+   "box_px": [
+    669.072,
+    1187.7030000000002,
+    1095.1319999999998,
+    1583.604
+   ]
+  },
+  {
+   "kind": "wc",
+   "label": "wc",
+   "box_2d": [
+    330,
+    206,
+    358,
+    244
+   ],
+   "box_px": [
+    650.136,
+    1404.8100000000002,
+    770.064,
+    1524.0059999999999
+   ]
+  },
+  {
+   "kind": "vanity",
+   "label": "vanity",
+   "box_2d": [
+    394,
+    201,
+    426,
+    257
+   ],
+   "box_px": [
+    634.356,
+    1677.258,
+    811.092,
+    1813.482
+   ]
+  },
+  {
+   "kind": "sink",
+   "label": "sink",
+   "box_2d": [
+    351,
+    411,
+    395,
+    471
+   ],
+   "box_px": [
+    1297.116,
+    1494.2069999999999,
+    1486.4759999999999,
+    1681.515
+   ]
+  },
+  {
+   "kind": "hob",
+   "label": "hob",
+   "box_2d": [
+    258,
+    508,
+    304,
+    570
+   ],
+   "box_px": [
+    1603.248,
+    1098.306,
+    1798.9199999999998,
+    1294.128
+   ]
+  },
+  {
+   "kind": "counter",
+   "label": "counter",
+   "box_2d": [
+    247,
+    334,
+    461,
+    574
+   ],
+   "box_px": [
+    1054.104,
+    1051.479,
+    1811.5439999999999,
+    1962.477
+   ]
+  },
+  {
+   "kind": "shower",
+   "label": "shower",
+   "box_2d": [
+    753,
+    44,
+    822,
+    211
+   ],
+   "box_px": [
+    138.864,
+    3205.521,
+    665.9159999999999,
+    3499.254
+   ]
+  },
+  {
+   "kind": "wc",
+   "label": "wc",
+   "box_2d": [
+    684,
+    102,
+    716,
+    140
+   ],
+   "box_px": [
+    321.912,
+    2911.788,
+    441.84000000000003,
+    3048.0119999999997
+   ]
+  },
+  {
+   "kind": "vanity",
+   "label": "vanity",
+   "box_2d": [
+    697,
+    169,
+    736,
+    230
+   ],
+   "box_px": [
+    533.364,
+    2967.129,
+    725.88,
+    3133.152
+   ]
+  }
+ ],
+ "printed_dims_cm": [
+  275,
+  342,
+  140,
+  199,
+  530,
+  744,
+  348,
+  344,
+  160,
+  185,
+  210,
+  212,
+  270,
+  474,
+  822,
+  1213
+ ],
+ "_meta": {
+  "model": "google/gemini-3.7-flash",
+  "usd": 0.0103305,
+  "at": "2026-11-06T10:11:56.273Z",
+  "label": "read"
+ }
+}

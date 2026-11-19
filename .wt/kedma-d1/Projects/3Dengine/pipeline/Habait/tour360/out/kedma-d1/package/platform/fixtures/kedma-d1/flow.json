@@ -1,0 +1,7 @@
+{
+ "$schema": "../../contracts/flow.schema.json",
+ "project": "kedma-d1",
+ "start": null,
+ "defaults": {},
+ "segments": []
+}

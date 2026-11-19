@@ -1,0 +1,237 @@
+{
+ "rooms": 10,
+ "fixtures": 10,
+ "scale_px_per_cm": 1.3402,
+ "scale_fit_factor": 0.9702,
+ "scale_fitted": true,
+ "dims": [
+  {
+   "room": "r-bedroom",
+   "name_he": "חדר שינה",
+   "measured_cm": [
+    284,
+    264
+   ],
+   "printed_cm": [
+    280,
+    330
+   ],
+   "ratio": [
+    0.8357575757575758,
+    0.9149999999999999
+   ],
+   "delta_pct": [
+    -13.9,
+    -5.7
+   ]
+  },
+  {
+   "room": "r-bedroom-2",
+   "name_he": "חדר שינה",
+   "measured_cm": [
+    321,
+    303
+   ],
+   "printed_cm": [
+    300,
+    330
+   ],
+   "ratio": [
+    0.9412121212121211,
+    0.9809999999999999
+   ],
+   "delta_pct": [
+    -2.7,
+    1.0
+   ]
+  },
+  {
+   "room": "r-laundry",
+   "name_he": "חדר כביסה",
+   "measured_cm": [
+    172,
+    121
+   ],
+   "printed_cm": [
+    170,
+    125
+   ],
+   "ratio": [
+    0.9835294117647058,
+    0.9375999999999999
+   ],
+   "delta_pct": [
+    1.2,
+    -3.2
+   ]
+  },
+  {
+   "room": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "measured_cm": [
+    274,
+    193
+   ],
+   "printed_cm": [
+    190,
+    275
+   ],
+   "ratio": [
+    0.9672727272727271,
+    0.9826315789473681
+   ],
+   "delta_pct": [
+    -0.4,
+    1.6
+   ]
+  },
+  {
+   "room": "r-bathroom-2",
+   "name_he": "חדר רחצה",
+   "measured_cm": [
+    275,
+    145
+   ],
+   "printed_cm": [
+    270,
+    145
+   ],
+   "ratio": [
+    0.9892592592592594,
+    0.9731034482758623
+   ],
+   "delta_pct": [
+    1.9,
+    0.0
+   ]
+  },
+  {
+   "room": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "measured_cm": [
+    356,
+    349
+   ],
+   "printed_cm": [
+    390,
+    345
+   ],
+   "ratio": [
+    0.8853846153846159,
+    0.9820289855072466
+   ],
+   "delta_pct": [
+    -8.7,
+    1.2
+   ]
+  },
+  {
+   "room": "r-patio",
+   "name_he": "פטיו בקומת קרקע",
+   "measured_cm": [
+    669,
+    356
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-corridor-1",
+   "name_he": "מעבר",
+   "measured_cm": [
+    594,
+    74
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-corridor-7",
+   "name_he": "מעבר",
+   "measured_cm": [
+    906,
+    375
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-corridor-8",
+   "name_he": "מעבר",
+   "measured_cm": [
+    181,
+    65
+   ],
+   "printed_cm": null
+  }
+ ],
+ "could_not_read": [
+  "room 'מבואה' (r-hall-auto-11): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+  "room 'חדר שינה' (r-bedroom): traced [284, 264] cm vs printed [280, 330] cm ([-13.9, -5.7] %) — check the trace or the reading",
+  "room 'חדר כביסה' (r-laundry): traced [172, 121] cm vs printed [170, 125] cm ([1.2, -3.2] %) — check the trace or the reading",
+  "room 'חדר שינה הורים' (r-master-bedroom): traced [356, 349] cm vs printed [390, 345] cm ([-8.7, 1.2] %) — check the trace or the reading",
+  "room 'פטיו בקומת קרקע' (r-patio): no printed dimensions were read; its size comes from the drawing only",
+  "room 'מעבר' (r-corridor-1): no printed dimensions were read; its size comes from the drawing only",
+  "room 'מעבר' (r-corridor-7): no printed dimensions were read; its size comes from the drawing only",
+  "room 'מעבר' (r-corridor-8): no printed dimensions were read; its size comes from the drawing only"
+ ],
+ "legend": [
+  {
+   "n": 1,
+   "id": "r-bedroom",
+   "name_he": "חדר שינה",
+   "area_m2": 7.507
+  },
+  {
+   "n": 2,
+   "id": "r-bedroom-2",
+   "name_he": "חדר שינה",
+   "area_m2": 7.512
+  },
+  {
+   "n": 3,
+   "id": "r-laundry",
+   "name_he": "חדר כביסה",
+   "area_m2": 2.03
+  },
+  {
+   "n": 4,
+   "id": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "area_m2": 5.161
+  },
+  {
+   "n": 5,
+   "id": "r-bathroom-2",
+   "name_he": "חדר רחצה",
+   "area_m2": 3.784
+  },
+  {
+   "n": 6,
+   "id": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "area_m2": 11.734
+  },
+  {
+   "n": 7,
+   "id": "r-patio",
+   "name_he": "פטיו בקומת קרקע",
+   "area_m2": 11.897
+  },
+  {
+   "n": 8,
+   "id": "r-corridor-1",
+   "name_he": "מעבר",
+   "area_m2": 3.367
+  },
+  {
+   "n": 9,
+   "id": "r-corridor-7",
+   "name_he": "מעבר",
+   "area_m2": 11.912
+  },
+  {
+   "n": 10,
+   "id": "r-corridor-8",
+   "name_he": "מעבר",
+   "area_m2": 1.177
+  }
+ ]
+}

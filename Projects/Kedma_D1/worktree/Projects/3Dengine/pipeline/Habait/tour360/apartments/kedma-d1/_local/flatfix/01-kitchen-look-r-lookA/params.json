@@ -1,0 +1,9 @@
+{
+ "asset": "01-kitchen-look",
+ "tag": "lookA",
+ "yaw": 25.0,
+ "pitch": -6.0,
+ "hfov": 100.0,
+ "size": 1024,
+ "redo": true
+}

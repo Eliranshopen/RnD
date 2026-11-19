@@ -1,0 +1,25 @@
+ok   entrance        → living          u 0.054 v 0.84 · 282 cm, 0 cm up · floor
+ok   entrance        → bedroom2        u 0.797 v 1 · 179 cm, 0 cm up · floor
+ok   entrance        → bathGuest       u 0.761 v 1 · 179 cm, 0 cm up · floor
+ok   kitchen         → living          u 0.008 v 0.55 · 519 cm, 68 cm up · opening o-8
+ok   kitchen         → dining          u 0.621 v 0.68 · 380 cm, 63 cm up · glass facade-1
+ok   dining          → kitchen         u 0.972 v 0.82 · 310 cm, 1 cm up · floor
+ok   dining          → living          u 0.766 v 0.69 · 610 cm, 1 cm up · floor
+ok   living          → entrance        u 0.138 v 0.68 · 343 cm, 72 cm up · opening o-12
+ok   living          → kitchen         u 0.371 v 0.68 · 624 cm, 1 cm up · floor
+ok   living          → dining          u 0.394 v 0.76 · 465 cm, 0 cm up · floor
+ok   living          → terraceLiving   u 0.524 v 0.65 · 618 cm, 13 cm up · opening o-5
+ok   living          → wardrobe        u 0.721 v 0.68 · 232 cm, 101 cm up · opening o-6
+ok   terraceLiving   → living          u 0.769 v 0.68 · 194 cm, 110 cm up · glass facade-1
+ok   terraceLiving   → terraceBedroom  u 0.63 v 0.68 · 624 cm, 1 cm up · floor
+ok   terraceBedroom  → terraceLiving   u 0.465 v 0.68 · 133 cm, 126 cm up · glass railing-13
+ok   terraceBedroom  → bedroomMain     u 0.314 v 0.68 · 160 cm, 119 cm up · glass facade-5
+ok   bedroomMain     → wardrobe        u 0.96 v 0.68 · 433 cm, 49 cm up · opening o-6
+ok   bedroomMain     → terraceBedroom  u 0.419 v 0.68 · 300 cm, 83 cm up · glass railing-7
+ok   wardrobe        → living          u 0.462 v 0.65 · 383 cm, 69 cm up · opening o-1
+ok   wardrobe        → bedroomMain     u 0.847 v 0.68 · 624 cm, 1 cm up · floor
+ok   wardrobe        → bathMain        u 0.261 v 0.68 · 106 cm, 133 cm up · opening o-9
+ok   bathMain        → wardrobe        u 0.143 v 0.68 · 96 cm, 135 cm up · opening o-9
+ok   bedroom2        → entrance        u 0.956 v 0.68 · 120 cm, 129 cm up · opening o-10
+ok   bathGuest       → entrance        u 0.424 v 0.68 · 69 cm, 142 cm up · opening o-11
+hotspots: 24/24 on floor / an opening / glass → _local\fidelity\hotspots.json

@@ -1,0 +1,259 @@
+{
+ "developer": "ישראל קנדה (Israel Canada)",
+ "project_name": "RAINBOW TEL AVIV – TOWER-RED",
+ "address": null,
+ "city": "תל אביב",
+ "building": {
+  "name": "TOWER-RED",
+  "floors_total": null,
+  "floor_of_unit": 16,
+  "typical_floor_to_floor_cm": null,
+  "has_floor_key": true,
+  "has_site_key": true,
+  "site_buildings": [
+   "R",
+   "Y",
+   "G",
+   "B",
+   "O",
+   "I",
+   "P",
+   "R*"
+  ],
+  "facade_note": "The unit sits in the right-hand wing of the floor key. The terrace is long and sloped, along the exterior glazed wall, with two structural column or shaft blocks projecting into it. A property boundary line and a building line (\"ראה הערה מס' 12\") run diagonally along the north-east side."
+ },
+ "unit": {
+  "number": "846",
+  "type_mark": "L",
+  "rooms_count": 3,
+  "area_m2": 108.72,
+  "terrace_m2": 26.15,
+  "other_areas": [
+   {
+    "label": "חלקה המשותפת (shared share, label partly legible)",
+    "m2": 14.34
+   },
+   {
+    "label": "חלק הרכוש לחזית / שטח לא מוצמד (label partly legible)",
+    "m2": 0.28
+   }
+  ]
+ },
+ "drawing": {
+  "scale": "1:50",
+  "date": "15.10.2025",
+  "architect": "D BLK Architects",
+  "north_deg_clockwise_from_up": null,
+  "north_note": "A north arrow is printed beside the floor key, but its direction cannot be read reliably from the image.",
+  "printed_dimensions_cm": [
+   275,
+   342,
+   140,
+   744,
+   530,
+   270,
+   474,
+   1213,
+   212,
+   210,
+   344,
+   185,
+   160,
+   348,
+   822
+  ],
+  "is_vector_pdf": true
+ },
+ "rooms": [
+  {
+   "name_he": "חדר דיור",
+   "name_en": "Living room",
+   "type": "living",
+   "printed_dims_cm": [
+    530
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Glazed wall on the east side towards the terrace, with a sliding door. Printed 'קיר חוץ' with a length of 474.",
+   "openings": "Entrance door on the west wall with a swing arc, marked 'כניסה'. Open to the kitchen and dining area to the north. Open to the terrace on the east. Door to the master bedroom suite on the south side.",
+   "fixed_elements": "Furniture layout only: sofa, coffee table and armchairs. No fixed elements.",
+   "notes": "530 is printed along the partition wall to the master bedroom. The 744 dimension runs along the terrace side."
+  },
+  {
+   "name_he": "מטבח",
+   "name_en": "Kitchen",
+   "type": "kitchen",
+   "printed_dims_cm": null,
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Open to the living room and dining area, with no door.",
+   "fixed_elements": "Kitchen run along the diagonal wall on the north-west side of the kitchen. The 4-burner hob is at the north end of the run, near the corner. The sink is mid-run, south of the hob.",
+   "notes": "Wide counter and peninsula at the north-east. Kitchen dimensions are not printed."
+  },
+  {
+   "name_he": "פינת אוכל",
+   "name_en": "Dining area",
+   "type": "dining",
+   "printed_dims_cm": null,
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Curved glazed wall to the terrace on the east.",
+   "openings": "Open to the kitchen and living room, with a glazed curved wall to the terrace.",
+   "fixed_elements": "Round table with 6 chairs (furniture).",
+   "notes": null
+  },
+  {
+   "name_he": "חדר שינה",
+   "name_en": "Bedroom",
+   "type": "bedroom",
+   "printed_dims_cm": [
+    275,
+    342
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Window on the north-east exterior wall, along the boundary and building line.",
+   "openings": "One door from the entrance hall zone, with a swing arc. One window on the exterior wall.",
+   "fixed_elements": "Bed (furniture).",
+   "notes": null
+  },
+  {
+   "name_he": "חדר רחצה כללי",
+   "name_en": "General bathroom",
+   "type": "bathroom",
+   "printed_dims_cm": [
+    140
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Door from the hall near the entrance. Next to it is a ventilation shaft ('אוורור').",
+   "fixed_elements": "Shower (140 printed), basin and WC, as drawn near the entrance.",
+   "notes": "The exact position of each fixture is hard to read at this resolution."
+  },
+  {
+   "name_he": "חדר שינה הורים",
+   "name_en": "Master bedroom",
+   "type": "master_bedroom",
+   "printed_dims_cm": [
+    348,
+    344
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": "Glazing on the east wall towards the terrace.",
+   "openings": "Opening to the living room and wardrobe zone. Glazed door to the terrace.",
+   "fixed_elements": "Double bed (furniture).",
+   "notes": "348 is the width. 344 is the depth along the terrace side."
+  },
+  {
+   "name_he": "פינת ארונות",
+   "name_en": "Wardrobe nook",
+   "type": "wardrobe",
+   "printed_dims_cm": [
+    160,
+    185
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Open passage between the master bathroom and the master bedroom.",
+   "fixed_elements": "Closets (drawn along the wall).",
+   "notes": null
+  },
+  {
+   "name_he": "חדר רחצה הורים",
+   "name_en": "Master bathroom",
+   "type": "bathroom",
+   "printed_dims_cm": [
+    212,
+    210
+   ],
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Door from the living room, with a swing arc. A small window is shown on the west wall.",
+   "fixed_elements": "Shower or bath along the south wall (210). WC and basin on the east side. A round fixture (likely a washing machine) on the west side. Placement is hard to read.",
+   "notes": null
+  },
+  {
+   "name_he": "מרפסת שמש",
+   "name_en": "Sun terrace",
+   "type": "terrace",
+   "printed_dims_cm": [
+    270,
+    474,
+    1213
+   ],
+   "area_m2": 26.15,
+   "is_outdoor": true,
+   "glazing": "Hatched floor. Glass balustrade.",
+   "openings": "Reached from the living room, dining area and master bedroom.",
+   "fixed_elements": "Two structural blocks (columns or shafts) projecting into the terrace. A narrow passage ('מעבר צר') at the south end. A note reads 'כ-1.80 מ'.",
+   "notes": "The terrace is long and sloped. 1213 is its overall diagonal length, 270 is its depth at the north end, and 474 is a length along the facade."
+  },
+  {
+   "name_he": "כניסה",
+   "name_en": "Entrance hall",
+   "type": "hall",
+   "printed_dims_cm": null,
+   "area_m2": null,
+   "is_outdoor": false,
+   "glazing": null,
+   "openings": "Entrance door on the west wall with a swing arc, marked 'כניסה'.",
+   "fixed_elements": null,
+   "notes": "No separate hall is drawn. The entrance opens straight into the living area."
+  }
+ ],
+ "openings_summary": "Single entrance door on the west wall. The glazed east facade runs along the terrace, with a curved glass wall at the dining area. The north bedroom has an exterior window. Interior doors lead to the north bedroom, the general bathroom and the master bathroom. The master bedroom and wardrobe nook are open to the living room.",
+ "images": [
+  {
+   "file": "דירה 846- 16.pdf",
+   "kind": "floor_plan",
+   "description": "Sales plan 1:50 of unit 846 (type L, 3 rooms), floor 16, TOWER-RED. Shows rooms with printed dimensions, a terrace, furniture and general notes."
+  },
+  {
+   "file": "דירה 846- 16.pdf",
+   "kind": "floor_key",
+   "description": "Small whole-floor outline with the unit hatched in the right-hand wing."
+  },
+  {
+   "file": "דירה 846- 16.pdf",
+   "kind": "site_plan",
+   "description": "Site key at bottom left with buildings R, Y, G, B, O, I, P and R*. R is hatched."
+  },
+  {
+   "file": "דירה 846- 16.pdf",
+   "kind": "logo",
+   "description": "Logos for Israel Canada, RAINBOW TEL AVIV and D BLK Architects."
+  }
+ ],
+ "style_hints": [
+  "luxury high-rise",
+  "open-plan living, kitchen and dining",
+  "curved glazed facade",
+  "long sun terrace"
+ ],
+ "uncertainties": [
+  "North arrow direction is not readable.",
+  "Address and street are not printed.",
+  "Total number of floors and floor-to-floor height are not printed.",
+  "Room areas are not printed per room.",
+  "No mamad is labelled on this plan.",
+  "Wording of the two small area labels (14.34 and 0.28 m²) is only partly legible.",
+  "Fixture positions in both bathrooms and the exact door and window positions are hard to read at this resolution.",
+  "Dimensions 744, 474 and 1213 are placed along diagonal lines, so their exact reference points are ambiguous.",
+  "Living room, kitchen and dining dimensions are not individually printed."
+ ],
+ "confidence": 0.7,
+ "_meta": {
+  "files": [
+   "דירה 846- 16.pdf"
+  ],
+  "skipped": [],
+  "model": "anthropic/claude-sonnet-5.5",
+  "usd": 0.056228,
+  "at": "2026-11-04T13:41:34.831Z"
+ }
+}

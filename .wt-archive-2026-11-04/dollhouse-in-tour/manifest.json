@@ -1,0 +1,68 @@
+{
+ "name": "dollhouse-in-tour",
+ "purpose": "the 3D dollhouse inside the 360 tour (board dollhouse-in-tour, Eliran 2026-11-03: everything approved for tonight, no deploy). Note: the first open stopped on a held file (apartment-3d.js, platform-ui-ux) after copying 4 files; this manifest completes it, the paths are added below.",
+ "opened": "2026-11-03T22:05:01",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/tour.js",
+   "sha256_at_open": "4b74b5685accc560468223b941847f7829fcb938b14df3fc0cd441df79139459",
+   "sha256_at_close": "735a52f210a26eeeca89ccfb16db6e02190872fcfe0c8393d3dc1f280e91abdd"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/template.html",
+   "sha256_at_open": "56cc6918ee9c0efa4e9b77c2efaa7ebf370ef3fc1dbf6cb98dd12abbd8fb9404",
+   "sha256_at_close": "c42e200ec2156dbc8ddd48b0758a4dacbaa8f9f7b023aa688c47310c7ac2a41c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/tour.css",
+   "sha256_at_open": "027a188afd379a671d863fea9e1c8af01d690d0391030fb65dc5710919b52bda",
+   "sha256_at_close": "bb1473ec95739de86ca00c34ae498097a77fa0f00aded3b98770f97429961d79"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/tools/build-tour.mjs",
+   "sha256_at_open": "1e8cf3a77cd59063b73c9689fdf34da773bf6e7b7cfa97da76f7e3956614ee9c",
+   "sha256_at_close": "ed9c0df18abc2e61f1f6092baf6e17a6629d2d8e11b99a4c583571fd80dca932"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_zip.mjs",
+   "sha256_at_open": "ae5026ceafc9f1b1008a422e981ad39addd0a4490688ca79d4ed0bae7b826f29",
+   "sha256_at_close": "a96b7df33e767d66a8ab3171a8baf28b905879037b29b35ec84f22ec1e97cddf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/index.html",
+   "sha256_at_open": "3778b94f8636ae1ac081f1dad9053b7619a737bc94855955801c8c7a5eef39a7",
+   "sha256_at_close": "d81fade2e8a192e78cb866e85231b41328545b1db8ae2fa81a2b8626061ed2eb"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/3d/dollhouse.html",
+   "sha256_at_open": null,
+   "sha256_at_close": "1b8941e8d5249e37085c6ca2f57d7f38a9eca49a7673430708a27272f33e8c89"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/index.html",
+   "sha256_at_open": "b63d2f24a422b96b987967464bf43c74b511308aa2a1aaeb1bc8a80191519a61",
+   "sha256_at_close": "b63d2f24a422b96b987967464bf43c74b511308aa2a1aaeb1bc8a80191519a61"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/apartment.json",
+   "sha256_at_open": "e723e6597e7ebaecc5e4962575eb24778b8561e2cad849c9d03187655d6d4df5",
+   "sha256_at_close": "a7d5b9b5a763c1ebfb099b21f0ab95f5e184735cefddffb84b576513653a0b8f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/846.zip",
+   "sha256_at_open": "09a18f44bdb2a68b9c4259ce5d2c6f21273d42064c6f72dc05511f163fc40ce2",
+   "sha256_at_close": "943c4da049671711e3207e28d08e68e9e84d050da99715251fdceae78b66d7d7"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/dollhouse.html",
+   "sha256_at_open": "aa4da24e7fc91a014b2aba1674cf9ea384a0e0e798a5a86e01755a0baee075e7",
+   "sha256_at_close": "1b8941e8d5249e37085c6ca2f57d7f38a9eca49a7673430708a27272f33e8c89"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/apartment-3d.js",
+   "sha256_at_open": "e74df68ee05d908bc3b32a7df8ad9a045c499d5c8e346fc8617ee5b917ef1e8a",
+   "sha256_at_close": "c0715eb16434521882140feb3e97fec1e6e5cf4dfcc446a6ec0b7850e76c2bed"
+  }
+ ],
+ "closed": "2026-11-03T23:01:39"
+}

@@ -1,0 +1,16 @@
+apartment: 10 room loop(s) re-wound positive (the floor faces up)
+apartment: 1 room(s) had a bbox / clear dims that no longer matched their loop — recomputed
+run-project proof21a: apartment done in 0 s
+run-project proof21a: casework done in 2 s
+  bedroom          01-bedroom           yaw  55  clear 137 cm  links entrance
+  bathroom         02-bathroom          yaw  17  clear 42 cm  links entrance
+  kitchen          03-kitchen           yaw  22  clear 119 cm  links diningArea
+  diningArea       04-dining-area       yaw  99  clear 108 cm  links kitchen,livingRoom,entrance
+  livingRoom       05-living-room       yaw 109  clear 168 cm  links wardrobeArea,sunTerrace,diningArea,entrance
+  sunTerrace       06-sun-terrace       yaw 193  clear 126 cm  links masterBedroom,livingRoom
+  masterBedroom    07-master-bedroom    yaw 117  clear 135 cm  links sunTerrace,wardrobeArea
+  wardrobeArea     08-wardrobe-area     yaw 333  clear 53 cm  links masterBedroom,livingRoom,masterBathroom
+  masterBathroom   09-master-bathroom   yaw 153  clear 61 cm  links wardrobeArea
+  entrance         10-entrance          yaw  30  clear 67 cm  links bedroom,bathroom,diningArea,livingRoom
+run-project proof21a: cameras done in 2 s
+run-project proof21a: furnish done in 16 s

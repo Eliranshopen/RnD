@@ -1,0 +1,571 @@
+{
+  "schema": "habait.apartment-page.v0",
+  "generated": "2026-11-03T19:21:49.545Z",
+  "version": "0.1.20261103",
+  "project": {
+    "id": "rainbow",
+    "name": {
+      "he": "Rainbow תל אביב",
+      "en": "Rainbow Tel Aviv"
+    },
+    "tagline": {
+      "he": "מגדל מגורים על קו הים · הדמיה",
+      "en": "Seafront residential tower · concept"
+    },
+    "developer": {
+      "he": "יזם (השם מוסתר עד אישור)",
+      "en": "Developer (name withheld until approved)"
+    },
+    "brand": {
+      "logo": "media/logo.svg",
+      "primary": "#0f5c8f",
+      "accent": "#f2a900",
+      "background": "#0b1220"
+    },
+    "leads": {
+      "whatsapp_number": "972500000000",
+      "agent": null,
+      "email": null
+    },
+    "exterior": {
+      "mode": "external",
+      "url": "http://127.0.0.1:8899/",
+      "params": {
+        "tour": "http://127.0.0.1:8848/?scope=apartment&room=terraceLiving&floor=parquet&video=0",
+        "from": "platform"
+      },
+      "intro": {
+        "clip": "orbit_real.mp4",
+        "mode": "inline",
+        "note": "Step 1: Kling 4.0 v2v over the Blender clay orbit (Habait/flyover/orbit, 2026-11-02 15:37): one clockwise 14 s orbit at 228 m + 3 s descent, ends at the node-b-tower pose where the hold opens; 17.0 s, 1280x720. mode inline (Eliran 15:55: no loading screen between the video and the hold): the card links straight to the hold viewer with ?orbit=<clip url>, and the viewer plays the clip full-screen while its scene loads behind it; mode absent = intro.html plays the clip, then navigates. Previous interim clip: intro-approach-interim.mp4."
+      },
+      "alt": {
+        "label": {
+          "he": "גרסת תחנות 360 (גיבוי)",
+          "en": "360-node version (fallback)"
+        },
+        "url": "http://127.0.0.1:8848/",
+        "params": {
+          "from": "platform"
+        }
+      },
+      "note": "Eliran's rulings 2026-11-02: step 1 = rendered orbit VIDEO (Habait/flyover/orbit, ends at node-b-tower pose); step 2 = :8899 three.js hold at node-b (photoreal node-b 360 as sphere, picker pills per unit, click -> PBR flight to the terrace), presentable again since 13:50 (habait-89); step 3 = :8848 ?scope=apartment photoreal 360 of the apartment. :8848 node chain = fallback for step 2. flow.json = internal placeholder player and the reference UX."
+    },
+    "fixture": true,
+    "currency": "ILS",
+    "analytics": {
+      "posthog_host": "https://us.i.posthog.com",
+      "whatsapp_viewed_line": false
+    }
+  },
+  "unit": {
+    "id": "846",
+    "floor": 16,
+    "type": "L",
+    "rooms": 4,
+    "area_m2": 118,
+    "outdoor_m2": 22,
+    "price": 7950000,
+    "status": "for-sale",
+    "tour_url": "http://127.0.0.1:8848/?scope=apartment&room=terraceLiving&floor=parquet&video=0&return=http://127.0.0.1:8899/?from=platform%26project=rainbow",
+    "note": "the real apartment of the pitch (sales plan DBLK 15.10.2025); descend-846 / enter-846 exist in flow.json",
+    "currency": "ILS"
+  },
+  "tour": {
+    "url": "http://127.0.0.1:8848/?scope=apartment&room=terraceLiving&floor=parquet&video=0&return=http://127.0.0.1:8899/?from=platform%26project=rainbow",
+    "scope": "apartment",
+    "rooms": 11,
+    "hold": "tower"
+  },
+  "back": {
+    "url": "http://127.0.0.1:8899/?tour=http%3A%2F%2F127.0.0.1%3A8848%2F%3Fscope%3Dapartment%26room%3DterraceLiving%26floor%3Dparquet%26video%3D0&from=platform&project=rainbow&room=tower"
+  },
+  "plan": {
+    "src": "media/plan.png",
+    "width": 1500,
+    "height": 1560,
+    "date": "15.10.2025",
+    "architect": "DBLK Architects",
+    "source_sha256": "ef02e51825a60a800f6ff3d249f43f8d19409f8d62e122383938a64706c222f7",
+    "source": "apartments/apt846/_local/plan/plan-crop.png (a 288 dpi crop of the sales plan PDF 'דירה 846- 16.pdf', 1:50, DBLK 15.10.2025)"
+  },
+  "panos": [
+    {
+      "id": "entrance",
+      "name": {
+        "he": "כניסה",
+        "en": "Entrance",
+        "fr": "Entrée"
+      },
+      "src": "media/panos/01-entrance.webp"
+    },
+    {
+      "id": "kitchen",
+      "name": {
+        "he": "מטבח",
+        "en": "Kitchen",
+        "fr": "Cuisine"
+      },
+      "src": "media/panos/02-kitchen.webp"
+    },
+    {
+      "id": "dining",
+      "name": {
+        "he": "פינת אוכל",
+        "en": "Dining",
+        "fr": "Salle à manger"
+      },
+      "src": "media/panos/03-dining.webp"
+    },
+    {
+      "id": "living",
+      "name": {
+        "he": "סלון",
+        "en": "Living room",
+        "fr": "Séjour"
+      },
+      "src": "media/panos/04-living.webp"
+    },
+    {
+      "id": "terraceLiving",
+      "name": {
+        "he": "מרפסת שמש",
+        "en": "Sun terrace",
+        "fr": "Terrasse"
+      },
+      "src": "media/panos/05-terrace-living.webp"
+    },
+    {
+      "id": "terraceBedroom",
+      "name": {
+        "he": "מרפסת · קצה החדרים",
+        "en": "Terrace · bedroom end",
+        "fr": "Terrasse · côté chambres"
+      },
+      "src": "media/panos/06-terrace-bedroom.webp"
+    },
+    {
+      "id": "bedroomMain",
+      "name": {
+        "he": "חדר שינה הורים",
+        "en": "Main bedroom",
+        "fr": "Chambre principale"
+      },
+      "src": "media/panos/07-bedroom-main.webp"
+    },
+    {
+      "id": "wardrobe",
+      "name": {
+        "he": "פינת ארונות",
+        "en": "Dressing nook",
+        "fr": "Dressing"
+      },
+      "src": "media/panos/08-wardrobe.webp"
+    },
+    {
+      "id": "bathMain",
+      "name": {
+        "he": "חדר רחצה הורים",
+        "en": "Main bathroom",
+        "fr": "Salle de bain principale"
+      },
+      "src": "media/panos/09-bath-main.webp"
+    },
+    {
+      "id": "bedroom2",
+      "name": {
+        "he": "חדר שינה",
+        "en": "Second bedroom",
+        "fr": "Deuxième chambre"
+      },
+      "src": "media/panos/10-bedroom-2.webp"
+    },
+    {
+      "id": "bathguest",
+      "name": {
+        "he": "חדר רחצה כללי",
+        "en": "Guest bathroom",
+        "fr": "Salle de bain invités"
+      },
+      "src": "media/panos/11-bath-guest.webp"
+    }
+  ],
+  "stills": [
+    {
+      "id": "entrance",
+      "name": {
+        "he": "כניסה",
+        "en": "Entrance",
+        "fr": "Entrée"
+      },
+      "src": "media/stills/01-entrance.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "kitchen",
+      "name": {
+        "he": "מטבח",
+        "en": "Kitchen",
+        "fr": "Cuisine"
+      },
+      "src": "media/stills/02-kitchen.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "dining",
+      "name": {
+        "he": "פינת אוכל",
+        "en": "Dining",
+        "fr": "Salle à manger"
+      },
+      "src": "media/stills/03-dining.jpg",
+      "yaw": 15,
+      "source": "full"
+    },
+    {
+      "id": "living",
+      "name": {
+        "he": "סלון",
+        "en": "Living room",
+        "fr": "Séjour"
+      },
+      "src": "media/stills/04-living.jpg",
+      "yaw": 15,
+      "source": "full"
+    },
+    {
+      "id": "terraceLiving",
+      "name": {
+        "he": "מרפסת שמש",
+        "en": "Sun terrace",
+        "fr": "Terrasse"
+      },
+      "src": "media/stills/05-terrace-living.jpg",
+      "yaw": -150,
+      "source": "full"
+    },
+    {
+      "id": "terraceBedroom",
+      "name": {
+        "he": "מרפסת · קצה החדרים",
+        "en": "Terrace · bedroom end",
+        "fr": "Terrasse · côté chambres"
+      },
+      "src": "media/stills/06-terrace-bedroom.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "bedroomMain",
+      "name": {
+        "he": "חדר שינה הורים",
+        "en": "Main bedroom",
+        "fr": "Chambre principale"
+      },
+      "src": "media/stills/07-bedroom-main.jpg",
+      "yaw": 75,
+      "source": "full"
+    },
+    {
+      "id": "wardrobe",
+      "name": {
+        "he": "פינת ארונות",
+        "en": "Dressing nook",
+        "fr": "Dressing"
+      },
+      "src": "media/stills/08-wardrobe.jpg",
+      "yaw": 90,
+      "source": "full"
+    },
+    {
+      "id": "bathMain",
+      "name": {
+        "he": "חדר רחצה הורים",
+        "en": "Main bathroom",
+        "fr": "Salle de bain principale"
+      },
+      "src": "media/stills/09-bath-main.jpg",
+      "yaw": -150,
+      "source": "full"
+    },
+    {
+      "id": "bedroom2",
+      "name": {
+        "he": "חדר שינה",
+        "en": "Second bedroom",
+        "fr": "Deuxième chambre"
+      },
+      "src": "media/stills/10-bedroom-2.jpg",
+      "yaw": -15,
+      "source": "full"
+    },
+    {
+      "id": "bathguest",
+      "name": {
+        "he": "חדר רחצה כללי",
+        "en": "Guest bathroom",
+        "fr": "Salle de bain invités"
+      },
+      "src": "media/stills/11-bath-guest.jpg",
+      "yaw": -30,
+      "source": "full"
+    }
+  ],
+  "glb": {
+    "src": "media/apt846.glb",
+    "html": "media/dollhouse.html",
+    "bytes": 256816,
+    "sha256": "2732cb2c7eac3ac6346aa67b989b56820be2fb855c965ec9786344426cca5809",
+    "placeholder": false,
+    "source": "C:/RnD/.wt/apartment-3d/files/Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/apt846-parquet.glb",
+    "floors": {
+      "parquet": {
+        "material": "web_floor_parquet",
+        "color": [
+          0.4,
+          0.25,
+          0.13
+        ],
+        "roughness": 0.550000011920929,
+        "metalness": 0,
+        "name": {
+          "he": "פרקט",
+          "en": "Oak parquet",
+          "fr": "Parquet"
+        },
+        "glb": "apt846-parquet.glb"
+      },
+      "concrete": {
+        "material": "web_floor_concrete",
+        "color": [
+          0.46,
+          0.45,
+          0.42
+        ],
+        "roughness": 0.699999988079071,
+        "metalness": 0,
+        "name": {
+          "he": "בטון",
+          "en": "Concrete",
+          "fr": "Béton"
+        },
+        "glb": "apt846-concrete.glb"
+      },
+      "marble": {
+        "material": "web_floor_marble",
+        "color": [
+          0.8,
+          0.78,
+          0.74
+        ],
+        "roughness": 0.25,
+        "metalness": 0,
+        "name": {
+          "he": "שיש",
+          "en": "Marble",
+          "fr": "Marbre"
+        },
+        "glb": "apt846-marble.glb"
+      }
+    },
+    "default_floor": "parquet",
+    "floor_note": "3 floor GLBs, one BIN chunk: the switch applies each GLB's floor material",
+    "light": {
+      "src": "light.webp",
+      "bytes": 156680,
+      "phone_bytes": 65668,
+      "scale": 0.248674
+    },
+    "floor_textures": {
+      "parquet": 7708,
+      "concrete": 4216,
+      "marble": 9748
+    },
+    "rooms": 11
+  },
+  "minimap": {
+    "schema": "habait.minimap.v0",
+    "img": "media/top.webp",
+    "w": 564,
+    "h": 640,
+    "affine": {
+      "ax": 0.39871388716127154,
+      "bx": -21.4611431402601,
+      "ay": 0.39871388716127154,
+      "by": -7.0079727953811455
+    },
+    "top": {
+      "W": 2048,
+      "H": 2048,
+      "cx": 7.611000090837479,
+      "cy": -8.204500064253807,
+      "s": 16.592180154919625
+    },
+    "crop": {
+      "x0": 151,
+      "y0": 33,
+      "k": 0.3230240549828179
+    },
+    "points": {
+      "entrance": {
+        "x_cm": 305.3,
+        "y_cm": 768.4,
+        "u": 100.28,
+        "v": 299.38,
+        "bearing0": 105.89999999999998,
+        "name": {
+          "he": "כניסה",
+          "en": "Entrance",
+          "fr": "Entrée"
+        }
+      },
+      "kitchen": {
+        "x_cm": 837.8,
+        "y_cm": 532.4,
+        "u": 312.57,
+        "v": 205.29,
+        "bearing0": 125.5,
+        "name": {
+          "he": "מטבח",
+          "en": "Kitchen",
+          "fr": "Cuisine"
+        }
+      },
+      "dining": {
+        "x_cm": 925.8,
+        "y_cm": 787.1,
+        "u": 347.66,
+        "v": 306.82,
+        "bearing0": 56.80000000000001,
+        "name": {
+          "he": "פינת אוכל",
+          "en": "Dining",
+          "fr": "Salle à manger"
+        }
+      },
+      "living": {
+        "x_cm": 685.3,
+        "y_cm": 935.1,
+        "u": 251.79,
+        "v": 365.83,
+        "bearing0": 111.30000000000001,
+        "name": {
+          "he": "סלון",
+          "en": "Living room",
+          "fr": "Séjour"
+        }
+      },
+      "terraceLiving": {
+        "x_cm": 1244.4,
+        "y_cm": 955.6,
+        "u": 474.72,
+        "v": 373.99,
+        "bearing0": 355.9,
+        "name": {
+          "he": "מרפסת שמש",
+          "en": "Sun terrace",
+          "fr": "Terrasse"
+        }
+      },
+      "terraceBedroom": {
+        "x_cm": 1000,
+        "y_cm": 1370.2,
+        "u": 377.25,
+        "v": 539.32,
+        "bearing0": 16.30000000000001,
+        "name": {
+          "he": "מרפסת · קצה החדרים",
+          "en": "Terrace · bedroom end",
+          "fr": "Terrasse · côté chambres"
+        }
+      },
+      "bedroomMain": {
+        "x_cm": 840,
+        "y_cm": 1444.9,
+        "u": 313.46,
+        "v": 569.09,
+        "bearing0": 344.9,
+        "name": {
+          "he": "חדר שינה הורים",
+          "en": "Main bedroom",
+          "fr": "Chambre principale"
+        }
+      },
+      "wardrobe": {
+        "x_cm": 435.1,
+        "y_cm": 1324,
+        "u": 152.02,
+        "v": 520.89,
+        "bearing0": 106.39999999999998,
+        "name": {
+          "he": "פינת ארונות",
+          "en": "Dressing nook",
+          "fr": "Dressing"
+        }
+      },
+      "bathMain": {
+        "x_cm": 305.3,
+        "y_cm": 1296.4,
+        "u": 100.28,
+        "v": 509.9,
+        "bearing0": 36.80000000000001,
+        "name": {
+          "he": "חדר רחצה הורים",
+          "en": "Main bathroom",
+          "fr": "Salle de bain principale"
+        }
+      },
+      "bedroom2": {
+        "x_cm": 641.8,
+        "y_cm": 437.8,
+        "u": 234.42,
+        "v": 167.54,
+        "bearing0": 35.19999999999999,
+        "name": {
+          "he": "חדר שינה",
+          "en": "Second bedroom",
+          "fr": "Deuxième chambre"
+        }
+      },
+      "bathguest": {
+        "x_cm": 463.1,
+        "y_cm": 564.9,
+        "u": 163.19,
+        "v": 218.22,
+        "bearing0": 15.699999999999989,
+        "name": {
+          "he": "חדר רחצה כללי",
+          "en": "Guest bathroom",
+          "fr": "Salle de bain invités"
+        }
+      }
+    },
+    "source": {
+      "top": "GLB bounds (report.json top agrees to <1e-3 m, exact value kept)",
+      "alpha_check_px": 0.96,
+      "cameras": "cameras.json at / 2.25 = plan cm"
+    },
+    "bytes": 32454
+  },
+  "legal": {
+    "short": {
+      "he": "הדמיה להמחשה בלבד. הופקה בסיוע בינה מלאכותית מתכנית המכר של דירה 846, Rainbow תל אביב, מיום 15.10.2025. המסמכים המחייבים הם המפרט והתכניות החתומים. ריהוט, גימורים ונוף להמחשה.",
+      "en": "Illustration only. Generated with AI assistance from the sales plan of unit 846, Rainbow Tel Aviv, dated 15.10.2025. The binding documents are the signed specification and plans. Furniture, finishes and views are illustrative."
+    },
+    "full": {
+      "he": "הדמיה להמחשה בלבד.\nההדמיה הופקה על ידי Habait עבור יזם (השם מוסתר עד אישור) בסיוע כלי בינה מלאכותית, על בסיס תכנית המכר של דירה 846 בפרויקט Rainbow תל אביב מיום 15.10.2025 (אדריכל: DBLK Architects). הגאומטריה של הדירה (חדרים, קירות, פתחים) נגזרה מתכנית המכר; מראה החומרים, התאורה, הריהוט, האביזרים, הצמחייה, האנשים והנוף הם פרשנות חזותית ואינם חלק מהממכר.\nהמסמכים המחייבים הם אך ורק המפרט הטכני (לפי חוק המכר (דירות), תשל\"ג-1973, וצו מכר דירות (טופס של מפרט), תשל\"ד-1974) והתכניות החתומות המצורפות לחוזה המכר. בכל סתירה בין ההדמיה לבין המפרט והתכניות, המפרט והתכניות גוברים.\nריהוט, גימורים, כלים סניטריים, מטבח, ארונות, תאורה ואביזרים אינם כלולים בדירה אלא אם נאמר במפורש במפרט. גוונים, חומרים ופריטים שמופיעים בהדמיה עשויים להיות שונים מאלה שיסופקו בפועל.\nשטחים ומידות הם לפי תכניות היזם והמפרט; המידות בהדמיה מוצגות באופן מקורב ואינן מהוות מדידה. מיקום עמודים, קורות, פירים ומערכות עשוי להשתנות בהתאם לתכנון המפורט ולהוראות כל דין.\nהסביבה, הבניינים השכנים, הנוף והתאורה הטבעית מוצגים להמחשה בלבד ואינם מתחייבים.\nהופק: 2026-11-03, גרסה 0.1.20261103. גילוי: חלקים מההדמיה נוצרו או עובדו באמצעות בינה מלאכותית.",
+      "en": "Illustration only.\nThis visualization was produced by Habait for Developer (name withheld until approved) with the assistance of artificial-intelligence tools, based on the sales plan of unit 846 in Rainbow Tel Aviv dated 15.10.2025 (architect: DBLK Architects). The apartment geometry (rooms, walls, openings) is derived from the sales plan; materials, lighting, furniture, accessories, vegetation, people and views are a visual interpretation and are not part of the property sold.\nThe binding documents are solely the technical specification (under the Sale (Apartments) Law, 5733-1973, and the Sale (Apartments) (Specification Form) Order, 5734-1974) and the signed plans attached to the sale agreement. In any discrepancy between this visualization and the specification and plans, the specification and plans prevail.\nFurniture, finishes, sanitary fixtures, kitchen, closets, lighting and accessories are not included unless expressly stated in the specification. Colours, materials and items shown may differ from those actually supplied.\nAreas and dimensions are per the developer's plans and specification; dimensions in the visualization are approximate and do not constitute a measurement. The location of columns, beams, shafts and building systems may change according to the detailed design and applicable law.\nSurroundings, neighbouring buildings, views and natural light are shown for illustration only and are not guaranteed.\nProduced 2026-11-03, version 0.1.20261103. Disclosure: parts of this visualization were created or processed using artificial intelligence."
+    },
+    "status": "DRAFT v0 (2026-11-02), ממתין לחוות דעת עו״ד / pending legal review",
+    "source": "C:/RnD/Projects/Habait/data/sales-plans/legal/disclaimer-he-en.md"
+  },
+  "zip": {
+    "src": "846.zip",
+    "name": "rainbow-846.zip",
+    "bytes": 5107617,
+    "files": 27,
+    "sha256": "09a18f44bdb2a68b9c4259ce5d2c6f21273d42064c6f72dc05511f163fc40ce2"
+  }
+}

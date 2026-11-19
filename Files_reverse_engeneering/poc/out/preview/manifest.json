@@ -1,0 +1,374 @@
+{
+ "rows": [
+  {
+   "step": "relight",
+   "key": "4a9ba8240c353a4a",
+   "keyframe": "noon",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "noon",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az180/el58 x1",
+     "interior x0.0: 13 lamps, 1 emissive nodes",
+     "exposure=0.0 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\noon.blend",
+    "preset_sha256": "444e6730ba0b395b"
+   },
+   "seconds": 1.3,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "4a9ba8240c353a4a",
+   "keyframe": "noon",
+   "hour": 12.5,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\noon\\pano.webp",
+   "pano_sha16": "12c97a9b289333af",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 195.5,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "92e953261eed77be",
+   "keyframe": "noon",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "noon",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az185/el45 x1",
+     "interior x0.0: 13 lamps, 1 emissive nodes",
+     "exposure=2.8 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\noon.blend",
+    "preset_sha256": "085dd0e808e89d72"
+   },
+   "seconds": 17.4,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "92e953261eed77be",
+   "keyframe": "noon",
+   "hour": 12.5,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\noon\\pano.webp",
+   "pano_sha16": "052eb9dd19f50a43",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 161.0,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "c47e83c7a143a830",
+   "keyframe": "afternoon",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "afternoon",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az240/el24 x1",
+     "interior x0.0: 13 lamps, 1 emissive nodes",
+     "exposure=2.8 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\afternoon.blend",
+    "preset_sha256": "6538a5a088803d4d"
+   },
+   "seconds": 3.4,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "c47e83c7a143a830",
+   "keyframe": "afternoon",
+   "hour": 15.0,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\afternoon\\pano.webp",
+   "pano_sha16": "62ec665f410afd82",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 216.6,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "362166cc2caa5bfc",
+   "keyframe": "night",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "night",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=color",
+     "sun=off x1",
+     "interior x1.0: 13 lamps, 1 emissive nodes",
+     "exposure=0.3 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\night.blend",
+    "preset_sha256": "dec934f2260c0e98"
+   },
+   "seconds": 1.8,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "362166cc2caa5bfc",
+   "keyframe": "night",
+   "hour": 21.5,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\night\\pano.webp",
+   "pano_sha16": "a763410ae4cad3c9",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 109.4,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "916ce82f0b6fd8c5",
+   "keyframe": "afternoon",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "afternoon",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az252/el17 x1",
+     "interior x0.0: 13 lamps, 1 emissive nodes",
+     "exposure=2.8 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\afternoon.blend",
+    "preset_sha256": "5d49c254ee628ee0"
+   },
+   "seconds": 1.6,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "916ce82f0b6fd8c5",
+   "keyframe": "afternoon",
+   "hour": 15.0,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\afternoon\\pano.webp",
+   "pano_sha16": "11aa42a46499770b",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 232.6,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "a3c0d96e552f9188",
+   "keyframe": "golden",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "golden",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az262/el5 x1",
+     "interior x0.35: 13 lamps, 1 emissive nodes",
+     "exposure=2.4 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\golden.blend",
+    "preset_sha256": "132b553ba5f9a72b"
+   },
+   "seconds": 2.1,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "a3c0d96e552f9188",
+   "keyframe": "golden",
+   "hour": 17.0,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\golden\\pano.webp",
+   "pano_sha16": "7fb0b7a54a357912",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 113.1,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "6d11ffca7c8d23ae",
+   "keyframe": "night",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "night",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=color",
+     "sun=off x1",
+     "interior x1.0: 13 lamps, 1 emissive nodes",
+     "exposure=-0.7 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\night.blend",
+    "preset_sha256": "386ca758bfca1f96"
+   },
+   "seconds": 2.7,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "6d11ffca7c8d23ae",
+   "keyframe": "night",
+   "hour": 21.5,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\night\\pano.webp",
+   "pano_sha16": "8084058360ac7713",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 131.3,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "e5efb078125dc7d7",
+   "keyframe": "afternoon",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "afternoon",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az252/el17 x1",
+     "interior x0.0: 13 lamps, 1 emissive nodes",
+     "exposure=1.8 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\afternoon.blend",
+    "preset_sha256": "eeb7cbf6383df152"
+   },
+   "seconds": 7.3,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "e5efb078125dc7d7",
+   "keyframe": "afternoon",
+   "hour": 15.0,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\afternoon\\pano.webp",
+   "pano_sha16": "fbfe56d83654eb75",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 131.0,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "766c6ae6fd595ad9",
+   "keyframe": "golden",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "golden",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=nishita",
+     "sun=az262/el9 x1",
+     "interior x0.35: 13 lamps, 1 emissive nodes",
+     "exposure=1.5 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\golden.blend",
+    "preset_sha256": "45f25ae4a511c778"
+   },
+   "seconds": 3.1,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "766c6ae6fd595ad9",
+   "keyframe": "golden",
+   "hour": 17.0,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\golden\\pano.webp",
+   "pano_sha16": "93dc4697a944d4ea",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 221.8,
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "2b8f9f3b893db125",
+   "keyframe": "night",
+   "inputs": {
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "source_sha16": "07668f227453c86b"
+   },
+   "report": {
+    "key": "night",
+    "source": "C:\\RnD\\.wt\\kedma-d1\\Projects\\3Dengine\\pipeline\\360walkaround\\tours\\kedma-d1\\scene-full.blend",
+    "changed": [
+     "world=color",
+     "sun=off x1",
+     "interior x0.55: 13 lamps, 1 emissive nodes",
+     "exposure=-0.9 view=AgX/AgX - Punchy"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc\\out\\preview\\variants\\night.blend",
+    "preset_sha256": "c968af53383e9e23"
+   },
+   "seconds": 13.8,
+   "cost_usd": 0
+  },
+  {
+   "step": "render",
+   "key": "2b8f9f3b893db125",
+   "keyframe": "night",
+   "hour": 21.5,
+   "point": "cp-living",
+   "res": "1024x512",
+   "samples": 16,
+   "pano": "out\\preview\\cp-living\\night\\pano.webp",
+   "pano_sha16": "105954f13362f25c",
+   "depth_sha16": "fa4e857082e1e4bf",
+   "seconds": 82.5,
+   "cost_usd": 0
+  }
+ ]
+}

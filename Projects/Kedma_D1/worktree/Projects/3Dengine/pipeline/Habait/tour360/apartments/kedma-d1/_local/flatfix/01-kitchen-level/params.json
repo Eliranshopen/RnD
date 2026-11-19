@@ -1,0 +1,9 @@
+{
+ "asset": "01-kitchen",
+ "tag": "level",
+ "parent": "01-kitchen__flat__island.png",
+ "yaw": -25.0,
+ "pitch": 0.0,
+ "hfov": 112.0,
+ "size": 1024
+}

@@ -1,0 +1,673 @@
+{
+ "$schema": "tour360/hotspots-check.v1",
+ "at": "2026-11-12T10:28:12.375Z",
+ "renders": "c:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders",
+ "rows": [
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "living",
+   "u": 0.506,
+   "v": 0.8,
+   "bearing": 108,
+   "pitch": -27.3,
+   "depth_cm": 348,
+   "height_cm": 0,
+   "hit_cm": [
+    617,
+    858
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE l-sofa (floor 25 cm from it) (CG depth) to floor"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "bathguest",
+   "u": 0.342,
+   "v": 0.9,
+   "bearing": 49,
+   "pitch": -45.3,
+   "depth_cm": 163,
+   "height_cm": 44,
+   "hit_cm": [
+    409,
+    687
+   ],
+   "what": "FIXTURE bg-vanity",
+   "ok": false,
+   "source": "hotspot-pins.json: the room picture and the 3D model, 2026-11-11: the mouth of the passage between the wall and the tall cabinet, the near (bath) side (exact height: the depth model put it at the visitor's feet, 65 degrees down, where nobody sees it)"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "kitchen",
+   "u": 0.417,
+   "v": 0.86,
+   "bearing": 76,
+   "pitch": -38.1,
+   "depth_cm": 259,
+   "height_cm": 0,
+   "hit_cm": [
+    521,
+    713
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11: the floor right of the tall cabinet"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "bedroom2",
+   "u": 0.367,
+   "v": 0.85,
+   "bearing": 58,
+   "pitch": -36.3,
+   "depth_cm": 270,
+   "height_cm": 0,
+   "hit_cm": [
+    508,
+    647
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "hotspot-pins.json: the room picture and the 3D model, 2026-11-11: the mouth of the same passage, the far (bedroom) side; moved off FIXTURE bg-vanity (within 2° of the marker) (CG depth) to floor"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "wardrobe",
+   "u": 0.675,
+   "v": 0.68,
+   "bearing": 169,
+   "pitch": -14.8,
+   "depth_cm": 434,
+   "height_cm": 49,
+   "hit_cm": [
+    404,
+    1174
+   ],
+   "what": "FIXTURE bm-vanity",
+   "ok": false,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11 (Eliran: from the entrance there was no way to the room seen in the picture): the master suite's door, right of the TV wall, seen across the living room; it opens on the wardrobe corner (exact: the depth model has this door about 10 degrees to the left, as from the living room, and moved the button onto the TV unit)"
+  },
+  {
+   "scene": "entrance",
+   "asset": "01-entrance",
+   "to": "dining",
+   "u": 0.452,
+   "v": 0.552,
+   "bearing": 89,
+   "pitch": -10.3,
+   "depth_cm": 812,
+   "height_cm": 15,
+   "hit_cm": [
+    1122,
+    743
+   ],
+   "what": "FIXTURE d-table (the ray skims it)",
+   "ok": false,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (1.01% of the picture, 7.3 m away; qa-evidence/platform/room-links-2026-11-12/visible.json)"
+  },
+  {
+   "scene": "kitchen",
+   "asset": "02-kitchen",
+   "to": "dining",
+   "u": 0.592,
+   "v": 0.63,
+   "bearing": 159,
+   "pitch": -13.1,
+   "depth_cm": 470,
+   "height_cm": 54,
+   "hit_cm": [
+    1043,
+    975
+   ],
+   "what": "glass facade-3",
+   "ok": true,
+   "source": "the visible part of the opening (the hand via is hidden from this camera); R23b moved off FIXTURE d-table (the ray skims it) (within 2° of the marker) (CG depth) to glass facade-3"
+  },
+  {
+   "scene": "kitchen",
+   "asset": "02-kitchen",
+   "to": "living",
+   "u": 0.711,
+   "v": 0.83,
+   "bearing": 201,
+   "pitch": -32.7,
+   "depth_cm": 295,
+   "height_cm": 1,
+   "hit_cm": [
+    785,
+    779
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "the visible part of the opening (the hand via is hidden from this camera); R23b moved off FIXTURE l-coffee (CG depth) to floor"
+  },
+  {
+   "scene": "kitchen",
+   "asset": "02-kitchen",
+   "to": "entrance",
+   "u": 0.797,
+   "v": 0.68,
+   "bearing": 232,
+   "pitch": -14.8,
+   "depth_cm": 624,
+   "height_cm": 1,
+   "hit_cm": [
+    398,
+    916
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11: the floor toward the front door, past the armchair (the entrance camera is not in sight, so the rule drops this way)"
+  },
+  {
+   "scene": "dining",
+   "asset": "03-dining",
+   "to": "kitchen",
+   "u": 0.285,
+   "v": 0.83,
+   "bearing": -21,
+   "pitch": -32.7,
+   "depth_cm": 296,
+   "height_cm": 0,
+   "hit_cm": [
+    831,
+    548
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE k-counter (CG depth) to floor"
+  },
+  {
+   "scene": "dining",
+   "asset": "03-dining",
+   "to": "living",
+   "u": 0.07,
+   "v": 0.75,
+   "bearing": -98,
+   "pitch": -18.3,
+   "depth_cm": 509,
+   "height_cm": 0,
+   "hit_cm": [
+    440,
+    848
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11: the floor beside the armchair, toward the sofa (the rule put it toward the front door); moved off FIXTURE l-sofa (the ray skims it) (within 2° of the marker) (CG depth) to floor"
+  },
+  {
+   "scene": "dining",
+   "asset": "03-dining",
+   "to": "terraceLiving",
+   "u": 0.801,
+   "v": 0.68,
+   "bearing": 165,
+   "pitch": -14.8,
+   "depth_cm": 380,
+   "height_cm": 63,
+   "hit_cm": [
+    1013,
+    1136
+   ],
+   "what": "opening o-5",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "dining",
+   "asset": "03-dining",
+   "to": "entrance",
+   "u": 0.094,
+   "v": 0.558,
+   "bearing": -89,
+   "pitch": -10.5,
+   "depth_cm": 674,
+   "height_cm": 37,
+   "hit_cm": [
+    256,
+    773
+   ],
+   "what": "wall",
+   "ok": false,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (1.96% of the picture, 6.9 m away; qa-evidence/platform/room-links-2026-11-12/visible.json)"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "terraceLiving",
+   "u": 0.511,
+   "v": 0.68,
+   "bearing": 115,
+   "pitch": -14.8,
+   "depth_cm": 375,
+   "height_cm": 64,
+   "hit_cm": [
+    1008,
+    1082
+   ],
+   "what": "opening o-5",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "dining",
+   "u": 0.339,
+   "v": 0.68,
+   "bearing": 53,
+   "pitch": -14.8,
+   "depth_cm": 332,
+   "height_cm": 75,
+   "hit_cm": [
+    937,
+    736
+   ],
+   "what": "FIXTURE d-table",
+   "ok": false,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11: over the dining table, seen above the sofa back (exact: from this camera every lower point is the sofa, and the depth rule would send the button to the terrace glass; hotspot-check reports this one on the table)"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "kitchen",
+   "u": 0.249,
+   "v": 0.77,
+   "bearing": 21,
+   "pitch": -21.9,
+   "depth_cm": 426,
+   "height_cm": 1,
+   "hit_cm": [
+    821,
+    559
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off FIXTURE k-counter-2 (floor 0 cm from it) (CG depth) to floor"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "entrance",
+   "u": 0.021,
+   "v": 0.68,
+   "bearing": -61,
+   "pitch": -14.8,
+   "depth_cm": 518,
+   "height_cm": 28,
+   "hit_cm": [
+    241,
+    686
+   ],
+   "what": "opening o-12",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "wardrobe",
+   "u": 0.869,
+   "v": 0.68,
+   "bearing": 244,
+   "pitch": -14.8,
+   "depth_cm": 429,
+   "height_cm": 50,
+   "hit_cm": [
+    307,
+    1109
+   ],
+   "what": "FIXTURE l-laundry",
+   "ok": false,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11: the door in the recess right of the TV wall; it opens on the wardrobe corner, the suite's way in (exact: the 3D model has this door about 10 degrees to the left, at 124, and a closet here — the picture and the model differ at this spot; hotspot-check reports this one on the closet)"
+  },
+  {
+   "scene": "living",
+   "asset": "04-living",
+   "to": "bathguest",
+   "u": 0.088,
+   "v": 0.581,
+   "bearing": -37,
+   "pitch": -11.3,
+   "depth_cm": 387,
+   "height_cm": 84,
+   "hit_cm": [
+    451,
+    625
+   ],
+   "what": "FIXTURE bg-vanity (within 2° of the marker)",
+   "ok": false,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (0.55% of the picture, 4.0 m away; qa-evidence/platform/room-links-2026-11-12/visible.json) — its door, seen past the entrance"
+  },
+  {
+   "scene": "terraceLiving",
+   "asset": "05-terrace-living",
+   "to": "living",
+   "u": 0.183,
+   "v": 0.68,
+   "bearing": 242,
+   "pitch": -14.8,
+   "depth_cm": 221,
+   "height_cm": 104,
+   "hit_cm": [
+    1046,
+    1049
+   ],
+   "what": "opening o-5",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "terraceLiving",
+   "asset": "05-terrace-living",
+   "to": "terraceBedroom",
+   "u": 0.103,
+   "v": 0.68,
+   "bearing": 213,
+   "pitch": -14.8,
+   "depth_cm": 545,
+   "height_cm": 21,
+   "hit_cm": [
+    948,
+    1390
+   ],
+   "what": "glass facade-4",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (within 2° of the marker) (CG depth) to glass facade-4"
+  },
+  {
+   "scene": "terraceLiving",
+   "asset": "05-terrace-living",
+   "to": "terraceOut",
+   "u": 0.5,
+   "v": 0.62,
+   "bearing": 356,
+   "pitch": -12.7,
+   "depth_cm": 369,
+   "height_cm": 79,
+   "hit_cm": [
+    1209,
+    589
+   ],
+   "what": "exempt: wall (within 2° of the marker) (exterior.json hand-placed link out)",
+   "ok": true,
+   "source": "exterior.json backFrom"
+  },
+  {
+   "scene": "terraceBedroom",
+   "asset": "06-terrace-bedroom",
+   "to": "terraceLiving",
+   "u": 0.496,
+   "v": 0.68,
+   "bearing": 15,
+   "pitch": -14.8,
+   "depth_cm": 417,
+   "height_cm": 53,
+   "hit_cm": [
+    1105,
+    945
+   ],
+   "what": "glass facade-9",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "terraceBedroom",
+   "asset": "06-terrace-bedroom",
+   "to": "bedroomMain",
+   "u": 0.222,
+   "v": 0.78,
+   "bearing": -84,
+   "pitch": -23.7,
+   "depth_cm": 356,
+   "height_cm": 17,
+   "hit_cm": [
+    678,
+    1299
+   ],
+   "what": "FIXTURE bm-bed",
+   "ok": false,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (19.25% of the picture, 2.0 m away; qa-evidence/platform/room-links-2026-11-12/visible.json) — through its terrace door (o-13) | 2026-11-12 browser check: moved down to the floor by the bed (yaw -100, v 0.78), clear of the wardrobe button"
+  },
+  {
+   "scene": "terraceBedroom",
+   "asset": "06-terrace-bedroom",
+   "to": "wardrobe",
+   "u": 0.256,
+   "v": 0.53,
+   "bearing": -72,
+   "pitch": -9.6,
+   "depth_cm": 624,
+   "height_cm": 56,
+   "hit_cm": [
+    418,
+    1139
+   ],
+   "what": "opening o-6",
+   "ok": true,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (1.28% of the picture, 6.0 m away; qa-evidence/platform/room-links-2026-11-12/visible.json) — beyond the bedroom, so above its button | 2026-11-12 browser check: moved up onto the far door (yaw -88, v 0.53) — at the first place it covered the bedroom button"
+  },
+  {
+   "scene": "terraceBedroom",
+   "asset": "06-terrace-bedroom",
+   "to": "living",
+   "u": 0.352,
+   "v": 0.573,
+   "bearing": -37,
+   "pitch": -11.1,
+   "depth_cm": 111,
+   "height_cm": 139,
+   "hit_cm": [
+    937,
+    1247
+   ],
+   "what": "opening o-13",
+   "ok": true,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (0.74% of the picture, 6.1 m away; qa-evidence/platform/room-links-2026-11-12/visible.json)"
+  },
+  {
+   "scene": "bedroomMain",
+   "asset": "07-bedroom-main",
+   "to": "wardrobe",
+   "u": 0.334,
+   "v": 0.68,
+   "bearing": 285,
+   "pitch": -14.8,
+   "depth_cm": 435,
+   "height_cm": 49,
+   "hit_cm": [
+    422,
+    1189
+   ],
+   "what": "opening o-6",
+   "ok": true,
+   "source": "the visible part of the opening (the hand via is hidden from this camera); R23b moved off wall (CG depth) to opening o-6"
+  },
+  {
+   "scene": "bedroomMain",
+   "asset": "07-bedroom-main",
+   "to": "terraceBedroom",
+   "u": 0.827,
+   "v": 0.696,
+   "bearing": 463,
+   "pitch": -15.4,
+   "depth_cm": 308,
+   "height_cm": 78,
+   "hit_cm": [
+    1118,
+    1363
+   ],
+   "what": "glass railing-7",
+   "ok": true,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (8.03% of the picture, 2.3 m away; qa-evidence/platform/room-links-2026-11-12/visible.json) — its terrace door (o-13)"
+  },
+  {
+   "scene": "bedroomMain",
+   "asset": "07-bedroom-main",
+   "to": "living",
+   "u": 0.367,
+   "v": 0.548,
+   "bearing": 297,
+   "pitch": -10.2,
+   "depth_cm": 601,
+   "height_cm": 54,
+   "hit_cm": [
+    301,
+    1030
+   ],
+   "what": "wall",
+   "ok": false,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (0.67% of the picture, 4.6 m away; qa-evidence/platform/room-links-2026-11-12/visible.json) — beyond the wardrobe corner; moved 3.5 degrees right and up off the wardrobe button"
+  },
+  {
+   "scene": "bedroomMain",
+   "asset": "07-bedroom-main",
+   "to": "terraceLiving",
+   "u": 0.761,
+   "v": 0.593,
+   "bearing": 439,
+   "pitch": -11.8,
+   "depth_cm": 363,
+   "height_cm": 86,
+   "hit_cm": [
+    1177,
+    1230
+   ],
+   "what": "glass railing-7",
+   "ok": true,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (0.32% of the picture, 3.7 m away; qa-evidence/platform/room-links-2026-11-12/visible.json)"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "bedroomMain",
+   "u": 0.632,
+   "v": 0.89,
+   "bearing": 154,
+   "pitch": -43.5,
+   "depth_cm": 232,
+   "height_cm": 0,
+   "hit_cm": [
+    596,
+    1320
+   ],
+   "what": "floor",
+   "ok": true,
+   "source": "the visible part of the opening (the hand via is hidden from this camera); R23b moved off FIXTURE bm-bed (CG depth) to floor"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "bathMain",
+   "u": 0.859,
+   "v": 0.68,
+   "bearing": 236,
+   "pitch": -14.8,
+   "depth_cm": 153,
+   "height_cm": 121,
+   "hit_cm": [
+    399,
+    1252
+   ],
+   "what": "opening o-9",
+   "ok": true,
+   "source": "plan-bearing via the opening; R23b moved off wall (CG depth) to opening o-9"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "living",
+   "u": 0.092,
+   "v": 0.68,
+   "bearing": -40,
+   "pitch": -14.8,
+   "depth_cm": 105,
+   "height_cm": 133,
+   "hit_cm": [
+    456,
+    1091
+   ],
+   "what": "opening o-6",
+   "ok": true,
+   "source": "hotspot-pins.json: the room picture, 2026-11-11: the open door to the living room; moved off wall (CG depth) to opening o-6"
+  },
+  {
+   "scene": "wardrobe",
+   "asset": "08-wardrobe",
+   "to": "terraceBedroom",
+   "u": 0.517,
+   "v": 0.563,
+   "bearing": 113,
+   "pitch": -10.7,
+   "depth_cm": 636,
+   "height_cm": 42,
+   "hit_cm": [
+    1099,
+    1408
+   ],
+   "what": "glass railing-7",
+   "ok": true,
+   "source": "hotspot-pins.json: seen in the room picture, 2026-11-12 (Eliran: from every room a button to every room seen in it): yaw and height = the median of where the model's depth from this exact spot sees that room (0.62% of the picture, 6.3 m away; qa-evidence/platform/room-links-2026-11-12/visible.json) — beyond the bedroom, so above its button"
+  },
+  {
+   "scene": "bathMain",
+   "asset": "09-bath-main",
+   "to": "wardrobe",
+   "u": 0.68,
+   "v": 0.68,
+   "bearing": 102,
+   "pitch": -14.8,
+   "depth_cm": 92,
+   "height_cm": 136,
+   "hit_cm": [
+    380,
+    1269
+   ],
+   "what": "opening o-9",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "bedroom2",
+   "asset": "10-bedroom-2",
+   "to": "entrance",
+   "u": 0.985,
+   "v": 0.68,
+   "bearing": 210,
+   "pitch": -14.8,
+   "depth_cm": 111,
+   "height_cm": 132,
+   "hit_cm": [
+    583,
+    527
+   ],
+   "what": "opening o-10",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  },
+  {
+   "scene": "bathguest",
+   "asset": "11-bath-guest",
+   "to": "entrance",
+   "u": 0.792,
+   "v": 0.68,
+   "bearing": 121,
+   "pitch": -14.8,
+   "depth_cm": 69,
+   "height_cm": 142,
+   "hit_cm": [
+    482,
+    600
+   ],
+   "what": "opening o-11",
+   "ok": true,
+   "source": "plan-bearing via the opening"
+  }
+ ]
+}

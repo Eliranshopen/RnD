@@ -1,0 +1,10 @@
+{
+ "asset": "05-family",
+ "tag": "win3",
+ "parent": "05-family__flat__win2.png",
+ "yaw": 8,
+ "pitch": -10,
+ "hfov": 108,
+ "size": 1024,
+ "note": "the left edge of the window of the same answer (a third box): the old window was wider there"
+}

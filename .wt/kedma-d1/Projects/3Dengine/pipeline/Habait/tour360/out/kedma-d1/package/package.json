@@ -1,0 +1,105 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "kedma-d1",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "apartment": {
+   "seconds": 0,
+   "plan": "..\\jobs\\kedma-d1\\hand\\plan.final.json",
+   "plan_sha256": "c73202b82e13b16443d63d2eb711452f7ac574f278ef3eccbe4cf6ed1ce3e0df",
+   "rooms": 15,
+   "spec": null,
+   "at": "2026-11-16T15:37:35.364Z"
+  },
+  "casework": {
+   "seconds": 0,
+   "symbols": 0,
+   "registration_cm": null,
+   "tall_units": {
+    "k-tall-1": "fridge",
+    "k-tall-2": "fridge"
+   },
+   "at": "2026-11-16T15:37:35.727Z"
+  },
+  "cameras": {
+   "seconds": 0,
+   "scenes": 13,
+   "links": 26,
+   "orphans": [],
+   "at": "2026-11-17T07:37:17.264Z"
+  },
+  "prompts": {
+   "seconds": 0,
+   "scenes": 13,
+   "shared_material_block": true,
+   "at": "2026-11-16T15:38:05.529Z"
+  },
+  "furnish": {
+   "seconds": 2,
+   "seconds_tool": 2,
+   "report": "360walkaround\\tours\\kedma-d1\\_furnish\\report.json",
+   "rooms_furnished": 13,
+   "items": 81,
+   "audit": "PASS-WITH-NOTES",
+   "notes": [],
+   "at": "2026-11-17T07:39:06.617Z"
+  },
+  "render": {
+   "seconds": 968,
+   "seconds_tool": 958,
+   "renders": 13,
+   "res": "3072x1536",
+   "samples": "20",
+   "at": "2026-11-17T19:28:48.248Z"
+  },
+  "scenes": {
+   "seconds": 14,
+   "out": "start view: dining faces 183 cm of clear sight at its centre; heading -149 deg (532 cm)",
+   "hotspots": "hotspots: 26/26 on floor / an opening / glass → _local\\fidelity\\hotspots.json",
+   "at": "2026-11-19T08:26:58.958Z"
+  },
+  "sets": {
+   "seconds": 5,
+   "scenes": 13,
+   "designed": "CG (no --skin)",
+   "at": "2026-11-16T16:00:35.059Z"
+  },
+  "markers": {
+   "seconds": 108,
+   "seconds_tool": 102,
+   "markers": 48,
+   "tail": "balcony: 13 pieces (sofa 1, armchair 2, chair 7, dining_table 1, rug 1, coffee_table 1) · 3 markers · set of 5 · $0.0434 in 14.7s | scan-pieces kedma-d1: 8 scene(s) scanned, 13 in the file · 131 pieces · 48 markers · this run $0.2637 · ledger $18.519 of $19.99 · sheet qa-evidence\\tour360\\T16\\scan\\in",
+   "at": "2026-11-16T17:24:35.047Z"
+  },
+  "build": {
+   "seconds": 1,
+   "line": "build-tour: kedma-d1 → Habait\\tour360\\dist\\kedma-d1 · index.html 492 KB · 13 scenes · 13 panos · 13 original · 0 patches · 13 thumbs · 6 fonts · catalog 18 items · markers 48 in 11 scenes · total 4.95 MB",
+   "rings_and_catalog": true,
+   "at": "2026-11-16T17:29:39.208Z"
+  },
+  "package": {
+   "seconds": 22,
+   "files": 145,
+   "mb": 36.9,
+   "landing_room": "living",
+   "at": "2026-11-17T12:19:09.455Z"
+  },
+  "qa": {
+   "seconds": 35,
+   "verdict": "PASS",
+   "pages": [
+    "1440 landing.html?project=kedma-d1",
+    "390 landing.html?project=kedma-d1",
+    "1440 tour/?room=living",
+    "390 tour/?room=living"
+   ],
+   "screenshots": [
+    "qa/p-kedma-d1-landing-html-project-kedma-d1-1440.png",
+    "qa/p-kedma-d1-landing-html-project-kedma-d1-390.png",
+    "qa/p-kedma-d1-tour-room-living-1440.png",
+    "qa/p-kedma-d1-tour-room-living-390.png"
+   ],
+   "at": "2026-11-17T12:19:44.700Z"
+  }
+ }
+}

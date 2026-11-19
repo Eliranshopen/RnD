@@ -1,0 +1,62 @@
+[
+  {
+    "cell": "phone-he",
+    "ok": false,
+    "ms": 1844,
+    "pngKB": 439,
+    "scrollW": 390,
+    "innerW": 390,
+    "scene": "living",
+    "lang": "he",
+    "dir": "rtl",
+    "badge": {
+      "text": "הדמיה",
+      "visible": true,
+      "fontPx": 13
+    },
+    "concept": {
+      "text": "הדמיה על בסיס תכנית המכר. המידות תואמות לתכנית בסטייה של עד 1%. הריהוט והגימורים להמחשה בלבד.",
+      "visible": true,
+      "fontPx": 13
+    },
+    "ai": {
+      "text": "תמונות שנוצרו בבינה מלאכותית · לא צילום של הנכס",
+      "visible": true,
+      "fontPx": 12.5
+    },
+    "hotspots": 4,
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  },
+  {
+    "cell": "desktop-he",
+    "ok": false,
+    "ms": 1608,
+    "pngKB": 639,
+    "scrollW": 1440,
+    "innerW": 1440,
+    "scene": "living",
+    "lang": "he",
+    "dir": "rtl",
+    "badge": {
+      "text": "הדמיה",
+      "visible": true,
+      "fontPx": 13
+    },
+    "concept": {
+      "text": "הדמיה על בסיס תכנית המכר. המידות תואמות לתכנית בסטייה של עד 1%. הריהוט והגימורים להמחשה בלבד.",
+      "visible": true,
+      "fontPx": 13
+    },
+    "ai": {
+      "text": "תמונות שנוצרו בבינה מלאכותית · לא צילום של הנכס",
+      "visible": true,
+      "fontPx": 12.5
+    },
+    "hotspots": 4,
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ]
+  }
+]

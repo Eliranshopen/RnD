@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.git": true
+    },
+    "search.exclude": {
+        ".wt": true
+    },
+    "git.enabled": true,
+    "python.terminal.useEnvFile": true
+}

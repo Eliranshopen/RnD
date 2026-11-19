@@ -1,0 +1,38 @@
+{
+ "version": 3,
+ "blend": "aligned@cut+laplacian-6",
+ "parent": "03-dining__gpt25__s7__fb222e11fa0f.png",
+ "band": {
+  "u": 0.0278,
+  "deg": 120
+ },
+ "cut_search_px": 140,
+ "align_max_px": 16,
+ "cuts": [
+  {
+   "u": 0.8022,
+   "structure": 1.88,
+   "tone": 3.07,
+   "aligned_px": 5,
+   "line_step_px": 0,
+   "lines": 34
+  },
+  {
+   "u": 0.2256,
+   "structure": 1.56,
+   "tone": 2.84,
+   "aligned_px": 1,
+   "line_step_px": 2,
+   "lines": 14
+  }
+ ],
+ "ref": "02-kitchen__gpt25__s32__1fd6490ac915.png",
+ "ref_scale": {
+  "verdict": "FAIL",
+  "ratio": null,
+  "class": "transplant",
+  "against": "03-dining__gpt25__s7__fb222e11fa0f.png",
+  "object": "the largest piece of furniture or built-in element in the middle of the image",
+  "sheet": "_local\\fidelity\\ref-scale__03-dining__05e2d1a20c24.jpg"
+ }
+}

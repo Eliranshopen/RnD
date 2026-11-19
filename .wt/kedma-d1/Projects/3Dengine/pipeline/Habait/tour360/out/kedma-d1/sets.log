@@ -1,0 +1,28 @@
+01-kitchen           ← 01-kitchen__cg__0.png 2048x1024 → balanced 46 KB · thumb 6 KB
+02-pantry            ← 02-pantry__cg__0.png 2048x1024 → balanced 27 KB · thumb 4 KB
+03-living            ← 03-living__cg__0.png 2048x1024 → balanced 49 KB · thumb 4 KB
+04-dining            ← 04-dining__cg__0.png 2048x1024 → balanced 46 KB · thumb 5 KB
+05-family            ← 05-family__cg__0.png 2048x1024 → balanced 44 KB · thumb 3 KB
+06-corridor          ← 06-corridor__cg__0.png 2048x1024 → balanced 41 KB · thumb 3 KB
+07-master            ← 07-master__cg__0.png 2048x1024 → balanced 44 KB · thumb 4 KB
+08-shower            ← 08-shower__cg__0.png 2048x1024 → balanced 37 KB · thumb 3 KB
+09-bed1              ← 09-bed1__cg__0.png 2048x1024 → balanced 39 KB · thumb 3 KB
+10-bed2              ← 10-bed2__cg__0.png 2048x1024 → balanced 40 KB · thumb 3 KB
+11-bath              ← 11-bath__cg__0.png 2048x1024 → balanced 35 KB · thumb 2 KB
+12-mamad             ← 12-mamad__cg__0.png 2048x1024 → balanced 39 KB · thumb 3 KB
+13-balcony           ← 13-balcony__cg__0.png 2048x1024 → balanced 60 KB · thumb 3 KB
+make-sets: 13 of 13 scenes written
+01-kitchen           ← original 360walkaround\tours\kedma-d1\renders\cp-kitchen\pano.webp → 46 KB
+02-pantry            ← original 360walkaround\tours\kedma-d1\renders\cp-pantry\pano.webp → 27 KB
+03-living            ← original 360walkaround\tours\kedma-d1\renders\cp-living\pano.webp → 49 KB
+04-dining            ← original 360walkaround\tours\kedma-d1\renders\cp-dining\pano.webp → 46 KB
+05-family            ← original 360walkaround\tours\kedma-d1\renders\cp-family\pano.webp → 44 KB
+06-corridor          ← original 360walkaround\tours\kedma-d1\renders\cp-corridor\pano.webp → 41 KB
+07-master            ← original 360walkaround\tours\kedma-d1\renders\cp-master\pano.webp → 44 KB
+08-shower            ← original 360walkaround\tours\kedma-d1\renders\cp-shower\pano.webp → 37 KB
+09-bed1              ← original 360walkaround\tours\kedma-d1\renders\cp-bed1\pano.webp → 39 KB
+10-bed2              ← original 360walkaround\tours\kedma-d1\renders\cp-bed2\pano.webp → 40 KB
+11-bath              ← original 360walkaround\tours\kedma-d1\renders\cp-bath\pano.webp → 35 KB
+12-mamad             ← original 360walkaround\tours\kedma-d1\renders\cp-mamad\pano.webp → 39 KB
+13-balcony           ← original 360walkaround\tours\kedma-d1\renders\cp-balcony\pano.webp → 60 KB
+make-sets: original set 13 of 13 written to panos/original

@@ -1,0 +1,24 @@
+
+=== [1/1] cp-terraceLiving ================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\scene-full.blend
+[render_pano] point      : cp-terraceLiving  plan (1234.5,948.0,160) yaw 355.9
+[render_pano] camera     : (12.345, -9.48, 1.6) m  euler (90.0, 0.0, -355.9) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 64 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceLiving
+[render_pano] input_key  : 6281937238b37779…
+[render_pano] render 1/1: 198.702 s wall  (cycles 197.93s, device peak 1093.58 MB, host peak 1425.3 MB)
+[render_pano] depth      : depth.png 128,657 B  valid 1,844,962 / 2,097,152  sky 252,190  range 0.403..2025.070 m  (0.264 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-terrace-living floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-terrace-living ceiling z=290 cm]
+              SKIP  room r-terrace-living is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 53,766 B  zenith mean 182.5/255 (4 colours) · nadir mean 209.0/255 (2 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceLiving\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\manifest.json (key 'cp-terraceLiving')
+OK
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceLiving\pano-pano-0001'
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceLiving\pano-depth-0001'
+

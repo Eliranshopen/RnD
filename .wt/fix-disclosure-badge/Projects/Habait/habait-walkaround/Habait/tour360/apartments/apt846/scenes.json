@@ -1,0 +1,845 @@
+{
+ "$schema": "tour360/scenes.v1",
+ "apartment": "apt846",
+ "coordinateNotes": {
+  "u_v": "normalized position on the FULL equirectangular image: u 0→1 left→right (0.5 = image centre = yaw 0); v 0.68 on the floor line",
+  "plan": "x/y in the pixel space of plan/floorplan.webp = the plan crop (3750×3900 px, ≈2.25 px/cm, rotated as the architect drew it) × 0.4",
+  "hotspots": "u from the plan bearing to the opening the visitor walks through (cameras.json `via`), minus the bearing the panorama centre faces (`lookAt`); computed by tools/make-scenes.mjs, not calibrated by eye",
+  "heading": "the start yaw of every room is 0, the panorama centre the prompt aimed (cameras.json lookAt; centreBearingDeg is that bearing in plan image space)"
+ },
+ "scenes": [
+  {
+   "id": "aerial",
+   "name": {
+    "he": "מעוף ציפור",
+    "en": "Bird's eye",
+    "fr": "Vue aérienne"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-a-aerial",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "orbit1",
+   "autoDwellMs": 1500,
+   "hotspots": [
+    {
+     "to": "tower",
+     "u": 0.5,
+     "v": 0.621,
+     "label": {
+      "he": "אל המגדל",
+      "en": "To the tower",
+      "fr": "Vers la tour"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    }
+   ]
+  },
+  {
+   "id": "orbit1",
+   "name": {
+    "he": "סיבוב · 2",
+    "en": "Orbit · 2",
+    "fr": "Orbite · 2"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-o1-orbit",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "orbit2",
+   "autoDwellMs": 1500,
+   "hotspots": [
+    {
+     "to": "tower",
+     "u": 0.503,
+     "v": 0.62,
+     "label": {
+      "he": "אל המגדל",
+      "en": "To the tower",
+      "fr": "Vers la tour"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    }
+   ]
+  },
+  {
+   "id": "orbit2",
+   "name": {
+    "he": "סיבוב · 3",
+    "en": "Orbit · 3",
+    "fr": "Orbite · 3"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-o2-orbit",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "orbit3",
+   "autoDwellMs": 1500,
+   "hotspots": [
+    {
+     "to": "tower",
+     "u": 0.503,
+     "v": 0.617,
+     "label": {
+      "he": "אל המגדל",
+      "en": "To the tower",
+      "fr": "Vers la tour"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    }
+   ]
+  },
+  {
+   "id": "orbit3",
+   "name": {
+    "he": "סיבוב · 4",
+    "en": "Orbit · 4",
+    "fr": "Orbite · 4"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-o3-orbit",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "orbit4",
+   "autoDwellMs": 1500,
+   "hotspots": [
+    {
+     "to": "tower",
+     "u": 0.5,
+     "v": 0.616,
+     "label": {
+      "he": "אל המגדל",
+      "en": "To the tower",
+      "fr": "Vers la tour"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    }
+   ]
+  },
+  {
+   "id": "orbit4",
+   "name": {
+    "he": "סיבוב · 5",
+    "en": "Orbit · 5",
+    "fr": "Orbite · 5"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-o4-orbit",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "orbit5",
+   "autoDwellMs": 1500,
+   "hotspots": [
+    {
+     "to": "tower",
+     "u": 0.497,
+     "v": 0.617,
+     "label": {
+      "he": "אל המגדל",
+      "en": "To the tower",
+      "fr": "Vers la tour"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    }
+   ]
+  },
+  {
+   "id": "orbit5",
+   "name": {
+    "he": "סיבוב · 6",
+    "en": "Orbit · 6",
+    "fr": "Orbite · 6"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-o5-orbit",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "tower",
+   "autoDwellMs": 1500,
+   "hotspots": [
+    {
+     "to": "tower",
+     "u": 0.497,
+     "v": 0.619,
+     "label": {
+      "he": "אל המגדל",
+      "en": "To the tower",
+      "fr": "Vers la tour"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    }
+   ]
+  },
+  {
+   "id": "tower",
+   "name": {
+    "he": "מול המגדל",
+    "en": "At the tower",
+    "fr": "Devant la tour"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-b-tower",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "hold": true,
+   "hotspots": [
+    {
+     "to": "approach45",
+     "u": 0.5,
+     "v": 0.577,
+     "label": {
+      "he": "דירה 846 · קומה 16",
+      "en": "Apartment 846 · floor 16",
+      "fr": "Appartement 846 · 16e étage"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    },
+    {
+     "to": "aerial",
+     "u": 0,
+     "v": 0.6,
+     "label": {
+      "he": "חזרה למעוף",
+      "en": "Back up",
+      "fr": "Retour en vol"
+     },
+     "source": "exterior.json, placed on the equirect"
+    }
+   ]
+  },
+  {
+   "id": "approach45",
+   "name": {
+    "he": "בדרך לדירה · 45 מ'",
+    "en": "Approach · 45 m",
+    "fr": "Approche · 45 m"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-e-approach45",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "approach25",
+   "autoDwellMs": 1000,
+   "hotspots": [
+    {
+     "to": "approach25",
+     "u": 0.5,
+     "v": 0.572,
+     "label": {
+      "he": "קרוב יותר",
+      "en": "Closer",
+      "fr": "Plus près"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    },
+    {
+     "to": "tower",
+     "u": 0,
+     "v": 0.6,
+     "label": {
+      "he": "חזרה",
+      "en": "Back",
+      "fr": "Retour"
+     },
+     "source": "exterior.json, placed on the equirect"
+    }
+   ]
+  },
+  {
+   "id": "approach25",
+   "name": {
+    "he": "בדרך לדירה · 25 מ'",
+    "en": "Approach · 25 m",
+    "fr": "Approche · 25 m"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-f-approach25",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "facade",
+   "autoDwellMs": 1000,
+   "hotspots": [
+    {
+     "to": "facade",
+     "u": 0.5,
+     "v": 0.559,
+     "label": {
+      "he": "אל החזית",
+      "en": "To the facade",
+      "fr": "Vers la façade"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    },
+    {
+     "to": "approach45",
+     "u": 0,
+     "v": 0.6,
+     "label": {
+      "he": "חזרה",
+      "en": "Back",
+      "fr": "Retour"
+     },
+     "source": "exterior.json, placed on the equirect"
+    }
+   ]
+  },
+  {
+   "id": "facade",
+   "name": {
+    "he": "מול החזית · קומה 16",
+    "en": "Facade · floor 16",
+    "fr": "Façade · 16e étage"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-c-facade",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "terraceOut",
+   "autoDwellMs": 1000,
+   "hotspots": [
+    {
+     "to": "terraceOut",
+     "u": 0.5,
+     "v": 0.543,
+     "label": {
+      "he": "דירה 846",
+      "en": "Apartment 846",
+      "fr": "Appartement 846"
+     },
+     "source": "tools/world2equi.py: apartment 846 terrace point (10.325, -11.148, 1.0) projected on this node"
+    },
+    {
+     "to": "tower",
+     "u": 0,
+     "v": 0.6,
+     "label": {
+      "he": "חזרה",
+      "en": "Back",
+      "fr": "Retour"
+     },
+     "source": "exterior.json, placed on the equirect"
+    }
+   ]
+  },
+  {
+   "id": "terraceOut",
+   "name": {
+    "he": "מחוץ למרפסת",
+    "en": "Outside the terrace",
+    "fr": "Devant la terrasse"
+   },
+   "zone": {
+    "he": "מחוץ לבניין",
+    "en": "Outside",
+    "fr": "Extérieur"
+   },
+   "asset": "node-d-terrace",
+   "exterior": true,
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": null,
+   "autoNext": "terraceLiving",
+   "autoDwellMs": 1200,
+   "autoYaw": -114,
+   "hotspots": [
+    {
+     "to": "terraceLiving",
+     "u": 0.5,
+     "v": 0.58,
+     "label": {
+      "he": "אל המרפסת",
+      "en": "Onto the terrace",
+      "fr": "Sur la terrasse"
+     },
+     "source": "exterior.json, placed on the equirect"
+    },
+    {
+     "to": "facade",
+     "u": 0,
+     "v": 0.6,
+     "label": {
+      "he": "חזרה",
+      "en": "Back",
+      "fr": "Retour"
+     },
+     "source": "exterior.json, placed on the equirect"
+    }
+   ]
+  },
+  {
+   "id": "entrance",
+   "name": {
+    "he": "כניסה",
+    "en": "Entrance",
+    "fr": "Entrée"
+   },
+   "zone": {
+    "he": "מרחב מגורים פתוח",
+    "en": "Open living",
+    "fr": "Séjour ouvert"
+   },
+   "asset": "01-entrance",
+   "plan": {
+    "x": 275,
+    "y": 692
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 105.9,
+   "hotspots": [
+    {
+     "to": "living",
+     "u": 0.515,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "kitchen",
+     "u": 0.386,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "bathguest",
+     "u": 0.335,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "kitchen",
+   "name": {
+    "he": "מטבח",
+    "en": "Kitchen",
+    "fr": "Cuisine"
+   },
+   "zone": {
+    "he": "מרחב מגורים פתוח",
+    "en": "Open living",
+    "fr": "Séjour ouvert"
+   },
+   "asset": "02-kitchen",
+   "plan": {
+    "x": 754,
+    "y": 479
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 125.5,
+   "hotspots": [
+    {
+     "to": "dining",
+     "u": 0.56,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "living",
+     "u": 0.684,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "entrance",
+     "u": 0.817,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "bedroom2",
+     "u": 0.955,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "dining",
+   "name": {
+    "he": "פינת אוכל",
+    "en": "Dining",
+    "fr": "Salle à manger"
+   },
+   "zone": {
+    "he": "מרחב מגורים פתוח",
+    "en": "Open living",
+    "fr": "Séjour ouvert"
+   },
+   "asset": "03-dining",
+   "plan": {
+    "x": 833,
+    "y": 708
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 56.8,
+   "hotspots": [
+    {
+     "to": "kitchen",
+     "u": 0.288,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "living",
+     "u": 0.981,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "terraceLiving",
+     "u": 0.801,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "living",
+   "name": {
+    "he": "סלון",
+    "en": "Living room",
+    "fr": "Séjour"
+   },
+   "zone": {
+    "he": "מרחב מגורים פתוח",
+    "en": "Open living",
+    "fr": "Séjour ouvert"
+   },
+   "asset": "04-living",
+   "plan": {
+    "x": 617,
+    "y": 842
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 111.3,
+   "hotspots": [
+    {
+     "to": "terraceLiving",
+     "u": 0.511,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "dining",
+     "u": 0.341,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "kitchen",
+     "u": 0.249,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "entrance",
+     "u": 0.021,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "bedroomMain",
+     "u": 0.791,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "terraceLiving",
+   "name": {
+    "he": "מרפסת שמש",
+    "en": "Sun terrace",
+    "fr": "Terrasse"
+   },
+   "zone": {
+    "he": "מרפסת השמש",
+    "en": "The terrace",
+    "fr": "La terrasse"
+   },
+   "asset": "05-terrace-living",
+   "plan": {
+    "x": 1120,
+    "y": 860
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 355.9,
+   "hotspots": [
+    {
+     "to": "living",
+     "u": 0.183,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "dining",
+     "u": 0.335,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "terraceBedroom",
+     "u": 0.1,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "terraceOut",
+     "u": 0.5,
+     "v": 0.62,
+     "source": "exterior.json backFrom"
+    }
+   ]
+  },
+  {
+   "id": "terraceBedroom",
+   "name": {
+    "he": "מרפסת · קצה החדרים",
+    "en": "Terrace · bedroom end",
+    "fr": "Terrasse · côté chambres"
+   },
+   "zone": {
+    "he": "מרפסת השמש",
+    "en": "The terrace",
+    "fr": "La terrasse"
+   },
+   "asset": "06-terrace-bedroom",
+   "plan": {
+    "x": 900,
+    "y": 1233
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 16.3,
+   "hotspots": [
+    {
+     "to": "terraceLiving",
+     "u": 0.498,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "bedroomMain",
+   "name": {
+    "he": "חדר שינה הורים",
+    "en": "Main bedroom",
+    "fr": "Chambre principale"
+   },
+   "zone": {
+    "he": "אגף החדרים",
+    "en": "Bedrooms",
+    "fr": "Chambres"
+   },
+   "asset": "07-bedroom-main",
+   "plan": {
+    "x": 756,
+    "y": 1300
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 344.9,
+   "hotspots": [
+    {
+     "to": "living",
+     "u": 0.403,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "wardrobe",
+     "u": 0.349,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "wardrobe",
+   "name": {
+    "he": "פינת ארונות",
+    "en": "Dressing nook",
+    "fr": "Dressing"
+   },
+   "zone": {
+    "he": "אגף החדרים",
+    "en": "Bedrooms",
+    "fr": "Chambres"
+   },
+   "asset": "08-wardrobe",
+   "plan": {
+    "x": 392,
+    "y": 1192
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 106.4,
+   "hotspots": [
+    {
+     "to": "bedroomMain",
+     "u": 0.468,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    },
+    {
+     "to": "bathMain",
+     "u": 0.089,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "bathMain",
+   "name": {
+    "he": "חדר רחצה הורים",
+    "en": "Main bathroom",
+    "fr": "Salle de bain principale"
+   },
+   "zone": {
+    "he": "אגף החדרים",
+    "en": "Bedrooms",
+    "fr": "Chambres"
+   },
+   "asset": "09-bath-main",
+   "plan": {
+    "x": 275,
+    "y": 1167
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 36.8,
+   "hotspots": [
+    {
+     "to": "wardrobe",
+     "u": 0.624,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "bedroom2",
+   "name": {
+    "he": "חדר שינה",
+    "en": "Second bedroom",
+    "fr": "Deuxième chambre"
+   },
+   "zone": {
+    "he": "אגף החדרים",
+    "en": "Bedrooms",
+    "fr": "Chambres"
+   },
+   "asset": "10-bedroom-2",
+   "plan": {
+    "x": 578,
+    "y": 394
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 35.2,
+   "hotspots": [
+    {
+     "to": "kitchen",
+     "u": 0.922,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  },
+  {
+   "id": "bathguest",
+   "name": {
+    "he": "חדר רחצה כללי",
+    "en": "Guest bathroom",
+    "fr": "Salle de bain invités"
+   },
+   "zone": {
+    "he": "אגף החדרים",
+    "en": "Bedrooms",
+    "fr": "Chambres"
+   },
+   "asset": "11-bath-guest",
+   "plan": {
+    "x": 417,
+    "y": 508
+   },
+   "heading": 0,
+   "northOffset": 0,
+   "centreBearingDeg": 15.7,
+   "hotspots": [
+    {
+     "to": "entrance",
+     "u": 0.883,
+     "v": 0.68,
+     "source": "plan-bearing via the opening"
+    }
+   ]
+  }
+ ]
+}

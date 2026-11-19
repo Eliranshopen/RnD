@@ -1,0 +1,55 @@
+[auto-trace 25s] pages: $0.0178
+[auto-trace 30s] brochure: 6 floor plan(s) found, 2 chosen (p7 קומה א', p7 קומת קרקע)
+[auto-trace 30s] plan 1: 1386×2362 (page 7, קומה א')
+[auto-trace 31s] auto_prep: brochure mode, wall colour [107, 107, 107] (from bands >= 9.0 px), walls 4.1 %, 7 window bars
+[auto-trace 50s] read: $0.0108
+[auto-trace 50s] scale 1.3814 px/cm (guessed from 6 room boxes vs printed dims, then fitted); 7 seeds, 10 fixtures read
+[auto-trace 52s] r1 auto_split: 8 seeds, 5 boundary lines, wall angle 0.0, 3 notes
+[auto-trace 52s] r1 note: envelope closing 200 cm (96 % of the walls' hull)
+[auto-trace 52s] r1 note: envelope: 62.1 m� closed footprint, 1 gap line(s) on its outline
+[auto-trace 52s] r1 note: hall-auto-11: 3.4 m� of open space carried no label; made a hall
+[auto-trace 61s] r1 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-1\plan.general.json: 8 rooms, 5 wall pieces, 3 openings, 0 panes, 8 cameras, 0 fixtures
+[auto-trace 62s] r1 auto_rooms: 1 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 10 rooms (axis 0.0 deg), 6 printed rectangles, 6 snapped; 3 notes
+[auto-trace 64s] r1 auto_finalize: 10 rooms, 10 fixtures, wall angle 0.0 deg, scale 1.3402 px/cm (fit x0.9702), 8 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-1\overlay.png
+[auto-trace 65s] r1 trace_check: FAIL � 57/71 checks pass; corrections: force_rect ['bedroom', 'bedroom-2', 'master-bedroom']
+[auto-trace 65s] r1 correcting: re-seed bedroom, bedroom-2, master-bedroom from their printed rectangles, re-cut the open space
+[auto-trace 65s] r2 auto_split: 8 seeds, 5 boundary lines, wall angle 0.0, 3 notes
+[auto-trace 65s] r2 note: envelope closing 200 cm (96 % of the walls' hull)
+[auto-trace 65s] r2 note: envelope: 62.1 m� closed footprint, 1 gap line(s) on its outline
+[auto-trace 65s] r2 note: hall-auto-11: 3.4 m� of open space carried no label; made a hall
+[auto-trace 74s] r2 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-1\plan.general.json: 8 rooms, 5 wall pieces, 3 openings, 0 panes, 8 cameras, 0 fixtures
+[auto-trace 75s] r2 auto_rooms: 1 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 10 rooms (axis 0.0 deg), 6 printed rectangles, 6 snapped; 3 notes
+[auto-trace 78s] r2 auto_finalize: 10 rooms, 10 fixtures, wall angle 0.0 deg, scale 1.3402 px/cm (fit x0.9702), 8 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-1\overlay.png
+[auto-trace 78s] r2 trace_check: FAIL � 57/71 checks pass; corrections: force_rect ['bedroom', 'bedroom-2', 'master-bedroom']
+[auto-trace 78s] r2 no further correction applies
+[auto-trace 91s] judge: $0.0078
+[auto-trace 91s] plan 1: FAIL after 2 round(s) — 14 mechanical failure(s), judge 7 mismatch(es)
+[auto-trace 91s] plan 2: 2268×2682 (page 7, קומת קרקע)
+[auto-trace 92s] auto_prep: brochure mode, wall colour [107, 107, 107] (from bands >= 9.6 px), walls 3.6 %, 7 window bars
+[auto-trace 109s] read: $0.0103
+[auto-trace 109s] scale 1.4031 px/cm (guessed from 4 room boxes vs printed dims, then fitted); 7 seeds, 8 fixtures read
+[auto-trace 113s] r1 auto_split: 7 seeds, 16 boundary lines, wall angle 0.0, 3 notes
+[auto-trace 113s] r1 note: envelope closing 300 cm (73 % of the walls' hull)
+[auto-trace 113s] r1 note: envelope: 115.1 m� closed footprint, 2 gap line(s) on its outline
+[auto-trace 113s] r1 note: entrance: label outside the building, moved 98 cm inside
+[auto-trace 127s] r1 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-2\plan.general.json: 7 rooms, 6 wall pieces, 2 openings, 0 panes, 7 cameras, 0 fixtures
+[auto-trace 132s] r1 auto_rooms: 6 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 7 rooms (axis 0.0 deg), 5 printed rectangles, 5 snapped; 1 notes
+[auto-trace 136s] r1 auto_finalize: 7 rooms, 8 fixtures, wall angle 0.0 deg, scale 1.3904 px/cm (fit x0.9910), 6 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-2\overlay.png
+[auto-trace 137s] r1 trace_check: FAIL � 50/56 checks pass; corrections: force_rect ['kitchen', 'living-room', 'safe-room-mamad']
+[auto-trace 137s] r1 correcting: re-seed kitchen, living-room, safe-room-mamad from their printed rectangles, re-cut the open space
+[auto-trace 138s] r2 auto_split: 7 seeds, 16 boundary lines, wall angle 0.0, 3 notes
+[auto-trace 138s] r2 note: envelope closing 300 cm (73 % of the walls' hull)
+[auto-trace 138s] r2 note: envelope: 115.1 m� closed footprint, 2 gap line(s) on its outline
+[auto-trace 138s] r2 note: entrance: label outside the building, moved 98 cm inside
+[auto-trace 153s] r2 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-2\plan.general.json: 7 rooms, 6 wall pieces, 2 openings, 0 panes, 7 cameras, 0 fixtures
+[auto-trace 158s] r2 auto_rooms: 6 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 7 rooms (axis 0.0 deg), 5 printed rectangles, 5 snapped; 1 notes
+[auto-trace 162s] r2 auto_finalize: 7 rooms, 8 fixtures, wall angle 0.0 deg, scale 1.3904 px/cm (fit x0.9910), 6 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-2\overlay.png
+[auto-trace 163s] r2 trace_check: FAIL � 50/56 checks pass; corrections: force_rect ['kitchen', 'living-room', 'safe-room-mamad']
+[auto-trace 163s] r2 no further correction applies
+[auto-trace 175s] judge: $0.0062
+[auto-trace 175s] plan 2: FAIL after 2 round(s) — 6 mechanical failure(s), judge 3 mismatch(es)
+[auto-trace 175s] done: FAIL — plan-1 FAIL, plan-2 FAIL; $0.0529 → C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\index.json

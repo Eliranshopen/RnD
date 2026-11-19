@@ -1,0 +1,24 @@
+01-entrance          ← 01-entrance__cg__0.png 1024x512 → balanced 37 KB · thumb 3 KB
+02-kitchen           ← 02-kitchen__cg__0.png 1024x512 → balanced 55 KB · thumb 6 KB
+03-dining            ← 03-dining__cg__0.png 1024x512 → balanced 60 KB · thumb 5 KB
+04-living            ← 04-living__cg__0.png 1024x512 → balanced 45 KB · thumb 6 KB
+05-terrace-living    ← 05-terrace-living__cg__0.png 1024x512 → balanced 67 KB · thumb 4 KB
+06-terrace-bedroom   ← 06-terrace-bedroom__cg__0.png 1024x512 → balanced 61 KB · thumb 2 KB
+07-bedroom-main      ← 07-bedroom-main__cg__0.png 1024x512 → balanced 30 KB · thumb 3 KB
+08-wardrobe          ← 08-wardrobe__cg__0.png 1024x512 → balanced 34 KB · thumb 2 KB
+09-bath-main         ← 09-bath-main__cg__0.png 1024x512 → balanced 24 KB · thumb 1 KB
+10-bedroom-2         ← 10-bedroom-2__cg__0.png 1024x512 → balanced 36 KB · thumb 3 KB
+11-bath-guest        ← 11-bath-guest__cg__0.png 1024x512 → balanced 34 KB · thumb 2 KB
+make-sets: 11 of 11 scenes written
+01-entrance          ← original 360walkaround\tours\p846test\renders\cp-entrance\pano.webp → 37 KB
+02-kitchen           ← original 360walkaround\tours\p846test\renders\cp-kitchen\pano.webp → 55 KB
+03-dining            ← original 360walkaround\tours\p846test\renders\cp-dining\pano.webp → 60 KB
+04-living            ← original 360walkaround\tours\p846test\renders\cp-living\pano.webp → 45 KB
+05-terrace-living    ← original 360walkaround\tours\p846test\renders\cp-terraceLiving\pano.webp → 67 KB
+06-terrace-bedroom   ← original 360walkaround\tours\p846test\renders\cp-terraceBedroom\pano.webp → 61 KB
+07-bedroom-main      ← original 360walkaround\tours\p846test\renders\cp-bedroomMain\pano.webp → 30 KB
+08-wardrobe          ← original 360walkaround\tours\p846test\renders\cp-wardrobe\pano.webp → 34 KB
+09-bath-main         ← original 360walkaround\tours\p846test\renders\cp-bathMain\pano.webp → 24 KB
+10-bedroom-2         ← original 360walkaround\tours\p846test\renders\cp-bedroom2\pano.webp → 36 KB
+11-bath-guest        ← original 360walkaround\tours\p846test\renders\cp-bathGuest\pano.webp → 34 KB
+make-sets: original set 11 of 11 written to panos/original

@@ -1,0 +1,18 @@
+{
+ "name": "hold-building-tour",
+ "purpose": "",
+ "opened": "2026-11-04T09:41:33",
+ "files": [
+  {
+   "path": "Projects/Habait/research/fal-bench-2026-11-02/flyover3d/index.html",
+   "sha256_at_open": "eb91322434100838da3895a9816c85d5c49dc1013d818bf9e02fde5ca24dc7bb",
+   "sha256_at_close": "9296830202acc31e8b15b11d657db2633b1931f8fbca9b5668ddcb0fdda530be"
+  },
+  {
+   "path": "Projects/Habait/research/fal-bench-2026-11-02/flyover3d/app.js",
+   "sha256_at_open": "def3139623d5316bee3240fef5f2b024cf368d8d8aa014318a3a2b9d03bcb100",
+   "sha256_at_close": "dfbe759f2c3b3e7712063a8de96faba31383b1f7c5e28bb4a94b04d33347b7f9"
+  }
+ ],
+ "closed": "2026-11-04T10:51:29"
+}

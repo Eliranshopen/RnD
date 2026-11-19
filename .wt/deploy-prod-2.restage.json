@@ -1,0 +1,24 @@
+{
+  "$schema": "tour360/restage.v1",
+  "when": "2026-11-16T15:43:06.727Z",
+  "from": "C:\\Users\\elira\\AppData\\Local\\Temp\\claude\\76e6db1160dffba0\\6ebc3d8f-7b16-4880-90d0-725aacae9a04\\scratchpad\\prod-1",
+  "to": "C:\\RnD\\.wt\\deploy-prod-2",
+  "baseline": "a63494a",
+  "checkout": "42f41a1",
+  "files": 2222,
+  "changed": [
+    {
+      "file": "tour/index.html",
+      "before": "36108e2a526bd4c4978aab2fc3cb469938e76ee6be56a5ee4d827781b3d598c6",
+      "after": "a13b4e5553ec55f37241cefd078286516b8c331d05b10830eccc9d0684582593",
+      "what": "viewer/tour.js + viewer/edit-live.js of this checkout (the stage's return link kept), apartment.plan.pxPerCm = 0.9"
+    },
+    {
+      "file": "api/_handler.mjs",
+      "before": "77b2031c133c6155f17211bf893f923c2be917afd66f5d97ffc33f7e59738625",
+      "after": "bea7201ba079bde10ab180323faa4adadc963fbdc73b5b81adb8297cd25bdfb9",
+      "what": "server/handler.mjs of this checkout"
+    }
+  ],
+  "cost_usd": 0
+}

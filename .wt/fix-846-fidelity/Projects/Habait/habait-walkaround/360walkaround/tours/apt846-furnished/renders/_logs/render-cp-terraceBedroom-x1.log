@@ -1,0 +1,26 @@
+
+=== [1/1] cp-terraceBedroom ===============================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\scene-full.blend
+[render_pano] point      : cp-terraceBedroom  plan (1002.1,1334.3,160) yaw 16.3
+[render_pano] camera     : (10.021, -13.343, 1.6) m  euler (90.0, 0.0, -16.3) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 64 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceBedroom
+[render_pano] input_key  : 434d9aa98f92a702…
+[render_pano] render 1/1: 178.811 s wall  (cycles 178.17s, device peak 1093.58 MB, host peak 1425.3 MB)
+[render_pano] depth      : depth.png 191,938 B  valid 1,519,968 / 2,097,152  sky 577,184  range 0.624..2025.070 m  (0.191 s)
+[render_pano] depth check: 2/3 within 2.0 cm, worst 130.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err -0.00 cm   [r-terrace-bedroom floor z=0]
+              FAIL  zenith (ceiling)                             expected 1.3000 m  decoded 0.0000 m  err -130.00 cm   [r-terrace-bedroom ceiling z=290 cm]
+              SKIP  room r-terrace-bedroom is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 73,814 B  zenith mean 67.3/255 (5 colours) · nadir mean 176.7/255 (13 colours) · no_hole=True
+NOTE      the depth zenith row has no surface: r-terrace-bedroom is an unroofed outdoor room, the sky above it is the geometry (v0.3.0), not a hole
+REPORT    1 depth check(s) outside 2.0 cm: ['zenith (ceiling)']  (--check-mode report: not a failure)
+[render_pano] sidecar    : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceBedroom\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\manifest.json (key 'cp-terraceBedroom')
+OK
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceBedroom\pano-depth-0001'
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-terraceBedroom\pano-pano-0001'
+

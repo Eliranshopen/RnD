@@ -1,0 +1,58 @@
+render_tour.mjs v0.1.0  tour=360walkaround/tours/apt846-auto  mode=draft 2048x1024@16spp  wrap-pad=512  points=5
+          golden depth fixture: golden: 32/32 pixels match; unknown-encoding refused: true | OK
+          scene: STALE — plan.json changed since the scene was built
+
+=== scene build ==============================================
+          OK
+          scene built in 13.5 s
+
+=== chunk 1/1: 5 point(s) ====================
+          === [1/5] cp-entrance =====================================
+          [render_pano] point      : cp-entrance  plan (310,762.4,160) yaw 296
+          [render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+          [render_pano] render 1/1: 67.589 s wall  (cycles 66.84s, device peak 1092.62 MB, host peak 1423.45 MB)
+          [render_pano] depth      : depth.png 174,251 B  valid 2,097,152 / 2,097,152  sky 0  range 0.547..8.834 m  (0.224 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 2048x1024 44,178 B  zenith mean 175.8/255 (6 colours) · nadir mean 170.1/255 (8 colours) · no_hole=True
+          OK
+          === [2/5] cp-kitchen ======================================
+          [render_pano] point      : cp-kitchen  plan (786.8,650.3,160) yaw 21
+          [render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+          [render_pano] render 1/1: 68.705 s wall  (cycles 68.26s, device peak 1092.62 MB, host peak 1423.45 MB)
+          [render_pano] depth      : depth.png 145,564 B  valid 2,097,152 / 2,097,152  sky 0  range 1.157..7.428 m  (0.141 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 2048x1024 65,364 B  zenith mean 157.0/255 (7 colours) · nadir mean 182.5/255 (11 colours) · no_hole=True
+          OK
+          === [3/5] cp-dining =======================================
+          [render_pano] point      : cp-dining  plan (1048.9,569.7,160) yaw 93
+          [render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+          [render_pano] render 1/1: 71.636 s wall  (cycles 71.18s, device peak 1092.62 MB, host peak 1423.46 MB)
+          [render_pano] depth      : depth.png 163,678 B  valid 2,097,152 / 2,097,152  sky 0  range 0.844..10.072 m  (0.143 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 2048x1024 87,392 B  zenith mean 151.5/255 (11 colours) · nadir mean 170.2/255 (11 colours) · no_hole=True
+          OK
+          === [4/5] cp-living =======================================
+          [render_pano] point      : cp-living  plan (418.9,949.8,160) yaw 101
+          [render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+          [render_pano] render 1/1: 74.267 s wall  (cycles 73.86s, device peak 1092.62 MB, host peak 1423.46 MB)
+          [render_pano] depth      : depth.png 163,426 B  valid 2,097,151 / 2,097,152  sky 1  range 1.274..8.717 m  (0.147 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 2048x1024 49,568 B  zenith mean 153.5/255 (7 colours) · nadir mean 157.7/255 (15 colours) · no_hole=True
+          OK
+          === [5/5] cp-terraceLiving ================================
+          [render_pano] point      : cp-terraceLiving  plan (1315.8,754.8,160) yaw 161
+          [render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+          [render_pano] render 1/1: 58.493 s wall  (cycles 58.07s, device peak 1092.62 MB, host peak 1423.46 MB)
+          [render_pano] depth      : depth.png 138,796 B  valid 1,774,869 / 2,097,152  sky 322,283  range 1.149..2025.071 m  (0.143 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 2048x1024 82,244 B  zenith mean 177.4/255 (9 colours) · nadir mean 209.7/255 (3 colours) · no_hole=True
+          OK
+
+=== summary =================================================
+  OK   cp-entrance          67.6 s  nadir 1.6 m (0 cm)  valid 100.00%  43 KB
+  OK   cp-kitchen           68.7 s  nadir 1.6 m (0 cm)  valid 100.00%  64 KB
+  OK   cp-dining            71.6 s  nadir 1.6 m (0 cm)  valid 100.00%  85 KB
+  OK   cp-living            74.3 s  nadir 1.6 m (0 cm)  valid 100.00%  48 KB
+  OK   cp-terraceLiving     58.5 s  nadir 1.6 m (0 cm)  valid 84.63%  80 KB
+  total 357.8 s · 5 rendered, 0 skipped · $0.00 · verdict PASS
+OK

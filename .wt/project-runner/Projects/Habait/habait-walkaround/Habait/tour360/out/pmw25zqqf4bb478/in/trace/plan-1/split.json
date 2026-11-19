@@ -1,0 +1,13 @@
+{
+ "wall_angle_deg": 17.5,
+ "notes": [
+  "envelope closing 120 cm (95 % of the walls' hull)",
+  "envelope: 67.9 m² closed footprint, 3 gap line(s) on its outline",
+  "entrance: label outside the building, moved 34 cm inside",
+  "bedroom: its printed [275, 342] cm rectangle fits the drawing only 47 %",
+  "sun-terrace: its printed [270, 474] cm rectangle fits the drawing only 55 %",
+  "hall-auto-40: 3.3 m² of open space carried no label; made a hall",
+  "master-bathroom: its printed [212, 210] cm rectangle fits the drawing only 83 %",
+  "master-bedroom: its printed [348, 344] cm rectangle fits the drawing only 67 %"
+ ]
+}

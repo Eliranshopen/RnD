@@ -1,0 +1,461 @@
+{
+ "engine": "CYCLES",
+ "view": "AgX",
+ "look": "AgX - Punchy",
+ "exposure": 0.0,
+ "samples": 128,
+ "lights": [
+  {
+   "name": "L_sun",
+   "type": "SUN",
+   "energy": 4.0,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "rot_deg": [
+    38.0,
+    0.0,
+    15.0
+   ],
+   "loc": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "angle": 0.009180432185530663,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-kitchen",
+   "type": "AREA",
+   "energy": 107.69999694824219,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    8.89,
+    -3.74,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-pantry",
+   "type": "AREA",
+   "energy": 54.70000076293945,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    11.46,
+    -3.04,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-living",
+   "type": "AREA",
+   "energy": 142.10000610351562,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    8.19,
+    -7.07,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-dining",
+   "type": "AREA",
+   "energy": 107.5999984741211,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    11.4,
+    -5.92,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-family",
+   "type": "AREA",
+   "energy": 96.5999984741211,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    15.32,
+    -7.34,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-wc",
+   "type": "AREA",
+   "energy": 48.599998474121094,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    12.73,
+    -8.38,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-corridor",
+   "type": "AREA",
+   "energy": 87.0,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    11.13,
+    -9.66,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-master",
+   "type": "AREA",
+   "energy": 113.19999694824219,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    4.52,
+    -10.01,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-shower",
+   "type": "AREA",
+   "energy": 61.900001525878906,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    5.17,
+    -13.11,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-bed1",
+   "type": "AREA",
+   "energy": 93.5,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    7.56,
+    -12.32,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-bed2",
+   "type": "AREA",
+   "energy": 93.30000305175781,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    10.27,
+    -12.38,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-bath",
+   "type": "AREA",
+   "energy": 79.69999694824219,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    13.28,
+    -11.15,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  },
+  {
+   "name": "L_ceil_r-mamad",
+   "type": "AREA",
+   "energy": 106.0,
+   "color": [
+    1.0,
+    0.8799999952316284,
+    0.7400000095367432
+   ],
+   "rot_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "loc": [
+    15.56,
+    -11.36,
+    2.88
+   ],
+   "angle": null,
+   "collections": [
+    "Scene Collection"
+   ]
+  }
+ ],
+ "world": [
+  {
+   "name": "Background",
+   "type": "ShaderNodeBackground",
+   "strength": 1.0
+  },
+  {
+   "name": "World Output",
+   "type": "ShaderNodeOutputWorld"
+  },
+  {
+   "name": "Environment Texture",
+   "type": "ShaderNodeTexEnvironment",
+   "image": "//..\\..\\pipeline\\probe\\probe-assets\\hdri\\qwantani_noon_puresky_4k.hdr"
+  },
+  {
+   "name": "Mapping",
+   "type": "ShaderNodeMapping"
+  },
+  {
+   "name": "Texture Coordinate",
+   "type": "ShaderNodeTexCoord"
+  }
+ ],
+ "emissive": [
+  {
+   "material": "M_lamp_shade",
+   "node": "Principled BSDF",
+   "strength": 1.5,
+   "users": 13
+  },
+  {
+   "material": "modern_arm_chair_01_legs",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "modern_arm_chair_01_pillow",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_leaves",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_leaves.001",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_leaves.002",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_leaves.003",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_leaves.004",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_leaves.005",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 1
+  },
+  {
+   "material": "potted_plant_02_pot",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 2
+  },
+  {
+   "material": "potted_plant_02_pot.001",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 2
+  },
+  {
+   "material": "potted_plant_02_pot.002",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 2
+  },
+  {
+   "material": "potted_plant_02_pot.003",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 2
+  },
+  {
+   "material": "potted_plant_02_pot.004",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 2
+  },
+  {
+   "material": "potted_plant_02_pot.005",
+   "node": "Principled BSDF",
+   "strength": 1.0,
+   "users": 2
+  }
+ ]
+}

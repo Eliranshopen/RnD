@@ -1,0 +1,40 @@
+{
+ "$schema": "tour360/ledger.v1",
+ "cap_usd": 3,
+ "note": "reserve before send, settle after",
+ "rows": [
+  {
+   "seq": 1,
+   "ts": "2026-11-06T10:15:49.897Z",
+   "op": "auto-trace-judge",
+   "apartment": "apt846-trace-vlm",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.00773625,
+   "status": "done"
+  },
+  {
+   "seq": 2,
+   "ts": "2026-11-06T10:16:06.841Z",
+   "op": "auto-trace-judge",
+   "apartment": "apt846-trace-vlm",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.007335,
+   "status": "done"
+  },
+  {
+   "seq": 3,
+   "ts": "2026-11-06T10:16:20.398Z",
+   "op": "auto-trace-judge",
+   "apartment": "apt846-trace-vlm",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.00885375,
+   "status": "done"
+  }
+ ]
+}

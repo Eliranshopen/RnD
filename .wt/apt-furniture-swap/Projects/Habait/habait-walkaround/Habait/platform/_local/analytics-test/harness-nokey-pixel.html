@@ -1,0 +1,11 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"></head><body>
+<div id="lead"></div>
+<script>window.HABAIT_CONFIG = {"analytics":{"whatsapp_viewed_line":true}};</script>
+<script type="module">
+import * as a from '../../js/analytics.js';
+import * as lead from '../../js/lead.js';
+window.__a = a; window.__lead = lead;
+a.initAnalytics({ base: { project: 'rainbow', page: 'harness' }, debug: false });
+document.addEventListener('click', (e) => { if (e.target.closest('a')) e.preventDefault(); }, true);
+window.__ready = true;
+</script></body></html>

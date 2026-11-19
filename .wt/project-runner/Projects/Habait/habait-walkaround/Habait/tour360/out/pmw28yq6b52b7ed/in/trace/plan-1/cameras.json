@@ -1,0 +1,101 @@
+{
+ "$schema": "tour360/cameras.v1",
+ "apartment": "pmw28yq6b52b7ed",
+ "note": "auto-trace: one camera per room label; refined by auto_finalize",
+ "plan": {
+  "crop": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\pmw28yq6b52b7ed\\in\\trace\\plan-1\\crop.png",
+  "width": 1386,
+  "height": 2362,
+  "pxPerCm": 1.3814
+ },
+ "scenes": [
+  {
+   "id": "bedroom",
+   "at": [
+    300,
+    339
+   ],
+   "lookAt": [
+    400,
+    339
+   ]
+  },
+  {
+   "id": "bedroom-2",
+   "at": [
+    816,
+    339
+   ],
+   "lookAt": [
+    916,
+    339
+   ]
+  },
+  {
+   "id": "laundry",
+   "at": [
+    345,
+    633
+   ],
+   "lookAt": [
+    445,
+    633
+   ]
+  },
+  {
+   "id": "bathroom",
+   "at": [
+    783,
+    741
+   ],
+   "lookAt": [
+    883,
+    741
+   ]
+  },
+  {
+   "id": "bathroom-2",
+   "at": [
+    384,
+    1176
+   ],
+   "lookAt": [
+    484,
+    1176
+   ]
+  },
+  {
+   "id": "master-bedroom",
+   "at": [
+    366,
+    1407
+   ],
+   "lookAt": [
+    466,
+    1407
+   ]
+  },
+  {
+   "id": "patio",
+   "at": [
+    1092,
+    1404
+   ],
+   "lookAt": [
+    1192,
+    1404
+   ]
+  },
+  {
+   "id": "hall-auto-11",
+   "at": [
+    303,
+    1632
+   ],
+   "lookAt": [
+    403,
+    1632
+   ]
+  }
+ ]
+}

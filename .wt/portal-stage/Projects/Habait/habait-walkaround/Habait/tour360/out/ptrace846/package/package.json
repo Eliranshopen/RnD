@@ -1,0 +1,111 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "ptrace846",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "trace": {
+   "seconds": 71,
+   "floors": 1,
+   "rooms": 10,
+   "fixtures": 18,
+   "scale_px_per_cm": 2.2677,
+   "at": "2026-11-07T21:58:52.944Z"
+  },
+  "apartment": {
+   "seconds": 0,
+   "plan": "Habait\\tour360\\out\\ptrace846\\trace\\plan-1\\plan.general.json",
+   "plan_sha256": "d1b2200a45c885c3ee6ed9429f65a46c479b285224591ff59b00bd8e60cda436",
+   "rooms": 10,
+   "spec": "spec-apt846-auto.json",
+   "at": "2026-11-07T21:58:52.963Z"
+  },
+  "casework": {
+   "seconds": 1,
+   "symbols": 2,
+   "registration_cm": 0,
+   "tall_units": {
+    "fx-drawn-4-tall_unit": "fridge"
+   },
+   "at": "2026-11-07T21:58:53.492Z"
+  },
+  "cameras": {
+   "seconds": 1,
+   "scenes": 10,
+   "links": 22,
+   "orphans": [],
+   "at": "2026-11-07T22:12:01.041Z"
+  },
+  "prompts": {
+   "seconds": 0,
+   "scenes": 10,
+   "shared_material_block": true,
+   "at": "2026-11-07T22:12:01.053Z"
+  },
+  "furnish": {
+   "seconds": 4,
+   "seconds_tool": 4,
+   "report": "360walkaround\\tours\\ptrace846\\_furnish\\report.json",
+   "rooms_furnished": 10,
+   "items": 46,
+   "audit": "PASS-WITH-NOTES",
+   "notes": [],
+   "at": "2026-11-07T22:12:41.435Z"
+  },
+  "render": {
+   "seconds": 63,
+   "seconds_tool": 63,
+   "renders": 11,
+   "res": "2048x1024",
+   "samples": "16",
+   "at": "2026-11-08T06:39:13.291Z"
+  },
+  "sets": {
+   "seconds": 4,
+   "scenes": 10,
+   "designed": "CG (no --skin)",
+   "at": "2026-11-08T06:39:16.895Z"
+  },
+  "scenes": {
+   "seconds": 2,
+   "out": "start view: wardrobeArea faces 152 cm of clear sight at its centre; heading 149 deg (601 cm)",
+   "hotspots": "hotspots: 22/22 on floor / an opening / glass → _local\\fidelity\\hotspots.json",
+   "at": "2026-11-07T22:23:39.314Z"
+  },
+  "gate": {
+   "seconds": 13,
+   "verdict": "PASS (CG only: the CG set gated against the plan, metric, $0)",
+   "skinned": 0,
+   "at": "2026-11-08T06:39:29.670Z"
+  },
+  "build": {
+   "seconds": 1,
+   "line": "build-tour: ptrace846 → Habait\\tour360\\dist\\ptrace846 · index.html 311 KB · 10 scenes · 11 panos · 11 original · 0 patches · 11 thumbs · 6 fonts · catalog none · markers none · total 1.71 MB",
+   "rings_and_catalog": false,
+   "at": "2026-11-07T22:23:55.735Z"
+  },
+  "package": {
+   "seconds": 4,
+   "files": 99,
+   "mb": 6.9,
+   "landing_room": "bedroom",
+   "at": "2026-11-07T22:25:17.820Z"
+  },
+  "qa": {
+   "seconds": 23,
+   "verdict": "PASS",
+   "pages": [
+    "1440 landing.html?project=ptrace846",
+    "390 landing.html?project=ptrace846",
+    "1440 tour/?room=bedroom",
+    "390 tour/?room=bedroom"
+   ],
+   "screenshots": [
+    "qa/p-ptrace846-landing-html-project-ptrace846-1440.png",
+    "qa/p-ptrace846-landing-html-project-ptrace846-390.png",
+    "qa/p-ptrace846-tour-room-bedroom-1440.png",
+    "qa/p-ptrace846-tour-room-bedroom-390.png"
+   ],
+   "at": "2026-11-07T22:25:51.922Z"
+  }
+ }
+}

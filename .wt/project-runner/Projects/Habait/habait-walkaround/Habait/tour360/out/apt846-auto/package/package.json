@@ -1,0 +1,92 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "apt846-auto",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "apartment": {
+   "seconds": 0,
+   "plan": "Habait\\tour360\\apartments\\apt846\\plan.general.json",
+   "plan_sha256": "bd58bf250fb91a3cabf6fa68c524c20d4e16fb9aae2fcdfa7e9b621662371111",
+   "rooms": 11,
+   "spec": "spec.json",
+   "at": "2026-11-05T18:40:09.761Z"
+  },
+  "cameras": {
+   "seconds": 0,
+   "scenes": 11,
+   "links": 24,
+   "orphans": [],
+   "at": "2026-11-05T18:40:09.969Z"
+  },
+  "prompts": {
+   "seconds": 0,
+   "scenes": 11,
+   "shared_material_block": true,
+   "at": "2026-11-04T13:54:10.063Z"
+  },
+  "furnish": {
+   "seconds": 3,
+   "seconds_tool": 3,
+   "report": "360walkaround\\tours\\apt846-auto\\_furnish\\report.json",
+   "rooms_furnished": 10,
+   "items": 59,
+   "audit": "PASS-WITH-NOTES",
+   "notes": [],
+   "at": "2026-11-06T08:21:00.712Z"
+  },
+  "render": {
+   "seconds": 358,
+   "seconds_tool": 358,
+   "renders": 11,
+   "res": "2048x1024",
+   "samples": "16",
+   "at": "2026-11-06T08:27:32.422Z"
+  },
+  "scenes": {
+   "seconds": 2,
+   "out": "start view: entrance faces 90 cm of clear sight at its centre; heading 176 deg (796 cm)",
+   "hotspots": "hotspots: 24/24 on floor / an opening / glass → _local\\fidelity\\hotspots.json",
+   "at": "2026-11-06T10:39:53.825Z"
+  },
+  "sets": {
+   "seconds": 4,
+   "scenes": 11,
+   "designed": "CG (no --skin)",
+   "at": "2026-11-05T18:53:23.782Z"
+  },
+  "gate": {
+   "seconds": 0,
+   "verdict": "PASS (CG only: every designed panorama IS the CG render of its camera, nothing to gate)",
+   "skinned": 0,
+   "at": "2026-11-04T15:25:29.202Z"
+  },
+  "markers": {
+   "seconds": 26,
+   "seconds_tool": 20,
+   "markers": 28,
+   "tail": "bathGuest: 2 pieces (shelf 1, other 1) · 0 markers · $0.008 in 10.3s | scan-pieces apt846-auto: 2 scene(s) scanned, 11 in the file · 79 pieces · 28 markers · this run $0.0183 · ledger $0.139 of $3 · sheet qa-evidence\\tour360\\T16\\scan\\index.html",
+   "at": "2026-11-04T15:32:07.065Z"
+  },
+  "build": {
+   "seconds": 1,
+   "line": "build-tour: apt846-auto → Habait\\tour360\\dist\\apt846-auto · index.html 321 KB · 11 scenes · 11 panos · 11 original · 0 patches · 11 thumbs · 6 fonts · catalog 18 items · markers 28 in 9 scenes · total 2.68 MB",
+   "at": "2026-11-04T15:37:40.788Z"
+  },
+  "package": {
+   "seconds": 2,
+   "files": 70,
+   "mb": 2.7,
+   "landing_room": "living",
+   "at": "2026-11-04T16:21:20.848Z"
+  },
+  "casework": {
+   "seconds": 1,
+   "symbols": 2,
+   "registration_cm": 5.55,
+   "tall_units": {
+    "k-tall": "fridge"
+   },
+   "at": "2026-11-06T08:44:29.874Z"
+  }
+ }
+}

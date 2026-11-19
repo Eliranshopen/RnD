@@ -1,0 +1,79 @@
+{
+ "$schema": "tour360/ledger.v1",
+ "cap_usd": 3,
+ "note": "reserve before send, settle after",
+ "rows": [
+  {
+   "seq": 1,
+   "ts": "2026-11-06T08:11:18.610Z",
+   "op": "consistency_judge",
+   "apartment": "apt846",
+   "scene": "kitchen",
+   "model": "google/gemini-3.7-flash",
+   "inputs_hash": "e19aa53ba043",
+   "reserved_usd": 0.01,
+   "status": "ok",
+   "settled_usd": 0.006258
+  },
+  {
+   "seq": 2,
+   "ts": "2026-11-06T08:11:27.828Z",
+   "op": "consistency_judge",
+   "apartment": "apt846",
+   "scene": "kitchen",
+   "model": "google/gemini-3.7-flash",
+   "inputs_hash": "e19aa53ba043",
+   "reserved_usd": 0.01,
+   "status": "ok",
+   "settled_usd": 0.0077205
+  },
+  {
+   "seq": 3,
+   "ts": "2026-11-06T08:11:39.030Z",
+   "op": "consistency_judge",
+   "apartment": "apt846",
+   "scene": "kitchen",
+   "model": "google/gemini-3.7-flash",
+   "inputs_hash": "e19aa53ba043",
+   "reserved_usd": 0.01,
+   "status": "ok",
+   "settled_usd": 0.006813
+  },
+  {
+   "seq": 4,
+   "ts": "2026-11-06T08:12:11.823Z",
+   "op": "consistency_judge",
+   "apartment": "apt846",
+   "scene": "kitchen",
+   "model": "google/gemini-3.7-flash",
+   "inputs_hash": "e19aa53ba043",
+   "reserved_usd": 0.01,
+   "status": "ok",
+   "settled_usd": 0.01152375
+  },
+  {
+   "seq": 5,
+   "ts": "2026-11-06T08:12:23.762Z",
+   "op": "consistency_judge",
+   "apartment": "apt846",
+   "scene": "kitchen",
+   "model": "google/gemini-3.7-flash",
+   "inputs_hash": "e19aa53ba043",
+   "reserved_usd": 0.01,
+   "status": "ok",
+   "settled_usd": 0.008209575
+  },
+  {
+   "seq": 6,
+   "ts": "2026-11-06T08:12:33.486Z",
+   "op": "consistency_judge",
+   "apartment": "apt846",
+   "scene": "kitchen",
+   "model": "google/gemini-3.7-flash",
+   "inputs_hash": "e19aa53ba043",
+   "reserved_usd": 0.01,
+   "status": "ok",
+   "settled_usd": 0.0109875
+  }
+ ]
+}

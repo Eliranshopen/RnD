@@ -1,0 +1,49 @@
+{
+ "$schema": "habait/project-package.v1",
+ "id": "proof21a",
+ "contract": "Habait/tour360/PROJECT-PACKAGE.md",
+ "steps": {
+  "apartment": {
+   "seconds": 0,
+   "plan": "..\\.runtime\\proofs\\2.1\\proof21a\\trace\\plan-1\\plan.general.json",
+   "plan_sha256": "68db9d97b1f0c28f3646c6e05f714ba1ad817a68bb5478aa4aa85ad541883098",
+   "rooms": 10,
+   "spec": null,
+   "at": "2026-11-19T08:48:50.984Z"
+  },
+  "casework": {
+   "seconds": 2,
+   "symbols": 2,
+   "registration_cm": 0,
+   "tall_units": {
+    "fx-drawn-4-tall_unit": "fridge"
+   },
+   "at": "2026-11-19T08:48:53.110Z"
+  },
+  "cameras": {
+   "seconds": 2,
+   "scenes": 10,
+   "links": 22,
+   "orphans": [],
+   "at": "2026-11-19T08:48:55.225Z"
+  },
+  "furnish": {
+   "seconds": 16,
+   "seconds_tool": 16,
+   "report": "360walkaround\\tours\\proof21a\\_furnish\\report.json",
+   "rooms_furnished": 10,
+   "items": 46,
+   "audit": "PASS-WITH-NOTES",
+   "notes": [],
+   "at": "2026-11-19T08:49:11.131Z"
+  },
+  "render": {
+   "seconds": 69,
+   "seconds_tool": 69,
+   "renders": 1,
+   "res": "1024x512",
+   "samples": "8",
+   "at": "2026-11-19T08:50:21.389Z"
+  }
+ }
+}

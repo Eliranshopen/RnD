@@ -1,0 +1,29 @@
+{
+ "walk_bin_sha16": "af81a28180343fc3",
+ "atlases": {
+  "morning/0": "d1c3dd2b959aade9",
+  "morning/1": "20913c02c366bf21",
+  "morning/2": "d6a1a49602f666c6",
+  "morning/3": "f9e6ee82b6ddf16a",
+  "morning/4": "ffec4d659ce1179b",
+  "morning/5": "a9a5e55ed5eb901e",
+  "noon/0": "5a5c0197674409a4",
+  "noon/1": "58075323fa73da5f",
+  "noon/2": "6d104013afe2337c",
+  "noon/3": "972c3c33248224c5",
+  "noon/4": "e9e5fb0fdeac50db",
+  "noon/5": "a34ed30a1e94972f",
+  "golden/0": "90db6d6af99000ad",
+  "golden/1": "5bf417a01ef38289",
+  "golden/2": "6a269ced2f4b6950",
+  "golden/3": "f71741df8262a7ec",
+  "golden/4": "953b689b2ba19eac",
+  "golden/5": "48b724a3854d1402",
+  "night/0": "87a06fddf8b5bbab",
+  "night/1": "cc1a3a2a707997f6",
+  "night/2": "165fa853a10ced16",
+  "night/3": "e9acb66d0582a7a8",
+  "night/4": "0a25623833d0bbd0",
+  "night/5": "bcbc2d10218d46e3"
+ }
+}

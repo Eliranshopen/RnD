@@ -1,0 +1,17 @@
+{
+ "ok": true,
+ "item": "ai-coffee-marble",
+ "found": true,
+ "score": 3,
+ "why": "The round marble-topped coffee table with the black cylindrical base is accurately placed in the scene.",
+ "usd": 0.004,
+ "ms": 4030,
+ "settled": {
+  "usd": 0.004,
+  "status": "settled",
+  "found": true,
+  "score": 3,
+  "why": "The round marble-topped coffee table with the black cylindrical base is accurately placed in the scene.",
+  "seconds": 4.021
+ }
+}

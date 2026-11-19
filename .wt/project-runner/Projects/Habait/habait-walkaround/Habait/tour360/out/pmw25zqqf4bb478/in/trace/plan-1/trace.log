@@ -1,0 +1,85 @@
+stroke_ignore_boxes removed 36533 stroke pixels
+DOUBLE-line pixels 230933, kept as barriers 176000
+STROKES 1079 components (cut at walls); touching 118; kept 30; auto-dropped straight >= 100 cm 37; blacklisted 0
+  st-4   diag   312 cm  px   1634 elong  0.002  bbox [625,760,725,1055]  (straight line, dropped)
+  st-9   diag   212 cm  px   1123 elong  0.002  bbox [492,941,561,1142]  (straight line, dropped)
+  st-11  diag   193 cm  px   1032 elong  0.003  bbox [308,1081,491,1143]  (straight line, dropped)
+  st-14  diag   152 cm  px    794 elong  0.003  bbox [376,221,498,312]  (straight line, dropped)
+  st-17  diag   142 cm  px   1085 elong  0.005  bbox [622,917,668,1052]  (straight line, dropped)
+  st-18  diag   134 cm  px   1030 elong  0.005  bbox [603,919,647,1045]  (straight line, dropped)
+  st-41  diag    94 cm  px    637 elong   0.45  bbox [269,381,321,459]
+  st-44  diag    82 cm  px    865 elong  0.999  bbox [486,334,543,391]
+  st-49  diag    72 cm  px    386 elong  0.126  bbox [781,696,798,766]
+  st-50  diag    70 cm  px    553 elong  0.014  bbox [116,546,184,560]
+  st-53  diag    61 cm  px    387 elong  0.298  bbox [221,368,268,407]
+  st-56  diag    55 cm  px    397 elong  0.266  bbox [50,965,66,1017]
+  st-58  diag    52 cm  px    286 elong  0.022  bbox [341,520,372,561]
+  st-61  diag    50 cm  px    374 elong  0.014  bbox [769,638,785,685]
+  st-62  diag    50 cm  px    371 elong  0.014  bbox [787,644,803,691]
+  st-65  diag    47 cm  px    306 elong  0.019  bbox [96,788,140,803]
+  st-66  diag    44 cm  px    332 elong  0.016  bbox [101,775,142,789]
+LINES 8 far-from-wall black components >= 60 cm; kept 0
+  ln-1   diag  1345 cm  px 164137  bbox [281,122,958,1284]
+  ln-2   diag   543 cm  px   4257  bbox [0,1111,513,1289]
+  ln-3   diag   515 cm  px   4019  bbox [793,805,958,1293]
+  ln-4   diag   141 cm  px   1072  bbox [622,917,668,1050]
+  ln-5   diag   132 cm  px    847  bbox [281,967,330,1090]
+  ln-6   diag    79 cm  px    625  bbox [488,335,543,391]
+  ln-7   diag    73 cm  px    781  bbox [399,457,450,509]
+  ln-8   diag    65 cm  px   1135  bbox [380,399,416,453]
+AUTO gap-1     64 cm  333,422 -> 384,460
+AUTO gap-2     76 cm  118,543 -> 101,617
+AUTO gap-3     64 cm  241,900 -> 259,839
+AUTO gap-4     82 cm  523,1177 -> 560,1104
+AUTO gap-5     90 cm  600,951 -> 578,1038
+ROOM living-room      region  1464998 px  area 13.45 m²  verts 40
+ROOM kitchen          region   582969 px  area 5.33 m²  verts 32
+ROOM dining-area      region   567630 px  area 5.19 m²  verts 29
+ROOM bedroom          region   478706 px  area 4.36 m²  verts 19
+ROOM bathroom: convex hull, 5 vertices
+ROOM bathroom         region   277638 px  area 2.64 m²  verts 5
+ROOM master-bedroom   region   774279 px  area 7.07 m²  verts 20
+ROOM walk-in-closet   region    17846 px  area 0.14 m²  verts 7
+ROOM master-bathroom: convex hull, 8 vertices
+ROOM master-bathroom  region   320838 px  area 3.41 m²  verts 8
+ROOM sun-terrace      region   751133 px  area 6.90 m²  verts 65
+ROOM entrance         region    16303 px  area 0.15 m²  verts 6
+ROOM hall-auto-40     region   279898 px  area 2.49 m²  verts 59
+DOOR living-room|walk-in-closet     width   18 cm  centre 256,851  angle -74°  px 223
+DOOR living-room|master-bathroom    width   33 cm  centre 246,885  angle -74°  px 434
+DOOR bedroom|kitchen                width   26 cm  centre 521,263  angle 37°  px 860
+DOOR master-bathroom|master-bedroom width   72 cm  centre 222,1049  angle -28°  px 67
+DOOR entrance|living-room           width   65 cm  centre 110,580  angle -77°  px 771
+  gl-2: touches neither the outside nor a terrace, dropped (89 cm, bbox [225,266,279,337])
+  gl-3: touches neither the outside nor a terrace, dropped (63 cm, bbox [772,388,810,437])
+  gl-4: touches neither the outside nor a terrace, dropped (198 cm, bbox [38,606,79,800])
+  gl-5: touches neither the outside nor a terrace, dropped (169 cm, bbox [77,638,126,800])
+  gl-6: touches neither the outside nor a terrace, dropped (66 cm, bbox [686,673,717,730])
+  facade-4: interior, dropped
+  facade-7: interior, dropped
+  facade-9: interior, dropped
+  facade-10: interior, dropped
+GLAZING 6 double-line networks -> 10 panes
+  facade-1     facade   diag   369 cm  bbox [380,163,679,378]  verts 75
+  facade-2     facade   diag    63 cm  bbox [577,284,628,322]  verts 3
+  facade-3     facade   diag   299 cm  bbox [690,375,760,666]  verts 76
+  facade-4     facade   diag   232 cm  bbox [606,728,682,948]  verts 31
+  facade-5     facade   diag    93 cm  bbox [590,954,622,1042]  verts 15
+  facade-6     facade   diag   367 cm  bbox [518,988,738,1282]  verts 117
+  railing-7    railing  diag    98 cm  bbox [716,577,748,669]  verts 33
+  railing-8    railing  diag   314 cm  bbox [738,721,897,991]  verts 40
+  railing-9    railing  diag    98 cm  bbox [663,736,695,829]  verts 22
+  railing-10   railing  diag    84 cm  bbox [620,878,656,954]  verts 34
+DOOR o-bedroom-kitchen: 25.7 cm, dropped
+DOOR o-living-room-master-bathroom: 32.7 cm, dropped
+DOOR o-living-room-walk-in-closet: 18.3 cm, dropped
+GAP gap-1: outside|bedroom is not a door (an outdoor passage), skipped
+DOOR o-entrance-living-room: width set from the wall gap gap-2 = 76 cm
+DOOR walk-in-closet|living-room     width   64 cm  from the wall gap gap-3
+DOOR hall-auto-40|master-bedroom    width   82 cm  from the wall gap gap-4
+DOOR master-bedroom|hall-auto-40    width   90 cm  from the wall gap gap-5
+WALLS 6 components after closing
+DOOR o-master-bathroom-master-bedroom: an end is 53 cm from any wall edge (check the gap)
+DOORS kept at their traced centres (5 real openings), ends checked against the wall edges
+PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\plan-1\plan.general.json: 11 rooms, 7 wall pieces, 5 openings, 10 panes, 11 cameras, 0 fixtures
+overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw25zqqf4bb478\in\trace\plan-1\trace-debug.png

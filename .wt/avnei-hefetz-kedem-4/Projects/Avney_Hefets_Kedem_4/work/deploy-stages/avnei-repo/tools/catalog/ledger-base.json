@@ -1,0 +1,576 @@
+{
+ "$schema": "tour360/ledger.v1",
+ "cap_usd": 26,
+ "note": "Eliran 2026-11-17: the swap furniture is generated with the best fal model (his words); 14 items ~ $9.45; reserve before send, settle after | 2026-11-18 cap 26: his pick «upgrade the walk» (~$20) on top of $4.05",
+ "rows": [
+  {
+   "seq": 1,
+   "at": "2026-11-17T20:25:00.278Z",
+   "item": "base_sofa",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "129e0b2b8a50c6f0af06e80263578d1c83e77a193cd48bd19d578bbfbeb85816",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 1.847,
+   "settled_usd": 0
+  },
+  {
+   "seq": 2,
+   "at": "2026-11-17T20:25:02.498Z",
+   "item": "base_coffee",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "8310101e71b428567acce1cada2edb8fe9b42c90e53a5c41acbd5e957e0b1845",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 1.589,
+   "settled_usd": 0
+  },
+  {
+   "seq": 3,
+   "at": "2026-11-17T20:25:04.851Z",
+   "item": "base_dining",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "982b7064aa34ba62ab1bf4af25666d5ff5547687b25e8f7a4306665d5d6236fe",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 1.453,
+   "settled_usd": 0
+  },
+  {
+   "seq": 4,
+   "at": "2026-11-17T20:25:06.854Z",
+   "item": "base_chair",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "d58b945cfd3482a43ee5a52b50f6b49c94baf9d055ee7f86ac735432fe22a491",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 1.526,
+   "settled_usd": 0
+  },
+  {
+   "seq": 5,
+   "at": "2026-11-17T20:25:12.822Z",
+   "item": "base_bed",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "320fb201f1e6e5a8c5f171dcf781c02ce6ceb14e8f572dc11ea5caa945b5b8fa",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 1.891,
+   "settled_usd": 0
+  },
+  {
+   "seq": 6,
+   "at": "2026-11-17T20:25:15.402Z",
+   "item": "base_night",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "09b3659c6925809d0b2df1614dfdf794a4d625dc5b11b9ad83f123c3a84052e6",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 1.234,
+   "settled_usd": 0
+  },
+  {
+   "seq": 7,
+   "at": "2026-11-17T20:26:10.878Z",
+   "item": "base_sofa",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "129e0b2b8a50c6f0af06e80263578d1c83e77a193cd48bd19d578bbfbeb85816",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 2.642,
+   "settled_usd": 0
+  },
+  {
+   "seq": 8,
+   "at": "2026-11-18T06:19:36.595Z",
+   "item": "base_sofa",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "129e0b2b8a50c6f0af06e80263578d1c83e77a193cd48bd19d578bbfbeb85816",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 2.302,
+   "settled_usd": 0
+  },
+  {
+   "seq": 9,
+   "at": "2026-11-18T06:23:28.161Z",
+   "item": "base_sofa",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "failed-unbilled",
+   "inputs_hash": "129e0b2b8a50c6f0af06e80263578d1c83e77a193cd48bd19d578bbfbeb85816",
+   "error": "submit HTTP 403: {\"detail\":\"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing.\"}",
+   "seconds": 2,
+   "settled_usd": 0
+  },
+  {
+   "seq": 10,
+   "at": "2026-11-18T06:24:00.310Z",
+   "item": "base_sofa",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "129e0b2b8a50c6f0af06e80263578d1c83e77a193cd48bd19d578bbfbeb85816",
+   "queue": {
+    "request_id": "01a1ed53-9d70-7b72-82a8-362dfccbfd20",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed53-9d70-7b72-82a8-362dfccbfd20/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed53-9d70-7b72-82a8-362dfccbfd20"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1ed53-9d70-7b72-82a8-362dfccbfd20",
+   "seconds": 37.3,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_sofa.png"
+  },
+  {
+   "seq": 11,
+   "at": "2026-11-18T06:24:37.634Z",
+   "item": "base_sofa",
+   "op": "mesh",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.525,
+   "status": "settled",
+   "inputs_hash": "54f748532266b4b1828739e0a2bbf14f6381e72709e2bbd9268cbcb18df04a91",
+   "queue": {
+    "request_id": "01a1ed54-322d-7521-bb1f-cc84a0e262e1",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed54-322d-7521-bb1f-cc84a0e262e1/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed54-322d-7521-bb1f-cc84a0e262e1"
+   },
+   "settled_usd": 0.525,
+   "request_id": "01a1ed54-322d-7521-bb1f-cc84a0e262e1",
+   "seconds": 202.079,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_sofa.glb"
+  },
+  {
+   "seq": 12,
+   "at": "2026-11-18T06:28:17.436Z",
+   "item": "base_coffee",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "8310101e71b428567acce1cada2edb8fe9b42c90e53a5c41acbd5e957e0b1845",
+   "queue": {
+    "request_id": "01a1ed57-8842-7da0-9378-65797fe5c6f9",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed57-8842-7da0-9378-65797fe5c6f9/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed57-8842-7da0-9378-65797fe5c6f9"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1ed57-8842-7da0-9378-65797fe5c6f9",
+   "seconds": 35.451,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_coffee.png"
+  },
+  {
+   "seq": 13,
+   "at": "2026-11-18T06:28:52.910Z",
+   "item": "base_coffee",
+   "op": "mesh",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.525,
+   "status": "settled",
+   "inputs_hash": "fa3ce5892b3753f527947faa36f3ff8eae9816e64aac6471e0eff1503a33741f",
+   "queue": {
+    "request_id": "01a1ed58-1393-7340-a78e-3050a2e3d6ac",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed58-1393-7340-a78e-3050a2e3d6ac/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed58-1393-7340-a78e-3050a2e3d6ac"
+   },
+   "settled_usd": 0.525,
+   "request_id": "01a1ed58-1393-7340-a78e-3050a2e3d6ac",
+   "seconds": 263.447,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_coffee.glb"
+  },
+  {
+   "seq": 14,
+   "at": "2026-11-18T06:33:16.525Z",
+   "item": "base_dining",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "982b7064aa34ba62ab1bf4af25666d5ff5547687b25e8f7a4306665d5d6236fe",
+   "queue": {
+    "request_id": "01a1ed5c-1706-7f70-bc40-16c75494e4f6",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed5c-1706-7f70-bc40-16c75494e4f6/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed5c-1706-7f70-bc40-16c75494e4f6"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1ed5c-1706-7f70-bc40-16c75494e4f6",
+   "seconds": 35.068,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_dining.png"
+  },
+  {
+   "seq": 15,
+   "at": "2026-11-18T06:33:51.612Z",
+   "item": "base_dining",
+   "op": "mesh",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.525,
+   "status": "settled",
+   "inputs_hash": "ba576796019f3ccf43b846eccaf9c42f975fdfb842819ac747b02b4157e777cf",
+   "queue": {
+    "request_id": "01a1ed5c-a264-7a60-b619-900312194eba",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed5c-a264-7a60-b619-900312194eba/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed5c-a264-7a60-b619-900312194eba"
+   },
+   "settled_usd": 0.525,
+   "request_id": "01a1ed5c-a264-7a60-b619-900312194eba",
+   "seconds": 254.036,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_dining.glb"
+  },
+  {
+   "seq": 16,
+   "at": "2026-11-18T06:38:06.417Z",
+   "item": "base_chair",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "d58b945cfd3482a43ee5a52b50f6b49c94baf9d055ee7f86ac735432fe22a491",
+   "queue": {
+    "request_id": "01a1ed60-834e-7463-8b18-4fe29c20cf24",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed60-834e-7463-8b18-4fe29c20cf24/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed60-834e-7463-8b18-4fe29c20cf24"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1ed60-834e-7463-8b18-4fe29c20cf24",
+   "seconds": 34.294,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_chair.png"
+  },
+  {
+   "seq": 17,
+   "at": "2026-11-18T06:38:40.760Z",
+   "item": "base_chair",
+   "op": "mesh",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.525,
+   "status": "settled",
+   "inputs_hash": "cd78bd5e26e5cefdf93515fa6c3b2b6e016f62bbf66c1d46281bf2b86fdd454d",
+   "queue": {
+    "request_id": "01a1ed61-1a7c-7701-8eb8-3548923cd6f4",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed61-1a7c-7701-8eb8-3548923cd6f4/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed61-1a7c-7701-8eb8-3548923cd6f4"
+   },
+   "settled_usd": 0.525,
+   "request_id": "01a1ed61-1a7c-7701-8eb8-3548923cd6f4",
+   "seconds": 272.02,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_chair.glb"
+  },
+  {
+   "seq": 18,
+   "at": "2026-11-18T06:43:14.717Z",
+   "item": "base_bed",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "320fb201f1e6e5a8c5f171dcf781c02ce6ceb14e8f572dc11ea5caa945b5b8fa",
+   "queue": {
+    "request_id": "01a1ed66-6e63-7322-852b-bbe1d774f1f2",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed66-6e63-7322-852b-bbe1d774f1f2/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed66-6e63-7322-852b-bbe1d774f1f2"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1ed66-6e63-7322-852b-bbe1d774f1f2",
+   "seconds": 119.052,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_bed.png"
+  },
+  {
+   "seq": 19,
+   "at": "2026-11-18T06:45:14.089Z",
+   "item": "base_bed",
+   "op": "mesh",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.525,
+   "status": "settled",
+   "inputs_hash": "4d2a5ebba39f138015ac410fb8beaba8f700ceb03d985af1bf81f4b2dca90bd5",
+   "queue": {
+    "request_id": "01a1ed67-1470-74d1-959c-2fe05c600eef",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed67-1470-74d1-959c-2fe05c600eef/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed67-1470-74d1-959c-2fe05c600eef"
+   },
+   "settled_usd": 0.525,
+   "request_id": "01a1ed67-1470-74d1-959c-2fe05c600eef",
+   "seconds": 255.207,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_bed.glb"
+  },
+  {
+   "seq": 20,
+   "at": "2026-11-18T06:49:30.405Z",
+   "item": "base_night",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "09b3659c6925809d0b2df1614dfdf794a4d625dc5b11b9ad83f123c3a84052e6",
+   "queue": {
+    "request_id": "01a1ed6a-f3ed-7a73-9166-7da6a715faf8",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed6a-f3ed-7a73-9166-7da6a715faf8/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1ed6a-f3ed-7a73-9166-7da6a715faf8"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1ed6a-f3ed-7a73-9166-7da6a715faf8",
+   "seconds": 36.961,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_night.png"
+  },
+  {
+   "seq": 21,
+   "at": "2026-11-18T06:50:07.435Z",
+   "item": "base_night",
+   "op": "mesh",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.525,
+   "status": "settled",
+   "inputs_hash": "4fca94542100997be0ae7ade937e0f2e17f96ee0fb2444dcd5315e64fa6a54ca",
+   "queue": {
+    "request_id": "01a1ed6b-9850-7320-9eb1-a71f0cff3a03",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed6b-9850-7320-9eb1-a71f0cff3a03/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1ed6b-9850-7320-9eb1-a71f0cff3a03"
+   },
+   "settled_usd": 0.525,
+   "request_id": "01a1ed6b-9850-7320-9eb1-a71f0cff3a03",
+   "seconds": 273.802,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_night.glb"
+  },
+  {
+   "seq": 22,
+   "at": "2026-11-18T09:09:25.250Z",
+   "item": "base_vanity",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "1f1f9e2cd26712b6c0fa2ab91cf9d5eb40c18de7e0524fb9a9cfd87f514e4a0c",
+   "queue": {
+    "request_id": "01a1edeb-0c97-7c72-a532-8ef25340a12f",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edeb-0c97-7c72-a532-8ef25340a12f/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edeb-0c97-7c72-a532-8ef25340a12f"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edeb-0c97-7c72-a532-8ef25340a12f",
+   "seconds": 46.673,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_vanity.png"
+  },
+  {
+   "seq": 23,
+   "at": "2026-11-18T09:10:11.946Z",
+   "item": "base_vanity",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "4fa16c6307b12be2034ba7788529246be67f8be3ed083ecd6e5a216096ef707b",
+   "queue": {
+    "request_id": "01a1edec-445a-7f02-b41b-8613761921cc",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edec-445a-7f02-b41b-8613761921cc/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edec-445a-7f02-b41b-8613761921cc"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edec-445a-7f02-b41b-8613761921cc",
+   "seconds": 70.602,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_vanity_back.png"
+  },
+  {
+   "seq": 24,
+   "at": "2026-11-18T09:11:22.573Z",
+   "item": "base_vanity",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "0bacd623a0f1194db7e0c346947ddbea2691401f286aea4bf4f6f0502e3de904",
+   "queue": {
+    "request_id": "01a1edec-e92e-78b0-99f0-fcef1316df2e",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edec-e92e-78b0-99f0-fcef1316df2e/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edec-e92e-78b0-99f0-fcef1316df2e"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edec-e92e-78b0-99f0-fcef1316df2e",
+   "seconds": 43.071,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_vanity_left.png"
+  },
+  {
+   "seq": 25,
+   "at": "2026-11-18T09:12:05.668Z",
+   "item": "base_vanity",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "445544e839b3ec11e0b5fd8455f792850b2d471172b4c3ae42f3f5d3d3b2d114",
+   "queue": {
+    "request_id": "01a1eded-90e1-7371-9140-59b55f18da2b",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1eded-90e1-7371-9140-59b55f18da2b/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1eded-90e1-7371-9140-59b55f18da2b"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1eded-90e1-7371-9140-59b55f18da2b",
+   "seconds": 34.616,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_vanity_right.png"
+  },
+  {
+   "seq": 26,
+   "at": "2026-11-18T09:12:40.674Z",
+   "item": "base_vanity",
+   "op": "meshmv",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.825,
+   "status": "settled",
+   "inputs_hash": "50fad681d273f47558089504d8274977322a64241104cb9ab752f20f8784a677",
+   "queue": {
+    "request_id": "01a1edee-8c93-7653-8a0f-82318dd45ab8",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1edee-8c93-7653-8a0f-82318dd45ab8/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1edee-8c93-7653-8a0f-82318dd45ab8"
+   },
+   "settled_usd": 0.825,
+   "request_id": "01a1edee-8c93-7653-8a0f-82318dd45ab8",
+   "seconds": 340.41,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_vanity.glb"
+  },
+  {
+   "seq": 27,
+   "at": "2026-11-18T09:18:22.795Z",
+   "item": "base_toilet",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "b718f97c423eb73cd7113379809dc691ac0e8992e3bf5163dc23db5c9847880b",
+   "queue": {
+    "request_id": "01a1edf3-3f6f-7be0-a1eb-fd3f7a7127c5",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf3-3f6f-7be0-a1eb-fd3f7a7127c5/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf3-3f6f-7be0-a1eb-fd3f7a7127c5"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edf3-3f6f-7be0-a1eb-fd3f7a7127c5",
+   "seconds": 34.297,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_toilet.png"
+  },
+  {
+   "seq": 28,
+   "at": "2026-11-18T09:18:57.348Z",
+   "item": "base_toilet",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "e4596fd063274b10c6acc8e17e225466cfef27947bbe1129336c6a9e99529ee8",
+   "queue": {
+    "request_id": "01a1edf3-d50d-7973-a6c5-9cefd97943fe",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf3-d50d-7973-a6c5-9cefd97943fe/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf3-d50d-7973-a6c5-9cefd97943fe"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edf3-d50d-7973-a6c5-9cefd97943fe",
+   "seconds": 38.718,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_toilet_back.png"
+  },
+  {
+   "seq": 29,
+   "at": "2026-11-18T09:19:36.089Z",
+   "item": "base_toilet",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "4ef082695047cc31830148723b4a922ffa46a207f7561bcc2beb205a390d86ba",
+   "queue": {
+    "request_id": "01a1edf4-6bfe-71b1-bbde-3780f6089bfc",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf4-6bfe-71b1-bbde-3780f6089bfc/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf4-6bfe-71b1-bbde-3780f6089bfc"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edf4-6bfe-71b1-bbde-3780f6089bfc",
+   "seconds": 38.585,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_toilet_left.png"
+  },
+  {
+   "seq": 30,
+   "at": "2026-11-18T09:20:14.694Z",
+   "item": "base_toilet",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "832f54f7a2e34f63e68da150fdc85d1c21ed2660cee614728245943a20fa8503",
+   "queue": {
+    "request_id": "01a1edf5-0434-7133-b04d-0141a130c5f3",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf5-0434-7133-b04d-0141a130c5f3/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edf5-0434-7133-b04d-0141a130c5f3"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edf5-0434-7133-b04d-0141a130c5f3",
+   "seconds": 41.007,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_toilet_right.png"
+  },
+  {
+   "seq": 31,
+   "at": "2026-11-18T09:20:55.846Z",
+   "item": "base_toilet",
+   "op": "meshmv",
+   "model": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+   "reserved_usd": 0.825,
+   "status": "settled",
+   "inputs_hash": "390c6255ef279366bc11969ba4228cfaf2543fe9c6db3567bf048f5402cbd40f",
+   "queue": {
+    "request_id": "01a1edf5-d2f5-72a3-b4a5-c9e1e345a1c4",
+    "status_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1edf5-d2f5-72a3-b4a5-c9e1e345a1c4/status",
+    "response_url": "https://queue.fal.run/fal-ai/hunyuan-3d/requests/01a1edf5-d2f5-72a3-b4a5-c9e1e345a1c4"
+   },
+   "settled_usd": 0.825,
+   "request_id": "01a1edf5-d2f5-72a3-b4a5-c9e1e345a1c4",
+   "seconds": 315.323,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\glb\\base_toilet.glb"
+  },
+  {
+   "seq": 32,
+   "at": "2026-11-18T09:26:21.769Z",
+   "item": "base_tub",
+   "op": "studio",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "settled",
+   "inputs_hash": "c35c922712abe1db3178f7f6ca1946c210e58bfdfedb49a9df3601b76bf02d14",
+   "queue": {
+    "request_id": "01a1edfa-9623-7ec2-835b-8ba6589c509c",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edfa-9623-7ec2-835b-8ba6589c509c/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edfa-9623-7ec2-835b-8ba6589c509c"
+   },
+   "settled_usd": 0.15,
+   "request_id": "01a1edfa-9623-7ec2-835b-8ba6589c509c",
+   "seconds": 39.919,
+   "out": "c:\\RnD\\.wt\\avnei-hefetz-kedem-4\\Projects\\Avney_Hefets_Kedem_4\\work\\catalog\\studio\\base_tub.png"
+  },
+  {
+   "seq": 33,
+   "at": "2026-11-18T09:27:01.736Z",
+   "item": "base_tub",
+   "op": "views",
+   "model": "fal-ai/nano-banana-pro/edit",
+   "reserved_usd": 0.15,
+   "status": "reserved",
+   "inputs_hash": "83b1cb5c0a9a10cff41038fae702fb73c768f8e92be9d42f2e77dd7eb8cafc8c",
+   "queue": {
+    "request_id": "01a1edfb-7123-7c62-b422-59136f035d9e",
+    "status_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edfb-7123-7c62-b422-59136f035d9e/status",
+    "response_url": "https://queue.fal.run/fal-ai/nano-banana-pro/requests/01a1edfb-7123-7c62-b422-59136f035d9e"
+   }
+  }
+ ]
+}

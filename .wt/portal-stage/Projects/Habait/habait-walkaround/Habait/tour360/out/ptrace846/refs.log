@@ -1,0 +1,11 @@
+bedroom: ref apartments\ptrace846\_local\refs\plan-01-bedroom.png 1700x1700, camera at (1302,976) bearing 55.0°
+bathroom: ref apartments\ptrace846\_local\refs\plan-02-bathroom.png 1700x1700, camera at (728,1581) bearing 17.0°
+kitchen: ref apartments\ptrace846\_local\refs\plan-03-kitchen.png 1700x1700, camera at (2132,1533) bearing 22.0°
+diningArea: ref apartments\ptrace846\_local\refs\plan-04-dining-area.png 1700x1700, camera at (1577,1903) bearing 99.0°
+livingRoom: ref apartments\ptrace846\_local\refs\plan-05-living-room.png 1700x1700, camera at (1726,2612) bearing 109.0°
+sunTerrace: ref apartments\ptrace846\_local\refs\plan-06-sun-terrace.png 1700x1700, camera at (2739,1997) bearing 193.0°
+masterBedroom: ref apartments\ptrace846\_local\refs\plan-07-master-bedroom.png 1700x1700, camera at (1367,3434) bearing 117.0°
+wardrobeArea: ref apartments\ptrace846\_local\refs\plan-08-wardrobe-area.png 1700x1700, camera at (1017,3108) bearing 333.0°
+masterBathroom: ref apartments\ptrace846\_local\refs\plan-09-master-bathroom.png 1700x1700, camera at (433,3136) bearing 153.0°
+entrance: ref apartments\ptrace846\_local\refs\plan-10-entrance.png 1700x1700, camera at (863,1997) bearing 30.0°
+plan sheet apartments\ptrace846\plan\floorplan.webp 1262x1702 (166 KB)

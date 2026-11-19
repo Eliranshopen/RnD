@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "<img src=x onerror=alert(1)> hi",
+    "at": "2026-11-03T21:31:26.640Z"
+  },
+  {
+    "role": "assistant",
+    "content": "(mock) <img src=x onerror=alert(1)> hi",
+    "at": "2026-11-03T21:31:26.640Z",
+    "model": "mock",
+    "usd": 0
+  },
+  {
+    "role": "user",
+    "content": "<img src=x onerror=alert(1)> **bold**\n- a",
+    "at": "2026-11-03T21:32:26.230Z"
+  },
+  {
+    "role": "assistant",
+    "content": "(mock) <img src=x onerror=alert(1)> **bold**\n- a",
+    "at": "2026-11-03T21:32:26.230Z",
+    "model": "mock",
+    "usd": 0
+  }
+]

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1220">
+<title>Habait · Project</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f5c8f'/%3E%3Cpath d='M8 24 Q16 6 24 24' fill='none' stroke='%23f2a900' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/landing.css">
+</head>
+<!--
+  Card 25 (D3): one project landing page, two arms of an A/B test (same header, facts, lead form and legal footer):
+    A = static renders + the lead form           B = the 360 flight (flow.html, embedded) + the same lead form
+  landing.html?project=<id>[&unit=<id>][&v=a|b][&src=<campaign>][&lang=he|en]
+  The arm: ?v=a|b (the campaign link) > the arm already registered in this tab > hash(session_id) 50/50.
+  Every event of the tab carries `variant` (js/analytics.js setVariant). Weekly funnel: node report_weekly.mjs.
+  No developer branding / marketing text here (D-WQ-18): the project's own name, our renders, our caption.
+-->
+<body class="page-landing">
+<header class="topbar landing-top">
+  <div class="brand"><span class="brand-mark"></span><span class="brand-name">Habait</span></div>
+  <button class="lang-toggle" id="langToggle" type="button" aria-label="language">EN</button>
+</header>
+
+<main class="landing-main" id="main" aria-live="polite">
+  <section class="landing-hero">
+    <span class="badge badge-fixture" id="fixtureBadge" hidden></span>
+    <h1 id="projectName" class="landing-title"></h1>
+    <p id="projectTagline" class="landing-sub muted"></p>
+  </section>
+
+  <!-- variant A: static renders (filled by js/landing.js; never created in arm B) -->
+  <section id="variantA" class="variant variant-a" data-variant="a" hidden>
+    <figure class="hero-shot"><img id="heroImg" alt="" decoding="async"><figcaption class="shot-caption" data-legal-short></figcaption></figure>
+    <h2 class="section-title" data-l="gallery.title"></h2>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <!-- variant B: the 360 flight (flow.html) in a same-origin frame; created only in arm B -->
+  <section id="variantB" class="variant variant-b" data-variant="b" hidden>
+    <div class="flight-frame" id="flightFrame"></div>
+    <div class="flight-actions">
+      <a class="btn btn-ghost" id="flightFull" href="#" target="_top" data-l="flight.full"></a>
+      <span class="tiny muted" data-l="flight.hint"></span>
+    </div>
+    <p class="shot-caption" data-legal-short></p>
+  </section>
+
+  <!-- shared by both arms -->
+  <section class="landing-facts-card" id="facts" aria-labelledby="factsTitle">
+    <h2 class="section-title" id="factsTitle"></h2>
+    <dl class="landing-facts" id="factsList"></dl>
+  </section>
+
+  <section class="landing-lead" id="leadSection" aria-labelledby="leadTitle">
+    <h2 class="section-title" id="leadTitle" data-l="lead.title"></h2>
+    <p class="muted" data-l="lead.sub"></p>
+    <div id="landingLead"></div>
+  </section>
+</main>
+
+<dialog class="lightbox" id="lightbox">
+  <img id="lightboxImg" alt="">
+  <p class="shot-caption" id="lightboxCaption"></p>
+  <button class="btn btn-ghost" id="lightboxClose" type="button" data-l="lightbox.close"></button>
+</dialog>
+
+<footer class="landing-legal" id="legal">
+  <div id="legalFull"></div>
+  <p class="tiny muted" id="legalStatus"></p>
+  <p class="tiny muted">Habait · v0</p>
+</footer>
+
+<!-- The caption source of truth is C:\RnD\Projects\Habait\data\sales-plans\legal\disclaimer-he-en.md. When the apartment was built
+     (tools/build_zip.mjs -> _local/dist/<project>/<unit>/apartment.json) its filled caption is used; otherwise this
+     verbatim copy of the md's sections 1 + 2 is filled from project.json / units.json. test/landing.test.mjs fails if
+     this copy drifts from the md. -->
+<template id="legalTemplate">
+  <div data-part="short" data-lang="he"><p>הדמיה להמחשה בלבד. הופקה בסיוע בינה מלאכותית מתכנית המכר של דירה {UNIT}, {PROJECT}, מיום {PLAN_DATE}. המסמכים המחייבים הם המפרט והתכניות החתומים. ריהוט, גימורים ונוף להמחשה.</p></div>
+  <div data-part="short" data-lang="en"><p>Illustration only. Generated with AI assistance from the sales plan of unit {UNIT}, {PROJECT}, dated {PLAN_DATE}. The binding documents are the signed specification and plans. Furniture, finishes and views are illustrative.</p></div>
+  <div data-part="full" data-lang="he"><p>הדמיה להמחשה בלבד.</p><p>ההדמיה הופקה על ידי Habait עבור {DEVELOPER} בסיוע כלי בינה מלאכותית, על בסיס תכנית המכר של דירה {UNIT} בפרויקט {PROJECT} מיום {PLAN_DATE} (אדריכל: {ARCHITECT}). הגאומטריה של הדירה (חדרים, קירות, פתחים) נגזרה מתכנית המכר; מראה החומרים, התאורה, הריהוט, האביזרים, הצמחייה, האנשים והנוף הם פרשנות חזותית ואינם חלק מהממכר.</p><p>המסמכים המחייבים הם אך ורק המפרט הטכני (לפי חוק המכר (דירות), תשל"ג-1973, וצו מכר דירות (טופס של מפרט), תשל"ד-1974) והתכניות החתומות המצורפות לחוזה המכר. בכל סתירה בין ההדמיה לבין המפרט והתכניות, המפרט והתכניות גוברים.</p><p>ריהוט, גימורים, כלים סניטריים, מטבח, ארונות, תאורה ואביזרים אינם כלולים בדירה אלא אם נאמר במפורש במפרט. גוונים, חומרים ופריטים שמופיעים בהדמיה עשויים להיות שונים מאלה שיסופקו בפועל.</p><p>שטחים ומידות הם לפי תכניות היזם והמפרט; המידות בהדמיה מוצגות באופן מקורב ואינן מהוות מדידה. מיקום עמודים, קורות, פירים ומערכות עשוי להשתנות בהתאם לתכנון המפורט ולהוראות כל דין.</p><p>הסביבה, הבניינים השכנים, הנוף והתאורה הטבעית מוצגים להמחשה בלבד ואינם מתחייבים.</p><p>הופק: {GEN_DATE}, גרסה {VERSION}. גילוי: חלקים מההדמיה נוצרו או עובדו באמצעות בינה מלאכותית.</p></div>
+  <div data-part="full" data-lang="en"><p>Illustration only.</p><p>This visualization was produced by Habait for {DEVELOPER} with the assistance of artificial-intelligence tools, based on the sales plan of unit {UNIT} in {PROJECT} dated {PLAN_DATE} (architect: {ARCHITECT}). The apartment geometry (rooms, walls, openings) is derived from the sales plan; materials, lighting, furniture, accessories, vegetation, people and views are a visual interpretation and are not part of the property sold.</p><p>The binding documents are solely the technical specification (under the Sale (Apartments) Law, 5733-1973, and the Sale (Apartments) (Specification Form) Order, 5734-1974) and the signed plans attached to the sale agreement. In any discrepancy between this visualization and the specification and plans, the specification and plans prevail.</p><p>Furniture, finishes, sanitary fixtures, kitchen, closets, lighting and accessories are not included unless expressly stated in the specification. Colours, materials and items shown may differ from those actually supplied.</p><p>Areas and dimensions are per the developer's plans and specification; dimensions in the visualization are approximate and do not constitute a measurement. The location of columns, beams, shafts and building systems may change according to the detailed design and applicable law.</p><p>Surroundings, neighbouring buildings, views and natural light are shown for illustration only and are not guaranteed.</p><p>Produced {GEN_DATE}, version {VERSION}. Disclosure: parts of this visualization were created or processed using artificial intelligence.</p></div>
+</template>
+
+<script type="module" src="js/landing.js"></script>
+</body>
+</html>

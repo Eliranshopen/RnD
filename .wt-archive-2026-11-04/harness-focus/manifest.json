@@ -1,0 +1,63 @@
+{
+ "name": "harness-focus",
+ "purpose": "phase 2 of development/plans/2026-11-03-harness-focus.md: Projects/Habait/CLAUDE.md memory protocol (H5, OWED-014) and language line (H6, OWED-015)",
+ "opened": "2026-11-03T16:07:30",
+ "files": [
+  {
+   "path": "Projects/Habait/CLAUDE.md",
+   "sha256_at_open": "57ac655f059a96982217fecada79023501ccb4a6c42d426efbe6d644ee7c52d8",
+   "sha256_at_close": "293ea6aed5ec46e8b73d3e78ecaaf0cae07c02ff2beaddca4268523c2cd3914c"
+  },
+  {
+   "path": "Projects/Habait/memory.md",
+   "sha256_at_open": "ee0231d69691ea3ef7809acb2da3fa5b2a37382dcdf6ed55122b72e557779774",
+   "sha256_at_close": "77f80330d18fd4c555846b943045a8ad1f1dc360632eee4ba6ca74728910d951"
+  },
+  {
+   "path": "Projects/Habait/docs/_memory_preamble.txt",
+   "sha256_at_open": "a5ade927f3bf536a468eeda9136c33768682707042598e108a472923a93f42d4",
+   "sha256_at_close": "a66aa87ceac90c06bc059556a54146537ea24541465115a9b05c8414ad121e88"
+  },
+  {
+   "path": "Projects/Habait/docs/agent-team-org-chart.md",
+   "sha256_at_open": "b104adfb3b39454a6aecb4393c56eb9e9ed163cab2a8bdf4768aef298871bc9e",
+   "sha256_at_close": "b104adfb3b39454a6aecb4393c56eb9e9ed163cab2a8bdf4768aef298871bc9e"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/blender-scene.md",
+   "sha256_at_open": "5875a32c9765527bc7583ce5a0e29fe0548e4e017326c062e23ed274301f6af7",
+   "sha256_at_close": "e7f687f2ab11b5a2a0864f2ee4ed83ea521344cb238866ee2bfa8f2c40731982"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/cloud-render.md",
+   "sha256_at_open": "e735d097110ff3edc6b5296dd4f379f12bc2ac6e1aa1fabe507ac3226312cd41",
+   "sha256_at_close": "db787ca4e96985fc3ae42bdfc40ab39659d52ffc53340e96baf893051db19733"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/corpus-and-docs.md",
+   "sha256_at_open": "1f4e8df7110830db8404312999ce6a993a52c3cc777201774f9d2d879b3c0fa6",
+   "sha256_at_close": "6e42558abecff165d2435078d25d8c9b431f639013b3dab8fc42ecb846c7f1d4"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/engine-builder.md",
+   "sha256_at_open": "be715d54fbd4f52e150d8a9ebef593c2bd251df1b1315281b2d968797394cea6",
+   "sha256_at_close": "7411152fb956d866113f879181dc57a0ccd4105de25063dd7a3163bd6f8fa071"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/genai-look.md",
+   "sha256_at_open": "bb387facc3668144af64616acc84b206aee27e4c9c975daeb93a2d60bcdfe91e",
+   "sha256_at_close": "f8e4febad7eeb303fe585add70ca13cbd3cd3b9a7b25a3bf937cc2bf0d857432"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/platform-dev.md",
+   "sha256_at_open": "508341bbd193f52b158a3ae8025c37d833131a28925ec9b339e425c25e893db3",
+   "sha256_at_close": "5ece4c141818a12b65ca9d410b14d3251b1e48087c25f77223ece7a8d1119614"
+  },
+  {
+   "path": "Projects/Habait/.claude/agents/qa-reviewer.md",
+   "sha256_at_open": "e0d41c83decc47390677e800ddc6f36a92c94afa531efd9cc3897b969ec35f74",
+   "sha256_at_close": "f7d519a04b62666f259650b8942e904d8deecee1b3f4eefbb0d461efc37e1586"
+  }
+ ],
+ "closed": "2026-11-03T16:08:51"
+}

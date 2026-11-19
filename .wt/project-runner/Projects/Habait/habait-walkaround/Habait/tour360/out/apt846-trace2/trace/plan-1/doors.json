@@ -1,0 +1,308 @@
+{
+ "arcs": [
+  {
+   "hinge_px": [
+    381.8,
+    1790.2
+   ],
+   "r_px": 233.2,
+   "r_cm": 102.8,
+   "span_deg": 110,
+   "a0_deg": 10,
+   "a1_deg": 120,
+   "chord_px": [
+    [
+     381.8,
+     1790.2
+    ],
+    [
+     216.9,
+     1955.1
+    ]
+   ],
+   "leaf_px": [
+    611.4,
+    1830.7
+   ],
+   "wall_hits": 2,
+   "rooms": [
+    null,
+    "r-living-room"
+   ],
+   "added_opening": "o-arc-1"
+  },
+  {
+   "hinge_px": [
+    1260.8,
+    1494.8
+   ],
+   "r_px": 178.6,
+   "r_cm": 78.8,
+   "span_deg": 105,
+   "a0_deg": 205,
+   "a1_deg": 310,
+   "chord_px": [
+    [
+     1260.8,
+     1494.8
+    ],
+    [
+     1107.7,
+     1402.8
+    ]
+   ],
+   "leaf_px": [
+    1375.6,
+    1357.9
+   ],
+   "wall_hits": 2,
+   "rooms": [
+    "r-bedroom",
+    "r-living-room"
+   ],
+   "matched_opening": "o-1"
+  },
+  {
+   "hinge_px": [
+    866.2,
+    2783.2
+   ],
+   "r_px": 178.9,
+   "r_cm": 78.9,
+   "span_deg": 105,
+   "a0_deg": 15,
+   "a1_deg": 120,
+   "chord_px": [
+    [
+     866.2,
+     2783.2
+    ],
+    [
+     761.1,
+     2928.0
+    ]
+   ],
+   "leaf_px": [
+    1039.1,
+    2829.6
+   ],
+   "wall_hits": 3,
+   "rooms": [
+    "r-corridor-177",
+    "r-corridor-177"
+   ],
+   "problem": "a drawn door with the same traced room on both sides (kept: the drawing is the authority)",
+   "added_opening": "o-arc-3"
+  },
+  {
+   "hinge_px": [
+    491.2,
+    4166.2
+   ],
+   "r_px": 176.9,
+   "r_cm": 78.0,
+   "span_deg": 105,
+   "a0_deg": 285,
+   "a1_deg": 30,
+   "chord_px": [
+    [
+     491.2,
+     4166.2
+    ],
+    [
+     537.0,
+     3995.3
+    ]
+   ],
+   "leaf_px": [
+    644.5,
+    4254.7
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    372.8,
+    4106.2
+   ],
+   "r_px": 155.2,
+   "r_cm": 68.4,
+   "span_deg": 105,
+   "a0_deg": 195,
+   "a1_deg": 300,
+   "chord_px": [
+    [
+     372.8,
+     4106.2
+    ],
+    [
+     222.8,
+     4066.1
+    ]
+   ],
+   "leaf_px": [
+    450.3,
+    3971.8
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    666.8,
+    3294.8
+   ],
+   "r_px": 160.9,
+   "r_cm": 71.0,
+   "span_deg": 105,
+   "a0_deg": 195,
+   "a1_deg": 300,
+   "chord_px": [
+    [
+     666.8,
+     3294.8
+    ],
+    [
+     708.4,
+     3139.3
+    ]
+   ],
+   "leaf_px": [
+    511.3,
+    3253.1
+   ],
+   "wall_hits": 0,
+   "rooms": [
+    "r-wardrobe-area",
+    "r-master-bathroom"
+   ],
+   "gap_cm": 78.9,
+   "added_opening": "o-arc-6"
+  },
+  {
+   "hinge_px": [
+    927.8,
+    1578.8
+   ],
+   "r_px": 152.5,
+   "r_cm": 67.2,
+   "span_deg": 105,
+   "a0_deg": 115,
+   "a1_deg": 220,
+   "chord_px": [
+    [
+     927.8,
+     1578.8
+    ],
+    [
+     863.3,
+     1717.0
+    ]
+   ],
+   "leaf_px": [
+    810.9,
+    1480.7
+   ],
+   "wall_hits": 0,
+   "rooms": [
+    "r-bathroom",
+    "r-living-room"
+   ],
+   "added_opening": "o-arc-7"
+  },
+  {
+   "hinge_px": [
+    425.2,
+    1847.2
+   ],
+   "r_px": 162.2,
+   "r_cm": 71.5,
+   "span_deg": 80,
+   "a0_deg": 10,
+   "a1_deg": 90,
+   "chord_px": [
+    [
+     425.2,
+     1847.2
+    ],
+    [
+     585.0,
+     1875.4
+    ]
+   ],
+   "leaf_px": [
+    425.2,
+    2009.5
+   ],
+   "wall_hits": 0,
+   "rooms": [
+    "r-living-room",
+    "r-bathroom"
+   ],
+   "added_opening": "o-arc-8"
+  },
+  {
+   "hinge_px": [
+    6.8,
+    1557.8
+   ],
+   "r_px": 170.1,
+   "r_cm": 75.0,
+   "span_deg": 80,
+   "a0_deg": 290,
+   "a1_deg": 10,
+   "chord_px": [
+    [
+     6.8,
+     1557.8
+    ],
+    [
+     64.9,
+     1398.0
+    ]
+   ],
+   "leaf_px": [
+    174.2,
+    1587.3
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    708.8,
+    3354.8
+   ],
+   "r_px": 230.8,
+   "r_cm": 101.8,
+   "span_deg": 60,
+   "a0_deg": 205,
+   "a1_deg": 265,
+   "chord_px": [
+    [
+     708.8,
+     3354.8
+    ],
+    [
+     499.6,
+     3257.2
+    ]
+   ],
+   "leaf_px": [
+    688.6,
+    3124.8
+   ],
+   "wall_hits": 0,
+   "rooms": [
+    "r-master-bathroom",
+    "r-master-bathroom"
+   ],
+   "problem": "a drawn door with the same traced room on both sides (kept: the drawing is the authority)",
+   "gap_cm": 58.6,
+   "added_opening": "o-arc-10"
+  }
+ ],
+ "added": 6,
+ "entrance": null
+}

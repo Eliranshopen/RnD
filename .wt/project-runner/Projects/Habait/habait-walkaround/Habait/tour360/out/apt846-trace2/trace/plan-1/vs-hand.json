@@ -1,0 +1,374 @@
+{
+ "bar_pct": 1.0,
+ "registration": {
+  "hand_crop_at_sheet_px": [
+   1750,
+   380
+  ],
+  "corr": 1.0,
+  "ppc_auto": 2.2677,
+  "ppc_hand": 2.268
+ },
+ "rooms_matched": 0,
+ "rooms_hand": 11,
+ "rooms": [
+  {
+   "room": "r-entrance",
+   "name_he": "כניסה",
+   "auto": null,
+   "match": false,
+   "why": "no auto room overlaps it"
+  },
+  {
+   "room": "r-kitchen",
+   "name_he": "מטבח",
+   "auto": "r-kitchen",
+   "auto_name_he": "מטבח",
+   "hand_m2": 10.28,
+   "auto_m2": 7.0,
+   "area_err_pct": -31.9,
+   "hand_sides_cm": [
+    529,
+    277
+   ],
+   "auto_sides_cm": [
+    357,
+    261
+   ],
+   "side_err_pct": [
+    -32.6,
+    -5.7
+   ],
+   "centroid_off_cm": 61.4,
+   "iou": 0.581,
+   "match": false
+  },
+  {
+   "room": "r-dining",
+   "name_he": "פינת אוכל",
+   "auto": "r-dining-area",
+   "auto_name_he": "פינת אוכל",
+   "hand_m2": 8.82,
+   "auto_m2": 39.24,
+   "area_err_pct": 344.7,
+   "hand_sides_cm": [
+    424,
+    254
+   ],
+   "auto_sides_cm": [
+    1403,
+    556
+   ],
+   "side_err_pct": [
+    231.3,
+    118.6
+   ],
+   "centroid_off_cm": 339.4,
+   "iou": 0.196,
+   "match": false
+  },
+  {
+   "room": "r-living",
+   "name_he": "סלון",
+   "auto": "r-living-room",
+   "auto_name_he": "חדר דיור",
+   "hand_m2": 30.84,
+   "auto_m2": 36.89,
+   "area_err_pct": 19.6,
+   "hand_sides_cm": [
+    833,
+    513
+   ],
+   "auto_sides_cm": [
+    888,
+    560
+   ],
+   "side_err_pct": [
+    6.6,
+    9.2
+   ],
+   "centroid_off_cm": 98.6,
+   "iou": 0.6,
+   "match": false
+  },
+  {
+   "room": "r-terrace-living",
+   "name_he": "מרפסת שמש",
+   "auto": "r-sun-balcony",
+   "auto_name_he": "מרפסת שמש",
+   "hand_m2": 15.63,
+   "auto_m2": 15.52,
+   "area_err_pct": -0.7,
+   "hand_sides_cm": [
+    788,
+    345
+   ],
+   "auto_sides_cm": [
+    771,
+    332
+   ],
+   "side_err_pct": [
+    -2.1,
+    -3.8
+   ],
+   "centroid_off_cm": 1.4,
+   "iou": 0.95,
+   "match": false
+  },
+  {
+   "room": "r-terrace-bedroom",
+   "name_he": "מרפסת · קצה החדרים",
+   "auto": null,
+   "match": false,
+   "why": "no auto room overlaps it"
+  },
+  {
+   "room": "r-bedroom-main",
+   "name_he": "חדר שינה הורים",
+   "auto": "r-master-bedroom",
+   "auto_name_he": "חדר שינה הורים",
+   "hand_m2": 12.18,
+   "auto_m2": 11.82,
+   "area_err_pct": -3.0,
+   "hand_sides_cm": [
+    388,
+    347
+   ],
+   "auto_sides_cm": [
+    346,
+    342
+   ],
+   "side_err_pct": [
+    -10.9,
+    -1.4
+   ],
+   "centroid_off_cm": 5.3,
+   "iou": 0.957,
+   "match": false
+  },
+  {
+   "room": "r-wardrobe",
+   "name_he": "פינת ארונות",
+   "auto": "r-wardrobe-area",
+   "auto_name_he": "פינת ארונות",
+   "hand_m2": 5.19,
+   "auto_m2": 2.92,
+   "area_err_pct": -43.7,
+   "hand_sides_cm": [
+    345,
+    164
+   ],
+   "auto_sides_cm": [
+    184,
+    159
+   ],
+   "side_err_pct": [
+    -46.7,
+    -3.5
+   ],
+   "centroid_off_cm": 72.8,
+   "iou": 0.55,
+   "match": false
+  },
+  {
+   "room": "r-bath-main",
+   "name_he": "חדר רחצה הורים",
+   "auto": "r-master-bathroom",
+   "auto_name_he": "חדר רחצה הורים",
+   "hand_m2": 4.53,
+   "auto_m2": 4.39,
+   "area_err_pct": -3.1,
+   "hand_sides_cm": [
+    216,
+    215
+   ],
+   "auto_sides_cm": [
+    211,
+    208
+   ],
+   "side_err_pct": [
+    -2.3,
+    -3.1
+   ],
+   "centroid_off_cm": 5.3,
+   "iou": 0.935,
+   "match": false
+  },
+  {
+   "room": "r-bedroom-2",
+   "name_he": "חדר שינה",
+   "auto": "r-bedroom",
+   "auto_name_he": "חדר שינה",
+   "hand_m2": 9.38,
+   "auto_m2": 9.39,
+   "area_err_pct": 0.1,
+   "hand_sides_cm": [
+    347,
+    278
+   ],
+   "auto_sides_cm": [
+    342,
+    276
+   ],
+   "side_err_pct": [
+    -1.3,
+    -0.6
+   ],
+   "centroid_off_cm": 4.5,
+   "iou": 0.958,
+   "match": false
+  },
+  {
+   "room": "r-bath-guest",
+   "name_he": "חדר רחצה כללי",
+   "auto": "r-bathroom",
+   "auto_name_he": "חדר רחצה כללי",
+   "hand_m2": 3.4,
+   "auto_m2": 2.78,
+   "area_err_pct": -18.2,
+   "hand_sides_cm": [
+    263,
+    155
+   ],
+   "auto_sides_cm": [
+    199,
+    141
+   ],
+   "side_err_pct": [
+    -24.2,
+    -9.0
+   ],
+   "centroid_off_cm": 28.3,
+   "iou": 0.749,
+   "match": false
+  }
+ ],
+ "auto_rooms_without_hand_counterpart": [
+  "r-corridor-177"
+ ],
+ "openings": {
+  "hand": 13,
+  "auto": 9,
+  "matched": 2,
+  "rows": [
+   {
+    "id": "o-1",
+    "rooms": [
+     "r-entrance",
+     "r-living"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-2",
+    "rooms": [
+     "r-kitchen",
+     "r-living"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-3",
+    "rooms": [
+     "r-dining",
+     "r-kitchen"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-4",
+    "rooms": [
+     "r-dining",
+     "r-living"
+    ],
+    "matched": true,
+    "dist_cm": 40.6
+   },
+   {
+    "id": "o-5",
+    "rooms": [
+     "r-living",
+     "r-terrace-living"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-6",
+    "rooms": [
+     "r-living",
+     "r-wardrobe"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-7",
+    "rooms": [
+     "r-terrace-bedroom",
+     "r-terrace-living"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-8",
+    "rooms": [
+     "r-bedroom-main",
+     "r-wardrobe"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-9",
+    "rooms": [
+     "r-bath-main",
+     "r-wardrobe"
+    ],
+    "matched": true,
+    "dist_cm": 8.9
+   },
+   {
+    "id": "o-10",
+    "rooms": [
+     "r-bedroom-2",
+     "r-entrance"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-11",
+    "rooms": [
+     "r-bath-guest",
+     "r-entrance"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-12",
+    "rooms": [
+     "outside",
+     "r-entrance"
+    ],
+    "matched": false,
+    "dist_cm": null
+   },
+   {
+    "id": "o-13",
+    "rooms": [
+     "r-bedroom-main",
+     "r-terrace-bedroom"
+    ],
+    "matched": false,
+    "dist_cm": null
+   }
+  ]
+ },
+ "walls_iou": 0.822
+}

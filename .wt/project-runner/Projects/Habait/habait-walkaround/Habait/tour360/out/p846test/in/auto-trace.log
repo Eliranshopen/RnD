@@ -1,0 +1,3 @@
+[auto-trace 8s] plan 1: 3156×4257 (page 1)
+[auto-trace 9s] auto_prep: sheet mode (saturated 0.00 %), unchanged
+auto-trace: the read call failed (HTTP 403)

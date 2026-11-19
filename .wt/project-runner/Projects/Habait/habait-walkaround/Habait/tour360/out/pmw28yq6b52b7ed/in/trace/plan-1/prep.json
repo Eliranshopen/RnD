@@ -1,0 +1,13 @@
+{
+ "mode": "brochure",
+ "saturated_pct": 13.83,
+ "wall_bgr": [
+  107,
+  107,
+  107
+ ],
+ "thick_px": 9.0,
+ "open_kernel_px": 5,
+ "wall_pct": 4.15,
+ "windows": 7
+}

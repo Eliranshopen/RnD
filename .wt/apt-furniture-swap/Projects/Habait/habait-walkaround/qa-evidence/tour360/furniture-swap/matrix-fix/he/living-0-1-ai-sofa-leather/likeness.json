@@ -1,0 +1,17 @@
+{
+ "ok": true,
+ "item": "ai-sofa-leather",
+ "found": true,
+ "score": 3,
+ "why": "The sofa is faithfully reproduced with the exact leather upholstery, tufting pattern, armrest design, and black metal frame.",
+ "usd": 0.004,
+ "ms": 4419,
+ "settled": {
+  "usd": 0.004,
+  "status": "settled",
+  "found": true,
+  "score": 3,
+  "why": "The sofa is faithfully reproduced with the exact leather upholstery, tufting pattern, armrest design, and black metal frame.",
+  "seconds": 4.409
+ }
+}

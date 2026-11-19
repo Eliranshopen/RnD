@@ -1,0 +1,22 @@
+[auto-trace 5s] plan 1: 3156×4257 (page 1)
+[auto-trace 5s] auto_prep: sheet mode (saturated 0.00 %), unchanged
+[auto-trace 8s] auto_walls_pdf: 103 gap(s) <= 15 cm in window lines joined
+auto_walls_pdf: beam strip from 7 V25 edge / glass pair(s), 107705 px
+auto_walls_pdf --dims-only: 866 dimension segments, 36 door paths (walls stay raster)
+[auto-trace 8s] scale 2.2677 px/cm (printed dimension lines: 15 printed values measured tick to tick (140, 160, 185, 199, 210, 212, 270, 275, 342, 344, 348, 474, 530, 744, 1213)); 10 seeds, 10 fixtures read
+[auto-trace 17s] r1 auto_split: 11 seeds, 25 boundary lines, wall angle 18.0, 4 notes
+[auto-trace 17s] r1 note: envelope closing 120 cm (94 % of the walls' hull)
+[auto-trace 17s] r1 note: envelope: 141.6 m� closed footprint, 3 gap line(s) on its outline
+[auto-trace 17s] r1 note: entrance: label outside the building, moved 65 cm inside
+[auto-trace 17s] r1 note: hall-auto-91: 2.8 m� of open space carried no label; made a hall
+[auto-trace 63s] r1 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace-vlm\plan-1\plan.general.json: 11 rooms, 7 wall pieces, 5 openings, 11 panes, 11 cameras, 0 fixtures
+[auto-trace 75s] r1 auto_rooms: 1 built-in box(es) set into a wall: not floor
+auto_rooms: 12 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 11 rooms (axis 17.5 deg), 9 printed rectangles, 6 snapped; 30 notes
+[auto-trace 79s] r1 auto_finalize: 11 rooms, 20 fixtures, wall angle 17.5 deg, scale 2.2677 px/cm (fit x1.0000), 8 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace-vlm\plan-1\overlay.png
+[auto-trace 80s] r1 trace_check: PASS � 85/85 checks pass; corrections: force_rect []
+[auto-trace 97s] judge: $0.0077
+[auto-trace 110s] judge: $0.0073
+[auto-trace 127s] judge: $0.0089
+[auto-trace 127s] plan 1: PASS after 1 round(s) — 0 mechanical failure(s), judge 1 mismatch(es)
+[auto-trace 127s] done: PASS — plan-1 PASS; $0.0239 → C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace-vlm\index.json

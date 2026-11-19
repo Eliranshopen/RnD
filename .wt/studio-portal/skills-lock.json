@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "codebase-design": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/codebase-design/SKILL.md",
+      "computedHash": "417e3ea96ab3fbe2b7a4279ce3e59202fb7106ad688c12f2d577c9219803de8d",
+      "installMode": "copy"
+    },
+    "domain-modeling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "computedHash": "f377a1341e1b368833cfe5889ace3e61d7df48d7a9e5da9253dba75d062bbfbc",
+      "installMode": "copy"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "11cfd9568d71445df710d5a9332c674ad773de0c9d5fc22d3ffa175bdd7d988b",
+      "installMode": "copy"
+    },
+    "real-estate-content-production": {
+      "source": "calesthio/generative-media-skills",
+      "sourceType": "github",
+      "skillPath": "skills/production/content-formats/real-estate-content-production/SKILL.md",
+      "computedHash": "6efe643e266c8eb322a646362297a5433de185e2e03332fc53ad0669c6045849",
+      "installMode": "copy"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+# flatfix/ — context file
+<!-- last-updated: 2026-11-19 -->
+<!-- generated-by: generate-cards.py · tables are facts from disk and regenerate; Purpose and Gotchas are kept as written -->
+
+## Purpose
+_Not written yet — one line on what this folder is for. Until then the parent context file's row for this folder is the description._
+
+## What's here (2026-11-19)
+0 files here · 172 subfolders · 964 files / 1.9 GB in the whole tree (vendor and build output excluded)
+
+## Subfolders
+| Folder | Card | Files in tree |
+|---|---|---|
+| `01-kitchen-island/` | [`01-kitchen-island/CLAUDE.md`](01-kitchen-island/CLAUDE.md) | 4 (2.8 MB) |
+| `01-kitchen-level/` | [`01-kitchen-level/CLAUDE.md`](01-kitchen-level/CLAUDE.md) | 4 (2.7 MB) |
+| `01-kitchen-level2/` | [`01-kitchen-level2/CLAUDE.md`](01-kitchen-level2/CLAUDE.md) | 4 (2.8 MB) |
+| `01-kitchen-look-r-lookA/` | [`01-kitchen-look-r-lookA/CLAUDE.md`](01-kitchen-look-r-lookA/CLAUDE.md) | 5 (6.4 MB) |
+| `01-kitchen-look-r-lookB/` | [`01-kitchen-look-r-lookB/CLAUDE.md`](01-kitchen-look-r-lookB/CLAUDE.md) | 5 (6.6 MB) |
+| `01-kitchen-north/` | [`01-kitchen-north/CLAUDE.md`](01-kitchen-north/CLAUDE.md) | 5 (3.8 MB) |
+| `01-kitchen-r-b115/` | [`01-kitchen-r-b115/CLAUDE.md`](01-kitchen-r-b115/CLAUDE.md) | 6 (15.5 MB) |
+| `01-kitchen-r-b205/` | [`01-kitchen-r-b205/CLAUDE.md`](01-kitchen-r-b205/CLAUDE.md) | 6 (15.4 MB) |
+| `01-kitchen-r-b295/` | [`01-kitchen-r-b295/CLAUDE.md`](01-kitchen-r-b295/CLAUDE.md) | 6 (15.1 MB) |
+| `01-kitchen-r-b295b/` | [`01-kitchen-r-b295b/CLAUDE.md`](01-kitchen-r-b295b/CLAUDE.md) | 6 (17.2 MB) |
+| `01-kitchen-r-chk270/` | [`01-kitchen-r-chk270/CLAUDE.md`](01-kitchen-r-chk270/CLAUDE.md) | 4 (1.5 MB) |
+| `01-kitchen-r-chk330/` | [`01-kitchen-r-chk330/CLAUDE.md`](01-kitchen-r-chk330/CLAUDE.md) | 4 (1.7 MB) |
+| `01-kitchen-r-chkisl/` | [`01-kitchen-r-chkisl/CLAUDE.md`](01-kitchen-r-chkisl/CLAUDE.md) | 4 (2.3 MB) |
+| `01-kitchen-r-chkliv/` | [`01-kitchen-r-chkliv/CLAUDE.md`](01-kitchen-r-chkliv/CLAUDE.md) | 4 (1.5 MB) |
+| `01-kitchen-r-d030/` | [`01-kitchen-r-d030/CLAUDE.md`](01-kitchen-r-d030/CLAUDE.md) | 6 (4.3 MB) |
+| `01-kitchen-r-d150/` | [`01-kitchen-r-d150/CLAUDE.md`](01-kitchen-r-d150/CLAUDE.md) | 6 (4.1 MB) |
+| `01-kitchen-r-d270/` | [`01-kitchen-r-d270/CLAUDE.md`](01-kitchen-r-d270/CLAUDE.md) | 6 (4.3 MB) |
+| `01-kitchen-r-down/` | [`01-kitchen-r-down/CLAUDE.md`](01-kitchen-r-down/CLAUDE.md) | 6 (4.1 MB) |
+| `01-kitchen-r-lookB/` | [`01-kitchen-r-lookB/CLAUDE.md`](01-kitchen-r-lookB/CLAUDE.md) | 6 (15.0 MB) |
+| `01-kitchen-r-p1/` | [`01-kitchen-r-p1/CLAUDE.md`](01-kitchen-r-p1/CLAUDE.md) | 6 (3.9 MB) |
+| `01-kitchen-r-p2/` | [`01-kitchen-r-p2/CLAUDE.md`](01-kitchen-r-p2/CLAUDE.md) | 6 (4.1 MB) |
+| `01-kitchen-r-p3/` | [`01-kitchen-r-p3/CLAUDE.md`](01-kitchen-r-p3/CLAUDE.md) | 6 (4.1 MB) |
+| `01-kitchen-r-s1/` | [`01-kitchen-r-s1/CLAUDE.md`](01-kitchen-r-s1/CLAUDE.md) | 6 (4.5 MB) |
+| `01-kitchen-r-s2/` | [`01-kitchen-r-s2/CLAUDE.md`](01-kitchen-r-s2/CLAUDE.md) | 6 (4.5 MB) |
+| `01-kitchen-r-s3/` | [`01-kitchen-r-s3/CLAUDE.md`](01-kitchen-r-s3/CLAUDE.md) | 6 (4.5 MB) |
+| `01-kitchen-r-t095/` | [`01-kitchen-r-t095/CLAUDE.md`](01-kitchen-r-t095/CLAUDE.md) | 6 (17.0 MB) |
+| `01-kitchen-r-t340/` | [`01-kitchen-r-t340/CLAUDE.md`](01-kitchen-r-t340/CLAUDE.md) | 6 (17.1 MB) |
+| `01-kitchen-r-up/` | [`01-kitchen-r-up/CLAUDE.md`](01-kitchen-r-up/CLAUDE.md) | 6 (2.5 MB) |
+| `01-kitchen-r-v000/` | [`01-kitchen-r-v000/CLAUDE.md`](01-kitchen-r-v000/CLAUDE.md) | 6 (3.5 MB) |
+| `01-kitchen-r-v060/` | [`01-kitchen-r-v060/CLAUDE.md`](01-kitchen-r-v060/CLAUDE.md) | 10 (7.9 MB) |
+| `01-kitchen-r-v120/` | [`01-kitchen-r-v120/CLAUDE.md`](01-kitchen-r-v120/CLAUDE.md) | 12 (10.0 MB) |
+| `01-kitchen-r-v180/` | [`01-kitchen-r-v180/CLAUDE.md`](01-kitchen-r-v180/CLAUDE.md) | 6 (3.4 MB) |
+| `01-kitchen-r-v240/` | [`01-kitchen-r-v240/CLAUDE.md`](01-kitchen-r-v240/CLAUDE.md) | 6 (3.5 MB) |
+| `01-kitchen-r-v300/` | [`01-kitchen-r-v300/CLAUDE.md`](01-kitchen-r-v300/CLAUDE.md) | 8 (6.4 MB) |
+| `02-pantry-r-b000/` | [`02-pantry-r-b000/CLAUDE.md`](02-pantry-r-b000/CLAUDE.md) | 6 (13.5 MB) |
+| `02-pantry-r-b090/` | [`02-pantry-r-b090/CLAUDE.md`](02-pantry-r-b090/CLAUDE.md) | 6 (17.0 MB) |
+| `02-pantry-r-b180/` | [`02-pantry-r-b180/CLAUDE.md`](02-pantry-r-b180/CLAUDE.md) | 6 (17.9 MB) |
+| `02-pantry-r-b270/` | [`02-pantry-r-b270/CLAUDE.md`](02-pantry-r-b270/CLAUDE.md) | 6 (17.5 MB) |
+| `02-pantry-r-f040/` | [`02-pantry-r-f040/CLAUDE.md`](02-pantry-r-f040/CLAUDE.md) | 6 (17.0 MB) |
+| `02-pantry-r-j048/` | [`02-pantry-r-j048/CLAUDE.md`](02-pantry-r-j048/CLAUDE.md) | 6 (15.9 MB) |
+| `02-pantry-r-ju045/` | [`02-pantry-r-ju045/CLAUDE.md`](02-pantry-r-ju045/CLAUDE.md) | 6 (16.6 MB) |
+| `02-pantry-r-s295/` | [`02-pantry-r-s295/CLAUDE.md`](02-pantry-r-s295/CLAUDE.md) | 6 (13.9 MB) |
+| `02-pantry-r-t060/` | [`02-pantry-r-t060/CLAUDE.md`](02-pantry-r-t060/CLAUDE.md) | 6 (18.1 MB) |
+| `02-pantry-r-t180/` | [`02-pantry-r-t180/CLAUDE.md`](02-pantry-r-t180/CLAUDE.md) | 6 (20.3 MB) |
+| `02-pantry-r-t300/` | [`02-pantry-r-t300/CLAUDE.md`](02-pantry-r-t300/CLAUDE.md) | 4 (6.1 MB) |
+| `02-pantry-shelves/` | [`02-pantry-shelves/CLAUDE.md`](02-pantry-shelves/CLAUDE.md) | 5 (4.3 MB) |
+| `03-living-a/` | [`03-living-a/CLAUDE.md`](03-living-a/CLAUDE.md) | 13 (14.9 MB) |
+| `03-living-b/` | [`03-living-b/CLAUDE.md`](03-living-b/CLAUDE.md) | 5 (4.2 MB) |
+| `03-living-c/` | [`03-living-c/CLAUDE.md`](03-living-c/CLAUDE.md) | 5 (3.6 MB) |
+| `03-living-door/` | [`03-living-door/CLAUDE.md`](03-living-door/CLAUDE.md) | 3 (1.7 MB) |
+| `03-living-r-b000/` | [`03-living-r-b000/CLAUDE.md`](03-living-r-b000/CLAUDE.md) | 6 (13.9 MB) |
+| `03-living-r-b090/` | [`03-living-r-b090/CLAUDE.md`](03-living-r-b090/CLAUDE.md) | 6 (15.2 MB) |
+| `03-living-r-b090b/` | [`03-living-r-b090b/CLAUDE.md`](03-living-r-b090b/CLAUDE.md) | 6 (13.1 MB) |
+| `03-living-r-b180/` | [`03-living-r-b180/CLAUDE.md`](03-living-r-b180/CLAUDE.md) | 6 (15.9 MB) |
+| `03-living-r-b270/` | [`03-living-r-b270/CLAUDE.md`](03-living-r-b270/CLAUDE.md) | 6 (16.3 MB) |
+| `03-living-r-s232/` | [`03-living-r-s232/CLAUDE.md`](03-living-r-s232/CLAUDE.md) | 6 (16.9 MB) |
+| `03-living-r-t034/` | [`03-living-r-t034/CLAUDE.md`](03-living-r-t034/CLAUDE.md) | 6 (15.2 MB) |
+| `03-living-r-t210/` | [`03-living-r-t210/CLAUDE.md`](03-living-r-t210/CLAUDE.md) | 6 (18.0 MB) |
+| `03-living-tv/` | [`03-living-tv/CLAUDE.md`](03-living-tv/CLAUDE.md) | 3 (1.5 MB) |
+| `04-dining-r-b000/` | [`04-dining-r-b000/CLAUDE.md`](04-dining-r-b000/CLAUDE.md) | 6 (15.1 MB) |
+| `04-dining-r-b090/` | [`04-dining-r-b090/CLAUDE.md`](04-dining-r-b090/CLAUDE.md) | 6 (15.8 MB) |
+| `04-dining-r-b090b/` | [`04-dining-r-b090b/CLAUDE.md`](04-dining-r-b090b/CLAUDE.md) | 6 (17.0 MB) |
+| `04-dining-r-b180/` | [`04-dining-r-b180/CLAUDE.md`](04-dining-r-b180/CLAUDE.md) | 6 (16.6 MB) |
+| `04-dining-r-b270/` | [`04-dining-r-b270/CLAUDE.md`](04-dining-r-b270/CLAUDE.md) | 6 (16.7 MB) |
+| `04-dining-r-c140/` | [`04-dining-r-c140/CLAUDE.md`](04-dining-r-c140/CLAUDE.md) | 6 (17.0 MB) |
+| `04-dining-r-s228/` | [`04-dining-r-s228/CLAUDE.md`](04-dining-r-s228/CLAUDE.md) | 6 (17.6 MB) |
+| `04-dining-r-t110/` | [`04-dining-r-t110/CLAUDE.md`](04-dining-r-t110/CLAUDE.md) | 6 (16.2 MB) |
+| `04-dining-r-t185/` | [`04-dining-r-t185/CLAUDE.md`](04-dining-r-t185/CLAUDE.md) | 6 (17.8 MB) |
+| `05-family-r-b000/` | [`05-family-r-b000/CLAUDE.md`](05-family-r-b000/CLAUDE.md) | 6 (13.9 MB) |
+| `05-family-r-b090/` | [`05-family-r-b090/CLAUDE.md`](05-family-r-b090/CLAUDE.md) | 6 (14.1 MB) |
+| `05-family-r-b180/` | [`05-family-r-b180/CLAUDE.md`](05-family-r-b180/CLAUDE.md) | 6 (14.8 MB) |
+| `05-family-r-b270/` | [`05-family-r-b270/CLAUDE.md`](05-family-r-b270/CLAUDE.md) | 6 (14.0 MB) |
+| `05-family-r-t030/` | [`05-family-r-t030/CLAUDE.md`](05-family-r-t030/CLAUDE.md) | 6 (16.4 MB) |
+| `05-family-r-t140/` | [`05-family-r-t140/CLAUDE.md`](05-family-r-t140/CLAUDE.md) | 6 (16.9 MB) |
+| `05-family-r-t295/` | [`05-family-r-t295/CLAUDE.md`](05-family-r-t295/CLAUDE.md) | 4 (4.7 MB) |
+| `05-family-tv/` | [`05-family-tv/CLAUDE.md`](05-family-tv/CLAUDE.md) | 3 (1.6 MB) |
+| `05-family-tvd/` | [`05-family-tvd/CLAUDE.md`](05-family-tvd/CLAUDE.md) | 5 (5.3 MB) |
+| `05-family-tvwin/` | [`05-family-tvwin/CLAUDE.md`](05-family-tvwin/CLAUDE.md) | 3 (1.7 MB) |
+| `05-family-win/` | [`05-family-win/CLAUDE.md`](05-family-win/CLAUDE.md) | 7 (7.7 MB) |
+| `05-family-win2/` | [`05-family-win2/CLAUDE.md`](05-family-win2/CLAUDE.md) | 1 (210 B) |
+| `05-family-win3/` | [`05-family-win3/CLAUDE.md`](05-family-win3/CLAUDE.md) | 1 (241 B) |
+| `06-corridor-e/` | [`06-corridor-e/CLAUDE.md`](06-corridor-e/CLAUDE.md) | 7 (5.9 MB) |
+| `06-corridor-r-b000/` | [`06-corridor-r-b000/CLAUDE.md`](06-corridor-r-b000/CLAUDE.md) | 6 (15.5 MB) |
+| `06-corridor-r-b090/` | [`06-corridor-r-b090/CLAUDE.md`](06-corridor-r-b090/CLAUDE.md) | 6 (18.3 MB) |
+| `06-corridor-r-b180/` | [`06-corridor-r-b180/CLAUDE.md`](06-corridor-r-b180/CLAUDE.md) | 5 (9.3 MB) |
+| `06-corridor-r-b270/` | [`06-corridor-r-b270/CLAUDE.md`](06-corridor-r-b270/CLAUDE.md) | 5 (8.2 MB) |
+| `06-corridor-r-c175/` | [`06-corridor-r-c175/CLAUDE.md`](06-corridor-r-c175/CLAUDE.md) | 6 (16.9 MB) |
+| `06-corridor-r-t034/` | [`06-corridor-r-t034/CLAUDE.md`](06-corridor-r-t034/CLAUDE.md) | 6 (17.5 MB) |
+| `06-corridor-r-t149/` | [`06-corridor-r-t149/CLAUDE.md`](06-corridor-r-t149/CLAUDE.md) | 6 (17.8 MB) |
+| `07-master-r-b000/` | [`07-master-r-b000/CLAUDE.md`](07-master-r-b000/CLAUDE.md) | 6 (13.4 MB) |
+| `07-master-r-b090/` | [`07-master-r-b090/CLAUDE.md`](07-master-r-b090/CLAUDE.md) | 6 (16.4 MB) |
+| `07-master-r-b180/` | [`07-master-r-b180/CLAUDE.md`](07-master-r-b180/CLAUDE.md) | 6 (17.9 MB) |
+| `07-master-r-b270/` | [`07-master-r-b270/CLAUDE.md`](07-master-r-b270/CLAUDE.md) | 6 (17.1 MB) |
+| `07-master-r-t110/` | [`07-master-r-t110/CLAUDE.md`](07-master-r-t110/CLAUDE.md) | 4 (7.7 MB) |
+| `07-master-r-t130/` | [`07-master-r-t130/CLAUDE.md`](07-master-r-t130/CLAUDE.md) | 6 (17.4 MB) |
+| `07-master-r-t240/` | [`07-master-r-t240/CLAUDE.md`](07-master-r-t240/CLAUDE.md) | 6 (18.6 MB) |
+| `07-master-r-t340/` | [`07-master-r-t340/CLAUDE.md`](07-master-r-t340/CLAUDE.md) | 6 (18.3 MB) |
+| `07-master-w/` | [`07-master-w/CLAUDE.md`](07-master-w/CLAUDE.md) | 5 (3.5 MB) |
+| `07-master-wardrobe/` | [`07-master-wardrobe/CLAUDE.md`](07-master-wardrobe/CLAUDE.md) | 3 (1.3 MB) |
+| `07-master-window/` | [`07-master-window/CLAUDE.md`](07-master-window/CLAUDE.md) | 5 (4.4 MB) |
+| `08-shower-r-b000/` | [`08-shower-r-b000/CLAUDE.md`](08-shower-r-b000/CLAUDE.md) | 6 (12.6 MB) |
+| `08-shower-r-b090/` | [`08-shower-r-b090/CLAUDE.md`](08-shower-r-b090/CLAUDE.md) | 5 (6.6 MB) |
+| `08-shower-r-b090b/` | [`08-shower-r-b090b/CLAUDE.md`](08-shower-r-b090b/CLAUDE.md) | 5 (8.6 MB) |
+| `08-shower-r-b090c/` | [`08-shower-r-b090c/CLAUDE.md`](08-shower-r-b090c/CLAUDE.md) | 6 (13.3 MB) |
+| `08-shower-r-b180/` | [`08-shower-r-b180/CLAUDE.md`](08-shower-r-b180/CLAUDE.md) | 6 (14.1 MB) |
+| `08-shower-r-b270/` | [`08-shower-r-b270/CLAUDE.md`](08-shower-r-b270/CLAUDE.md) | 6 (15.6 MB) |
+| `08-shower-r-t000/` | [`08-shower-r-t000/CLAUDE.md`](08-shower-r-t000/CLAUDE.md) | 6 (16.5 MB) |
+| `08-shower-r-t120/` | [`08-shower-r-t120/CLAUDE.md`](08-shower-r-t120/CLAUDE.md) | 6 (16.7 MB) |
+| `08-shower-r-t240/` | [`08-shower-r-t240/CLAUDE.md`](08-shower-r-t240/CLAUDE.md) | 5 (11.9 MB) |
+| `08-shower-r-u050/` | [`08-shower-r-u050/CLAUDE.md`](08-shower-r-u050/CLAUDE.md) | 6 (13.5 MB) |
+| `08-shower-r-u240/` | [`08-shower-r-u240/CLAUDE.md`](08-shower-r-u240/CLAUDE.md) | 6 (16.6 MB) |
+| `08-shower-vanity/` | [`08-shower-vanity/CLAUDE.md`](08-shower-vanity/CLAUDE.md) | 5 (4.1 MB) |
+| `09-bed1-r-b000/` | [`09-bed1-r-b000/CLAUDE.md`](09-bed1-r-b000/CLAUDE.md) | 6 (13.1 MB) |
+| `09-bed1-r-b090/` | [`09-bed1-r-b090/CLAUDE.md`](09-bed1-r-b090/CLAUDE.md) | 6 (17.1 MB) |
+| `09-bed1-r-b180/` | [`09-bed1-r-b180/CLAUDE.md`](09-bed1-r-b180/CLAUDE.md) | 6 (17.5 MB) |
+| `09-bed1-r-b270/` | [`09-bed1-r-b270/CLAUDE.md`](09-bed1-r-b270/CLAUDE.md) | 6 (15.3 MB) |
+| `09-bed1-r-t054/` | [`09-bed1-r-t054/CLAUDE.md`](09-bed1-r-t054/CLAUDE.md) | 6 (17.1 MB) |
+| `09-bed1-r-t144/` | [`09-bed1-r-t144/CLAUDE.md`](09-bed1-r-t144/CLAUDE.md) | 4 (7.4 MB) |
+| `09-bed1-r-t320/` | [`09-bed1-r-t320/CLAUDE.md`](09-bed1-r-t320/CLAUDE.md) | 6 (17.6 MB) |
+| `10-bed2-r-b000/` | [`10-bed2-r-b000/CLAUDE.md`](10-bed2-r-b000/CLAUDE.md) | 6 (14.4 MB) |
+| `10-bed2-r-b090/` | [`10-bed2-r-b090/CLAUDE.md`](10-bed2-r-b090/CLAUDE.md) | 6 (11.7 MB) |
+| `10-bed2-r-b180/` | [`10-bed2-r-b180/CLAUDE.md`](10-bed2-r-b180/CLAUDE.md) | 5 (8.9 MB) |
+| `10-bed2-r-b180b/` | [`10-bed2-r-b180b/CLAUDE.md`](10-bed2-r-b180b/CLAUDE.md) | 6 (19.5 MB) |
+| `10-bed2-r-b270/` | [`10-bed2-r-b270/CLAUDE.md`](10-bed2-r-b270/CLAUDE.md) | 6 (16.3 MB) |
+| `10-bed2-r-t049/` | [`10-bed2-r-t049/CLAUDE.md`](10-bed2-r-t049/CLAUDE.md) | 6 (16.8 MB) |
+| `10-bed2-r-t139/` | [`10-bed2-r-t139/CLAUDE.md`](10-bed2-r-t139/CLAUDE.md) | 4 (6.8 MB) |
+| `10-bed2-r-t270/` | [`10-bed2-r-t270/CLAUDE.md`](10-bed2-r-t270/CLAUDE.md) | 6 (17.7 MB) |
+| `10-bed2-r-w131/` | [`10-bed2-r-w131/CLAUDE.md`](10-bed2-r-w131/CLAUDE.md) | 6 (16.6 MB) |
+| `11-bath-handle/` | [`11-bath-handle/CLAUDE.md`](11-bath-handle/CLAUDE.md) | 2 (1.1 MB) |
+| `11-bath-r-b000/` | [`11-bath-r-b000/CLAUDE.md`](11-bath-r-b000/CLAUDE.md) | 6 (12.3 MB) |
+| `11-bath-r-b090/` | [`11-bath-r-b090/CLAUDE.md`](11-bath-r-b090/CLAUDE.md) | 5 (7.4 MB) |
+| `11-bath-r-b090b/` | [`11-bath-r-b090b/CLAUDE.md`](11-bath-r-b090b/CLAUDE.md) | 6 (15.8 MB) |
+| `11-bath-r-b180/` | [`11-bath-r-b180/CLAUDE.md`](11-bath-r-b180/CLAUDE.md) | 5 (8.0 MB) |
+| `11-bath-r-b180b/` | [`11-bath-r-b180b/CLAUDE.md`](11-bath-r-b180b/CLAUDE.md) | 5 (9.6 MB) |
+| `11-bath-r-b180c/` | [`11-bath-r-b180c/CLAUDE.md`](11-bath-r-b180c/CLAUDE.md) | 6 (14.6 MB) |
+| `11-bath-r-b270/` | [`11-bath-r-b270/CLAUDE.md`](11-bath-r-b270/CLAUDE.md) | 6 (14.8 MB) |
+| `11-bath-r-t066/` | [`11-bath-r-t066/CLAUDE.md`](11-bath-r-t066/CLAUDE.md) | 6 (17.2 MB) |
+| `11-bath-r-t100/` | [`11-bath-r-t100/CLAUDE.md`](11-bath-r-t100/CLAUDE.md) | 6 (16.7 MB) |
+| `11-bath-r-t180/` | [`11-bath-r-t180/CLAUDE.md`](11-bath-r-t180/CLAUDE.md) | 6 (18.4 MB) |
+| `11-bath-r-t250/` | [`11-bath-r-t250/CLAUDE.md`](11-bath-r-t250/CLAUDE.md) | 6 (18.0 MB) |
+| `11-bath-stool/` | [`11-bath-stool/CLAUDE.md`](11-bath-stool/CLAUDE.md) | 2 (1.1 MB) |
+| `11-bath-tub/` | [`11-bath-tub/CLAUDE.md`](11-bath-tub/CLAUDE.md) | 3 (1.2 MB) |
+| `11-bath-vanity/` | [`11-bath-vanity/CLAUDE.md`](11-bath-vanity/CLAUDE.md) | 5 (3.9 MB) |
+| `11-bath-window/` | [`11-bath-window/CLAUDE.md`](11-bath-window/CLAUDE.md) | 7 (6.7 MB) |
+| `12-mamad-r-b000/` | [`12-mamad-r-b000/CLAUDE.md`](12-mamad-r-b000/CLAUDE.md) | 6 (13.4 MB) |
+| `12-mamad-r-b090/` | [`12-mamad-r-b090/CLAUDE.md`](12-mamad-r-b090/CLAUDE.md) | 6 (14.0 MB) |
+| `12-mamad-r-b180/` | [`12-mamad-r-b180/CLAUDE.md`](12-mamad-r-b180/CLAUDE.md) | 6 (13.1 MB) |
+| `12-mamad-r-b270/` | [`12-mamad-r-b270/CLAUDE.md`](12-mamad-r-b270/CLAUDE.md) | 5 (7.3 MB) |
+| `12-mamad-r-b270b/` | [`12-mamad-r-b270b/CLAUDE.md`](12-mamad-r-b270b/CLAUDE.md) | 6 (15.3 MB) |
+| `12-mamad-r-t045/` | [`12-mamad-r-t045/CLAUDE.md`](12-mamad-r-t045/CLAUDE.md) | 6 (17.1 MB) |
+| `12-mamad-r-t295/` | [`12-mamad-r-t295/CLAUDE.md`](12-mamad-r-t295/CLAUDE.md) | 6 (15.7 MB) |
+| `13-balcony-l/` | [`13-balcony-l/CLAUDE.md`](13-balcony-l/CLAUDE.md) | 8 (7.6 MB) |
+| `13-balcony-r/` | [`13-balcony-r/CLAUDE.md`](13-balcony-r/CLAUDE.md) | 6 (5.3 MB) |
+| `13-balcony-r-b000/` | [`13-balcony-r-b000/CLAUDE.md`](13-balcony-r-b000/CLAUDE.md) | 5 (6.8 MB) |
+| `13-balcony-r-b000b/` | [`13-balcony-r-b000b/CLAUDE.md`](13-balcony-r-b000b/CLAUDE.md) | 5 (8.6 MB) |
+| `13-balcony-r-b000c/` | [`13-balcony-r-b000c/CLAUDE.md`](13-balcony-r-b000c/CLAUDE.md) | 7 (18.7 MB) |
+| `13-balcony-r-b000g/` | [`13-balcony-r-b000g/CLAUDE.md`](13-balcony-r-b000g/CLAUDE.md) | 6 (14.1 MB) |
+| `13-balcony-r-b045/` | [`13-balcony-r-b045/CLAUDE.md`](13-balcony-r-b045/CLAUDE.md) | 6 (12.8 MB) |
+| `13-balcony-r-b080/` | [`13-balcony-r-b080/CLAUDE.md`](13-balcony-r-b080/CLAUDE.md) | 6 (11.2 MB) |
+| `13-balcony-r-b090/` | [`13-balcony-r-b090/CLAUDE.md`](13-balcony-r-b090/CLAUDE.md) | 5 (6.5 MB) |
+| `13-balcony-r-b090b/` | [`13-balcony-r-b090b/CLAUDE.md`](13-balcony-r-b090b/CLAUDE.md) | 5 (6.0 MB) |
+| `13-balcony-r-b090c/` | [`13-balcony-r-b090c/CLAUDE.md`](13-balcony-r-b090c/CLAUDE.md) | 5 (6.4 MB) |
+| `13-balcony-r-b090g/` | [`13-balcony-r-b090g/CLAUDE.md`](13-balcony-r-b090g/CLAUDE.md) | 6 (12.1 MB) |
+| `13-balcony-r-b180g/` | [`13-balcony-r-b180g/CLAUDE.md`](13-balcony-r-b180g/CLAUDE.md) | 6 (16.8 MB) |
+| `13-balcony-r-b270/` | [`13-balcony-r-b270/CLAUDE.md`](13-balcony-r-b270/CLAUDE.md) | 6 (13.0 MB) |
+| `13-balcony-r-t000/` | [`13-balcony-r-t000/CLAUDE.md`](13-balcony-r-t000/CLAUDE.md) | 6 (20.7 MB) |
+| `13-balcony-r-t090/` | [`13-balcony-r-t090/CLAUDE.md`](13-balcony-r-t090/CLAUDE.md) | 6 (18.4 MB) |
+| `13-balcony-r-t180/` | [`13-balcony-r-t180/CLAUDE.md`](13-balcony-r-t180/CLAUDE.md) | 6 (21.4 MB) |
+| `13-balcony-r-t221/` | [`13-balcony-r-t221/CLAUDE.md`](13-balcony-r-t221/CLAUDE.md) | 6 (19.4 MB) |
+| `13-balcony-r-t245/` | [`13-balcony-r-t245/CLAUDE.md`](13-balcony-r-t245/CLAUDE.md) | 4 (7.7 MB) |
+| `13-balcony-r-t270/` | [`13-balcony-r-t270/CLAUDE.md`](13-balcony-r-t270/CLAUDE.md) | 4 (7.9 MB) |
+| `13-balcony-rail/` | [`13-balcony-rail/CLAUDE.md`](13-balcony-rail/CLAUDE.md) | 3 (1.5 MB) |
+
+## Gotchas
+_none recorded_
+
+## Links
+Parent: [../CLAUDE.md](../CLAUDE.md) · Root: [../../../../../../../../../../CLAUDE.md](../../../../../../../../../../CLAUDE.md) · Rule: root `CLAUDE.md` §8.6 · Full list: `docs/context-map.generated.md`

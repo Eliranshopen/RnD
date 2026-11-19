@@ -1,0 +1,18 @@
+{
+ "name": "tour-exterior-floors",
+ "purpose": "tour: hide the floor-finish buttons (concrete/parquet/marble) on the building/surroundings scenes (Eliran 2026-11-04)",
+ "opened": "2026-11-04T09:35:09",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/tour.js",
+   "sha256_at_open": "db06c0d6ebaf5d324bb8b3c824d28cecdbdfc7255f37ef85acf4132f648c9068",
+   "sha256_at_close": "01c7ae4e1563bab7ea1a9ad9d8c8017b9885b9f38c3a9b15a4647c2ade323d13"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/index.html",
+   "sha256_at_open": "78f975b455965b98a6628589606241d3a6b33fc199608d1f0b68d033f3f90ae3",
+   "sha256_at_close": "8ac550b29a29d8b867c9fcb451c0611017c331edb37da47fdd05afb3698b932a"
+  }
+ ],
+ "closed": "2026-11-04T09:41:13"
+}

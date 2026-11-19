@@ -1,0 +1,18 @@
+{
+ "endpoint": "fal-ai/topaz/upscale/video",
+ "args": {
+  "video_url": "https://v3b.fal.media/files/b/0ab119ce/UYBKC8GEDa5kYjFXpLlD2_building-film-720.mp4",
+  "model": "Starlight Precise 2.5",
+  "upscale_factor": 1.5,
+  "H264_output": true
+ },
+ "result": {
+  "video": {
+   "url": "https://v3b.fal.media/files/b/0ab11a13/VvYdGnWb3KaB4MIuKg8D7_video.mp4",
+   "content_type": "video/mp4",
+   "file_name": "video.mp4",
+   "file_size": 168314235
+  }
+ },
+ "secs": 667
+}

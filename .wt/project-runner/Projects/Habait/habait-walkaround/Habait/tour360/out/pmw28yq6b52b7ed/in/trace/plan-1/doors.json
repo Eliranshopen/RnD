@@ -1,0 +1,91 @@
+{
+ "arcs": [
+  {
+   "hinge_px": [
+    692.2,
+    644.2
+   ],
+   "r_px": 87.2,
+   "r_cm": 63.2,
+   "span_deg": 115,
+   "a0_deg": 350,
+   "a1_deg": 105,
+   "chord_px": [
+    [
+     692.2,
+     644.2
+    ],
+    [
+     778.2,
+     629.1
+    ]
+   ],
+   "leaf_px": [
+    669.7,
+    728.5
+   ],
+   "wall_hits": 0,
+   "rooms": [
+    "r-bathroom",
+    "r-bathroom"
+   ],
+   "problem": "both sides of the door lie in the same traced room (a wrong split or a missing room)"
+  },
+  {
+   "hinge_px": [
+    128.2,
+    1905.8
+   ],
+   "r_px": 145.1,
+   "r_cm": 105.1,
+   "span_deg": 95,
+   "a0_deg": 285,
+   "a1_deg": 20,
+   "chord_px": [
+    [
+     128.2,
+     1905.8
+    ],
+    [
+     165.8,
+     1765.5
+    ]
+   ],
+   "leaf_px": [
+    264.6,
+    1955.4
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  },
+  {
+   "hinge_px": [
+    1311.8,
+    1277.2
+   ],
+   "r_px": 103.9,
+   "r_cm": 75.2,
+   "span_deg": 105,
+   "a0_deg": 165,
+   "a1_deg": 270,
+   "chord_px": [
+    [
+     1311.8,
+     1277.2
+    ],
+    [
+     1211.4,
+     1304.1
+    ]
+   ],
+   "leaf_px": [
+    1311.8,
+    1173.3
+   ],
+   "wall_hits": 0,
+   "ignored": "outside the building envelope (not a door)"
+  }
+ ],
+ "added": 0,
+ "entrance": null
+}

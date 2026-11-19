@@ -1,0 +1,10 @@
+.env
+.env.*
+work/
+out/
+scene/
+*.blend
+*.blend1
+*.exr
+__pycache__/
+node_modules/

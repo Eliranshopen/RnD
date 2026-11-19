@@ -1,0 +1,37 @@
+{
+ "cover": "cover.webp",
+ "id": "kedma-d1",
+ "name": {
+  "he": "קדמא · בניין ד",
+  "en": "קדמא · בניין ד"
+ },
+ "tagline": {
+  "he": "עץ אפרים · הדמיה",
+  "en": "עץ אפרים · concept"
+ },
+ "developer": {
+  "he": "",
+  "en": ""
+ },
+ "brand": {
+  "primary": "#0f5c8f",
+  "accent": "#f2a900",
+  "background": "#0b1220"
+ },
+ "flow": "flow.json",
+ "units": "units.json",
+ "film": false,
+ "exterior": null,
+ "leads": {
+  "whatsapp_number": ""
+ },
+ "analytics": {
+  "posthog_key": ""
+ },
+ "disclaimer": {
+  "he": "הדמיה על בסיס תכנית המכר. המידות תואמות לתכנית בסטייה של עד 1%. הריהוט והגימורים להמחשה בלבד.",
+  "en": "A visualization based on the sales plan. Dimensions match the plan within 1%. Furniture and finishes are illustrative."
+ },
+ "fixture": false,
+ "fixture_note": "written by tools/run-project.mjs from the approved spec.json"
+}

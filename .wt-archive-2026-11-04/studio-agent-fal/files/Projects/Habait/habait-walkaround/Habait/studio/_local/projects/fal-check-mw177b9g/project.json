@@ -1,0 +1,29 @@
+{
+  "id": "fal-check-mw177b9g",
+  "name": "fal-check-mw177b9g",
+  "developer": "",
+  "address": "שדה דב, תל אביב",
+  "latlon": null,
+  "style": "tlv-golden-hour",
+  "notes": "בדיקת קריאה דרך fal (plan studio-agent-fal); פרויקט זמני",
+  "options": {
+    "variants": [
+      "morning",
+      "evening"
+    ],
+    "clay": {
+      "res": "640x360",
+      "samples": 16,
+      "engine": "CYCLES",
+      "fps": 24
+    },
+    "video": {
+      "resolution": "720p",
+      "detail_refine": false,
+      "seeds": 1
+    },
+    "panos_dir": null,
+    "fixture": null
+  },
+  "created_at": "2026-11-03T21:26:49.582Z"
+}

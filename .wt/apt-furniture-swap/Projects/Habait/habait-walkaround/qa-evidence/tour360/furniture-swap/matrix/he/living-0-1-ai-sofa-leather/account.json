@@ -1,0 +1,442 @@
+{
+ "ts": "2026-11-04T10:45:34.175Z",
+ "seqs": [
+  140,
+  141,
+  142
+ ],
+ "op": "record",
+ "code": "(present)",
+ "apartment": "apt846",
+ "scene": "living",
+ "ok": true,
+ "view": {
+  "yaw": -17.29,
+  "pitch": -31.93,
+  "hfov": 90
+ },
+ "wide_hfov": 102,
+ "item": "ai-sofa-leather",
+ "marker": "living-0-1",
+ "turn": {
+  "text": "להחליף את הספה ב-Cognac leather sofa",
+  "attempts": [
+   {
+    "attempt": 1,
+    "model": "fal-ai/nano-banana-2/edit",
+    "reach": "object",
+    "living": false,
+    "ring": 0.003,
+    "ring_band": "outside",
+    "ring_n": 8191,
+    "ring_total": 40640,
+    "fraction": 0.469,
+    "judge": {
+     "held": true,
+     "original_present": false,
+     "product_present": true,
+     "product_box": [
+      211,
+      88,
+      994,
+      679
+     ],
+     "product_box_raw": [
+      211,
+      88,
+      994,
+      679
+     ],
+     "box_kept": 1,
+     "placed": true,
+     "count": 1,
+     "rest_unchanged": 3,
+     "note": "The original beige sectional was successfully replaced with the requested cognac leather mid-century sofa."
+    },
+    "held": true
+   }
+  ],
+  "error": null,
+  "piece": {
+   "id": "living-0-1",
+   "category": "sofa",
+   "box": [
+    227,
+    237,
+    719,
+    789
+   ],
+   "count": 1,
+   "seen": {
+    "found": true,
+    "box": [
+     220,
+     0,
+     1000,
+     796
+    ],
+    "outline": [
+     [
+      265,
+      365
+     ],
+     [
+      225,
+      475
+     ],
+     [
+      230,
+      610
+     ],
+     [
+      285,
+      665
+     ],
+     [
+      380,
+      785
+     ],
+     [
+      510,
+      775
+     ],
+     [
+      575,
+      745
+     ],
+     [
+      1000,
+      510
+     ],
+     [
+      1000,
+      155
+     ],
+     [
+      615,
+      0
+     ],
+     [
+      420,
+      170
+     ]
+    ],
+    "touches_edge": [
+     "left",
+     "bottom"
+    ],
+    "note": "Large sectional sofa with chaise extending to the right and left armrest cropped at the bottom-left corner.",
+    "tries": 1
+   }
+  },
+  "view": {
+   "yaw": -17.29,
+   "pitch": -31.93,
+   "hfov": 90
+  },
+  "piece_seen": {
+   "found": true,
+   "box": [
+    220,
+    0,
+    1000,
+    796
+   ],
+   "outline": [
+    [
+     265,
+     365
+    ],
+    [
+     225,
+     475
+    ],
+    [
+     230,
+     610
+    ],
+    [
+     285,
+     665
+    ],
+    [
+     380,
+     785
+    ],
+    [
+     510,
+     775
+    ],
+    [
+     575,
+     745
+    ],
+    [
+     1000,
+     510
+    ],
+    [
+     1000,
+     155
+    ],
+    [
+     615,
+     0
+    ],
+    [
+     420,
+     170
+    ]
+   ],
+   "touches_edge": [
+    "left",
+    "bottom"
+   ],
+   "note": "Large sectional sofa with chaise extending to the right and left armrest cropped at the bottom-left corner.",
+   "tries": 1
+  },
+  "seen_accepted": true,
+  "full_box": [
+   220,
+   0,
+   1000,
+   796
+  ],
+  "lift": [
+   "left",
+   "bottom"
+  ],
+  "likeness": {
+   "score": 3,
+   "found": true,
+   "why": "The cognac leather sofa is faithfully reproduced with the exact tufting pattern, cushions, and black metal frame design."
+  },
+  "region_fraction": 0.666,
+  "pasted_fraction": 0.448
+ },
+ "live": {
+  "prompt": "Replace the sofa in the centre of the first image with the product shown in the second image: a mid-century three-seat sofa in cognac brown leather with button-tufted back cushions and a thin black metal frame and legs. Place it exactly where the sofa stands, resting on the floor, at the same scale and perspective as the piece it replaces, lit like the room. Nothing of the sofa remains: not its colour, its fabric, its cushions or anything that stood on it. The second image is the product itself and the only authority for how the new piece looks: copy its exact design — shape, proportions, colour, upholstery or material, legs and details — as if the photographed product had been carried into the room. Do not restyle it to the room, do not keep the old piece's colour, fabric, cushions or accessories, do not blend the two designs. The first image sets only where the product stands, its scale, its perspective and its light. Keep everything else in the photo exactly as it is: the walls, the windows and the view outside, the floor, the ceiling, the lighting and shadows, and the camera angle. Do not move or zoom the camera.",
+  "model": "fal-ai/nano-banana-2/edit",
+  "reach": "object",
+  "living": false,
+  "attempt": 1,
+  "ring": 0.003,
+  "judge": {
+   "held": true,
+   "original_present": false,
+   "product_present": true,
+   "product_box": [
+    211,
+    88,
+    994,
+    679
+   ],
+   "product_box_raw": [
+    211,
+    88,
+    994,
+    679
+   ],
+   "box_kept": 1,
+   "placed": true,
+   "count": 1,
+   "rest_unchanged": 3,
+   "note": "The original beige sectional was successfully replaced with the requested cognac leather mid-century sofa."
+  },
+  "usd": 0.087,
+  "fraction": 0.469,
+  "item": "ai-sofa-leather",
+  "likeness": {
+   "score": 3,
+   "found": true,
+   "why": "The cognac leather sofa is faithfully reproduced with the exact tufting pattern, cushions, and black metal frame design."
+  },
+  "piece": {
+   "id": "living-0-1",
+   "category": "sofa",
+   "box": [
+    227,
+    237,
+    719,
+    789
+   ],
+   "count": 1,
+   "seen": {
+    "found": true,
+    "box": [
+     220,
+     0,
+     1000,
+     796
+    ],
+    "outline": [
+     [
+      265,
+      365
+     ],
+     [
+      225,
+      475
+     ],
+     [
+      230,
+      610
+     ],
+     [
+      285,
+      665
+     ],
+     [
+      380,
+      785
+     ],
+     [
+      510,
+      775
+     ],
+     [
+      575,
+      745
+     ],
+     [
+      1000,
+      510
+     ],
+     [
+      1000,
+      155
+     ],
+     [
+      615,
+      0
+     ],
+     [
+      420,
+      170
+     ]
+    ],
+    "touches_edge": [
+     "left",
+     "bottom"
+    ],
+    "note": "Large sectional sofa with chaise extending to the right and left armrest cropped at the bottom-left corner.",
+    "tries": 1
+   }
+  },
+  "region_fraction": 0.666,
+  "marker": {
+   "id": "living-0-1",
+   "before": {
+    "yaw": -11.29,
+    "pitch": -22.66,
+    "outlines": [
+     [
+      [
+       -3.9,
+       -14.35
+      ],
+      [
+       4.48,
+       -19.62
+      ],
+      [
+       15.13,
+       -21.79
+      ],
+      [
+       15.12,
+       -32.28
+      ],
+      [
+       -3,
+       -33.71
+      ],
+      [
+       -8.72,
+       -47.99
+      ],
+      [
+       -37.85,
+       -42.05
+      ],
+      [
+       -48.28,
+       -25.25
+      ],
+      [
+       -36.65,
+       -16.26
+      ],
+      [
+       -20.95,
+       -11.81
+      ],
+      [
+       -3.44,
+       -15.43
+      ]
+     ]
+    ],
+    "count": 1,
+    "item": null
+   },
+   "after": {
+    "yaw": -34.01,
+    "pitch": -38.55,
+    "outlines": [
+     [
+      [
+       -55.31,
+       -8.5
+      ],
+      [
+       1.47,
+       -10.18
+      ],
+      [
+       18.41,
+       -60.66
+      ],
+      [
+       -76.14,
+       -48.58
+      ]
+     ]
+    ],
+    "count": 1,
+    "item": "ai-sofa-leather"
+   }
+  }
+ },
+ "message": null,
+ "ms_total": 48198,
+ "maxTexture": 16384,
+ "viewport": [
+  1440,
+  900,
+  1
+ ],
+ "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+ "before": {
+  "bytes": 228675,
+  "sha256": "1cef3c2f0a65555b"
+ },
+ "after": {
+  "bytes": 223917,
+  "sha256": "4bfdcc3ec2f9fb4e"
+ },
+ "before_wide": {
+  "bytes": 239418,
+  "sha256": "53fbb73f66013f7a"
+ },
+ "after_wide": {
+  "bytes": 237285,
+  "sha256": "130452c7a4836d6d"
+ },
+ "files": {
+  "before": "before.jpg",
+  "after": "after.jpg",
+  "before_wide": "before-wide.jpg",
+  "after_wide": "after-wide.jpg"
+ }
+}

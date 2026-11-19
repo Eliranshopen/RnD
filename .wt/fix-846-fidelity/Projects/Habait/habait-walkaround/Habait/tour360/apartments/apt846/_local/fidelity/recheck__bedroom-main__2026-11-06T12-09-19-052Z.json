@@ -1,0 +1,70 @@
+{
+ "$schema": "tour360/consistency-recheck.v1",
+ "group": "bedroom-main",
+ "run": null,
+ "expect": {},
+ "spacing_rule": {
+  "pairs": [
+   [
+    "sink",
+    "tall"
+   ],
+   [
+    "hob",
+    "sink"
+   ]
+  ],
+  "tol_cm": 30,
+  "grazing_deg": 20,
+  "bearing_noise_deg": 3,
+  "note": "x → bearing → the ray meets the run line (the sink's counter, its longest edge) through the fixture's plan point; the along-run gap between two fixtures vs the plan's. Hand measurement noise on the 2026-11-06 kitchen views was about ±15-20 cm, hence ±30. A ray within 20° of the run line is skipped. Each pair's tolerance = tol_cm + the along-run shift a ±bearing_noise_deg misreading of x causes for both fixtures (root-sum-square), so a far, oblique view gets a wider band and a near, square view a tight one."
+ },
+ "rows": [
+  {
+   "row": 224,
+   "at": "2026-11-06T08:18:54.739Z",
+   "cached_verdict": "PASS",
+   "recheck_verdict": "UNREADABLE",
+   "pictures": [
+    "_local\\generated\\07-bedroom-main__seam__s7__fbd17cbb7b8c.png",
+    "_local\\generated\\08-wardrobe__seam3__s7__9b3bde55ca93.png"
+   ],
+   "misplaced": [],
+   "spacing": {
+    "fails": [],
+    "rows": []
+   },
+   "checklist": {
+    "fails": [],
+    "missing": [
+     "view 1 (07-bedroom-main) colour_family",
+     "view 2 (08-wardrobe) colour_family",
+     "view 1 (07-bedroom-main) material",
+     "view 2 (08-wardrobe) material"
+    ],
+    "table": {
+     "colour_family": {},
+     "material": {}
+    }
+   },
+   "per_view": [
+    {
+     "view": 1,
+     "visible": true,
+     "material": "upholstered fabric",
+     "colour": "light beige",
+     "shape": "double bed with curved padded headboard",
+     "position_note": "centered against the main bedroom wall"
+    },
+    {
+     "view": 2,
+     "visible": true,
+     "material": "upholstered fabric",
+     "colour": "light beige",
+     "shape": "double bed with curved padded headboard",
+     "position_note": "centered in bedroom against wall"
+    }
+   ]
+  }
+ ]
+}

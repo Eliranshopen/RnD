@@ -1,0 +1,29 @@
+{
+ "version": 3,
+ "blend": "aligned@cut+laplacian-6",
+ "parent": "01-entrance__gpt25__s22__0868c6d15448.png",
+ "band": {
+  "u": 0.0361,
+  "deg": 120
+ },
+ "cut_search_px": 140,
+ "align_max_px": 16,
+ "cuts": [
+  {
+   "u": 0.8052,
+   "structure": 0.86,
+   "tone": 1.45,
+   "aligned_px": 0,
+   "line_step_px": 0,
+   "lines": 2
+  },
+  {
+   "u": 0.2295,
+   "structure": 0.86,
+   "tone": 3.09,
+   "aligned_px": 0,
+   "line_step_px": 0,
+   "lines": 7
+  }
+ ]
+}

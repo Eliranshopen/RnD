@@ -1,0 +1,235 @@
+{
+ "rooms": 10,
+ "fixtures": 21,
+ "scale_px_per_cm": 2.2677,
+ "scale_fit_factor": 1.0,
+ "scale_fitted": false,
+ "dims": [
+  {
+   "room": "r-bedroom",
+   "name_he": "חדר שינה",
+   "measured_cm": [
+    343,
+    277
+   ],
+   "printed_cm": [
+    275,
+    342
+   ],
+   "ratio": [
+    1.0027975314669249,
+    1.0074248327907873
+   ],
+   "delta_pct": [
+    0.3,
+    0.7
+   ]
+  },
+  {
+   "room": "r-bathroom",
+   "name_he": "חדר רחצה כללי",
+   "measured_cm": [
+    199,
+    141
+   ],
+   "printed_cm": [
+    140,
+    199
+   ],
+   "ratio": [
+    1.001350589407003,
+    1.0082035963386233
+   ],
+   "delta_pct": [
+    0.0,
+    0.7
+   ]
+  },
+  {
+   "room": "r-kitchen",
+   "name_he": "מטבח",
+   "measured_cm": [
+    356,
+    261
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-dining-area",
+   "name_he": "פינת אוכל",
+   "measured_cm": [
+    784,
+    433
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-living-room",
+   "name_he": "חדר דיור",
+   "measured_cm": [
+    746,
+    560
+   ],
+   "printed_cm": [
+    530,
+    744
+   ],
+   "ratio": [
+    1.0026417961876752,
+    1.0559227775102846
+   ],
+   "delta_pct": [
+    0.3,
+    5.7
+   ]
+  },
+  {
+   "room": "r-sun-terrace",
+   "name_he": "מרפסת שמש",
+   "measured_cm": [
+    657,
+    268
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "measured_cm": [
+    346,
+    342
+   ],
+   "printed_cm": [
+    348,
+    344
+   ],
+   "ratio": [
+    0.9940708549841135,
+    0.9942297308416095
+   ],
+   "delta_pct": [
+    -0.6,
+    -0.6
+   ]
+  },
+  {
+   "room": "r-wardrobe-area",
+   "name_he": "פינת ארונות",
+   "measured_cm": [
+    184,
+    159
+   ],
+   "printed_cm": [
+    160,
+    185
+   ],
+   "ratio": [
+    0.9942850724068775,
+    0.9921025847849785
+   ],
+   "delta_pct": [
+    -0.5,
+    -0.6
+   ]
+  },
+  {
+   "room": "r-master-bathroom",
+   "name_he": "חדר רחצה הורים",
+   "measured_cm": [
+    211,
+    208
+   ],
+   "printed_cm": [
+    210,
+    212
+   ],
+   "ratio": [
+    0.9956017386482447,
+    0.9924910712056512
+   ],
+   "delta_pct": [
+    -0.5,
+    -1.0
+   ]
+  },
+  {
+   "room": "r-corridor-141",
+   "name_he": "מעבר",
+   "measured_cm": [
+    768,
+    355
+   ],
+   "printed_cm": null
+  }
+ ],
+ "could_not_read": [
+  "room 'מבואה' (r-hall-auto-92): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+  "room 'מטבח' (r-kitchen): no printed dimensions were read; its size comes from the drawing only",
+  "room 'פינת אוכל' (r-dining-area): no printed dimensions were read; its size comes from the drawing only",
+  "room 'חדר דיור' (r-living-room): traced [746, 560] cm vs printed [530, 744] cm ([0.3, 5.7] %) — check the trace or the reading",
+  "room 'מרפסת שמש' (r-sun-terrace): no printed dimensions were read; its size comes from the drawing only",
+  "room 'מעבר' (r-corridor-141): no printed dimensions were read; its size comes from the drawing only"
+ ],
+ "legend": [
+  {
+   "n": 1,
+   "id": "r-bedroom",
+   "name_he": "חדר שינה",
+   "area_m2": 9.334
+  },
+  {
+   "n": 2,
+   "id": "r-bathroom",
+   "name_he": "חדר רחצה כללי",
+   "area_m2": 2.784
+  },
+  {
+   "n": 3,
+   "id": "r-kitchen",
+   "name_he": "מטבח",
+   "area_m2": 7.034
+  },
+  {
+   "n": 4,
+   "id": "r-dining-area",
+   "name_he": "פינת אוכל",
+   "area_m2": 10.591
+  },
+  {
+   "n": 5,
+   "id": "r-living-room",
+   "name_he": "חדר דיור",
+   "area_m2": 35.568
+  },
+  {
+   "n": 6,
+   "id": "r-sun-terrace",
+   "name_he": "מרפסת שמש",
+   "area_m2": 10.774
+  },
+  {
+   "n": 7,
+   "id": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "area_m2": 11.827
+  },
+  {
+   "n": 8,
+   "id": "r-wardrobe-area",
+   "name_he": "פינת ארונות",
+   "area_m2": 2.919
+  },
+  {
+   "n": 9,
+   "id": "r-master-bathroom",
+   "name_he": "חדר רחצה הורים",
+   "area_m2": 4.393
+  },
+  {
+   "n": 10,
+   "id": "r-corridor-141",
+   "name_he": "מעבר",
+   "area_m2": 8.451
+  }
+ ]
+}

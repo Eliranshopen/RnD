@@ -1,0 +1,163 @@
+{
+ "schema": "walk-proof/1",
+ "apartment": "apt846",
+ "units": "cm, plan frame (x right, y down); a picture's centre faces the plan's up (yaw 0), right = clockwise",
+ "depth": {
+  "encoding": "rgb24-be",
+  "scale": 100,
+  "size": [
+   1024,
+   512
+  ]
+ },
+ "eye_cm": 160,
+ "nodes": [
+  {
+   "id": "w00",
+   "x": 322.9,
+   "y": 762.3,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-entrance",
+   "sha": "34301a4b7d3ecc09",
+   "name": "כניסה",
+   "compare": {
+    "scene": "entrance",
+    "file": "compare/entrance.webp",
+    "bearing": 105.95,
+    "offset_cm": 0.2,
+    "from": "../../dist/apt846/panos-parquet/01-entrance.webp"
+   }
+  },
+  {
+   "id": "w01",
+   "x": 412,
+   "y": 800,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "1dfa156fbedfc17a"
+  },
+  {
+   "id": "w02",
+   "x": 503,
+   "y": 836,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "3678ff89ecbae3eb"
+  },
+  {
+   "id": "w03",
+   "x": 594,
+   "y": 870,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "d72e4cdd72315d6a"
+  },
+  {
+   "id": "w04",
+   "x": 679.9,
+   "y": 927.7,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "153cd2ca0600f545",
+   "name": "סלון",
+   "compare": {
+    "scene": "living",
+    "file": "compare/living.webp",
+    "bearing": 111.27,
+    "offset_cm": 0.0,
+    "from": "../../dist/apt846/panos-parquet/04-living.webp"
+   }
+  },
+  {
+   "id": "w05",
+   "x": 392,
+   "y": 900,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "0f792fbeed1783f4"
+  },
+  {
+   "id": "w06",
+   "x": 376,
+   "y": 1000,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "d98ed157c39a59be"
+  },
+  {
+   "id": "w07",
+   "x": 372,
+   "y": 1090,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-living",
+   "sha": "1b7abf3671b3b01c",
+   "name": "מול דלת חדר ההורים"
+  },
+  {
+   "id": "w08",
+   "x": 440,
+   "y": 1131,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-wardrobe",
+   "sha": "b775bd755aa0021b"
+  },
+  {
+   "id": "w09",
+   "x": 521.6,
+   "y": 1168.5,
+   "z": 160,
+   "yaw": 0,
+   "room": "r-wardrobe",
+   "sha": "d731ac6bef9c6c47",
+   "name": "פינת הארונות"
+  }
+ ],
+ "edges": [
+  [
+   "w00",
+   "w01"
+  ],
+  [
+   "w01",
+   "w02"
+  ],
+  [
+   "w02",
+   "w03"
+  ],
+  [
+   "w03",
+   "w04"
+  ],
+  [
+   "w01",
+   "w05"
+  ],
+  [
+   "w05",
+   "w06"
+  ],
+  [
+   "w06",
+   "w07"
+  ],
+  [
+   "w07",
+   "w08"
+  ],
+  [
+   "w08",
+   "w09"
+  ]
+ ],
+ "missing": []
+}

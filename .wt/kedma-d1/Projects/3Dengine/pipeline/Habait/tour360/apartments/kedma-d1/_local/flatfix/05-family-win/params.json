@@ -1,0 +1,9 @@
+{
+ "asset": "05-family",
+ "tag": "win",
+ "parent": "05-family__flat__tvd.png",
+ "yaw": 8.0,
+ "pitch": -10.0,
+ "hfov": 108.0,
+ "size": 1024
+}

@@ -1,0 +1,166 @@
+{
+  "generator": {
+    "script": "pipeline/render_tour.mjs",
+    "version": "0.1.0",
+    "started_utc": "2026-11-04T16:05:56+00:00",
+    "finished_utc": "2026-11-04T16:23:18+00:00",
+    "seconds": 1042.59
+  },
+  "settings": {
+    "mode": "draft",
+    "resolution": [
+      2048,
+      1024
+    ],
+    "samples": 64,
+    "wrap_pad": 512,
+    "scene": "scene-full.blend",
+    "chunk": 3,
+    "blender": "C:/RnD/Projects/Habait/tools/blender-4.5.10/blender-4.5.10-windows-x64/blender.exe",
+    "px_per_m": 80
+  },
+  "scene": {
+    "clean": false,
+    "why": "plan.json changed since the scene was built",
+    "planHash": "0fb370075bca31d2de0d9856c5911ab4fa1f33c33f9eb37f19c5ffccbc7a7c20",
+    "scripts": [
+      {
+        "file": "build_scene.py",
+        "sha256": "ef21f6e94c3a610921d006b82b868db66b2a94fe7c79b0194a9b06d4f5a146f0"
+      },
+      {
+        "file": "materials_kit.py",
+        "sha256": "7018a8bc12c75ae39bffe9e3769cd53c21d5177af1f6fc0d4d0dd3c5b4253a88"
+      },
+      {
+        "file": "place_cameras.py",
+        "sha256": "e946fa0a0e147108151779986e1830a1e69a83c74a9d7cb5f2031bf4de1692b4"
+      },
+      {
+        "file": "placement_templates.py",
+        "sha256": "3c25bedb5461f741044b2c9790da3fe59fe6a708e35c0e8a7f4d2111a27c3161"
+      },
+      {
+        "file": "plan_general.py",
+        "sha256": "9616d913b2889dded3d7a1758c4466ea782f463cdf6e5ee4997071cf6e35dc47"
+      },
+      {
+        "file": "general_furnish.py",
+        "sha256": "172cd7fc515631ae0c60eb5e834e4234dc62e032fc70dbf1c5b393713d62a1a9"
+      }
+    ],
+    "styleHash": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0"
+  },
+  "points_requested": [
+    "cp-kitchen",
+    "cp-dining",
+    "cp-living"
+  ],
+  "forced": [],
+  "runs": [
+    {
+      "points": [
+        "cp-kitchen",
+        "cp-dining",
+        "cp-living"
+      ],
+      "skip_if_clean": true,
+      "exit": 0,
+      "seconds": 1029.65,
+      "skipped": [],
+      "rendered": [
+        "cp-kitchen",
+        "cp-dining",
+        "cp-living"
+      ],
+      "log": "renders/_logs/render-cp-kitchen-x3.log"
+    }
+  ],
+  "skipped_this_run": [],
+  "rendered_this_run": [
+    "cp-kitchen",
+    "cp-dining",
+    "cp-living"
+  ],
+  "point_checks": [
+    {
+      "id": "cp-kitchen",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 70680,
+      "depth_bytes": 153866,
+      "seconds": 352.992,
+      "device_peak_mb": 1093.6,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "06db9f562c6d43b311de7af1df8204baea7009cbff921e6eee09536abd388051",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-dining",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.6,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": 0,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 1,
+        "invalid_pixels": 0
+      },
+      "pano_bytes": 67234,
+      "depth_bytes": 148248,
+      "seconds": 383.568,
+      "device_peak_mb": 1093.6,
+      "depth_checks_failed": 0,
+      "depth_check_worst_cm": 0,
+      "input_key": "120128f506cbddb09d6a438271ae309e9b4480e217a0fad915576da2cbbccb34",
+      "skipped_this_run": false
+    },
+    {
+      "id": "cp-living",
+      "ok": true,
+      "problems": [],
+      "depth": {
+        "w": 2048,
+        "h": 1024,
+        "nadir_m": 1.58,
+        "camera_z_m": 1.6,
+        "nadir_error_cm": -2,
+        "zenith_m": 1.3,
+        "expected_zenith_m": 1.3,
+        "open_sky": false,
+        "valid_fraction": 0.999999,
+        "invalid_pixels": 3
+      },
+      "pano_bytes": 65702,
+      "depth_bytes": 154525,
+      "seconds": 290.242,
+      "device_peak_mb": 1093.6,
+      "depth_checks_failed": 1,
+      "depth_check_worst_cm": 2,
+      "input_key": "123e91636e0d0d3296d532c7d5b5ac1c08132105c7007d1a656c010d517c6681",
+      "skipped_this_run": false
+    }
+  ],
+  "top_view": null,
+  "cost_usd": 0,
+  "machine": "local — RTX A2000 Laptop 4 GB (ENV.md §1); $0, see pipeline/RENDER-LEDGER.md",
+  "verdict": "PASS"
+}

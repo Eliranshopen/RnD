@@ -1,0 +1,138 @@
+{
+ "schema": "habait-engine/video.v1",
+ "project": "rainbow",
+ "dev": true,
+ "note": "card 36 DEV manifest: card 35's contract over the clips that already exist (read-only sources, copies made by tools/build_segments.mjs). Replace with the engine's manifest (--manifest engine) once card 35 writes it.",
+ "generated_by": "tools/build_segments.mjs --make-dev-manifest (build_segments/1.2 (card 34, 2026-11-03: 5 segments, hold loop); card 36)",
+ "generated_at": "2026-11-03T09:33:26.246Z",
+ "segments": [
+  {
+   "id": "orbit",
+   "role": "orbit",
+   "kind": "flat-video",
+   "unit": null,
+   "src": "../../../../flyover/orbit/orbit_real.mp4",
+   "fps": 24,
+   "n_frames": 409,
+   "size": [
+    1280,
+    720
+   ],
+   "duration_s": 17.042,
+   "camera": "dev/orbit.camera.json",
+   "loop": false,
+   "rest_frame": null,
+   "source": {
+    "endpoint": "fal-ai/kling/v4/video-to-video/edit",
+    "cost_usd": 3.3,
+    "adopted_from": "Habait/flyover/orbit/orbit_real.mp4",
+    "by": "habait-ab 2026-11-02"
+   }
+  },
+  {
+   "id": "hold-arc",
+   "role": "hold-arc",
+   "kind": "frames",
+   "unit": null,
+   "frames": "../../../../../../research/fal-bench-2026-11-02/flyover3d/data/holdarc/jpg",
+   "frames_lo": "../../../../../../research/fal-bench-2026-11-02/flyover3d/data/holdarc/jpg_lo",
+   "pattern": "frame_%04d.jpg",
+   "fps": 24,
+   "n_frames": 169,
+   "size": [
+    1280,
+    720
+   ],
+   "size_lo": [
+    640,
+    360
+   ],
+   "camera": "dev/hold-arc.camera.json",
+   "loop": false,
+   "rest_frame": 91,
+   "source": {
+    "endpoint": "fal-ai/kling/v4/video-to-video/edit",
+    "cost_usd": 1.5,
+    "adopted_from": "research/fal-bench-2026-11-02/flyover3d/data/holdarc (arc_real.mp4)",
+    "by": "habait-98 2026-11-03"
+   }
+  },
+  {
+   "id": "hold-ring",
+   "role": "hold-ring",
+   "kind": "frames",
+   "unit": null,
+   "frames": "../../../../../../research/fal-bench-2026-11-02/flyover3d/data/holdring/jpg",
+   "frames_lo": "../../../../../../research/fal-bench-2026-11-02/flyover3d/data/holdring/jpg_lo",
+   "pattern": "frame_%04d.jpg",
+   "fps": 24,
+   "n_frames": 240,
+   "size": [
+    1280,
+    720
+   ],
+   "size_lo": [
+    640,
+    360
+   ],
+   "camera": "dev/hold-ring.camera.json",
+   "loop": true,
+   "rest_frame": 28,
+   "preview": true,
+   "pills_near": 4,
+   "preview_why": "Kling 360 ring failed as a product (habait-98 3.11, memory.md §7): no consistent world, does not close, camera off the clay path",
+   "source": {
+    "endpoint": "fal-ai/kling/v4/video-to-video/edit",
+    "cost_usd": 1.88,
+    "adopted_from": "research/fal-bench-2026-11-02/flyover3d/data/holdring (ring_real.mp4)",
+    "by": "habait-98 2026-11-03"
+   }
+  },
+  {
+   "id": "descend-846",
+   "role": "descend-846",
+   "kind": "flat-video",
+   "unit": "846",
+   "src": "../../../../../../research/fal-bench-2026-11-02/flyover3d/data/video/descent-846.mp4",
+   "fps": 24,
+   "n_frames": 106,
+   "size": [
+    1280,
+    720
+   ],
+   "duration_s": 4.417,
+   "camera": "dev/descend-846.camera.json",
+   "loop": false,
+   "rest_frame": null,
+   "source": {
+    "endpoint": "fal-ai/kling/v4/video-to-video/edit",
+    "cost_usd": 3.2,
+    "adopted_from": "research/fal-bench-2026-11-02/flyover3d/data/video/descent-846.mp4 = B-flyover/kling-4-full-flight.mp4 frames 95..200",
+    "by": "habait-89 2026-11-02"
+   }
+  },
+  {
+   "id": "enter-846",
+   "role": "enter-846",
+   "kind": "flat-video",
+   "unit": "846",
+   "src": "dev/enter-846.mp4",
+   "fps": 24,
+   "n_frames": 208,
+   "size": [
+    1280,
+    720
+   ],
+   "duration_s": 8.667,
+   "camera": "dev/enter-846.camera.json",
+   "loop": false,
+   "rest_frame": null,
+   "source": {
+    "endpoint": "fal-ai/kling/v4/video-to-video/edit",
+    "cost_usd": 0,
+    "adopted_from": "research/fal-bench-2026-11-02/B-flyover/kling-4-full-flight.mp4 frames 201..408 (the same take as descent-846; $3.20 paid on 2.11 for the whole flight)",
+    "by": "card 36"
+   }
+  }
+ ]
+}

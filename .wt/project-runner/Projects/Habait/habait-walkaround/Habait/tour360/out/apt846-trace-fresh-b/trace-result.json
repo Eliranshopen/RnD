@@ -1,0 +1,13 @@
+{
+ "pdf": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\דירה 846- 16.pdf",
+ "floors": 1,
+ "floor": 1,
+ "plan": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\plan.general.json",
+ "crop": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\crop.png",
+ "vectors": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace-fresh-b\\trace\\plan-1\\pdf-vectors.json",
+ "status": "PASS",
+ "rooms": 11,
+ "fixtures": 20,
+ "scale_px_per_cm": 2.2677,
+ "failures": []
+}

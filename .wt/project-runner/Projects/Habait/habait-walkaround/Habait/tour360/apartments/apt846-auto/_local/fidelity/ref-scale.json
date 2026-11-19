@@ -1,0 +1,284 @@
+{
+ "rows": [
+  {
+   "at": "2026-11-06T09:00:17.190Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__6e8e3fdfb0d8.png",
+   "class": "transplant",
+   "against": "01-entrance__seam3__s7__f060d2362dd8.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.7544,
+    "u1": 0.9609,
+    "deg": 74.3
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__97134e5cd098.jpg"
+  },
+  {
+   "at": "2026-11-06T09:00:26.877Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__6e8e3fdfb0d8.png",
+   "class": "transplant",
+   "against": "01-entrance__seam3__s7__f060d2362dd8.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.7544,
+    "u1": 0.9609,
+    "deg": 74.3
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__97134e5cd098.jpg"
+  },
+  {
+   "at": "2026-11-06T09:00:38.454Z",
+   "asset": "01-entrance",
+   "picture": "01-entrance__seam3__s7__6e8e3fdfb0d8.png",
+   "class": "transplant",
+   "against": "01-entrance__seam3__s7__f060d2362dd8.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.6846,
+    "u1": 0.9609,
+    "deg": 99.5
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__01-entrance__0abfd9728f6a.jpg"
+  },
+  {
+   "at": "2026-11-06T09:01:36.953Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__65808190b6bb.png",
+   "class": "transplant",
+   "against": "03-dining__gpt25__s7__fb222e11fa0f.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.8447,
+    "u1": 0.20799999999999996,
+    "deg": 130.8
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "PASS",
+   "ratio": 1.011,
+   "tolerance": 0.1,
+   "why": "apparent width 1.011x the picture before the repair (transplant, tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      492,
+      366,
+      1000,
+      998
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      490,
+      373,
+      1000,
+      998
+     ]
+    },
+    "note": "the kitchen counter/cabinetry unit"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__deab4c87934b.jpg"
+  },
+  {
+   "at": "2026-11-06T09:01:45.903Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__65808190b6bb.png",
+   "class": "transplant",
+   "against": "03-dining__gpt25__s7__fb222e11fa0f.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.8447,
+    "u1": 0.22560000000000002,
+    "deg": 137.1
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "PASS",
+   "ratio": 1.017,
+   "tolerance": 0.1,
+   "why": "apparent width 1.017x the picture before the repair (transplant, tolerance +-10%)",
+   "judge": {
+    "photo": {
+     "found": true,
+     "box": [
+      496,
+      347,
+      1000,
+      1000
+     ]
+    },
+    "render": {
+     "found": true,
+     "box": [
+      492,
+      358,
+      1000,
+      1000
+     ]
+    },
+    "note": "the largest piece of furniture or built-in element in the middle of the image"
+   },
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__d32e22e97e0f.jpg"
+  },
+  {
+   "at": "2026-11-06T09:01:56.792Z",
+   "asset": "03-dining",
+   "picture": "03-dining__seam3__s7__65808190b6bb.png",
+   "class": "transplant",
+   "against": "03-dining__gpt25__s7__fb222e11fa0f.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.8022,
+    "u1": 0.22560000000000002,
+    "deg": 152.4
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__03-dining__05e2d1a20c24.jpg"
+  },
+  {
+   "at": "2026-11-06T09:02:56.458Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__0c28e1c063ab.png",
+   "class": "transplant",
+   "against": "04-living__gpt25__s7__bd0df5c5f9af.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.2251,
+    "u1": 0.4272,
+    "deg": 72.8
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__04-living__434523dc3ab8.jpg"
+  },
+  {
+   "at": "2026-11-06T09:03:09.386Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__0c28e1c063ab.png",
+   "class": "transplant",
+   "against": "04-living__gpt25__s7__bd0df5c5f9af.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.1973,
+    "u1": 0.4565,
+    "deg": 93.3
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__04-living__590cd3916281.jpg"
+  },
+  {
+   "at": "2026-11-06T09:03:19.538Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__0c28e1c063ab.png",
+   "class": "transplant",
+   "against": "04-living__gpt25__s7__bd0df5c5f9af.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.1973,
+    "u1": 0.4565,
+    "deg": 93.3
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__04-living__590cd3916281.jpg"
+  },
+  {
+   "at": "2026-11-06T09:23:44.331Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__28bba1843b16.png",
+   "class": "transplant",
+   "against": "04-living__gpt25__s7__7d9d828ff503.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.2139,
+    "u1": 0.4321,
+    "deg": 78.6
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__04-living__01b6c2d43124.jpg"
+  },
+  {
+   "at": "2026-11-06T09:23:55.410Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__28bba1843b16.png",
+   "class": "transplant",
+   "against": "04-living__gpt25__s7__7d9d828ff503.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.2139,
+    "u1": 0.4321,
+    "deg": 78.6
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__04-living__01b6c2d43124.jpg"
+  },
+  {
+   "at": "2026-11-06T09:24:07.219Z",
+   "asset": "04-living",
+   "picture": "04-living__seam3__s7__28bba1843b16.png",
+   "class": "transplant",
+   "against": "04-living__gpt25__s7__7d9d828ff503.png",
+   "object": "the largest piece of furniture or built-in element in the middle of the image",
+   "band": {
+    "u0": 0.1621,
+    "u1": 0.4321,
+    "deg": 97.2
+   },
+   "cg_tour": "apt846-auto",
+   "verdict": "FAIL",
+   "ratio": null,
+   "tolerance": 0.1,
+   "why": "the judge returned no JSON",
+   "judge": null,
+   "sheet": "_local\\fidelity\\ref-scale__04-living__89849cc4ae6f.jpg"
+  }
+ ]
+}

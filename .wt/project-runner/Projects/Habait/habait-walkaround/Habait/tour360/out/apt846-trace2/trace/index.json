@@ -1,0 +1,92 @@
+{
+ "input": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\דירה 846- 16.pdf",
+ "id": "apt846-trace2",
+ "model": "google/gemini-3.7-flash",
+ "plans": [
+  {
+   "dir": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace2\\trace\\plan-1",
+   "page": 1,
+   "floor_label": null,
+   "dwelling_label": null,
+   "status": "FAIL",
+   "rounds": 1,
+   "plan": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace2\\trace\\plan-1\\plan.general.json",
+   "overlay": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace2\\trace\\plan-1\\overlay.png",
+   "report": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace2\\trace\\plan-1\\report.json",
+   "trace_check": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace2\\trace\\plan-1\\trace-check.json",
+   "rooms": 10,
+   "fixtures": 20,
+   "scale_px_per_cm": 2.2677,
+   "failures": [
+    {
+     "check": "room_has_label",
+     "room": "r-corridor-177",
+     "name": null,
+     "expected": "a printed label, or a door-split lobby / an unlabelled walkable connector",
+     "got": "auto hall (no printed label)"
+    },
+    {
+     "check": "room_count",
+     "room": null,
+     "name": null,
+     "expected": 9,
+     "got": 10
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-dining-area",
+     "name": "פינת אוכל",
+     "expected": "no edge > 30 cm off the room's own axes (wall-backed directions, plan axis 17.5°) unless along a diagonal/curved wall",
+     "got": [
+      259,
+      334,
+      45,
+      41
+     ]
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-sun-balcony",
+     "name": "מרפסת שמש",
+     "expected": "no edge > 30 cm off the room's own axes (wall-backed directions [19.0]°, plan axis 17.5°) unless along a diagonal/curved wall",
+     "got": [
+      191
+     ]
+    },
+    {
+     "check": "orthogonal",
+     "room": "r-corridor-177",
+     "name": "מעבר",
+     "expected": "no edge > 30 cm off the room's own axes (wall-backed directions [10.0, 17.8]°, plan axis 17.5°) unless along a diagonal/curved wall",
+     "got": [
+      88,
+      335
+     ]
+    },
+    {
+     "check": "unlabelled_room",
+     "room": "r-corridor-177",
+     "name": null,
+     "expected": "<= 3 m², or a walkable connector <= 180 cm wide",
+     "got": 7.13
+    }
+   ],
+   "judge_mismatches": [
+    {
+     "room": "פינת אוכל",
+     "issue": "The dining area is traced as an independent space, but its label disc (9) is misplaced onto the balcony next to disc 4."
+    }
+   ],
+   "could_not_read": [
+    "room 'מבואה' (r-hall-auto-91): no closed region was traced around its label (the flood leaked or the label sits on a line)",
+    "room 'מטבח' (r-kitchen): no printed dimensions were read; its size comes from the drawing only",
+    "room 'פינת אוכל' (r-dining-area): no printed dimensions were read; its size comes from the drawing only",
+    "room 'חדר דיור' (r-living-room): traced [888, 560] cm vs printed [530, 744] cm ([19.4, 5.7] %) — check the trace or the reading",
+    "room 'מרפסת שמש' (r-sun-balcony): traced [771, 332] cm vs printed [270, 474] cm ([62.7, 23.0] %) — check the trace or the reading",
+    "room 'מעבר' (r-corridor-177): no printed dimensions were read; its size comes from the drawing only"
+   ]
+  }
+ ],
+ "spent_usd": 0.041762999999999995,
+ "status": "FAIL"
+}

@@ -1,0 +1,12 @@
+entrance: ref apartments\p846test\_local\refs\plan-01-entrance.png 1700x1700, camera at (700,1730) bearing 297.0°
+kitchen: ref apartments\p846test\_local\refs\plan-02-kitchen.png 1700x1700, camera at (1790,1465) bearing 21.0°
+dining: ref apartments\p846test\_local\refs\plan-03-dining.png 1700x1700, camera at (2378,1292) bearing 93.0°
+living: ref apartments\p846test\_local\refs\plan-04-living.png 1700x1700, camera at (954,2150) bearing 102.0°
+terraceLiving: ref apartments\p846test\_local\refs\plan-05-terrace-living.png 1700x1700, camera at (2880,1591) bearing 150.0°
+terraceBedroom: ref apartments\p846test\_local\refs\plan-06-terrace-bedroom.png 1700x1700, camera at (2322,2939) bearing 121.0°
+bedroomMain: ref apartments\p846test\_local\refs\plan-07-bedroom-main.png 1700x1700, camera at (1467,2801) bearing 118.0°
+wardrobe: ref apartments\p846test\_local\refs\plan-08-wardrobe.png 1700x1700, camera at (1125,2725) bearing 330.0°
+bathMain: ref apartments\p846test\_local\refs\plan-09-bath-main.png 1700x1700, camera at (641,2826) bearing 163.9°
+bedroom2: ref apartments\p846test\_local\refs\plan-10-bedroom-2.png 1700x1700, camera at (1426,956) bearing 38.0°
+bathGuest: ref apartments\p846test\_local\refs\plan-11-bath-guest.png 1700x1700, camera at (961,1288) bearing 140.0°
+plan sheet apartments\p846test\plan\floorplan.webp 1500x1560 (169 KB)

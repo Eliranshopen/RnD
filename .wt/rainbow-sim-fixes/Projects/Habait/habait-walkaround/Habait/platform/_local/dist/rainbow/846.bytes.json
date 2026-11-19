@@ -1,0 +1,122 @@
+[
+ {
+  "dist": "media\\panos\\01-entrance.webp",
+  "same_as": "panos\\balanced\\01-entrance.webp",
+  "bytes": 164796
+ },
+ {
+  "dist": "media\\panos\\02-kitchen.webp",
+  "same_as": "panos\\balanced\\02-kitchen.webp",
+  "bytes": 196702
+ },
+ {
+  "dist": "media\\panos\\03-dining.webp",
+  "same_as": "panos\\balanced\\03-dining.webp",
+  "bytes": 235182
+ },
+ {
+  "dist": "media\\panos\\04-living.webp",
+  "same_as": "panos\\balanced\\04-living.webp",
+  "bytes": 283806
+ },
+ {
+  "dist": "media\\panos\\05-terrace-living.webp",
+  "same_as": "panos\\balanced\\05-terrace-living.webp",
+  "bytes": 239098
+ },
+ {
+  "dist": "media\\panos\\06-terrace-bedroom.webp",
+  "same_as": "panos\\balanced\\06-terrace-bedroom.webp",
+  "bytes": 241870
+ },
+ {
+  "dist": "media\\panos\\07-bedroom-main.webp",
+  "same_as": "panos\\balanced\\07-bedroom-main.webp",
+  "bytes": 223930
+ },
+ {
+  "dist": "media\\panos\\08-wardrobe.webp",
+  "same_as": "panos\\balanced\\08-wardrobe.webp",
+  "bytes": 168022
+ },
+ {
+  "dist": "media\\panos\\09-bath-main.webp",
+  "same_as": "panos\\balanced\\09-bath-main.webp",
+  "bytes": 209816
+ },
+ {
+  "dist": "media\\panos\\10-bedroom-2.webp",
+  "same_as": "panos\\balanced\\10-bedroom-2.webp",
+  "bytes": 189218
+ },
+ {
+  "dist": "media\\panos\\11-bath-guest.webp",
+  "same_as": "panos\\balanced\\11-bath-guest.webp",
+  "bytes": 175046
+ },
+ {
+  "dist": "media\\plan.png",
+  "same_as": null,
+  "bytes": 276385
+ },
+ {
+  "dist": "media\\stills\\01-entrance.jpg",
+  "same_as": null,
+  "bytes": 122566
+ },
+ {
+  "dist": "media\\stills\\02-kitchen.jpg",
+  "same_as": null,
+  "bytes": 125045
+ },
+ {
+  "dist": "media\\stills\\03-dining.jpg",
+  "same_as": null,
+  "bytes": 120454
+ },
+ {
+  "dist": "media\\stills\\04-living.jpg",
+  "same_as": null,
+  "bytes": 139161
+ },
+ {
+  "dist": "media\\stills\\05-terrace-living.jpg",
+  "same_as": null,
+  "bytes": 140534
+ },
+ {
+  "dist": "media\\stills\\06-terrace-bedroom.jpg",
+  "same_as": null,
+  "bytes": 142530
+ },
+ {
+  "dist": "media\\stills\\07-bedroom-main.jpg",
+  "same_as": null,
+  "bytes": 120447
+ },
+ {
+  "dist": "media\\stills\\08-wardrobe.jpg",
+  "same_as": null,
+  "bytes": 103458
+ },
+ {
+  "dist": "media\\stills\\09-bath-main.jpg",
+  "same_as": null,
+  "bytes": 92545
+ },
+ {
+  "dist": "media\\stills\\10-bedroom-2.jpg",
+  "same_as": null,
+  "bytes": 116452
+ },
+ {
+  "dist": "media\\stills\\11-bath-guest.jpg",
+  "same_as": null,
+  "bytes": 92361
+ },
+ {
+  "dist": "media\\top.webp",
+  "same_as": null,
+  "bytes": 32004
+ }
+]

@@ -1,0 +1,5 @@
+{
+ "answer": "08-wardrobe__floor-concrete__s9__aaba0e4e2427__floorcomp.png",
+ "source": "08-wardrobe__seam3__s7__9b3bde55ca93.png",
+ "composite": "R26 floor-only (floor_composite.py --whole): the finish answer's floor on the passed source; walls and openings are the source's (2026-11-06)"
+}

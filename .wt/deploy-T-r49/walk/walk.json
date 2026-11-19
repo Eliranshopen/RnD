@@ -1,0 +1,447 @@
+{
+ "schema": "walk-proof/2",
+ "apartment": "apt846",
+ "mode": "tour-pictures",
+ "finish": "parquet",
+ "units": "cm, plan frame (x right, y down); a node's yaw = the bearing of its picture's centre, clockwise from the plan's up",
+ "depth": {
+  "encoding": "rgb24-be",
+  "scale": 100,
+  "size": [
+   1024,
+   512
+  ],
+  "from": "360walkaround/tours/apt846-furnished/renders/cp-<id>/depth.png"
+ },
+ "eye_cm": 160,
+ "nodes": [
+  {
+   "id": "entrance",
+   "name": "כניסה",
+   "asset": "01-entrance",
+   "x": 322.9,
+   "y": 762.3,
+   "z": 160,
+   "yaw": 105.9,
+   "view": 105.9,
+   "sha": "56cf19065addd5b1",
+   "from": "../../dist/apt846/panos-parquet/01-entrance.webp"
+  },
+  {
+   "id": "kitchen",
+   "name": "מטבח",
+   "asset": "02-kitchen",
+   "x": 876.2,
+   "y": 548.2,
+   "z": 160,
+   "yaw": 125.5,
+   "view": 125.5,
+   "sha": "1f23a226fffe82b5",
+   "from": "../../dist/apt846/panos-parquet/02-kitchen.webp"
+  },
+  {
+   "id": "dining",
+   "name": "פינת אוכל",
+   "asset": "03-dining",
+   "x": 918.5,
+   "y": 780.9,
+   "z": 160,
+   "yaw": 56.8,
+   "view": 56.8,
+   "sha": "2686845bb2061bfb",
+   "from": "../../dist/apt846/panos-parquet/03-dining.webp"
+  },
+  {
+   "id": "living",
+   "name": "סלון",
+   "asset": "04-living",
+   "x": 679.9,
+   "y": 927.7,
+   "z": 160,
+   "yaw": 111.3,
+   "view": 111.3,
+   "sha": "52556ac57ef6534a",
+   "from": "../../dist/apt846/panos-parquet/04-living.webp"
+  },
+  {
+   "id": "terraceLiving",
+   "name": "מרפסת שמש",
+   "asset": "05-terrace-living",
+   "x": 1234.5,
+   "y": 948.0,
+   "z": 160,
+   "yaw": 355.9,
+   "view": 355.9,
+   "sha": "1d93ff2f3c11c104",
+   "from": "../../dist/apt846/panos-parquet/05-terrace-living.webp"
+  },
+  {
+   "id": "terraceBedroom",
+   "name": "מרפסת · קצה החדרים",
+   "asset": "06-terrace-bedroom",
+   "x": 1002.1,
+   "y": 1334.3,
+   "z": 160,
+   "yaw": 16.3,
+   "view": 16.3,
+   "sha": "91f9106e64008748",
+   "from": "../../dist/apt846/panos-parquet/06-terrace-bedroom.webp"
+  },
+  {
+   "id": "bedroomMain",
+   "name": "חדר שינה הורים",
+   "asset": "07-bedroom-main",
+   "x": 828.3,
+   "y": 1298.4,
+   "z": 160,
+   "yaw": 344.9,
+   "view": 344.9,
+   "sha": "eef9b0344344849c",
+   "from": "../../dist/apt846/panos-parquet/07-bedroom-main.webp"
+  },
+  {
+   "id": "wardrobe",
+   "name": "פינת ארונות",
+   "asset": "08-wardrobe",
+   "x": 521.6,
+   "y": 1168.5,
+   "z": 160,
+   "yaw": 106.4,
+   "view": 106.4,
+   "sha": "5526118f2b3ec366",
+   "from": "../../dist/apt846/panos-parquet/08-wardrobe.webp"
+  },
+  {
+   "id": "bathMain",
+   "name": "חדר רחצה הורים",
+   "asset": "09-bath-main",
+   "x": 292.9,
+   "y": 1251.1,
+   "z": 160,
+   "yaw": 36.8,
+   "view": 36.8,
+   "sha": "1e1a1c0059f620bb",
+   "from": "../../dist/apt846/panos-parquet/09-bath-main.webp"
+  },
+  {
+   "id": "bedroom2",
+   "name": "חדר שינה",
+   "asset": "10-bedroom-2",
+   "x": 636.7,
+   "y": 434.3,
+   "z": 160,
+   "yaw": 35.2,
+   "view": 35.2,
+   "sha": "c874d2dd2b415c3d",
+   "from": "../../dist/apt846/panos-parquet/10-bedroom-2.webp"
+  },
+  {
+   "id": "bathguest",
+   "name": "חדר רחצה כללי",
+   "asset": "11-bath-guest",
+   "x": 424.4,
+   "y": 565.4,
+   "z": 160,
+   "yaw": 15.7,
+   "view": 15.7,
+   "sha": "18174164ffe7b3d6",
+   "from": "../../dist/apt846/panos-parquet/11-bath-guest.webp"
+  }
+ ],
+ "edges": [
+  [
+   "entrance",
+   "kitchen",
+   [
+    [
+     322.9,
+     762.3
+    ],
+    [
+     699.0,
+     733.3
+    ],
+    [
+     876.2,
+     548.2
+    ]
+   ]
+  ],
+  [
+   "entrance",
+   "living",
+   [
+    [
+     322.9,
+     762.3
+    ],
+    [
+     649.0,
+     898.3
+    ],
+    [
+     679.9,
+     927.7
+    ]
+   ]
+  ],
+  [
+   "entrance",
+   "wardrobe",
+   [
+    [
+     322.9,
+     762.3
+    ],
+    [
+     424.1,
+     1113.3
+    ],
+    [
+     521.6,
+     1168.5
+    ]
+   ]
+  ],
+  [
+   "entrance",
+   "bedroom2",
+   [
+    [
+     322.9,
+     762.3
+    ],
+    [
+     484.1,
+     688.3
+    ],
+    [
+     636.7,
+     434.3
+    ]
+   ]
+  ],
+  [
+   "entrance",
+   "bathguest",
+   [
+    [
+     322.9,
+     762.3
+    ],
+    [
+     484.1,
+     688.3
+    ],
+    [
+     464.1,
+     593.3
+    ],
+    [
+     424.4,
+     565.4
+    ]
+   ]
+  ],
+  [
+   "kitchen",
+   "dining",
+   [
+    [
+     876.2,
+     548.2
+    ],
+    [
+     829.0,
+     713.3
+    ],
+    [
+     918.5,
+     780.9
+    ]
+   ]
+  ],
+  [
+   "kitchen",
+   "living",
+   [
+    [
+     876.2,
+     548.2
+    ],
+    [
+     644.0,
+     858.3
+    ],
+    [
+     674.0,
+     923.3
+    ],
+    [
+     679.9,
+     927.7
+    ]
+   ]
+  ],
+  [
+   "dining",
+   "living",
+   [
+    [
+     918.5,
+     780.9
+    ],
+    [
+     679.0,
+     788.3
+    ],
+    [
+     649.0,
+     898.3
+    ],
+    [
+     679.9,
+     927.7
+    ]
+   ]
+  ],
+  [
+   "dining",
+   "terraceLiving",
+   [
+    [
+     918.5,
+     780.9
+    ],
+    [
+     1019.0,
+     1053.3
+    ],
+    [
+     1119.0,
+     1023.3
+    ],
+    [
+     1214.0,
+     973.3
+    ],
+    [
+     1234.5,
+     948.0
+    ]
+   ]
+  ],
+  [
+   "living",
+   "terraceLiving",
+   [
+    [
+     679.9,
+     927.7
+    ],
+    [
+     1089.0,
+     1058.3
+    ],
+    [
+     1219.0,
+     968.3
+    ],
+    [
+     1234.5,
+     948.0
+    ]
+   ]
+  ],
+  [
+   "living",
+   "wardrobe",
+   [
+    [
+     679.9,
+     927.7
+    ],
+    [
+     629.0,
+     1018.3
+    ],
+    [
+     574.0,
+     1033.3
+    ],
+    [
+     434.1,
+     1048.3
+    ],
+    [
+     419.1,
+     1073.3
+    ],
+    [
+     419.1,
+     1098.3
+    ],
+    [
+     521.6,
+     1168.5
+    ]
+   ]
+  ],
+  [
+   "terraceLiving",
+   "terraceBedroom",
+   [
+    [
+     1234.5,
+     948.0
+    ],
+    [
+     1024.0,
+     1163.3
+    ],
+    [
+     984.0,
+     1318.3
+    ],
+    [
+     1002.1,
+     1334.3
+    ]
+   ]
+  ],
+  [
+   "bedroomMain",
+   "wardrobe",
+   [
+    [
+     828.3,
+     1298.4
+    ],
+    [
+     521.6,
+     1168.5
+    ]
+   ]
+  ],
+  [
+   "wardrobe",
+   "bathMain",
+   [
+    [
+     521.6,
+     1168.5
+    ],
+    [
+     399.1,
+     1278.3
+    ],
+    [
+     292.9,
+     1251.1
+    ]
+   ]
+  ]
+ ],
+ "dropped": [],
+ "failed": []
+}

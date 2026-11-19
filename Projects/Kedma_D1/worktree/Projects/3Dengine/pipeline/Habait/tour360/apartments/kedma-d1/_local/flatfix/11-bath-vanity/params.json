@@ -1,0 +1,9 @@
+{
+ "asset": "11-bath",
+ "tag": "vanity",
+ "parent": "11-bath__flat__window.png",
+ "yaw": 150,
+ "pitch": 0,
+ "hfov": 112,
+ "size": 1024
+}

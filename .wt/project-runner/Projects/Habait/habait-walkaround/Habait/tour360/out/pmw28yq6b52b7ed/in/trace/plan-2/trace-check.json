@@ -1,0 +1,634 @@
+{
+ "status": "FAIL",
+ "n_checks": 56,
+ "n_failed": 6,
+ "checks": [
+  {
+   "check": "dims",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": [
+    485,
+    310
+   ],
+   "got": [
+    514,
+    310
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": false
+  },
+  {
+   "check": "dims",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": [
+    735,
+    450
+   ],
+   "got": [
+    741,
+    473
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": false
+  },
+  {
+   "check": "dims",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": [
+    250,
+    170
+   ],
+   "got": [
+    247,
+    165
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": true
+  },
+  {
+   "check": "dims",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": [
+    375,
+    300
+   ],
+   "got": [
+    375,
+    289
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": false
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-entrance",
+   "name": "כניסה",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-stairs-to-floor-1",
+   "name": "עליה לקומה 1",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "label_has_room",
+   "room": "r-patio-according-to-development",
+   "name": "פטיו בהתאם לתכנית הפיתוח",
+   "expected": "one traced room",
+   "got": "traced",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-entrance",
+   "expected": "a printed label",
+   "got": "כניסה",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-kitchen",
+   "expected": "a printed label",
+   "got": "מטבח",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-living-room",
+   "expected": "a printed label",
+   "got": "חדר מגורים",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-stairs-to-floor-1",
+   "expected": "a printed label",
+   "got": "עליה לקומה 1",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-bathroom",
+   "expected": "a printed label",
+   "got": "חדר רחצה",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-safe-room-mamad",
+   "expected": "a printed label",
+   "got": "ממ\"ד",
+   "pass": true
+  },
+  {
+   "check": "room_has_label",
+   "room": "r-patio-according-to-development",
+   "expected": "a printed label",
+   "got": "פטיו בהתאם לתכנית הפיתוח",
+   "pass": true
+  },
+  {
+   "check": "room_count",
+   "expected": 7,
+   "got": 7,
+   "pass": true
+  },
+  {
+   "check": "door_arc",
+   "arc": 11,
+   "hinge_cm": [
+    1002,
+    596
+   ],
+   "expected": "an opening between two rooms",
+   "got": "o-arc-11",
+   "pass": true
+  },
+  {
+   "check": "door_arc",
+   "arc": 14,
+   "hinge_cm": [
+    817,
+    1886
+   ],
+   "expected": "an opening between two rooms",
+   "got": "neither side lies in a traced room",
+   "pass": false
+  },
+  {
+   "check": "entrance",
+   "expected": "an opening on the building edge next to the entrance label",
+   "got": {
+    "opening": "o-2",
+    "dist_to_label_cm": 112.3
+   },
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 1,
+   "centre_cm": [
+    316,
+    380
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 2,
+   "centre_cm": [
+    779,
+    380
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 3,
+   "centre_cm": [
+    971,
+    630
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 4,
+   "centre_cm": [
+    169,
+    590
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 5,
+   "centre_cm": [
+    993,
+    897
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 6,
+   "centre_cm": [
+    799,
+    1111
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "window",
+   "window": 7,
+   "centre_cm": [
+    525,
+    1494
+   ],
+   "expected": "a pane",
+   "got": "pane",
+   "pass": true
+  },
+  {
+   "check": "wet_room_fixtures",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": [
+    "counter",
+    "hob",
+    "island",
+    "sink",
+    "tall_unit"
+   ],
+   "got": [
+    "counter",
+    "hob",
+    "island",
+    "sink"
+   ],
+   "pass": true
+  },
+  {
+   "check": "wet_room_fixtures",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": [
+    "bathtub",
+    "shower",
+    "vanity",
+    "wc"
+   ],
+   "got": [
+    "shower",
+    "vanity",
+    "wc"
+   ],
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-entrance",
+   "name": "כניסה",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": "ok",
+   "pass": true
+  },
+  {
+   "check": "inside_envelope",
+   "room": "r-entrance",
+   "name": "כניסה",
+   "expected": "<= 2 % outside",
+   "got": "0.0 %",
+   "pass": true
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-entrance",
+   "name": "כניסה",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "57 cm away",
+   "pass": false
+  },
+  {
+   "check": "shape_iou",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": ">= 0.85 with the printed rectangle",
+   "got": 0.953,
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": "ok",
+   "pass": true
+  },
+  {
+   "check": "inside_envelope",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": "<= 2 % outside",
+   "got": "0.0 %",
+   "pass": true
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "0 cm away",
+   "pass": true
+  },
+  {
+   "check": "shape_iou",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": ">= 0.85 with the printed rectangle",
+   "got": 0.934,
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": "ok",
+   "pass": true
+  },
+  {
+   "check": "inside_envelope",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": "<= 2 % outside",
+   "got": "0.0 %",
+   "pass": true
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "0 cm away",
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-stairs-to-floor-1",
+   "name": "עליה לקומה 1",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": "ok",
+   "pass": true
+  },
+  {
+   "check": "inside_envelope",
+   "room": "r-stairs-to-floor-1",
+   "name": "עליה לקומה 1",
+   "expected": "<= 2 % outside",
+   "got": "0.0 %",
+   "pass": true
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-stairs-to-floor-1",
+   "name": "עליה לקומה 1",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "0 cm away",
+   "pass": true
+  },
+  {
+   "check": "shape_iou",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": ">= 0.85 with the printed rectangle",
+   "got": 0.944,
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": "ok",
+   "pass": true
+  },
+  {
+   "check": "inside_envelope",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": "<= 2 % outside",
+   "got": "0.0 %",
+   "pass": true
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "0 cm away",
+   "pass": true
+  },
+  {
+   "check": "wet_room_area",
+   "room": "r-bathroom",
+   "name": "חדר רחצה",
+   "expected": ">= 1.5 m²",
+   "got": 4.01,
+   "pass": true
+  },
+  {
+   "check": "shape_iou",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": ">= 0.85 with the printed rectangle",
+   "got": 0.95,
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": "ok",
+   "pass": true
+  },
+  {
+   "check": "inside_envelope",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": "<= 2 % outside",
+   "got": "0.0 %",
+   "pass": true
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "0 cm away",
+   "pass": true
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-patio-according-to-development",
+   "name": "פטיו בהתאם לתכנית הפיתוח",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": [
+    41,
+    31,
+    38,
+    34,
+    37
+   ],
+   "pass": false
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-patio-according-to-development",
+   "name": "פטיו בהתאם לתכנית הפיתוח",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "0 cm away",
+   "pass": true
+  }
+ ],
+ "failures": [
+  {
+   "check": "dims",
+   "room": "r-kitchen",
+   "name": "מטבח",
+   "expected": [
+    485,
+    310
+   ],
+   "got": [
+    514,
+    310
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": false
+  },
+  {
+   "check": "dims",
+   "room": "r-living-room",
+   "name": "חדר מגורים",
+   "expected": [
+    735,
+    450
+   ],
+   "got": [
+    741,
+    473
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": false
+  },
+  {
+   "check": "dims",
+   "room": "r-safe-room-mamad",
+   "name": "ממ\"ד",
+   "expected": [
+    375,
+    300
+   ],
+   "got": [
+    375,
+    289
+   ],
+   "tol": "max(2 %, 5 cm) per side",
+   "pass": false
+  },
+  {
+   "check": "door_arc",
+   "arc": 14,
+   "hinge_cm": [
+    817,
+    1886
+   ],
+   "expected": "an opening between two rooms",
+   "got": "neither side lies in a traced room",
+   "pass": false
+  },
+  {
+   "check": "label_in_room",
+   "room": "r-entrance",
+   "name": "כניסה",
+   "expected": "the printed label inside its room (<= 50 cm)",
+   "got": "57 cm away",
+   "pass": false
+  },
+  {
+   "check": "orthogonal",
+   "room": "r-patio-according-to-development",
+   "name": "פטיו בהתאם לתכנית הפיתוח",
+   "expected": "no non-axis edge > 30 cm off a diagonal/curved wall",
+   "got": [
+    41,
+    31,
+    38,
+    34,
+    37
+   ],
+   "pass": false
+  }
+ ],
+ "corrections": {
+  "force_rect": [
+   "kitchen",
+   "living-room",
+   "safe-room-mamad"
+  ]
+ },
+ "round": 2,
+ "judge": {
+  "model": "google/gemini-3.7-flash",
+  "mismatches": [
+   {
+    "room": "3",
+    "issue": "There is a stray/misplaced green opening line near the right wall where no door or passage exists on the drawing."
+   },
+   {
+    "room": "5",
+    "issue": "The entrance door from the hallway into the bathroom is missing a green opening line."
+   },
+   {
+    "room": "6",
+    "issue": "The entrance door from the hallway into the bedroom/safe room is missing a green opening line."
+   }
+  ],
+  "usd": 0.0062265
+ }
+}

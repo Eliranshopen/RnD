@@ -1,0 +1,46 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+Vercel CLI 65.9.0 (Node.js 24.22.1)
+  Inspect         https://vercel.com/eliran-5390/habait-flow/oJVuhJUbVNP5kGWBWUbLs5xGGun6
+  Production      https://habait-flow-9mwwzbrdv-eliran-5390.vercel.app
+▲ Aliased         https://habait-flow.vercel.app
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_oJVuhJUbVNP5kGWBWUbLs5xGGun6",
+    "url": "https://habait-flow-9mwwzbrdv-eliran-5390.vercel.app",
+    "productionUrl": "https://habait-flow.vercel.app",
+    "inspectorUrl": "https://vercel.com/eliran-5390/habait-flow/oJVuhJUbVNP5kGWBWUbLs5xGGun6",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_oJVuhJUbVNP5kGWBWUbLs5xGGun6",
+    "buildMachine": {
+      "cores": 2,
+      "memory": 8192,
+      "machine": "basic",
+      "selectionType": "fixed",
+      "selectionSource": "plan-default"
+    },
+    "deploymentProtection": [
+      "vercel_authentication"
+    ]
+  },
+  "message": "Deployment habait-flow-9mwwzbrdv-eliran-5390.vercel.app ready. Production URL: https://habait-flow.vercel.app",
+  "next": [
+    {
+      "command": "vercel git connect --scope eliran-5390",
+      "when": "Automatically deploy changes on every push"
+    },
+    {
+      "command": "vercel curl https://habait-flow.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect habait-flow-9mwwzbrdv-eliran-5390.vercel.app --scope eliran-5390",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod --scope eliran-5390",
+      "when": "Promote to production"
+    }
+  ]
+}

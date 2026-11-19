@@ -1,0 +1,13 @@
+{
+ "name": "prod-exposure-fix",
+ "purpose": "Eliran 'כן' 2026-11-04: stop staging CLAUDE.md context files and demo-transition.html to habait-flow production",
+ "opened": "2026-11-04T11:08:27",
+ "files": [
+  {
+   "path": "Projects/Habait/tools/deploy-vercel/stage_flow.py",
+   "sha256_at_open": "b49711e6cb7bb640447e2fef6b6679f25a157bdef9cc585a249539e68e06a114",
+   "sha256_at_close": "648bbfd1b6e4079d65725978536aaa111af05c2d3c48368b734cf5c7e08ae134"
+  }
+ ],
+ "closed": "2026-11-04T11:09:29"
+}

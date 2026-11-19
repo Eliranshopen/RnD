@@ -1,0 +1,64 @@
+{
+ "ok": true,
+ "image": {
+  "bytes": 305985,
+  "sha256": "b58c56e4c7a33ea6"
+ },
+ "prompt": "Edit this photo in place: keep the exact same camera position, framing, zoom and field of view. Replace the coffee table in the first image with the product shown in the second image: a round low coffee table with a thick white Carrara marble top on a single wide black drum base. Place it exactly where the coffee table stands, resting on the floor, at the same scale and perspective as the piece it replaces, lit like the room. Nothing of the coffee table remains: not its colour, its material, or anything that stood on it. Where the old piece covered the floor or the rug and the new one does not, continue that same rug or floor, its edge and pattern, as if it had always run there; never a patch of bare floor or a new shape. The second image is the product itself and the only authority for how the new piece looks: copy its exact design — shape, proportions, colour, upholstery or material, legs and details — as if the photographed product had been carried into the room. Do not restyle it to the room, do not keep the old piece's colour, fabric, cushions or accessories, do not blend the two designs. The first image sets only where the product stands, its scale, its perspective and its light. Keep everything else in the photo exactly as it is: the walls, the windows and the view outside, the floor, the ceiling, the lighting and shadows, and the camera angle. Do not move or zoom the camera.",
+ "target": "coffee table",
+ "change": "replace with catalog round marble coffee table",
+ "reach": "object",
+ "living": false,
+ "attempt": 2,
+ "model": "fal-ai/nano-banana-2/edit",
+ "modelKey": "nb2",
+ "usd": 0.083,
+ "ms": 18938,
+ "slow": false,
+ "catalog": true,
+ "item": "ai-coffee-marble",
+ "piece": {
+  "id": "living-0-2",
+  "category": "coffee_table",
+  "box": [
+   304,
+   312,
+   612,
+   622
+  ],
+  "count": 1,
+  "seen": {
+   "found": false,
+   "box": null,
+   "outline": null,
+   "touches_edge": [],
+   "note": "seen: piece seen returned no JSON"
+  }
+ },
+ "piece_seen": {
+  "found": false,
+  "box": null,
+  "outline": null,
+  "touches_edge": [],
+  "note": "seen: piece seen returned no JSON"
+ },
+ "settled": {
+  "usd": 0.083,
+  "status": "settled",
+  "model": "fal-ai/nano-banana-2/edit",
+  "reach": "object",
+  "living": false,
+  "prompt_en": "Edit this photo in place: keep the exact same camera position, framing, zoom and field of view. Replace the coffee table in the first image with the product shown in the second image: a round low coffee table with a thick white Carrara marble top on a single wide black drum base. Place it exactly where the coffee table stands, resting on the floor, at the same scale and perspective as the piece it replaces, lit like the room. Nothing of the coffee table remains: not its colour, its material, or anything that stood on it. Where the old piece covered the floor or the rug and the new one does not, continue that same rug or floor, its edge and pattern, as if it had always run there; never a patch of bare floor or a new shape. The second image is the product itself and the only authority for how the new piece looks: copy its exact design — shape, proportions, colour, upholstery or material, legs and details — as if the photographed product had been carried into the room. Do not restyle it to the room, do not keep the old piece's colour, fabric, cushions or accessories, do not blend the two designs. The first image sets only where the product stands, its scale, its perspective and its light. Keep everything else in the photo exactly as it is: the walls, the windows and the view outside, the floor, the ceiling, the lighting and shadows, and the camera angle. Do not move or zoom the camera.",
+  "target": "coffee table",
+  "change": "replace with catalog round marble coffee table",
+  "seconds": 18.928,
+  "result_size": [
+   1264,
+   848
+  ],
+  "seed": null,
+  "seen_found": false,
+  "seen_box": null,
+  "seen_usd": 0
+ }
+}

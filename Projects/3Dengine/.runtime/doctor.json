@@ -1,0 +1,88 @@
+{
+  "at": "2026-11-16T15:19:17.038Z",
+  "ready": false,
+  "ready_except_keys": true,
+  "checks": [
+    {
+      "id": "node",
+      "kind": "runtime",
+      "label": "Node.js",
+      "ok": true,
+      "detail": "v24.22.1"
+    },
+    {
+      "id": "python",
+      "kind": "runtime",
+      "label": "Python environment",
+      "ok": true,
+      "detail": "20/20 pinned"
+    },
+    {
+      "id": "node-libs",
+      "kind": "runtime",
+      "label": "Node libraries",
+      "ok": true,
+      "detail": "sharp 0.34.4, playwright-core 1.56.1"
+    },
+    {
+      "id": "blender",
+      "kind": "runtime",
+      "label": "Blender",
+      "ok": true,
+      "detail": "Blender 4.5.10 LTS"
+    },
+    {
+      "id": "chrome",
+      "kind": "runtime",
+      "label": "Chrome",
+      "ok": true,
+      "detail": "C:/Program Files/Google/Chrome/Application/chrome.exe"
+    },
+    {
+      "id": "legal",
+      "kind": "runtime",
+      "label": "Legal disclaimer",
+      "ok": true,
+      "detail": "C:/RnD/Projects/3Dengine/house/legal/disclaimer-he-en.md"
+    },
+    {
+      "id": "pipeline",
+      "kind": "pipeline",
+      "label": "Pipeline registry parity",
+      "ok": true,
+      "detail": "parity: 41 rows · PASS"
+    },
+    {
+      "id": "assets-catalog",
+      "kind": "assets",
+      "label": "Catalog models (sealed sha256)",
+      "ok": true,
+      "detail": "57/57"
+    },
+    {
+      "id": "assets-packs",
+      "kind": "assets",
+      "label": "Catalog pack zips (sealed sha256)",
+      "ok": true,
+      "detail": "1/1"
+    },
+    {
+      "id": "assets-hdri",
+      "kind": "assets",
+      "label": "HDRI",
+      "ok": true,
+      "detail": "pipeline/probe/probe-assets/hdri/qwantani_noon_puresky_4k.hdr sha256 OK"
+    },
+    {
+      "id": "keys",
+      "kind": "keys",
+      "label": "Provider keys (by name)",
+      "ok": false,
+      "detail": "FAL_KEY: missing, OPENROUTER_API_KEY: missing",
+      "missing": [
+        "FAL_KEY",
+        "OPENROUTER_API_KEY"
+      ]
+    }
+  ]
+}

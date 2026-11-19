@@ -1,0 +1,168 @@
+{
+ "rooms": 7,
+ "fixtures": 8,
+ "scale_px_per_cm": 1.3904,
+ "scale_fit_factor": 0.991,
+ "scale_fitted": true,
+ "dims": [
+  {
+   "room": "r-entrance",
+   "name_he": "כניסה",
+   "measured_cm": [
+    911,
+    121
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-kitchen",
+   "name_he": "מטבח",
+   "measured_cm": [
+    514,
+    310
+   ],
+   "printed_cm": [
+    310,
+    485
+   ],
+   "ratio": [
+    1.0490721649484536,
+    0.9896774193548386
+   ],
+   "delta_pct": [
+    6.0,
+    0.0
+   ]
+  },
+  {
+   "room": "r-living-room",
+   "name_he": "חדר מגורים",
+   "measured_cm": [
+    741,
+    473
+   ],
+   "printed_cm": [
+    450,
+    735
+   ],
+   "ratio": [
+    0.9993197278911564,
+    1.0431111111111115
+   ],
+   "delta_pct": [
+    0.8,
+    5.1
+   ]
+  },
+  {
+   "room": "r-stairs-to-floor-1",
+   "name_he": "עליה לקומה 1",
+   "measured_cm": [
+    279,
+    226
+   ],
+   "printed_cm": null
+  },
+  {
+   "room": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "measured_cm": [
+    247,
+    165
+   ],
+   "printed_cm": [
+    250,
+    170
+   ],
+   "ratio": [
+    0.9792000000000001,
+    0.9623529411764701
+   ],
+   "delta_pct": [
+    -1.2,
+    -2.9
+   ]
+  },
+  {
+   "room": "r-safe-room-mamad",
+   "name_he": "ממ\"ד",
+   "measured_cm": [
+    375,
+    289
+   ],
+   "printed_cm": [
+    375,
+    300
+   ],
+   "ratio": [
+    0.9922666666666667,
+    0.955
+   ],
+   "delta_pct": [
+    0.0,
+    -3.7
+   ]
+  },
+  {
+   "room": "r-patio-according-to-development",
+   "name_he": "פטיו בהתאם לתכנית הפיתוח",
+   "measured_cm": [
+    632,
+    455
+   ],
+   "printed_cm": null
+  }
+ ],
+ "could_not_read": [
+  "room 'כניסה' (r-entrance): no printed dimensions were read; its size comes from the drawing only",
+  "room 'מטבח' (r-kitchen): traced [514, 310] cm vs printed [310, 485] cm ([6.0, 0.0] %) — check the trace or the reading",
+  "room 'חדר מגורים' (r-living-room): traced [741, 473] cm vs printed [450, 735] cm ([0.8, 5.1] %) — check the trace or the reading",
+  "room 'עליה לקומה 1' (r-stairs-to-floor-1): no printed dimensions were read; its size comes from the drawing only",
+  "room 'ממ\"ד' (r-safe-room-mamad): traced [375, 289] cm vs printed [375, 300] cm ([0.0, -3.7] %) — check the trace or the reading",
+  "room 'פטיו בהתאם לתכנית הפיתוח' (r-patio-according-to-development): no printed dimensions were read; its size comes from the drawing only"
+ ],
+ "legend": [
+  {
+   "n": 1,
+   "id": "r-entrance",
+   "name_he": "כניסה",
+   "area_m2": 8.33
+  },
+  {
+   "n": 2,
+   "id": "r-kitchen",
+   "name_he": "מטבח",
+   "area_m2": 15.057
+  },
+  {
+   "n": 3,
+   "id": "r-living-room",
+   "name_he": "חדר מגורים",
+   "area_m2": 32.817
+  },
+  {
+   "n": 4,
+   "id": "r-stairs-to-floor-1",
+   "name_he": "עליה לקומה 1",
+   "area_m2": 6.016
+  },
+  {
+   "n": 5,
+   "id": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "area_m2": 4.013
+  },
+  {
+   "n": 6,
+   "id": "r-safe-room-mamad",
+   "name_he": "ממ\"ד",
+   "area_m2": 10.729
+  },
+  {
+   "n": 7,
+   "id": "r-patio-according-to-development",
+   "name_he": "פטיו בהתאם לתכנית הפיתוח",
+   "area_m2": 25.625
+  }
+ ]
+}

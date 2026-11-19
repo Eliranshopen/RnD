@@ -1,0 +1,51 @@
+{
+ "ok": true,
+ "item": "ai-sofa-leather",
+ "held": true,
+ "original_present": false,
+ "product_present": true,
+ "product_box": [
+  238,
+  198,
+  888,
+  712
+ ],
+ "product_box_raw": [
+  238,
+  198,
+  888,
+  712
+ ],
+ "box_kept": 1,
+ "placed": true,
+ "count": 1,
+ "rest_unchanged": 3,
+ "note": "The sectional sofa was cleanly replaced with the requested cognac leather mid-century sofa.",
+ "usd": 0.0029,
+ "ms": 5474,
+ "settled": {
+  "usd": 0.0029,
+  "status": "settled",
+  "held": true,
+  "original_present": false,
+  "product_present": true,
+  "product_box": [
+   238,
+   198,
+   888,
+   712
+  ],
+  "product_box_raw": [
+   238,
+   198,
+   888,
+   712
+  ],
+  "box_kept": 1,
+  "placed": true,
+  "judged_count": 1,
+  "rest_unchanged": 3,
+  "note": "The sectional sofa was cleanly replaced with the requested cognac leather mid-century sofa.",
+  "seconds": 5.466
+ }
+}

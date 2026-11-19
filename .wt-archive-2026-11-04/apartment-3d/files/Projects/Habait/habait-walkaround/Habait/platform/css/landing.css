@@ -1,0 +1,60 @@
+/* Card 25 (D3): project landing page (A/B). Mobile first, RTL-aware (logical properties); shares css/style.css. */
+.page-landing { min-height: 100%; }
+.page-landing body, body.page-landing { overflow-x: hidden; }
+.landing-top { position: sticky; top: 0; z-index: 5; background: var(--bg); }
+.landing-main { max-width: 980px; margin: 0 auto; padding: 16px 16px 24px; display: grid; gap: 22px; }
+.landing-hero { display: grid; gap: 6px; }
+.landing-hero .badge { justify-self: start; }
+.landing-title { font-size: clamp(26px, 6vw, 40px); margin: 0; font-weight: 800; line-height: 1.15; }
+.landing-sub { margin: 0; font-size: 16px; }
+.section-title { font-size: 19px; margin: 0 0 10px; font-weight: 700; }
+
+/* A: renders */
+.variant { display: grid; gap: 12px; }
+.hero-shot { margin: 0; border-radius: var(--radius); overflow: hidden; background: var(--panel-solid); }
+.hero-shot img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.shot-caption { margin: 0; padding: 8px 12px; font-size: 11.5px; line-height: 1.45; color: var(--muted); }
+.gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.tile {
+  position: relative; display: block; padding: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  background: var(--panel-solid); cursor: pointer; text-align: start;
+}
+.tile img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.tile-label { position: absolute; inset-inline-start: 8px; inset-block-end: 22px; font-size: 13px; font-weight: 700; text-shadow: 0 1px 4px rgba(0,0,0,.8); }
+.tile-legal { position: absolute; inset-inline-start: 8px; inset-block-end: 6px; font-size: 10px; color: rgba(255,255,255,.8); text-shadow: 0 1px 3px rgba(0,0,0,.9); }
+.lightbox { max-width: min(96vw, 1200px); width: 100%; padding: 0; border: 0; border-radius: var(--radius); background: var(--panel-solid); color: var(--fg); }
+.lightbox::backdrop { background: rgba(0,0,0,.8); }
+.lightbox img { display: block; width: 100%; max-height: 72vh; object-fit: contain; background: #000; }
+.lightbox .btn { margin: 0 12px 12px; }
+
+/* B: the flight */
+.flight-frame { border-radius: var(--radius); overflow: hidden; background: #000; border: 1px solid var(--line); }
+.flight-frame iframe { display: block; width: 100%; height: min(74vh, 640px); min-height: 420px; border: 0; }
+.flight-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+
+/* shared: facts + lead */
+.landing-facts-card, .landing-lead { background: var(--panel-solid); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.landing-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0; }
+.landing-fact { display: grid; gap: 2px; }
+.landing-fact dt { font-size: 12px; color: var(--muted); }
+.landing-fact dd { margin: 0; font-weight: 700; font-size: 15px; overflow-wrap: anywhere; }
+.landing-lead p { margin: 0 0 12px; }
+.landing-lead .lead-form { border-top: 0; padding-top: 0; }
+.landing-lead .lead-form .row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* text inputs have an intrinsic width (~20ch): without min-width 0 the two-column row widens a 390 px phone to ~470 px */
+.landing-lead .lead-form input:not([type=checkbox]) { min-width: 0; width: 100%; }
+.landing-lead .lead-form label.check input { min-height: 0; width: 20px; height: 20px; flex: none; }
+.landing-lead .lead-form .btn { width: 100%; }
+
+/* footer: the full legal caption */
+.landing-legal { max-width: 980px; margin: 0 auto; padding: 16px 16px calc(28px + var(--safe-bottom)); border-top: 1px solid var(--line); }
+#legalFull p { margin: 0 0 6px; font-size: 11.5px; line-height: 1.5; color: var(--muted); }
+#legalFull p.legal-head { font-weight: 700; color: var(--fg); }
+
+@media (min-width: 760px) {
+  .landing-main { padding: 24px; gap: 28px; }
+  .gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .landing-facts { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .flight-frame iframe { height: min(70vh, 720px); }
+  .landing-lead .lead-form .btn { width: auto; }
+}

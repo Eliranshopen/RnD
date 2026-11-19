@@ -1,0 +1,335 @@
+{
+ "schema": "habait.furnish-from-plan/0.1/report",
+ "plan": {
+  "path": "c:/RnD/.wt/3dengine/Projects/3Dengine/pipeline/360walkaround/tours/proof21a/plan.base.json",
+  "sha256": "30cc03186d313f7053aa8f9e242ded40e9b80ebf2ec7c28ee322e0f5a4a4d15c"
+ },
+ "style": {
+  "path": "c:/RnD/.wt/3dengine/Projects/3Dengine/pipeline/360walkaround/catalog/style-habait-modern.json",
+  "sha256": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0"
+ },
+ "generator": {
+  "name": "furnish_from_plan.py",
+  "version": "0.1.0",
+  "sha256": "5ab4f827f61d247fe1a604d33c4ba1da221ddf587b6ecbc28aabcf64a7a7629c",
+  "general_furnish": "0.1.1",
+  "plan_general": "0.2.0"
+ },
+ "bars_cm": {
+  "probe_out": 9.0,
+  "template_camera": 40.0,
+  "virtual_zone": 60.0,
+  "audit_depth": 60.0,
+  "passage_min": 80.0,
+  "wall_tol": 1.5,
+  "wall_tol_area_cm2": 4.0,
+  "walkway": 50.0
+ },
+ "rooms": {
+  "r-bedroom": {
+   "role": "bedroom",
+   "area_m2": 9.35,
+   "items": 1,
+   "plan": 0,
+   "template": 1,
+   "coverage_pct": 15.4,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-bathroom": {
+   "role": "bathroom",
+   "area_m2": 3.2,
+   "items": 5,
+   "plan": 4,
+   "template": 1,
+   "coverage_pct": 54.7,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-kitchen": {
+   "role": "kitchen",
+   "area_m2": 12.31,
+   "items": 10,
+   "plan": 10,
+   "template": 0,
+   "coverage_pct": 25.9,
+   "walk": {
+    "reachable": 0,
+    "of": 0,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-dining-area": {
+   "role": "dining",
+   "area_m2": 11.84,
+   "items": 6,
+   "plan": 1,
+   "template": 5,
+   "coverage_pct": 22.7,
+   "walk": {
+    "reachable": 0,
+    "of": 0,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-living-room": {
+   "role": "living",
+   "area_m2": 28.37,
+   "items": 8,
+   "plan": 0,
+   "template": 8,
+   "coverage_pct": 14.6,
+   "walk": {
+    "reachable": 1,
+    "of": 2,
+    "unreached": [
+     "o-arc-3"
+    ],
+    "camera_free": true
+   }
+  },
+  "r-sun-terrace": {
+   "role": "terrace",
+   "area_m2": 18.97,
+   "items": 3,
+   "plan": 0,
+   "template": 3,
+   "coverage_pct": 12.9,
+   "walk": null
+  },
+  "r-master-bedroom": {
+   "role": "bedroom",
+   "area_m2": 11.87,
+   "items": 5,
+   "plan": 0,
+   "template": 5,
+   "coverage_pct": 28.5,
+   "walk": {
+    "reachable": 2,
+    "of": 2,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-wardrobe-area": {
+   "role": "wardrobe",
+   "area_m2": 5.77,
+   "items": 2,
+   "plan": 2,
+   "template": 0,
+   "coverage_pct": 26.4,
+   "walk": {
+    "reachable": 3,
+    "of": 3,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-master-bathroom": {
+   "role": "bathroom",
+   "area_m2": 4.46,
+   "items": 5,
+   "plan": 4,
+   "template": 1,
+   "coverage_pct": 53.3,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-entrance": {
+   "role": "hall",
+   "area_m2": 5.69,
+   "items": 1,
+   "plan": 0,
+   "template": 1,
+   "coverage_pct": 0.0,
+   "walk": {
+    "reachable": 3,
+    "of": 3,
+    "unreached": [],
+    "camera_free": true
+   }
+  }
+ },
+ "rooms_furnished": [
+  "r-bedroom",
+  "r-bathroom",
+  "r-kitchen",
+  "r-dining-area",
+  "r-living-room",
+  "r-sun-terrace",
+  "r-master-bedroom",
+  "r-wardrobe-area",
+  "r-master-bathroom",
+  "r-entrance"
+ ],
+ "items_total": 46,
+ "items_by_origin": {
+  "plan_fixture": 17,
+  "plan_derived": 4,
+  "template": 17,
+  "template_derived": 8
+ },
+ "openings_blocked": [],
+ "wall_hits": [],
+ "outside_room": [],
+ "size_violations": [],
+ "floor_coverage_pct": 22.1,
+ "dropped": [
+  {
+   "id": "t-master-bedroom-bed-nightstand-r",
+   "room_id": "r-master-bedroom",
+   "source": "derived:t-master-bedroom-bed",
+   "model": "kenney-furniture-kit-cabinetBedDrawerTable",
+   "why": [
+    "enters a wall, a pane or another room"
+   ]
+  }
+ ],
+ "openings": [
+  {
+   "id": "o-4",
+   "kind": "door",
+   "rooms": [
+    "r-master-bedroom",
+    "r-sun-terrace"
+   ],
+   "width_cm": 130.9,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 130.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-gap-1",
+   "kind": "opening",
+   "rooms": [
+    "r-master-bedroom",
+    "r-wardrobe-area"
+   ],
+   "width_cm": 161.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 158.0,
+   "in_zone": [
+    "fx-drawn-14-wardrobe"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-1",
+   "kind": "entry_door",
+   "rooms": [
+    "outside",
+    "r-entrance"
+   ],
+   "width_cm": 110.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 110.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-2",
+   "kind": "door",
+   "rooms": [
+    "r-entrance",
+    "r-bedroom"
+   ],
+   "width_cm": 93.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-3",
+   "kind": "door",
+   "rooms": [
+    "r-wardrobe-area",
+    "r-living-room"
+   ],
+   "width_cm": 93.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-6",
+   "kind": "door",
+   "rooms": [
+    "r-wardrobe-area",
+    "r-master-bathroom"
+   ],
+   "width_cm": 78.9,
+   "virtual": false,
+   "need_cm": 74.9,
+   "free_cm": 76.0,
+   "in_zone": [
+    "fx-drawn-12-shower"
+   ],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-7",
+   "kind": "door",
+   "rooms": [
+    "r-bathroom",
+    "r-entrance"
+   ],
+   "width_cm": 67.2,
+   "virtual": false,
+   "need_cm": 63.2,
+   "free_cm": 66.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-adj-5",
+   "kind": "opening",
+   "rooms": [
+    "r-living-room",
+    "r-sun-terrace"
+   ],
+   "width_cm": 200.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 200.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  }
+ ],
+ "warnings": [
+  "fx-drawn-1-washer: kind 'washer' has no furnishing rule - not built",
+  "fx-drawn-5-hob: kind 'hob' has no furnishing rule - not built",
+  "fx-drawn-6-wc: kept (plan truth) but 21.9 cm from camera cp-bathroom (bar 25)",
+  "fx-drawn-9-counter: run trimmed 95 cm (a wall, a door zone or an earlier piece)",
+  "fx-drawn-10-panel: kind 'panel' has no furnishing rule - not built"
+ ]
+}

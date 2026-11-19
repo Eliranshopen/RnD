@@ -1,0 +1,123 @@
+{
+ "$schema": "tour360/cameras.v1",
+ "apartment": "apt846-trace2",
+ "note": "auto-trace: one camera per room label; refined by auto_finalize",
+ "plan": {
+  "crop": "C:\\RnD\\.wt\\project-runner\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\out\\apt846-trace2\\trace\\plan-1\\crop.png",
+  "width": 3156,
+  "height": 4257,
+  "pxPerCm": 2.2677
+ },
+ "scenes": [
+  {
+   "id": "bedroom",
+   "at": [
+    1287,
+    999
+   ],
+   "lookAt": [
+    1387,
+    999
+   ]
+  },
+  {
+   "id": "bathroom",
+   "at": [
+    756,
+    1602
+   ],
+   "lookAt": [
+    856,
+    1602
+   ]
+  },
+  {
+   "id": "kitchen",
+   "at": [
+    558,
+    2205
+   ],
+   "lookAt": [
+    658,
+    2205
+   ]
+  },
+  {
+   "id": "dining-area",
+   "at": [
+    1953,
+    2910
+   ],
+   "lookAt": [
+    2053,
+    2910
+   ]
+  },
+  {
+   "id": "living-room",
+   "at": [
+    1572,
+    2598
+   ],
+   "lookAt": [
+    1672,
+    2598
+   ]
+  },
+  {
+   "id": "master-bedroom",
+   "at": [
+    1431,
+    3432
+   ],
+   "lookAt": [
+    1531,
+    3432
+   ]
+  },
+  {
+   "id": "wardrobe-area",
+   "at": [
+    822,
+    3306
+   ],
+   "lookAt": [
+    922,
+    3306
+   ]
+  },
+  {
+   "id": "master-bathroom",
+   "at": [
+    432,
+    3132
+   ],
+   "lookAt": [
+    532,
+    3132
+   ]
+  },
+  {
+   "id": "sun-balcony",
+   "at": [
+    2694,
+    1827
+   ],
+   "lookAt": [
+    2794,
+    1827
+   ]
+  },
+  {
+   "id": "hall-auto-91",
+   "at": [
+    1089,
+    2949
+   ],
+   "lookAt": [
+    1189,
+    2949
+   ]
+  }
+ ]
+}

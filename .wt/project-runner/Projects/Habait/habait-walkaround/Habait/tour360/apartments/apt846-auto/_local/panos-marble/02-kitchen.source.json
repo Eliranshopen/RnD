@@ -1,0 +1,6 @@
+{
+ "answer": "02-kitchen__gpt25__s32__1fd6490ac915.png",
+ "source": "02-kitchen__gpt25__s32__1fd6490ac915.png",
+ "mode": "floor-composite --whole (restored: the direct retries failed the gate)",
+ "composite": "02-kitchen__floorcomp-marble__1fd6490ac915.png"
+}

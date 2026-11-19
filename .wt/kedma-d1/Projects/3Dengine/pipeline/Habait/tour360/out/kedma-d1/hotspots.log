@@ -1,0 +1,27 @@
+ok   kitchen         → pantry          u 0.034 v 0.68 · 143 cm, 123 cm up · opening o-1
+ok   kitchen         → living          u 0.247 v 0.74 · 550 cm, 0 cm up · floor
+ok   kitchen         → dining          u 0.093 v 0.72 · 572 cm, 0 cm up · floor
+ok   pantry          → kitchen         u 0.54 v 0.84 · 282 cm, 0 cm up · floor
+ok   living          → kitchen         u 0.368 v 0.78 · 398 cm, 0 cm up · floor
+ok   living          → dining          u 0.509 v 0.68 · 399 cm, 58 cm up · opening o-13
+ok   living          → corridor        u 0.837 v 0.86 · 259 cm, 0 cm up · floor
+ok   living          → balcony         u 0.165 v 0.68 · 359 cm, 68 cm up · opening o-11
+ok   dining          → living          u 0.047 v 0.83 · 296 cm, 0 cm up · floor
+ok   dining          → family          u 0.62 v 0.81 · 329 cm, 0 cm up · floor
+ok   dining          → kitchen         u 0.328 v 0.82 · 311 cm, 0 cm up · floor
+ok   family          → dining          u 0.031 v 0.75 · 508 cm, 1 cm up · floor
+ok   corridor        → living          u 0.78 v 0.78 · 398 cm, 0 cm up · floor
+ok   corridor        → bath            u 0.041 v 0.68 · 362 cm, 68 cm up · opening o-9
+ok   corridor        → mamad           u 0.018 v 0.68 · 442 cm, 47 cm up · opening o-14
+ok   corridor        → master          u 0.515 v 0.68 · 296 cm, 84 cm up · opening o-15
+ok   corridor        → bed1            u 0.507 v 0.68 · 305 cm, 82 cm up · opening o-15
+ok   corridor        → bed2            u 0.078 v 0.68 · 187 cm, 112 cm up · opening o-17
+ok   master          → shower          u 0.369 v 0.67 · 269 cm, 93 cm up · opening o-8
+ok   master          → corridor        u 0.062 v 0.68 · 125 cm, 128 cm up · opening o-15
+ok   shower          → master          u 0.186 v 0.68 · 69 cm, 142 cm up · opening o-8
+ok   bed1            → corridor        u 0.037 v 0.68 · 131 cm, 127 cm up · opening o-16
+ok   bed2            → corridor        u 0.015 v 0.68 · 133 cm, 126 cm up · opening o-17
+ok   bath            → corridor        u 0.022 v 0.68 · 86 cm, 138 cm up · opening o-9
+ok   mamad           → corridor        u 0.868 v 0.68 · 193 cm, 111 cm up · opening o-14
+ok   balcony         → living          u 0.329 v 0.68 · 448 cm, 46 cm up · opening o-11
+hotspots: 26/26 on floor / an opening / glass → _local\fidelity\hotspots.json

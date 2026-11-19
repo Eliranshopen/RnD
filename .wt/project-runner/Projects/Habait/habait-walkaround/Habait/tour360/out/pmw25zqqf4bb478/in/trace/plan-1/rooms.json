@@ -1,0 +1,98 @@
+{
+ "axis_deg": 17.5,
+ "rects": {
+  "bathroom": {
+   "rect_px": [
+    363.0,
+    575.0,
+    517.0,
+    793.0
+   ],
+   "fit": 0.957,
+   "snapped": true,
+   "own_fixtures_in": "3/3",
+   "other_labels_covered": 0,
+   "local_axis_deg": 18.0
+  },
+  "walk-in-closet": {
+   "rect_px": [
+    551.0,
+    1111.0,
+    754.0,
+    1287.0
+   ],
+   "fit": 0.986,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "master-bathroom": {
+   "rect_px": [
+    366.0,
+    1136.0,
+    596.0,
+    1369.0
+   ],
+   "fit": 0.761,
+   "snapped": true,
+   "own_fixtures_in": "4/4",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "bedroom": {
+   "rect_px": [
+    411.0,
+    289.0,
+    786.0,
+    591.0
+   ],
+   "fit": 0.809,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 17.5
+  },
+  "master-bedroom": {
+   "rect_px": [
+    768.0,
+    883.0,
+    1145.0,
+    1265.0
+   ],
+   "fit": 0.876,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "kitchen": {
+   "rect_px": null,
+   "fit": null,
+   "snapped": false,
+   "from": "open-plan slab 1/2 (walls + glazing)"
+  },
+  "dining-area": {
+   "rect_px": null,
+   "fit": null,
+   "snapped": false,
+   "from": "open-plan slab 2/2 (walls + glazing)"
+  },
+  "living-room": {
+   "rect_px": [
+    478,
+    738,
+    989,
+    1199
+   ],
+   "fit": null,
+   "snapped": true,
+   "from": "reading box"
+  }
+ },
+ "notes": [
+  "front door: the arc at 38,660 cm, 61.7 cm wide",
+  "a 0.3 m² piece opens into no hall or living room: left untraced",
+  "a 0.5 m² piece opens into no hall or living room: left untraced"
+ ]
+}

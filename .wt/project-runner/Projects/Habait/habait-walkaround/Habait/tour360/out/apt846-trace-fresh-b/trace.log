@@ -1,0 +1,18 @@
+[auto-trace 4s] plan 1: 3156×4257 (page 1)
+[auto-trace 5s] auto_prep: sheet mode (saturated 0.00 %), unchanged
+[auto-trace 7s] auto_walls_pdf: 103 gap(s) <= 15 cm in window lines joined
+auto_walls_pdf: beam strip from 7 V25 edge / glass pair(s), 107705 px
+auto_walls_pdf --dims-only: 866 dimension segments, 36 door paths (walls stay raster)
+[auto-trace 7s] scale 2.2677 px/cm (printed dimension lines: 15 printed values measured tick to tick (140, 160, 185, 199, 210, 212, 270, 275, 342, 344, 348, 474, 530, 744, 1213)); 9 seeds, 9 fixtures read
+[auto-trace 25s] r1 auto_split: 10 seeds, 30 boundary lines, wall angle 36.0, 3 notes
+[auto-trace 25s] r1 note: envelope closing 120 cm (94 % of the walls' hull)
+[auto-trace 25s] r1 note: envelope: 141.6 m� closed footprint, 3 gap line(s) on its outline
+[auto-trace 25s] r1 note: hall-auto-91: 4.5 m� of open space carried no label; made a hall
+[auto-trace 165s] r1 PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace-fresh-b\trace\plan-1\plan.general.json: 10 rooms, 7 wall pieces, 4 openings, 10 panes, 10 cameras, 0 fixtures
+[auto-trace 184s] r1 auto_rooms: 1 built-in box(es) set into a wall: not floor
+auto_rooms: 12 free strip(s) inside the envelope but not enclosed by walls -> outside
+auto_rooms: 11 rooms (axis 17.5 deg), 8 printed rectangles, 5 snapped; 35 notes
+[auto-trace 187s] r1 auto_finalize: 11 rooms, 20 fixtures, wall angle 17.5 deg, scale 2.2677 px/cm (fit x1.0000), 8 notes, overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace-fresh-b\trace\plan-1\overlay.png
+[auto-trace 188s] r1 trace_check: PASS � 85/85 checks pass; corrections: force_rect []
+[auto-trace 188s] plan 1: PASS after 1 round(s) — 0 mechanical failure(s), judge 0 mismatch(es)
+[auto-trace 188s] done: PASS — plan-1 PASS; $0.0000 → C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\apt846-trace-fresh-b\trace\index.json

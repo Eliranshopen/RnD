@@ -1,0 +1,1149 @@
+{
+ "name": "apartment-3d",
+ "purpose": "apartment 3D view (dollhouse tab) upgrade; board development/tasks/apartment-3d, plan development/plans/2026-11-03-apartment-3d-ux.md",
+ "opened": "2026-11-03T14:51:05",
+ "note": "runnable copy: some files are context only; at close only files whose work-tree hash differs from sha256_at_open are copied back",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/360walkaround/pipeline/export_dollhouse.py",
+   "sha256_at_open": "f1fe281df1dd6b12756ace29a877422f7891997f90e74d05e52a05ed17aaf959",
+   "sha256_at_close": "3a154dbebf6f22b354da4b427ebc41ab1433233d65beea54985decdb2f3dc67a",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/apt846-concrete.glb",
+   "sha256_at_open": "450c9af0ca336039adc7d603a7f8ce60a65111c8fe2a7fcb2ef553f1d71e78da",
+   "sha256_at_close": "079717d3f6346ab02081db79c9aed75ec00d5d307a60231a715611798d3d7005",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/apt846-marble.glb",
+   "sha256_at_open": "d827075886a2874c0a1a3aa84aaac218a4b863abac5dac9100cd5cae6f2e0809",
+   "sha256_at_close": "9d3565447641e0f4e483b264d28b1ec8324dbc8e112f1397b95f177c597ae143",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/apt846-parquet.glb",
+   "sha256_at_open": "1259daf0b254debe31651c36291ef6433bae2cfea292fab9edc3588fdf161c5c",
+   "sha256_at_close": "2732cb2c7eac3ac6346aa67b989b56820be2fb855c965ec9786344426cca5809",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/apt846.glb",
+   "sha256_at_open": "1259daf0b254debe31651c36291ef6433bae2cfea292fab9edc3588fdf161c5c",
+   "sha256_at_close": "2732cb2c7eac3ac6346aa67b989b56820be2fb855c965ec9786344426cca5809",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/export.log",
+   "sha256_at_open": "a1d2e07842fb3048dc74287f649808c10ab343f97ff90dfbc18874ebb7bd2e0b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/loadtest-cpu4.json",
+   "sha256_at_open": "046a7ede786387792f4b62ee1a31ebbbae6dab9e3f8791d25b638a8b92cf5ec9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/loadtest.json",
+   "sha256_at_open": "8c6577b8c9a42757fb284847519f72ab9232bca4fa705df9aec43fbf95938ee8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/loadtest.mjs",
+   "sha256_at_open": "22051a658fda9d26d5d7537638ba2e23208e6ae9ef93d45e8e4247ccb67ea25e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/report.json",
+   "sha256_at_open": "ef7f7005b4552c09cb81b4d8718bae9125484cec9810e33c4bb391cbb73baba8",
+   "sha256_at_close": "518d30645274eadf52d2f9388c52a08ba7d2745b68a0d8b2cf2efd6d824f5603",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/top.png",
+   "sha256_at_open": "e417f74e59de8ff4049e4b55c72824ebe9c85fcb994f6d57c0d95a4fb38c7727",
+   "sha256_at_close": "ecc24e2e273e900c3bb0feb83df844b61a931ff17c96a36467d15f4360f6f0ec",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/README.md",
+   "sha256_at_open": "75389f70f2bedbde112ef48eb225d190fd58606727606c9387137d0e85b47fb1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/846.zip",
+   "sha256_at_open": "c0a7dcf7f1fc7c93d6c353dab810aac07b729356f873247a3e8d3b8ab8adfc9e",
+   "sha256_at_close": "09a18f44bdb2a68b9c4259ce5d2c6f21273d42064c6f72dc05511f163fc40ce2",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/apartment.json",
+   "sha256_at_open": "39334a997d86e6020a86f5d86b1a6e3cf7ee52b12eed497b1c0da7dcb9f8a631",
+   "sha256_at_close": "e723e6597e7ebaecc5e4962575eb24778b8561e2cad849c9d03187655d6d4df5",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/css/apartment.css",
+   "sha256_at_open": "e8ee9fbae39f8184d15668e5a7ba921a9314a02c0e478a6e2997893297baee80",
+   "sha256_at_close": "f41cf612e4a2b5dfecb66c1325135738950856c0beb803a5acf354954afda862",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/css/style.css",
+   "sha256_at_open": "418012a9aaaaab8b5e6d378fb2157f2c4700ad35f99f0589044316ad2a19bc69"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/analytics.js",
+   "sha256_at_open": "f9fa5ca4f59390db03459a1dac5927e4d814f333f10193e67c94df9048ef6309"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/apartment.js",
+   "sha256_at_open": "7c543f501c608fd8263202c95451ba35aede5c270349c0cc454ba4bd3980ab1c",
+   "sha256_at_close": "153653ced64c35b052bc9c1ed8a913b38b15e88fdeb183ea3bd5dab5ce3ce453",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/config.js",
+   "sha256_at_open": "1d8b9e9d50613a03eb4f6679dd633f10a1bc6dffed6da83eba33e988bde67336"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/i18n.js",
+   "sha256_at_open": "53a345b67458ca49d50ee9e27fa618d3c3349f7b0cc59a64deccba89d77cd889"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/lead.js",
+   "sha256_at_open": "6a61dc63ae75377f62c87ea4a7a5eb2746d41911323170c4021885196771fe09"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/minimap.js",
+   "sha256_at_open": "7f508f613804e7dbad4b86e2b8d9311b36ee4463a555c1059f912ccf6ddacc12"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/vendor/jszip-3.10.2.min.js",
+   "sha256_at_open": "7f839b2d4688b845c105ebf5d2f9803075f91ea0fe72bdaac176c3a04dd3d2c1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/assets/js/zip.js",
+   "sha256_at_open": "e6c37448ec9c8bbd51cd9edafb9d949ed9cf94e1d9d2453e245bb2ba6d6eab76"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/index.html",
+   "sha256_at_open": "fe5c686172f19953ac19b742278f0d67adbf1780f2b5d50b8b93f144a11ab57b",
+   "sha256_at_close": "b63d2f24a422b96b987967464bf43c74b511308aa2a1aaeb1bc8a80191519a61",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/apt846.glb",
+   "sha256_at_open": "1259daf0b254debe31651c36291ef6433bae2cfea292fab9edc3588fdf161c5c",
+   "sha256_at_close": "2732cb2c7eac3ac6346aa67b989b56820be2fb855c965ec9786344426cca5809",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/dollhouse.html",
+   "sha256_at_open": "16bc52643845e180269fa5c3ef95afa637af8e591d7331a7399d16c301459bd5",
+   "sha256_at_close": "aa4da24e7fc91a014b2aba1674cf9ea384a0e0e798a5a86e01755a0baee075e7",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/logo.svg",
+   "sha256_at_open": "12a207ada38fd8ecbbd0eb124192516b6fc9191b67a58c8779e1800f82add7d9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/01-entrance.webp",
+   "sha256_at_open": "14bd4820d58ccfd7ac812606ce0476450e032b4e9c67ee3c15d9637c00f768c0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/02-kitchen.webp",
+   "sha256_at_open": "dc3d04ab265bca9bfd59ef9168c05796a5a68307d43ced6c90dceab48ca61630"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/03-dining.webp",
+   "sha256_at_open": "5ca0f6a18ab48c88c1f3524b95528e68654b060d2c8403ad6d34d5ee6f472eb1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/04-living.webp",
+   "sha256_at_open": "4da92d0d1fba936c2fd965e9369320ff329a7a196bc41c5d8c3e8c982fa5f47e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/05-terrace-living.webp",
+   "sha256_at_open": "c468b6453e97342697d3d932f6f19aa64d0704d366fa4e59e1475fd40219dd71"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/06-terrace-bedroom.webp",
+   "sha256_at_open": "5f276e59d5889a7ff387ef78dea6a8017d9038ca0519e199e7267d185acfadc5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/07-bedroom-main.webp",
+   "sha256_at_open": "087a0a34426585b7355887070128115160bd9f843ad0b6a7610bf870f9f8a064"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/08-wardrobe.webp",
+   "sha256_at_open": "809de4509077b562d8e446e793662501e21a1ae0e0e23ffe3b2d1dc4040e69b6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/09-bath-main.webp",
+   "sha256_at_open": "34bd36f19cc5ebe83fa0e5c1237869cf326feef92564cdd05f052718e64e4c61"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/10-bedroom-2.webp",
+   "sha256_at_open": "e781292c6baa74749c58a64451459bcd322f322ea92e21309782198f51f22ecf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/panos/11-bath-guest.webp",
+   "sha256_at_open": "a36f2754a8428eb1631b18aa0d5ca63a12362ac675aa3eda228d4aec41e23c32"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/plan.png",
+   "sha256_at_open": "9c3c6ebacc94e4f5bacb7e86ec8bb8042e25415ece855dbeabd6dd296130ad0c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/01-entrance.jpg",
+   "sha256_at_open": "9efb9866d0aaa30a5059f381808431a2498c1e71ae87cd6fcb06b2b9314af0dc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/02-kitchen.jpg",
+   "sha256_at_open": "9f35c908f2310ac1436c18ababba2cd77ff57d52c7b2c2623b293e50662e18a0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/03-dining.jpg",
+   "sha256_at_open": "a532a5c715cbaab3a77aed09983cbf95b5d20214661aa8f34f342ac435e6e903"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/04-living.jpg",
+   "sha256_at_open": "5df166269fd6795add606b0c369dd470f64acd770007e2317b3dca729b68c405"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/05-terrace-living.jpg",
+   "sha256_at_open": "5be80c828bb168485b4500ffa6d6824ca6771683ce19e921384d43eda2c68885"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/06-terrace-bedroom.jpg",
+   "sha256_at_open": "0d91ea301b39c4f62c75f3a3911401d445a5765438f404b99aedda25efc2086b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/07-bedroom-main.jpg",
+   "sha256_at_open": "06634d94f4f091ca952c632842e79b7efc06b6faff5f7e0625064043f8c14fd8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/08-wardrobe.jpg",
+   "sha256_at_open": "666459e89248a2b678fddf5b06c4d8ab5117fa01eef1633b5b818b57ca72c217"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/09-bath-main.jpg",
+   "sha256_at_open": "842c55bc5bdfcece98f48ba0efc829547ab9f9224a0c0a0d35add571b6f888e6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/10-bedroom-2.jpg",
+   "sha256_at_open": "34d6f9d6c81cddb7f59f02b091315e314d1581cbb3a7231ae71104113a65b013"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/stills/11-bath-guest.jpg",
+   "sha256_at_open": "20cf809a5d31f9fd65ab2b96da18ab3898e7e936270d37dcc36e0bb1f9167023"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/top.webp",
+   "sha256_at_open": "ab1121306bf0c4ee0644789bf339d4e293ff62ec45f2f97966272d70637e9f13",
+   "sha256_at_close": "a5d41a782ca91db5b606fbbce6f918da3a469b130cc0c7e7af7ef8cb43f24feb",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apartment.html",
+   "sha256_at_open": "bbd91fadce16fbb25cc176749ac62f7878e26580b08b3a745677dd99f7b3ea41",
+   "sha256_at_close": "e2588079715bd9e95582b42f0bf7669bc9e0d1124338d5a479fd39f1ed94f2b3",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apps-script/README-he.md",
+   "sha256_at_open": "9791262228649458c1b8906186d96099d59c2dc0dba9fd79f5660b1b5c2cd48e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/apps-script/lead-to-sheet.gs",
+   "sha256_at_open": "3a604c358b5a5195795e0e267cf01ade1d6666b71820360e2f0e8a15bf3970e4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/audio/README.md",
+   "sha256_at_open": "4b4681f5256d88afbf4e505ef7600a8d0b07ff21bcf628a5daaec7f2aaedca3f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/audio/ambience.m4a",
+   "sha256_at_open": "63762b3684d7da934a8479af8bb8803388ee0c738006c7caed3c4a877edbe2a1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/build_units.mjs",
+   "sha256_at_open": "018f763b41c88b8e441798cf653836f9b6f9f1de9a821c1a5b7417b937c40175"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/flow.schema.json",
+   "sha256_at_open": "15153d1b08033dfa35544c948fe7cc4be8efc73ed894d0a7e1457b1b6fbbb7b9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/project.schema.json",
+   "sha256_at_open": "44ca0eff42403c10bbce8306d07725ba2e6512b63aa1f119bddf56edee788cd6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/units.schema.json",
+   "sha256_at_open": "cf497144a811b3397438e40f826836fefb0e7f63a03eac6e7a0981bf136f508e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/contracts/validate.mjs",
+   "sha256_at_open": "faad56b1fbbe2defa5a5bea4f6590c419e6505f243ad5eaf4d87a273ddb730bc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/apartment.css",
+   "sha256_at_open": "e8ee9fbae39f8184d15668e5a7ba921a9314a02c0e478a6e2997893297baee80",
+   "sha256_at_close": "f41cf612e4a2b5dfecb66c1325135738950856c0beb803a5acf354954afda862",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/cine.css",
+   "sha256_at_open": "0c3d1733c2095085ef71133a78ad2696611a18ae6c1a35ea24e7fd90a10a1f5a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/transition.css",
+   "sha256_at_open": "731de0e5bcbea27af906a7bd6f8a692128bf0b358a1db4ac97ecd2c42d758a0c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/dashboard.html",
+   "sha256_at_open": "24dfffa08a57fa19beb4b510b715687872b8674b513d1fc0b44e1f2a3ef55f75"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/demo-transition.html",
+   "sha256_at_open": "62f0d187bceb9cc34dcaa3ba55af9775cf803403972430bb44f6e9c267805250"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/intro.html",
+   "sha256_at_open": "951f84b4a112c72efe1e0d3589aecf025dd55b6da2e573c8ad29c52852be3d7a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/analytics.js",
+   "sha256_at_open": "f9fa5ca4f59390db03459a1dac5927e4d814f333f10193e67c94df9048ef6309"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/apartment-3d.js",
+   "sha256_at_open": "ae42b5418023aef5a41cf2e7eb8fb673cfbf1dd2aa177f41dbf82357f1158d62",
+   "sha256_at_close": "e74df68ee05d908bc3b32a7df8ad9a045c499d5c8e346fc8617ee5b917ef1e8a",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/apartment.js",
+   "sha256_at_open": "7c543f501c608fd8263202c95451ba35aede5c270349c0cc454ba4bd3980ab1c",
+   "sha256_at_close": "153653ced64c35b052bc9c1ed8a913b38b15e88fdeb183ea3bd5dab5ce3ce453",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/cine.js",
+   "sha256_at_open": "7d7b854ce31c204cae80aba0413eda2f04b01505cad2d61cadac978ad1543c1d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/config.js",
+   "sha256_at_open": "1d8b9e9d50613a03eb4f6679dd633f10a1bc6dffed6da83eba33e988bde67336"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/dashboard.js",
+   "sha256_at_open": "321aa3ad1019f3a8c95a65befb5c914eb1e9e596c69542a61f0a3f800a1b836d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/depthmesh.js",
+   "sha256_at_open": "8105d4989dda0f6425e7957a5936e1ff240054a029e4f1fa51055c69c5596e5d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/flow.js",
+   "sha256_at_open": "eb68a674cd7d2ca5e218b71283868d64a42521895a4bad1151290586506d1c1b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/lead.js",
+   "sha256_at_open": "6a61dc63ae75377f62c87ea4a7a5eb2746d41911323170c4021885196771fe09"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/minimap.js",
+   "sha256_at_open": "7f508f613804e7dbad4b86e2b8d9311b36ee4463a555c1059f912ccf6ddacc12"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/posthog-adapter.js",
+   "sha256_at_open": "3eb8d69a7c50e4b5d43d2699362fc83f3f60dd54362a9de2c1f60fe5f71c528b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/transition360.js",
+   "sha256_at_open": "e0c6ad8285920195b40564b3bfb805fb99ad7f139feb40912cd62b121624fcc4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/jszip-3.10.2.min.js",
+   "sha256_at_open": "7f839b2d4688b845c105ebf5d2f9803075f91ea0fe72bdaac176c3a04dd3d2c1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/posthog-js-1.444.2.LICENSE.txt",
+   "sha256_at_open": "d3fb92ac01f0bef4078f89aac9f20f76da3383ad45becf6204abdf5495f43f8f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/vendor/posthog-js-1.444.2.module.slim.no-external.js",
+   "sha256_at_open": "f5f293375ced7f5be1cf1cba68bf5d8267d3e38b61a42b2bcba58bf4ad485eb7"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/viewer360.js",
+   "sha256_at_open": "2b25eeb18f33bc0a04c54bb0d153e33e8050fcea488ecfc3950e78182447822f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/zip.js",
+   "sha256_at_open": "e6c37448ec9c8bbd51cd9edafb9d949ed9cf94e1d9d2453e245bb2ba6d6eab76"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/package-lock.json",
+   "sha256_at_open": "7a0ee65cf5d7e2056b85cf08cc86304ce562eac31f25697c8e443f450ab7a37b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/projects.json",
+   "sha256_at_open": "ff5dfd9b99ee620b2e984a9bc8c081c37eefdd2f5ad968f6dc5ac3b891333472"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/report_weekly.mjs",
+   "sha256_at_open": "ad609305eee9641fd7bff805368f91ec0f03397b902426538e4adec127bc97c9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_segments.mjs",
+   "sha256_at_open": "e96058e6bdef5f9d0a84b2679718ac765456cc5417a264b58fd4e4b182b4dd98"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_zip.mjs",
+   "sha256_at_open": "3afcfa68110af8d52c09e409aeca7600d4d28cdac817d37b7b7d2d5db311231a",
+   "sha256_at_close": "083933613172188870b51c791d98bf847e73f9e2c7ed6cc18f6d97ad11225861",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/events-sink.mjs",
+   "sha256_at_open": "cf83adb3da8082ae6e0e3090b0bc7674ef10421288a4c959d5e4dd530508a950"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/01-entrance.webp",
+   "sha256_at_open": "bb5f44c60ab6827101e2c142f2286e77091d76e6a1549acd7a7b8c711b2c6fda"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/02-kitchen.webp",
+   "sha256_at_open": "5059d9a0f527c42a0f2f880785e33947673dae1b2913c3c72566f6188e147c2d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/03-dining.webp",
+   "sha256_at_open": "5159999ddeedd13f253fdf8319eee73ff0dfe55ee2baa8a18729b6c71ca5284e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/04-living.webp",
+   "sha256_at_open": "f4399b115157ab147ef0a0d5809039423d9ff4144465c2fbcc1dd43f24947450"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/05-terrace-living.webp",
+   "sha256_at_open": "e011cf229cde437123e9d8d8d28d11f448362c9a13c699653ec89273fd8a8f69"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/06-terrace-bedroom.webp",
+   "sha256_at_open": "31099675bdf1c4d3366e5a7fa6792a6dc370c6945fc3e7c4a95f8096f3a40729"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/07-bedroom-main.webp",
+   "sha256_at_open": "b0dd8e6f1c8579661878644a84a4cb7205ec13bbaba8745da3c175234ea1a6bb"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/08-wardrobe.webp",
+   "sha256_at_open": "ab81f57dedea0ac9a947e95f37860251503e874d05658cbb7b4a56b1934aa2d8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/09-bath-main.webp",
+   "sha256_at_open": "5b4ba46de3532e1d67f93b53da18fbe6aaa444961ac2f0a837a73455e569fe38"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/10-bedroom-2.webp",
+   "sha256_at_open": "33d6fa1bad2ea62892e1adaa3b5b7f08d66067dcae04b96cb0bd4c777bf29612"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/_local/full/11-bath-guest.webp",
+   "sha256_at_open": "57561c386df2b4dd50ed12c83327ac5f8221d66aa22c744690c42140942956e3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/apartment.json",
+   "sha256_at_open": "75459fa3affe9c83661273a29cac41f760567172c8ce731f76d32285835f48ca"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/cameras.json",
+   "sha256_at_open": "db956c254d5e733728f2d5803834c9489e12ba07d30ac6023e1fd300b1d30078"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/01-entrance.png",
+   "sha256_at_open": "6cab40471107587a95256a1123020aaf2f6f0b2302545c22230f115e2bc9b141"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/02-kitchen.png",
+   "sha256_at_open": "27da1c9b1a31fcf3e7f8433f076b13e6464ee900c3fdaf85366197da2cb777ef"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/03-dining.png",
+   "sha256_at_open": "d53d6e92c05af20c2184f3c38d9f95d959b1e47255d79e279d810d44c0a30738"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/04-living.png",
+   "sha256_at_open": "d66fd54d3573170df0ecc47a1f716e6c22df9f13f190c3bac902b58ca26712ce"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/05-terrace-living.png",
+   "sha256_at_open": "7df54e816f085c8d4d7b7b8d15b66bf5162a1a2f7175bd42ddeda4b4ac7d0284"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/06-terrace-bedroom.png",
+   "sha256_at_open": "3ff2de4859368d8f08ff1f16339b6c68098f3ec547f783a7b39da743c40540c9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/07-bedroom-main.png",
+   "sha256_at_open": "77fba6f0b861f9e90c476bd2901deb3e822e500fcc0ef0e8a462c5ebb2adc899"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/09-bath-main.png",
+   "sha256_at_open": "bd509e38671a18c38b475cc2c7c3a54745d4b15248d73c97d67be7bedb619e44"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/10-bedroom-2.png",
+   "sha256_at_open": "d0b3b5cd2544dfe3f1e6cbede243761dc3954791f227817d8d3492d395b98ec1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/11-bath-guest.png",
+   "sha256_at_open": "8a57a35de9ebfa1f4c8f864ec182eae277417e0edcfc5db448a9e7f1b3826173"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/depth/depth.json",
+   "sha256_at_open": "55bd46bce4b57ee2f6a022f21b3221eb98f03f42e5a714ee4e64653db56b9dfc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/dollhouse/apt846-concrete.glb",
+   "sha256_at_open": "450c9af0ca336039adc7d603a7f8ce60a65111c8fe2a7fcb2ef553f1d71e78da"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/dollhouse/apt846-marble.glb",
+   "sha256_at_open": "d827075886a2874c0a1a3aa84aaac218a4b863abac5dac9100cd5cae6f2e0809"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/dollhouse/apt846-parquet.glb",
+   "sha256_at_open": "1259daf0b254debe31651c36291ef6433bae2cfea292fab9edc3588fdf161c5c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/dollhouse/export-report.json",
+   "sha256_at_open": "a5a97bbe3dccf9b172cea5ca37a7cb9b52b8400e86f31876ff5d6d5e4c7bfaaa"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/dollhouse/report.json",
+   "sha256_at_open": "dd216be434381c5848b70c9f03502677b35b8932336246f055a39f6ea280ee35"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/dollhouse/top.png",
+   "sha256_at_open": "9e8ce0231ab4eb133d721d323756b24a26e9c6cafa916db3361504d6fd465e69"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/exterior.json",
+   "sha256_at_open": "7048313905b191a906634023618950529dc8239d960c072cd6b1778a8c07ee13"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/material-board.json",
+   "sha256_at_open": "29862699e49118d35211ad9982e4b3d2691bc268786cfedcf0a87ab644506118"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/01-entrance.webp",
+   "sha256_at_open": "14bd4820d58ccfd7ac812606ce0476450e032b4e9c67ee3c15d9637c00f768c0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/02-kitchen.webp",
+   "sha256_at_open": "dc3d04ab265bca9bfd59ef9168c05796a5a68307d43ced6c90dceab48ca61630"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/03-dining.webp",
+   "sha256_at_open": "5ca0f6a18ab48c88c1f3524b95528e68654b060d2c8403ad6d34d5ee6f472eb1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/04-living.webp",
+   "sha256_at_open": "4da92d0d1fba936c2fd965e9369320ff329a7a196bc41c5d8c3e8c982fa5f47e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/05-terrace-living.webp",
+   "sha256_at_open": "c468b6453e97342697d3d932f6f19aa64d0704d366fa4e59e1475fd40219dd71"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/06-terrace-bedroom.webp",
+   "sha256_at_open": "5f276e59d5889a7ff387ef78dea6a8017d9038ca0519e199e7267d185acfadc5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/07-bedroom-main.webp",
+   "sha256_at_open": "087a0a34426585b7355887070128115160bd9f843ad0b6a7610bf870f9f8a064"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/08-wardrobe.webp",
+   "sha256_at_open": "809de4509077b562d8e446e793662501e21a1ae0e0e23ffe3b2d1dc4040e69b6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/09-bath-main.webp",
+   "sha256_at_open": "34bd36f19cc5ebe83fa0e5c1237869cf326feef92564cdd05f052718e64e4c61"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/10-bedroom-2.webp",
+   "sha256_at_open": "e781292c6baa74749c58a64451459bcd322f322ea92e21309782198f51f22ecf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/11-bath-guest.webp",
+   "sha256_at_open": "a36f2754a8428eb1631b18aa0d5ca63a12362ac675aa3eda228d4aec41e23c32"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-a-aerial.webp",
+   "sha256_at_open": "ee7fb29e7dc1470628063585988faf76111ca3519421c2fb74dadef95e3b9e99"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-b-tower.webp",
+   "sha256_at_open": "92936deaf4c46bea519d78b271b7ed9cb18e2d9d49907a75fcc3ad77b0db9863"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-c-facade.webp",
+   "sha256_at_open": "1ee3b1a60ada0870af42d2c7375fe5711bb5fb1d23f5ea78b0754898cb8ff718"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-d-terrace.webp",
+   "sha256_at_open": "0b7c0c79e30c5f9762fbcd7c3b068b393f65193660e13050dad2d93b4227bcd7"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-e-approach45.webp",
+   "sha256_at_open": "d0d0b44ec2a8f07152c015f1421722f0752310aefb63db2e29f65364a5201c9a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-f-approach25.webp",
+   "sha256_at_open": "035d473cfd377757c9e8ad639ad2ec1b3aabc3d75d0ae64cf4af40180fcdf30f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-o1-orbit.webp",
+   "sha256_at_open": "e495d73e860dcc4afc44c1aa73f12cbe7f8eb56b360e59cf9c0d0953ea508cbc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-o2-orbit.webp",
+   "sha256_at_open": "a760316a5853a04a8d30d1eb396b0ea6758f3740f40800c62e8e5ccd8d55ee7d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-o3-orbit.webp",
+   "sha256_at_open": "d4f83fcf1ab524e3e8e427bbfa929c7987b780bed9d237d2dfcfbdc4874b0540"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-o4-orbit.webp",
+   "sha256_at_open": "e2f5b2f84ec8c70c0c95c2ba7c44f7914f8abe4f007d8d6dc0fe65565048d8cb"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/balanced/node-o5-orbit.webp",
+   "sha256_at_open": "06e4378604944c9421234140bd71f46fd5c68fb11bca0605fb01aaa0f5c1984e"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/01-entrance.webp",
+   "sha256_at_open": "1b72d4f08309935fed8df936666bd232bf0a0160aaf7958de264c1d76f91f37f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/02-kitchen.webp",
+   "sha256_at_open": "3ae12e96c24d8ab0605c7784c5b5d1aed0c602eb3094bd4140071b64ad15f4cd"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/03-dining.webp",
+   "sha256_at_open": "d03ada3b48b95691583a729cffb4f323036992488f0e2ec337cfdfeb9c1e961c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/04-living.webp",
+   "sha256_at_open": "48d93e1737dcab5aebed7ce66d2fa300856ea8d1e386380589fb3cf89b4a44b6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/05-terrace-living.webp",
+   "sha256_at_open": "bd27e57ccc51263c719dbaa9f3c2cb497c7458ebe055c562bde5a0fa46aab177"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/06-terrace-bedroom.webp",
+   "sha256_at_open": "b0e6058f8d41406585fb3e9bfe1a817796efed9b7fab150998ae4226c15950e8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/07-bedroom-main.webp",
+   "sha256_at_open": "d5400611d90df415f89368f45b4a70646ef54beb1894e201ed2831befb0d2a87"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/08-wardrobe.webp",
+   "sha256_at_open": "45c0916ffd9bfd3e66a735042a7e21388c416701d47d71892361696540078083"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/09-bath-main.webp",
+   "sha256_at_open": "58c2d48e66306c250e32bfd12ca7a69191ac527ac03eba8e782d896054614743"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/10-bedroom-2.webp",
+   "sha256_at_open": "df6c5e3a62b667d581be765fd0d7a05abdc6815e1de43ac78c574bd894f684a6"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/11-bath-guest.webp",
+   "sha256_at_open": "e2158d18fe65ea7c6dfc6dc52038b95ff1a0bb64f1c5e7407ffbcf5a14c08d3f"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-a-aerial.webp",
+   "sha256_at_open": "5699bd82e005dfc7aa0f55609cccb478c829976955cb84258964e2fd2b6b4afc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-b-tower.webp",
+   "sha256_at_open": "5c0ed5ffdd2298242dc6c1e8f6a34e90410371eafaa092dc5917151d34c93ea8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-c-facade.webp",
+   "sha256_at_open": "3e1a4fb5a60ed12df71f7d14e1d891029321d0fc6e8bae3eaba7e540f5d9ba07"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-d-terrace.webp",
+   "sha256_at_open": "834d99bb1aee2379902dabbca3230b10f0804c2b17d1f42f6c6009ad30448848"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-e-approach45.webp",
+   "sha256_at_open": "679af7aadbac6fa25fb28e6bc4862b5b5751bf9ae3c0de0ad1a7b8ee8135fc29"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-f-approach25.webp",
+   "sha256_at_open": "31422e67053cef2c3a57e4188eb6a024e4724dbb46892e99e4ba62ebfaea4233"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-o1-orbit.webp",
+   "sha256_at_open": "bea19e3fa631015b6d37f7375f7e7885b4c9af1affceeeb880dd6051b790726c"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-o2-orbit.webp",
+   "sha256_at_open": "8ff41da02b2b8ef00f6e74813a45b25bb7b85b2f8f2626e1dddde1dced6d2afc"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-o3-orbit.webp",
+   "sha256_at_open": "0262c33b51d1e95fdf47ec9f50a5cddeca1cb9b856f7ee201770a7481efa0f37"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-o4-orbit.webp",
+   "sha256_at_open": "47a5ab1d29f1e1d1e58a3d70d0c097fac321a51a4b95bdb7d377719a86d75377"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/original/node-o5-orbit.webp",
+   "sha256_at_open": "4fda9b6ad4cb14b4c44c2a8b4525fed4e518f686e489ad2066fa4ecffb852371"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/01-entrance.webp",
+   "sha256_at_open": "eefc1cdaa0ac332ed67d4da7cd429acbf9e5f3e1c16084a80b95e608d93a6940"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/02-kitchen.webp",
+   "sha256_at_open": "1e7d7089e1cdffb0586bb160c03528321cc06ca8393b527ed78b5e9e36a0e6cf"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/03-dining.webp",
+   "sha256_at_open": "91024e6d5bede2a92c52ef4c977f7d63fb7ee23bc401872ff3cc0d0a9da76411"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/04-living.webp",
+   "sha256_at_open": "7e280c51389cf7517e5ea2e71432d7ded2dd23529a510bc3b96643275acf033d"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/05-terrace-living.webp",
+   "sha256_at_open": "42d01de24ad8eb46488d0301f227c3c28d23a23e05618777bcbbf36189d251c1"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/06-terrace-bedroom.webp",
+   "sha256_at_open": "f2b428a1f38437c98f2fe0f64daae0f4caf3c9df079dc09dc97885f2446750b0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/07-bedroom-main.webp",
+   "sha256_at_open": "89423048de25753f6431d8382927a8c42d11494d64fd1c8a177d2ff48d1126e0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/08-wardrobe.webp",
+   "sha256_at_open": "a676a75187e982c08065fcf27057c6001e7fc9428298d6df1825f05f65481c00"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/09-bath-main.webp",
+   "sha256_at_open": "8be377c6b64392b8a6f9d95ee821adaeb64b273f57b7148c6026b45d04462980"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/10-bedroom-2.webp",
+   "sha256_at_open": "c8d93d0e9407f574c0e8240fcd99111722c514c05c975997448fe2c995797945"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/11-bath-guest.webp",
+   "sha256_at_open": "c3ba14008d59be15e68796f4d68c2df55f5e8cf98d7b07823914bff2db9613d0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-a-aerial.webp",
+   "sha256_at_open": "663ed3d8ecd13b34281a11312c1cd3d62caf1dc6dcc7921286ba7dbf6d00a914"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-b-tower.webp",
+   "sha256_at_open": "ff2c10cb7d4f6bbb64d7484a3c36b6d0948aa676b56be5070233b0c384affef3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-c-facade.webp",
+   "sha256_at_open": "9c733b7bad4b0b1d1676062b151bb95700c55905098af941ffdee18223541b3b"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-d-terrace.webp",
+   "sha256_at_open": "aef9d18d802dd6a9690011849938430dc0762300d5ffda89df1175ce35dfec7a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-e-approach45.webp",
+   "sha256_at_open": "13d25cdb5d31b4ae97f1d42ab8c5b87d2e429cdd6e6f6b0d6b48a71ee9b26557"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-f-approach25.webp",
+   "sha256_at_open": "2e556c7b6e235bd38aeb611021d95db31c46904a9e05f549def1f16ac7a5bc22"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-o1-orbit.webp",
+   "sha256_at_open": "c2b9d0de818ae90372605cd75aa812b1802cdd6015a1591c292fcadf1c56d2c4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-o2-orbit.webp",
+   "sha256_at_open": "141b230d32af44212451e65af8df57ce291f38f3f8e4a91c92ad545355c9fee5"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-o3-orbit.webp",
+   "sha256_at_open": "3d13efb82ef77f2f2940672f44ff37af74d2356e5f32548207f87136e5dd42e9"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-o4-orbit.webp",
+   "sha256_at_open": "2ef3329b83c7dd6be50a32139dedca5fa3b0e3f6eb5247242393852f2e843816"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/panos/thumb/node-o5-orbit.webp",
+   "sha256_at_open": "aa256eca339797f395bd51150113f84ce8d25d7c2596545ad694ac2eb71d3f21"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/plan.general.json",
+   "sha256_at_open": "6789f516997ac5ffbefec8cd984edf4375e28e96257df9bd3622f690362a4bf0"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/plan/floorplan.webp",
+   "sha256_at_open": "5456e53805f6fd439c595cef003ecdfccb5993e46c0e4841b6b7bbb9c2566301"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/polish-prompts.json",
+   "sha256_at_open": "e2d6c85f59b9ef8246b4894c1c2fb38dadba5d9069b6c01a936312f8d9bbe3c4"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/prompts.json",
+   "sha256_at_open": "1a68f5432867859e2d9eb667b980f9b58a250e31b8e492529c5b2a0b7e4346a3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/prompts.src.mjs",
+   "sha256_at_open": "5456e94d531831ff09459e7914b401b02e77bd4623a59df3663db62e5fac9d35"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/scenes.json",
+   "sha256_at_open": "99a1bbbf68ab915364c344c6d28161c4f209ab6b6afcde99364e9777f7ae39f7"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/skin-prompts.json",
+   "sha256_at_open": "d878b2f11748ce7fca1878c4fd996f1f57a349a74a4551f2de5e723f4f754a98"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/trace-config.json",
+   "sha256_at_open": "57f52fd161e15e84f2396e1c8b5a6bf899776bcf33fc871f3b346c31cd7f139a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/apartments/apt846/videos.json",
+   "sha256_at_open": "594c3cc6f4d21c0c9b27557b8a6fd2f669e2658111bafc56076ec850f556a234"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/360walkaround/pipeline/floor_textures.py",
+   "sha256_at_open": null,
+   "sha256_at_close": "d4d1814d5b65779d1f6897bb45bba375f32ffe58086d33c8eb3cd03dbe258cea",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/floor-concrete.webp",
+   "sha256_at_open": null,
+   "sha256_at_close": "97e6dd03a5310c68ab06e91375334faae4a80c42e30e344a542e9c2eb8e0c87f",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/floor-marble.webp",
+   "sha256_at_open": null,
+   "sha256_at_close": "cbeb010aa8a8fa7e296832674957c1c40222ce97eb402451e3b2a1a10bed7b7a",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/floor-parquet.webp",
+   "sha256_at_open": null,
+   "sha256_at_close": "6adcc4f182e46ffb843b2fc515c1c6673b2c817f4cb2d92f3b4914bec8a5ca4d",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/floor-textures.json",
+   "sha256_at_open": null,
+   "sha256_at_close": "1ca578d845e8f18e0104195eabba26c149dfba5237dbba8d13eeb7f957e54b67",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/light-1024.webp",
+   "sha256_at_open": null,
+   "sha256_at_close": "7258605d318b38a38afdba0bf169601eb6eec7ae6341dc05ff6e0f39736cbcaf",
+   "closed": "2026-11-03T21:45:25"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/light.webp",
+   "sha256_at_open": null,
+   "sha256_at_close": "6c22a18e730c5c97b44bb9b10484c2b2ae16b860196cfa6ae41404cc16729317",
+   "closed": "2026-11-03T21:45:25"
+  }
+ ],
+ "released": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/dashboard.css",
+   "sha256_at_open": "f992801e82421fa6e898c12de0f84ecfd4acd9469a16ce783c6373e6854a52d7",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/flow-real.css",
+   "sha256_at_open": "5d2febae998e6dc83352916988bab33c689e39e80213f25a6f64db941a270359",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/landing.css",
+   "sha256_at_open": "7cd76e93848e006ad72887ef5046fe9baf305355bfa30089188a5a095ed25762",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/css/style.css",
+   "sha256_at_open": "418012a9aaaaab8b5e6d378fb2157f2c4700ad35f99f0589044316ad2a19bc69",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/approach.mp4",
+   "sha256_at_open": "00178c902428b80c5672581a6aa830349b5e65dfa8affbfc68a9acf0ba40163b",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/cover-aerial-skinned.jpg",
+   "sha256_at_open": "6da6efe626284761f7868a92030c538763425d8742a2950a7f1db90e47143d7f",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/descend-846.mp4",
+   "sha256_at_open": "c7f6d3a11760da5dcefd1bc394e2e93b756b0fc0e4c3043cf3b5393b1ca6211c",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/flow.cine.json",
+   "sha256_at_open": "4880018567bf8002b2be1a5ad1f967a8d1f04dd6638171655ce310671b25ddc1",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/flow.json",
+   "sha256_at_open": "c1e50495aed4682b4e40b163e4869c971098a982c0c10267f8962697a5b22322",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/flow.real.json",
+   "sha256_at_open": "b826dde8e86c7562605547e97511b2d65b7d58042d1a956f1a55a884d080b0cb",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/intro-approach-interim.mp4",
+   "sha256_at_open": "7283d73d331e849bdce656773d61854a784b3ebb7de8009a11d9e49bcedb8bc3",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/logo.svg",
+   "sha256_at_open": "12a207ada38fd8ecbbd0eb124192516b6fc9191b67a58c8779e1800f82add7d9",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-a-aerial.png",
+   "sha256_at_open": "f9a671b299904e8ed661fec60a198da318df65b6e01f50903ae16b54d294fd9b",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-b-tower.png",
+   "sha256_at_open": "d575eeea529286cbfda73588f0bb8984e99eddb9a410bb13e90eb09d01796591",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-c-facade.png",
+   "sha256_at_open": "9fa5b2976148b1afde8485edf65ffaca25b40840e48a10da3eb3864ac55f78c1",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/node-d-terrace.png",
+   "sha256_at_open": "1a5f8290cffaf9ed5c55ad2cdd4182106f3dd8fdc2ddabd9ea4293c4d76b3fcc",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/project.json",
+   "sha256_at_open": "ab23a2d4aac184f18e3d4cdfb26c5ee787eaf7e8eb7f331945686bdd8cd9b3ad",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/fixtures/rainbow/units.json",
+   "sha256_at_open": "db903c3dbe8fb325e22b1613b89bc8b4574084bcba0108cd8d7415df455b12ad",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/flow.html",
+   "sha256_at_open": "9fa1eba957b118dcd3bc91971ad00f92e831fefcb9ce1cdf0fbcb7e54c9b5042",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/index.html",
+   "sha256_at_open": "da66461918f5d60fa60e7142ad9a140bd3b25c54e6fd1864d2a7f0141abfe5c5",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/i18n.js",
+   "sha256_at_open": "53a345b67458ca49d50ee9e27fa618d3c3349f7b0cc59a64deccba89d77cd889",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/landing.js",
+   "sha256_at_open": "f8595e80903f97379e3ab0d4ecc4b3c7b9a5a1ad59965088c560950ddec6fbe7",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/picker.js",
+   "sha256_at_open": "3a451bd099bd4ae780bc6e5aea5a285f3bfb8c44bc786f30b31162525b4827f4",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/landing.html",
+   "sha256_at_open": "db9da909c6df122a69447114e6c14241858c7a7e5173ed15a4642b7d5188a4a3",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/package.json",
+   "sha256_at_open": "1ee7e2daad3acea5fb791bfad85477dd7d4cc86cffe8a982f04d39113df37731",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/serve.mjs",
+   "sha256_at_open": "e6afe6f60ac40348e6f3731623e8f174dd10d1a000fc019a50d5bbfe9ffa6b21",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/analytics.test.mjs",
+   "sha256_at_open": "72b0d8a2b5f2482575351b7c5eb5dd5eb299c6218a4f8a83ace302ce3b9a108e",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/apartment.test.mjs",
+   "sha256_at_open": "3e2682b7ec62ac8a091f4ba826ba77a54124a691200c64faf7b67c690cca6e98",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/browser.mjs",
+   "sha256_at_open": "31f3e108d5721cf3e653d13faf5a32523dd9e2b106f8dfa07d30b152319231ce",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/build_units.test.mjs",
+   "sha256_at_open": "a8c6fc9b59288e2834e5e8718a1111aa1fb1c45783aa9007d0f7a6e1308f0e7a",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/card-overflow.test.mjs",
+   "sha256_at_open": "5eceb37473d48193b8845a8d63c069ee40042d2bd43ace2f97a27a22cf4c2cba",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/flow-cine.test.mjs",
+   "sha256_at_open": "8b0987a818a6d3dab5f83f13abaa2253b025123e828f52d2c3db2c64b149ea47",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/flow-real.test.mjs",
+   "sha256_at_open": "dfe2aaf00a1bf0f94c6c29f9d38c24e90f651b50bacf0b314a1a5ac8170dcc94",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/landing.test.mjs",
+   "sha256_at_open": "6da49c06c38e664334952715cdd14a3ae34be874ebc975db8b0bfea397e34a5c",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/minimap.test.mjs",
+   "sha256_at_open": "d0afb38de12e1b7145df17223339d7c55d59f22c0790febaec8872a778993420",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/smoke.mjs",
+   "sha256_at_open": "0bd2f9c35a09675ee801f0fac5195048edeef65a4c2924889052b96f59a469f4",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/test/transition.test.mjs",
+   "sha256_at_open": "2be894615a4592c6070cb2652ff6c617de6d4efa09a95e536a207165546df9d5",
+   "released": "2026-11-03T17:14:13",
+   "released_to": "platform-ui-ux (rnd-23)",
+   "note": "unchanged here; work-tree copy kept for local runs only, never copied back"
+  }
+ ],
+ "closed": {
+  "when": "2026-11-03T21:45:25",
+  "files": 27,
+  "by": "card 10 (main session rnd-fd), Eliran's \"good\" 2026-11-03",
+  "note": "dist copied from the work tree: live has no node_modules; every build input is identical live (drift 0, released files unchanged)"
+ }
+}

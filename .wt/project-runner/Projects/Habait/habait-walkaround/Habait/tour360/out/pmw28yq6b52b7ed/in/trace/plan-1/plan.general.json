@@ -1,0 +1,2555 @@
+{
+ "schema_version": "0.2.0-draft",
+ "units": "cm",
+ "geometry": "general",
+ "axes": "x right, y down on the plan crop (raster frame, 2.25 px/cm); origin = the crop's top-left; angles are bearings, 0 = up (-y), clockwise",
+ "apartment_id": "pmw28yq6b52b7ed",
+ "plan_meta": {
+  "source_file": "brochure.pdf page 7 (קומה א')",
+  "source_sha256": "b5cbb6c0d73f84e05a9f248295d79cf2f10cb7cd0f352934782a75bdbbb908c7",
+  "tracer": "main session, trace-rooms.mjs (raster: grey fill = walls, double strokes = glazing, wall-connected single strokes = door leaves; zone bars from the config)",
+  "trace_date": "2026-11-05",
+  "trace_method": "flood fill from each camera inside a barrier mask built from the drawing; wall footprints from the grey fill (opened, 37 pieces); openings from region contacts and wall-end gaps; panes from double strokes split by adjacency",
+  "scale_basis": "fitted from the printed room dimensions: 6 rooms, median ratio 0.9702 over the nominal 1.3814 px/cm -> 1.3402 px/cm",
+  "scale_px_per_cm": 1.3402,
+  "raster_origin_px": [
+   0,
+   0
+  ],
+  "rights_state": "developer-uploaded",
+  "rights_note": "uploaded by the developer through the Habait Studio portal",
+  "ceiling_height_cm": 290,
+  "floor_height_cm": 0,
+  "ground_offset_cm": 0,
+  "floor_height_note": "unknown: the sales plan has no section",
+  "assumptions": [
+   "ceiling 290 cm, door heads 215 cm (no section on the sales plan)",
+   "outdoor rooms unroofed unless the plan shows a floor-above line (follow the sales plan)",
+   "open-plan zone boundaries: auto-trace geodesic split between the printed room labels",
+   "7 window bars read from the plan's blue glazing symbols; sill 90 / head 215 cm assumed"
+  ],
+  "disagreements": [],
+  "virtual_boundaries": [],
+  "rooms_method": "auto_rooms.py: orthogonal (axis 0.0 deg), printed rectangles snapped to the walls, leftover joined",
+  "entrance_door_px": null,
+  "entrance": null,
+  "dominant_wall_angle_deg": 0.0
+ },
+ "rooms": [
+  {
+   "id": "r-bedroom",
+   "name_he": "חדר שינה",
+   "name_en": "bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     136.6,
+     76.1
+    ],
+    [
+     136.6,
+     360.3
+    ],
+    [
+     400.6,
+     360.3
+    ],
+    [
+     400.6,
+     76.1
+    ]
+   ],
+   "printed_dims_cm": [
+    280,
+    330
+   ],
+   "clear_dims_cm": [
+    264.1,
+    284.3
+   ],
+   "bbox_cm": [
+    136.6,
+    76.1,
+    400.6,
+    360.3
+   ],
+   "area_m2": 7.507,
+   "source": "auto_rooms: printed rectangle snapped to the walls",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-bedroom-2",
+   "name_he": "חדר שינה",
+   "name_en": "bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     420.8,
+     396.2
+    ],
+    [
+     494.6,
+     396.2
+    ],
+    [
+     496.9,
+     387.2
+    ],
+    [
+     696.2,
+     387.2
+    ],
+    [
+     696.2,
+     321.2
+    ],
+    [
+     707.4,
+     321.2
+    ],
+    [
+     711.8,
+     315.6
+    ],
+    [
+     714.1,
+     279.8
+    ],
+    [
+     715.2,
+     255.2
+    ],
+    [
+     715.2,
+     147.7
+    ],
+    [
+     696.2,
+     143.3
+    ],
+    [
+     696.2,
+     76.1
+    ],
+    [
+     472.3,
+     76.1
+    ],
+    [
+     472.3,
+     361.5
+    ],
+    [
+     411.9,
+     361.5
+    ],
+    [
+     411.9,
+     387.2
+    ],
+    [
+     420.8,
+     389.5
+    ]
+   ],
+   "printed_dims_cm": [
+    300,
+    330
+   ],
+   "clear_dims_cm": [
+    303.3,
+    320.1
+   ],
+   "bbox_cm": [
+    411.9,
+    76.1,
+    715.2,
+    396.2
+   ],
+   "area_m2": 7.512,
+   "source": "auto_rooms: printed rectangle snapped to the walls",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-laundry",
+   "name_he": "חדר כביסה",
+   "name_en": "laundry",
+   "type": "storage",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     136.6,
+     398.5
+    ],
+    [
+     136.6,
+     519.3
+    ],
+    [
+     297.7,
+     519.3
+    ],
+    [
+     299.9,
+     512.6
+    ],
+    [
+     308.9,
+     512.6
+    ],
+    [
+     308.9,
+     435.4
+    ],
+    [
+     296.6,
+     435.4
+    ],
+    [
+     296.6,
+     398.5
+    ]
+   ],
+   "printed_dims_cm": [
+    170,
+    125
+   ],
+   "clear_dims_cm": [
+    172.3,
+    120.8
+   ],
+   "bbox_cm": [
+    136.6,
+    398.5,
+    308.9,
+    519.3
+   ],
+   "area_m2": 2.03,
+   "source": "auto_rooms: printed rectangle snapped to the walls",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-bathroom",
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     420.8,
+     398.5
+    ],
+    [
+     420.8,
+     590.9
+    ],
+    [
+     504.7,
+     590.9
+    ],
+    [
+     504.7,
+     550.6
+    ],
+    [
+     514.8,
+     552.9
+    ],
+    [
+     514.8,
+     590.9
+    ],
+    [
+     695.0,
+     590.9
+    ],
+    [
+     695.0,
+     398.5
+    ],
+    [
+     513.7,
+     398.5
+    ],
+    [
+     513.7,
+     474.5
+    ],
+    [
+     503.6,
+     472.3
+    ],
+    [
+     503.6,
+     398.5
+    ]
+   ],
+   "printed_dims_cm": [
+    190,
+    275
+   ],
+   "clear_dims_cm": [
+    274.2,
+    192.4
+   ],
+   "bbox_cm": [
+    420.8,
+    398.5,
+    695.0,
+    590.9
+   ],
+   "area_m2": 5.161,
+   "source": "auto_rooms: printed rectangle snapped to the walls",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-bathroom-2",
+   "name_he": "חדר רחצה",
+   "name_en": "bathroom",
+   "type": "bathroom",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     150.0,
+     776.8
+    ],
+    [
+     150.0,
+     915.5
+    ],
+    [
+     391.7,
+     915.5
+    ],
+    [
+     393.9,
+     911.1
+    ],
+    [
+     399.6,
+     911.1
+    ],
+    [
+     399.6,
+     922.2
+    ],
+    [
+     425.3,
+     922.2
+    ],
+    [
+     425.3,
+     776.8
+    ],
+    [
+     400.6,
+     776.8
+    ],
+    [
+     400.6,
+     832.7
+    ],
+    [
+     391.7,
+     830.5
+    ],
+    [
+     391.7,
+     776.8
+    ]
+   ],
+   "printed_dims_cm": [
+    270,
+    145
+   ],
+   "clear_dims_cm": [
+    275.3,
+    145.4
+   ],
+   "bbox_cm": [
+    150.0,
+    776.8,
+    425.3,
+    922.2
+   ],
+   "area_m2": 3.784,
+   "source": "auto_rooms: printed rectangle snapped to the walls",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-master-bedroom",
+   "name_he": "חדר שינה הורים",
+   "name_en": "master bedroom",
+   "type": "bedroom",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     136.6,
+     925.6
+    ],
+    [
+     136.6,
+     1251.3
+    ],
+    [
+     205.9,
+     1251.3
+    ],
+    [
+     210.4,
+     1260.3
+    ],
+    [
+     210.4,
+     1280.4
+    ],
+    [
+     241.7,
+     1279.2
+    ],
+    [
+     308.9,
+     1279.2
+    ],
+    [
+     329.0,
+     1264.7
+    ],
+    [
+     346.9,
+     1260.3
+    ],
+    [
+     349.2,
+     1251.3
+    ],
+    [
+     396.2,
+     1251.3
+    ],
+    [
+     398.5,
+     1260.3
+    ],
+    [
+     416.3,
+     1264.7
+    ],
+    [
+     427.5,
+     1271.4
+    ],
+    [
+     434.2,
+     1271.4
+    ],
+    [
+     434.2,
+     1251.3
+    ],
+    [
+     485.8,
+     1251.3
+    ],
+    [
+     485.8,
+     924.5
+    ],
+    [
+     399.6,
+     924.5
+    ],
+    [
+     399.6,
+     982.7
+    ],
+    [
+     391.7,
+     980.4
+    ],
+    [
+     391.7,
+     925.6
+    ]
+   ],
+   "printed_dims_cm": [
+    390,
+    345
+   ],
+   "clear_dims_cm": [
+    349.2,
+    355.9
+   ],
+   "bbox_cm": [
+    136.6,
+    924.5,
+    485.8,
+    1280.4
+   ],
+   "area_m2": 11.734,
+   "source": "auto_rooms: printed rectangle snapped to the walls",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-patio",
+   "name_he": "פטיו בקומת קרקע",
+   "name_en": "patio",
+   "type": "balcony",
+   "is_outdoor": true,
+   "roofed": false,
+   "loop": [
+    [
+     613.3,
+     682.8
+    ],
+    [
+     573.1,
+     702.9
+    ],
+    [
+     552.9,
+     723.1
+    ],
+    [
+     533.9,
+     758.8
+    ],
+    [
+     533.9,
+     985.0
+    ],
+    [
+     539.5,
+     998.4
+    ],
+    [
+     539.5,
+     1199.8
+    ],
+    [
+     532.8,
+     1213.3
+    ],
+    [
+     532.8,
+     1307.3
+    ],
+    [
+     543.9,
+     1334.1
+    ],
+    [
+     555.2,
+     1348.7
+    ],
+    [
+     613.3,
+     1351.5
+    ],
+    [
+     651.4,
+     1351.5
+    ],
+    [
+     658.1,
+     1345.3
+    ],
+    [
+     667.1,
+     1345.3
+    ],
+    [
+     723.1,
+     1311.7
+    ],
+    [
+     723.1,
+     1283.8
+    ],
+    [
+     669.3,
+     1283.8
+    ],
+    [
+     669.3,
+     972.6
+    ],
+    [
+     888.7,
+     972.6
+    ],
+    [
+     888.7,
+     944.7
+    ],
+    [
+     803.6,
+     828.2
+    ],
+    [
+     718.5,
+     781.2
+    ],
+    [
+     608.9,
+     781.2
+    ],
+    [
+     608.9,
+     765.5
+    ],
+    [
+     667.1,
+     765.5
+    ],
+    [
+     667.1,
+     689.5
+    ],
+    [
+     651.4,
+     682.8
+    ]
+   ],
+   "printed_dims_cm": null,
+   "clear_dims_cm": [
+    355.9,
+    668.7
+   ],
+   "bbox_cm": [
+    532.8,
+    682.8,
+    888.7,
+    1351.5
+   ],
+   "area_m2": 11.897,
+   "source": "auto_rooms: outdoor around its label",
+   "auto_reason": null,
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-corridor-1",
+   "name_he": "מעבר",
+   "name_en": "Corridor",
+   "type": "hall",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     120.9,
+     49.3
+    ],
+    [
+     246.2,
+     49.3
+    ],
+    [
+     250.7,
+     53.7
+    ],
+    [
+     250.7,
+     73.9
+    ],
+    [
+     355.9,
+     73.9
+    ],
+    [
+     355.9,
+     50.4
+    ],
+    [
+     466.7,
+     50.4
+    ],
+    [
+     466.7,
+     73.9
+    ],
+    [
+     566.3,
+     73.9
+    ],
+    [
+     566.3,
+     49.3
+    ],
+    [
+     714.1,
+     49.3
+    ],
+    [
+     704.0,
+     24.6
+    ],
+    [
+     704.0,
+     0.0
+    ],
+    [
+     130.9,
+     0.0
+    ],
+    [
+     130.9,
+     24.6
+    ]
+   ],
+   "printed_dims_cm": null,
+   "clear_dims_cm": [
+    593.2,
+    73.9
+   ],
+   "bbox_cm": [
+    120.9,
+    0.0,
+    714.1,
+    73.9
+   ],
+   "area_m2": 3.367,
+   "source": "auto_rooms: leftover space",
+   "auto_reason": "corridor",
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-corridor-7",
+   "name_he": "מעבר",
+   "name_en": "Corridor",
+   "type": "hall",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     136.6,
+     362.6
+    ],
+    [
+     136.6,
+     387.2
+    ],
+    [
+     315.6,
+     387.2
+    ],
+    [
+     317.9,
+     396.2
+    ],
+    [
+     311.2,
+     398.5
+    ],
+    [
+     311.2,
+     521.5
+    ],
+    [
+     399.6,
+     521.5
+    ],
+    [
+     399.6,
+     542.8
+    ],
+    [
+     136.6,
+     542.8
+    ],
+    [
+     136.6,
+     765.5
+    ],
+    [
+     414.1,
+     765.5
+    ],
+    [
+     416.3,
+     775.6
+    ],
+    [
+     427.5,
+     775.6
+    ],
+    [
+     427.5,
+     923.3
+    ],
+    [
+     487.9,
+     923.3
+    ],
+    [
+     487.9,
+     1251.3
+    ],
+    [
+     503.6,
+     1251.3
+    ],
+    [
+     503.6,
+     1194.2
+    ],
+    [
+     521.5,
+     1194.2
+    ],
+    [
+     524.9,
+     1173.0
+    ],
+    [
+     524.9,
+     1014.0
+    ],
+    [
+     502.5,
+     1014.0
+    ],
+    [
+     502.5,
+     775.6
+    ],
+    [
+     490.2,
+     775.6
+    ],
+    [
+     492.5,
+     765.5
+    ],
+    [
+     503.6,
+     765.5
+    ],
+    [
+     503.6,
+     592.1
+    ],
+    [
+     418.6,
+     592.1
+    ],
+    [
+     418.6,
+     414.1
+    ],
+    [
+     409.6,
+     411.9
+    ],
+    [
+     409.6,
+     397.3
+    ],
+    [
+     391.7,
+     397.3
+    ],
+    [
+     391.7,
+     389.5
+    ],
+    [
+     400.6,
+     387.2
+    ],
+    [
+     400.6,
+     362.6
+    ]
+   ],
+   "printed_dims_cm": null,
+   "clear_dims_cm": [
+    388.4,
+    888.7
+   ],
+   "bbox_cm": [
+    136.6,
+    362.6,
+    524.9,
+    1251.3
+   ],
+   "area_m2": 11.912,
+   "source": "auto_rooms: leftover space",
+   "auto_reason": "corridor",
+   "label_moved_inside": false
+  },
+  {
+   "id": "r-corridor-8",
+   "name_he": "מעבר",
+   "name_en": "Corridor",
+   "type": "hall",
+   "is_outdoor": false,
+   "roofed": null,
+   "loop": [
+    [
+     514.8,
+     593.2
+    ],
+    [
+     514.8,
+     658.1
+    ],
+    [
+     696.2,
+     658.1
+    ],
+    [
+     696.2,
+     593.2
+    ]
+   ],
+   "printed_dims_cm": null,
+   "clear_dims_cm": [
+    181.3,
+    64.9
+   ],
+   "bbox_cm": [
+    514.8,
+    593.2,
+    696.2,
+    658.1
+   ],
+   "area_m2": 1.177,
+   "source": "auto_rooms: leftover space",
+   "auto_reason": "corridor",
+   "label_moved_inside": false
+  }
+ ],
+ "walls": [
+  {
+   "id": "w-1",
+   "kind": "interior",
+   "height_cm": 290,
+   "polygon_cm": [
+    [
+     355.2,
+     51.4
+    ],
+    [
+     363.3,
+     51.4
+    ],
+    [
+     364.2,
+     64.2
+    ],
+    [
+     369.3,
+     63.4
+    ],
+    [
+     369.3,
+     53.0
+    ],
+    [
+     466.3,
+     53.0
+    ],
+    [
+     466.3,
+     74.6
+    ],
+    [
+     464.9,
+     75.3
+    ],
+    [
+     411.2,
+     75.3
+    ],
+    [
+     411.2,
+     388.8
+    ],
+    [
+     419.3,
+     389.5
+    ],
+    [
+     419.3,
+     398.5
+    ],
+    [
+     393.9,
+     398.5
+    ],
+    [
+     393.9,
+     389.5
+    ],
+    [
+     402.9,
+     388.8
+    ],
+    [
+     402.9,
+     89.6
+    ],
+    [
+     405.2,
+     71.6
+    ],
+    [
+     399.9,
+     70.9
+    ],
+    [
+     399.2,
+     74.6
+    ],
+    [
+     376.0,
+     74.6
+    ],
+    [
+     375.3,
+     71.6
+    ],
+    [
+     364.2,
+     70.9
+    ],
+    [
+     363.3,
+     75.3
+    ],
+    [
+     357.4,
+     75.3
+    ],
+    [
+     357.4,
+     69.4
+    ],
+    [
+     360.3,
+     64.9
+    ],
+    [
+     360.3,
+     59.0
+    ],
+    [
+     355.2,
+     55.2
+    ],
+    [
+     355.2,
+     52.3
+    ]
+   ],
+   "area_cm2": 5323
+  },
+  {
+   "id": "w-2",
+   "kind": "interior",
+   "height_cm": 290,
+   "polygon_cm": [
+    [
+     560.4,
+     51.4
+    ],
+    [
+     719.2,
+     53.0
+    ],
+    [
+     719.2,
+     112.7
+    ],
+    [
+     717.8,
+     113.4
+    ],
+    [
+     719.2,
+     130.6
+    ],
+    [
+     717.8,
+     131.3
+    ],
+    [
+     717.8,
+     139.6
+    ],
+    [
+     721.5,
+     140.3
+    ],
+    [
+     721.5,
+     159.7
+    ],
+    [
+     717.8,
+     159.7
+    ],
+    [
+     717.8,
+     148.5
+    ],
+    [
+     714.1,
+     144.0
+    ],
+    [
+     709.6,
+     144.0
+    ],
+    [
+     708.8,
+     136.6
+    ],
+    [
+     703.6,
+     137.3
+    ],
+    [
+     703.6,
+     144.0
+    ],
+    [
+     697.6,
+     144.0
+    ],
+    [
+     698.4,
+     79.1
+    ],
+    [
+     696.2,
+     75.3
+    ],
+    [
+     572.3,
+     76.1
+    ],
+    [
+     569.3,
+     75.3
+    ],
+    [
+     569.3,
+     71.6
+    ],
+    [
+     571.5,
+     69.4
+    ],
+    [
+     571.5,
+     61.2
+    ],
+    [
+     566.3,
+     55.2
+    ],
+    [
+     560.4,
+     54.4
+    ],
+    [
+     560.4,
+     52.3
+    ]
+   ],
+   "area_cm2": 5134
+  },
+  {
+   "id": "w-3",
+   "kind": "interior",
+   "height_cm": 290,
+   "polygon_cm": [
+    [
+     117.2,
+     52.3
+    ],
+    [
+     250.0,
+     53.0
+    ],
+    [
+     250.0,
+     75.3
+    ],
+    [
+     135.0,
+     76.1
+    ],
+    [
+     135.0,
+     388.8
+    ],
+    [
+     316.3,
+     389.5
+    ],
+    [
+     315.6,
+     398.5
+    ],
+    [
+     308.2,
+     399.2
+    ],
+    [
+     307.4,
+     436.5
+    ],
+    [
+     299.2,
+     436.5
+    ],
+    [
+     298.5,
+     398.5
+    ],
+    [
+     135.8,
+     398.5
+    ],
+    [
+     135.0,
+     521.5
+    ],
+    [
+     298.5,
+     523.1
+    ],
+    [
+     299.2,
+     515.6
+    ],
+    [
+     305.9,
+     514.1
+    ],
+    [
+     307.4,
+     514.8
+    ],
+    [
+     307.4,
+     521.5
+    ],
+    [
+     309.6,
+     523.1
+    ],
+    [
+     399.9,
+     522.3
+    ],
+    [
+     399.2,
+     542.5
+    ],
+    [
+     285.8,
+     541.8
+    ],
+    [
+     135.0,
+     543.2
+    ],
+    [
+     135.8,
+     768.5
+    ],
+    [
+     414.9,
+     768.5
+    ],
+    [
+     414.9,
+     776.8
+    ],
+    [
+     402.9,
+     776.8
+    ],
+    [
+     401.5,
+     778.2
+    ],
+    [
+     400.6,
+     831.2
+    ],
+    [
+     393.9,
+     831.2
+    ],
+    [
+     392.5,
+     776.8
+    ],
+    [
+     150.0,
+     776.8
+    ],
+    [
+     148.5,
+     778.2
+    ],
+    [
+     148.5,
+     917.0
+    ],
+    [
+     150.0,
+     918.5
+    ],
+    [
+     391.7,
+     919.2
+    ],
+    [
+     393.9,
+     917.8
+    ],
+    [
+     393.9,
+     913.3
+    ],
+    [
+     399.9,
+     913.3
+    ],
+    [
+     400.6,
+     982.0
+    ],
+    [
+     393.9,
+     982.0
+    ],
+    [
+     393.2,
+     924.5
+    ],
+    [
+     226.9,
+     924.5
+    ],
+    [
+     225.3,
+     926.7
+    ],
+    [
+     211.9,
+     925.2
+    ],
+    [
+     211.2,
+     926.7
+    ],
+    [
+     135.0,
+     927.4
+    ],
+    [
+     135.0,
+     1253.6
+    ],
+    [
+     136.6,
+     1255.0
+    ],
+    [
+     206.7,
+     1254.3
+    ],
+    [
+     206.7,
+     1260.3
+    ],
+    [
+     213.4,
+     1261.0
+    ],
+    [
+     211.2,
+     1270.7
+    ],
+    [
+     207.4,
+     1271.4
+    ],
+    [
+     207.4,
+     1278.9
+    ],
+    [
+     117.2,
+     1277.4
+    ],
+    [
+     117.2,
+     53.0
+    ]
+   ],
+   "area_cm2": 42179
+  },
+  {
+   "id": "w-4",
+   "kind": "interior",
+   "height_cm": 290,
+   "polygon_cm": [
+    [
+     717.1,
+     256.7
+    ],
+    [
+     721.5,
+     256.7
+    ],
+    [
+     721.5,
+     325.3
+    ],
+    [
+     720.1,
+     326.0
+    ],
+    [
+     720.1,
+     684.2
+    ],
+    [
+     668.5,
+     684.9
+    ],
+    [
+     668.5,
+     681.2
+    ],
+    [
+     671.5,
+     680.5
+    ],
+    [
+     670.8,
+     669.3
+    ],
+    [
+     665.5,
+     668.5
+    ],
+    [
+     663.4,
+     663.4
+    ],
+    [
+     644.7,
+     663.4
+    ],
+    [
+     644.7,
+     660.4
+    ],
+    [
+     696.2,
+     661.1
+    ],
+    [
+     697.6,
+     659.6
+    ],
+    [
+     697.6,
+     399.2
+    ],
+    [
+     514.8,
+     398.5
+    ],
+    [
+     514.1,
+     474.5
+    ],
+    [
+     505.9,
+     474.5
+    ],
+    [
+     505.9,
+     399.2
+    ],
+    [
+     497.6,
+     398.5
+    ],
+    [
+     496.9,
+     391.0
+    ],
+    [
+     497.6,
+     389.5
+    ],
+    [
+     696.2,
+     389.5
+    ],
+    [
+     697.6,
+     388.0
+    ],
+    [
+     697.6,
+     328.3
+    ],
+    [
+     708.8,
+     328.3
+    ],
+    [
+     709.6,
+     318.6
+    ],
+    [
+     713.4,
+     317.9
+    ],
+    [
+     714.1,
+     280.6
+    ],
+    [
+     717.1,
+     279.8
+    ],
+    [
+     717.8,
+     273.9
+    ],
+    [
+     717.1,
+     257.4
+    ]
+   ],
+   "area_cm2": 12228
+  },
+  {
+   "id": "w-5",
+   "kind": "interior",
+   "height_cm": 290,
+   "polygon_cm": [
+    [
+     506.6,
+     552.2
+    ],
+    [
+     514.1,
+     552.9
+    ],
+    [
+     514.1,
+     659.6
+    ],
+    [
+     515.6,
+     661.1
+    ],
+    [
+     548.5,
+     660.4
+    ],
+    [
+     548.5,
+     663.4
+    ],
+    [
+     543.9,
+     664.1
+    ],
+    [
+     543.9,
+     667.8
+    ],
+    [
+     536.5,
+     668.5
+    ],
+    [
+     536.5,
+     684.2
+    ],
+    [
+     529.8,
+     684.2
+    ],
+    [
+     528.2,
+     685.7
+    ],
+    [
+     528.2,
+     1007.3
+    ],
+    [
+     533.5,
+     1008.1
+    ],
+    [
+     533.5,
+     1192.3
+    ],
+    [
+     528.2,
+     1193.1
+    ],
+    [
+     528.2,
+     1278.1
+    ],
+    [
+     435.0,
+     1278.9
+    ],
+    [
+     435.0,
+     1275.9
+    ],
+    [
+     438.0,
+     1275.2
+    ],
+    [
+     437.2,
+     1265.4
+    ],
+    [
+     433.5,
+     1264.7
+    ],
+    [
+     432.8,
+     1258.0
+    ],
+    [
+     423.8,
+     1258.0
+    ],
+    [
+     423.1,
+     1256.6
+    ],
+    [
+     328.3,
+     1256.6
+    ],
+    [
+     326.0,
+     1259.4
+    ],
+    [
+     322.3,
+     1259.4
+    ],
+    [
+     322.3,
+     1253.6
+    ],
+    [
+     504.4,
+     1255.0
+    ],
+    [
+     505.9,
+     1253.6
+    ],
+    [
+     505.9,
+     1195.3
+    ],
+    [
+     525.3,
+     1194.6
+    ],
+    [
+     525.3,
+     1187.1
+    ],
+    [
+     527.5,
+     1185.6
+    ],
+    [
+     526.8,
+     1176.0
+    ],
+    [
+     529.0,
+     1175.1
+    ],
+    [
+     529.0,
+     1149.8
+    ],
+    [
+     527.5,
+     1148.3
+    ],
+    [
+     527.5,
+     1140.1
+    ],
+    [
+     529.0,
+     1139.4
+    ],
+    [
+     529.0,
+     1062.5
+    ],
+    [
+     526.8,
+     1061.8
+    ],
+    [
+     526.8,
+     1056.5
+    ],
+    [
+     529.0,
+     1055.8
+    ],
+    [
+     529.0,
+     1032.7
+    ],
+    [
+     526.8,
+     1032.0
+    ],
+    [
+     526.8,
+     1020.7
+    ],
+    [
+     521.5,
+     1013.3
+    ],
+    [
+     504.4,
+     1013.3
+    ],
+    [
+     504.4,
+     1008.1
+    ],
+    [
+     505.9,
+     1007.3
+    ],
+    [
+     505.9,
+     778.2
+    ],
+    [
+     504.4,
+     776.8
+    ],
+    [
+     492.5,
+     776.0
+    ],
+    [
+     493.2,
+     768.5
+    ],
+    [
+     504.4,
+     768.5
+    ],
+    [
+     505.9,
+     767.1
+    ],
+    [
+     505.9,
+     552.9
+    ]
+   ],
+   "area_cm2": 14747
+  }
+ ],
+ "openings": [
+  {
+   "id": "o-1",
+   "kind": "door",
+   "rooms": [
+    "r-bedroom",
+    "r-laundry"
+   ],
+   "a_cm": [
+    393.9,
+    393.9
+   ],
+   "b_cm": [
+    316.3,
+    393.2
+   ],
+   "centre_cm": [
+    355.2,
+    393.6
+   ],
+   "angle_deg": 0.8,
+   "width_cm": 77.6,
+   "sill_cm": 0,
+   "head_cm": 215,
+   "source": "wall-gap"
+  },
+  {
+   "id": "o-2",
+   "kind": "door",
+   "rooms": [
+    "r-bedroom-2",
+    "r-laundry"
+   ],
+   "a_cm": [
+    419.3,
+    397.7
+   ],
+   "b_cm": [
+    496.9,
+    396.2
+   ],
+   "centre_cm": [
+    456.8,
+    396.9
+   ],
+   "angle_deg": -1,
+   "width_cm": 77.6,
+   "sill_cm": 0,
+   "head_cm": 215,
+   "source": "wall-gap"
+  },
+  {
+   "id": "o-3",
+   "kind": "opening",
+   "rooms": [
+    "r-bathroom-2",
+    "r-master-bedroom"
+   ],
+   "a_cm": [
+    316.3,
+    1184.8
+   ],
+   "b_cm": [
+    336.5,
+    765.3
+   ],
+   "centre_cm": [
+    326.5,
+    973.8
+   ],
+   "angle_deg": -87.2,
+   "width_cm": 419.9,
+   "sill_cm": 0,
+   "head_cm": 290,
+   "source": "region-contact"
+  }
+ ],
+ "panes": [
+  {
+   "id": "window-auto-1",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     363.3,
+     76.1
+    ],
+    [
+     352.2,
+     76.1
+    ],
+    [
+     352.2,
+     51.4
+    ],
+    [
+     363.3,
+     51.4
+    ]
+   ],
+   "bbox_cm": [
+    352.2,
+    51.4,
+    363.3,
+    76.1
+   ],
+   "diag_cm": 27.0,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  },
+  {
+   "id": "window-auto-2",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     579.0,
+     76.1
+    ],
+    [
+     531.2,
+     76.1
+    ],
+    [
+     531.2,
+     51.4
+    ],
+    [
+     579.0,
+     51.4
+    ]
+   ],
+   "bbox_cm": [
+    531.2,
+    51.4,
+    579.0,
+    76.1
+   ],
+   "diag_cm": 53.7,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  },
+  {
+   "id": "window-auto-3",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     721.5,
+     325.3
+    ],
+    [
+     696.2,
+     325.3
+    ],
+    [
+     696.2,
+     140.3
+    ],
+    [
+     721.5,
+     140.3
+    ]
+   ],
+   "bbox_cm": [
+    696.2,
+    140.3,
+    721.5,
+    325.3
+   ],
+   "diag_cm": 186.8,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  },
+  {
+   "id": "window-auto-4",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     677.5,
+     685.7
+    ],
+    [
+     538.8,
+     685.7
+    ],
+    [
+     538.8,
+     659.6
+    ],
+    [
+     677.5,
+     659.6
+    ]
+   ],
+   "bbox_cm": [
+    538.8,
+    659.6,
+    677.5,
+    685.7
+   ],
+   "diag_cm": 141.2,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  },
+  {
+   "id": "window-auto-5",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     533.5,
+     1196.8
+    ],
+    [
+     504.4,
+     1196.8
+    ],
+    [
+     504.4,
+     1002.8
+    ],
+    [
+     533.5,
+     1002.8
+    ]
+   ],
+   "bbox_cm": [
+    504.4,
+    1002.8,
+    533.5,
+    1196.8
+   ],
+   "diag_cm": 196.1,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  },
+  {
+   "id": "window-auto-6",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     317.2,
+     1278.9
+    ],
+    [
+     203.0,
+     1278.9
+    ],
+    [
+     203.0,
+     1253.6
+    ],
+    [
+     317.2,
+     1253.6
+    ]
+   ],
+   "bbox_cm": [
+    203.0,
+    1253.6,
+    317.2,
+    1278.9
+   ],
+   "diag_cm": 117.0,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  },
+  {
+   "id": "window-auto-7",
+   "kind": "window",
+   "sill_cm": 90,
+   "head_cm": 215,
+   "polygon_cm": [
+    [
+     444.7,
+     1279.6
+    ],
+    [
+     321.6,
+     1279.6
+    ],
+    [
+     321.6,
+     1253.6
+    ],
+    [
+     444.7,
+     1253.6
+    ]
+   ],
+   "bbox_cm": [
+    321.6,
+    1253.6,
+    444.7,
+    1279.6
+   ],
+   "diag_cm": 125.9,
+   "source": "auto_prep.py: a blue glazing bar on the brochure plan (sill/head assumed: no section)"
+  }
+ ],
+ "camera_points": [
+  {
+   "id": "cp-bedroom",
+   "room_id": "r-bedroom",
+   "x": 268.6,
+   "y": 228.3,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-bedroom-2",
+   "room_id": "r-bedroom-2",
+   "x": 593.6,
+   "y": 226.1,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-laundry",
+   "room_id": "r-laundry",
+   "x": 222.7,
+   "y": 458.9,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-bathroom",
+   "room_id": "r-bathroom",
+   "x": 602.9,
+   "y": 496.8,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-bathroom-2",
+   "room_id": "r-bathroom-2",
+   "x": 288.7,
+   "y": 846.2,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-master-bedroom",
+   "room_id": "r-master-bedroom",
+   "x": 293.1,
+   "y": 1103.8,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-patio",
+   "room_id": "r-patio",
+   "x": 633.7,
+   "y": 879.9,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-corridor-1",
+   "room_id": "r-corridor-1",
+   "x": 525.3,
+   "y": 38.1,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-corridor-7",
+   "room_id": "r-corridor-7",
+   "x": 261.3,
+   "y": 654.2,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  },
+  {
+   "id": "cp-corridor-8",
+   "room_id": "r-corridor-8",
+   "x": 547.3,
+   "y": 625.7,
+   "z": 160,
+   "yaw_deg": 0.0,
+   "note": "auto-trace: the room's pole of inaccessibility"
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "fx-1-bathtub",
+   "room_id": "r-bathroom",
+   "kind": "bathtub",
+   "polygon_cm": [
+    [
+     513.0,
+     394.8
+    ],
+    [
+     697.0,
+     394.8
+    ],
+    [
+     697.0,
+     474.1
+    ],
+    [
+     513.0,
+     474.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 55,
+   "centre_cm": [
+    604.9,
+    434.5
+   ],
+   "angle_deg": 0.0,
+   "size_cm": [
+    184.5,
+    79.4
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "אמבטיה"
+  },
+  {
+   "id": "fx-2-vanity",
+   "room_id": "r-bathroom",
+   "kind": "vanity",
+   "polygon_cm": [
+    [
+     647.4,
+     481.1
+    ],
+    [
+     647.4,
+     595.7
+    ],
+    [
+     692.9,
+     595.7
+    ],
+    [
+     692.9,
+     481.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 85,
+   "centre_cm": [
+    670.2,
+    538.5
+   ],
+   "angle_deg": 90.0,
+   "size_cm": [
+    114.4,
+    45.4
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "כיור רחצה"
+  },
+  {
+   "id": "fx-3-wc",
+   "room_id": "r-corridor-8",
+   "kind": "wc",
+   "polygon_cm": [
+    [
+     536.8,
+     586.9
+    ],
+    [
+     536.8,
+     650.3
+    ],
+    [
+     583.2,
+     650.3
+    ],
+    [
+     583.2,
+     586.9
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 45,
+   "centre_cm": [
+    560.0,
+    618.6
+   ],
+   "angle_deg": 90.0,
+   "size_cm": [
+    63.9,
+    46.4
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "אסלה"
+  },
+  {
+   "id": "fx-4-shower",
+   "room_id": "r-bathroom-2",
+   "kind": "shower",
+   "polygon_cm": [
+    [
+     150.0,
+     779.0
+    ],
+    [
+     150.0,
+     918.2
+    ],
+    [
+     225.4,
+     918.2
+    ],
+    [
+     225.4,
+     779.0
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 10,
+   "centre_cm": [
+    187.7,
+    848.6
+   ],
+   "angle_deg": 90.0,
+   "size_cm": [
+    139.1,
+    75.2
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "מקלחון"
+  },
+  {
+   "id": "fx-5-wc",
+   "room_id": "r-bathroom-2",
+   "kind": "wc",
+   "polygon_cm": [
+    [
+     248.8,
+     789.5
+    ],
+    [
+     248.8,
+     851.3
+    ],
+    [
+     295.2,
+     851.3
+    ],
+    [
+     295.2,
+     789.5
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 45,
+   "centre_cm": [
+    272.0,
+    820.4
+   ],
+   "angle_deg": 90.0,
+   "size_cm": [
+    61.8,
+    46.4
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "אסלה"
+  },
+  {
+   "id": "fx-6-vanity",
+   "room_id": "r-bathroom-2",
+   "kind": "vanity",
+   "polygon_cm": [
+    [
+     315.4,
+     777.2
+    ],
+    [
+     394.0,
+     777.2
+    ],
+    [
+     394.0,
+     828.3
+    ],
+    [
+     315.4,
+     828.3
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 85,
+   "centre_cm": [
+    354.7,
+    802.7
+   ],
+   "angle_deg": 0.0,
+   "size_cm": [
+    78.3,
+    51.5
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "כיור רחצה"
+  },
+  {
+   "id": "fx-7-washer",
+   "room_id": "r-laundry",
+   "kind": "washer",
+   "polygon_cm": [
+    [
+     137.5,
+     426.5
+    ],
+    [
+     137.5,
+     493.5
+    ],
+    [
+     197.5,
+     493.5
+    ],
+    [
+     197.5,
+     426.5
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 85,
+   "centre_cm": [
+    167.5,
+    460.0
+   ],
+   "angle_deg": 90.0,
+   "size_cm": [
+    67.0,
+    59.8
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "מכונת כביסה"
+  },
+  {
+   "id": "fx-8-wardrobe",
+   "room_id": null,
+   "kind": "wardrobe",
+   "polygon_cm": [
+    [
+     135.4,
+     333.1
+    ],
+    [
+     292.6,
+     333.1
+    ],
+    [
+     292.6,
+     391.3
+    ],
+    [
+     135.4,
+     391.3
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 240,
+   "centre_cm": [
+    214.1,
+    362.2
+   ],
+   "angle_deg": 0.0,
+   "size_cm": [
+    157.7,
+    57.7
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "ארון בגדים"
+  },
+  {
+   "id": "fx-9-wardrobe",
+   "room_id": "r-bedroom-2",
+   "kind": "wardrobe",
+   "polygon_cm": [
+    [
+     523.3,
+     331.4
+    ],
+    [
+     690.8,
+     331.4
+    ],
+    [
+     690.8,
+     389.5
+    ],
+    [
+     523.3,
+     389.5
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 240,
+   "centre_cm": [
+    607.1,
+    360.4
+   ],
+   "angle_deg": 0.0,
+   "size_cm": [
+    168.0,
+    57.7
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "ארון בגדים"
+  },
+  {
+   "id": "fx-10-wardrobe",
+   "room_id": "r-master-bedroom",
+   "kind": "wardrobe",
+   "polygon_cm": [
+    [
+     132.3,
+     923.5
+    ],
+    [
+     399.2,
+     923.5
+    ],
+    [
+     399.2,
+     986.9
+    ],
+    [
+     132.3,
+     986.9
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 240,
+   "centre_cm": [
+    265.8,
+    955.2
+   ],
+   "angle_deg": 0.0,
+   "size_cm": [
+    267.0,
+    63.9
+   ],
+   "source": "auto-trace: the vision model's box on the sales plan, aligned to the walls",
+   "note": "ארון בגדים"
+  }
+ ]
+}

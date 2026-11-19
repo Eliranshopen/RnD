@@ -1,0 +1,26 @@
+DOUBLE-line pixels 1220, kept as barriers 1220
+STROKES 14 components (cut at walls); touching 7; kept 1; auto-dropped straight >= 100 cm 1; blacklisted 0
+  st-1   diag   200 cm  px    562 elong  0.006  bbox [961,525,962,725]  (straight line, dropped)
+  st-2   diag    40 cm  px    114 elong   0.03  bbox [326,361,366,361]
+LINES 1 far-from-wall black components >= 60 cm; kept 0
+  ln-1   diag    78 cm  px    396  bbox [733,361,811,366]
+AUTO gap-1     78 cm  899,1814 -> 978,1815
+AUTO gap-2    108 cm  478,388 -> 585,390
+ROOM entrance         region     1914 px  area 0.04 m²  verts 6
+ROOM kitchen          region   174644 px  area 8.89 m²  verts 8
+ROOM living-room      region   524160 px  area 26.62 m²  verts 14
+ROOM stairs-to-floor-1 region   404070 px  area 20.40 m²  verts 35
+ROOM bathroom: convex hull, 7 vertices
+ROOM bathroom         region    79948 px  area 4.18 m²  verts 7
+ROOM safe-room-mamad  region   210394 px  area 10.67 m²  verts 10
+ROOM patio-according-to-development region   728562 px  area 36.95 m²  verts 35
+DOOR entrance|living-room           width   46 cm  centre 565,390  angle 1°  px 208
+DOOR kitchen|stairs-to-floor-1      width  184 cm  centre 345,859  angle 0°  px 48
+GLAZING 1 double-line networks -> 0 panes
+DOOR o-entrance-living-room: 46.4 cm, dropped
+GAP gap-1: both sides outside, skipped
+DOOR living-room|outside            width  108 cm  from the wall gap gap-2
+WALLS 6 components after closing
+DOORS kept at their traced centres (1 real openings), ends checked against the wall edges
+PLAN written C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-2\plan.general.json: 7 rooms, 6 wall pieces, 2 openings, 0 panes, 7 cameras, 0 fixtures
+overlay C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\out\pmw28yq6b52b7ed\in\trace\plan-2\trace-debug.png

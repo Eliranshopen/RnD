@@ -1,0 +1,24 @@
+
+=== [1/1] cp-dining =======================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\scene-full.blend
+[render_pano] point      : cp-dining  plan (918.5,780.9,160) yaw 56.8
+[render_pano] camera     : (9.185, -7.809, 1.6) m  euler (90.0, 0.0, -56.8) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 4096x2048 @ 64 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 5120x2048 over -225.0000..225.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-dining
+[render_pano] input_key  : 20890f922844d987…
+[render_pano] render 1/1: 1143.433 s wall  (cycles 1139.47s, device peak 1174.83 MB, host peak 2492.47 MB)
+[render_pano] depth      : depth.png 398,444 B  valid 8,388,605 / 8,388,608  sky 3  range 0.971..8.117 m  (1.371 s)
+[render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+              PASS  nadir (floor)                                expected 1.6000 m  decoded 1.6000 m  err +0.00 cm   [r-dining floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err +0.00 cm   [r-dining ceiling z=290 cm]
+              SKIP  room r-dining is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 4096x2048 182,250 B  zenith mean 167.6/255 (5 colours) · nadir mean 192.7/255 (1 colours) · no_hole=True
+[render_pano] sidecar    : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-dining\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\manifest.json (key 'cp-dining')
+OK
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-dining\pano-depth-0001'
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-dining\pano-pano-0001'
+

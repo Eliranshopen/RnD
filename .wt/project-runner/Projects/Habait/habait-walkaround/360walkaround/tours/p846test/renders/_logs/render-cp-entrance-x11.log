@@ -1,0 +1,60 @@
+
+=== [1/11] cp-entrance =====================================
+SKIP      cp-entrance: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-entrance\pano.webp
+
+=== [2/11] cp-kitchen ======================================
+SKIP      cp-kitchen: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-kitchen\pano.webp
+
+=== [3/11] cp-dining =======================================
+SKIP      cp-dining: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-dining\pano.webp
+
+=== [4/11] cp-living =======================================
+SKIP      cp-living: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-living\pano.webp
+
+=== [5/11] cp-terraceLiving ================================
+SKIP      cp-terraceLiving: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-terraceLiving\pano.webp
+
+=== [6/11] cp-terraceBedroom ===============================
+SKIP      cp-terraceBedroom: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-terraceBedroom\pano.webp
+
+=== [7/11] cp-bedroomMain ==================================
+SKIP      cp-bedroomMain: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-bedroomMain\pano.webp
+
+=== [8/11] cp-wardrobe =====================================
+SKIP      cp-wardrobe: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-wardrobe\pano.webp
+
+=== [9/11] cp-bathMain =====================================
+SKIP      cp-bathMain: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-bathMain\pano.webp
+
+=== [10/11] cp-bedroom2 =====================================
+SKIP      cp-bedroom2: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-bedroom2\pano.webp
+
+=== [11/11] cp-bathGuest ====================================
+SKIP      cp-bathGuest: manifest input_key matches and outputs exist
+          C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\renders\cp-bathGuest\pano.webp
+
+[render_pano] batch summary
+              skipped   cp-entrance      
+              skipped   cp-kitchen       
+              skipped   cp-dining        
+              skipped   cp-living        
+              skipped   cp-terraceLiving 
+              skipped   cp-terraceBedroom 
+              skipped   cp-bedroomMain   
+              skipped   cp-wardrobe      
+              skipped   cp-bathMain      
+              skipped   cp-bedroom2      
+              skipped   cp-bathGuest     
+Blender 4.5.10 LTS (hash 6dc0b208d1b5 built 2026-05-19 01:33:42)
+Read blend: "C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\360walkaround\tours\p846test\scene-full.blend"
+

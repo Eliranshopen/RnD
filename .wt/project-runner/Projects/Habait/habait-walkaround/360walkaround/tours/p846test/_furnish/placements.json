@@ -1,0 +1,6648 @@
+{
+ "schema": "habait.furnish-from-plan/0.1",
+ "plan": {
+  "path": "C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/360walkaround/tours/p846test/plan.base.json",
+  "sha256": "b9ffaa75a138f28522065f2f5bb17c1aac5631d421d90d456ff6034cbd104d77"
+ },
+ "style": {
+  "path": "C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/360walkaround/catalog/style-habait-modern.json",
+  "sha256": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0"
+ },
+ "generator": {
+  "name": "furnish_from_plan.py",
+  "version": "0.1.0",
+  "sha256": "95bacd168754fc649ad0c03538072b53cbf50a4a2f16ef813f8a030937069294",
+  "general_furnish": "0.1.1",
+  "plan_general": "0.2.0"
+ },
+ "consume": "build_scene reads plan.fixtures[] + plan.furnishing: set plan['fixtures'] = this['fixtures'] and plan['furnishing'] = this['furnishing'] (or build plan.furnished.json as is). fixtures = the plan's own (re-seated where listed in fixtures_adjusted) + fixtures_translated + fixtures_added",
+ "roles": {
+  "r-entrance": "entrance",
+  "r-kitchen": "kitchen",
+  "r-dining": "dining",
+  "r-living": "living",
+  "r-terrace-living": "terrace",
+  "r-terrace-bedroom": "terrace",
+  "r-bedroom-main": "bedroom",
+  "r-wardrobe": "wardrobe",
+  "r-bath-main": "bathroom",
+  "r-bedroom-2": "bedroom",
+  "r-bath-guest": "bathroom"
+ },
+ "fixtures": [
+  {
+   "id": "k-counter",
+   "room_id": "r-kitchen",
+   "kind": "counter",
+   "polygon_cm": [
+    [
+     598.9,
+     650
+    ],
+    [
+     810.5,
+     358.8
+    ],
+    [
+     863.1,
+     397
+    ],
+    [
+     651.5,
+     688.2
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 90,
+   "centre_cm": [
+    731,
+    523.5
+   ],
+   "angle_deg": 126,
+   "size_cm": [
+    360,
+    65
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the long leg of the L along the partition wall: the sink run",
+   "words_en": "a fitted bulthaup-style kitchen run standing against the wall behind it (not a freestanding island): handleless fronts in matte sand-grey lacquer with a recessed grip channel, a thin brushed stainless-steel worktop with a flush integrated sink and a slim stainless tap, a brushed stainless-steel function-wall splashback with one long rail, appliances fully integrated behind flush fronts; no wood, no stone"
+  },
+  {
+   "id": "k-tall",
+   "room_id": "r-kitchen",
+   "kind": "tall_unit",
+   "polygon_cm": [
+    [
+     573.1,
+     687.2
+    ],
+    [
+     608.3,
+     638.6
+    ],
+    [
+     660.9,
+     676.8
+    ],
+    [
+     625.7,
+     725.4
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 220,
+   "centre_cm": [
+    617,
+    682
+   ],
+   "angle_deg": 126,
+   "size_cm": [
+    60,
+    65
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the oven column at the end of the run"
+  },
+  {
+   "id": "k-counter-2",
+   "room_id": "r-kitchen",
+   "kind": "counter",
+   "polygon_cm": [
+    [
+     952.2,
+     537.6
+    ],
+    [
+     802.5,
+     428.9
+    ],
+    [
+     837.8,
+     380.4
+    ],
+    [
+     987.5,
+     489.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 90,
+   "centre_cm": [
+    895,
+    459
+   ],
+   "angle_deg": 36,
+   "size_cm": [
+    185,
+    60
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the short leg of the L: the hob run toward the facade",
+   "words_en": "the second leg of the fitted bulthaup-style kitchen, against the wall behind it (not an island): handleless fronts in matte sand-grey lacquer, the thin brushed stainless-steel worktop continuing, a flush black induction hob with a slim ceiling-flush extractor above it, the stainless function-wall splashback; no wood, no stone"
+  },
+  {
+   "id": "d-table",
+   "room_id": "r-dining",
+   "kind": "table",
+   "polygon_cm": [
+    [
+     991.3,
+     775.8
+    ],
+    [
+     894.2,
+     705.3
+    ],
+    [
+     964.7,
+     608.2
+    ],
+    [
+     1061.8,
+     678.7
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 75,
+   "centre_cm": [
+    978,
+    692
+   ],
+   "angle_deg": 36,
+   "size_cm": [
+    120,
+    120
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the round dining table (drawn as a box)",
+   "words_en": "a round light-oak dining table about 120 cm across with six upholstered chairs in sand linen around it; it is a dining table, NOT a kitchen island and NOT a counter"
+  },
+  {
+   "id": "l-sofa",
+   "room_id": "r-living",
+   "kind": "sofa",
+   "polygon_cm": [
+    [
+     898.9,
+     985.1
+    ],
+    [
+     686.9,
+     909.7
+    ],
+    [
+     717.1,
+     824.9
+    ],
+    [
+     929.1,
+     900.3
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 75,
+   "centre_cm": [
+    808,
+    905
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    225,
+    90
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  },
+  {
+   "id": "l-armchair",
+   "room_id": "r-living",
+   "kind": "sofa",
+   "polygon_cm": [
+    [
+     617.8,
+     1013.7
+    ],
+    [
+     528.3,
+     981.8
+    ],
+    [
+     560.2,
+     892.3
+    ],
+    [
+     649.7,
+     924.2
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 75,
+   "centre_cm": [
+    589,
+    953
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    95,
+    95
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the armchair",
+   "words_en": "an ivory boucle armchair"
+  },
+  {
+   "id": "l-coffee",
+   "room_id": "r-living",
+   "kind": "table",
+   "polygon_cm": [
+    [
+     788.7,
+     1073.1
+    ],
+    [
+     703.9,
+     1042.9
+    ],
+    [
+     727.3,
+     976.9
+    ],
+    [
+     812.1,
+     1007.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 40,
+   "centre_cm": [
+    758,
+    1025
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    90,
+    70
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the coffee table",
+   "words_en": "a low round travertine coffee table"
+  },
+  {
+   "id": "l-tv",
+   "room_id": "r-living",
+   "kind": "tv_unit",
+   "polygon_cm": [
+    [
+     893.8,
+     1213.5
+    ],
+    [
+     611.1,
+     1112.9
+    ],
+    [
+     626.2,
+     1070.5
+    ],
+    [
+     908.9,
+     1171.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 50,
+   "centre_cm": [
+    760,
+    1142
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    300,
+    45
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the TV unit against the 530 wall"
+  },
+  {
+   "id": "bm-bed",
+   "room_id": "r-bedroom-main",
+   "kind": "bed",
+   "polygon_cm": [
+    [
+     592,
+     1499.7
+    ],
+    [
+     662.4,
+     1301.9
+    ],
+    [
+     832,
+     1362.3
+    ],
+    [
+     761.6,
+     1560.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 55,
+   "centre_cm": [
+    712,
+    1431
+   ],
+   "angle_deg": 109.6,
+   "size_cm": [
+    210,
+    180
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  },
+  {
+   "id": "w-closet-1",
+   "room_id": "r-wardrobe",
+   "kind": "wardrobe",
+   "polygon_cm": [
+    [
+     371.65,
+     1355.93
+    ],
+    [
+     507.32,
+     1404.24
+    ],
+    [
+     487.19,
+     1460.77
+    ],
+    [
+     351.52,
+     1412.46
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 240,
+   "centre_cm": [
+    429.42,
+    1408.35
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    144.01,
+    60.01
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the 160 run"
+  },
+  {
+   "id": "w-closet-2",
+   "room_id": "r-wardrobe",
+   "kind": "wardrobe",
+   "polygon_cm": [
+    [
+     445.7,
+     1437.1
+    ],
+    [
+     507.8,
+     1262.8
+    ],
+    [
+     564.3,
+     1282.9
+    ],
+    [
+     502.2,
+     1457.2
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 240,
+   "centre_cm": [
+    505,
+    1360
+   ],
+   "angle_deg": 109.6,
+   "size_cm": [
+    185,
+    60
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the 185 run"
+  },
+  {
+   "id": "b2-bed",
+   "room_id": "r-bedroom-2",
+   "kind": "bed",
+   "polygon_cm": [
+    [
+     671.9,
+     404.5
+    ],
+    [
+     510.1,
+     286.9
+    ],
+    [
+     604.1,
+     157.5
+    ],
+    [
+     765.9,
+     275.1
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 55,
+   "centre_cm": [
+    638,
+    281
+   ],
+   "angle_deg": 36,
+   "size_cm": [
+    200,
+    160
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  },
+  {
+   "id": "b2-closet",
+   "room_id": "r-bedroom-2",
+   "kind": "wardrobe",
+   "polygon_cm": [
+    [
+     457.43,
+     328.33
+    ],
+    [
+     597.8,
+     430.32
+    ],
+    [
+     562.53,
+     478.87
+    ],
+    [
+     422.16,
+     376.88
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 240,
+   "centre_cm": [
+    509.98,
+    403.6
+   ],
+   "angle_deg": 36,
+   "size_cm": [
+    173.51,
+    60.01
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "the closet run against the wall shared with the guest bath"
+  },
+  {
+   "id": "bm-shower",
+   "room_id": "r-bath-main",
+   "kind": "shower",
+   "polygon_cm": [
+    [
+     338.8,
+     1412.6
+    ],
+    [
+     141,
+     1342.2
+    ],
+    [
+     171.2,
+     1257.4
+    ],
+    [
+     369,
+     1327.8
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 10,
+   "centre_cm": [
+    255,
+    1335
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    210,
+    90
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "a low tray"
+  },
+  {
+   "id": "bm-vanity",
+   "room_id": "r-bath-main",
+   "kind": "vanity",
+   "polygon_cm": [
+    [
+     378,
+     1246.6
+    ],
+    [
+     293.2,
+     1216.5
+    ],
+    [
+     310,
+     1169.4
+    ],
+    [
+     394.8,
+     1199.5
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 85,
+   "centre_cm": [
+    344,
+    1208
+   ],
+   "angle_deg": 19.6,
+   "size_cm": [
+    90,
+    50
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  },
+  {
+   "id": "bm-wc",
+   "room_id": "r-bath-main",
+   "kind": "wc",
+   "polygon_cm": [
+    [
+     214.1,
+     1209.6
+    ],
+    [
+     234.2,
+     1153
+    ],
+    [
+     271.9,
+     1166.4
+    ],
+    [
+     251.8,
+     1223
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 45,
+   "centre_cm": [
+    243,
+    1188
+   ],
+   "angle_deg": 109.6,
+   "size_cm": [
+    60,
+    40
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  },
+  {
+   "id": "bg-shower",
+   "room_id": "r-bath-guest",
+   "kind": "shower",
+   "polygon_cm": [
+    [
+     458.2,
+     413.27
+    ],
+    [
+     553.67,
+     482.63
+    ],
+    [
+     500.76,
+     555.45
+    ],
+    [
+     405.29,
+     486.09
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 10,
+   "centre_cm": [
+    479.48,
+    484.36
+   ],
+   "angle_deg": 36,
+   "size_cm": [
+    118.0,
+    90.01
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": "a low tray"
+  },
+  {
+   "id": "bg-wc",
+   "room_id": "r-bath-guest",
+   "kind": "wc",
+   "polygon_cm": [
+    [
+     358.2,
+     536.5
+    ],
+    [
+     393.5,
+     488
+    ],
+    [
+     425.8,
+     511.5
+    ],
+    [
+     390.5,
+     560
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 45,
+   "centre_cm": [
+    392,
+    524
+   ],
+   "angle_deg": 126,
+   "size_cm": [
+    60,
+    40
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  },
+  {
+   "id": "bg-vanity",
+   "room_id": "r-bath-guest",
+   "kind": "vanity",
+   "polygon_cm": [
+    [
+     383.22,
+     590.17
+    ],
+    [
+     441.06,
+     632.19
+    ],
+    [
+     411.66,
+     672.65
+    ],
+    [
+     353.82,
+     630.63
+    ]
+   ],
+   "z_cm": 0,
+   "height_cm": 85,
+   "centre_cm": [
+    397.44,
+    631.41
+   ],
+   "angle_deg": 36,
+   "size_cm": [
+    71.5,
+    50.01
+   ],
+   "source": "sales-plan drawing, read by hand",
+   "note": ""
+  }
+ ],
+ "furnishing": {
+  "version": "0.1.0",
+  "note": "generated by furnish_from_plan.py v0.1.0 (card 07, B1): fixture_hints and pieces[] are derived by rule from room types and the traced geometry; no hand-read positions",
+  "generator": {
+   "name": "furnish_from_plan.py",
+   "version": "0.1.0"
+  },
+  "fixture_hints": {
+   "k-counter": {
+    "uppers": true,
+    "rule": "back probes: 7/7 in a wall, 0/7 within 25 cm of glass; sink: the centre of the longest run",
+    "sink_at_cm": [
+     731.0,
+     523.5
+    ]
+   },
+   "k-counter-2": {
+    "uppers": false,
+    "rule": "back probes: 0/7 in a wall, 0/7 within 25 cm of glass; hob: the centre of the second run",
+    "hob_at_cm": [
+     895.0,
+     459.0
+    ]
+   }
+  },
+  "doors": {},
+  "pieces": [
+   {
+    "id": "ffp-entrance-console",
+    "room_id": "r-entrance",
+    "class": "tv_unit",
+    "centre_cm": [
+     234.37,
+     889.26
+    ],
+    "yaw_deg": 100.02,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "a 120x40x75 console (no console class: the TV cabinet) on the longest legal wall run",
+    "size_cm": [
+     120.0,
+     40.0,
+     75.0
+    ]
+   },
+   {
+    "id": "ffp-entrance-art",
+    "room_id": "r-entrance",
+    "class": "wall_art",
+    "centre_cm": [
+     214.47,
+     885.74
+    ],
+    "yaw_deg": 100.02,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "centred on a wall run (166 cm), bottom 120 cm",
+    "anchor": "wall",
+    "z_cm": 120.0
+   },
+   {
+    "id": "ffp-entrance-doormat",
+    "room_id": "r-entrance",
+    "class": "bath_mat",
+    "centre_cm": [
+     266.45,
+     724.01
+    ],
+    "yaw_deg": 103.2,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "inside the entrance door o-12, 32 cm in"
+   },
+   {
+    "id": "ffp-living-rug",
+    "room_id": "r-living",
+    "class": "rug",
+    "centre_cm": [
+     763.03,
+     1010.87
+    ],
+    "yaw_deg": 199.6,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "240x170 under the coffee table, along the sofa",
+    "size_cm": [
+     240.0,
+     170.0,
+     1.78
+    ]
+   },
+   {
+    "id": "ffp-living-lamp",
+    "room_id": "r-living",
+    "class": "floor_lamp",
+    "centre_cm": [
+     948.17,
+     929.02
+    ],
+    "yaw_deg": 199.6,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "beside the sofa, at the end farther from the openings"
+   },
+   {
+    "id": "ffp-living-art",
+    "room_id": "r-living",
+    "class": "wall_art",
+    "centre_cm": [
+     560.5,
+     1113.99
+    ],
+    "yaw_deg": 18.82,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "centred on a wall run (460 cm), bottom 120 cm",
+    "anchor": "wall",
+    "z_cm": 120.0
+   },
+   {
+    "id": "ffp-living-plant",
+    "room_id": "r-living",
+    "class": "plant",
+    "centre_cm": [
+     348.24,
+     1042.44
+    ],
+    "yaw_deg": 0.0,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "a free wall station, farthest from the openings"
+   },
+   {
+    "id": "ffp-terrace-living-set",
+    "room_id": "r-terrace-living",
+    "class": "outdoor_set",
+    "centre_cm": [
+     1371.9,
+     787.2
+    ],
+    "yaw_deg": 199.0,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "the legal spot farthest from the terrace openings, along the terrace's axis"
+   },
+   {
+    "id": "ffp-terrace-living-plant-1",
+    "room_id": "r-terrace-living",
+    "class": "plant",
+    "centre_cm": [
+     1254.33,
+     827.9
+    ],
+    "yaw_deg": 0.0,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "a convex terrace corner, far from the openings"
+   },
+   {
+    "id": "ffp-terrace-living-plant-2",
+    "room_id": "r-terrace-living",
+    "class": "plant",
+    "centre_cm": [
+     1119.39,
+     1065.96
+    ],
+    "yaw_deg": 0.0,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "a convex terrace corner, far from the openings"
+   },
+   {
+    "id": "ffp-terrace-bedroom-chair",
+    "room_id": "r-terrace-bedroom",
+    "class": "armchair",
+    "centre_cm": [
+     1057.2,
+     1391.4
+    ],
+    "yaw_deg": 98.99,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "the legal spot farthest from the door, facing away from it (out over the railing)"
+   },
+   {
+    "id": "ffp-bedroom-main-rug",
+    "room_id": "r-bedroom-main",
+    "class": "rug",
+    "centre_cm": [
+     732.13,
+     1374.48
+    ],
+    "yaw_deg": 19.6,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "240x170 under the lower bed, 40 cm past its foot",
+    "size_cm": [
+     240.0,
+     170.0,
+     1.78
+    ]
+   },
+   {
+    "id": "ffp-bath-main-mat",
+    "room_id": "r-bath-main",
+    "class": "bath_mat",
+    "centre_cm": [
+     279.49,
+     1266.23
+    ],
+    "yaw_deg": 19.6,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "in front of the shower"
+   },
+   {
+    "id": "ffp-bedroom-2-rug",
+    "room_id": "r-bedroom-2",
+    "class": "rug",
+    "centre_cm": [
+     682.5,
+     313.33
+    ],
+    "yaw_deg": 126.0,
+    "keep": false,
+    "source": "template:furnish_from_plan v0.1.0",
+    "rule": "240x170 under the lower bed, 40 cm past its foot",
+    "size_cm": [
+     240.0,
+     170.0,
+     1.78
+    ]
+   }
+  ]
+ },
+ "fixtures_added": [],
+ "fixtures_translated": [],
+ "fixtures_adjusted": [
+  {
+   "id": "w-closet-1",
+   "kind": "wardrobe",
+   "before": {
+    "centre_cm": [
+     420,
+     1405
+    ],
+    "size_cm": [
+     160,
+     60
+    ]
+   },
+   "steps": [
+    "slid +2 cm along its axis (17 cm2 in a wall)"
+   ],
+   "after": {
+    "centre_cm": [
+     429.42,
+     1408.35
+    ],
+    "size_cm": [
+     144.01,
+     60.01
+    ]
+   }
+  },
+  {
+   "id": "b2-closet",
+   "kind": "wardrobe",
+   "before": {
+    "centre_cm": [
+     500,
+     405
+    ],
+    "size_cm": [
+     200,
+     60
+    ]
+   },
+   "steps": [
+    "trimmed 19.5 cm at -L, 0.0 cm at +L; moved -2 cm across it (743 cm2 in a wall)"
+   ],
+   "after": {
+    "centre_cm": [
+     509.98,
+     403.6
+    ],
+    "size_cm": [
+     173.51,
+     60.01
+    ]
+   }
+  },
+  {
+   "id": "bg-shower",
+   "kind": "shower",
+   "before": {
+    "centre_cm": [
+     490,
+     492
+    ],
+    "size_cm": [
+     140,
+     90
+    ]
+   },
+   "steps": [
+    "slid -1 cm along its axis (128 cm2 in a wall)",
+    "slid -1 cm along its axis (61 cm2 in a wall)"
+   ],
+   "after": {
+    "centre_cm": [
+     479.48,
+     484.36
+    ],
+    "size_cm": [
+     118.0,
+     90.01
+    ]
+   }
+  },
+  {
+   "id": "bg-vanity",
+   "kind": "vanity",
+   "before": {
+    "centre_cm": [
+     395,
+     642
+    ],
+    "size_cm": [
+     80,
+     50
+    ]
+   },
+   "steps": [
+    "trimmed 0.0 cm at -L, 8.5 cm at +L (136 cm2 in a wall)"
+   ],
+   "after": {
+    "centre_cm": [
+     397.44,
+     631.41
+    ],
+    "size_cm": [
+     71.5,
+     50.01
+    ]
+   }
+  }
+ ],
+ "resolved": {
+  "version": "0.1.1",
+  "placements": [
+   {
+    "id": "k-tall",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-tall",
+    "class": "fridge",
+    "model": "kenney-furniture-kit-kitchenFridge",
+    "x_cm": 617.0,
+    "y_cm": 682.0,
+    "yaw_deg": 126.0,
+    "width_cm": 60.0,
+    "depth_cm": 65.0,
+    "height_cm": 220.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.395349,
+     2.226561,
+     2.391304
+    ],
+    "footprint_cm": [
+     [
+      608.34,
+      638.63
+     ],
+     [
+      573.07,
+      687.17
+     ],
+     [
+      625.66,
+      725.37
+     ],
+     [
+      660.93,
+      676.83
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-m1",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 819.903,
+    "y_cm": 401.136,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 65.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.332558,
+     1.444444,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      810.45,
+      358.85
+     ],
+     [
+      776.77,
+      405.21
+     ],
+     [
+      829.36,
+      443.42
+     ],
+     [
+      863.04,
+      397.06
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-m2",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 786.105,
+    "y_cm": 447.655,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 65.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.332558,
+     1.444444,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      776.65,
+      405.37
+     ],
+     [
+      742.97,
+      451.73
+     ],
+     [
+      795.56,
+      489.94
+     ],
+     [
+      829.24,
+      443.58
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-m3",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 752.307,
+    "y_cm": 494.173,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 65.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.332558,
+     1.444444,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      742.85,
+      451.89
+     ],
+     [
+      709.17,
+      498.25
+     ],
+     [
+      761.76,
+      536.45
+     ],
+     [
+      795.44,
+      490.1
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-m4",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter",
+    "class": "kitchen_sink",
+    "model": "kenney-furniture-kit-kitchenSink",
+    "x_cm": 718.51,
+    "y_cm": 540.692,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 65.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.332558,
+     1.444444,
+     1.836735
+    ],
+    "footprint_cm": [
+     [
+      709.06,
+      498.41
+     ],
+     [
+      675.38,
+      544.77
+     ],
+     [
+      727.96,
+      582.97
+     ],
+     [
+      761.64,
+      536.62
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-m5",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 684.712,
+    "y_cm": 587.21,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 65.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.332558,
+     1.444444,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      675.26,
+      544.93
+     ],
+     [
+      641.58,
+      591.29
+     ],
+     [
+      694.16,
+      629.49
+     ],
+     [
+      727.85,
+      583.13
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-m6",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 650.914,
+    "y_cm": 633.729,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 65.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.332558,
+     1.444444,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      641.46,
+      591.45
+     ],
+     [
+      607.78,
+      637.8
+     ],
+     [
+      660.37,
+      676.01
+     ],
+     [
+      694.05,
+      629.65
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-u1",
+    "room_id": "r-kitchen",
+    "source": "derived:k-counter",
+    "class": "kitchen_upper",
+    "model": "kenney-furniture-kit-kitchenCabinetUpper",
+    "x_cm": 807.767,
+    "y_cm": 392.319,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 35.0,
+    "height_cm": 70.0,
+    "anchor": "wall",
+    "z_cm": 150.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.332558,
+     1.590909,
+     1.794872
+    ],
+    "footprint_cm": [
+     [
+      810.45,
+      358.85
+     ],
+     [
+      776.77,
+      405.21
+     ],
+     [
+      805.09,
+      425.78
+     ],
+     [
+      838.77,
+      379.43
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-u2",
+    "room_id": "r-kitchen",
+    "source": "derived:k-counter",
+    "class": "kitchen_upper",
+    "model": "kenney-furniture-kit-kitchenCabinetUpper",
+    "x_cm": 773.97,
+    "y_cm": 438.838,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 35.0,
+    "height_cm": 70.0,
+    "anchor": "wall",
+    "z_cm": 150.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.332558,
+     1.590909,
+     1.794872
+    ],
+    "footprint_cm": [
+     [
+      776.65,
+      405.37
+     ],
+     [
+      742.97,
+      451.73
+     ],
+     [
+      771.29,
+      472.3
+     ],
+     [
+      804.97,
+      425.95
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-u3",
+    "room_id": "r-kitchen",
+    "source": "derived:k-counter",
+    "class": "kitchen_upper",
+    "model": "kenney-furniture-kit-kitchenCabinetUpper",
+    "x_cm": 740.172,
+    "y_cm": 485.356,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 35.0,
+    "height_cm": 70.0,
+    "anchor": "wall",
+    "z_cm": 150.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.332558,
+     1.590909,
+     1.794872
+    ],
+    "footprint_cm": [
+     [
+      742.85,
+      451.89
+     ],
+     [
+      709.17,
+      498.25
+     ],
+     [
+      737.49,
+      518.82
+     ],
+     [
+      771.17,
+      472.46
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-u4",
+    "room_id": "r-kitchen",
+    "source": "derived:k-counter",
+    "class": "kitchen_upper",
+    "model": "kenney-furniture-kit-kitchenCabinetUpper",
+    "x_cm": 706.374,
+    "y_cm": 531.875,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 35.0,
+    "height_cm": 70.0,
+    "anchor": "wall",
+    "z_cm": 150.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.332558,
+     1.590909,
+     1.794872
+    ],
+    "footprint_cm": [
+     [
+      709.06,
+      498.41
+     ],
+     [
+      675.38,
+      544.77
+     ],
+     [
+      703.69,
+      565.34
+     ],
+     [
+      737.37,
+      518.98
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-u5",
+    "room_id": "r-kitchen",
+    "source": "derived:k-counter",
+    "class": "kitchen_upper",
+    "model": "kenney-furniture-kit-kitchenCabinetUpper",
+    "x_cm": 672.577,
+    "y_cm": 578.393,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 35.0,
+    "height_cm": 70.0,
+    "anchor": "wall",
+    "z_cm": 150.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.332558,
+     1.590909,
+     1.794872
+    ],
+    "footprint_cm": [
+     [
+      675.26,
+      544.93
+     ],
+     [
+      641.58,
+      591.29
+     ],
+     [
+      669.89,
+      611.86
+     ],
+     [
+      703.57,
+      565.5
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-u6",
+    "room_id": "r-kitchen",
+    "source": "derived:k-counter",
+    "class": "kitchen_upper",
+    "model": "kenney-furniture-kit-kitchenCabinetUpper",
+    "x_cm": 638.779,
+    "y_cm": 624.912,
+    "yaw_deg": 126.0,
+    "width_cm": 57.3,
+    "depth_cm": 35.0,
+    "height_cm": 70.0,
+    "anchor": "wall",
+    "z_cm": 150.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.332558,
+     1.590909,
+     1.794872
+    ],
+    "footprint_cm": [
+     [
+      641.46,
+      591.45
+     ],
+     [
+      607.78,
+      637.8
+     ],
+     [
+      636.1,
+      658.38
+     ],
+     [
+      669.78,
+      612.02
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-2-m1",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter-2",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 949.069,
+    "y_cm": 498.284,
+    "yaw_deg": 216.0,
+    "width_cm": 51.13,
+    "depth_cm": 60.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.189147,
+     1.333333,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      987.39,
+      489.04
+     ],
+     [
+      946.02,
+      458.99
+     ],
+     [
+      910.75,
+      507.53
+     ],
+     [
+      952.12,
+      537.58
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-2-m2",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter-2",
+    "class": "stove",
+    "model": "kenney-furniture-kit-kitchenStoveElectric",
+    "x_cm": 907.54,
+    "y_cm": 468.111,
+    "yaw_deg": 216.0,
+    "width_cm": 51.13,
+    "depth_cm": 60.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.189147,
+     1.333333,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      945.86,
+      458.87
+     ],
+     [
+      904.49,
+      428.81
+     ],
+     [
+      869.22,
+      477.35
+     ],
+     [
+      910.59,
+      507.41
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "k-counter-2-m3",
+    "room_id": "r-kitchen",
+    "source": "fixture:k-counter-2",
+    "class": "kitchen_cabinet",
+    "model": "kenney-furniture-kit-kitchenCabinet",
+    "x_cm": 866.01,
+    "y_cm": 437.938,
+    "yaw_deg": 216.0,
+    "width_cm": 51.13,
+    "depth_cm": 60.0,
+    "height_cm": 90.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.189147,
+     1.333333,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      904.33,
+      428.69
+     ],
+     [
+      862.96,
+      398.64
+     ],
+     [
+      827.69,
+      447.18
+     ],
+     [
+      869.06,
+      477.24
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "d-table",
+    "room_id": "r-dining",
+    "source": "fixture:d-table",
+    "class": "dining_table",
+    "model": "kenney-furniture-kit-table",
+    "x_cm": 978.0,
+    "y_cm": 692.0,
+    "yaw_deg": 216.0,
+    "width_cm": 120.0,
+    "depth_cm": 120.0,
+    "height_cm": 75.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.426042,
+     2.682343,
+     2.295473
+    ],
+    "footprint_cm": [
+     [
+      1061.81,
+      678.73
+     ],
+     [
+      964.73,
+      608.19
+     ],
+     [
+      894.19,
+      705.27
+     ],
+     [
+      991.27,
+      775.81
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "d-table-chair-1",
+    "room_id": "r-dining",
+    "source": "derived:d-table",
+    "class": "dining_chair",
+    "model": "kenney-furniture-kit-chairModernCushion",
+    "x_cm": 931.271,
+    "y_cm": 756.317,
+    "yaw_deg": 36.0,
+    "width_cm": 45.0,
+    "depth_cm": 45.0,
+    "height_cm": 85.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     2.25,
+     2.25,
+     1.847826
+    ],
+    "footprint_cm": [
+     [
+      899.84,
+      761.29
+     ],
+     [
+      936.25,
+      787.74
+     ],
+     [
+      962.7,
+      751.34
+     ],
+     [
+      926.29,
+      724.89
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "d-table-chair-2",
+    "room_id": "r-dining",
+    "source": "derived:d-table",
+    "class": "dining_chair",
+    "model": "kenney-furniture-kit-chairModernCushion",
+    "x_cm": 1024.729,
+    "y_cm": 627.683,
+    "yaw_deg": 216.0,
+    "width_cm": 45.0,
+    "depth_cm": 45.0,
+    "height_cm": 85.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     2.25,
+     2.25,
+     1.847826
+    ],
+    "footprint_cm": [
+     [
+      1056.16,
+      622.71
+     ],
+     [
+      1019.75,
+      596.26
+     ],
+     [
+      993.3,
+      632.66
+     ],
+     [
+      1029.71,
+      659.11
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "d-table-chair-3",
+    "room_id": "r-dining",
+    "source": "derived:d-table",
+    "class": "dining_chair",
+    "model": "kenney-furniture-kit-chairModernCushion",
+    "x_cm": 1042.317,
+    "y_cm": 738.729,
+    "yaw_deg": 306.0,
+    "width_cm": 45.0,
+    "depth_cm": 45.0,
+    "height_cm": 85.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     2.25,
+     2.25,
+     1.847826
+    ],
+    "footprint_cm": [
+     [
+      1047.29,
+      770.16
+     ],
+     [
+      1073.74,
+      733.75
+     ],
+     [
+      1037.34,
+      707.3
+     ],
+     [
+      1010.89,
+      743.71
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "d-table-chair-4",
+    "room_id": "r-dining",
+    "source": "derived:d-table",
+    "class": "dining_chair",
+    "model": "kenney-furniture-kit-chairModernCushion",
+    "x_cm": 913.683,
+    "y_cm": 645.271,
+    "yaw_deg": 126.0,
+    "width_cm": 45.0,
+    "depth_cm": 45.0,
+    "height_cm": 85.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     2.25,
+     2.25,
+     1.847826
+    ],
+    "footprint_cm": [
+     [
+      908.71,
+      613.84
+     ],
+     [
+      882.26,
+      650.25
+     ],
+     [
+      918.66,
+      676.7
+     ],
+     [
+      945.11,
+      640.29
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "l-sofa",
+    "room_id": "r-living",
+    "source": "fixture:l-sofa",
+    "class": "sofa",
+    "model": "kenney-furniture-kit-loungeDesignSofa",
+    "x_cm": 808.0,
+    "y_cm": 905.0,
+    "yaw_deg": 199.6,
+    "width_cm": 225.0,
+    "depth_cm": 90.0,
+    "height_cm": 71.11,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     2.008929,
+     2.195122,
+     1.777778
+    ],
+    "footprint_cm": [
+     [
+      929.08,
+      900.35
+     ],
+     [
+      717.11,
+      824.87
+     ],
+     [
+      686.92,
+      909.65
+     ],
+     [
+      898.89,
+      985.13
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "l-armchair",
+    "room_id": "r-living",
+    "source": "fixture:l-armchair",
+    "class": "armchair",
+    "model": "polyhaven-modern_arm_chair_01",
+    "x_cm": 589.0,
+    "y_cm": 953.0,
+    "yaw_deg": 113.0757,
+    "width_cm": 82.03,
+    "depth_cm": 98.66,
+    "height_cm": 102.28,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      559.69,
+      895.93
+     ],
+     [
+      527.54,
+      971.4
+     ],
+     [
+      618.31,
+      1010.07
+     ],
+     [
+      650.46,
+      934.6
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "l-coffee",
+    "room_id": "r-living",
+    "source": "fixture:l-coffee",
+    "class": "coffee_table",
+    "model": "polyhaven-modern_coffee_table_01",
+    "x_cm": 758.0,
+    "y_cm": 1025.0,
+    "yaw_deg": 199.6,
+    "width_cm": 120.18,
+    "depth_cm": 60.0,
+    "height_cm": 39.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      824.67,
+      1016.9
+     ],
+     [
+      711.46,
+      976.58
+     ],
+     [
+      691.33,
+      1033.1
+     ],
+     [
+      804.54,
+      1073.42
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "l-tv-1",
+    "room_id": "r-living",
+    "source": "fixture:l-tv",
+    "class": "tv_unit",
+    "model": "kenney-furniture-kit-cabinetTelevision",
+    "x_cm": 689.346,
+    "y_cm": 1116.841,
+    "yaw_deg": 19.6,
+    "width_cm": 149.6,
+    "depth_cm": 45.0,
+    "height_cm": 50.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.87,
+     1.8,
+     1.612903
+    ],
+    "footprint_cm": [
+     [
+      611.33,
+      1112.95
+     ],
+     [
+      752.26,
+      1163.13
+     ],
+     [
+      767.36,
+      1120.74
+     ],
+     [
+      626.43,
+      1070.55
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "l-tv-2",
+    "room_id": "r-living",
+    "source": "fixture:l-tv",
+    "class": "tv_unit",
+    "model": "kenney-furniture-kit-cabinetTelevision",
+    "x_cm": 830.654,
+    "y_cm": 1167.159,
+    "yaw_deg": 19.6,
+    "width_cm": 149.6,
+    "depth_cm": 45.0,
+    "height_cm": 50.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.87,
+     1.8,
+     1.612903
+    ],
+    "footprint_cm": [
+     [
+      752.64,
+      1163.26
+     ],
+     [
+      893.57,
+      1213.45
+     ],
+     [
+      908.67,
+      1171.05
+     ],
+     [
+      767.74,
+      1120.87
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "l-tv-tv",
+    "room_id": "r-living",
+    "source": "derived:l-tv",
+    "class": "tv",
+    "model": "kenney-furniture-kit-televisionModern",
+    "x_cm": 757.623,
+    "y_cm": 1148.674,
+    "yaw_deg": 19.6,
+    "width_cm": 121.74,
+    "depth_cm": 22.83,
+    "height_cm": 80.84,
+    "anchor": "on_top",
+    "z_cm": 50.0,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.777745,
+     1.778037,
+     1.77768
+    ],
+    "footprint_cm": [
+     [
+      696.45,
+      1139.01
+     ],
+     [
+      811.14,
+      1179.85
+     ],
+     [
+      818.8,
+      1158.34
+     ],
+     [
+      704.11,
+      1117.5
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-bed",
+    "room_id": "r-bedroom-main",
+    "source": "fixture:bm-bed",
+    "class": "bed_double",
+    "model": "kenney-furniture-kit-bedDouble",
+    "x_cm": 712.0,
+    "y_cm": 1431.0,
+    "yaw_deg": 19.6,
+    "width_cm": 180.0,
+    "depth_cm": 210.0,
+    "height_cm": 55.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.882845,
+     1.866667,
+     1.466667
+    ],
+    "footprint_cm": [
+     [
+      591.99,
+      1499.73
+     ],
+     [
+      761.56,
+      1560.11
+     ],
+     [
+      832.01,
+      1362.27
+     ],
+     [
+      662.44,
+      1301.89
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-bed-nightstand-l",
+    "room_id": "r-bedroom-main",
+    "source": "derived:bm-bed",
+    "class": "nightstand",
+    "model": "kenney-furniture-kit-cabinetBedDrawerTable",
+    "x_cm": 575.014,
+    "y_cm": 1471.388,
+    "yaw_deg": 19.6,
+    "width_cm": 45.0,
+    "depth_cm": 40.0,
+    "height_cm": 50.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.691729,
+     1.840773,
+     1.899696
+    ],
+    "footprint_cm": [
+     [
+      547.11,
+      1482.68
+     ],
+     [
+      589.5,
+      1497.78
+     ],
+     [
+      602.92,
+      1460.09
+     ],
+     [
+      560.53,
+      1445.0
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-bed-lamp-l",
+    "room_id": "r-bedroom-main",
+    "source": "derived:bm-bed",
+    "class": "table_lamp",
+    "model": "kenney-furniture-kit-lampRoundTable",
+    "x_cm": 575.014,
+    "y_cm": 1471.388,
+    "yaw_deg": 19.6,
+    "width_cm": 27.03,
+    "depth_cm": 31.21,
+    "height_cm": 55.87,
+    "anchor": "on_top",
+    "z_cm": 50.0,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.777822,
+     1.77774,
+     1.777884
+    ],
+    "footprint_cm": [
+     [
+      557.05,
+      1481.56
+     ],
+     [
+      582.51,
+      1490.62
+     ],
+     [
+      592.98,
+      1461.22
+     ],
+     [
+      567.52,
+      1452.15
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-bed-nightstand-r",
+    "room_id": "r-bedroom-main",
+    "source": "derived:bm-bed",
+    "class": "nightstand",
+    "model": "kenney-furniture-kit-cabinetBedDrawerTable",
+    "x_cm": 792.63,
+    "y_cm": 1548.877,
+    "yaw_deg": 19.6,
+    "width_cm": 45.0,
+    "depth_cm": 40.0,
+    "height_cm": 50.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.691729,
+     1.840773,
+     1.899696
+    ],
+    "footprint_cm": [
+     [
+      764.72,
+      1560.17
+     ],
+     [
+      807.12,
+      1575.27
+     ],
+     [
+      820.54,
+      1537.58
+     ],
+     [
+      778.14,
+      1522.49
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-bed-lamp-r",
+    "room_id": "r-bedroom-main",
+    "source": "derived:bm-bed",
+    "class": "table_lamp",
+    "model": "kenney-furniture-kit-lampRoundTable",
+    "x_cm": 792.63,
+    "y_cm": 1548.877,
+    "yaw_deg": 19.6,
+    "width_cm": 27.03,
+    "depth_cm": 31.21,
+    "height_cm": 55.87,
+    "anchor": "on_top",
+    "z_cm": 50.0,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.777822,
+     1.77774,
+     1.777884
+    ],
+    "footprint_cm": [
+     [
+      774.66,
+      1559.04
+     ],
+     [
+      800.13,
+      1568.11
+     ],
+     [
+      810.6,
+      1538.71
+     ],
+     [
+      785.13,
+      1529.64
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-bed-art",
+    "room_id": "r-bedroom-main",
+    "source": "derived:bm-bed",
+    "class": "wall_art",
+    "model": "polyhaven-hanging_picture_frame_01",
+    "x_cm": 676.647,
+    "y_cm": 1530.088,
+    "yaw_deg": 18.8162,
+    "width_cm": 59.4,
+    "depth_cm": 1.57,
+    "height_cm": 84.1,
+    "anchor": "wall",
+    "z_cm": 120.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      648.28,
+      1521.25
+     ],
+     [
+      704.51,
+      1540.41
+     ],
+     [
+      705.01,
+      1538.92
+     ],
+     [
+      648.79,
+      1519.77
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "b2-bed",
+    "room_id": "r-bedroom-2",
+    "source": "fixture:b2-bed",
+    "class": "bed_double",
+    "model": "kenney-furniture-kit-bedDouble",
+    "x_cm": 638.0,
+    "y_cm": 281.0,
+    "yaw_deg": 126.0,
+    "width_cm": 160.0,
+    "depth_cm": 200.0,
+    "height_cm": 55.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.67364,
+     1.777778,
+     1.466667
+    ],
+    "footprint_cm": [
+     [
+      604.12,
+      157.5
+     ],
+     [
+      510.08,
+      286.94
+     ],
+     [
+      671.88,
+      404.5
+     ],
+     [
+      765.92,
+      275.06
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "b2-bed-nightstand-l",
+    "room_id": "r-bedroom-2",
+    "source": "derived:b2-bed",
+    "class": "nightstand",
+    "model": "kenney-furniture-kit-cabinetBedDrawerTable",
+    "x_cm": 636.099,
+    "y_cm": 149.214,
+    "yaw_deg": 126.0,
+    "width_cm": 45.0,
+    "depth_cm": 40.0,
+    "height_cm": 50.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.691729,
+     1.840773,
+     1.899696
+    ],
+    "footprint_cm": [
+     [
+      633.14,
+      119.26
+     ],
+     [
+      606.69,
+      155.66
+     ],
+     [
+      639.05,
+      179.17
+     ],
+     [
+      665.5,
+      142.77
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "b2-bed-lamp-l",
+    "room_id": "r-bedroom-2",
+    "source": "derived:b2-bed",
+    "class": "table_lamp",
+    "model": "kenney-furniture-kit-lampRoundTable",
+    "x_cm": 636.099,
+    "y_cm": 149.214,
+    "yaw_deg": 126.0,
+    "width_cm": 27.03,
+    "depth_cm": 31.21,
+    "height_cm": 55.87,
+    "anchor": "on_top",
+    "z_cm": 50.0,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.777822,
+     1.77774,
+     1.777884
+    ],
+    "footprint_cm": [
+     [
+      631.42,
+      129.11
+     ],
+     [
+      615.53,
+      150.98
+     ],
+     [
+      640.78,
+      169.32
+     ],
+     [
+      656.67,
+      147.45
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "b2-bed-nightstand-r",
+    "room_id": "r-bedroom-2",
+    "source": "derived:b2-bed",
+    "class": "nightstand",
+    "model": "kenney-furniture-kit-cabinetBedDrawerTable",
+    "x_cm": 512.076,
+    "y_cm": 319.916,
+    "yaw_deg": 126.0,
+    "width_cm": 45.0,
+    "depth_cm": 40.0,
+    "height_cm": 50.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.691729,
+     1.840773,
+     1.899696
+    ],
+    "footprint_cm": [
+     [
+      509.12,
+      289.96
+     ],
+     [
+      482.67,
+      326.36
+     ],
+     [
+      515.03,
+      349.87
+     ],
+     [
+      541.48,
+      313.47
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "b2-bed-lamp-r",
+    "room_id": "r-bedroom-2",
+    "source": "derived:b2-bed",
+    "class": "table_lamp",
+    "model": "kenney-furniture-kit-lampRoundTable",
+    "x_cm": 512.076,
+    "y_cm": 319.916,
+    "yaw_deg": 126.0,
+    "width_cm": 27.03,
+    "depth_cm": 31.21,
+    "height_cm": 55.87,
+    "anchor": "on_top",
+    "z_cm": 50.0,
+    "layer": "on_top",
+    "scale_xyz": [
+     1.777822,
+     1.77774,
+     1.777884
+    ],
+    "footprint_cm": [
+     [
+      507.4,
+      299.81
+     ],
+     [
+      491.51,
+      321.68
+     ],
+     [
+      516.76,
+      340.02
+     ],
+     [
+      532.64,
+      318.15
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "b2-bed-art",
+    "room_id": "r-bedroom-2",
+    "source": "derived:b2-bed",
+    "class": "wall_art",
+    "model": "polyhaven-hanging_picture_frame_01",
+    "x_cm": 546.877,
+    "y_cm": 214.785,
+    "yaw_deg": 126.0618,
+    "width_cm": 59.4,
+    "depth_cm": 1.57,
+    "height_cm": 84.1,
+    "anchor": "wall",
+    "z_cm": 120.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      563.73,
+      190.31
+     ],
+     [
+      528.76,
+      238.33
+     ],
+     [
+      530.03,
+      239.26
+     ],
+     [
+      564.99,
+      191.24
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-vanity",
+    "room_id": "r-bath-main",
+    "source": "fixture:bm-vanity",
+    "class": "bathroom_sink",
+    "model": "kenney-furniture-kit-bathroomSinkSquare",
+    "x_cm": 341.316,
+    "y_cm": 1215.536,
+    "yaw_deg": 199.6,
+    "width_cm": 90.0,
+    "depth_cm": 50.0,
+    "height_cm": 85.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     2.093023,
+     1.666667,
+     1.465517
+    ],
+    "footprint_cm": [
+     [
+      392.1,
+      1207.08
+     ],
+     [
+      307.31,
+      1176.89
+     ],
+     [
+      290.54,
+      1223.99
+     ],
+     [
+      375.32,
+      1254.18
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-vanity-mirror",
+    "room_id": "r-bath-main",
+    "source": "derived:bm-vanity",
+    "class": "mirror",
+    "model": "kenney-furniture-kit-bathroomMirror",
+    "x_cm": 349.199,
+    "y_cm": 1193.398,
+    "yaw_deg": 199.6,
+    "width_cm": 60.0,
+    "depth_cm": 5.0,
+    "height_cm": 80.0,
+    "anchor": "wall",
+    "z_cm": 110.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.991106,
+     0.34626,
+     1.840646
+    ],
+    "footprint_cm": [
+     [
+      378.3,
+      1201.11
+     ],
+     [
+      321.78,
+      1180.98
+     ],
+     [
+      320.1,
+      1185.69
+     ],
+     [
+      376.62,
+      1205.82
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bm-wc",
+    "room_id": "r-bath-main",
+    "source": "fixture:bm-wc",
+    "class": "toilet",
+    "model": "kenney-furniture-kit-toilet",
+    "x_cm": 243.0,
+    "y_cm": 1188.0,
+    "yaw_deg": 199.6,
+    "width_cm": 40.0,
+    "depth_cm": 60.0,
+    "height_cm": 78.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.279795,
+     1.257387,
+     1.729643
+    ],
+    "footprint_cm": [
+     [
+      271.9,
+      1166.45
+     ],
+     [
+      234.22,
+      1153.03
+     ],
+     [
+      214.1,
+      1209.55
+     ],
+     [
+      251.78,
+      1222.97
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bg-wc",
+    "room_id": "r-bath-guest",
+    "source": "fixture:bg-wc",
+    "class": "toilet",
+    "model": "kenney-furniture-kit-toilet",
+    "x_cm": 392.0,
+    "y_cm": 524.0,
+    "yaw_deg": 216.0,
+    "width_cm": 40.0,
+    "depth_cm": 60.0,
+    "height_cm": 78.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.279795,
+     1.257387,
+     1.729643
+    ],
+    "footprint_cm": [
+     [
+      425.81,
+      511.49
+     ],
+     [
+      393.45,
+      487.97
+     ],
+     [
+      358.19,
+      536.51
+     ],
+     [
+      390.55,
+      560.03
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bg-vanity",
+    "room_id": "r-bath-guest",
+    "source": "fixture:bg-vanity",
+    "class": "bathroom_sink",
+    "model": "kenney-furniture-kit-bathroomSinkSquare",
+    "x_cm": 397.44,
+    "y_cm": 631.41,
+    "yaw_deg": 36.0,
+    "width_cm": 71.5,
+    "depth_cm": 50.01,
+    "height_cm": 85.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.662791,
+     1.667,
+     1.465517
+    ],
+    "footprint_cm": [
+     [
+      353.82,
+      630.63
+     ],
+     [
+      411.66,
+      672.65
+     ],
+     [
+      441.06,
+      632.19
+     ],
+     [
+      383.22,
+      590.17
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "bg-vanity-mirror",
+    "room_id": "r-bath-guest",
+    "source": "derived:bg-vanity",
+    "class": "mirror",
+    "model": "kenney-furniture-kit-bathroomMirror",
+    "x_cm": 383.624,
+    "y_cm": 650.426,
+    "yaw_deg": 36.0,
+    "width_cm": 60.0,
+    "depth_cm": 5.0,
+    "height_cm": 80.0,
+    "anchor": "wall",
+    "z_cm": 110.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.991106,
+     0.34626,
+     1.840646
+    ],
+    "footprint_cm": [
+     [
+      357.88,
+      634.81
+     ],
+     [
+      406.43,
+      670.08
+     ],
+     [
+      409.36,
+      666.04
+     ],
+     [
+      360.82,
+      630.77
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-entrance-console",
+    "room_id": "r-entrance",
+    "source": "furnishing:ffp-entrance-console",
+    "class": "tv_unit",
+    "model": "kenney-furniture-kit-cabinetTelevision",
+    "x_cm": 234.37,
+    "y_cm": 889.26,
+    "yaw_deg": 100.02,
+    "width_cm": 120.0,
+    "depth_cm": 40.0,
+    "height_cm": 75.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.5,
+     1.6,
+     2.419355
+    ],
+    "footprint_cm": [
+     [
+      225.11,
+      826.7
+     ],
+     [
+      204.24,
+      944.86
+     ],
+     [
+      243.63,
+      951.82
+     ],
+     [
+      264.5,
+      833.66
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-entrance-art",
+    "room_id": "r-entrance",
+    "source": "furnishing:ffp-entrance-art",
+    "class": "wall_art",
+    "model": "polyhaven-hanging_picture_frame_01",
+    "x_cm": 214.47,
+    "y_cm": 885.74,
+    "yaw_deg": 100.02,
+    "width_cm": 59.4,
+    "depth_cm": 1.57,
+    "height_cm": 84.1,
+    "anchor": "wall",
+    "z_cm": 120.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      218.86,
+      856.36
+     ],
+     [
+      208.53,
+      914.85
+     ],
+     [
+      210.08,
+      915.12
+     ],
+     [
+      220.41,
+      856.63
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-entrance-doormat",
+    "room_id": "r-entrance",
+    "source": "furnishing:ffp-entrance-doormat",
+    "class": "bath_mat",
+    "model": "kenney-furniture-kit-rugDoormat",
+    "x_cm": 266.45,
+    "y_cm": 724.01,
+    "yaw_deg": 103.2,
+    "width_cm": 80.0,
+    "depth_cm": 50.0,
+    "height_cm": 2.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "rug",
+    "scale_xyz": [
+     1.863499,
+     2.109616,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      251.24,
+      679.36
+     ],
+     [
+      232.98,
+      757.24
+     ],
+     [
+      281.66,
+      768.66
+     ],
+     [
+      299.92,
+      690.78
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-living-rug",
+    "room_id": "r-living",
+    "source": "furnishing:ffp-living-rug",
+    "class": "rug",
+    "model": "kenney-furniture-kit-rugRectangle",
+    "x_cm": 763.03,
+    "y_cm": 1010.87,
+    "yaw_deg": 199.6,
+    "width_cm": 240.0,
+    "depth_cm": 170.0,
+    "height_cm": 1.78,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "rug",
+    "scale_xyz": [
+     1.528662,
+     1.847826,
+     1.78
+    ],
+    "footprint_cm": [
+     [
+      904.59,
+      971.05
+     ],
+     [
+      678.5,
+      890.54
+     ],
+     [
+      621.47,
+      1050.69
+     ],
+     [
+      847.56,
+      1131.2
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-living-lamp",
+    "room_id": "r-living",
+    "source": "furnishing:ffp-living-lamp",
+    "class": "floor_lamp",
+    "model": "kenney-furniture-kit-lampRoundFloor",
+    "x_cm": 948.17,
+    "y_cm": 929.02,
+    "yaw_deg": 199.6,
+    "width_cm": 27.03,
+    "depth_cm": 31.21,
+    "height_cm": 152.89,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.777822,
+     1.77774,
+     1.777791
+    ],
+    "footprint_cm": [
+     [
+      966.14,
+      918.85
+     ],
+     [
+      940.67,
+      909.79
+     ],
+     [
+      930.2,
+      939.19
+     ],
+     [
+      955.67,
+      948.25
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-living-art",
+    "room_id": "r-living",
+    "source": "furnishing:ffp-living-art",
+    "class": "wall_art",
+    "model": "polyhaven-hanging_picture_frame_01",
+    "x_cm": 560.5,
+    "y_cm": 1113.99,
+    "yaw_deg": 18.82,
+    "width_cm": 59.4,
+    "depth_cm": 1.57,
+    "height_cm": 84.1,
+    "anchor": "wall",
+    "z_cm": 120.0,
+    "layer": "wall",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      532.13,
+      1105.15
+     ],
+     [
+      588.36,
+      1124.31
+     ],
+     [
+      588.87,
+      1122.83
+     ],
+     [
+      532.64,
+      1103.67
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-living-plant",
+    "room_id": "r-living",
+    "source": "furnishing:ffp-living-plant",
+    "class": "plant",
+    "model": "polyhaven-potted_plant_02",
+    "x_cm": 348.24,
+    "y_cm": 1042.44,
+    "yaw_deg": 0.0,
+    "width_cm": 72.89,
+    "depth_cm": 75.75,
+    "height_cm": 63.26,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      311.8,
+      1080.32
+     ],
+     [
+      384.69,
+      1080.32
+     ],
+     [
+      384.69,
+      1004.57
+     ],
+     [
+      311.8,
+      1004.57
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-terrace-living-set",
+    "room_id": "r-terrace-living",
+    "source": "furnishing:ffp-terrace-living-set",
+    "class": "outdoor_set",
+    "model": "polyhaven-outdoor_table_chair_set_01",
+    "x_cm": 1371.9,
+    "y_cm": 787.2,
+    "yaw_deg": 199.0,
+    "width_cm": 79.25,
+    "depth_cm": 170.63,
+    "height_cm": 85.86,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      1437.14,
+      719.43
+     ],
+     [
+      1362.21,
+      693.63
+     ],
+     [
+      1306.66,
+      854.97
+     ],
+     [
+      1381.59,
+      880.77
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-terrace-living-plant-1",
+    "room_id": "r-terrace-living",
+    "source": "furnishing:ffp-terrace-living-plant-1",
+    "class": "plant",
+    "model": "polyhaven-potted_plant_02",
+    "x_cm": 1254.33,
+    "y_cm": 827.9,
+    "yaw_deg": 0.0,
+    "width_cm": 72.89,
+    "depth_cm": 75.75,
+    "height_cm": 63.26,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      1217.88,
+      865.77
+     ],
+     [
+      1290.77,
+      865.77
+     ],
+     [
+      1290.77,
+      790.02
+     ],
+     [
+      1217.88,
+      790.02
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-terrace-living-plant-2",
+    "room_id": "r-terrace-living",
+    "source": "furnishing:ffp-terrace-living-plant-2",
+    "class": "plant",
+    "model": "polyhaven-potted_plant_02",
+    "x_cm": 1119.39,
+    "y_cm": 1065.96,
+    "yaw_deg": 0.0,
+    "width_cm": 72.89,
+    "depth_cm": 75.75,
+    "height_cm": 63.26,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      1082.95,
+      1103.84
+     ],
+     [
+      1155.84,
+      1103.84
+     ],
+     [
+      1155.84,
+      1028.09
+     ],
+     [
+      1082.95,
+      1028.09
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-terrace-bedroom-chair",
+    "room_id": "r-terrace-bedroom",
+    "source": "furnishing:ffp-terrace-bedroom-chair",
+    "class": "armchair",
+    "model": "polyhaven-modern_arm_chair_01",
+    "x_cm": 1057.2,
+    "y_cm": 1391.4,
+    "yaw_deg": 98.99,
+    "width_cm": 82.03,
+    "depth_cm": 98.66,
+    "height_cm": 102.28,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "floor",
+    "scale_xyz": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "footprint_cm": [
+     [
+      1014.89,
+      1343.18
+     ],
+     [
+      1002.07,
+      1424.2
+     ],
+     [
+      1099.51,
+      1439.62
+     ],
+     [
+      1112.33,
+      1358.6
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-bedroom-main-rug",
+    "room_id": "r-bedroom-main",
+    "source": "furnishing:ffp-bedroom-main-rug",
+    "class": "rug",
+    "model": "kenney-furniture-kit-rugRectangle",
+    "x_cm": 732.13,
+    "y_cm": 1374.48,
+    "yaw_deg": 19.6,
+    "width_cm": 240.0,
+    "depth_cm": 170.0,
+    "height_cm": 1.78,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "rug",
+    "scale_xyz": [
+     1.528662,
+     1.847826,
+     1.78
+    ],
+    "footprint_cm": [
+     [
+      590.57,
+      1414.3
+     ],
+     [
+      816.66,
+      1494.81
+     ],
+     [
+      873.69,
+      1334.66
+     ],
+     [
+      647.6,
+      1254.15
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-bath-main-mat",
+    "room_id": "r-bath-main",
+    "source": "furnishing:ffp-bath-main-mat",
+    "class": "bath_mat",
+    "model": "kenney-furniture-kit-rugDoormat",
+    "x_cm": 279.49,
+    "y_cm": 1266.23,
+    "yaw_deg": 19.6,
+    "width_cm": 80.0,
+    "depth_cm": 50.0,
+    "height_cm": 2.0,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "rug",
+    "scale_xyz": [
+     1.863499,
+     2.109616,
+     2.0
+    ],
+    "footprint_cm": [
+     [
+      233.42,
+      1276.36
+     ],
+     [
+      308.79,
+      1303.2
+     ],
+     [
+      325.56,
+      1256.1
+     ],
+     [
+      250.19,
+      1229.26
+     ]
+    ],
+    "checks": []
+   },
+   {
+    "id": "ffp-bedroom-2-rug",
+    "room_id": "r-bedroom-2",
+    "source": "furnishing:ffp-bedroom-2-rug",
+    "class": "rug",
+    "model": "kenney-furniture-kit-rugRectangle",
+    "x_cm": 682.5,
+    "y_cm": 313.33,
+    "yaw_deg": 126.0,
+    "width_cm": 240.0,
+    "depth_cm": 170.0,
+    "height_cm": 1.78,
+    "anchor": "floor",
+    "z_cm": null,
+    "layer": "rug",
+    "scale_xyz": [
+     1.528662,
+     1.847826,
+     1.78
+    ],
+    "footprint_cm": [
+     [
+      684.27,
+      166.29
+     ],
+     [
+      543.2,
+      360.45
+     ],
+     [
+      680.73,
+      460.37
+     ],
+     [
+      821.8,
+      266.21
+     ]
+    ],
+    "checks": []
+   }
+  ],
+  "procedural": [
+   {
+    "id": "w-closet-1",
+    "room_id": "r-wardrobe",
+    "source": "fixture:w-closet-1",
+    "kind": "closet",
+    "parts": [
+     {
+      "name": "CLOSET_w-closet-1_carcass",
+      "poly_cm": [
+       [
+        351.522,
+        1412.462
+       ],
+       [
+        487.188,
+        1460.771
+       ],
+       [
+        506.647,
+        1406.122
+       ],
+       [
+        370.981,
+        1357.813
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       240.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-1_plinth",
+      "poly_cm": [
+       [
+        371.345,
+        1358.58
+       ],
+       [
+        505.881,
+        1406.486
+       ],
+       [
+        506.25,
+        1405.45
+       ],
+       [
+        371.714,
+        1357.544
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       8.0
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "CLOSET_w-closet-1_door1",
+      "poly_cm": [
+       [
+        371.203,
+        1357.786
+       ],
+       [
+        416.049,
+        1373.755
+       ],
+       [
+        416.686,
+        1371.965
+       ],
+       [
+        371.841,
+        1355.996
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-1_handle1",
+      "poly_cm": [
+       [
+        413.294,
+        1370.757
+       ],
+       [
+        414.425,
+        1371.16
+       ],
+       [
+        415.264,
+        1368.805
+       ],
+       [
+        414.133,
+        1368.402
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "CLOSET_w-closet-1_door2",
+      "poly_cm": [
+       [
+        416.425,
+        1373.889
+       ],
+       [
+        461.27,
+        1389.858
+       ],
+       [
+        461.908,
+        1388.068
+       ],
+       [
+        417.063,
+        1372.099
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-1_handle2",
+      "poly_cm": [
+       [
+        419.324,
+        1372.904
+       ],
+       [
+        420.454,
+        1373.307
+       ],
+       [
+        421.293,
+        1370.952
+       ],
+       [
+        420.162,
+        1370.549
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "CLOSET_w-closet-1_door3",
+      "poly_cm": [
+       [
+        461.647,
+        1389.992
+       ],
+       [
+        506.492,
+        1405.961
+       ],
+       [
+        507.13,
+        1404.171
+       ],
+       [
+        462.285,
+        1388.202
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-1_handle3",
+      "poly_cm": [
+       [
+        464.546,
+        1389.007
+       ],
+       [
+        465.676,
+        1389.41
+       ],
+       [
+        466.515,
+        1387.055
+       ],
+       [
+        465.384,
+        1386.652
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     }
+    ],
+    "checks": [],
+    "footprint_cm": [
+     [
+      351.52,
+      1412.46
+     ],
+     [
+      487.19,
+      1460.77
+     ],
+     [
+      507.32,
+      1404.24
+     ],
+     [
+      371.65,
+      1355.93
+     ]
+    ]
+   },
+   {
+    "id": "w-closet-2",
+    "room_id": "r-wardrobe",
+    "source": "fixture:w-closet-2",
+    "kind": "closet",
+    "parts": [
+     {
+      "name": "CLOSET_w-closet-2_carcass",
+      "poly_cm": [
+       [
+        519.676,
+        1408.217
+       ],
+       [
+        564.291,
+        1282.923
+       ],
+       [
+        509.652,
+        1263.467
+       ],
+       [
+        465.037,
+        1388.761
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       240.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-2_plinth",
+      "poly_cm": [
+       [
+        465.803,
+        1388.397
+       ],
+       [
+        510.016,
+        1264.234
+       ],
+       [
+        508.979,
+        1263.865
+       ],
+       [
+        464.767,
+        1388.028
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       8.0
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "CLOSET_w-closet-2_door1",
+      "poly_cm": [
+       [
+        465.009,
+        1388.539
+       ],
+       [
+        479.747,
+        1347.151
+       ],
+       [
+        477.957,
+        1346.514
+       ],
+       [
+        463.22,
+        1387.901
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-2_handle1",
+      "poly_cm": [
+       [
+        476.749,
+        1349.905
+       ],
+       [
+        477.152,
+        1348.775
+       ],
+       [
+        474.797,
+        1347.936
+       ],
+       [
+        474.394,
+        1349.066
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "CLOSET_w-closet-2_door2",
+      "poly_cm": [
+       [
+        479.881,
+        1346.774
+       ],
+       [
+        494.619,
+        1305.386
+       ],
+       [
+        492.829,
+        1304.749
+       ],
+       [
+        478.091,
+        1346.137
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-2_handle2",
+      "poly_cm": [
+       [
+        478.896,
+        1343.876
+       ],
+       [
+        479.299,
+        1342.745
+       ],
+       [
+        476.944,
+        1341.907
+       ],
+       [
+        476.541,
+        1343.037
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "CLOSET_w-closet-2_door3",
+      "poly_cm": [
+       [
+        494.753,
+        1305.01
+       ],
+       [
+        509.49,
+        1263.622
+       ],
+       [
+        507.7,
+        1262.985
+       ],
+       [
+        492.963,
+        1304.372
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_w-closet-2_handle3",
+      "poly_cm": [
+       [
+        493.768,
+        1302.111
+       ],
+       [
+        494.171,
+        1300.981
+       ],
+       [
+        491.815,
+        1300.142
+       ],
+       [
+        491.413,
+        1301.273
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     }
+    ],
+    "checks": [],
+    "footprint_cm": [
+     [
+      519.68,
+      1408.22
+     ],
+     [
+      564.29,
+      1282.92
+     ],
+     [
+      507.77,
+      1262.8
+     ],
+     [
+      463.15,
+      1388.09
+     ]
+    ]
+   },
+   {
+    "id": "b2-closet",
+    "room_id": "r-bedroom-2",
+    "source": "fixture:b2-closet",
+    "kind": "closet",
+    "parts": [
+     {
+      "name": "CLOSET_b2-closet_carcass",
+      "poly_cm": [
+       [
+        422.157,
+        376.881
+       ],
+       [
+        562.53,
+        478.868
+       ],
+       [
+        596.627,
+        431.937
+       ],
+       [
+        456.255,
+        329.95
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       240.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_b2-closet_plinth",
+      "poly_cm": [
+       [
+        456.387,
+        330.788
+       ],
+       [
+        595.789,
+        432.07
+       ],
+       [
+        596.436,
+        431.18
+       ],
+       [
+        457.034,
+        329.898
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       8.0
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "CLOSET_b2-closet_door1",
+      "poly_cm": [
+       [
+        456.475,
+        329.987
+       ],
+       [
+        502.942,
+        363.747
+       ],
+       [
+        504.059,
+        362.21
+       ],
+       [
+        457.592,
+        328.45
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_b2-closet_handle1",
+      "poly_cm": [
+       [
+        501.147,
+        360.094
+       ],
+       [
+        502.118,
+        360.799
+       ],
+       [
+        503.587,
+        358.777
+       ],
+       [
+        502.616,
+        358.072
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "CLOSET_b2-closet_door2",
+      "poly_cm": [
+       [
+        503.266,
+        363.982
+       ],
+       [
+        549.733,
+        397.743
+       ],
+       [
+        550.85,
+        396.206
+       ],
+       [
+        504.383,
+        362.445
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_b2-closet_handle2",
+      "poly_cm": [
+       [
+        506.325,
+        363.856
+       ],
+       [
+        507.295,
+        364.561
+       ],
+       [
+        508.765,
+        362.539
+       ],
+       [
+        507.794,
+        361.833
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "CLOSET_b2-closet_door3",
+      "poly_cm": [
+       [
+        550.057,
+        397.978
+       ],
+       [
+        596.524,
+        431.738
+       ],
+       [
+        597.641,
+        430.201
+       ],
+       [
+        551.174,
+        396.441
+       ]
+      ],
+      "z_cm": [
+       8.3,
+       239.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "CLOSET_b2-closet_handle3",
+      "poly_cm": [
+       [
+        553.115,
+        397.851
+       ],
+       [
+        554.086,
+        398.557
+       ],
+       [
+        555.556,
+        396.534
+       ],
+       [
+        554.585,
+        395.829
+       ]
+      ],
+      "z_cm": [
+       95.0,
+       135.0
+      ],
+      "material": "metal_black"
+     }
+    ],
+    "checks": [],
+    "footprint_cm": [
+     [
+      422.16,
+      376.88
+     ],
+     [
+      562.53,
+      478.87
+     ],
+     [
+      597.8,
+      430.32
+     ],
+     [
+      457.43,
+      328.33
+     ]
+    ]
+   },
+   {
+    "id": "bm-shower",
+    "room_id": "r-bath-main",
+    "source": "fixture:bm-shower",
+    "kind": "shower",
+    "parts": [
+     {
+      "name": "SHOWER_bm-shower_tray",
+      "poly_cm": [
+       [
+        141.627,
+        1341.867
+       ],
+       [
+        338.517,
+        1411.976
+       ],
+       [
+        368.373,
+        1328.133
+       ],
+       [
+        171.483,
+        1258.024
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       6.0
+      ],
+      "material": "ceramic_white"
+     },
+     {
+      "name": "SHOWER_bm-shower_screen",
+      "poly_cm": [
+       [
+        171.45,
+        1259.605
+       ],
+       [
+        265.656,
+        1293.15
+       ],
+       [
+        265.925,
+        1292.396
+       ],
+       [
+        171.719,
+        1258.851
+       ]
+      ],
+      "z_cm": [
+       6.2,
+       200.0
+      ],
+      "material": "glass_clear"
+     },
+     {
+      "name": "SHOWER_bm-shower_screen_rail",
+      "poly_cm": [
+       [
+        171.316,
+        1259.981
+       ],
+       [
+        265.522,
+        1293.527
+       ],
+       [
+        266.059,
+        1292.019
+       ],
+       [
+        171.853,
+        1258.474
+       ]
+      ],
+      "z_cm": [
+       200.5,
+       202.0
+      ],
+      "material": "metal_brushed"
+     },
+     {
+      "name": "SHOWER_bm-shower_riser",
+      "poly_cm": [
+       [
+        239.298,
+        1376.115
+       ],
+       [
+        241.182,
+        1376.786
+       ],
+       [
+        241.853,
+        1374.902
+       ],
+       [
+        239.969,
+        1374.231
+       ]
+      ],
+      "z_cm": [
+       100.0,
+       205.0
+      ],
+      "material": "metal_brushed"
+     },
+     {
+      "name": "SHOWER_bm-shower_head",
+      "poly_cm": [
+       [
+        230.548,
+        1370.876
+       ],
+       [
+        251.274,
+        1378.256
+       ],
+       [
+        258.654,
+        1357.531
+       ],
+       [
+        237.928,
+        1350.151
+       ]
+      ],
+      "z_cm": [
+       205.5,
+       207.0
+      ],
+      "material": "metal_brushed"
+     }
+    ],
+    "checks": [],
+    "footprint_cm": [
+     [
+      140.99,
+      1342.17
+     ],
+     [
+      338.82,
+      1412.62
+     ],
+     [
+      369.01,
+      1327.83
+     ],
+     [
+      171.18,
+      1257.38
+     ]
+    ]
+   },
+   {
+    "id": "bg-shower",
+    "room_id": "r-bath-guest",
+    "source": "fixture:bg-shower",
+    "kind": "shower",
+    "parts": [
+     {
+      "name": "SHOWER_bg-shower_tray",
+      "poly_cm": [
+       [
+        552.967,
+        482.74
+       ],
+       [
+        458.312,
+        413.969
+       ],
+       [
+        405.993,
+        485.98
+       ],
+       [
+        500.648,
+        554.751
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       6.0
+      ],
+      "material": "ceramic_white"
+     },
+     {
+      "name": "SHOWER_bg-shower_screen",
+      "poly_cm": [
+       [
+        455.011,
+        519.74
+       ],
+       [
+        407.279,
+        485.06
+       ],
+       [
+        406.809,
+        485.707
+       ],
+       [
+        454.541,
+        520.387
+       ]
+      ],
+      "z_cm": [
+       6.2,
+       200.0
+      ],
+      "material": "glass_clear"
+     },
+     {
+      "name": "SHOWER_bg-shower_screen_rail",
+      "poly_cm": [
+       [
+        455.246,
+        519.416
+       ],
+       [
+        407.514,
+        484.737
+       ],
+       [
+        406.574,
+        486.031
+       ],
+       [
+        454.306,
+        520.71
+       ]
+      ],
+      "z_cm": [
+       200.5,
+       202.0
+      ],
+      "material": "metal_brushed"
+     },
+     {
+      "name": "SHOWER_bg-shower_riser",
+      "poly_cm": [
+       [
+        506.155,
+        449.347
+       ],
+       [
+        504.536,
+        448.171
+       ],
+       [
+        503.361,
+        449.789
+       ],
+       [
+        504.979,
+        450.965
+       ]
+      ],
+      "z_cm": [
+       100.0,
+       205.0
+      ],
+      "material": "metal_brushed"
+     },
+     {
+      "name": "SHOWER_bg-shower_head",
+      "poly_cm": [
+       [
+        513.069,
+        456.843
+       ],
+       [
+        495.271,
+        443.912
+       ],
+       [
+        482.339,
+        461.71
+       ],
+       [
+        500.138,
+        474.641
+       ]
+      ],
+      "z_cm": [
+       205.5,
+       207.0
+      ],
+      "material": "metal_brushed"
+     }
+    ],
+    "checks": [],
+    "footprint_cm": [
+     [
+      553.67,
+      482.63
+     ],
+     [
+      458.2,
+      413.27
+     ],
+     [
+      405.29,
+      486.09
+     ],
+     [
+      500.76,
+      555.45
+     ]
+    ]
+   }
+  ],
+  "doors": [
+   {
+    "opening": "o-6",
+    "rooms": [
+     "r-living",
+     "r-wardrobe"
+    ],
+    "swing_room": "r-wardrobe",
+    "swing_rule": "the more private room unless its leaf strikes a piece or passes a camera",
+    "hinge": "+u",
+    "hinge_rule": "candidates in order: r-wardrobe/+u: clear; r-wardrobe/-u: passes 3 cm from cp-wardrobe at 90 deg; r-living/-u: clear; r-living/+u: strikes ffp-living-plant at 90 deg (side-wall reach -u 247 / +u 1 cm)",
+    "open_deg": 30.0,
+    "open_rule": "open 30 deg: the walk goes through it (both rooms hold a camera) and the leaf swept to 30 deg is clear",
+    "seen_by": [
+     "cp-entrance",
+     "cp-living",
+     "cp-terraceBedroom",
+     "cp-bedroomMain",
+     "cp-wardrobe"
+    ],
+    "clear_width_cm": 89.8,
+    "leaf_cm": [
+     89.2,
+     4.0,
+     211.7
+    ],
+    "wall_body_n_cm": [
+     -4.588,
+     8.098
+    ],
+    "parts": [
+     {
+      "name": "DOOR_o-6_jamb_p",
+      "poly_cm": [
+       [
+        449.833,
+        1096.189
+       ],
+       [
+        450.655,
+        1093.828
+       ],
+       [
+        462.636,
+        1098.0
+       ],
+       [
+        461.814,
+        1100.361
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_jamb_m",
+      "poly_cm": [
+       [
+        419.479,
+        1183.355
+       ],
+       [
+        420.301,
+        1180.994
+       ],
+       [
+        432.281,
+        1185.166
+       ],
+       [
+        431.459,
+        1187.527
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_head",
+      "poly_cm": [
+       [
+        419.479,
+        1183.355
+       ],
+       [
+        450.655,
+        1093.828
+       ],
+       [
+        462.636,
+        1098.0
+       ],
+       [
+        431.459,
+        1187.527
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       215.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_casing_p_p",
+      "poly_cm": [
+       [
+        461.243,
+        1100.48
+       ],
+       [
+        463.644,
+        1093.586
+       ],
+       [
+        465.532,
+        1094.243
+       ],
+       [
+        463.132,
+        1101.137
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_casing_p_m",
+      "poly_cm": [
+       [
+        429.507,
+        1191.612
+       ],
+       [
+        431.908,
+        1184.718
+       ],
+       [
+        433.797,
+        1185.376
+       ],
+       [
+        431.396,
+        1192.27
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_casing_p_head",
+      "poly_cm": [
+       [
+        429.343,
+        1192.084
+       ],
+       [
+        463.808,
+        1093.113
+       ],
+       [
+        465.98,
+        1093.87
+       ],
+       [
+        431.515,
+        1192.84
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_casing_m_p",
+      "poly_cm": [
+       [
+        448.318,
+        1095.979
+       ],
+       [
+        450.719,
+        1089.085
+       ],
+       [
+        452.608,
+        1089.742
+       ],
+       [
+        450.207,
+        1096.636
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_casing_m_m",
+      "poly_cm": [
+       [
+        416.582,
+        1187.111
+       ],
+       [
+        418.983,
+        1180.217
+       ],
+       [
+        420.872,
+        1180.875
+       ],
+       [
+        418.471,
+        1187.769
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_casing_m_head",
+      "poly_cm": [
+       [
+        416.135,
+        1187.485
+       ],
+       [
+        450.6,
+        1088.514
+       ],
+       [
+        452.772,
+        1089.27
+       ],
+       [
+        418.307,
+        1188.241
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_leaf",
+      "poly_cm": [
+       [
+        457.614,
+        1099.216
+       ],
+       [
+        474.328,
+        1186.836
+       ],
+       [
+        470.399,
+        1187.585
+       ],
+       [
+        453.684,
+        1099.965
+       ]
+      ],
+      "z_cm": [
+       1.0,
+       212.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-6_rose_a",
+      "poly_cm": [
+       [
+        473.718,
+        1178.299
+       ],
+       [
+        474.654,
+        1183.21
+       ],
+       [
+        473.476,
+        1183.435
+       ],
+       [
+        472.539,
+        1178.524
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-6_neck_a",
+      "poly_cm": [
+       [
+        478.456,
+        1179.126
+       ],
+       [
+        478.756,
+        1180.697
+       ],
+       [
+        474.139,
+        1181.578
+       ],
+       [
+        473.84,
+        1180.006
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-6_lever_a",
+      "poly_cm": [
+       [
+        476.956,
+        1166.992
+       ],
+       [
+        479.561,
+        1180.646
+       ],
+       [
+        477.793,
+        1180.983
+       ],
+       [
+        475.188,
+        1167.329
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-6_rose_b",
+      "poly_cm": [
+       [
+        469.003,
+        1179.198
+       ],
+       [
+        469.939,
+        1184.11
+       ],
+       [
+        468.761,
+        1184.335
+       ],
+       [
+        467.824,
+        1179.423
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-6_neck_b",
+      "poly_cm": [
+       [
+        468.339,
+        1181.056
+       ],
+       [
+        468.639,
+        1182.627
+       ],
+       [
+        464.022,
+        1183.508
+       ],
+       [
+        463.722,
+        1181.936
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-6_lever_b",
+      "poly_cm": [
+       [
+        462.418,
+        1169.765
+       ],
+       [
+        465.023,
+        1183.419
+       ],
+       [
+        463.255,
+        1183.756
+       ],
+       [
+        460.65,
+        1170.102
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     }
+    ]
+   },
+   {
+    "opening": "o-9",
+    "rooms": [
+     "r-bath-main",
+     "r-wardrobe"
+    ],
+    "swing_room": "r-bath-main",
+    "swing_rule": "the more private room unless its leaf strikes a piece or passes a camera",
+    "hinge": "+u",
+    "hinge_rule": "candidates in order: r-bath-main/+u: clear; r-bath-main/-u: clear; r-wardrobe/-u: clear; r-wardrobe/+u: clear (side-wall reach -u 94 / +u 54 cm)",
+    "open_deg": 30.0,
+    "open_rule": "open 30 deg: the walk goes through it (both rooms hold a camera) and the leaf swept to 30 deg is clear",
+    "seen_by": [
+     "cp-bedroomMain",
+     "cp-wardrobe",
+     "cp-bathMain"
+    ],
+    "clear_width_cm": 62.6,
+    "leaf_cm": [
+     62.0,
+     4.0,
+     211.7
+    ],
+    "wall_body_n_cm": [
+     -7.208,
+     1.839
+    ],
+    "parts": [
+     {
+      "name": "DOOR_o-9_jamb_p",
+      "poly_cm": [
+       [
+        391.932,
+        1269.322
+       ],
+       [
+        392.787,
+        1266.973
+       ],
+       [
+        401.288,
+        1270.067
+       ],
+       [
+        400.433,
+        1272.417
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_jamb_m",
+      "poly_cm": [
+       [
+        369.666,
+        1330.496
+       ],
+       [
+        370.521,
+        1328.147
+       ],
+       [
+        379.023,
+        1331.241
+       ],
+       [
+        378.168,
+        1333.591
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_head",
+      "poly_cm": [
+       [
+        369.666,
+        1330.496
+       ],
+       [
+        392.787,
+        1266.973
+       ],
+       [
+        401.288,
+        1270.067
+       ],
+       [
+        378.168,
+        1333.591
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       215.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_casing_p_p",
+      "poly_cm": [
+       [
+        399.861,
+        1272.527
+       ],
+       [
+        402.358,
+        1265.668
+       ],
+       [
+        404.237,
+        1266.352
+       ],
+       [
+        401.74,
+        1273.212
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_casing_p_m",
+      "poly_cm": [
+       [
+        376.159,
+        1337.648
+       ],
+       [
+        378.656,
+        1330.788
+       ],
+       [
+        380.535,
+        1331.472
+       ],
+       [
+        378.038,
+        1338.332
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_casing_p_head",
+      "poly_cm": [
+       [
+        375.988,
+        1338.118
+       ],
+       [
+        402.529,
+        1265.198
+       ],
+       [
+        404.69,
+        1265.985
+       ],
+       [
+        378.149,
+        1338.905
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_casing_m_p",
+      "poly_cm": [
+       [
+        390.42,
+        1269.091
+       ],
+       [
+        392.917,
+        1262.231
+       ],
+       [
+        394.796,
+        1262.916
+       ],
+       [
+        392.299,
+        1269.775
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_casing_m_m",
+      "poly_cm": [
+       [
+        366.718,
+        1334.212
+       ],
+       [
+        369.215,
+        1327.352
+       ],
+       [
+        371.094,
+        1328.036
+       ],
+       [
+        368.597,
+        1334.896
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_casing_m_head",
+      "poly_cm": [
+       [
+        366.265,
+        1334.579
+       ],
+       [
+        392.806,
+        1261.659
+       ],
+       [
+        394.967,
+        1262.446
+       ],
+       [
+        368.426,
+        1335.366
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_leaf",
+      "poly_cm": [
+       [
+        394.201,
+        1270.467
+       ],
+       [
+        346.706,
+        1310.32
+       ],
+       [
+        349.277,
+        1313.384
+       ],
+       [
+        396.772,
+        1273.532
+       ]
+      ],
+      "z_cm": [
+       1.0,
+       212.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-9_rose_a",
+      "poly_cm": [
+       [
+        352.574,
+        1304.09
+       ],
+       [
+        348.744,
+        1307.304
+       ],
+       [
+        349.516,
+        1308.224
+       ],
+       [
+        353.346,
+        1305.01
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-9_neck_a",
+      "poly_cm": [
+       [
+        348.38,
+        1301.736
+       ],
+       [
+        347.154,
+        1302.764
+       ],
+       [
+        350.175,
+        1306.365
+       ],
+       [
+        351.401,
+        1305.336
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-9_lever_a",
+      "poly_cm": [
+       [
+        357.211,
+        1293.281
+       ],
+       [
+        346.563,
+        1302.216
+       ],
+       [
+        347.72,
+        1303.595
+       ],
+       [
+        358.368,
+        1294.66
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-9_rose_b",
+      "poly_cm": [
+       [
+        355.66,
+        1307.767
+       ],
+       [
+        351.83,
+        1310.981
+       ],
+       [
+        352.601,
+        1311.901
+       ],
+       [
+        356.431,
+        1308.687
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-9_neck_b",
+      "poly_cm": [
+       [
+        355.0,
+        1309.626
+       ],
+       [
+        353.775,
+        1310.655
+       ],
+       [
+        356.796,
+        1314.255
+       ],
+       [
+        358.021,
+        1313.227
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-9_lever_b",
+      "poly_cm": [
+       [
+        366.724,
+        1304.619
+       ],
+       [
+        356.076,
+        1313.553
+       ],
+       [
+        357.233,
+        1314.932
+       ],
+       [
+        367.881,
+        1305.997
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     }
+    ]
+   },
+   {
+    "opening": "o-10",
+    "rooms": [
+     "r-bedroom-2",
+     "r-entrance"
+    ],
+    "swing_room": "r-entrance",
+    "swing_rule": "the more private room unless its leaf strikes a piece or passes a camera",
+    "hinge": "+u",
+    "hinge_rule": "candidates in order: r-bedroom-2/+u: passes 24 cm from cp-bedroom2 at 60 deg; r-bedroom-2/-u: passes 26 cm from cp-bedroom2 at 60 deg; r-entrance/+u: clear; r-entrance/-u: clear (side-wall reach -u 400 / +u 7 cm)",
+    "open_deg": 30.0,
+    "open_rule": "open 30 deg: the walk goes through it (both rooms hold a camera) and the leaf swept to 30 deg is clear",
+    "seen_by": [
+     "cp-living",
+     "cp-bedroom2"
+    ],
+    "clear_width_cm": 89.6,
+    "leaf_cm": [
+     89.0,
+     4.0,
+     211.7
+    ],
+    "wall_body_n_cm": [
+     -8.745,
+     7.401
+    ],
+    "parts": [
+     {
+      "name": "DOOR_o-10_jamb_p",
+      "poly_cm": [
+       [
+        638.184,
+        532.141
+       ],
+       [
+        640.215,
+        533.6
+       ],
+       [
+        630.793,
+        546.712
+       ],
+       [
+        628.763,
+        545.253
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_jamb_m",
+      "poly_cm": [
+       [
+        563.392,
+        478.397
+       ],
+       [
+        565.422,
+        479.856
+       ],
+       [
+        556.0,
+        492.968
+       ],
+       [
+        553.97,
+        491.509
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_head",
+      "poly_cm": [
+       [
+        563.392,
+        478.397
+       ],
+       [
+        640.215,
+        533.6
+       ],
+       [
+        630.793,
+        546.712
+       ],
+       [
+        553.97,
+        491.509
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       215.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_casing_p_p",
+      "poly_cm": [
+       [
+        628.811,
+        544.672
+       ],
+       [
+        634.739,
+        548.932
+       ],
+       [
+        633.572,
+        550.556
+       ],
+       [
+        627.644,
+        546.296
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_casing_p_m",
+      "poly_cm": [
+       [
+        550.607,
+        488.477
+       ],
+       [
+        556.535,
+        492.737
+       ],
+       [
+        555.368,
+        494.361
+       ],
+       [
+        549.44,
+        490.101
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_casing_p_head",
+      "poly_cm": [
+       [
+        550.201,
+        488.185
+       ],
+       [
+        635.145,
+        549.223
+       ],
+       [
+        633.803,
+        551.091
+       ],
+       [
+        548.859,
+        490.053
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_casing_m_p",
+      "poly_cm": [
+       [
+        638.816,
+        530.748
+       ],
+       [
+        644.744,
+        535.008
+       ],
+       [
+        643.577,
+        536.632
+       ],
+       [
+        637.649,
+        532.372
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_casing_m_m",
+      "poly_cm": [
+       [
+        560.612,
+        474.553
+       ],
+       [
+        566.541,
+        478.813
+       ],
+       [
+        565.374,
+        480.437
+       ],
+       [
+        559.445,
+        476.177
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_casing_m_head",
+      "poly_cm": [
+       [
+        560.381,
+        474.017
+       ],
+       [
+        645.325,
+        535.056
+       ],
+       [
+        643.983,
+        536.924
+       ],
+       [
+        559.039,
+        475.885
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_leaf",
+      "poly_cm": [
+       [
+        632.063,
+        540.146
+       ],
+       [
+        543.503,
+        531.307
+       ],
+       [
+        543.9,
+        527.326
+       ],
+       [
+        632.46,
+        536.166
+       ]
+      ],
+      "z_cm": [
+       1.0,
+       212.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-10_rose_a",
+      "poly_cm": [
+       [
+        551.861,
+        533.146
+       ],
+       [
+        546.886,
+        532.649
+       ],
+       [
+        547.005,
+        531.455
+       ],
+       [
+        551.981,
+        531.952
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-10_neck_a",
+      "poly_cm": [
+       [
+        549.723,
+        537.455
+       ],
+       [
+        548.131,
+        537.296
+       ],
+       [
+        548.598,
+        532.619
+       ],
+       [
+        550.19,
+        532.778
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-10_lever_a",
+      "poly_cm": [
+       [
+        561.783,
+        539.462
+       ],
+       [
+        547.952,
+        538.082
+       ],
+       [
+        548.131,
+        536.291
+       ],
+       [
+        561.962,
+        537.671
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-10_rose_b",
+      "poly_cm": [
+       [
+        552.338,
+        528.37
+       ],
+       [
+        547.363,
+        527.873
+       ],
+       [
+        547.482,
+        526.679
+       ],
+       [
+        552.457,
+        527.176
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-10_neck_b",
+      "poly_cm": [
+       [
+        550.746,
+        527.206
+       ],
+       [
+        549.154,
+        527.047
+       ],
+       [
+        549.621,
+        522.37
+       ],
+       [
+        551.213,
+        522.529
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-10_lever_b",
+      "poly_cm": [
+       [
+        563.253,
+        524.736
+       ],
+       [
+        549.422,
+        523.355
+       ],
+       [
+        549.601,
+        521.564
+       ],
+       [
+        563.432,
+        522.945
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     }
+    ]
+   },
+   {
+    "opening": "o-11",
+    "rooms": [
+     "r-bath-guest",
+     "r-entrance"
+    ],
+    "swing_room": "r-entrance",
+    "swing_rule": "the more private room unless its leaf strikes a piece or passes a camera",
+    "hinge": "-u",
+    "hinge_rule": "candidates in order: r-bath-guest/-u: passes 5 cm from cp-bathGuest at 60 deg; r-bath-guest/+u: passes 25 cm from cp-bathGuest at 30 deg; r-entrance/-u: clear; r-entrance/+u: clear (side-wall reach -u 47 / +u 111 cm)",
+    "open_deg": 30.0,
+    "open_rule": "open 30 deg: the walk goes through it (both rooms hold a camera) and the leaf swept to 30 deg is clear",
+    "seen_by": [
+     "cp-living",
+     "cp-terraceBedroom",
+     "cp-bedroom2",
+     "cp-bathGuest"
+    ],
+    "clear_width_cm": 56.9,
+    "leaf_cm": [
+     56.3,
+     4.0,
+     211.7
+    ],
+    "wall_body_n_cm": [
+     -10.66,
+     -1.904
+    ],
+    "parts": [
+     {
+      "name": "DOOR_o-11_jamb_p",
+      "poly_cm": [
+       [
+        484.711,
+        573.324
+       ],
+       [
+        486.23,
+        571.338
+       ],
+       [
+        493.186,
+        576.656
+       ],
+       [
+        491.667,
+        578.642
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_jamb_m",
+      "poly_cm": [
+       [
+        448.633,
+        620.513
+       ],
+       [
+        450.152,
+        618.526
+       ],
+       [
+        457.108,
+        623.845
+       ],
+       [
+        455.589,
+        625.831
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_head",
+      "poly_cm": [
+       [
+        448.633,
+        620.513
+       ],
+       [
+        486.23,
+        571.338
+       ],
+       [
+        493.186,
+        576.656
+       ],
+       [
+        455.589,
+        625.831
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       215.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_casing_p_p",
+      "poly_cm": [
+       [
+        491.088,
+        578.577
+       ],
+       [
+        495.522,
+        572.778
+       ],
+       [
+        497.111,
+        573.993
+       ],
+       [
+        492.677,
+        579.792
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_casing_p_m",
+      "poly_cm": [
+       [
+        452.459,
+        629.102
+       ],
+       [
+        456.893,
+        623.303
+       ],
+       [
+        458.481,
+        624.517
+       ],
+       [
+        454.048,
+        630.317
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_casing_p_head",
+      "poly_cm": [
+       [
+        452.155,
+        629.499
+       ],
+       [
+        495.825,
+        572.381
+       ],
+       [
+        497.653,
+        573.778
+       ],
+       [
+        453.982,
+        630.896
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_casing_m_p",
+      "poly_cm": [
+       [
+        483.338,
+        572.652
+       ],
+       [
+        487.771,
+        566.852
+       ],
+       [
+        489.36,
+        568.067
+       ],
+       [
+        484.926,
+        573.866
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_casing_m_m",
+      "poly_cm": [
+       [
+        444.708,
+        623.176
+       ],
+       [
+        449.142,
+        617.377
+       ],
+       [
+        450.731,
+        618.592
+       ],
+       [
+        446.297,
+        624.391
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       213.5
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_casing_m_head",
+      "poly_cm": [
+       [
+        444.166,
+        623.391
+       ],
+       [
+        487.837,
+        566.273
+       ],
+       [
+        489.664,
+        567.67
+       ],
+       [
+        445.994,
+        624.788
+       ]
+      ],
+      "z_cm": [
+       213.0,
+       220.0
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_leaf",
+      "poly_cm": [
+       [
+        455.401,
+        622.162
+       ],
+       [
+        507.377,
+        600.526
+       ],
+       [
+        505.84,
+        596.833
+       ],
+       [
+        453.864,
+        618.469
+       ]
+      ],
+      "z_cm": [
+       1.0,
+       212.7
+      ],
+      "material": "wood_oak"
+     },
+     {
+      "name": "DOOR_o-11_rose_a",
+      "poly_cm": [
+       [
+        499.914,
+        604.716
+       ],
+       [
+        504.53,
+        602.794
+       ],
+       [
+        504.069,
+        601.687
+       ],
+       [
+        499.453,
+        603.608
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-11_neck_a",
+      "poly_cm": [
+       [
+        503.213,
+        608.217
+       ],
+       [
+        504.69,
+        607.602
+       ],
+       [
+        502.884,
+        603.263
+       ],
+       [
+        501.407,
+        603.878
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-11_lever_a",
+      "poly_cm": [
+       [
+        492.257,
+        613.644
+       ],
+       [
+        505.09,
+        608.302
+       ],
+       [
+        504.398,
+        606.641
+       ],
+       [
+        491.566,
+        611.982
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-11_rose_b",
+      "poly_cm": [
+       [
+        498.07,
+        600.284
+       ],
+       [
+        502.686,
+        598.363
+       ],
+       [
+        502.225,
+        597.255
+       ],
+       [
+        497.609,
+        599.177
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-11_neck_b",
+      "poly_cm": [
+       [
+        499.255,
+        598.708
+       ],
+       [
+        500.732,
+        598.093
+       ],
+       [
+        498.926,
+        593.754
+       ],
+       [
+        497.449,
+        594.369
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "DOOR_o-11_lever_b",
+      "poly_cm": [
+       [
+        486.57,
+        599.98
+       ],
+       [
+        499.403,
+        594.639
+       ],
+       [
+        498.711,
+        592.977
+       ],
+       [
+        485.878,
+        598.319
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     }
+    ]
+   }
+  ],
+  "entrance": [
+   {
+    "opening": "o-12",
+    "leaf_object": "LEAF_o-12",
+    "leaf_material": "wood_walnut",
+    "hinge": "+u",
+    "handle_u_cm": -47.45,
+    "rule": "hinge at the jamb nearer r-entrance's side wall (reach -u 400 / +u 163 cm); the handle on the other jamb, both faces",
+    "parts": [
+     {
+      "name": "ENTRY_o-12_casing_p_p",
+      "poly_cm": [
+       [
+        222.991,
+        770.46
+       ],
+       [
+        221.324,
+        777.567
+       ],
+       [
+        219.377,
+        777.11
+       ],
+       [
+        221.044,
+        770.003
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.5
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "ENTRY_o-12_casing_p_m",
+      "poly_cm": [
+       [
+        249.845,
+        655.967
+       ],
+       [
+        248.178,
+        663.074
+       ],
+       [
+        246.231,
+        662.617
+       ],
+       [
+        247.898,
+        655.51
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.5
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "ENTRY_o-12_casing_p_head",
+      "poly_cm": [
+       [
+        249.959,
+        655.48
+       ],
+       [
+        221.21,
+        778.053
+       ],
+       [
+        218.97,
+        777.528
+       ],
+       [
+        247.72,
+        654.955
+       ]
+      ],
+      "z_cm": [
+       215.0,
+       222.0
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "ENTRY_o-12_casing_m_p",
+      "poly_cm": [
+       [
+        258.252,
+        778.73
+       ],
+       [
+        256.585,
+        785.837
+       ],
+       [
+        254.638,
+        785.38
+       ],
+       [
+        256.305,
+        778.273
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.5
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "ENTRY_o-12_casing_m_m",
+      "poly_cm": [
+       [
+        285.106,
+        664.237
+       ],
+       [
+        283.439,
+        671.344
+       ],
+       [
+        281.492,
+        670.888
+       ],
+       [
+        283.159,
+        663.78
+       ]
+      ],
+      "z_cm": [
+       0.0,
+       215.5
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "ENTRY_o-12_casing_m_head",
+      "poly_cm": [
+       [
+        285.512,
+        663.819
+       ],
+       [
+        256.763,
+        786.392
+       ],
+       [
+        254.524,
+        785.867
+       ],
+       [
+        283.273,
+        663.294
+       ]
+      ],
+      "z_cm": [
+       215.0,
+       222.0
+      ],
+      "material": "wood_walnut"
+     },
+     {
+      "name": "ENTRY_o-12_rose_p",
+      "poly_cm": [
+       [
+        244.71,
+        667.602
+       ],
+       [
+        243.569,
+        672.47
+       ],
+       [
+        242.4,
+        672.195
+       ],
+       [
+        243.542,
+        667.328
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "ENTRY_o-12_neck_p",
+      "poly_cm": [
+       [
+        243.349,
+        669.028
+       ],
+       [
+        242.983,
+        670.586
+       ],
+       [
+        238.407,
+        669.513
+       ],
+       [
+        238.773,
+        667.955
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "ENTRY_o-12_lever_p",
+      "poly_cm": [
+       [
+        239.769,
+        668.086
+       ],
+       [
+        236.595,
+        681.619
+       ],
+       [
+        234.843,
+        681.208
+       ],
+       [
+        238.017,
+        667.675
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "ENTRY_o-12_rose_m",
+      "poly_cm": [
+       [
+        249.87,
+        668.812
+       ],
+       [
+        248.729,
+        673.68
+       ],
+       [
+        247.56,
+        673.406
+       ],
+       [
+        248.702,
+        668.538
+       ]
+      ],
+      "z_cm": [
+       101.5,
+       106.5
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "ENTRY_o-12_neck_m",
+      "poly_cm": [
+       [
+        253.863,
+        671.495
+       ],
+       [
+        253.498,
+        673.052
+       ],
+       [
+        248.922,
+        671.979
+       ],
+       [
+        249.287,
+        670.421
+       ]
+      ],
+      "z_cm": [
+       103.2,
+       104.8
+      ],
+      "material": "metal_black"
+     },
+     {
+      "name": "ENTRY_o-12_lever_m",
+      "poly_cm": [
+       [
+        254.665,
+        671.58
+       ],
+       [
+        251.491,
+        685.113
+       ],
+       [
+        249.738,
+        684.702
+       ],
+       [
+        252.912,
+        671.169
+       ]
+      ],
+      "z_cm": [
+       103.0,
+       105.0
+      ],
+      "material": "metal_black"
+     }
+    ]
+   }
+  ],
+  "dropped": [],
+  "warnings": [
+   "w-closet-2: run trimmed 52 cm (a wall, a door zone or an earlier piece)",
+   "k-counter: run trimmed 15 cm (a wall, a door zone or an earlier piece)",
+   "k-counter-2: run trimmed 31 cm (a wall, a door zone or an earlier piece)",
+   "bm-vanity: moved 8 cm off its traced line, out of the wall behind it"
+  ],
+  "bars_cm": {
+   "camera_bubble": 25.0,
+   "inside_tol": 3.0,
+   "overlap_tol": 1.0
+  },
+  "rooms": {
+   "r-entrance": [
+    "kenney-furniture-kit-cabinetTelevision",
+    "kenney-furniture-kit-rugDoormat",
+    "polyhaven-hanging_picture_frame_01"
+   ],
+   "r-kitchen": [
+    "kenney-furniture-kit-kitchenCabinet",
+    "kenney-furniture-kit-kitchenCabinetUpper",
+    "kenney-furniture-kit-kitchenFridge",
+    "kenney-furniture-kit-kitchenSink",
+    "kenney-furniture-kit-kitchenStoveElectric"
+   ],
+   "r-dining": [
+    "kenney-furniture-kit-chairModernCushion",
+    "kenney-furniture-kit-table"
+   ],
+   "r-living": [
+    "kenney-furniture-kit-cabinetTelevision",
+    "kenney-furniture-kit-lampRoundFloor",
+    "kenney-furniture-kit-loungeDesignSofa",
+    "kenney-furniture-kit-rugRectangle",
+    "kenney-furniture-kit-televisionModern",
+    "polyhaven-hanging_picture_frame_01",
+    "polyhaven-modern_arm_chair_01",
+    "polyhaven-modern_coffee_table_01",
+    "polyhaven-potted_plant_02"
+   ],
+   "r-terrace-living": [
+    "polyhaven-outdoor_table_chair_set_01",
+    "polyhaven-potted_plant_02"
+   ],
+   "r-terrace-bedroom": [
+    "polyhaven-modern_arm_chair_01"
+   ],
+   "r-bedroom-main": [
+    "kenney-furniture-kit-bedDouble",
+    "kenney-furniture-kit-cabinetBedDrawerTable",
+    "kenney-furniture-kit-lampRoundTable",
+    "kenney-furniture-kit-rugRectangle",
+    "polyhaven-hanging_picture_frame_01"
+   ],
+   "r-wardrobe": [
+    "procedural:closet"
+   ],
+   "r-bath-main": [
+    "kenney-furniture-kit-bathroomMirror",
+    "kenney-furniture-kit-bathroomSinkSquare",
+    "kenney-furniture-kit-rugDoormat",
+    "kenney-furniture-kit-toilet",
+    "procedural:shower"
+   ],
+   "r-bedroom-2": [
+    "kenney-furniture-kit-bedDouble",
+    "kenney-furniture-kit-cabinetBedDrawerTable",
+    "kenney-furniture-kit-lampRoundTable",
+    "kenney-furniture-kit-rugRectangle",
+    "polyhaven-hanging_picture_frame_01",
+    "procedural:closet"
+   ],
+   "r-bath-guest": [
+    "kenney-furniture-kit-bathroomMirror",
+    "kenney-furniture-kit-bathroomSinkSquare",
+    "kenney-furniture-kit-toilet",
+    "procedural:shower"
+   ]
+  }
+ }
+}

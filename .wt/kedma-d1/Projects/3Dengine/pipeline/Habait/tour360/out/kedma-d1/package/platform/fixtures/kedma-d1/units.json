@@ -1,0 +1,20 @@
+{
+ "$schema": "../../contracts/units.schema.json",
+ "project": "kedma-d1",
+ "currency": "ILS",
+ "price_note": "no price list uploaded yet",
+ "units": [
+  {
+   "id": "1",
+   "floor": 1,
+   "type": "C1",
+   "rooms": 5,
+   "area_m2": 134,
+   "outdoor_m2": 22,
+   "price": null,
+   "status": "for-sale",
+   "tour_url": "tour/?scope=apartment&room=living",
+   "note": "from the portal reading of the sales plan"
+  }
+ ]
+}

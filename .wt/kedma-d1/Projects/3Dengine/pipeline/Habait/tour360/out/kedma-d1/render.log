@@ -1,0 +1,46 @@
+render_tour.mjs v0.1.0  tour=360walkaround/tours/kedma-d1  mode=draft 3072x1536@20spp  wrap-pad=512  points=4
+          golden depth fixture: golden: 32/32 pixels match; unknown-encoding refused: true | OK
+          scene: CLEAN — plan.json + the style lock + the material board + the generator scripts hash the same as the scene report (built 2026-11-17T18:40:37+00:00, checks 112/112)
+
+=== chunk 1/1: 4 point(s) ====================
+          === [1/4] cp-bed2 =========================================
+          [render_pano] point      : cp-bed2  plan (1057.2,1181.6,160) yaw 193
+          [render_pano] wrap pad   : 512 px each side  -> rendered 4096x1536 over -240.0000..240.0000 deg, cropped back
+          [render_pano] render 1/1: 258.667 s wall  (cycles 256.03s, device peak 818.71 MB, host peak 1543.24 MB)
+          [render_pano] depth      : depth.png 281,133 B  valid 4,718,592 / 4,718,592  sky 0  range 0.868..3.229 m  (1.065 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 3072x1536 62,148 B  zenith mean 177.9/255 (4 colours) · nadir mean 179.6/255 (4 colours) · no_hole=True
+          OK
+          === [2/4] cp-bath =========================================
+          [render_pano] point      : cp-bath  plan (1271.1,1139.4,160) yaw 167
+          [render_pano] wrap pad   : 512 px each side  -> rendered 4096x1536 over -240.0000..240.0000 deg, cropped back
+          [render_pano] render 1/1: 282.980 s wall  (cycles 280.78s, device peak 818.71 MB, host peak 1543.26 MB)
+          [render_pano] depth      : depth.png 306,260 B  valid 4,718,592 / 4,718,592  sky 0  range 0.705..2.597 m  (0.967 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 3072x1536 68,678 B  zenith mean 190.5/255 (4 colours) · nadir mean 144.8/255 (255 colours) · no_hole=True
+          OK
+          === [3/4] cp-mamad ========================================
+          [render_pano] point      : cp-mamad  plan (1530,1081.7,160) yaw 175
+          [render_pano] wrap pad   : 512 px each side  -> rendered 4096x1536 over -240.0000..240.0000 deg, cropped back
+          [render_pano] render 1/1: 215.203 s wall  (cycles 211.98s, device peak 818.71 MB, host peak 1543.26 MB)
+          [render_pano] depth      : depth.png 262,106 B  valid 4,718,592 / 4,718,592  sky 0  range 1.167..3.264 m  (0.863 s)
+          [render_pano] depth check: 3/3 within 2.0 cm, worst 0.00 cm  [report]
+          [render_pano] pano       : pano.webp 3072x1536 61,302 B  zenith mean 176.1/255 (9 colours) · nadir mean 181.6/255 (8 colours) · no_hole=True
+          OK
+          === [4/4] cp-balcony ======================================
+          [render_pano] point      : cp-balcony  plan (317.3,326.6,160) yaw 199
+          [render_pano] wrap pad   : 512 px each side  -> rendered 4096x1536 over -240.0000..240.0000 deg, cropped back
+          [render_pano] render 1/1: 180.091 s wall  (cycles 175.41s, device peak 818.71 MB, host peak 1543.26 MB)
+          [render_pano] depth      : depth.png 251,120 B  valid 2,943,706 / 4,718,592  sky 1,774,886  range 0.798..134.138 m  (0.785 s)
+          [render_pano] depth check: 2/3 within 2.0 cm, worst 130.00 cm  [report]
+          [render_pano] pano       : pano.webp 3072x1536 97,942 B  zenith mean 65.2/255 (9 colours) · nadir mean 210.0/255 (2 colours) · no_hole=True
+          REPORT    1 depth check(s) outside 2.0 cm: ['zenith (ceiling)']  (--check-mode report: not a failure)
+          OK
+
+=== summary =================================================
+  OK   cp-bed2             258.7 s  nadir 1.6 m (0 cm)  valid 100.00%  61 KB
+  OK   cp-bath             283.0 s  nadir 1.6 m (0 cm)  valid 100.00%  67 KB
+  OK   cp-mamad            215.2 s  nadir 1.6 m (0 cm)  valid 100.00%  60 KB
+  OK   cp-balcony          180.1 s  nadir 1.6 m (0 cm)  valid 62.39%  96 KB
+  total 955.5 s · 4 rendered, 0 skipped · $0.00 · verdict PASS
+OK

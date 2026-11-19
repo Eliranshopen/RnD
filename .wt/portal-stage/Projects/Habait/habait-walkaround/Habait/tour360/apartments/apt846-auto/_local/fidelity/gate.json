@@ -1,0 +1,6152 @@
+{
+ "$schema": "tour360/fidelity-gate.v2",
+ "rows": [
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:17.981Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-entrance\\pano.webp",
+   "picture_hash": "c28e4bd14868",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.85,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 71,
+    "occluded_columns": 688,
+    "median_cm": 0.8,
+    "p90_cm": 4,
+    "p95_cm": 4.1,
+    "pct": 0.85
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "01-entrance: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__original__c28e4bd14868.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:18.506Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-kitchen\\pano.webp",
+   "picture_hash": "8447deffb4f9",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 237,
+    "occluded_columns": 353,
+    "median_cm": 0.6,
+    "p90_cm": 1.8,
+    "p95_cm": 2.1,
+    "pct": 0.33
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "02-kitchen: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__original__8447deffb4f9.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:19.022Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-dining\\pano.webp",
+   "picture_hash": "59d9521f7db8",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.7,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 207,
+    "occluded_columns": 190,
+    "median_cm": 0.5,
+    "p90_cm": 3.2,
+    "p95_cm": 4,
+    "pct": 0.7
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "03-dining: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__original__59d9521f7db8.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:19.506Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-living\\pano.webp",
+   "picture_hash": "2647bef2acb5",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.19,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-06",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 744.3,
+      "drawn_cm": 744.2,
+      "trace_cm": 745.6,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "corner of loop r-living",
+        "on": "loop r-living"
+       },
+       {
+        "offset_cm": 1.4,
+        "feature": "corner of facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-08",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 529.5,
+      "drawn_cm": 529.5,
+      "trace_cm": 528.5,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-3",
+        "on": "facade facade-3"
+       },
+       {
+        "offset_cm": -1,
+        "feature": "corner of wall w-10",
+        "on": "wall w-10"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-living",
+     "measured_by": [
+      "pdf-06",
+      "pdf-08"
+     ],
+     "rectangle_m2": 39.415,
+     "niche_m2": 9.526,
+     "niche_edges": 23,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.19
+   },
+   "cg_vs_plan": {
+    "columns": 227,
+    "occluded_columns": 513,
+    "median_cm": 0.5,
+    "p90_cm": 1.7,
+    "p95_cm": 1.9,
+    "pct": 0.19
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "04-living: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__original__2647bef2acb5.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:20.009Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceLiving\\pano.webp",
+   "picture_hash": "0bbb325f347b",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.22,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-32",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 474.2,
+      "drawn_cm": 474.1,
+      "trace_cm": 473.8,
+      "mode": "room",
+      "pct": 0.08,
+      "ends": [
+       {
+        "offset_cm": 0.4,
+        "feature": "corner of loop r-terrace-bedroom",
+        "on": "loop r-terrace-bedroom"
+       },
+       {
+        "offset_cm": 0.1,
+        "feature": "corner of loop r-terrace-living",
+        "on": "loop r-terrace-living"
+       }
+      ]
+     },
+     {
+      "id": "pdf-33",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 270.1,
+      "drawn_cm": 270.1,
+      "trace_cm": 270.1,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-8",
+        "on": "facade facade-8"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside railing railing-7",
+        "on": "railing railing-7"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-terrace-living",
+     "measured_by": [
+      "pdf-32",
+      "pdf-33"
+     ],
+     "rectangle_m2": 12.796,
+     "niche_m2": 9.522,
+     "niche_edges": 54,
+     "niche_face_median_cm": 2.2
+    },
+    "unchecked": [],
+    "max_pct": 0.08
+   },
+   "cg_vs_plan": {
+    "columns": 64,
+    "occluded_columns": 65,
+    "median_cm": 0.5,
+    "p90_cm": 1.8,
+    "p95_cm": 2.1,
+    "pct": 0.22
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "05-terrace-living: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__original__0bbb325f347b.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:20.484Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceBedroom\\pano.webp",
+   "picture_hash": "059db4665ed4",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.14,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 321,
+    "occluded_columns": 133,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 18.9,
+    "pct": 0.14
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "06-terrace-bedroom: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__original__059db4665ed4.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:20.953Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroomMain\\pano.webp",
+   "picture_hash": "61d78e0e285a",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.81,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-01",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 347.7,
+      "drawn_cm": 347.6,
+      "trace_cm": 347.8,
+      "mode": "room",
+      "pct": 0.06,
+      "ends": [
+       {
+        "offset_cm": -0.2,
+        "feature": "corner of facade facade-5",
+        "on": "facade facade-5"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-05",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 343.6,
+      "drawn_cm": 343.6,
+      "trace_cm": 343.5,
+      "mode": "room",
+      "pct": 0.03,
+      "ends": [
+       {
+        "offset_cm": 0.1,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-main",
+     "measured_by": [
+      "pdf-01",
+      "pdf-05"
+     ],
+     "rectangle_m2": 11.948,
+     "niche_m2": 0.405,
+     "niche_edges": 3,
+     "niche_face_median_cm": 4.5
+    },
+    "unchecked": [],
+    "max_pct": 0.06
+   },
+   "cg_vs_plan": {
+    "columns": 154,
+    "occluded_columns": 630,
+    "median_cm": 1.2,
+    "p90_cm": 3.6,
+    "p95_cm": 5.2,
+    "pct": 0.81
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "07-bedroom-main: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__original__61d78e0e285a.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:21.444Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.65,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 181,
+    "occluded_columns": 761,
+    "median_cm": 0.5,
+    "p90_cm": 2.4,
+    "p95_cm": 3.3,
+    "pct": 0.65
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "08-wardrobe: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:21.934Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathMain\\pano.webp",
+   "picture_hash": "52f5f20dfd05",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 34.4,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-03",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 210.2,
+      "mode": "room",
+      "pct": 0.11,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-03/bm-shower",
+      "kind": "fixture",
+      "fixture": "bm-shower",
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 209.6,
+      "mode": "fixture",
+      "pct": 0.21,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture bm-shower"
+       },
+       {
+        "offset_cm": -0.3,
+        "feature": "fixture bm-shower"
+       }
+      ]
+     },
+     {
+      "id": "pdf-10",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 212.5,
+      "drawn_cm": 212.5,
+      "trace_cm": 212.5,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-main",
+     "measured_by": [
+      "pdf-03",
+      "pdf-10"
+     ],
+     "rectangle_m2": 4.469,
+     "niche_m2": 0.074,
+     "niche_edges": 7,
+     "niche_face_median_cm": 1.6
+    },
+    "unchecked": [],
+    "max_pct": 0.21
+   },
+   "cg_vs_plan": {
+    "columns": 512,
+    "occluded_columns": 512,
+    "median_cm": 0.4,
+    "p90_cm": 93.3,
+    "p95_cm": 128.4,
+    "pct": 34.4
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "09-bath-main: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__original__52f5f20dfd05.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:22.419Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroom2\\pano.webp",
+   "picture_hash": "6fec00f65599",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 0.46,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-25",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 275,
+      "drawn_cm": 275,
+      "trace_cm": 275.2,
+      "mode": "room",
+      "pct": 0.07,
+      "ends": [
+       {
+        "offset_cm": -0.1,
+        "feature": "corner of loop r-bedroom-2",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       }
+      ]
+     },
+     {
+      "id": "pdf-27",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 342.2,
+      "drawn_cm": 342.2,
+      "trace_cm": 342.2,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-2",
+     "measured_by": [
+      "pdf-25",
+      "pdf-27"
+     ],
+     "rectangle_m2": 9.417,
+     "niche_m2": 0.083,
+     "niche_edges": 8,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.07
+   },
+   "cg_vs_plan": {
+    "columns": 355,
+    "occluded_columns": 509,
+    "median_cm": 0.6,
+    "p90_cm": 2,
+    "p95_cm": 2.5,
+    "pct": 0.46
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "10-bedroom-2: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__original__6fec00f65599.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:22.898Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathGuest\\pano.webp",
+   "picture_hash": "1a8b8b5f8aca",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 28.09,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-28",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 199.1,
+      "drawn_cm": 199.2,
+      "trace_cm": 199.7,
+      "mode": "room",
+      "pct": 0.28,
+      "ends": [
+       {
+        "offset_cm": -0.3,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 139.7,
+      "mode": "room",
+      "pct": 0.24,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29/bg-shower",
+      "kind": "fixture",
+      "fixture": "bg-shower",
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 140,
+      "mode": "fixture",
+      "pct": 0.02,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-guest",
+     "measured_by": [
+      "pdf-28",
+      "pdf-29"
+     ],
+     "rectangle_m2": 2.788,
+     "niche_m2": 0.744,
+     "niche_edges": 7,
+     "niche_face_median_cm": 2.8
+    },
+    "unchecked": [],
+    "max_pct": 0.28
+   },
+   "cg_vs_plan": {
+    "columns": 324,
+    "occluded_columns": 665,
+    "median_cm": 0.4,
+    "p90_cm": 72.2,
+    "p95_cm": 94.8,
+    "pct": 28.09
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "FAIL",
+    "chain": [],
+    "failures": [
+     "11-bath-guest: no source picture to judge"
+    ]
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__original__1a8b8b5f8aca.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:47.101Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-entrance\\pano.webp",
+   "picture_hash": "c28e4bd14868",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.85,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 71,
+    "occluded_columns": 688,
+    "median_cm": 0.8,
+    "p90_cm": 4,
+    "p95_cm": 4.1,
+    "pct": 0.85
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__original__c28e4bd14868.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:47.588Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-kitchen\\pano.webp",
+   "picture_hash": "8447deffb4f9",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 237,
+    "occluded_columns": 353,
+    "median_cm": 0.6,
+    "p90_cm": 1.8,
+    "p95_cm": 2.1,
+    "pct": 0.33
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__original__8447deffb4f9.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:48.097Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-dining\\pano.webp",
+   "picture_hash": "59d9521f7db8",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.7,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 207,
+    "occluded_columns": 190,
+    "median_cm": 0.5,
+    "p90_cm": 3.2,
+    "p95_cm": 4,
+    "pct": 0.7
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__original__59d9521f7db8.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:48.572Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-living\\pano.webp",
+   "picture_hash": "2647bef2acb5",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.19,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-06",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 744.3,
+      "drawn_cm": 744.2,
+      "trace_cm": 745.6,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "corner of loop r-living",
+        "on": "loop r-living"
+       },
+       {
+        "offset_cm": 1.4,
+        "feature": "corner of facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-08",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 529.5,
+      "drawn_cm": 529.5,
+      "trace_cm": 528.5,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-3",
+        "on": "facade facade-3"
+       },
+       {
+        "offset_cm": -1,
+        "feature": "corner of wall w-10",
+        "on": "wall w-10"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-living",
+     "measured_by": [
+      "pdf-06",
+      "pdf-08"
+     ],
+     "rectangle_m2": 39.415,
+     "niche_m2": 9.526,
+     "niche_edges": 23,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.19
+   },
+   "cg_vs_plan": {
+    "columns": 227,
+    "occluded_columns": 513,
+    "median_cm": 0.5,
+    "p90_cm": 1.7,
+    "p95_cm": 1.9,
+    "pct": 0.19
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__original__2647bef2acb5.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:49.087Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceLiving\\pano.webp",
+   "picture_hash": "0bbb325f347b",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.22,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-32",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 474.2,
+      "drawn_cm": 474.1,
+      "trace_cm": 473.8,
+      "mode": "room",
+      "pct": 0.08,
+      "ends": [
+       {
+        "offset_cm": 0.4,
+        "feature": "corner of loop r-terrace-bedroom",
+        "on": "loop r-terrace-bedroom"
+       },
+       {
+        "offset_cm": 0.1,
+        "feature": "corner of loop r-terrace-living",
+        "on": "loop r-terrace-living"
+       }
+      ]
+     },
+     {
+      "id": "pdf-33",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 270.1,
+      "drawn_cm": 270.1,
+      "trace_cm": 270.1,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-8",
+        "on": "facade facade-8"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside railing railing-7",
+        "on": "railing railing-7"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-terrace-living",
+     "measured_by": [
+      "pdf-32",
+      "pdf-33"
+     ],
+     "rectangle_m2": 12.796,
+     "niche_m2": 9.522,
+     "niche_edges": 54,
+     "niche_face_median_cm": 2.2
+    },
+    "unchecked": [],
+    "max_pct": 0.08
+   },
+   "cg_vs_plan": {
+    "columns": 64,
+    "occluded_columns": 65,
+    "median_cm": 0.5,
+    "p90_cm": 1.8,
+    "p95_cm": 2.1,
+    "pct": 0.22
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__original__0bbb325f347b.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:49.560Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceBedroom\\pano.webp",
+   "picture_hash": "059db4665ed4",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.14,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 321,
+    "occluded_columns": 133,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 18.9,
+    "pct": 0.14
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__original__059db4665ed4.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:50.044Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroomMain\\pano.webp",
+   "picture_hash": "61d78e0e285a",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.81,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-01",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 347.7,
+      "drawn_cm": 347.6,
+      "trace_cm": 347.8,
+      "mode": "room",
+      "pct": 0.06,
+      "ends": [
+       {
+        "offset_cm": -0.2,
+        "feature": "corner of facade facade-5",
+        "on": "facade facade-5"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-05",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 343.6,
+      "drawn_cm": 343.6,
+      "trace_cm": 343.5,
+      "mode": "room",
+      "pct": 0.03,
+      "ends": [
+       {
+        "offset_cm": 0.1,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-main",
+     "measured_by": [
+      "pdf-01",
+      "pdf-05"
+     ],
+     "rectangle_m2": 11.948,
+     "niche_m2": 0.405,
+     "niche_edges": 3,
+     "niche_face_median_cm": 4.5
+    },
+    "unchecked": [],
+    "max_pct": 0.06
+   },
+   "cg_vs_plan": {
+    "columns": 154,
+    "occluded_columns": 630,
+    "median_cm": 1.2,
+    "p90_cm": 3.6,
+    "p95_cm": 5.2,
+    "pct": 0.81
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__original__61d78e0e285a.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:50.520Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.65,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 181,
+    "occluded_columns": 761,
+    "median_cm": 0.5,
+    "p90_cm": 2.4,
+    "p95_cm": 3.3,
+    "pct": 0.65
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:50.967Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathMain\\pano.webp",
+   "picture_hash": "52f5f20dfd05",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.41,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-03",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 210.2,
+      "mode": "room",
+      "pct": 0.11,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-03/bm-shower",
+      "kind": "fixture",
+      "fixture": "bm-shower",
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 209.6,
+      "mode": "fixture",
+      "pct": 0.21,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture bm-shower"
+       },
+       {
+        "offset_cm": -0.3,
+        "feature": "fixture bm-shower"
+       }
+      ]
+     },
+     {
+      "id": "pdf-10",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 212.5,
+      "drawn_cm": 212.5,
+      "trace_cm": 212.5,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-main",
+     "measured_by": [
+      "pdf-03",
+      "pdf-10"
+     ],
+     "rectangle_m2": 4.469,
+     "niche_m2": 0.074,
+     "niche_edges": 7,
+     "niche_face_median_cm": 1.6
+    },
+    "unchecked": [],
+    "max_pct": 0.21
+   },
+   "cg_vs_plan": {
+    "columns": 257,
+    "occluded_columns": 767,
+    "median_cm": 0.4,
+    "p90_cm": 1.1,
+    "p95_cm": 1.3,
+    "pct": 0.41
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__original__52f5f20dfd05.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:51.440Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroom2\\pano.webp",
+   "picture_hash": "6fec00f65599",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.46,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-25",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 275,
+      "drawn_cm": 275,
+      "trace_cm": 275.2,
+      "mode": "room",
+      "pct": 0.07,
+      "ends": [
+       {
+        "offset_cm": -0.1,
+        "feature": "corner of loop r-bedroom-2",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       }
+      ]
+     },
+     {
+      "id": "pdf-27",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 342.2,
+      "drawn_cm": 342.2,
+      "trace_cm": 342.2,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-2",
+     "measured_by": [
+      "pdf-25",
+      "pdf-27"
+     ],
+     "rectangle_m2": 9.417,
+     "niche_m2": 0.083,
+     "niche_edges": 8,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.07
+   },
+   "cg_vs_plan": {
+    "columns": 355,
+    "occluded_columns": 509,
+    "median_cm": 0.6,
+    "p90_cm": 2,
+    "p95_cm": 2.5,
+    "pct": 0.46
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__original__6fec00f65599.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T16:43:51.899Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathGuest\\pano.webp",
+   "picture_hash": "1a8b8b5f8aca",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.28,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-28",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 199.1,
+      "drawn_cm": 199.2,
+      "trace_cm": 199.7,
+      "mode": "room",
+      "pct": 0.28,
+      "ends": [
+       {
+        "offset_cm": -0.3,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 139.7,
+      "mode": "room",
+      "pct": 0.24,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29/bg-shower",
+      "kind": "fixture",
+      "fixture": "bg-shower",
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 140,
+      "mode": "fixture",
+      "pct": 0.02,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-guest",
+     "measured_by": [
+      "pdf-28",
+      "pdf-29"
+     ],
+     "rectangle_m2": 2.788,
+     "niche_m2": 0.744,
+     "niche_edges": 7,
+     "niche_face_median_cm": 2.8
+    },
+    "unchecked": [],
+    "max_pct": 0.28
+   },
+   "cg_vs_plan": {
+    "columns": 231,
+    "occluded_columns": 758,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 0.7,
+    "pct": 0.27
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__original__1a8b8b5f8aca.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:26.062Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-entrance\\pano.webp",
+   "picture_hash": "c28e4bd14868",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.23,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 7,
+    "occluded_columns": 752,
+    "median_cm": 0.8,
+    "p90_cm": 1.1,
+    "p95_cm": 1.1,
+    "pct": 0.23
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__original__c28e4bd14868.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:26.573Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-kitchen\\pano.webp",
+   "picture_hash": "8447deffb4f9",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.26,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 47,
+    "occluded_columns": 543,
+    "median_cm": 0.5,
+    "p90_cm": 1.4,
+    "p95_cm": 1.6,
+    "pct": 0.26
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__original__8447deffb4f9.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:27.097Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-dining\\pano.webp",
+   "picture_hash": "59d9521f7db8",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.63,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 1,
+    "occluded_columns": 396,
+    "median_cm": 2.9,
+    "p90_cm": 2.9,
+    "p95_cm": 2.9,
+    "pct": 0.63
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__original__59d9521f7db8.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:27.582Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-living\\pano.webp",
+   "picture_hash": "2647bef2acb5",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.21,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-06",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 744.3,
+      "drawn_cm": 744.2,
+      "trace_cm": 745.6,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "corner of loop r-living",
+        "on": "loop r-living"
+       },
+       {
+        "offset_cm": 1.4,
+        "feature": "corner of facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-08",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 529.5,
+      "drawn_cm": 529.5,
+      "trace_cm": 528.5,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-3",
+        "on": "facade facade-3"
+       },
+       {
+        "offset_cm": -1,
+        "feature": "corner of wall w-10",
+        "on": "wall w-10"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-living",
+     "measured_by": [
+      "pdf-06",
+      "pdf-08"
+     ],
+     "rectangle_m2": 39.415,
+     "niche_m2": 9.526,
+     "niche_edges": 23,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.19
+   },
+   "cg_vs_plan": {
+    "columns": 66,
+    "occluded_columns": 674,
+    "median_cm": 0.9,
+    "p90_cm": 1.9,
+    "p95_cm": 1.9,
+    "pct": 0.21
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__original__2647bef2acb5.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:28.087Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceLiving\\pano.webp",
+   "picture_hash": "0bbb325f347b",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.26,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-32",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 474.2,
+      "drawn_cm": 474.1,
+      "trace_cm": 473.8,
+      "mode": "room",
+      "pct": 0.08,
+      "ends": [
+       {
+        "offset_cm": 0.4,
+        "feature": "corner of loop r-terrace-bedroom",
+        "on": "loop r-terrace-bedroom"
+       },
+       {
+        "offset_cm": 0.1,
+        "feature": "corner of loop r-terrace-living",
+        "on": "loop r-terrace-living"
+       }
+      ]
+     },
+     {
+      "id": "pdf-33",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 270.1,
+      "drawn_cm": 270.1,
+      "trace_cm": 270.1,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-8",
+        "on": "facade facade-8"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside railing railing-7",
+        "on": "railing railing-7"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-terrace-living",
+     "measured_by": [
+      "pdf-32",
+      "pdf-33"
+     ],
+     "rectangle_m2": 12.796,
+     "niche_m2": 9.522,
+     "niche_edges": 54,
+     "niche_face_median_cm": 2.2
+    },
+    "unchecked": [],
+    "max_pct": 0.08
+   },
+   "cg_vs_plan": {
+    "columns": 29,
+    "occluded_columns": 100,
+    "median_cm": 0.6,
+    "p90_cm": 2.1,
+    "p95_cm": 4,
+    "pct": 0.26
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__original__0bbb325f347b.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:28.755Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceBedroom\\pano.webp",
+   "picture_hash": "059db4665ed4",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.12,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 290,
+    "occluded_columns": 165,
+    "median_cm": 0.3,
+    "p90_cm": 0.6,
+    "p95_cm": 0.7,
+    "pct": 0.12
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__original__059db4665ed4.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:29.639Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroomMain\\pano.webp",
+   "picture_hash": "61d78e0e285a",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.63,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-01",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 347.7,
+      "drawn_cm": 347.6,
+      "trace_cm": 347.8,
+      "mode": "room",
+      "pct": 0.06,
+      "ends": [
+       {
+        "offset_cm": -0.2,
+        "feature": "corner of facade facade-5",
+        "on": "facade facade-5"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-05",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 343.6,
+      "drawn_cm": 343.6,
+      "trace_cm": 343.5,
+      "mode": "room",
+      "pct": 0.03,
+      "ends": [
+       {
+        "offset_cm": 0.1,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-main",
+     "measured_by": [
+      "pdf-01",
+      "pdf-05"
+     ],
+     "rectangle_m2": 11.948,
+     "niche_m2": 0.405,
+     "niche_edges": 3,
+     "niche_face_median_cm": 4.5
+    },
+    "unchecked": [],
+    "max_pct": 0.06
+   },
+   "cg_vs_plan": {
+    "columns": 114,
+    "occluded_columns": 670,
+    "median_cm": 1.1,
+    "p90_cm": 2.8,
+    "p95_cm": 3.6,
+    "pct": 0.63
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__original__61d78e0e285a.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:30.539Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "FAIL",
+   "stale": null,
+   "deviation_pct": 1.1,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 9,
+    "occluded_columns": 933,
+    "median_cm": 0.9,
+    "p90_cm": 4.1,
+    "p95_cm": 4.1,
+    "pct": 1.1
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:31.463Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathMain\\pano.webp",
+   "picture_hash": "52f5f20dfd05",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.41,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-03",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 210.2,
+      "mode": "room",
+      "pct": 0.11,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-03/bm-shower",
+      "kind": "fixture",
+      "fixture": "bm-shower",
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 209.6,
+      "mode": "fixture",
+      "pct": 0.21,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture bm-shower"
+       },
+       {
+        "offset_cm": -0.3,
+        "feature": "fixture bm-shower"
+       }
+      ]
+     },
+     {
+      "id": "pdf-10",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 212.5,
+      "drawn_cm": 212.5,
+      "trace_cm": 212.5,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-main",
+     "measured_by": [
+      "pdf-03",
+      "pdf-10"
+     ],
+     "rectangle_m2": 4.469,
+     "niche_m2": 0.074,
+     "niche_edges": 7,
+     "niche_face_median_cm": 1.6
+    },
+    "unchecked": [],
+    "max_pct": 0.21
+   },
+   "cg_vs_plan": {
+    "columns": 257,
+    "occluded_columns": 767,
+    "median_cm": 0.4,
+    "p90_cm": 1.1,
+    "p95_cm": 1.3,
+    "pct": 0.41
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__original__52f5f20dfd05.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:32.399Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroom2\\pano.webp",
+   "picture_hash": "6fec00f65599",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.23,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-25",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 275,
+      "drawn_cm": 275,
+      "trace_cm": 275.2,
+      "mode": "room",
+      "pct": 0.07,
+      "ends": [
+       {
+        "offset_cm": -0.1,
+        "feature": "corner of loop r-bedroom-2",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       }
+      ]
+     },
+     {
+      "id": "pdf-27",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 342.2,
+      "drawn_cm": 342.2,
+      "trace_cm": 342.2,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-2",
+     "measured_by": [
+      "pdf-25",
+      "pdf-27"
+     ],
+     "rectangle_m2": 9.417,
+     "niche_m2": 0.083,
+     "niche_edges": 8,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.07
+   },
+   "cg_vs_plan": {
+    "columns": 166,
+    "occluded_columns": 698,
+    "median_cm": 0.4,
+    "p90_cm": 1,
+    "p95_cm": 1.3,
+    "pct": 0.23
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__original__6fec00f65599.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:33.306Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathGuest\\pano.webp",
+   "picture_hash": "1a8b8b5f8aca",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.28,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-28",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 199.1,
+      "drawn_cm": 199.2,
+      "trace_cm": 199.7,
+      "mode": "room",
+      "pct": 0.28,
+      "ends": [
+       {
+        "offset_cm": -0.3,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 139.7,
+      "mode": "room",
+      "pct": 0.24,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29/bg-shower",
+      "kind": "fixture",
+      "fixture": "bg-shower",
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 140,
+      "mode": "fixture",
+      "pct": 0.02,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-guest",
+     "measured_by": [
+      "pdf-28",
+      "pdf-29"
+     ],
+     "rectangle_m2": 2.788,
+     "niche_m2": 0.744,
+     "niche_edges": 7,
+     "niche_face_median_cm": 2.8
+    },
+    "unchecked": [],
+    "max_pct": 0.28
+   },
+   "cg_vs_plan": {
+    "columns": 193,
+    "occluded_columns": 796,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 0.7,
+    "pct": 0.27
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__original__1a8b8b5f8aca.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:24:59.283Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.89,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 89,
+    "occluded_columns": 853,
+    "median_cm": 1.3,
+    "p90_cm": 3.3,
+    "p95_cm": 3.8,
+    "pct": 0.89
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:00.051Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 77,
+    "occluded_columns": 865,
+    "median_cm": 0.3,
+    "p90_cm": 0.9,
+    "p95_cm": 3.8,
+    "pct": 0.24
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:17.082Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-entrance\\pano.webp",
+   "picture_hash": "c28e4bd14868",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.57,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 55,
+    "occluded_columns": 704,
+    "median_cm": 0.7,
+    "p90_cm": 2.7,
+    "p95_cm": 2.9,
+    "pct": 0.57
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__original__c28e4bd14868.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:17.589Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-kitchen\\pano.webp",
+   "picture_hash": "8447deffb4f9",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 94,
+    "occluded_columns": 496,
+    "median_cm": 0.6,
+    "p90_cm": 1.8,
+    "p95_cm": 2.2,
+    "pct": 0.33
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__original__8447deffb4f9.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:18.126Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-dining\\pano.webp",
+   "picture_hash": "59d9521f7db8",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.63,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 1,
+    "occluded_columns": 396,
+    "median_cm": 2.9,
+    "p90_cm": 2.9,
+    "p95_cm": 2.9,
+    "pct": 0.63
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__original__59d9521f7db8.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:18.627Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-living\\pano.webp",
+   "picture_hash": "2647bef2acb5",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.2,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-06",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 744.3,
+      "drawn_cm": 744.2,
+      "trace_cm": 745.6,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "corner of loop r-living",
+        "on": "loop r-living"
+       },
+       {
+        "offset_cm": 1.4,
+        "feature": "corner of facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-08",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 529.5,
+      "drawn_cm": 529.5,
+      "trace_cm": 528.5,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-3",
+        "on": "facade facade-3"
+       },
+       {
+        "offset_cm": -1,
+        "feature": "corner of wall w-10",
+        "on": "wall w-10"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-living",
+     "measured_by": [
+      "pdf-06",
+      "pdf-08"
+     ],
+     "rectangle_m2": 39.415,
+     "niche_m2": 9.526,
+     "niche_edges": 23,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.19
+   },
+   "cg_vs_plan": {
+    "columns": 138,
+    "occluded_columns": 602,
+    "median_cm": 0.8,
+    "p90_cm": 1.8,
+    "p95_cm": 1.9,
+    "pct": 0.2
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__original__2647bef2acb5.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:19.143Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceLiving\\pano.webp",
+   "picture_hash": "0bbb325f347b",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.22,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-32",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 474.2,
+      "drawn_cm": 474.1,
+      "trace_cm": 473.8,
+      "mode": "room",
+      "pct": 0.08,
+      "ends": [
+       {
+        "offset_cm": 0.4,
+        "feature": "corner of loop r-terrace-bedroom",
+        "on": "loop r-terrace-bedroom"
+       },
+       {
+        "offset_cm": 0.1,
+        "feature": "corner of loop r-terrace-living",
+        "on": "loop r-terrace-living"
+       }
+      ]
+     },
+     {
+      "id": "pdf-33",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 270.1,
+      "drawn_cm": 270.1,
+      "trace_cm": 270.1,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-8",
+        "on": "facade facade-8"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside railing railing-7",
+        "on": "railing railing-7"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-terrace-living",
+     "measured_by": [
+      "pdf-32",
+      "pdf-33"
+     ],
+     "rectangle_m2": 12.796,
+     "niche_m2": 9.522,
+     "niche_edges": 54,
+     "niche_face_median_cm": 2.2
+    },
+    "unchecked": [],
+    "max_pct": 0.08
+   },
+   "cg_vs_plan": {
+    "columns": 57,
+    "occluded_columns": 72,
+    "median_cm": 0.5,
+    "p90_cm": 1.8,
+    "p95_cm": 2.5,
+    "pct": 0.22
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__original__0bbb325f347b.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:19.884Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceBedroom\\pano.webp",
+   "picture_hash": "059db4665ed4",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.12,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 299,
+    "occluded_columns": 155,
+    "median_cm": 0.3,
+    "p90_cm": 0.6,
+    "p95_cm": 0.7,
+    "pct": 0.12
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__original__059db4665ed4.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:20.826Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroomMain\\pano.webp",
+   "picture_hash": "61d78e0e285a",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.79,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-01",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 347.7,
+      "drawn_cm": 347.6,
+      "trace_cm": 347.8,
+      "mode": "room",
+      "pct": 0.06,
+      "ends": [
+       {
+        "offset_cm": -0.2,
+        "feature": "corner of facade facade-5",
+        "on": "facade facade-5"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-05",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 343.6,
+      "drawn_cm": 343.6,
+      "trace_cm": 343.5,
+      "mode": "room",
+      "pct": 0.03,
+      "ends": [
+       {
+        "offset_cm": 0.1,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-main",
+     "measured_by": [
+      "pdf-01",
+      "pdf-05"
+     ],
+     "rectangle_m2": 11.948,
+     "niche_m2": 0.405,
+     "niche_edges": 3,
+     "niche_face_median_cm": 4.5
+    },
+    "unchecked": [],
+    "max_pct": 0.06
+   },
+   "cg_vs_plan": {
+    "columns": 152,
+    "occluded_columns": 632,
+    "median_cm": 1.2,
+    "p90_cm": 3.5,
+    "p95_cm": 4.6,
+    "pct": 0.79
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__original__61d78e0e285a.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:21.710Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 77,
+    "occluded_columns": 865,
+    "median_cm": 0.3,
+    "p90_cm": 0.9,
+    "p95_cm": 3.8,
+    "pct": 0.24
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:22.549Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathMain\\pano.webp",
+   "picture_hash": "52f5f20dfd05",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.41,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-03",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 210.2,
+      "mode": "room",
+      "pct": 0.11,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-03/bm-shower",
+      "kind": "fixture",
+      "fixture": "bm-shower",
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 209.6,
+      "mode": "fixture",
+      "pct": 0.21,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture bm-shower"
+       },
+       {
+        "offset_cm": -0.3,
+        "feature": "fixture bm-shower"
+       }
+      ]
+     },
+     {
+      "id": "pdf-10",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 212.5,
+      "drawn_cm": 212.5,
+      "trace_cm": 212.5,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-main",
+     "measured_by": [
+      "pdf-03",
+      "pdf-10"
+     ],
+     "rectangle_m2": 4.469,
+     "niche_m2": 0.074,
+     "niche_edges": 7,
+     "niche_face_median_cm": 1.6
+    },
+    "unchecked": [],
+    "max_pct": 0.21
+   },
+   "cg_vs_plan": {
+    "columns": 257,
+    "occluded_columns": 767,
+    "median_cm": 0.4,
+    "p90_cm": 1.1,
+    "p95_cm": 1.3,
+    "pct": 0.41
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__original__52f5f20dfd05.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:23.479Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroom2\\pano.webp",
+   "picture_hash": "6fec00f65599",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.46,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-25",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 275,
+      "drawn_cm": 275,
+      "trace_cm": 275.2,
+      "mode": "room",
+      "pct": 0.07,
+      "ends": [
+       {
+        "offset_cm": -0.1,
+        "feature": "corner of loop r-bedroom-2",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       }
+      ]
+     },
+     {
+      "id": "pdf-27",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 342.2,
+      "drawn_cm": 342.2,
+      "trace_cm": 342.2,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-2",
+     "measured_by": [
+      "pdf-25",
+      "pdf-27"
+     ],
+     "rectangle_m2": 9.417,
+     "niche_m2": 0.083,
+     "niche_edges": 8,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.07
+   },
+   "cg_vs_plan": {
+    "columns": 355,
+    "occluded_columns": 509,
+    "median_cm": 0.6,
+    "p90_cm": 2,
+    "p95_cm": 2.5,
+    "pct": 0.46
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__original__6fec00f65599.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:25:24.352Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathGuest\\pano.webp",
+   "picture_hash": "1a8b8b5f8aca",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.28,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-28",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 199.1,
+      "drawn_cm": 199.2,
+      "trace_cm": 199.7,
+      "mode": "room",
+      "pct": 0.28,
+      "ends": [
+       {
+        "offset_cm": -0.3,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 139.7,
+      "mode": "room",
+      "pct": 0.24,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29/bg-shower",
+      "kind": "fixture",
+      "fixture": "bg-shower",
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 140,
+      "mode": "fixture",
+      "pct": 0.02,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-guest",
+     "measured_by": [
+      "pdf-28",
+      "pdf-29"
+     ],
+     "rectangle_m2": 2.788,
+     "niche_m2": 0.744,
+     "niche_edges": 7,
+     "niche_face_median_cm": 2.8
+    },
+    "unchecked": [],
+    "max_pct": 0.28
+   },
+   "cg_vs_plan": {
+    "columns": 231,
+    "occluded_columns": 758,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 0.7,
+    "pct": 0.27
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__original__1a8b8b5f8aca.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:01.478Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-entrance\\pano.webp",
+   "picture_hash": "c28e4bd14868",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.57,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 55,
+    "occluded_columns": 704,
+    "median_cm": 0.7,
+    "p90_cm": 2.7,
+    "p95_cm": 2.9,
+    "pct": 0.57
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__original__c28e4bd14868.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:02.002Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-kitchen\\pano.webp",
+   "picture_hash": "8447deffb4f9",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 94,
+    "occluded_columns": 496,
+    "median_cm": 0.6,
+    "p90_cm": 1.8,
+    "p95_cm": 2.2,
+    "pct": 0.33
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__original__8447deffb4f9.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:02.522Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-dining\\pano.webp",
+   "picture_hash": "59d9521f7db8",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.63,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 1,
+    "occluded_columns": 396,
+    "median_cm": 2.9,
+    "p90_cm": 2.9,
+    "p95_cm": 2.9,
+    "pct": 0.63
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__original__59d9521f7db8.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:03.016Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-living\\pano.webp",
+   "picture_hash": "2647bef2acb5",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.2,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-06",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 744.3,
+      "drawn_cm": 744.2,
+      "trace_cm": 745.6,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "corner of loop r-living",
+        "on": "loop r-living"
+       },
+       {
+        "offset_cm": 1.4,
+        "feature": "corner of facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-08",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 529.5,
+      "drawn_cm": 529.5,
+      "trace_cm": 528.5,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-3",
+        "on": "facade facade-3"
+       },
+       {
+        "offset_cm": -1,
+        "feature": "corner of wall w-10",
+        "on": "wall w-10"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-living",
+     "measured_by": [
+      "pdf-06",
+      "pdf-08"
+     ],
+     "rectangle_m2": 39.415,
+     "niche_m2": 9.526,
+     "niche_edges": 23,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.19
+   },
+   "cg_vs_plan": {
+    "columns": 138,
+    "occluded_columns": 602,
+    "median_cm": 0.8,
+    "p90_cm": 1.8,
+    "p95_cm": 1.9,
+    "pct": 0.2
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__original__2647bef2acb5.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:03.512Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceLiving\\pano.webp",
+   "picture_hash": "0bbb325f347b",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.22,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-32",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 474.2,
+      "drawn_cm": 474.1,
+      "trace_cm": 473.8,
+      "mode": "room",
+      "pct": 0.08,
+      "ends": [
+       {
+        "offset_cm": 0.4,
+        "feature": "corner of loop r-terrace-bedroom",
+        "on": "loop r-terrace-bedroom"
+       },
+       {
+        "offset_cm": 0.1,
+        "feature": "corner of loop r-terrace-living",
+        "on": "loop r-terrace-living"
+       }
+      ]
+     },
+     {
+      "id": "pdf-33",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 270.1,
+      "drawn_cm": 270.1,
+      "trace_cm": 270.1,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-8",
+        "on": "facade facade-8"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside railing railing-7",
+        "on": "railing railing-7"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-terrace-living",
+     "measured_by": [
+      "pdf-32",
+      "pdf-33"
+     ],
+     "rectangle_m2": 12.796,
+     "niche_m2": 9.522,
+     "niche_edges": 54,
+     "niche_face_median_cm": 2.2
+    },
+    "unchecked": [],
+    "max_pct": 0.08
+   },
+   "cg_vs_plan": {
+    "columns": 57,
+    "occluded_columns": 72,
+    "median_cm": 0.5,
+    "p90_cm": 1.8,
+    "p95_cm": 2.5,
+    "pct": 0.22
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__original__0bbb325f347b.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:04.208Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceBedroom\\pano.webp",
+   "picture_hash": "059db4665ed4",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.12,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 299,
+    "occluded_columns": 155,
+    "median_cm": 0.3,
+    "p90_cm": 0.6,
+    "p95_cm": 0.7,
+    "pct": 0.12
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__original__059db4665ed4.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:05.128Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroomMain\\pano.webp",
+   "picture_hash": "61d78e0e285a",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.79,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-01",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 347.7,
+      "drawn_cm": 347.6,
+      "trace_cm": 347.8,
+      "mode": "room",
+      "pct": 0.06,
+      "ends": [
+       {
+        "offset_cm": -0.2,
+        "feature": "corner of facade facade-5",
+        "on": "facade facade-5"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-05",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 343.6,
+      "drawn_cm": 343.6,
+      "trace_cm": 343.5,
+      "mode": "room",
+      "pct": 0.03,
+      "ends": [
+       {
+        "offset_cm": 0.1,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-main",
+     "measured_by": [
+      "pdf-01",
+      "pdf-05"
+     ],
+     "rectangle_m2": 11.948,
+     "niche_m2": 0.405,
+     "niche_edges": 3,
+     "niche_face_median_cm": 4.5
+    },
+    "unchecked": [],
+    "max_pct": 0.06
+   },
+   "cg_vs_plan": {
+    "columns": 152,
+    "occluded_columns": 632,
+    "median_cm": 1.2,
+    "p90_cm": 3.5,
+    "p95_cm": 4.6,
+    "pct": 0.79
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__original__61d78e0e285a.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:06.041Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 77,
+    "occluded_columns": 865,
+    "median_cm": 0.3,
+    "p90_cm": 0.9,
+    "p95_cm": 3.8,
+    "pct": 0.24
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:06.884Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathMain\\pano.webp",
+   "picture_hash": "52f5f20dfd05",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.41,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-03",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 210.2,
+      "mode": "room",
+      "pct": 0.11,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-03/bm-shower",
+      "kind": "fixture",
+      "fixture": "bm-shower",
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 209.6,
+      "mode": "fixture",
+      "pct": 0.21,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture bm-shower"
+       },
+       {
+        "offset_cm": -0.3,
+        "feature": "fixture bm-shower"
+       }
+      ]
+     },
+     {
+      "id": "pdf-10",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 212.5,
+      "drawn_cm": 212.5,
+      "trace_cm": 212.5,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-main",
+     "measured_by": [
+      "pdf-03",
+      "pdf-10"
+     ],
+     "rectangle_m2": 4.469,
+     "niche_m2": 0.074,
+     "niche_edges": 7,
+     "niche_face_median_cm": 1.6
+    },
+    "unchecked": [],
+    "max_pct": 0.21
+   },
+   "cg_vs_plan": {
+    "columns": 257,
+    "occluded_columns": 767,
+    "median_cm": 0.4,
+    "p90_cm": 1.1,
+    "p95_cm": 1.3,
+    "pct": 0.41
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__original__52f5f20dfd05.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:07.761Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroom2\\pano.webp",
+   "picture_hash": "6fec00f65599",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.46,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-25",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 275,
+      "drawn_cm": 275,
+      "trace_cm": 275.2,
+      "mode": "room",
+      "pct": 0.07,
+      "ends": [
+       {
+        "offset_cm": -0.1,
+        "feature": "corner of loop r-bedroom-2",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       }
+      ]
+     },
+     {
+      "id": "pdf-27",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 342.2,
+      "drawn_cm": 342.2,
+      "trace_cm": 342.2,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-2",
+     "measured_by": [
+      "pdf-25",
+      "pdf-27"
+     ],
+     "rectangle_m2": 9.417,
+     "niche_m2": 0.083,
+     "niche_edges": 8,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.07
+   },
+   "cg_vs_plan": {
+    "columns": 355,
+    "occluded_columns": 509,
+    "median_cm": 0.6,
+    "p90_cm": 2,
+    "p95_cm": 2.5,
+    "pct": 0.46
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__original__6fec00f65599.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:27:08.622Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathGuest\\pano.webp",
+   "picture_hash": "1a8b8b5f8aca",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.28,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-28",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 199.1,
+      "drawn_cm": 199.2,
+      "trace_cm": 199.7,
+      "mode": "room",
+      "pct": 0.28,
+      "ends": [
+       {
+        "offset_cm": -0.3,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 139.7,
+      "mode": "room",
+      "pct": 0.24,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29/bg-shower",
+      "kind": "fixture",
+      "fixture": "bg-shower",
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 140,
+      "mode": "fixture",
+      "pct": 0.02,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-guest",
+     "measured_by": [
+      "pdf-28",
+      "pdf-29"
+     ],
+     "rectangle_m2": 2.788,
+     "niche_m2": 0.744,
+     "niche_edges": 7,
+     "niche_face_median_cm": 2.8
+    },
+    "unchecked": [],
+    "max_pct": 0.28
+   },
+   "cg_vs_plan": {
+    "columns": 231,
+    "occluded_columns": 758,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 0.7,
+    "pct": 0.27
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__original__1a8b8b5f8aca.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:22.573Z",
+   "asset": "01-entrance",
+   "mode": "cg-only",
+   "room": "r-entrance",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-entrance\\pano.webp",
+   "picture_hash": "c28e4bd14868",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.57,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 55,
+    "occluded_columns": 704,
+    "median_cm": 0.7,
+    "p90_cm": 2.7,
+    "p95_cm": 2.9,
+    "walls": [
+     {
+      "face": "loop:r-entrance#3",
+      "columns": 16,
+      "median_err_cm": -2.6,
+      "at_cm": 268,
+      "limit_cm": 5,
+      "ratio": 0.52,
+      "pass": true
+     },
+     {
+      "face": "loop:r-entrance#14",
+      "columns": 27,
+      "median_err_cm": 0.2,
+      "at_cm": 102,
+      "limit_cm": 5,
+      "ratio": 0.04,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.52,
+    "walls_failing": [],
+    "pct": 0.57
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\01-entrance__original__c28e4bd14868.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:23.113Z",
+   "asset": "02-kitchen",
+   "mode": "cg-only",
+   "room": "r-kitchen",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-kitchen\\pano.webp",
+   "picture_hash": "8447deffb4f9",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 93,
+    "occluded_columns": 497,
+    "median_cm": 0.6,
+    "p90_cm": 1.8,
+    "p95_cm": 2.1,
+    "walls": [
+     {
+      "face": "loop:r-kitchen#32",
+      "columns": 13,
+      "median_err_cm": 1.5,
+      "at_cm": 328,
+      "limit_cm": 5,
+      "ratio": 0.29,
+      "pass": true
+     },
+     {
+      "face": "w-3#1",
+      "columns": 15,
+      "median_err_cm": 1,
+      "at_cm": 263,
+      "limit_cm": 5,
+      "ratio": 0.2,
+      "pass": true
+     },
+     {
+      "face": "loop:r-kitchen#26",
+      "columns": 60,
+      "median_err_cm": 0.5,
+      "at_cm": 206,
+      "limit_cm": 5,
+      "ratio": 0.1,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.29,
+    "walls_failing": [],
+    "pct": 0.33
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\02-kitchen__original__8447deffb4f9.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:23.661Z",
+   "asset": "03-dining",
+   "mode": "cg-only",
+   "room": "r-dining",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-dining\\pano.webp",
+   "picture_hash": "59d9521f7db8",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.63,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 1,
+    "occluded_columns": 396,
+    "median_cm": 2.9,
+    "p90_cm": 2.9,
+    "p95_cm": 2.9,
+    "walls": [],
+    "wall_ratio_max": 0,
+    "walls_failing": [],
+    "pct": 0.63
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\03-dining__original__59d9521f7db8.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:24.182Z",
+   "asset": "04-living",
+   "mode": "cg-only",
+   "room": "r-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-living\\pano.webp",
+   "picture_hash": "2647bef2acb5",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.26,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-06",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 744.3,
+      "drawn_cm": 744.2,
+      "trace_cm": 745.6,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "corner of loop r-living",
+        "on": "loop r-living"
+       },
+       {
+        "offset_cm": 1.4,
+        "feature": "corner of facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-08",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 529.5,
+      "drawn_cm": 529.5,
+      "trace_cm": 528.5,
+      "mode": "room",
+      "pct": 0.19,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-3",
+        "on": "facade facade-3"
+       },
+       {
+        "offset_cm": -1,
+        "feature": "corner of wall w-10",
+        "on": "wall w-10"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-living",
+     "measured_by": [
+      "pdf-06",
+      "pdf-08"
+     ],
+     "rectangle_m2": 39.415,
+     "niche_m2": 9.526,
+     "niche_edges": 23,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.19
+   },
+   "cg_vs_plan": {
+    "columns": 135,
+    "occluded_columns": 605,
+    "median_cm": 0.8,
+    "p90_cm": 1.7,
+    "p95_cm": 1.9,
+    "walls": [
+     {
+      "face": "loop:r-living#30",
+      "columns": 18,
+      "median_err_cm": -1.3,
+      "at_cm": 148,
+      "limit_cm": 5,
+      "ratio": 0.26,
+      "pass": true
+     },
+     {
+      "face": "w-2#8",
+      "columns": 34,
+      "median_err_cm": 1.2,
+      "at_cm": 209,
+      "limit_cm": 5,
+      "ratio": 0.25,
+      "pass": true
+     },
+     {
+      "face": "loop:r-living#31",
+      "columns": 18,
+      "median_err_cm": 0.4,
+      "at_cm": 143,
+      "limit_cm": 5,
+      "ratio": 0.08,
+      "pass": true
+     },
+     {
+      "face": "loop:r-living#36",
+      "columns": 10,
+      "median_err_cm": -0.3,
+      "at_cm": 229,
+      "limit_cm": 5,
+      "ratio": 0.07,
+      "pass": true
+     },
+     {
+      "face": "loop:r-entrance#7",
+      "columns": 14,
+      "median_err_cm": -0.3,
+      "at_cm": 222,
+      "limit_cm": 5,
+      "ratio": 0.06,
+      "pass": true
+     },
+     {
+      "face": "loop:r-living#27",
+      "columns": 14,
+      "median_err_cm": 0.2,
+      "at_cm": 223,
+      "limit_cm": 5,
+      "ratio": 0.04,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.26,
+    "walls_failing": [],
+    "pct": 0.19
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\04-living__original__2647bef2acb5.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:24.721Z",
+   "asset": "05-terrace-living",
+   "mode": "cg-only",
+   "room": "r-terrace-living",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceLiving\\pano.webp",
+   "picture_hash": "0bbb325f347b",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.22,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-32",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 474.2,
+      "drawn_cm": 474.1,
+      "trace_cm": 473.8,
+      "mode": "room",
+      "pct": 0.08,
+      "ends": [
+       {
+        "offset_cm": 0.4,
+        "feature": "corner of loop r-terrace-bedroom",
+        "on": "loop r-terrace-bedroom"
+       },
+       {
+        "offset_cm": 0.1,
+        "feature": "corner of loop r-terrace-living",
+        "on": "loop r-terrace-living"
+       }
+      ]
+     },
+     {
+      "id": "pdf-33",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 270.1,
+      "drawn_cm": 270.1,
+      "trace_cm": 270.1,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-8",
+        "on": "facade facade-8"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside railing railing-7",
+        "on": "railing railing-7"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-terrace-living",
+     "measured_by": [
+      "pdf-32",
+      "pdf-33"
+     ],
+     "rectangle_m2": 12.796,
+     "niche_m2": 9.522,
+     "niche_edges": 54,
+     "niche_face_median_cm": 2.2
+    },
+    "unchecked": [],
+    "max_pct": 0.08
+   },
+   "cg_vs_plan": {
+    "columns": 57,
+    "occluded_columns": 72,
+    "median_cm": 0.5,
+    "p90_cm": 1.8,
+    "p95_cm": 2.5,
+    "walls": [
+     {
+      "face": "loop:r-terrace-living#85",
+      "columns": 13,
+      "median_err_cm": 0.5,
+      "at_cm": 177,
+      "limit_cm": 5,
+      "ratio": 0.09,
+      "pass": true
+     },
+     {
+      "face": "w-13#0",
+      "columns": 24,
+      "median_err_cm": 0.4,
+      "at_cm": 173,
+      "limit_cm": 5,
+      "ratio": 0.08,
+      "pass": true
+     },
+     {
+      "face": "loop:r-terrace-living#79",
+      "columns": 15,
+      "median_err_cm": 0.2,
+      "at_cm": 162,
+      "limit_cm": 5,
+      "ratio": 0.04,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.09,
+    "walls_failing": [],
+    "pct": 0.22
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\05-terrace-living__original__0bbb325f347b.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:25.212Z",
+   "asset": "06-terrace-bedroom",
+   "mode": "cg-only",
+   "room": "r-terrace-bedroom",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-terraceBedroom\\pano.webp",
+   "picture_hash": "059db4665ed4",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.12,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": null
+   },
+   "cg_vs_plan": {
+    "columns": 298,
+    "occluded_columns": 157,
+    "median_cm": 0.3,
+    "p90_cm": 0.6,
+    "p95_cm": 0.7,
+    "walls": [
+     {
+      "face": "loop:r-terrace-bedroom#9",
+      "columns": 31,
+      "median_err_cm": 0.1,
+      "at_cm": 125,
+      "limit_cm": 5,
+      "ratio": 0.02,
+      "pass": true
+     },
+     {
+      "face": "w-end-screen#2",
+      "columns": 256,
+      "median_err_cm": 0,
+      "at_cm": 85,
+      "limit_cm": 5,
+      "ratio": 0.01,
+      "pass": true
+     },
+     {
+      "face": "w-8#8",
+      "columns": 11,
+      "median_err_cm": 0,
+      "at_cm": 93,
+      "limit_cm": 5,
+      "ratio": 0,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.02,
+    "walls_failing": [],
+    "pct": 0.12
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\06-terrace-bedroom__original__059db4665ed4.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:25.723Z",
+   "asset": "07-bedroom-main",
+   "mode": "cg-only",
+   "room": "r-bedroom-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroomMain\\pano.webp",
+   "picture_hash": "61d78e0e285a",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.79,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-01",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 347.7,
+      "drawn_cm": 347.6,
+      "trace_cm": 347.8,
+      "mode": "room",
+      "pct": 0.06,
+      "ends": [
+       {
+        "offset_cm": -0.2,
+        "feature": "corner of facade facade-5",
+        "on": "facade facade-5"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-05",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 343.6,
+      "drawn_cm": 343.6,
+      "trace_cm": 343.5,
+      "mode": "room",
+      "pct": 0.03,
+      "ends": [
+       {
+        "offset_cm": 0.1,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-main)",
+        "on": "loop r-bedroom-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-main",
+     "measured_by": [
+      "pdf-01",
+      "pdf-05"
+     ],
+     "rectangle_m2": 11.948,
+     "niche_m2": 0.405,
+     "niche_edges": 3,
+     "niche_face_median_cm": 4.5
+    },
+    "unchecked": [],
+    "max_pct": 0.06
+   },
+   "cg_vs_plan": {
+    "columns": 152,
+    "occluded_columns": 632,
+    "median_cm": 1.2,
+    "p90_cm": 3.5,
+    "p95_cm": 4.6,
+    "walls": [
+     {
+      "face": "loop:r-bedroom-main#10",
+      "columns": 47,
+      "median_err_cm": -1.5,
+      "at_cm": 145,
+      "limit_cm": 5,
+      "ratio": 0.29,
+      "pass": true
+     },
+     {
+      "face": "loop:r-bedroom-main#7",
+      "columns": 64,
+      "median_err_cm": -1.1,
+      "at_cm": 317,
+      "limit_cm": 5,
+      "ratio": 0.22,
+      "pass": true
+     },
+     {
+      "face": "w-20#0",
+      "columns": 39,
+      "median_err_cm": 1.1,
+      "at_cm": 336,
+      "limit_cm": 5,
+      "ratio": 0.21,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.29,
+    "walls_failing": [],
+    "pct": 0.79
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\07-bedroom-main__original__61d78e0e285a.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:26.226Z",
+   "asset": "08-wardrobe",
+   "mode": "cg-only",
+   "room": "r-wardrobe",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-wardrobe\\pano.webp",
+   "picture_hash": "b8c5cd0989ce",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.33,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-02",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.8,
+      "mode": "room",
+      "pct": 0.12,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-wardrobe)",
+        "on": "loop r-wardrobe"
+       }
+      ]
+     },
+     {
+      "id": "pdf-02/w-closet-1",
+      "kind": "fixture",
+      "fixture": "w-closet-1",
+      "printed_cm": 160,
+      "drawn_cm": 160,
+      "trace_cm": 159.5,
+      "mode": "fixture",
+      "pct": 0.29,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture w-closet-1"
+       },
+       {
+        "offset_cm": -0.2,
+        "feature": "fixture w-closet-1"
+       }
+      ]
+     },
+     {
+      "id": "pdf-09",
+      "kind": "fixture",
+      "fixture": "w-closet-2",
+      "printed_cm": 185,
+      "drawn_cm": 185,
+      "trace_cm": 184.4,
+      "mode": "fixture",
+      "pct": 0.33,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       },
+       {
+        "offset_cm": -0.4,
+        "feature": "corner of fixture w-closet-2",
+        "on": "fixture w-closet-2"
+       }
+      ]
+     }
+    ],
+    "niche": null,
+    "unchecked": [],
+    "max_pct": 0.33
+   },
+   "cg_vs_plan": {
+    "columns": 77,
+    "occluded_columns": 865,
+    "median_cm": 0.3,
+    "p90_cm": 0.9,
+    "p95_cm": 3.8,
+    "walls": [
+     {
+      "face": "loop:r-bedroom-main#10",
+      "columns": 18,
+      "median_err_cm": 0.3,
+      "at_cm": 126,
+      "limit_cm": 5,
+      "ratio": 0.06,
+      "pass": true
+     },
+     {
+      "face": "loop:r-wardrobe#0",
+      "columns": 45,
+      "median_err_cm": 0.1,
+      "at_cm": 114,
+      "limit_cm": 5,
+      "ratio": 0.01,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.06,
+    "walls_failing": [],
+    "pct": 0.24
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\08-wardrobe__original__b8c5cd0989ce.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:26.729Z",
+   "asset": "09-bath-main",
+   "mode": "cg-only",
+   "room": "r-bath-main",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathMain\\pano.webp",
+   "picture_hash": "52f5f20dfd05",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.41,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-03",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 210.2,
+      "mode": "room",
+      "pct": 0.11,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     },
+     {
+      "id": "pdf-03/bm-shower",
+      "kind": "fixture",
+      "fixture": "bm-shower",
+      "printed_cm": 210,
+      "drawn_cm": 210.1,
+      "trace_cm": 209.6,
+      "mode": "fixture",
+      "pct": 0.21,
+      "ends": [
+       {
+        "offset_cm": 0.2,
+        "feature": "fixture bm-shower"
+       },
+       {
+        "offset_cm": -0.3,
+        "feature": "fixture bm-shower"
+       }
+      ]
+     },
+     {
+      "id": "pdf-10",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 212.5,
+      "drawn_cm": 212.5,
+      "trace_cm": 212.5,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-main)",
+        "on": "loop r-bath-main"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-main",
+     "measured_by": [
+      "pdf-03",
+      "pdf-10"
+     ],
+     "rectangle_m2": 4.469,
+     "niche_m2": 0.074,
+     "niche_edges": 7,
+     "niche_face_median_cm": 1.6
+    },
+    "unchecked": [],
+    "max_pct": 0.21
+   },
+   "cg_vs_plan": {
+    "columns": 257,
+    "occluded_columns": 767,
+    "median_cm": 0.4,
+    "p90_cm": 1.1,
+    "p95_cm": 1.3,
+    "walls": [
+     {
+      "face": "loop:r-bath-main#3",
+      "columns": 127,
+      "median_err_cm": -0.6,
+      "at_cm": 99,
+      "limit_cm": 5,
+      "ratio": 0.12,
+      "pass": true
+     },
+     {
+      "face": "loop:r-bath-main#1",
+      "columns": 127,
+      "median_err_cm": 0.1,
+      "at_cm": 139,
+      "limit_cm": 5,
+      "ratio": 0.01,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.12,
+    "walls_failing": [],
+    "pct": 0.41
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\09-bath-main__original__52f5f20dfd05.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:27.247Z",
+   "asset": "10-bedroom-2",
+   "mode": "cg-only",
+   "room": "r-bedroom-2",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bedroom2\\pano.webp",
+   "picture_hash": "6fec00f65599",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.46,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-25",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 275,
+      "drawn_cm": 275,
+      "trace_cm": 275.2,
+      "mode": "room",
+      "pct": 0.07,
+      "ends": [
+       {
+        "offset_cm": -0.1,
+        "feature": "corner of loop r-bedroom-2",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       }
+      ]
+     },
+     {
+      "id": "pdf-27",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 342.2,
+      "drawn_cm": 342.2,
+      "trace_cm": 342.2,
+      "mode": "room",
+      "pct": 0.01,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bedroom-2)",
+        "on": "loop r-bedroom-2"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "inside facade facade-1",
+        "on": "facade facade-1"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bedroom-2",
+     "measured_by": [
+      "pdf-25",
+      "pdf-27"
+     ],
+     "rectangle_m2": 9.417,
+     "niche_m2": 0.083,
+     "niche_edges": 8,
+     "niche_face_median_cm": 1.5
+    },
+    "unchecked": [],
+    "max_pct": 0.07
+   },
+   "cg_vs_plan": {
+    "columns": 354,
+    "occluded_columns": 510,
+    "median_cm": 0.6,
+    "p90_cm": 2,
+    "p95_cm": 2.5,
+    "walls": [
+     {
+      "face": "loop:r-bedroom-2#25",
+      "columns": 12,
+      "median_err_cm": 1.4,
+      "at_cm": 281,
+      "limit_cm": 5,
+      "ratio": 0.28,
+      "pass": true
+     },
+     {
+      "face": "loop:r-bedroom-2#6",
+      "columns": 204,
+      "median_err_cm": -0.7,
+      "at_cm": 99,
+      "limit_cm": 5,
+      "ratio": 0.13,
+      "pass": true
+     },
+     {
+      "face": "loop:r-bedroom-2#19",
+      "columns": 85,
+      "median_err_cm": 0.4,
+      "at_cm": 219,
+      "limit_cm": 5,
+      "ratio": 0.09,
+      "pass": true
+     },
+     {
+      "face": "w-27#2",
+      "columns": 35,
+      "median_err_cm": 0.2,
+      "at_cm": 198,
+      "limit_cm": 5,
+      "ratio": 0.04,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.28,
+    "walls_failing": [],
+    "pct": 0.46
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\10-bedroom-2__original__6fec00f65599.gate.jpg"
+  },
+  {
+   "mirror_findings": [],
+   "at": "2026-11-07T17:33:27.753Z",
+   "asset": "11-bath-guest",
+   "mode": "cg-only",
+   "room": "r-bath-guest",
+   "set": "original",
+   "cg_tour": "apt846-auto",
+   "picture": "..\\..\\..\\..\\360walkaround\\tours\\apt846-auto\\renders\\cp-bathGuest\\pano.webp",
+   "picture_hash": "1a8b8b5f8aca",
+   "verdict": "PASS",
+   "stale": null,
+   "deviation_pct": 0.28,
+   "max_deviation_pct": 1,
+   "resolution_pct": 1,
+   "resolved": true,
+   "dims": {
+    "rows": [
+     {
+      "id": "pdf-28",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 199.1,
+      "drawn_cm": 199.2,
+      "trace_cm": 199.7,
+      "mode": "room",
+      "pct": 0.28,
+      "ends": [
+       {
+        "offset_cm": -0.3,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       },
+       {
+        "offset_cm": 0.2,
+        "feature": "corner of wall w-4",
+        "on": "wall w-4"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29",
+      "kind": "room",
+      "fixture": null,
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 139.7,
+      "mode": "room",
+      "pct": 0.24,
+      "ends": [
+       {
+        "offset_cm": 0.3,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "wall surface (loop r-bath-guest)",
+        "on": "loop r-bath-guest"
+       }
+      ]
+     },
+     {
+      "id": "pdf-29/bg-shower",
+      "kind": "fixture",
+      "fixture": "bg-shower",
+      "printed_cm": 140,
+      "drawn_cm": 140,
+      "trace_cm": 140,
+      "mode": "fixture",
+      "pct": 0.02,
+      "ends": [
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       },
+       {
+        "offset_cm": 0,
+        "feature": "fixture bg-shower"
+       }
+      ]
+     }
+    ],
+    "niche": {
+     "room": "r-bath-guest",
+     "measured_by": [
+      "pdf-28",
+      "pdf-29"
+     ],
+     "rectangle_m2": 2.788,
+     "niche_m2": 0.744,
+     "niche_edges": 7,
+     "niche_face_median_cm": 2.8
+    },
+    "unchecked": [],
+    "max_pct": 0.28
+   },
+   "cg_vs_plan": {
+    "columns": 231,
+    "occluded_columns": 758,
+    "median_cm": 0.3,
+    "p90_cm": 0.7,
+    "p95_cm": 0.7,
+    "walls": [
+     {
+      "face": "w-4#17",
+      "columns": 43,
+      "median_err_cm": -0.4,
+      "at_cm": 66,
+      "limit_cm": 5,
+      "ratio": 0.08,
+      "pass": true
+     },
+     {
+      "face": "w-4#16",
+      "columns": 11,
+      "median_err_cm": 0.4,
+      "at_cm": 65,
+      "limit_cm": 5,
+      "ratio": 0.08,
+      "pass": true
+     },
+     {
+      "face": "loop:r-bath-guest#0",
+      "columns": 87,
+      "median_err_cm": -0.2,
+      "at_cm": 96,
+      "limit_cm": 5,
+      "ratio": 0.04,
+      "pass": true
+     },
+     {
+      "face": "loop:r-bath-guest#1",
+      "columns": 90,
+      "median_err_cm": 0.1,
+      "at_cm": 100,
+      "limit_cm": 5,
+      "ratio": 0.03,
+      "pass": true
+     }
+    ],
+    "wall_ratio_max": 0.08,
+    "walls_failing": [],
+    "pct": 0.27
+   },
+   "findings": [],
+   "band_edge": {
+    "verdict": "PASS",
+    "chain": [],
+    "failures": [],
+    "note": "cg-only: a CG render has no band repairs"
+   },
+   "calibration": {
+    "inliers": 0,
+    "columns": 0
+   },
+   "delta": 30,
+   "min_deg": 0.35,
+   "evidence": "_local\\fidelity\\11-bath-guest__original__1a8b8b5f8aca.gate.jpg"
+  }
+ ],
+ "rule": {
+  "max_deviation_pct": 1,
+  "min_finding_deg": 0.35,
+  "source": "Habait/tour360/fidelity.json"
+ }
+}

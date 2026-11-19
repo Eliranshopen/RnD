@@ -1,0 +1,9 @@
+[
+  {
+    "at": "2026-11-03T21:26:57.058Z",
+    "stage": "intake",
+    "endpoint": "fal:anthropic/claude-sonnet-5.5",
+    "usd": 0,
+    "note": "fal HTTP 400: \"Reasoning is mandatory for this endpoint and cannot be disabled.\""
+  }
+]

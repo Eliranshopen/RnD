@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ניסוי סרטון הליכה</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f6f3ee; --fg: #2b2622; --muted: #6e655c; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1d1a17; --fg: #f1ece6; --muted: #b3a99e; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 system-ui, "Segoe UI", Arial, sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 16px; }
+  h1 { font-size: 20px; margin: 8px 0; }
+  p { margin: 6px 0 14px; color: var(--muted); }
+  video { width: 100%; border-radius: 10px; background: #000; display: block; }
+  h2 { font-size: 16px; margin: 22px 0 6px; }
+  .badge { display: inline-block; background: #e9b13b; color: #2b2622; border-radius: 999px; padding: 1px 10px; font-size: 13px; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ניסוי סרטון הליכה: כניסה ← סלון <span class="badge">הדמיה · AI</span></h1>
+  <p>סרטון אחד של 5 שניות. המסלול והקירות מגיעים ממודל הדירה לפי תכנית המכר, והמראה מתמונות הסיור.</p>
+  <video src="entrance-living.mp4" controls playsinline loop muted autoplay></video>
+  <h2>המודל שממנו נוצר הסרטון (לבדיקה)</h2>
+  <video src="clay.mp4" controls playsinline loop muted></video>
+</main>
+</body>
+</html>

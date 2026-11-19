@@ -1,0 +1,9 @@
+{
+ "asset": "07-master",
+ "tag": "window",
+ "parent": "07-master__flat__w.png",
+ "yaw": 0.0,
+ "pitch": 0.0,
+ "hfov": 104.0,
+ "size": 1024
+}

@@ -1,0 +1,38 @@
+{
+  "schema": "habait/job.v1",
+  "job_id": "db4d76d9d9c2deb2",
+  "mode": "stub",
+  "state": "done",
+  "percent": 100,
+  "created_at": "2026-11-16T15:20:00.445Z",
+  "updated_at": "2026-11-16T15:21:37.321Z",
+  "heartbeat_at": "2026-11-16T15:21:37.321Z",
+  "input": {
+    "pdf_path": "C:/RnD/Projects/3Dengine/jobs/db4d76d9d9c2deb2/input/source.pdf",
+    "pdf_name": "sample.pdf",
+    "pdf_sha256": "b02d89cee1a461de6e49e265007fbdcd30eeed2a0b947988e94b4eeb39ecc43c",
+    "apartment": "apt846"
+  },
+  "quote": {
+    "estimate_usd": 48,
+    "range_usd": [
+      40,
+      60
+    ],
+    "rooms": 11,
+    "basis": "measured on apartment 846"
+  },
+  "approval": {
+    "cap_usd": 60,
+    "at": "2026-11-16T15:21:00.199Z"
+  },
+  "cost": {
+    "spent_usd": 0,
+    "cap_usd": 60
+  },
+  "result": {
+    "local_url": "http://127.0.0.1:8891/tour/?scope=apartment&room=terraceLiving&floor=parquet&video=0",
+    "tour_dir": "C:/RnD/.wt/deploy-P-7/tour"
+  },
+  "reason": null
+}

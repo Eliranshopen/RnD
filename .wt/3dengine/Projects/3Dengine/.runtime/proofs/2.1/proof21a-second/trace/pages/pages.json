@@ -1,0 +1,82 @@
+{
+ "pdf": "c:\\RnD\\.wt\\3dengine\\Projects\\3Dengine\\tests\\fixtures\\apt846\\source.pdf",
+ "pages": 1,
+ "sheet": true,
+ "page_rows": [
+  {
+   "page": 1,
+   "size_pt": [
+    1684.0,
+    1191.0
+   ],
+   "text": "",
+   "drawings": 8515,
+   "images": [
+    {
+     "xref": 107,
+     "px": [
+      337,
+      198
+     ],
+     "rects_pt": [
+      [
+       66,
+       1018,
+       210,
+       1103
+      ]
+     ],
+     "large": false
+    },
+    {
+     "xref": 110,
+     "px": [
+      392,
+      437
+     ],
+     "rects_pt": [
+      [
+       72,
+       1090,
+       143,
+       1169
+      ]
+     ],
+     "large": false
+    },
+    {
+     "xref": 121,
+     "px": [
+      866,
+      197
+     ],
+     "rects_pt": [
+      [
+       28,
+       111,
+       184,
+       146
+      ]
+     ],
+     "large": false
+    },
+    {
+     "xref": 138,
+     "px": [
+      886,
+      443
+     ],
+     "rects_pt": [
+      [
+       27,
+       22,
+       186,
+       101
+      ]
+     ],
+     "large": false
+    }
+   ]
+  }
+ ]
+}

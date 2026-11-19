@@ -1,0 +1,25 @@
+
+=== [1/1] cp-living =======================================
+[render_pano] v0.3.0  blender 4.5.10 LTS
+[render_pano] blend      : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\scene-full.blend
+[render_pano] point      : cp-living  plan (679.9,927.7,160) yaw 111.3
+[render_pano] camera     : (6.799, -9.277, 1.6) m  euler (90.0, 0.0, -111.3) deg  [camera.panorama_type (4.3+)]
+[render_pano] device     : CPU (no GPU backend available -- fell back to CPU) []
+[render_pano] settings   : 2048x1024 @ 64 spp  adaptive=on(0.01) denoise=on/cpu  tile=2048 texlimit=OFF seed=0
+[render_pano] wrap pad   : 512 px each side  -> rendered 3072x1024 over -270.0000..270.0000 deg, cropped back
+[render_pano] out        : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-living
+[render_pano] input_key  : 38dcd2f3b9c06f0d…
+[render_pano] render 1/1: 466.295 s wall  (cycles 464.04s, device peak 1093.58 MB, host peak 1425.3 MB)
+[render_pano] depth      : depth.png 154,254 B  valid 2,097,152 / 2,097,152  sky 0  range 0.953..7.111 m  (0.336 s)
+[render_pano] depth check: 2/3 within 2.0 cm, worst 2.00 cm  [report]
+              FAIL  nadir (floor)                                expected 1.6000 m  decoded 1.5800 m  err -2.00 cm   [r-living floor z=0]
+              PASS  zenith (ceiling)                             expected 1.3000 m  decoded 1.3000 m  err -0.00 cm   [r-living ceiling z=290 cm]
+              SKIP  room r-living is not rectangular — the 4 wall checks are SKIPPED
+[render_pano] pano       : pano.webp 2048x1024 66,048 B  zenith mean 168.2/255 (4 colours) · nadir mean 183.9/255 (5 colours) · no_hole=True
+REPORT    1 depth check(s) outside 2.0 cm: ['nadir (floor)']  (--check-mode report: not a failure)
+[render_pano] sidecar    : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-living\pano.render.json
+[render_pano] manifest   : C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\manifest.json (key 'cp-living')
+OK
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-living\pano-depth-0001'
+Saved: 'C:\RnD\.wt\fix-846-fidelity\Projects\Habait\habait-walkaround\360walkaround\tours\apt846-furnished\renders\cp-living\pano-pano-0001'
+

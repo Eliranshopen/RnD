@@ -1,0 +1,22 @@
+01-bedroom           ← 01-bedroom__cg__0.png 2048x1024 → balanced 42 KB · thumb 3 KB
+02-bathroom          ← 02-bathroom__cg__0.png 2048x1024 → balanced 37 KB · thumb 1 KB
+03-kitchen           ← 03-kitchen__cg__0.png 2048x1024 → balanced 74 KB · thumb 5 KB
+04-dining-area       ← 04-dining-area__cg__0.png 2048x1024 → balanced 55 KB · thumb 6 KB
+05-living-room       ← 05-living-room__cg__0.png 2048x1024 → balanced 53 KB · thumb 4 KB
+06-sun-terrace       ← 06-sun-terrace__cg__0.png 2048x1024 → balanced 85 KB · thumb 3 KB
+07-master-bedroom    ← 07-master-bedroom__cg__0.png 2048x1024 → balanced 35 KB · thumb 3 KB
+08-wardrobe-area     ← 08-wardrobe-area__cg__0.png 2048x1024 → balanced 41 KB · thumb 3 KB
+09-master-bathroom   ← 09-master-bathroom__cg__0.png 2048x1024 → balanced 29 KB · thumb 2 KB
+10-entrance          ← 10-entrance__cg__0.png 2048x1024 → balanced 47 KB · thumb 4 KB
+make-sets: 10 of 10 scenes written
+01-bedroom           ← original 360walkaround\tours\ptrace846\renders\cp-bedroom\pano.webp → 42 KB
+02-bathroom          ← original 360walkaround\tours\ptrace846\renders\cp-bathroom\pano.webp → 37 KB
+03-kitchen           ← original 360walkaround\tours\ptrace846\renders\cp-kitchen\pano.webp → 74 KB
+04-dining-area       ← original 360walkaround\tours\ptrace846\renders\cp-diningArea\pano.webp → 55 KB
+05-living-room       ← original 360walkaround\tours\ptrace846\renders\cp-livingRoom\pano.webp → 53 KB
+06-sun-terrace       ← original 360walkaround\tours\ptrace846\renders\cp-sunTerrace\pano.webp → 85 KB
+07-master-bedroom    ← original 360walkaround\tours\ptrace846\renders\cp-masterBedroom\pano.webp → 35 KB
+08-wardrobe-area     ← original 360walkaround\tours\ptrace846\renders\cp-wardrobeArea\pano.webp → 41 KB
+09-master-bathroom   ← original 360walkaround\tours\ptrace846\renders\cp-masterBathroom\pano.webp → 29 KB
+10-entrance          ← original 360walkaround\tours\ptrace846\renders\cp-entrance\pano.webp → 47 KB
+make-sets: original set 10 of 10 written to panos/original

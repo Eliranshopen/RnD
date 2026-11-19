@@ -1,0 +1,369 @@
+{
+ "rows": [
+  {
+   "step": "relight",
+   "key": "noon",
+   "group": null,
+   "seconds": 6.5,
+   "out": "out\\noon\\prep_noon.blend",
+   "report": {
+    "key": "noon",
+    "source": "C:\\RnD\\.wt\\harei-zahav-naama\\out\\harei-zahav-naama\\3-rooms\\work\\walk2\\prep.blend",
+    "changed": [
+     "world=nishita",
+     "sun created",
+     "sun=az185/el55 x1",
+     "interior x0.0: 32 lamps, 6 emissive nodes",
+     "exposure=0.0 view=AgX/AgX - Medium High Contrast"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc-walk\\out\\noon\\prep_noon.blend",
+    "preset_sha256": "5d5d7eacc158ef7c"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "noon",
+   "group": 0,
+   "seconds": 102.4,
+   "samples": 16,
+   "exr_sha16": "2c76e6490013196d",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "noon",
+   "group": 1,
+   "seconds": 71.5,
+   "samples": 16,
+   "exr_sha16": "d37d59567a0b52f5",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "noon",
+   "group": 2,
+   "seconds": 75.3,
+   "samples": 16,
+   "exr_sha16": "6858c9dd80c36510",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "noon",
+   "group": 3,
+   "seconds": 114.3,
+   "samples": 16,
+   "exr_sha16": "b6080089f617cfbd",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "noon",
+   "group": 4,
+   "seconds": 152.9,
+   "samples": 16,
+   "exr_sha16": "d21aa45701bb8a2a",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "noon",
+   "group": 5,
+   "seconds": 97.5,
+   "samples": 16,
+   "exr_sha16": "fb7747836093d620",
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "morning",
+   "group": null,
+   "seconds": 4.2,
+   "out": "out\\morning\\prep_morning.blend",
+   "report": {
+    "key": "morning",
+    "source": "C:\\RnD\\.wt\\harei-zahav-naama\\out\\harei-zahav-naama\\3-rooms\\work\\walk2\\prep.blend",
+    "changed": [
+     "world=nishita",
+     "sun created",
+     "sun=az100/el14 x1",
+     "interior x0.0: 32 lamps, 6 emissive nodes",
+     "exposure=0.6 view=AgX/AgX - Medium High Contrast"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc-walk\\out\\morning\\prep_morning.blend",
+    "preset_sha256": "0436c0c601598b8b"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "morning",
+   "group": 0,
+   "seconds": 95.7,
+   "samples": 16,
+   "exr_sha16": "c754d03972924370",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "morning",
+   "group": 1,
+   "seconds": 71.3,
+   "samples": 16,
+   "exr_sha16": "953cea172408ada6",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "morning",
+   "group": 2,
+   "seconds": 74.0,
+   "samples": 16,
+   "exr_sha16": "1de2acc0b4a1d2fd",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "morning",
+   "group": 3,
+   "seconds": 106.7,
+   "samples": 16,
+   "exr_sha16": "017f8c58e5f443bf",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "morning",
+   "group": 4,
+   "seconds": 117.6,
+   "samples": 16,
+   "exr_sha16": "d2b9643da0a92b3d",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "morning",
+   "group": 5,
+   "seconds": 85.1,
+   "samples": 16,
+   "exr_sha16": "8503a858826b3fb8",
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "golden",
+   "group": null,
+   "seconds": 3.5,
+   "out": "out\\golden\\prep_golden.blend",
+   "report": {
+    "key": "golden",
+    "source": "C:\\RnD\\.wt\\harei-zahav-naama\\out\\harei-zahav-naama\\3-rooms\\work\\walk2\\prep.blend",
+    "changed": [
+     "world=nishita",
+     "sun created",
+     "sun=az262/el7 x1",
+     "lamp rules [{'match': 'Spot_', 'factor': 0.0}] colour [1.0, 0.6, 0.34]",
+     "interior x0.6: 32 lamps, 6 emissive nodes",
+     "exposure=-1.1 view=AgX/AgX - Medium High Contrast"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc-walk\\out\\golden\\prep_golden.blend",
+    "preset_sha256": "f9b6c8881872dc71"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "golden",
+   "group": 0,
+   "seconds": 359.2,
+   "samples": 16,
+   "exr_sha16": "0ddf7e308dc4e5a0",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "golden",
+   "group": 1,
+   "seconds": 105.0,
+   "samples": 16,
+   "exr_sha16": "4ef7439a618744ef",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "golden",
+   "group": 2,
+   "seconds": 115.4,
+   "samples": 16,
+   "exr_sha16": "ac0960528830c26c",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "golden",
+   "group": 3,
+   "seconds": 143.9,
+   "samples": 16,
+   "exr_sha16": "d4995a60aec121d9",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "golden",
+   "group": 4,
+   "seconds": 123.8,
+   "samples": 16,
+   "exr_sha16": "151d660b6be95b84",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "golden",
+   "group": 5,
+   "seconds": 99.0,
+   "samples": 16,
+   "exr_sha16": "f290c07a0286d460",
+   "cost_usd": 0
+  },
+  {
+   "step": "export",
+   "key": "golden",
+   "group": null,
+   "seconds": 57.0,
+   "exposure": -1.1,
+   "atlases": {
+    "0": "90db6d6af99000ad",
+    "1": "5bf417a01ef38289",
+    "2": "6a269ced2f4b6950",
+    "3": "f71741df8262a7ec",
+    "4": "953b689b2ba19eac",
+    "5": "48b724a3854d1402"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "relight",
+   "key": "night",
+   "group": null,
+   "seconds": 2.9,
+   "out": "out\\night\\prep_night.blend",
+   "report": {
+    "key": "night",
+    "source": "C:\\RnD\\.wt\\harei-zahav-naama\\out\\harei-zahav-naama\\3-rooms\\work\\walk2\\prep.blend",
+    "changed": [
+     "world=color",
+     "sun=off x0",
+     "lamp rules [{'match': 'Spot_', 'factor': 0.12}, {'match': 'K_pendant', 'factor': 1.6}, {'match': 'D_rattan', 'factor': 1.4}, {'match': 'L_', 'factor': 2.5}, {'match': 'B_lamp', 'factor': 2.5}] colour [1.0, 0.56, 0.3]",
+     "interior x1.0: 32 lamps, 6 emissive nodes",
+     "exposure=-1.5 view=AgX/AgX - Medium High Contrast"
+    ],
+    "out": "C:\\RnD\\Files_reverse_engeneering\\poc-walk\\out\\night\\prep_night.blend",
+    "preset_sha256": "87a2994fd753ba30"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "night",
+   "group": 0,
+   "seconds": 160.8,
+   "samples": 16,
+   "exr_sha16": "6e6c52f805d58f4d",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "night",
+   "group": 1,
+   "seconds": 83.6,
+   "samples": 16,
+   "exr_sha16": "229a6e6de9fea047",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "night",
+   "group": 2,
+   "seconds": 110.1,
+   "samples": 16,
+   "exr_sha16": "3acc62f738e289ef",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "night",
+   "group": 3,
+   "seconds": 172.6,
+   "samples": 16,
+   "exr_sha16": "4e9104656f4d22b2",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "night",
+   "group": 4,
+   "seconds": 162.5,
+   "samples": 16,
+   "exr_sha16": "190d296c1281b8b6",
+   "cost_usd": 0
+  },
+  {
+   "step": "bake",
+   "key": "night",
+   "group": 5,
+   "seconds": 95.6,
+   "samples": 16,
+   "exr_sha16": "be8649fa7e17c707",
+   "cost_usd": 0
+  },
+  {
+   "step": "export",
+   "key": "night",
+   "group": null,
+   "seconds": 40.3,
+   "exposure": -1.5,
+   "atlases": {
+    "0": "87a06fddf8b5bbab",
+    "1": "cc1a3a2a707997f6",
+    "2": "165fa853a10ced16",
+    "3": "e9acb66d0582a7a8",
+    "4": "0a25623833d0bbd0",
+    "5": "bcbc2d10218d46e3"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "export",
+   "key": "morning",
+   "group": null,
+   "seconds": 125.1,
+   "exposure": 0.4,
+   "atlases": {
+    "0": "d1c3dd2b959aade9",
+    "1": "20913c02c366bf21",
+    "2": "d6a1a49602f666c6",
+    "3": "f9e6ee82b6ddf16a",
+    "4": "ffec4d659ce1179b",
+    "5": "a9a5e55ed5eb901e"
+   },
+   "cost_usd": 0
+  },
+  {
+   "step": "export",
+   "key": "noon",
+   "group": null,
+   "seconds": 96.0,
+   "exposure": 1.0,
+   "atlases": {
+    "0": "5a5c0197674409a4",
+    "1": "58075323fa73da5f",
+    "2": "6d104013afe2337c",
+    "3": "972c3c33248224c5",
+    "4": "e9e5fb0fdeac50db",
+    "5": "a34ed30a1e94972f"
+   },
+   "cost_usd": 0
+  }
+ ]
+}

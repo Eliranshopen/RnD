@@ -1,0 +1,51 @@
+{
+ "ok": true,
+ "item": "ai-coffee-marble",
+ "held": true,
+ "original_present": false,
+ "product_present": true,
+ "product_box": [
+  308,
+  298,
+  689,
+  699
+ ],
+ "product_box_raw": [
+  308,
+  298,
+  747,
+  699
+ ],
+ "box_kept": 0.868,
+ "placed": true,
+ "count": 1,
+ "rest_unchanged": 3,
+ "note": "The original coffee table was successfully replaced with the requested round marble top table on a black drum base.",
+ "usd": 0.0028,
+ "ms": 5218,
+ "settled": {
+  "usd": 0.0028,
+  "status": "settled",
+  "held": true,
+  "original_present": false,
+  "product_present": true,
+  "product_box": [
+   308,
+   298,
+   689,
+   699
+  ],
+  "product_box_raw": [
+   308,
+   298,
+   747,
+   699
+  ],
+  "box_kept": 0.868,
+  "placed": true,
+  "judged_count": 1,
+  "rest_unchanged": 3,
+  "note": "The original coffee table was successfully replaced with the requested round marble top table on a black drum base.",
+  "seconds": 5.209
+ }
+}

@@ -1,0 +1,12 @@
+[
+ {
+  "sun_rotation_deg": 0,
+  "row_from_bottom": 65,
+  "bearing_deg_cw_from_+Y": 0.7
+ },
+ {
+  "sun_rotation_deg": 90,
+  "row_from_bottom": 78,
+  "bearing_deg_cw_from_+Y": 90.7
+ }
+]

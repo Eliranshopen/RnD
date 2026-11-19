@@ -1,0 +1,13 @@
+run-project apt846-auto: render done in 3026 s
+run-project apt846-auto: scenes done in 2 s
+file:///C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/Habait/tour360/tools/app-require.mjs:14
+  throw new Error('app-require: no Habait/MVP/app with node_modules/playwright-core (set HABAIT_APP_DIR)');
+        ^
+
+Error: app-require: no Habait/MVP/app with node_modules/playwright-core (set HABAIT_APP_DIR)
+    at appRequire (file:///C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/Habait/tour360/tools/app-require.mjs:14:9)
+    at Object.stepSets [as sets] (file:///C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/Habait/tour360/tools/run-project.mjs:293:17)
+    at async file:///C:/RnD/.wt/project-runner/Projects/Habait/habait-walkaround/Habait/tour360/tools/run-project.mjs:392:14
+
+Node.js v24.22.1
+exit 1

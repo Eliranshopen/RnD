@@ -1,0 +1,71 @@
+{
+ "axis_deg": 0.0,
+ "rects": {
+  "bathroom": {
+   "rect_px": [
+    73.0,
+    517.0,
+    189.0,
+    595.0
+   ],
+   "fit": 0.959,
+   "snapped": true,
+   "own_fixtures_in": "3/3",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "safe-room-mamad": {
+   "rect_px": [
+    66.0,
+    608.0,
+    241.3875,
+    748.31
+   ],
+   "fit": 0.955,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "kitchen": {
+   "rect_px": [
+    66.0,
+    181.0,
+    211.0,
+    408.0
+   ],
+   "fit": 0.969,
+   "snapped": true,
+   "own_fixtures_in": "4/4",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "living-room": {
+   "rect_px": [
+    247.0,
+    185.0,
+    454.0,
+    528.7595
+   ],
+   "fit": 0.961,
+   "snapped": true,
+   "own_fixtures_in": "0/0",
+   "other_labels_covered": 0,
+   "local_axis_deg": 0.0
+  },
+  "stairs-to-floor-1": {
+   "rect_px": [
+    66,
+    402,
+    196,
+    514
+   ],
+   "fit": null,
+   "snapped": true,
+   "from": "reading box"
+  }
+ },
+ "notes": [
+  "front door: the wall gap 108 cm wide, 112 cm from the entrance label"
+ ]
+}

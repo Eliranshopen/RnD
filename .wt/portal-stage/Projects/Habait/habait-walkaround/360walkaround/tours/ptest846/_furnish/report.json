@@ -1,0 +1,390 @@
+{
+ "schema": "habait.furnish-from-plan/0.1/report",
+ "plan": {
+  "path": "C:/RnD/.wt/portal-stage/Projects/Habait/habait-walkaround/360walkaround/tours/ptest846/plan.base.json",
+  "sha256": "1143c362dafc2637c6d85135f5c032012d06696a3a90ef35a682f23fe80e4818"
+ },
+ "style": {
+  "path": "C:/RnD/.wt/portal-stage/Projects/Habait/habait-walkaround/360walkaround/catalog/style-habait-modern.json",
+  "sha256": "be613e60c659c989e76263cca44d72a39c1655ff62a846a2a9f1707580653bd0"
+ },
+ "generator": {
+  "name": "furnish_from_plan.py",
+  "version": "0.1.0",
+  "sha256": "5ab4f827f61d247fe1a604d33c4ba1da221ddf587b6ecbc28aabcf64a7a7629c",
+  "general_furnish": "0.1.1",
+  "plan_general": "0.2.0"
+ },
+ "bars_cm": {
+  "probe_out": 9.0,
+  "template_camera": 40.0,
+  "virtual_zone": 60.0,
+  "audit_depth": 60.0,
+  "passage_min": 80.0,
+  "wall_tol": 1.5,
+  "wall_tol_area_cm2": 4.0,
+  "walkway": 50.0
+ },
+ "rooms": {
+  "r-bedroom": {
+   "role": "bedroom",
+   "area_m2": 9.33,
+   "items": 1,
+   "plan": 0,
+   "template": 1,
+   "coverage_pct": 15.4,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-bathroom": {
+   "role": "bathroom",
+   "area_m2": 2.78,
+   "items": 4,
+   "plan": 4,
+   "template": 0,
+   "coverage_pct": 45.6,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-kitchen": {
+   "role": "kitchen",
+   "area_m2": 12.31,
+   "items": 5,
+   "plan": 5,
+   "template": 0,
+   "coverage_pct": 18.9,
+   "walk": {
+    "reachable": 0,
+    "of": 0,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-dining-area": {
+   "role": "dining",
+   "area_m2": 11.84,
+   "items": 6,
+   "plan": 1,
+   "template": 5,
+   "coverage_pct": 22.7,
+   "walk": {
+    "reachable": 0,
+    "of": 0,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-living-room": {
+   "role": "living",
+   "area_m2": 28.37,
+   "items": 9,
+   "plan": 1,
+   "template": 8,
+   "coverage_pct": 15.9,
+   "walk": {
+    "reachable": 1,
+    "of": 2,
+    "unreached": [
+     "o-arc-3"
+    ],
+    "camera_free": true
+   }
+  },
+  "r-sun-terrace": {
+   "role": "terrace",
+   "area_m2": 18.9,
+   "items": 3,
+   "plan": 0,
+   "template": 3,
+   "coverage_pct": 13.0,
+   "walk": null
+  },
+  "r-master-bedroom": {
+   "role": "bedroom",
+   "area_m2": 11.83,
+   "items": 1,
+   "plan": 1,
+   "template": 0,
+   "coverage_pct": 3.3,
+   "walk": {
+    "reachable": 2,
+    "of": 2,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-wardrobe-area": {
+   "role": "wardrobe",
+   "area_m2": 2.92,
+   "items": 1,
+   "plan": 1,
+   "template": 0,
+   "coverage_pct": 26.1,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-master-bathroom": {
+   "role": "bathroom",
+   "area_m2": 4.39,
+   "items": 5,
+   "plan": 4,
+   "template": 1,
+   "coverage_pct": 40.6,
+   "walk": {
+    "reachable": 0,
+    "of": 1,
+    "unreached": [
+     "o-arc-6"
+    ],
+    "camera_free": true
+   }
+  },
+  "r-entrance": {
+   "role": "hall",
+   "area_m2": 5.69,
+   "items": 1,
+   "plan": 0,
+   "template": 1,
+   "coverage_pct": 0.0,
+   "walk": {
+    "reachable": 4,
+    "of": 4,
+    "unreached": [],
+    "camera_free": true
+   }
+  },
+  "r-corridor-23": {
+   "role": "hall",
+   "area_m2": 2.79,
+   "items": 1,
+   "plan": 0,
+   "template": 1,
+   "coverage_pct": 0.0,
+   "walk": {
+    "reachable": 1,
+    "of": 1,
+    "unreached": [],
+    "camera_free": true
+   }
+  }
+ },
+ "rooms_furnished": [
+  "r-bedroom",
+  "r-bathroom",
+  "r-kitchen",
+  "r-dining-area",
+  "r-living-room",
+  "r-sun-terrace",
+  "r-master-bedroom",
+  "r-wardrobe-area",
+  "r-master-bathroom",
+  "r-entrance",
+  "r-corridor-23"
+ ],
+ "items_total": 37,
+ "items_by_origin": {
+  "plan_fixture": 15,
+  "plan_derived": 2,
+  "template": 15,
+  "template_derived": 5
+ },
+ "openings_blocked": [
+  "o-arc-6",
+  "o-arc-7"
+ ],
+ "wall_hits": [
+  {
+   "id": "fx-drawn-10-counter-m4",
+   "room_id": "r-kitchen",
+   "origin": "plan",
+   "wall_cm2": 271.0,
+   "pane_cm2": 0.0
+  },
+  {
+   "id": "fx-drawn-15-wardrobe",
+   "room_id": "r-master-bedroom",
+   "origin": "plan",
+   "wall_cm2": 434.0,
+   "pane_cm2": 0.0
+  }
+ ],
+ "outside_room": [],
+ "size_violations": [],
+ "floor_coverage_pct": 16.6,
+ "dropped": [],
+ "openings": [
+  {
+   "id": "o-4",
+   "kind": "door",
+   "rooms": [
+    "r-master-bedroom",
+    "r-sun-terrace"
+   ],
+   "width_cm": 130.9,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 130.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-3",
+   "kind": "door",
+   "rooms": [
+    "outside",
+    "r-master-bedroom"
+   ],
+   "width_cm": 119.5,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 118.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-1",
+   "kind": "entry_door",
+   "rooms": [
+    "outside",
+    "r-entrance"
+   ],
+   "width_cm": 110.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 110.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-2",
+   "kind": "door",
+   "rooms": [
+    "r-entrance",
+    "r-bedroom"
+   ],
+   "width_cm": 93.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-3",
+   "kind": "door",
+   "rooms": [
+    "r-corridor-23",
+    "r-living-room"
+   ],
+   "width_cm": 93.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 92.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-6",
+   "kind": "door",
+   "rooms": [
+    "r-wardrobe-area",
+    "r-master-bathroom"
+   ],
+   "width_cm": 78.9,
+   "virtual": false,
+   "need_cm": 74.9,
+   "free_cm": 40.0,
+   "in_zone": [
+    "fx-9-vanity",
+    "fx-drawn-13-shower"
+   ],
+   "swing_hit": null,
+   "blocked": true
+  },
+  {
+   "id": "o-arc-8",
+   "kind": "door",
+   "rooms": [
+    "r-entrance",
+    "outside"
+   ],
+   "width_cm": 71.5,
+   "virtual": false,
+   "need_cm": 67.5,
+   "free_cm": 70.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  },
+  {
+   "id": "o-arc-7",
+   "kind": "door",
+   "rooms": [
+    "r-bathroom",
+    "r-entrance"
+   ],
+   "width_cm": 67.2,
+   "virtual": false,
+   "need_cm": 63.2,
+   "free_cm": 22.0,
+   "in_zone": [
+    "fx-2-wc",
+    "fx-3-vanity"
+   ],
+   "swing_hit": null,
+   "blocked": true
+  },
+  {
+   "id": "o-adj-6",
+   "kind": "opening",
+   "rooms": [
+    "r-living-room",
+    "r-sun-terrace"
+   ],
+   "width_cm": 200.0,
+   "virtual": false,
+   "need_cm": 80.0,
+   "free_cm": 200.0,
+   "in_zone": [],
+   "swing_hit": null,
+   "blocked": false
+  }
+ ],
+ "warnings": [
+  "fx-drawn-5-tall_unit: moved 13 cm off its traced line, out of the wall behind it",
+  "fx-drawn-15-wardrobe: run trimmed 74 cm (a wall, a door zone or an earlier piece)",
+  "fx-drawn-15-wardrobe: kept (plan truth) but enters a wall, a pane or another room; overlaps fx-drawn-14-wardrobe by 22.5 cm",
+  "fx-3-vanity: kept (plan truth) but overlaps fx-2-wc by 23.9 cm",
+  "fx-10-washer: kind 'washer' has no furnishing rule - not built",
+  "fx-drawn-2-sink: kind 'sink' has no furnishing rule - not built",
+  "fx-drawn-3-sink: kind 'sink' has no furnishing rule - not built",
+  "fx-drawn-4-sink: kind 'sink' has no furnishing rule - not built",
+  "fx-drawn-6-hob: kind 'hob' has no furnishing rule - not built",
+  "fx-drawn-7-sink: kind 'sink' has no furnishing rule - not built",
+  "fx-drawn-8-sink: kind 'sink' has no furnishing rule - not built",
+  "fx-drawn-10-counter: run trimmed 170 cm (a wall, a door zone or an earlier piece)",
+  "fx-drawn-11-panel: kind 'panel' has no furnishing rule - not built",
+  "fx-drawn-12-shower: moved 22 cm off its traced line, out of the wall behind it",
+  "fx-drawn-12-shower: run trimmed 24 cm (a wall, a door zone or an earlier piece)",
+  "fx-drawn-12-shower: no glass screen - either end would stand 16 cm from a camera (bar 30)",
+  "fx-drawn-12-shower: kept (plan truth) but 2.1 cm from camera cp-bathroom (bar 25)",
+  "fx-drawn-13-shower: run trimmed 83 cm (a wall, a door zone or an earlier piece)"
+ ]
+}

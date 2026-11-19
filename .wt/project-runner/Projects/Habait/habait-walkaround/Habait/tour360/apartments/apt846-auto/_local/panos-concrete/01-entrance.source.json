@@ -1,0 +1,7 @@
+{
+ "answer": "01-entrance__seam3__s7__f0f2efb32699.png",
+ "source": "01-entrance__seam3__s7__f0f2efb32699.png",
+ "mode": "floor-composite --whole",
+ "composite": "01-entrance__floorcomp-concrete__f0f2efb32699.png",
+ "floor_from": "01-entrance.answer-01-entrance__seam3__s7__f0f2efb32699.webp"
+}

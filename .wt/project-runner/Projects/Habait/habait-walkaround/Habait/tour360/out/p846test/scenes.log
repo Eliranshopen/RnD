@@ -1,0 +1,12 @@
+scenes.json: 11 scenes, 24 links
+  entrance        centre   297°  living@u0.05  bedroom2@u0.809  bathGuest@u0.799
+  kitchen         centre    21°  living@u0.023  dining@u0.624
+  dining          centre    93°  kitchen@u0.975  living@u0.794
+  living          centre   102°  entrance@u0.155  kitchen@u0.374  dining@u0.428  terraceLiving@u0.507  wardrobe@u0.703
+  terraceLiving   centre   150°  living@u0.67  terraceBedroom@u0.64
+  terraceBedroom  centre   121°  terraceLiving@u0.278  bedroomMain@u0.889
+  bedroomMain     centre   118°  wardrobe@u0.978  terraceBedroom@u0.465
+  wardrobe        centre   330°  living@u0.471  bedroomMain@u0.845  bathMain@u0.225
+  bathMain        centre 163.9°  wardrobe@u0.361
+  bedroom2        centre    38°  entrance@u0.958
+  bathGuest       centre   140°  entrance@u0.448

@@ -1,0 +1,299 @@
+{
+  "schema": "habait.apartment-page.v0",
+  "generated": "2026-11-07T22:25:17.640Z",
+  "version": "0.1.20261107",
+  "project": {
+    "id": "ptrace846",
+    "name": {
+      "he": "RAINBOW TEL AVIV – TOWER-RED",
+      "en": "RAINBOW TEL AVIV – TOWER-RED"
+    },
+    "tagline": {
+      "he": "Tel Aviv · הדמיה",
+      "en": "Tel Aviv · concept"
+    },
+    "developer": {
+      "he": "ישראל קנדה (Israel Canada)",
+      "en": "ישראל קנדה (Israel Canada)"
+    },
+    "brand": {
+      "primary": "#0f5c8f",
+      "accent": "#f2a900",
+      "background": "#0b1220",
+      "logo": null
+    },
+    "leads": {
+      "whatsapp_number": "",
+      "agent": null,
+      "email": null
+    },
+    "exterior": null,
+    "fixture": false,
+    "currency": "ILS"
+  },
+  "unit": {
+    "id": "846",
+    "floor": 16,
+    "type": "L",
+    "rooms": 3,
+    "area_m2": 108.72,
+    "outdoor_m2": 26.15,
+    "price": null,
+    "status": "for-sale",
+    "tour_url": "tour/?scope=apartment&room=bedroom",
+    "note": "from the portal reading of the sales plan",
+    "currency": "ILS"
+  },
+  "tour": {
+    "url": "tour/?scope=apartment&room=bedroom",
+    "scope": "apartment",
+    "rooms": 10,
+    "hold": null
+  },
+  "back": {
+    "url": "http://127.0.0.1:8850/landing.html?project=ptrace846"
+  },
+  "plan": {
+    "src": "media/plan.png",
+    "width": 1262,
+    "height": 1702,
+    "date": null,
+    "architect": null,
+    "source_sha256": "2c3ec3f62c04edc70a2b5e97d5ff593348575d4e098de5b393d87cf87c61c810",
+    "source": "דירה 846- 16.pdf page 1"
+  },
+  "panos": [
+    {
+      "id": "bedroom",
+      "name": {
+        "he": "חדר שינה",
+        "en": "bedroom",
+        "fr": "Chambre"
+      },
+      "src": "media/panos/01-bedroom.webp"
+    },
+    {
+      "id": "bathroom",
+      "name": {
+        "he": "חדר רחצה כללי",
+        "en": "bathroom",
+        "fr": "Salle de bain"
+      },
+      "src": "media/panos/02-bathroom.webp"
+    },
+    {
+      "id": "kitchen",
+      "name": {
+        "he": "מטבח",
+        "en": "kitchen",
+        "fr": "Cuisine"
+      },
+      "src": "media/panos/03-kitchen.webp"
+    },
+    {
+      "id": "diningArea",
+      "name": {
+        "he": "פינת אוכל",
+        "en": "dining area",
+        "fr": "Entrée"
+      },
+      "src": "media/panos/04-dining-area.webp"
+    },
+    {
+      "id": "livingRoom",
+      "name": {
+        "he": "חדר דיור",
+        "en": "living room",
+        "fr": "Séjour"
+      },
+      "src": "media/panos/05-living-room.webp"
+    },
+    {
+      "id": "sunTerrace",
+      "name": {
+        "he": "מרפסת שמש",
+        "en": "sun terrace",
+        "fr": "Terrasse"
+      },
+      "src": "media/panos/06-sun-terrace.webp"
+    },
+    {
+      "id": "masterBedroom",
+      "name": {
+        "he": "חדר שינה הורים",
+        "en": "master bedroom",
+        "fr": "Chambre"
+      },
+      "src": "media/panos/07-master-bedroom.webp"
+    },
+    {
+      "id": "wardrobeArea",
+      "name": {
+        "he": "פינת ארונות",
+        "en": "wardrobe area",
+        "fr": "Dressing"
+      },
+      "src": "media/panos/08-wardrobe-area.webp"
+    },
+    {
+      "id": "masterBathroom",
+      "name": {
+        "he": "חדר רחצה הורים",
+        "en": "master bathroom",
+        "fr": "Salle de bain"
+      },
+      "src": "media/panos/09-master-bathroom.webp"
+    },
+    {
+      "id": "entrance",
+      "name": {
+        "he": "כניסה",
+        "en": "Entrance",
+        "fr": "Entrée"
+      },
+      "src": "media/panos/10-entrance.webp"
+    }
+  ],
+  "stills": [
+    {
+      "id": "bedroom",
+      "name": {
+        "he": "חדר שינה",
+        "en": "bedroom",
+        "fr": "Chambre"
+      },
+      "src": "media/stills/01-bedroom.jpg",
+      "yaw": -30,
+      "source": "balanced"
+    },
+    {
+      "id": "bathroom",
+      "name": {
+        "he": "חדר רחצה כללי",
+        "en": "bathroom",
+        "fr": "Salle de bain"
+      },
+      "src": "media/stills/02-bathroom.jpg",
+      "yaw": 105,
+      "source": "balanced"
+    },
+    {
+      "id": "kitchen",
+      "name": {
+        "he": "מטבח",
+        "en": "kitchen",
+        "fr": "Cuisine"
+      },
+      "src": "media/stills/03-kitchen.jpg",
+      "yaw": -60,
+      "source": "balanced"
+    },
+    {
+      "id": "diningArea",
+      "name": {
+        "he": "פינת אוכל",
+        "en": "dining area",
+        "fr": "Entrée"
+      },
+      "src": "media/stills/04-dining-area.jpg",
+      "yaw": -90,
+      "source": "balanced"
+    },
+    {
+      "id": "livingRoom",
+      "name": {
+        "he": "חדר דיור",
+        "en": "living room",
+        "fr": "Séjour"
+      },
+      "src": "media/stills/05-living-room.jpg",
+      "yaw": -75,
+      "source": "balanced"
+    },
+    {
+      "id": "sunTerrace",
+      "name": {
+        "he": "מרפסת שמש",
+        "en": "sun terrace",
+        "fr": "Terrasse"
+      },
+      "src": "media/stills/06-sun-terrace.jpg",
+      "yaw": 90,
+      "source": "balanced"
+    },
+    {
+      "id": "masterBedroom",
+      "name": {
+        "he": "חדר שינה הורים",
+        "en": "master bedroom",
+        "fr": "Chambre"
+      },
+      "src": "media/stills/07-master-bedroom.jpg",
+      "yaw": -15,
+      "source": "balanced"
+    },
+    {
+      "id": "wardrobeArea",
+      "name": {
+        "he": "פינת ארונות",
+        "en": "wardrobe area",
+        "fr": "Dressing"
+      },
+      "src": "media/stills/08-wardrobe-area.jpg",
+      "yaw": -30,
+      "source": "balanced"
+    },
+    {
+      "id": "masterBathroom",
+      "name": {
+        "he": "חדר רחצה הורים",
+        "en": "master bathroom",
+        "fr": "Salle de bain"
+      },
+      "src": "media/stills/09-master-bathroom.jpg",
+      "yaw": -60,
+      "source": "balanced"
+    },
+    {
+      "id": "entrance",
+      "name": {
+        "he": "כניסה",
+        "en": "Entrance",
+        "fr": "Entrée"
+      },
+      "src": "media/stills/10-entrance.jpg",
+      "yaw": 45,
+      "source": "balanced"
+    }
+  ],
+  "glb": {
+    "src": "media/apt846.glb",
+    "html": "media/dollhouse.html",
+    "bytes": 119720,
+    "sha256": "7bb3acd262875993e59691a1ec1f78c64b54ab64a85f49bece1e629ad2fcb5c1",
+    "placeholder": true,
+    "source": "placeholder: walls + floors extruded from apt846/plan.general.json (card 09 GLB not found at C:/RnD/.wt/portal-stage/Projects/Habait/habait-walkaround/Habait/engine/_local/apt846/dollhouse/apt846.glb)",
+    "triangles": 1636,
+    "rooms": 0
+  },
+  "minimap": null,
+  "legal": {
+    "short": {
+      "he": "הדמיה להמחשה בלבד. הופקה בסיוע בינה מלאכותית מתכנית המכר של דירה 846, RAINBOW TEL AVIV – TOWER-RED, מיום {PLAN_DATE}. המסמכים המחייבים הם המפרט והתכניות החתומים. ריהוט, גימורים ונוף להמחשה.",
+      "en": "Illustration only. Generated with AI assistance from the sales plan of unit 846, RAINBOW TEL AVIV – TOWER-RED, dated {PLAN_DATE}. The binding documents are the signed specification and plans. Furniture, finishes and views are illustrative."
+    },
+    "full": {
+      "he": "הדמיה להמחשה בלבד.\nההדמיה הופקה על ידי Habait עבור ישראל קנדה (Israel Canada) בסיוע כלי בינה מלאכותית, על בסיס תכנית המכר של דירה 846 בפרויקט RAINBOW TEL AVIV – TOWER-RED מיום {PLAN_DATE} (אדריכל: {ARCHITECT}). הגאומטריה של הדירה (חדרים, קירות, פתחים) נגזרה מתכנית המכר; מראה החומרים, התאורה, הריהוט, האביזרים, הצמחייה, האנשים והנוף הם פרשנות חזותית ואינם חלק מהממכר.\nהמסמכים המחייבים הם אך ורק המפרט הטכני (לפי חוק המכר (דירות), תשל\"ג-1973, וצו מכר דירות (טופס של מפרט), תשל\"ד-1974) והתכניות החתומות המצורפות לחוזה המכר. בכל סתירה בין ההדמיה לבין המפרט והתכניות, המפרט והתכניות גוברים.\nריהוט, גימורים, כלים סניטריים, מטבח, ארונות, תאורה ואביזרים אינם כלולים בדירה אלא אם נאמר במפורש במפרט. גוונים, חומרים ופריטים שמופיעים בהדמיה עשויים להיות שונים מאלה שיסופקו בפועל.\nשטחים ומידות הם לפי תכניות היזם והמפרט; המידות בהדמיה מוצגות באופן מקורב ואינן מהוות מדידה. מיקום עמודים, קורות, פירים ומערכות עשוי להשתנות בהתאם לתכנון המפורט ולהוראות כל דין.\nהסביבה, הבניינים השכנים, הנוף והתאורה הטבעית מוצגים להמחשה בלבד ואינם מתחייבים.\nהופק: 2026-11-07, גרסה 0.1.20261107. גילוי: חלקים מההדמיה נוצרו או עובדו באמצעות בינה מלאכותית.",
+      "en": "Illustration only.\nThis visualization was produced by Habait for ישראל קנדה (Israel Canada) with the assistance of artificial-intelligence tools, based on the sales plan of unit 846 in RAINBOW TEL AVIV – TOWER-RED dated {PLAN_DATE} (architect: {ARCHITECT}). The apartment geometry (rooms, walls, openings) is derived from the sales plan; materials, lighting, furniture, accessories, vegetation, people and views are a visual interpretation and are not part of the property sold.\nThe binding documents are solely the technical specification (under the Sale (Apartments) Law, 5733-1973, and the Sale (Apartments) (Specification Form) Order, 5734-1974) and the signed plans attached to the sale agreement. In any discrepancy between this visualization and the specification and plans, the specification and plans prevail.\nFurniture, finishes, sanitary fixtures, kitchen, closets, lighting and accessories are not included unless expressly stated in the specification. Colours, materials and items shown may differ from those actually supplied.\nAreas and dimensions are per the developer's plans and specification; dimensions in the visualization are approximate and do not constitute a measurement. The location of columns, beams, shafts and building systems may change according to the detailed design and applicable law.\nSurroundings, neighbouring buildings, views and natural light are shown for illustration only and are not guaranteed.\nProduced 2026-11-07, version 0.1.20261107. Disclosure: parts of this visualization were created or processed using artificial intelligence."
+    },
+    "status": "DRAFT v0 (2026-11-02), ממתין לחוות דעת עו״ד / pending legal review",
+    "source": "C:/RnD/Projects/Habait/data/sales-plans/legal/disclaimer-he-en.md"
+  },
+  "zip": {
+    "src": "846.zip",
+    "name": "ptrace846-846.zip",
+    "bytes": 2025285,
+    "files": 25,
+    "sha256": "cb6368e58613cde4112182b12e87cfea9c810a0eb88ed71a91fe594bfa37938d"
+  }
+}

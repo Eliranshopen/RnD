@@ -1,0 +1,795 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>תכנית מנוע ההדמיות</title>
+<!-- Artifact page format: no doctype / html / head / body tags, on purpose. Publishing wraps this file in the document
+     skeleton; opened from disk it still renders, because the two metas above and the script below cover what the wrapper gives.
+     After every edit, publish this same file again so the private link stays current. -->
+<script>document.documentElement.lang = "he"; document.documentElement.dir = "rtl";</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Heebo:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* The whole plan in one page. Reading order: thesis → one diagram → what the engine needs (inventory, with today's state) →
+   the milestones of every engine stage → choice cards → what you get → the MCP tools → build order → cost →
+   the open questions for the owner → rejected.
+   Everything else is folded (details) so the page stays light.
+   Colour = meaning: blue = the agent side, amber = the engine (free steps), green = paid AI, stone = files on disk.
+   State chips use fill, not a second colour code: solid = exists, outline = bring it in, dashed = to be written;
+   the one extra colour (alert) marks the single thing that is missing. */
+html, body { margin: 0; }
+body { padding: 0; }
+*, *::before, *::after { box-sizing: border-box; }
+:root {
+  --bg: #fbfaf7; --surface: #f3f1ec; --line: #ddd9d0; --fg: #23211d; --muted: #6b675f;
+  --agent: #2f4a73; --agent-soft: #e6ecf5;
+  --engine: #b07714; --engine-soft: #fbf0d9;
+  --paid: #2f6b45; --paid-soft: #e3f0e7;
+  --data: #6b5f4f; --data-soft: #efeae1;
+  --alert: #a3392b; --alert-soft: #f8e4df;
+  --display: "Frank Ruhl Libre", "David", "Times New Roman", serif;
+  --body: "Heebo", "Segoe UI", "Arial", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #171614; --surface: #211f1c; --line: #3a3732; --fg: #ece9e3; --muted: #a39e94;
+    --agent: #9fb6dc; --agent-soft: #23304a;
+    --engine: #e3a83f; --engine-soft: #3a2d14;
+    --paid: #8fcaa2; --paid-soft: #1d3326;
+    --data: #c9bba5; --data-soft: #2c2823;
+    --alert: #f0a394; --alert-soft: #40211b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #171614; --surface: #211f1c; --line: #3a3732; --fg: #ece9e3; --muted: #a39e94;
+  --agent: #9fb6dc; --agent-soft: #23304a;
+  --engine: #e3a83f; --engine-soft: #3a2d14;
+  --paid: #8fcaa2; --paid-soft: #1d3326;
+  --data: #c9bba5; --data-soft: #2c2823;
+  --alert: #f0a394; --alert-soft: #40211b; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.page { max-width: 940px; margin: 0 auto; display: flex; flex-direction: column; gap: 44px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 80px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 700; text-wrap: balance; line-height: 1.25; margin: 0; }
+p { margin: 0; }
+code { font-family: var(--mono); font-size: 0.86em; direction: ltr; unicode-bidi: isolate; }
+bdi { unicode-bidi: isolate; }
+
+/* head */
+.head { display: flex; flex-direction: column; gap: 12px; }
+.eyebrow { font-size: 0.82rem; color: var(--muted); font-weight: 500; }
+.head h1 { font-size: clamp(1.9rem, 5vw, 2.7rem); }
+.thesis { font-size: 1.2rem; max-width: 60ch; }
+.thesis b { font-weight: 700; }
+.promise { font-size: 0.98rem; color: var(--muted); max-width: 64ch; border-inline-start: 3px solid var(--engine); padding-inline-start: 14px; }
+.promise b { color: var(--fg); }
+
+h2 { font-size: 1.4rem; }
+.section { display: flex; flex-direction: column; gap: 16px; }
+.lead { color: var(--muted); max-width: 66ch; }
+.lead b { color: var(--fg); font-weight: 700; }
+.note { font-size: 0.9rem; color: var(--muted); max-width: 70ch; }
+.note b { color: var(--fg); }
+
+/* what the engine needs: grouped rows + a state chip per row */
+.grp { font-size: 1.02rem; margin-top: 4px; }
+.grp small { font-family: var(--body); font-weight: 400; font-size: 0.86rem; color: var(--muted); }
+.needs { --c1: 160px; --c3: 230px; }
+.st { display: inline-block; font-size: 0.76rem; font-weight: 700; line-height: 1.55; padding: 0 9px; border-radius: 999px; border: 1.5px solid var(--fg); color: var(--fg); margin-inline-end: 7px; white-space: nowrap; vertical-align: 1px; }
+.st.ok { background: var(--fg); color: var(--bg); }
+.st.new { border-style: dashed; border-color: var(--muted); color: var(--muted); }
+.st.miss { border-color: var(--alert); background: var(--alert-soft); color: var(--alert); }
+.states { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 0.84rem; color: var(--muted); }
+
+/* milestones: one fold per engine stage, coloured like its box in the diagram; each row = one milestone with its closing test */
+.stg { border-inline-start: 4px solid var(--line); }
+.stg.engine { border-inline-start-color: var(--engine); }
+.stg.paid { border-inline-start-color: var(--paid); }
+.stg.data { border-inline-start-color: var(--data); }
+.ms { --c1: 200px; --c3: 190px; }
+.ms .row { border-inline-start: 0; }
+.ms .r-main small b { color: var(--fg); font-weight: 500; }
+/* .no and .ph hold Latin text, so their own direction is LTR: the gap to the Hebrew that follows is a physical left margin */
+.no { font-family: var(--mono); font-size: 0.8rem; font-weight: 500; color: var(--muted); margin-left: 7px; }
+.stg > summary .no { font-size: 0.95rem; }
+.ph { font-family: var(--mono); font-size: 0.74rem; border: 1px solid var(--line); border-radius: 6px; padding: 0 6px; margin-left: 7px; color: var(--fg); white-space: nowrap; }
+
+/* diagram */
+.diagram { background: var(--surface); border-radius: 14px; padding: 22px; display: flex; flex-direction: column; }
+.lane { border: 2px solid var(--line); border-radius: 14px; padding: 14px; background: var(--bg); display: flex; flex-direction: column; gap: 12px; }
+.lane.agent { border-color: var(--agent); }
+.lane.engine { border-color: var(--engine); }
+.lane-title { font-weight: 700; font-size: 0.95rem; }
+.lane.agent .lane-title { color: var(--agent); }
+.lane.engine .lane-title { color: var(--engine); }
+.pipe { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px 8px; }
+.pipe li { display: flex; align-items: center; gap: 8px; }
+.step { border-radius: 10px; padding: 9px 12px; border: 1.5px solid var(--line); display: flex; flex-direction: column; min-width: 104px; max-width: 190px; }
+.step b { font-size: 0.92rem; line-height: 1.35; }
+.step span { font-size: 0.76rem; color: var(--muted); line-height: 1.4; }
+.step.agent { border-color: var(--agent); background: var(--agent-soft); }
+.step.engine { border-color: var(--engine); background: var(--engine-soft); }
+.step.paid { border-color: var(--paid); background: var(--paid-soft); }
+.step.wait { border-style: dashed; border-color: var(--paid); background: var(--bg); }
+.step.out { border-color: var(--data); background: var(--data-soft); border-width: 2.5px; }
+.arrow { color: var(--muted); font-size: 0.9rem; }
+.link { display: flex; flex-direction: column; align-items: center; padding-block: 6px; color: var(--muted); font-size: 0.82rem; }
+.link::before { content: ""; width: 2px; height: 14px; background: var(--line); }
+.link::after { content: "▼"; font-size: 0.68rem; line-height: 1; }
+.link span { padding: 3px 12px; border-radius: 999px; background: var(--bg); border: 1px solid var(--line); margin-block: 4px; text-align: center; }
+.store { border-radius: 10px; padding: 11px 14px; border: 1.5px solid var(--data); background: var(--data-soft); text-align: center; display: flex; flex-direction: column; gap: 2px; }
+.store b { font-size: 0.95rem; }
+.store span { font-size: 0.82rem; color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.82rem; color: var(--muted); padding-top: 14px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-inline-end: 7px; vertical-align: -1px; }
+
+/* measured facts */
+.facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.fact { border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.fact b { font-family: var(--display); font-size: 1.5rem; line-height: 1.2; }
+.fact span { font-size: 0.84rem; color: var(--muted); line-height: 1.45; }
+
+/* choice cards */
+.decs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.dec { border: 1px solid var(--line); border-top: 3px solid var(--line); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 9px; min-width: 0; }
+.dec.agent { border-top-color: var(--agent); } .dec.engine { border-top-color: var(--engine); }
+.dec.paid { border-top-color: var(--paid); } .dec.data { border-top-color: var(--data); }
+.dec-q { font-size: 0.95rem; font-weight: 500; color: var(--muted); }
+.choice { border-radius: 10px; padding: 10px 14px; display: flex; flex-direction: column; gap: 2px; background: var(--surface); }
+.choice-label { font-size: 0.72rem; font-weight: 700; color: var(--muted); }
+.choice b { font-family: var(--display); font-size: 1.2rem; line-height: 1.3; }
+.dec.agent .choice { background: var(--agent-soft); } .dec.agent .choice b { color: var(--agent); }
+.dec.engine .choice { background: var(--engine-soft); } .dec.engine .choice b { color: var(--engine); }
+.dec.paid .choice { background: var(--paid-soft); } .dec.paid .choice b { color: var(--paid); }
+.dec.data .choice { background: var(--data-soft); } .dec.data .choice b { color: var(--data); }
+.why { font-size: 0.95rem; }
+.cost { font-size: 0.88rem; color: var(--muted); }
+.k { font-weight: 700; }
+
+/* rows table: label · main · side */
+.rows { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.row { display: grid; grid-template-columns: var(--c1, 190px) minmax(0, 1fr) var(--c3, 170px); gap: 14px; align-items: baseline; padding: 12px 16px; border-bottom: 1px solid var(--line); border-inline-start: 4px solid var(--line); }
+.row:last-child { border-bottom: 0; }
+.row.agent { border-inline-start-color: var(--agent); } .row.engine { border-inline-start-color: var(--engine); }
+.row.paid { border-inline-start-color: var(--paid); } .row.data { border-inline-start-color: var(--data); }
+.row.two { grid-template-columns: var(--c1, 190px) minmax(0, 1fr); }
+.r-name { font-weight: 700; min-width: 0; overflow-wrap: anywhere; }
+.r-name code { font-size: 0.88rem; font-weight: 500; }
+.r-main { font-size: 0.95rem; min-width: 0; }
+.r-main small { display: block; color: var(--muted); font-size: 0.86rem; }
+.r-side { font-size: 0.86rem; color: var(--muted); }
+.r-side b { color: var(--fg); }
+
+/* in / not in */
+.file { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.box { border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.box.in { border-inline-start: 4px solid var(--data); }
+.box.outside { border-inline-start: 4px solid var(--line); }
+.box h3 { font-size: 1.08rem; }
+.box ul, .plain { margin: 0; padding-inline-start: 18px; display: flex; flex-direction: column; gap: 4px; font-size: 0.95rem; }
+.box li small, .plain li small { color: var(--muted); font-size: 0.86rem; }
+
+/* build order */
+.order { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; }
+.order li { border: 1px solid var(--line); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.order li b { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); font-weight: 500; direction: ltr; unicode-bidi: isolate; text-align: start; }
+.order li span { font-size: 0.9rem; font-weight: 500; line-height: 1.35; }
+.order li small { font-size: 0.76rem; color: var(--muted); line-height: 1.4; }
+.order li.first { border-color: var(--agent); background: var(--agent-soft); }
+
+/* questions */
+.qs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; counter-reset: q; }
+.qs li { counter-increment: q; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 4px 10px; }
+.qs li::before { content: counter(q); font-family: var(--display); font-weight: 700; font-size: 1.3rem; color: var(--engine); grid-row: span 2; line-height: 1.2; }
+.qs b { font-weight: 700; }
+.qs span { font-size: 0.93rem; color: var(--muted); }
+
+/* folded detail */
+details { border: 1px solid var(--line); border-radius: 12px; }
+details > summary { cursor: pointer; padding: 14px 16px; font-family: var(--display); font-weight: 700; font-size: 1.1rem; list-style: none; display: flex; align-items: center; gap: 10px; }
+details > summary::-webkit-details-marker { display: none; }
+details > summary::before { content: "+"; font-family: var(--mono); font-weight: 500; color: var(--muted); width: 14px; text-align: center; }
+details[open] > summary::before { content: "–"; }
+details > summary small { font-family: var(--body); font-weight: 400; font-size: 0.86rem; color: var(--muted); }
+details > summary:focus-visible { outline: 2px solid var(--engine); outline-offset: 2px; border-radius: 10px; }
+.fold { padding: 0 16px 16px; display: flex; flex-direction: column; gap: 14px; }
+.fold h3 { font-size: 1rem; }
+.fold .rows { border-radius: 10px; }
+.folds { display: flex; flex-direction: column; gap: 10px; }
+
+/* rejected */
+.rejected { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.rejected li { display: grid; grid-template-columns: 250px 1fr; gap: 14px; padding: 12px 16px; border-bottom: 1px solid var(--line); align-items: baseline; }
+.rejected li:last-child { border-bottom: 0; }
+.rejected s { text-decoration-color: var(--muted); font-weight: 500; }
+.rejected span { font-size: 0.94rem; color: var(--muted); }
+
+.more { font-size: 0.9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; display: flex; flex-direction: column; gap: 8px; }
+.more b { color: var(--fg); }
+
+@media (max-width: 820px) {
+  .facts { grid-template-columns: 1fr 1fr; }
+  .order { grid-template-columns: 1fr 1fr; }
+  .needs { --c1: 132px; --c3: 176px; }
+  .ms { --c1: 150px; --c3: 150px; }
+}
+@media (max-width: 640px) {
+  .page { gap: 36px; padding-block: 24px 64px; }
+  .decs, .file { grid-template-columns: 1fr; }
+  .diagram { padding: 14px; }
+  .pipe { flex-direction: column; }
+  .pipe li { flex-direction: column; align-items: stretch; }
+  .pipe .arrow { text-align: center; transform: rotate(-90deg); }
+  .step { max-width: none; }
+  .row, .row.two { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .rejected li { grid-template-columns: 1fr; gap: 2px; }
+}
+</style>
+<main class="page" dir="rtl" lang="he">
+
+  <header class="head">
+    <span class="eyebrow">תכנית · 16.11.2026 · הבנייה התחילה, אבן דרך אחרי אבן דרך</span>
+    <h1>מנוע ההדמיות: מ-<bdi>PDF</bdi> של תכנית מכר לסיור 360</h1>
+    <p class="thesis"><b>המנוע הוא שירות אחד עם דלת אחת.</b> הסוכן מוסר לו דרך <bdi>MCP</bdi> קובץ <bdi>PDF</bdi> של תכנית מכר, ומקבל בחזרה סיור 360 של הדירה, כמו הסיור של דירה 846. כל מה שבאמצע קורה בתוך המנוע.</p>
+    <p class="promise"><b>מה המנוע מבטיח:</b> או סיור שעבר את כל בדיקות ההתאמה לתכנית המכר, או תשובה «לבדיקה» עם סיבה מדויקת. אף פעם לא סיור שגוי.</p>
+  </header>
+
+  <section class="section" aria-labelledby="h-flow">
+    <h2 id="h-flow">איך זה עובד</h2>
+    <div class="diagram" role="img" aria-label="המשתמש מעלה PDF בממשק הסוכן. הסוכן Pi קורא למנוע דרך MCP, שמונה כלים שכל אחד עונה בשניות. במנוע: פענוח ה-PDF, בנייה ורינדור ב-Blender, תצוגה מקדימה בחינם, עצירה לאישור תקציב, מראה פוטוריאליסטי ב-AI, בדיקות התאמה, והסיור המוכן. מצב העבודה נשמר על הדיסק.">
+      <div class="lane agent">
+        <div class="lane-title">הסוכן</div>
+        <ol class="pipe">
+          <li><div class="step agent"><b>המשתמש</b><span>מעלה <bdi>PDF</bdi> של תכנית מכר</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step agent"><b>הממשק והגשר</b><span>שומרים את הקובץ, מציגים התקדמות</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step agent"><b><bdi>Pi</bdi></b><span>מדבר, מבקש אישור, מוסר תוצאה</span></div></li>
+        </ol>
+      </div>
+      <div class="link"><span><bdi>MCP</bdi> · 8 כלים · כל כלי עונה בשניות</span></div>
+      <div class="lane engine">
+        <div class="lane-title">המנוע</div>
+        <ol class="pipe">
+          <li><div class="step engine"><b>פענוח ה-<bdi>PDF</bdi></b><span>קירות, דלתות, מידות מודפסות</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step engine"><b><bdi>Blender</bdi></b><span>בונה את הדירה ומרנדר 360 לכל חדר</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step out"><b>תצוגה מקדימה</b><span>הדירה ב-360, מראה <bdi>CG</bdi>, בחינם</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step wait"><b>אישור תקציב</b><span>הצעת מחיר, המשתמש מאשר</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step paid"><b>מראה <bdi>AI</bdi></b><span>תמונה פוטוריאליסטית לכל חדר</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step engine"><b>בדיקות התאמה</b><span>עד 1% לחדר, עקביות בין חדרים</span></div><span class="arrow" aria-hidden="true">←</span></li>
+          <li><div class="step out"><b>הסיור</b><span>כמו הרפרנס, נפתח מקישור</span></div></li>
+        </ol>
+      </div>
+      <div class="link"></div>
+      <div class="store"><b>העבודה רשומה על הדיסק</b><span>מצב, שלבים ועלויות בתיקיית העבודה. היא ממשיכה גם כשהסשן של הסוכן נסגר</span></div>
+      <div class="legend" aria-label="מקרא צבעים">
+        <span><i style="background:var(--agent)"></i>הסוכן</span>
+        <span><i style="background:var(--engine)"></i>המנוע, בלי עלות</span>
+        <span><i style="background:var(--paid)"></i><bdi>AI</bdi> בתשלום</span>
+        <span><i style="background:var(--data)"></i>תוצרים וקבצים</span>
+      </div>
+    </div>
+
+    <div class="facts">
+      <div class="fact"><b>11 חדרים</b><span>פנורמה <bdi>2048×1024</bdi> לכל חדר, 3 גימורי רצפה. נמדד היום בסיור של דירה 846</span></div>
+      <div class="fact"><b><bdi>$0.09</bdi></b><span>קריאת השרטוט, לדירה. נמדד</span></div>
+      <div class="fact"><b>כ-15 דקות</b><span>רינדור מקומי של 11 חדרים. נמדד: 859 שניות</span></div>
+      <div class="fact"><b><bdi>$40–60</bdi></b><span>השלב בתשלום, לדירה. נמדד ב-8.11. בלי תיקונים: כ-<bdi>$7</bdi> לפי המחירון</span></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="h-needs">
+    <h2 id="h-needs">מה המנוע צריך כדי להפיק הדמיה</h2>
+    <p class="lead"><b>מהסוכן הוא צריך ארבעה דברים בלבד.</b> כל השאר שלו: חמש יכולות, ארבעה משאבים, הכללים, ושכבת שירות. את המצב של כל אחד בדקתי היום מול הקוד והדיסק.</p>
+
+    <div class="facts">
+      <div class="fact"><b>5 יכולות</b><span>כולן קיימות בקוד ומוכחות על דירה 846</span></div>
+      <div class="fact"><b><bdi>57/57</bdi></b><span>מודלי הריהוט נמצאו בגיבוי ותואמים לחתימה הנעולה. נבדק היום</span></div>
+      <div class="fact"><b>2 מפתחות</b><span>חסרים במחשב. בלעדיהם אין שלב בתשלום</span></div>
+      <div class="fact"><b>שכבה אחת</b><span>לכתוב חדש: מה שהופך סקריפטים לשירות</span></div>
+    </div>
+
+    <h3 class="grp">מהסוכן</h3>
+    <div class="rows needs">
+      <div class="row agent"><span class="r-name">קלט לכל עבודה</span><span class="r-main">נתיב ל-<bdi>PDF</bdi> של תכנית המכר, איזו דירה (אם בקובץ יש כמה), תקרת תקציב, ואישור לשלב בתשלום.<small>סגנון וגימורים הם אפשרות, עם ברירת מחדל מנתוני הבית. ה-<bdi>PDF</bdi> וקטורי, עד <bdi>20MB</bdi>.</small></span><span class="r-side"><span class="st new">לכתוב</span>ההעלאה כבר עובדת</span></div>
+    </div>
+
+    <h3 class="grp">חמש יכולות <small>· הדרך מ-<bdi>PDF</bdi> עד סיור</small></h3>
+    <div class="rows needs">
+      <div class="row paid"><span class="r-name">לקרוא את השרטוט</span><span class="r-main">מה-<bdi>PDF</bdi> לתכנית מדודה: חדרים, קירות, פתחים ומידות מודפסות.<small>ספריית <bdi>PDF</bdi> ומודל ראייה, עם כללי הפענוח <bdi>T1–T33</bdi></small></span><span class="r-side"><span class="st ok">קיים</span>846: <bdi>10/10</bdi> חדרים עד 1%</span></div>
+      <div class="row engine"><span class="r-name">לבנות ולרנדר</span><span class="r-main"><bdi>Blender</bdi> בונה את הדירה מהתכנית ומרנדר תמונת 360 ומפת עומק לכל חדר.<small>כולל מטבח, ריהוט לפי כללים, ומצלמה אחת לחדר</small></span><span class="r-side"><span class="st ok">קיים</span>859 שניות ל-11 חדרים</span></div>
+      <div class="row paid"><span class="r-name">לתת מראה אמיתי</span><span class="r-main">מודל תמונה צובע כל תמונת 360 לפי לוח החומרים, בלי להזיז קירות, דלתות וחלונות.<small><bdi>gpt-image-2.5</bdi> דרך <bdi>fal</bdi></small></span><span class="r-side"><span class="st ok">קיים</span><bdi>$0.60</bdi> לתמונה</span></div>
+      <div class="row paid"><span class="r-name">לבדוק</span><span class="r-main">כל חדר נמדד מול תכנית המכר ועובר רק עד 1% סטייה. אלמנט שנראה מכמה חדרים חייב להיראות זהה.<small>חדר שנכשל מתוקן, עד 5 ניסיונות</small></span><span class="r-side"><span class="st ok">קיים</span>846: <bdi>11/11</bdi> חדרים עברו</span></div>
+      <div class="row engine"><span class="r-name">לארוז ולהגיש</span><span class="r-main">הצופה, גימורי הרצפה, בית הבובות, בדיקה בטלפון ובמחשב, וקישור מקומי.<small>האריזה מסרבת לתמונה שלא עברה בדיקה</small></span><span class="r-side"><span class="st ok">קיים</span>כך נבנה סיור 846</span></div>
+    </div>
+
+    <h3 class="grp">ארבעה משאבים <small>· על מה היכולות נשענות</small></h3>
+    <div class="rows needs">
+      <div class="row engine"><span class="r-name">סביבת ריצה</span><span class="r-main"><bdi>Blender</bdi>, <bdi>Node</bdi> עם 2 ספריות, <bdi>Python</bdi> עם 6 ספריות, ו-<bdi>Chrome</bdi> לבדיקות.<small>מותקנים כבר: <bdi>Blender 4.5.10</bdi> (הגרסה שהקוד נועל), <bdi>Node 24</bdi> ו-<bdi>Python 3.13</bdi></small></span><span class="r-side"><span class="st">להביא</span>להתקין את 8 הספריות</span></div>
+      <div class="row data"><span class="r-name">נכסי רינדור</span><span class="r-main">57 מודלי ריהוט, ותמונת סביבה אחת לתאורה.<small>מחוץ ל-<bdi>git</bdi> בכוונה: נכסים חופשיים (<bdi>CC0</bdi>), כל אחד נעול בחתימה</small></span><span class="r-side"><span class="st ok">קיים</span>בבית המנוע · אומתו <bdi>57/57</bdi></span></div>
+      <div class="row data"><span class="r-name">נתוני הבית</span><span class="r-main">לוח חומרים, תמונת סגנון, גימורי רצפה, נוסחי גילוי נאות, והצופה.<small>היום הם כתובים לדירה 846, וצריך להפריד אותם מהקוד</small></span><span class="r-side"><span class="st ok">קיים</span>לפרויקט אחד · שאלה 6</span></div>
+      <div class="row paid"><span class="r-name">שני מפתחות</span><span class="r-main"><bdi>fal</bdi> למראה, לעומק ולגימורים, ו-<bdi>OpenRouter</bdi> לקריאת השרטוט ולשופטים.<small>השמות: <code>FAL_KEY</code>, <code>OPENROUTER_API_KEY</code>. הקובץ היה בתיקייה שירדה מהדיסק</small></span><span class="r-side"><span class="st miss">חסר</span>לא במחשב · שאלה 1</span></div>
+    </div>
+
+    <h3 class="grp">כללים ושירות</h3>
+    <div class="rows needs">
+      <div class="row engine"><span class="r-name">כללים וספים</span><span class="r-main">1% לחדר, עד 5 תיקונים, עקביות בין חדרים, רק ריהוט ועיצוב, גילוי נאות, ותקרות כסף.<small>ההחלטות שלך, כתנאים בקוד</small></span><span class="r-side"><span class="st ok">קיים</span>חסר: «בלי פאנלים»</span></div>
+      <div class="row engine"><span class="r-name">שכבת שירות</span><span class="r-main">מה שהופך סקריפטים למנוע שסוכן יכול להפעיל: עבודה שרשומה על הדיסק, ריצה ברקע, רישום כסף ואישור, מטמון, בדיקת מוכנות, ושרת ה-<bdi>MCP</bdi>.<small>רוב הקוד החדש נמצא כאן</small></span><span class="r-side"><span class="st new">לכתוב</span>שלבים <bdi>E1</bdi>, <bdi>E3</bdi> ו-<bdi>E4</bdi></span></div>
+    </div>
+
+    <div class="states" aria-label="מקרא מצב">
+      <span><span class="st ok">קיים</span>בקוד שב-<bdi>git</bdi>, מוכח על דירה 846</span>
+      <span><span class="st">להביא</span>קיים במקום אחר, צריך להעתיק או להתקין</span>
+      <span><span class="st new">לכתוב</span>עוד לא קיים</span>
+      <span><span class="st miss">חסר</span>אין לו מקור</span>
+    </div>
+    <p class="note"><b>מה חוסם מה:</b> שני השלבים הראשונים, ההקמה והשלד מקצה לקצה, לא צריכים שום דבר שחסר, והם בחינם. שני המפתחות נדרשים מהריצה המדודה (<bdi>E2</bdi>) והלאה, כולל קריאת השרטוט ב-<bdi>$0.09</bdi>.</p>
+
+    <details>
+      <summary>איך בדקתי <small>· קריאה בלבד, דבר לא שונה</small></summary>
+      <div class="fold">
+        <div class="rows" style="--c1: 170px;">
+          <div class="row two"><span class="r-name"><bdi>Blender</bdi></span><span class="r-main">הגרסה המותקנת היא <bdi>4.5.10 LTS</bdi>, והיא ברירת המחדל של כלי הרינדור.</span></div>
+          <div class="row two"><span class="r-name">ספריות <bdi>Python</bdi></span><span class="r-main"><code>numpy</code>, <code>shapely</code>, <code>opencv</code>, <code>pillow</code>, <code>scikit-image</code>, <code>pymupdf</code>.<small>מסריקת כל קובצי ה-<bdi>Python</bdi> של הצנרת. אין קובצי משקולות של מודל מקומי. אין קובץ דרישות ב-<bdi>git</bdi>, וצריך לכתוב אחד.</small></span></div>
+          <div class="row two"><span class="r-name">ספריות <bdi>Node</bdi></span><span class="r-main"><code>sharp</code> לתמונות, <code>playwright-core</code> לבדיקות בדפדפן.</span></div>
+          <div class="row two"><span class="r-name">מודלי הריהוט</span><span class="r-main">חישבתי חתימה (<bdi>sha256</bdi>) לכל קובץ בגיבוי והשוויתי לרשימה הנעולה ב-<bdi>git</bdi>: 57 שורות, 57 תואמות, 0 חסרות.<small>מקור חלופי בחינם: הסקריפט <code>fetch.mjs</code> מוריד אותם מחדש ומאמת.</small></span></div>
+          <div class="row two"><span class="r-name">תמונת הסביבה</span><span class="r-main">הקובץ שבגיבוי תואם לחתימה שנעולה בקובץ הסגנון.</span></div>
+          <div class="row two"><span class="r-name">המפתחות</span><span class="r-main">בדקתי לפי שם בלבד אם הם מוגדרים בסביבת המחשב. הם לא.<small>את הקובץ עצמו לא חיפשתי ולא פתחתי.</small></span></div>
+          <div class="row two"><span class="r-name">רשומות 846</span><span class="r-main">נדרשות לריצות חוזרות בחינם. הן נמצאות בשלוש תיקיות עבודה ובגיבוי.<small>שלמותן לא נבדקה; זה חלק משלב <bdi>E0</bdi>.</small></span></div>
+          <div class="row two"><span class="r-name">מה לא צריך</span><span class="r-main">מפתחות האחסון, מסד הנתונים וההעלאה של הפורטל. המנוע המקומי לא משתמש בהם.</span></div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="section" aria-labelledby="h-milestones">
+    <h2 id="h-milestones">אבני הדרך של כל שלב במנוע</h2>
+    <p class="lead"><b>כל שלב מהתרשים מפורק לאבני דרך, ולכל אחת יש מבחן אחד שסוגר אותה.</b> התג בצד מראה באיזה שלב בנייה היא נסגרת, מ-<bdi>E0</bdi> עד <bdi>E6</bdi>.</p>
+
+    <div class="facts">
+      <div class="fact"><b>29 אבני דרך</b><span>שבעה שלבים מהתרשים, ועוד שלוש של בסיס לפניהם</span></div>
+      <div class="fact"><b>11 הוכחות</b><span>הקוד כבר קיים. אבן הדרך היא להריץ אותו בבית המנוע ולקבל את המספר שנמדד</span></div>
+      <div class="fact"><b>16 חדשות</b><span>קוד שצריך לכתוב. רובו החיבור של כל שלב לעבודה שרשומה על הדיסק</span></div>
+      <div class="fact"><b>19 בלי מפתחות</b><span>אפשר לסגור ב-<bdi>$0</bdi>. עשר האחרות מחכות למפתחות ולתקרה שתאשר</span></div>
+    </div>
+
+    <p class="note"><b>תהליך העבודה (קבעת ב-16.11.2026):</b> אבן דרך אחרי אבן דרך, לפי המספור, בלי לדלג. לכל אחת: <bdi>plan to tasks</bdi> (פירוק למשימות) ← פיתוח ← בדיקות ← כיסוי בדיקות של 80% לפחות ← <bdi>sync context</bdi> ← ורק אז הבאה.</p>
+    <p class="note" id="progress"><b>איפה אנחנו:</b> 1 מתוך 29 סגורה. <bdi>0.1</bdi>, בית המנוע, נסגרה ב-16.11.2026: כל הבדיקות עברו, כיסוי הבדיקות <bdi>99.7%</bdi>, ובודק שלא כתב את הקוד אישר. הבאה בתור: <bdi>0.2</bdi>, מנוע דמה מחובר לסוכן.</p>
+
+    <details>
+      <summary>איך אני בודק אבן דרך <small>· שלושה סוגי בדיקות, ועל מה נמדד הכיסוי</small></summary>
+      <div class="fold">
+        <div class="rows" style="--c1: 170px;">
+          <div class="row two"><span class="r-name">פירוק למשימות</span><span class="r-main">בתחילת כל אבן דרך אני מפרק אותה לכרטיסי משימות, לפי הנוהל של <bdi>plan to tasks</bdi>: מי עושה כל משימה, מה רץ במקביל, ובסוף כרטיס בדיקה של בודק שלא כתב את הקוד.</span></div>
+          <div class="row two"><span class="r-name">מבחן הסגירה</span><span class="r-main">השורה «מוכן כאשר» של אבן הדרך. כל עוד הוא לא עובר, אבן הדרך פתוחה.</span></div>
+          <div class="row two"><span class="r-name">בדיקות יחידה</span><span class="r-main">לכל קוד שנכתב או שונה באבן הדרך.</span></div>
+          <div class="row two"><span class="r-name">בדיקות חוזרות</span><span class="r-main">כל הבדיקות של אבני הדרך הקודמות רצות שוב, כדי שאבן דרך סגורה תישאר סגורה.</span></div>
+          <div class="row two"><span class="r-name">כיסוי של 80%</span><span class="r-main">נמדד בכלי, לפי שורות, על הקוד של המנוע שאבן הדרך כתבה או שינתה. הקוד הקיים שהועבר כמו שהוא לא נספר כאן: הוא נבדק באבני הדרך מסוג «קיים», שמריצות אותו ומשוות למספר שנמדד.</span></div>
+          <div class="row two"><span class="r-name">מפתחות</span><span class="r-main">אבן דרך שמחכה למפתחות עוצרת את העבודה, ואני מדווח. לא מדלגים. הראשונה כזאת לפי הסדר היא <bdi>1.2</bdi>.</span></div>
+          <div class="row two"><span class="r-name">סגירה</span><span class="r-main">הקוד נשמר ב-<bdi>git</bdi> ונכנס לתיקיית המנוע הראשית, ואחר כך <bdi>sync context</bdi>, שאני מריץ בעצמי.</span></div>
+        </div>
+      </div>
+    </details>
+
+    <div class="folds">
+
+      <details class="stg" open>
+        <summary><span><bdi class="no">0</bdi>בסיס, לפני השלבים</span> <small>· 3 אבני דרך</small></summary>
+        <div class="fold">
+          <p class="note"><b>מה זה:</b> שלוש אבני דרך נפרדות, לא אחת. לכל אחת מבחן משלה, וכל אחת נסגרת בשלב בנייה אחר (<bdi>E0</bdi>, <bdi>E1</bdi>, <bdi>E3</bdi>). «בסיס» הוא רק שם הקבוצה, כי הן לא שייכות לאחד משבעת השלבים בתרשים. <bdi>0.1</bdi> נדרשת לפני שמריצים שלב כלשהו. <bdi>0.2</bdi> מחברת את הסוכן ואינה תלויה בשלבי המנוע. <bdi>0.3</bdi> נדרשת כדי ששלב ירוץ לבד, כחלק מעבודה.</p>
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">0.1</bdi>בית המנוע</span><span class="r-main">הקוד מ-<bdi>git</bdi> בתיקיית המנוע, 8 הספריות מותקנות, נכסי הרינדור מועתקים מהגיבוי, וקובץ הגדרות אחד במקום נתיבים שמצביעים על התיקייה שירדה מהדיסק.<small><b>מוכן כאשר:</b> בדיקת ה-<bdi>parity</bdi> עוברת <bdi>41/41</bdi>, 57 המודלים מאומתים, ופקודת המוכנות מדווחת «מוכן» על הכול חוץ מהמפתחות.</small></span><span class="r-side"><span class="st ok">נסגרה</span><bdi class="ph">E0</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">0.2</bdi>מנוע דמה מחובר לסוכן</span><span class="r-main">שמונת הכלים על מנוע שמחזיר את הסיור הקיים של 846, כדי לראות את כל הזרימה לפני שנוגעים בצנרת.<small><b>מוכן כאשר:</b> מעלים <bdi>PDF</bdi> בממשק ורואים התקדמות, כרטיס אישור, וכרטיס תוצאה שפותח את הסיור.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E1</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">0.3</bdi>עבודה על הדיסק</span><span class="r-main">מצב העבודה, יומן השלבים ויומן העלויות נשמרים בתיקיית העבודה. התהליך רץ מנותק, עם דופק חיים, נעילה והמשך.<small><b>מוכן כאשר:</b> הורגים את התהליך באמצע שלב, מפעילים שוב, והעבודה ממשיכה מאותה נקודה בלי חיוב כפול.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="stg engine" open>
+        <summary><span><bdi class="no">1</bdi>פענוח ה-<bdi>PDF</bdi></span> <small>· 4 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">1.1</bdi>קליטה והצצה</span><span class="r-main">ה-<bdi>PDF</bdi> מועתק לעבודה לקריאה בלבד ומקבל חתימה. ההצצה מחזירה כמה עמודים יש, גיליון או חוברת, ואילו שרטוטים נמצאו, בלי קריאה בתשלום.<small><b>מוכן כאשר:</b> ה-<bdi>PDF</bdi> של 846 מזוהה כגיליון אחד עם שרטוט אחד, אותו <bdi>PDF</bdi> פעמיים נותן אותה עבודה, וקובץ מחוץ לתיקיות המותרות נדחה.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">1.2</bdi>פענוח 846 במנוע</span><span class="r-main">הפענוח הקיים רץ בבית המנוע: קודם מקריאה שמורה, אחר כך קריאה טרייה אחת.<small><b>מוכן כאשר:</b> <bdi>10/10</bdi> חדרים עד 1%, ומידות מודפסות עד 0.83%, כמו שנמדד.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E0</bdi><bdi class="ph">E2</bdi>כ-<bdi>$0.09</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">1.3</bdi>שער הפענוח</span><span class="r-main">שרטוט שלא עובר את הבדיקה לא ממשיך לבנייה. העבודה עוברת ל«לבדיקה» עם רשימת מה שלא נקרא, תמונת הבקרה וקוד סיבה קבוע.<small><b>מוכן כאשר:</b> <bdi>PDF</bdi> בלי שרטוט מחזיר <code>NO_PLAN_FOUND</code>, קריאה עם מידה ששונתה ביד מחזירה <code>TRACE_GATE_FAIL</code>, ובשני המקרים <bdi>Blender</bdi> לא מופעל.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">1.4</bdi>קריאה שמורה</span><span class="r-main">קריאת הראייה נשמרת לפי חתימת הקובץ, כי היא משתנה מעט בין ריצות.<small><b>מוכן כאשר:</b> ריצה שנייה על אותו <bdi>PDF</bdi> עולה <bdi>$0</bdi> ומחזירה בדיוק את אותה תכנית.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+          </div>
+          <p class="note"><b>לשים לב:</b> ההצצה חינמית לגיליון יחיד. בחוברת עם כמה תמונות, הזיהוי איזו מהן היא שרטוט הוא קריאה בתשלום של כ-<bdi>$0.02</bdi>, והיא נעשית אחרי ההתחלה. <b>אחר כך:</b> אישור של השרטוט המפוענח לפני הבנייה (שאלה 5), ותכניות של אדריכלים אחרים וסריקות.</p>
+        </div>
+      </details>
+
+      <details class="stg engine" open>
+        <summary><span><bdi class="no">2</bdi><bdi>Blender</bdi>: בנייה ורינדור</span> <small>· 3 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">2.1</bdi>חדר אחד מרונדר</span><span class="r-main">מהתכנית של 846, עם הנכסים שהועתקו וה-<bdi>Blender</bdi> המותקן.<small><b>מוכן כאשר:</b> יוצאות תמונת 360 ומפת עומק של הסלון.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E0</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">2.2</bdi>דירה שלמה</span><span class="r-main">כל השרשרת: מבנה הדירה, המטבח והקבועות, מצלמה לכל חדר, ריהוט לפי כללים, ורינדור.<small><b>מוכן כאשר:</b> 11 חדרים מרונדרים, ביקורת הריהוט נקייה, והזמן נמדד. הבסיס: 859 שניות.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">2.3</bdi>רינדור כשלב במנוע</span><span class="r-main"><bdi>Blender</bdi> אחד בכל רגע, רישום לכל חדר, והמשך מהחדר הבא.<small><b>מוכן כאשר:</b> הריגה באמצע הרינדור ואז המשך לא מרנדרת שוב חדר שהסתיים, ריצה חוזרת על אותו קלט מדלגת על הכול, ורינדור חוזר של חדר נותן אותה תמונה.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="stg data" open>
+        <summary><span><bdi class="no">3</bdi>תצוגה מקדימה</span> <small>· 3 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">3.1</bdi>בדיקת ה-<bdi>CG</bdi> מול התכנית</span><span class="r-main">כל חדר נמדד מול התכנית לפי העומק ש-<bdi>Blender</bdi> מחשב, בלי קריאה בתשלום.<small><b>מוכן כאשר:</b> 846 עובר <bdi>11/11</bdi>, והזזה מכוונת של קיר ב-10 ס"מ נכשלת.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">3.2</bdi>סיור במראה <bdi>CG</bdi></span><span class="r-main">כל חדרי הדירה ב-360, עם כפתורי מעבר, תכנית ותג «הדמיה». עדיין בלי טבעות הרהיטים, כי הסריקה שלהן בתשלום.<small><b>מוכן כאשר:</b> הסיור נפתח, והבדיקה ברוחב 1440 וברוחב 390 עוברת.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">3.3</bdi>קישור שנשאר חי, ועצירה</span><span class="r-main">היום השרת המקומי חי רק בתוך הפקודה שהפעילה אותו. המנוע מגיש את הסיור בעצמו, והעבודה נעצרת במצב «ממתין לאישור».<small><b>מוכן כאשר:</b> הקישור נפתח גם אחרי שהמריץ סיים וגם אחרי הפעלה מחדש של המחשב, ומצב העבודה מחזיר קישור, טבלת חדרים והזמן שעבר.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="stg paid" open>
+        <summary><span><bdi class="no">4</bdi>אישור תקציב</span> <small>· 3 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">4.1</bdi>הצעת מחיר</span><span class="r-main">מחושבת מהתכנית וממחירון המודלים שבקוד: רצפה, טווח צפוי, ותקרה מוצעת.<small><b>מוכן כאשר:</b> ל-846 ההצעה מראה רצפה של כ-<bdi>$7.4</bdi> ואת התקרה, ואף מספר לא כתוב ביד.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">4.2</bdi>אין תשלום בלי אישור</span><span class="r-main">האישור הוא רשומה בעבודה: תקרה, ומתי ניתנה. המריץ בודק אותה לפני השלב בתשלום, והסוכן מציג כרטיס אישור לפני שהכלי רץ.<small><b>מוכן כאשר:</b> הפעלת השלב בתשלום בלי רשומה נדחית בקוד, ועם רשומה הוא מתחיל.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi class="ph">E4</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">4.3</bdi>תקרות</span><span class="r-main">כל קריאה נרשמת ביומן העלויות לפני שהיא יוצאת. תקרה רכה עוצרת ושואלת, ותקרה קשה לא נחצית.<small><b>מוכן כאשר:</b> ריצה עם תקרה נמוכה נעצרת בתוכה, ואחרי הגדלה היא ממשיכה בלי לשלם שוב על מה שכבר נוצר.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi>עד התקרה</span></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="stg paid" open>
+        <summary><span><bdi class="no">5</bdi>מראה <bdi>AI</bdi></span> <small>· 4 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">5.1</bdi>חדר אחד</span><span class="r-main">החדר הראשי מקבל מראה פוטוריאליסטי לפי לוח החומרים, על בסיס ה-<bdi>CG</bdi>, ועובר את הבדיקה.<small><b>מוכן כאשר:</b> תמונה אחת עוברת עד 1%, והקריאות רשומות ביומן העלויות.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi>מ-<bdi>$0.61</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">5.2</bdi>דירה שלמה, מדודה</span><span class="r-main">כל החדרים, עם לולאת התיקון. זו המדידה הנקייה הראשונה מקצה לקצה.<small><b>מוכן כאשר:</b> <bdi>11/11</bdi> עוברים או שהעבודה ב«לבדיקה» עם מספרים, ויש טבלת עלות, זמן וניסיונות לכל חדר.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi>בתקרה שתאשר</span></div>
+            <div class="row"><span class="r-name"><bdi class="no">5.3</bdi>מראה כשלב במנוע</span><span class="r-main">כל תשובה נשמרת לפי הקלט שלה, והתקרות מגיעות מרשומת האישור.<small><b>מוכן כאשר:</b> הריגה באמצע ואז המשך לא מחייבת פעמיים, וריצה חוזרת מלאה עולה <bdi>$0</bdi>.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi>כ-<bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">5.4</bdi>נתוני הבית מחוץ לקוד</span><span class="r-main">לוח החומרים, תמונת הסגנון, הגימורים, החדר הראשי וצבעי המותג עוברים מהקוד לנתונים. הכלל «בלי פאנלים» נכנס ללוח החומרים, עם בדיקה.<small><b>מוכן כאשר:</b> דירה עם מזהה אחר רצה עד התצוגה המקדימה בלי קובץ אחד של 846.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+          </div>
+          <p class="note"><b>אחר כך:</b> הורדת העלות. הקירות, החלונות והדלתות חוזרים מהרינדור, וה-<bdi>AI</bdi> צובע רק את השאר.</p>
+        </div>
+      </details>
+
+      <details class="stg engine" open>
+        <summary><span><bdi class="no">6</bdi>בדיקות התאמה</span> <small>· 4 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">6.1</bdi>שער ההתאמה</span><span class="r-main">כל תמונה נמדדת מול התכנית. מפת העומק נשמרת לפי חתימת התמונה, ולכן בדיקה חוזרת לא עולה כסף.<small><b>מוכן כאשר:</b> התמונות שעברו ב-846 עוברות שוב <bdi>11/11</bdi> מהמטמון, ותמונה שנכשלה בגלל פתח מומצא נכשלת שוב.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi><bdi>$0</bdi> מהמטמון</span></div>
+            <div class="row"><span class="r-name"><bdi class="no">6.2</bdi>תיקון, ואז «לבדיקה»</span><span class="r-main">חדר שנכשל נוצר מחדש ואז מתוקן ברצועות, עד 5 ניסיונות. חדר לא מושמט.<small><b>מוכן כאשר:</b> חדר שלא עובר אחרי 5 ניסיונות מעביר את העבודה ל«לבדיקה» עם המספרים וקוד סיבה, והאריזה מסרבת.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi>בתוך התקרה</span></div>
+            <div class="row"><span class="r-name"><bdi class="no">6.3</bdi>עקביות בין חדרים</span><span class="r-main">כל אלמנט שנראה מכמה חדרים נבדק שלוש פעמים, והרוב קובע.<small><b>מוכן כאשר:</b> כל הקבוצות של 846 עוברות, או שהעבודה ב«לבדיקה» עם שם הקבוצה. היום: 7 מתוך 8, המטבח פתוח.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi>כ-<bdi>$0.01</bdi> לבדיקה</span></div>
+            <div class="row"><span class="r-name"><bdi class="no">6.4</bdi>טבלת הסטיות</span><span class="r-main">לכל חדר: הסטייה, דיוק המדידה, מספר הניסיונות והעלות, כשדות קבועים שהסוכן יכול להציג.<small><b>מוכן כאשר:</b> מצב העבודה והתוצאה מחזירים את הטבלה, והיא זהה לדוח הבדיקה.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="stg data" open>
+        <summary><span><bdi class="no">7</bdi>הסיור</span> <small>· 5 אבני דרך</small></summary>
+        <div class="fold">
+          <div class="rows ms">
+            <div class="row"><span class="r-name"><bdi class="no">7.1</bdi>גימורי רצפה</span><span class="r-main">שלושה סטים. קודם הרכבה של רצפה חדשה על התמונה שעברה, ורק אם צריך יצירה. כל גימור נבדק.<small><b>מוכן כאשר:</b> <bdi>33/33</bdi> עוברים ב-846, ורק הרצפה משתנה.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi>לרוב <bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">7.2</bdi>אריזה ובדיקות</span><span class="r-main">טבעות הרהיטים, בניית עמוד הסיור וחבילת הדירה. האריזה מסרבת לתמונה שאין לה אישור התאמה.<small><b>מוכן כאשר:</b> בסיור 11 חדרים, 3 גימורים, כפתורי מעבר, תכנית, טבעות רהיטים, תג ושורת גילוי נאות, והבדיקה ב-1440 וב-390 עוברת.</small></span><span class="r-side"><span class="st ok">קיים</span><bdi class="ph">E2</bdi>כ-<bdi>$0.11</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">7.3</bdi>סרגל מדידה ובית בובות</span><span class="r-main">שניהם נכנסים לסיור רק אם הקבצים שלהם כבר קיימים בזמן הבנייה. בריצה אוטומטית ראשונה הם עלולים לחסור (לא אומת).<small><b>מוכן כאשר:</b> שני הכפתורים מופיעים ועובדים בסיור שנבנה אוטומטית.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">7.4</bdi>תוצאה לסוכן</span><span class="r-main">קישור מקומי, נתיב החבילה, טבלת הסטיות והעלות.<small><b>מוכן כאשר:</b> כרטיס התוצאה בממשק הסוכן פותח את הסיור.</small></span><span class="r-side"><span class="st new">לכתוב</span><bdi class="ph">E3</bdi><bdi class="ph">E4</bdi><bdi>$0</bdi></span></div>
+            <div class="row"><span class="r-name"><bdi class="no">7.5</bdi>קבלה מול הרפרנס</span><span class="r-main">ה-<bdi>PDF</bdi> של 846 דרך ממשק הסוכן, מקצה לקצה, ושיפוט מול הסיור הקיים.<small><b>מוכן כאשר:</b> אותם חדרים ואותן נקודות מבט כמו ברפרנס, ובדיקת הציות עוברת.</small></span><span class="r-side"><bdi class="ph">E6</bdi>בתקרה שתאשר</span></div>
+          </div>
+          <p class="note"><b>אחר כך:</b> קישור בדיקה לשיתוף, באישורך לכל העלאה. המדריך הקולי והווידאו לא בגרסה הראשונה.</p>
+        </div>
+      </details>
+
+    </div>
+
+    <div class="states" aria-label="מקרא">
+      <span><span class="st ok">קיים</span>הקוד קיים, אבן הדרך מוכיחה אותו בבית המנוע</span>
+      <span><span class="st new">לכתוב</span>קוד חדש</span>
+      <span><span class="st">להביא</span>העתקה והתקנה</span>
+      <span><bdi class="ph">E3</bdi>שלב הבנייה שבו אבן הדרך נסגרת</span>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="h-choices">
+    <h2 id="h-choices">השאלות, והבחירה שלי בכל אחת</h2>
+    <div class="decs">
+
+      <article class="dec engine">
+        <span class="dec-q">מה בונים?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>מנוע עצמאי, ומעליו שרת <bdi>MCP</bdi> דק</b></div>
+        <p class="why">גבול אחד ברור: הסוכן מדבר עם המשתמש, והמנוע מייצר. כל סוכן אחר יוכל להתחבר לאותה דלת.</p>
+        <p class="cost"><span class="k">על חשבון:</span> עוד רכיב לתחזק.</p>
+      </article>
+
+      <article class="dec engine">
+        <span class="dec-q">מאיפה הקוד?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>מעבירים את הקוד המוכח, לא כותבים מחדש</b></div>
+        <p class="why">השרשרת מ-<bdi>PDF</bdi> עד סיור כבר רצה על דירה 846, עם עשרות כללים שנלמדו עליה: 41 שורות <bdi>parity</bdi> וכללי הפענוח <bdi>T1–T33</bdi>. הכול שמור ב-<bdi>git</bdi>.</p>
+        <p class="cost"><span class="k">על חשבון:</span> נשארים עם <bdi>Node</bdi>, <bdi>Python</bdi> ו-<bdi>Blender</bdi> כמו שהם.</p>
+      </article>
+
+      <article class="dec agent">
+        <span class="dec-q">איך הסוכן מדבר עם המנוע?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>8 כלים: התחלה, מצב, אישור, תוצאה</b></div>
+        <p class="why">ריצה נמשכת שעה וחצי עד שלוש (הערכה), וקריאה ב-<bdi>Pi</bdi> נחתכת אחרי 60 שניות. לכן כל כלי עונה מיד, והעבודה ממשיכה ברקע.</p>
+        <p class="cost"><span class="k">על חשבון:</span> הגשר צריך לעקוב אחרי העבודה.</p>
+      </article>
+
+      <article class="dec data">
+        <span class="dec-q">איפה העבודה חיה?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>בתהליך מנותק, עם מצב על הדיסק</b></div>
+        <p class="why">שרת ה-<bdi>MCP</bdi> חי רק בתוך הסשן של <bdi>Pi</bdi> שהפעיל אותו. עבודה שרשומה על הדיסק ממשיכה בלעדיו, וכל סשן חדש רואה אותה.</p>
+        <p class="cost"><span class="k">על חשבון:</span> דופק חיים, נעילה, והמשך מנקודת העצירה.</p>
+      </article>
+
+      <article class="dec paid">
+        <span class="dec-q">מתי משלמים?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>קודם תצוגה מקדימה בחינם, ואז אישור</b></div>
+        <p class="why">אחרי כ-20 דקות (הערכה) רואים את הדירה ב-360 במראה <bdi>CG</bdi>, בלי עלות. רק אז מגיעה הצעת מחיר, והשלב בתשלום רץ אחרי אישור.</p>
+        <p class="cost"><span class="k">על חשבון:</span> עצירה אחת באמצע.</p>
+      </article>
+
+      <article class="dec data">
+        <span class="dec-q">מה מקבלים בסוף?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>סיור כמו הרפרנס, שנפתח מקישור</b></div>
+        <p class="why">אותה חבילה שהמערכת בונה היום לדירה 846: עמוד אחד ותיקיות מדיה. היא נפתחת מיד בקישור מקומי, ובאישורך עולה לקישור בדיקה שעובד גם בטלפון.</p>
+        <p class="cost"><span class="k">על חשבון:</span> קישור מקומי עובד רק על המחשב הזה. כל העלאה היא אישור נפרד שלך.</p>
+      </article>
+
+      <article class="dec engine">
+        <span class="dec-q">מי קובע שהסיור תקין?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>בדיקות המנוע, לא הסוכן</b></div>
+        <p class="why">כל חדר נמדד מול תכנית המכר ועובר רק עד 1% סטייה. האריזה מסרבת בלי זה, ולכן שורת הגילוי הנאות נכונה תמיד.</p>
+        <p class="cost"><span class="k">על חשבון:</span> לולאת התיקונים היא רוב העלות.</p>
+      </article>
+
+      <article class="dec agent">
+        <span class="dec-q">איפה זה רץ?</span>
+        <div class="choice"><span class="choice-label">הבחירה</span><b>על המחשב הזה עכשיו, בענן אחר כך</b></div>
+        <p class="why">חיבור מקומי לא דורש אימות ולא אירוח. קודם מוכיחים את המוצר, ואז מעבירים את אותו מנוע לשרת.</p>
+        <p class="cost"><span class="k">על חשבון:</span> בשלב ראשון משתמש אחד ועבודה אחת בכל רגע.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="h-out">
+    <h2 id="h-out">מה מקבלים בסוף</h2>
+    <p class="lead">המנוע מפיק את אותה חבילת סיור שקיימת היום לדירה 846. יש שלוש דרכים לקבל אותה.</p>
+    <div class="rows" style="--c1: 170px; --c3: 190px;">
+      <div class="row data"><span class="r-name">קישור מקומי</span><span class="r-main">הסיור נפתח מכרטיס התוצאה בממשק הסוכן, עם כל מה שיש ברפרנס.<small>המנגנון קיים בקוד (<code>publish-local</code>).</small></span><span class="r-side"><b>מיד</b>, בלי עלות. רק על המחשב הזה</span></div>
+      <div class="row agent"><span class="r-name">קישור בדיקה</span><span class="r-main">אותו סיור בכתובת שאפשר לשלוח ולפתוח בטלפון.<small>כלי תשיעי, <code>publish_test_link</code>, בשלב <bdi>E5</bdi>. נשען על <code>deploy-test.sh</code> הקיים.</small></span><span class="r-side"><b>באישורך</b>, לכל העלאה בנפרד</span></div>
+      <div class="row"><span class="r-name">קובץ <bdi>HTML</bdi> יחיד</span><span class="r-main">הכול בקובץ אחד של כ-<bdi>11–15MB</bdi> שנפתח גם בלי שרת. בלי עריכה חיה, בלי החלפת רהיטים ובלי סרטוני מדריך.<small>החשבון מהבייטים שנמדדו בסיור 846.</small></span><span class="r-side"><b>אופציה</b>, לא בנתיב הראשי</span></div>
+    </div>
+    <div class="file">
+      <div class="box in">
+        <h3>בסיור</h3>
+        <ul>
+          <li>כל חדרי הדירה ב-360</li>
+          <li>3 גימורי רצפה</li>
+          <li>כפתורי מעבר בין חדרים ותכנית הדירה</li>
+          <li>סרגל מדידה ובית בובות תלת-ממדי</li>
+          <li>החלפת רהיטים ועריכה חופשית <small>כשיש שרת עריכה ומפתח</small></li>
+          <li>תג «הדמיה», שורת הגילוי הנאות והערת ה-<bdi>AI</bdi></li>
+          <li>עברית, אנגלית וצרפתית</li>
+        </ul>
+      </div>
+      <div class="box outside">
+        <h3>לא בגרסה הראשונה</h3>
+        <ul>
+          <li>נקודות החוץ של הבניין <small>לא נמצאות ב-<bdi>PDF</bdi> של דירה</small></li>
+          <li>המדריך הקולי והווידאו <small>ב-846 הופקו בנפרד; המריץ האוטומטי לא מייצר אותם</small></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="h-tools">
+    <h2 id="h-tools">שמונת הכלים שהסוכן מקבל</h2>
+    <div class="rows" style="--c1: 200px; --c3: 150px;">
+      <div class="row engine"><span class="r-name"><code>engine_status</code></span><span class="r-main">בודק שהמנוע מוכן: <bdi>Blender</bdi>, <bdi>Python</bdi>, נכסים, מפתחות לפי שם, מצב <bdi>fal</bdi></span><span class="r-side">חינם</span></div>
+      <div class="row engine"><span class="r-name"><code>inspect_plan</code></span><span class="r-main">קריאה ראשונה של ה-<bdi>PDF</bdi>: עמודים, וקטור או סריקה, אילו שרטוטי דירה נמצאו</span><span class="r-side">חינם</span></div>
+      <div class="row engine"><span class="r-name"><code>start_simulation</code></span><span class="r-main">פותח עבודה ומריץ את השלב החינמי עד התצוגה המקדימה. מחזיר מזהה עבודה מיד</span><span class="r-side">עד <bdi>$1</bdi> לקריאת השרטוט</span></div>
+      <div class="row engine"><span class="r-name"><code>get_job</code></span><span class="r-main">מצב העבודה: שלב, אחוז, עלות עד כה, ומה נדרש מהמשתמש</span><span class="r-side">חינם</span></div>
+      <div class="row paid"><span class="r-name"><code>approve_paid_stage</code></span><span class="r-main">האישור לשלב בתשלום, עם תקרה בדולרים. הממשק מציג כרטיס אישור לפני שהכלי רץ</span><span class="r-side"><b>מתיר הוצאה</b></span></div>
+      <div class="row engine"><span class="r-name"><code>get_result</code></span><span class="r-main">התוצאה: קישור לסיור, טבלת הסטיות לכל חדר, והעלות</span><span class="r-side">חינם</span></div>
+      <div class="row engine"><span class="r-name"><code>cancel_job</code></span><span class="r-main">עוצר עבודה</span><span class="r-side">חינם</span></div>
+      <div class="row engine"><span class="r-name"><code>list_jobs</code></span><span class="r-main">העבודות האחרונות</span><span class="r-side">חינם</span></div>
+    </div>
+    <ul class="plain">
+      <li><b>כל כלי עונה בשניות.</b> אף כלי לא מחכה לסוף העבודה.</li>
+      <li><b>קבצי הסיור לא עוברים ב-<bdi>MCP</bdi>.</b> עוברים רק נתיב וקישור, כי <bdi>Pi</bdi> חותך תוצאה מעל <bdi>20KB</bdi>.</li>
+      <li><b>אותו <bdi>PDF</bdi>, אותה עבודה.</b> קריאה חוזרת מחזירה את העבודה הקיימת ולא מחייבת שוב.</li>
+      <li><b>הסוכן לא מחזיק מפתחות ולא מריץ סקריפטים.</b> המפתחות נמצאים רק אצל המנוע.</li>
+    </ul>
+  </section>
+
+  <section class="section" aria-labelledby="h-order">
+    <h2 id="h-order">סדר הבנייה</h2>
+    <p class="lead">כבר בשלב השני רואים את כל הזרימה בממשק הסוכן: העלאה, התקדמות, אישור ותוצאה. בשלב הזה המנוע הוא דמה שמחזיר את הסיור הקיים של 846, בלי עלות. אותה עבודה, מפורקת לפי שלבי המנוע, נמצאת למעלה בפרק «אבני הדרך של כל שלב במנוע».</p>
+    <ol class="order">
+      <li><b>E0</b><span>הקמה</span><small>הקוד מ-<bdi>git</bdi>, סביבה, נכסים</small></li>
+      <li class="first"><b>E1</b><span>שלד מקצה לקצה</span><small>כל הזרימה, עם מנוע דמה</small></li>
+      <li><b>E2</b><span>הוכחה ידנית</span><small>ריצה מלאה אחת, מדודה</small></li>
+      <li><b>E3</b><span>ליבת המנוע</span><small>פקודה אחת, עבודות, תקרות</small></li>
+      <li><b>E4</b><span>חיבור המנוע האמיתי</span><small>מחליף את הדמה</small></li>
+      <li><b>E5</b><span>קישור לשיתוף</span><small>העלאה באישורך</small></li>
+      <li><b>E6</b><span>קבלה</span><small><bdi>PDF</bdi> של 846 דרך הממשק</small></li>
+    </ol>
+    <details>
+      <summary>מה נחשב מוכן בכל שלב <small>· שבעה שלבים, כ-<bdi>10–17</bdi> ימי עבודה (הערכה)</small></summary>
+      <div class="fold">
+        <div class="rows" style="--c1: 170px; --c3: 150px;">
+          <div class="row"><span class="r-name"><bdi>E0</bdi> · הקמה</span><span class="r-main">שלד <code>Projects/3Dengine</code>, הקוד מ-<bdi>git</bdi> כמו שהוא, התקנת הספריות, חיבור ל-<bdi>Blender</bdi> המותקן, והעתקת נכסי הרינדור מהגיבוי עם אימות.<small>מוכן כאשר: בדיקת ה-<bdi>parity</bdi> עוברת 41/41, פענוח 846 מקריאה שמורה עובר, וחדר אחד מרונדר.</small></span><span class="r-side"><bdi>$0</bdi> · <bdi>1–2</bdi> ימים</span></div>
+          <div class="row agent"><span class="r-name"><bdi>E1</bdi> · שלד מקצה לקצה</span><span class="r-main">8 הכלים על מנוע דמה, רישום ב-<bdi>Pi</bdi>, והגשר מציג התקדמות, כרטיס אישור וכרטיס תוצאה.<small>מוכן כאשר: מעלים <bdi>PDF</bdi> בממשק ורואים התקדמות, אישור, וכרטיס תוצאה שפותח את הסיור הקיים של 846.</small></span><span class="r-side"><bdi>$0</bdi> · <bdi>2–3</bdi> ימים</span></div>
+          <div class="row"><span class="r-name"><bdi>E2</bdi> · הוכחה ידנית</span><span class="r-main">ריצה מלאה של 846 ביד, שלב אחרי שלב, עם מדידת זמן ועלות לכל שלב.<small>מוכן כאשר: מה-<bdi>PDF</bdi> יוצאים תצוגה מקדימה ואז סיור, ויש טבלת זמן ועלות והשוואה לרפרנס.</small></span><span class="r-side">בתקרה שתאשר · <bdi>1–2</bdi> ימים</span></div>
+          <div class="row engine"><span class="r-name"><bdi>E3</bdi> · ליבת המנוע</span><span class="r-main">פקודה אחת, עבודות על הדיסק, תהליך מנותק, רישום עלויות ותקרות, המשך מנקודת עצירה, והוצאת 846 מהקוד לנתונים.<small>מוכן כאשר: אותה ריצה בפקודה אחת, והריגה באמצע ואז המשך בלי חיוב כפול.</small></span><span class="r-side">כ-<bdi>$0</bdi> · <bdi>3–4</bdi> ימים</span></div>
+          <div class="row engine"><span class="r-name"><bdi>E4</bdi> · המנוע האמיתי</span><span class="r-main">שרת ה-<bdi>MCP</bdi> מפעיל את המנוע במקום הדמה. כלל ב-<bdi>guard</bdi> לכלי התשלום. בדיקה גם מ-<bdi>Claude Code</bdi>.<small>מוכן כאשר: סשן מקצה לקצה עובר, והריגת <bdi>Pi</bdi> באמצע לא מפילה את העבודה.</small></span><span class="r-side">כ-<bdi>$0</bdi> · <bdi>1–2</bdi> ימים</span></div>
+          <div class="row agent"><span class="r-name"><bdi>E5</bdi> · קישור לשיתוף</span><span class="r-main">הכלי <code>publish_test_link</code>: הכנה, השוואה, העלאה לפרויקט הבדיקה, ובדיקה שמה שעלה זהה. אופציה: יצוא לקובץ <bdi>HTML</bdi> יחיד.<small>מוכן כאשר: אחרי אישורך יש קישור שנפתח בטלפון, ושורה ביומן ההעלאות.</small></span><span class="r-side">כ-<bdi>$0</bdi> · <bdi>1–2</bdi> ימים</span></div>
+          <div class="row"><span class="r-name"><bdi>E6</bdi> · קבלה</span><span class="r-main">ה-<bdi>PDF</bdi> של 846 דרך הממשק, מקצה לקצה, ושיפוט מול הרפרנס.<small>מוכן כאשר: כל תנאי הקבלה מתקיימים (ראה «מתי זה מוכן» למטה).</small></span><span class="r-side">בתקרה שתאשר · <bdi>1–2</bdi> ימים</span></div>
+        </div>
+        <p class="note"><b>אחרי החיבור, בלוחות נפרדים ובהחלטתך:</b> כלי לתיקונים אחרי שהסיור מוכן (תיקון אלמנט אחד בחדר, עם אותן בדיקות; בגרסה הראשונה הוא חסר, וב-846 רוב העבודה הייתה סבבי תיקון כאלה), הכללה לתכניות נוספות (לפחות 5 תכניות מ-3 אדריכלים), הורדת עלות (הקירות, החלונות והדלתות חוזרים מהרינדור, וה-<bdi>AI</bdi> צובע רק את השאר), והעברה לשרת מרוחק עם <bdi>GPU</bdi>.</p>
+      </div>
+    </details>
+  </section>
+
+  <section class="section" aria-labelledby="h-cost">
+    <h2 id="h-cost">עלות וזמן</h2>
+    <div class="rows" style="--c1: 210px; --c3: 190px;">
+      <div class="row paid"><span class="r-name">קריאת השרטוט</span><span class="r-main"><bdi>$0.09</bdi> לדירה</span><span class="r-side">נמדד</span></div>
+      <div class="row engine"><span class="r-name">עד התצוגה המקדימה</span><span class="r-main">כ-20 דקות, בלי עלות נוספת</span><span class="r-side">הערכה ממדידות חלקיות</span></div>
+      <div class="row paid"><span class="r-name">השלב בתשלום</span><span class="r-main"><bdi>$40–60</bdi> לדירה. אם הכול עובר בפעם הראשונה: כ-<bdi>$7</bdi></span><span class="r-side">נמדד ב-8.11 · חשבון ממחירון</span></div>
+      <div class="row engine"><span class="r-name">ריצה מלאה</span><span class="r-main">שעה וחצי עד שלוש</span><span class="r-side">הערכה</span></div>
+      <div class="row"><span class="r-name">בניית <bdi>E0–E6</bdi></span><span class="r-main">כ-<bdi>10–17</bdi> ימי עבודה</span><span class="r-side">הערכה</span></div>
+    </div>
+    <p class="note">הפער בין <bdi>$7</bdi> ל-<bdi>$40–60</bdi> הוא לולאת התיקונים. אין עדיין ריצה אחת נקייה שנמדדה מקצה לקצה; שלב <bdi>E2</bdi> מודד אותה.</p>
+  </section>
+
+  <section class="section" aria-labelledby="h-qs">
+    <h2 id="h-qs">שבע שאלות להחלטתך</h2>
+    <p class="lead">בכל שאלה מופיעה ההנחה שלפיה כתבתי את התכנית.</p>
+    <ol class="qs">
+      <li><b>בית המנוע וקובץ המפתחות.</b><span>הנחתי <code>C:\RnD\Projects\3Dengine</code>, והעברת קוד מ-<bdi>git</bdi>. נכסי הרינדור נמצאו בגיבוי מ-4.11 ואומתו, כך שנשאר קובץ המפתחות: הוא היה בתיקייה שירדה מהדיסק, ושני המפתחות לא מוגדרים במחשב. מאיפה הוא מגיע?</span></li>
+      <li><b>תקרת עלות לדירה.</b><span>בקוד: <bdi>$40</bdi> רכה ו-<bdi>$60</bdi> קשה. נמדד <bdi>$40–60</bdi>. האם זו ברירת המחדל של המנוע?</span></li>
+      <li><b>היקף «360 מלא».</b><span>הנחתי פנים הדירה בלבד (11 חדרים ב-846). נקודות החוץ דורשות נתוני בניין שאינם ב-<bdi>PDF</bdi> של דירה.</span></li>
+      <li><b>איך אתה רוצה לקבל סיור מוכן.</b><span>הנחתי קישור מקומי מיד, וקישור בדיקה באישורך. היום קישור הבדיקה הוא אתר אחד, וכל העלאה מחליפה את הקודמת: להשאיר כך, או כתובת נפרדת לכל דירה? וקובץ <bdi>HTML</bdi> יחיד: נחוץ, או לוותר?</span></li>
+      <li><b>עצירות.</b><span>הנחתי עצירה אחת, כספית, אחרי התצוגה המקדימה. החלופה: גם אישור של השרטוט המפוענח לפני הבנייה.</span></li>
+      <li><b>סגנון לפרויקט חדש.</b><span>היום יש לוח חומרים אחד, של <bdi>Rainbow</bdi>. האם הוא ברירת המחדל, או שנדרש לוח ניטרלי?</span></li>
+      <li><b>רישוי <bdi>PyMuPDF</bdi>.</b><span>הספרייה שקוראת את ה-<bdi>PDF</bdi> ברישיון <bdi>AGPL</bdi>. במוצר מסחרי: להישאר, לרכוש רישיון, או להחליף ספרייה?</span></li>
+    </ol>
+  </section>
+
+  <section class="section" aria-labelledby="h-rejected">
+    <h2 id="h-rejected">מה נדחה, ולמה</h2>
+    <ul class="rejected">
+      <li><s>לכתוב את המנוע מאפס</s><span>מאבדים את כל מה שנלמד על דירה 846, ושבועות של למידה מחדש.</span></li>
+      <li><s>הסוכן מריץ סקריפטים בעצמו</s><span>זה המצב היום. אין חוזה, ואי אפשר להעביר לסוכן אחר.</span></li>
+      <li><s>כלי אחד שמחכה עד הסוף</s><span>שעות ריצה מול <bdi>timeout</bdi> של דקה ב-<bdi>Pi</bdi> ורבע שעה בגשר, וסגירת סשן הורגת את העבודה.</span></li>
+      <li><s>להעביר את קבצי הסיור דרך <bdi>MCP</bdi></s><span>מגה-בייטים של מדיה; <bdi>Pi</bdi> חותך טקסט ב-<bdi>20KB</bdi>. עוברים רק נתיב וקישור.</span></li>
+      <li><s>קובץ <bdi>HTML</bdi> יחיד כתוצר הראשי</s><span>מוותר על עריכה חיה והחלפת רהיטים שיש ברפרנס. נשאר כאופציית יצוא.</span></li>
+      <li><s>הליכה חופשית בתלת-ממד כתוצר</s><span>מוצר אחר, שעדיין נראה <bdi>CG</bdi>. הרפרנס שנתת הוא סיור 360.</span></li>
+    </ul>
+  </section>
+
+  <section class="section" aria-labelledby="h-more">
+    <h2 id="h-more">פירוט נוסף</h2>
+    <div class="folds">
+
+      <details>
+        <summary>מה מצאתי בקוד ובמדידות <small>· הבסיס לכל ההמלצות</small></summary>
+        <div class="fold">
+          <h3>השרשרת שכבר קיימת</h3>
+          <div class="rows" style="--c1: 170px; --c3: 150px;">
+            <div class="row paid"><span class="r-name">פענוח ה-<bdi>PDF</bdi></span><span class="r-main"><code>auto-trace.mjs</code>, כללי <bdi>T1–T33</bdi>, בדיקת מידות מודפסות, שופט ×3<small>יוצא: תכנית מפוענחת, שכבת בקרה ודוח</small></span><span class="r-side">כ-<bdi>$0.09</bdi>, נמדד</span></div>
+            <div class="row engine"><span class="r-name">בניית הדירה</span><span class="r-main"><code>casework_symbols.py</code>, <code>furnish_from_plan.py</code>, <code>build_scene.py</code><small>יוצא: סצנת <bdi>Blender</bdi>, מצלמה אחת לחדר בגובה 160 ס"מ</small></span><span class="r-side">חינם</span></div>
+            <div class="row engine"><span class="r-name">רינדור</span><span class="r-main"><code>render_tour.mjs</code>: <bdi>Blender 4.5 Cycles</bdi>, <bdi>2048×1024</bdi><small>יוצא: פנורמת <bdi>CG</bdi> ומפת עומק לכל חדר</small></span><span class="r-side">חינם</span></div>
+            <div class="row paid"><span class="r-name">מראה פוטוריאליסטי</span><span class="r-main"><code>skin-project.mjs</code>: <bdi>gpt-image-2.5</bdi> דרך <bdi>fal</bdi>, סגירת תפר, לולאת תיקון<small>יוצא: פנורמה «אמיתית» לכל חדר</small></span><span class="r-side"><bdi>$0.60</bdi> לתמונה</span></div>
+            <div class="row paid"><span class="r-name">בדיקת התאמה</span><span class="r-main"><code>fidelity-gate.mjs</code>: קרניים מהתכנית מול עומק התמונה<small>עובר רק עד 1% סטייה לחדר</small></span><span class="r-side"><bdi>$0.01</bdi></span></div>
+            <div class="row paid"><span class="r-name">עקביות</span><span class="r-main"><code>consistency-check.mjs</code>: שופט ראייה, רוב של 3<small>אותו אלמנט נראה זהה מכל חדר</small></span><span class="r-side">כ-<bdi>$0.01</bdi></span></div>
+            <div class="row engine"><span class="r-name">גימורי רצפה</span><span class="r-main"><code>finish-pano.mjs</code>: קודם הרכבה, אחרת יצירה<small>יוצא: סט פנורמות לכל גימור</small></span><span class="r-side">לרוב חינם</span></div>
+            <div class="row engine"><span class="r-name">אריזה</span><span class="r-main"><code>build-tour.mjs</code>: מסרב לארוז בלי אישור התאמה לכל תמונה<small>יוצא: עמוד הסיור ותיקיות המדיה</small></span><span class="r-side">חינם</span></div>
+            <div class="row engine"><span class="r-name">בדיקות</span><span class="r-main">רוחב 1440 ו-390, כל הכפתורים, מבט ישר<small>יוצא: דוח וצילומי מסך</small></span><span class="r-side">חינם</span></div>
+          </div>
+          <h3>מה נמדד בריצות</h3>
+          <div class="rows" style="--c1: 240px;">
+            <div class="row two"><span class="r-name">פענוח 846 מה-<bdi>PDF</bdi>, אוטומטי</span><span class="r-main">10/10 חדרים עד 1%, מידות מודפסות עד 0.83%</span></div>
+            <div class="row two"><span class="r-name">846 אוטומטי אחרי מראה ה-<bdi>AI</bdi></span><span class="r-main">11/11 חדרים עד 1%, 33/33 גימורים, עקביות 7/8 (המטבח נשאר פתוח)</span></div>
+            <div class="row two"><span class="r-name">רינדור מקומי, 11 חדרים</span><span class="r-main">859 שניות</span></div>
+            <div class="row two"><span class="r-name">עלות בנייה לדירה</span><span class="r-main">כ-<bdi>$40–60</bdi> ב-<bdi>fal</bdi>, ועוד כ-3 שעות מעבד בענן. ריצת הקבלה של 846: כ-<bdi>$85</bdi>, לאורך כמה המשכים</span></div>
+          </div>
+          <h3>צד הסוכן</h3>
+          <ul class="plain">
+            <li>הסוכן קיים: <code>C:\HABAIT-Agent-UI</code> (ממשק וגשר) מעל <bdi>Pi 1.5.2</bdi>, עם המעטפת ב-<code>C:\pi-main\habait</code>.</li>
+            <li>העלאת <bdi>PDF</bdi> כבר עובדת, עד <bdi>20MB</bdi>. הגשר שומר את הקובץ ומוסר לסוכן נתיב.</li>
+            <li><bdi>Pi</bdi> תומך ב-<bdi>MCP</bdi> באופן מובנה: חיבור מקומי או <bdi>HTTP</bdi>, <bdi>timeout</bdi> של 60 שניות לקריאה, ותוצאה מעל <bdi>20KB</bdi> נחתכת.</li>
+            <li>היום הסוכן מריץ את הכלים בעצמו בשורת הפקודה. זה מה שהמנוע מחליף.</li>
+            <li>לממשק יש כבר כרטיס תוצאה ואירוע התקדמות, אבל הגשר לא מפיק אותם, והכתובות המותרות הן <code>*.vercel.app</code> בלבד.</li>
+          </ul>
+          <h3>תקן <bdi>MCP</bdi></h3>
+          <ul class="plain">
+            <li>הגרסה הנוכחית היא <bdi>2026-07-28</bdi>, עם תאימות לאחור. התיעוד של <bdi>Pi</bdi> עדיין מפנה ל-<bdi>2025-11-25</bdi>.</li>
+            <li>מנגנון העבודות הארוכות של התקן (<bdi>Tasks</bdi>) הוא הרחבה שהתמיכה בה משתנה בין לקוחות. לכן התכנית לא נשענת עליו.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>המנוע מבפנים: עשרת השלבים <small>· מה רץ, ומה תנאי המעבר</small></summary>
+        <div class="fold">
+          <div class="rows" style="--c1: 170px; --c3: 150px;">
+            <div class="row engine"><span class="r-name">1 · קליטה</span><span class="r-main">העתקת ה-<bdi>PDF</bdi> לתיקיית העבודה, לקריאה בלבד<small>תנאי: קובץ תקין, עד <bdi>20MB</bdi></small></span><span class="r-side">חינם</span></div>
+            <div class="row paid"><span class="r-name">2 · פענוח</span><span class="r-main">מה-<bdi>PDF</bdi> לתכנית מדודה<small>תנאי: בדיקות מכניות, מידות מודפסות, שופט</small></span><span class="r-side">כ-<bdi>$0.09</bdi></span></div>
+            <div class="row engine"><span class="r-name">3 · סצנה</span><span class="r-main">קירות, דלתות, חלונות, מטבח, ריהוט ומצלמות<small>תנאי: ביקורת ריהוט בלי חסימות</small></span><span class="r-side">חינם</span></div>
+            <div class="row engine"><span class="r-name">4 · רינדור</span><span class="r-main">פנורמת <bdi>CG</bdi> ועומק לכל חדר<small>תנאי: בדיקה עצמית של הרינדור</small></span><span class="r-side">חינם</span></div>
+            <div class="row data"><span class="r-name">5 · תצוגה מקדימה</span><span class="r-main">סיור במראה <bdi>CG</bdi>, נפתח בקישור מקומי<small>תנאי: כל חדר עד 1% מול התכנית</small></span><span class="r-side">חינם</span></div>
+            <div class="row paid"><span class="r-name">6 · מראה <bdi>AI</bdi></span><span class="r-main">אחרי אישור תקציב: תמונה פוטוריאליסטית לכל חדר<small>תנאי: עד 1% סטייה לחדר; אחרת תיקון, עד 5 ניסיונות</small></span><span class="r-side"><bdi>$0.60</bdi> לתמונה</span></div>
+            <div class="row paid"><span class="r-name">7 · עקביות</span><span class="r-main">כל אלמנט שנראה מכמה חדרים נבדק<small>תנאי: רוב של 3 לכל קבוצה</small></span><span class="r-side">כ-<bdi>$0.01</bdi></span></div>
+            <div class="row engine"><span class="r-name">8 · גימורים</span><span class="r-main">סט לכל גימור רצפה<small>תנאי: רק הרצפה משתנה</small></span><span class="r-side">לרוב חינם</span></div>
+            <div class="row data"><span class="r-name">9 · אריזה</span><span class="r-main">עמוד הסיור ותיקיות המדיה<small>תנאי: אישור התאמה לכל תמונה, לפי הבייטים שלה</small></span><span class="r-side">חינם</span></div>
+            <div class="row engine"><span class="r-name">10 · בדיקות</span><span class="r-main">רוחב 1440 ו-390, כל הכפתורים, תג וגילוי נאות<small>תנאי: נקי בשני הרוחבים</small></span><span class="r-side">חינם</span></div>
+          </div>
+          <ul class="plain">
+            <li><b>חדר אף פעם לא מושמט.</b> אם הוא עדיין נכשל אחרי התיקונים, העבודה עוברת ל«לבדיקה» עם המספרים.</li>
+            <li><b>אותו קלט, אותו פלט.</b> כל תשובת <bdi>AI</bdi> נשמרת לפי הקלט שלה, וריצה חוזרת משחזרת אותה בלי עלות.</li>
+          </ul>
+          <h3>מה צריך להיכתב חדש</h3>
+          <ul class="plain">
+            <li>שכבת עבודות מקומית: מצב על הדיסק, תהליך מנותק, נעילה לעבודה כבדה אחת, המשך מנקודת עצירה.</li>
+            <li>שרת ה-<bdi>MCP</bdi>, ומנוע הדמה לשלב <bdi>E1</bdi>.</li>
+            <li>הוצאת 846 מהקוד לנתונים: לוח החומרים, הגימורים, חדר הנחיתה, בלוק המותג, קבוע המפה בצופה והערות המראה.</li>
+            <li>הכלל «בלי פאנלים» קיים היום רק בזיכרון ולא בלוח החומרים. הוא נכנס כנתון, עם בדיקה.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>הכללים שהמנוע אוכף <small>· ההחלטות שלך, כתנאים בקוד</small></summary>
+        <div class="fold">
+          <div class="rows" style="--c1: 290px;">
+            <div class="row two"><span class="r-name">התאמה לתכנית המכר: רף עבודה 1%, תקרה קשה 2%</span><span class="r-main">בדיקה לכל חדר. האריזה מסרבת בלי אישור</span></div>
+            <div class="row two"><span class="r-name">חדר לא מושמט, מתקנים עד שעובר</span><span class="r-main">לולאת התיקון; אחרת «לבדיקה»</span></div>
+            <div class="row two"><span class="r-name">המודפס גובר על המצויר</span><span class="r-main">מדידה בין קווי המידה</span></div>
+            <div class="row two"><span class="r-name">עקביות בין חדרים</span><span class="r-main">שופט ראייה, רוב של 3</span></div>
+            <div class="row two"><span class="r-name">רק ריהוט ועיצוב; בלי שינוי קירות, חלונות ונוף</span><span class="r-main">כללי ההנחיה למודל, והבדיקה</span></div>
+            <div class="row two"><span class="r-name">בלי פאנלים בין קיר לרצפה</span><span class="r-main">נתון בלוח החומרים, עם בדיקה</span></div>
+            <div class="row two"><span class="r-name">גילוי נאות מבני</span><span class="r-main">תג, שורה קבועה והערת <bdi>AI</bdi> בתוך הסיור</span></div>
+            <div class="row two"><span class="r-name">כסף: רישום לפני כל קריאה, תקרה רכה וקשה</span><span class="r-main">יומן העלויות של העבודה, ואישור מפורש</span></div>
+            <div class="row two"><span class="r-name">כל העלאה היא אישור נפרד</span><span class="r-main">כלי הפרסום שואל בכל פעם, ורושם ביומן ההעלאות</span></div>
+            <div class="row two"><span class="r-name">סודות: שמות בלבד</span><span class="r-main">המפתחות רק בקובץ של המנוע</span></div>
+            <div class="row two"><span class="r-name">טלפון ומחשב, תמיד</span><span class="r-main">בדיקה ב-390 וב-1440 היא שלב חובה</span></div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>סיכונים <small>· מה ידוע, ומה עושים</small></summary>
+        <div class="fold">
+          <div class="rows" style="--c1: 200px;">
+            <div class="row two"><span class="r-name">הכללה ל-<bdi>PDF</bdi> חדש</span><span class="r-main">המנוע מוכח על <bdi>PDF</bdi> וקטורי אחד (846) ועל חוברת סרוקה אחת, ושמות השכבות שייכים לאדריכל הזה.<small>בדיקת הפענוח נכשלת סגור. אף פעם לא סיור שגוי. שלב הכללה נפרד.</small></span></div>
+            <div class="row two"><span class="r-name">עלות לא צפויה</span><span class="r-main"><bdi>$40–60</bdi> נמדד, <bdi>$85</bdi> בריצת הקבלה.<small>הצעת מחיר, תקרה קשה, ושלב הורדת עלות.</small></span></div>
+            <div class="row two"><span class="r-name">קריאה ושיפוט לא יציבים</span><span class="r-main">קריאת הראייה משתנה בין ריצות, והשופט מסכים עם עצמו רק ב-<bdi>0.5–0.67</bdi>.<small>שמירת הקריאה לפי הקובץ; רוב של 3; מדידה במקום שיפוט בכל מקום שאפשר.</small></span></div>
+            <div class="row two"><span class="r-name">נכסים בלי מקור להורדה</span><span class="r-main">45 מ-57 מודלי הריהוט באים מחבילה אחת, וכתובת ההורדה שלה כבר לא מחזירה את הקובץ. היום הם קיימים רק בתיקיות הגיבוי ובבית המנוע.<small>נמצא ב-<bdi>0.1</bdi>. פקודת המוכנות בודקת את כולם מול החתימה הנעולה. להחלטתך: עותק שמור נוסף של הנכסים (כ-<bdi>300MB</bdi>).</small></span></div>
+            <div class="row two"><span class="r-name">מצב מקומי חסר</span><span class="r-main">התיקייה החיה ירדה מהדיסק. נכסי הרינדור נמצאו בגיבוי ואומתו. רשומות 846 נמצאות רק בתיקיות העבודה ובגיבוי, ולקובץ המפתחות אין מקור.<small>המלאי המלא בפרק «מה המנוע צריך». העתקה ואימות ב-<bdi>E0</bdi>. המפתחות חוסמים רק מ-<bdi>E2</bdi>.</small></span></div>
+            <div class="row two"><span class="r-name">העבודה מתה עם הסשן</span><span class="r-main"><bdi>Pi</bdi> הורג את שרת ה-<bdi>MCP</bdi> ואת תהליכי הבן שלו.<small>תהליך מנותק, ומבחן הריגה ב-<bdi>E4</bdi>.</small></span></div>
+            <div class="row two"><span class="r-name">העלאות מתנגשות</span><span class="r-main">ב-4.11 העלאה של סשן אחד דרסה העלאה של סשן אחר.<small>העלאה אחת בכל רגע, וקריאת השורה האחרונה ביומן ההעלאות לפני כל העלאה.</small></span></div>
+            <div class="row two"><span class="r-name">רישוי</span><span class="r-main"><bdi>PyMuPDF</bdi> ברישיון <bdi>AGPL</bdi>.<small>החלטה שלך, שאלה 7.</small></span></div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>מתי זה מוכן <small>· תנאי הקבלה של <bdi>E0–E6</bdi></small></summary>
+        <div class="fold">
+          <ol class="plain">
+            <li>ה-<bdi>PDF</bdi> של 846 עולה בממשק הסוכן, והסוכן מחזיר כרטיס תוצאה שפותח את הסיור, בלי פקודה ידנית אחת.</li>
+            <li>בסיור: 11 חדרים, 3 גימורים, כפתורי מעבר, תכנית, תג «הדמיה» ושורת הגילוי הנאות.</li>
+            <li>כל חדר עד 1% סטייה בטבלת הבדיקה, וכל קבוצת עקביות עוברת.</li>
+            <li>הסיור נפתח בקישור המקומי ב-<bdi>Chrome</bdi> וב-<bdi>Edge</bdi>, ברוחב 1440 וברוחב 390, בלי שגיאות. אחרי אישורך: גם בקישור הבדיקה, בטלפון אמיתי.</li>
+            <li>שיפוט מול הרפרנס: אותם חדרים, אותן נקודות מבט, בלי פער שקונה היה מבחין בו.</li>
+            <li>כל קריאה בתשלום רשומה, הסכום בתוך התקרה, וריצה חוזרת על אותו קלט עולה <bdi>$0</bdi>.</li>
+            <li>הריגת <bdi>Pi</bdi> או הגשר באמצע עבודה לא מפילה אותה, וסשן חדש רואה אותה.</li>
+            <li><bdi>PDF</bdi> שאינו 846 מחזיר סיור שעבר את הבדיקות, או «לבדיקה» עם סיבה. לא סיור שגוי.</li>
+            <li>בדיקת הציות עוברת: מקור שמור, גילוי נאות, ומקור רשום לכל תמונה.</li>
+          </ol>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <footer class="more">
+    <p><b>מצב הדיסק היום:</b> התיקייה <code>Projects\Habait</code> לא נמצאת על הדיסק מאז 13:22, ולא מצאתי עותק שהועבר. הקוד שמור ב-<bdi>git</bdi>, נכסי הרינדור בגיבוי מ-4.11 (אומתו), והמפתחות חסרים. לא נגעתי ולא שחזרתי דבר.</p>
+    <p><b>על מה זה נשען:</b> קריאת הקוד והרשומות על ידי חמישה סוכני מחקר, הורדה של הסיור החי של דירה 846, התיעוד של <bdi>Pi</bdi>, ואתר התקן של <bdi>MCP</bdi>. מה שהוא הערכה מסומן כהערכה.</p>
+    <p>אותה תכנית, כרשומה לסשנים שיבנו לפיה: <code>development/plans/2026-11-16-pdf-to-360-engine-mcp.md</code></p>
+  </footer>
+
+</main>

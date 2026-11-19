@@ -1,0 +1,51 @@
+{
+ "$schema": "tour360/ledger.v1",
+ "cap_usd": 3,
+ "note": "reserve before send, settle after",
+ "rows": [
+  {
+   "seq": 1,
+   "ts": "2026-11-06T10:11:41.694Z",
+   "op": "auto-trace-read",
+   "apartment": "apt846-trace2",
+   "model": "google/gemini-3.7-flash",
+   "images": 1,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.0103305,
+   "status": "done"
+  },
+  {
+   "seq": 2,
+   "ts": "2026-11-06T10:13:05.844Z",
+   "op": "auto-trace-judge",
+   "apartment": "apt846-trace2",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.0098625,
+   "status": "done"
+  },
+  {
+   "seq": 3,
+   "ts": "2026-11-06T10:13:25.084Z",
+   "op": "auto-trace-judge",
+   "apartment": "apt846-trace2",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.0109575,
+   "status": "done"
+  },
+  {
+   "seq": 4,
+   "ts": "2026-11-06T10:13:45.607Z",
+   "op": "auto-trace-judge",
+   "apartment": "apt846-trace2",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.0106125,
+   "status": "done"
+  }
+ ]
+}

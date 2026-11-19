@@ -1,0 +1,62 @@
+{
+ "$schema": "tour360/ledger.v1",
+ "cap_usd": 3,
+ "note": "reserve before send, settle after",
+ "rows": [
+  {
+   "seq": 1,
+   "ts": "2026-11-05T09:19:10.703Z",
+   "op": "auto-trace-pages",
+   "apartment": "pmw28yq6b52b7ed",
+   "model": "google/gemini-3.7-flash",
+   "images": 12,
+   "reserved_usd": 0.03,
+   "settled_usd": 0.01776675,
+   "status": "done"
+  },
+  {
+   "seq": 2,
+   "ts": "2026-11-05T09:19:34.009Z",
+   "op": "auto-trace-read",
+   "apartment": "pmw28yq6b52b7ed",
+   "model": "google/gemini-3.7-flash",
+   "images": 1,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.01083525,
+   "status": "done"
+  },
+  {
+   "seq": 3,
+   "ts": "2026-11-05T09:20:20.899Z",
+   "op": "auto-trace-judge",
+   "apartment": "pmw28yq6b52b7ed",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.00777525,
+   "status": "done"
+  },
+  {
+   "seq": 4,
+   "ts": "2026-11-05T09:20:34.442Z",
+   "op": "auto-trace-read",
+   "apartment": "pmw28yq6b52b7ed",
+   "model": "google/gemini-3.7-flash",
+   "images": 1,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.0103185,
+   "status": "done"
+  },
+  {
+   "seq": 5,
+   "ts": "2026-11-05T09:21:45.523Z",
+   "op": "auto-trace-judge",
+   "apartment": "pmw28yq6b52b7ed",
+   "model": "google/gemini-3.7-flash",
+   "images": 2,
+   "reserved_usd": 0.02,
+   "settled_usd": 0.0062265,
+   "status": "done"
+  }
+ ]
+}

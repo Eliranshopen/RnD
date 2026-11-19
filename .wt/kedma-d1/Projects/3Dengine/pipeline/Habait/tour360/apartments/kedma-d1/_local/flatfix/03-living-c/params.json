@@ -1,0 +1,9 @@
+{
+ "asset": "03-living",
+ "tag": "c",
+ "parent": "03-living__flat__b.png",
+ "yaw": 322.0,
+ "pitch": 0.0,
+ "hfov": 104.0,
+ "size": 1024
+}

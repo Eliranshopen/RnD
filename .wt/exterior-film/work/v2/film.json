@@ -1,0 +1,14 @@
+{
+ "film": "C:/RnD/.wt/exterior-film/work/v2\\building-film-720.mp4",
+ "sha256": "1a71a5e3f199c2e7058dce289bc8afe6ba96bafc0aebeca9dec266c712430854",
+ "seconds": 24.833,
+ "orbit_s": 17.041667,
+ "arc_s": 4.375,
+ "arc_frames": [
+  66,
+  169
+ ],
+ "ease": "none (native)",
+ "arc_to_descent": "fadeblack 0.5 s",
+ "fps": 24
+}

@@ -1,0 +1,9 @@
+{
+ "asset": "11-bath",
+ "tag": "window",
+ "parent": "11-bath__paste__s7__stub.png",
+ "yaw": 5.0,
+ "pitch": 0.0,
+ "hfov": 104.0,
+ "size": 1024
+}

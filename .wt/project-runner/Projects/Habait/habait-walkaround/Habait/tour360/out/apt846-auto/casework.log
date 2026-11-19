@@ -1,0 +1,6 @@
+  hob   at [820.7, 391.7] on k-counter (4 burner circles in a 60.1x60.0 cm square; trace [747.2, 527.0])
+  sink  at [688.0, 559.0] on k-counter (4 drain/tap holes; trace [609.5, 695.2])
+casework_symbols: 2 symbol(s); registration {"mean_outline_cm": 5.55, "scale": 0.9825, "rotation_deg": -0.9, "max_cm": 8.0}; 
+  furnish cue: {"kitchen_uppers": "shelves", "source": "material board: a brushed stainless-steel function-wall splashback with one long horizontal rail and two slim open shelves"}
+  tall unit k-tall: fridge (no words on the drawing; 61 x 82 cm fits the fridge range (55-95 x 55-90): the fridge (default))
+written: C:\RnD\.wt\project-runner\Projects\Habait\habait-walkaround\Habait\tour360\apartments\apt846-auto\plan.general.json

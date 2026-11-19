@@ -1,0 +1,555 @@
+{
+  "schema": "habait.apartment-page.v0",
+  "generated": "2026-11-17T12:19:07.862Z",
+  "version": "0.1.20261117",
+  "project": {
+    "id": "kedma-d1",
+    "name": {
+      "he": "קדמא · בניין ד",
+      "en": "קדמא · בניין ד"
+    },
+    "tagline": {
+      "he": "עץ אפרים · הדמיה",
+      "en": "עץ אפרים · concept"
+    },
+    "developer": {
+      "he": "",
+      "en": ""
+    },
+    "brand": {
+      "primary": "#0f5c8f",
+      "accent": "#f2a900",
+      "background": "#0b1220",
+      "logo": null
+    },
+    "leads": {
+      "whatsapp_number": "",
+      "agent": null,
+      "email": null
+    },
+    "exterior": null,
+    "fixture": false,
+    "currency": "ILS",
+    "prices_public": false
+  },
+  "unit": {
+    "id": "1",
+    "floor": 1,
+    "type": "C1",
+    "rooms": 5,
+    "area_m2": 134,
+    "outdoor_m2": 22,
+    "price": null,
+    "status": "for-sale",
+    "tour_url": "tour/?scope=apartment&room=living",
+    "note": "from the portal reading of the sales plan",
+    "currency": "ILS"
+  },
+  "tour": {
+    "url": "tour/?scope=apartment&room=living",
+    "scope": "apartment",
+    "rooms": 13,
+    "hold": null
+  },
+  "back": {
+    "url": "http://127.0.0.1:8850/landing.html?project=kedma-d1"
+  },
+  "plan": {
+    "src": "media/plan.png",
+    "width": 1765,
+    "height": 1538,
+    "date": null,
+    "architect": null,
+    "source_sha256": "b15595c5f3973bb5abe5f54f7620efdd07e6764c0c0c1192dabf017ec2787d13",
+    "source": "jobs/kedma-d1/hand/clean.png: the wall fill of the sales-plan sheet 'bldg-d-apt-1.pdf' (sha256 d90f50bf...) redrawn clean at 2.25 px/cm"
+  },
+  "panos": [
+    {
+      "id": "kitchen",
+      "name": {
+        "he": "מטבח",
+        "en": "Kitchen",
+        "fr": "Cuisine"
+      },
+      "src": "media/panos/01-kitchen.webp"
+    },
+    {
+      "id": "pantry",
+      "name": {
+        "he": "מזווה · תמונה ישנה, תוחלף",
+        "en": "Pantry · old picture, to be replaced",
+        "fr": "Dressing · ancienne image"
+      },
+      "src": "media/panos/02-pantry.webp"
+    },
+    {
+      "id": "living",
+      "name": {
+        "he": "חדר דיור · תמונה ישנה, תוחלף",
+        "en": "Living room · old picture, to be replaced",
+        "fr": "Séjour · ancienne image"
+      },
+      "src": "media/panos/03-living.webp"
+    },
+    {
+      "id": "dining",
+      "name": {
+        "he": "כניסה ופינת אוכל · תמונה ישנה, תוחלף",
+        "en": "Entrance and dining · old picture, to be replaced",
+        "fr": "Entrée · ancienne image"
+      },
+      "src": "media/panos/04-dining.webp"
+    },
+    {
+      "id": "family",
+      "name": {
+        "he": "חדר משפחה · תמונה ישנה, תוחלף",
+        "en": "Family room · old picture, to be replaced",
+        "fr": "Séjour · ancienne image"
+      },
+      "src": "media/panos/05-family.webp"
+    },
+    {
+      "id": "corridor",
+      "name": {
+        "he": "מסדרון · תמונה ישנה, תוחלף",
+        "en": "Corridor · old picture, to be replaced",
+        "fr": "Couloir · ancienne image"
+      },
+      "src": "media/panos/06-corridor.webp"
+    },
+    {
+      "id": "master",
+      "name": {
+        "he": "חדר שינה הורים · תמונה ישנה, תוחלף",
+        "en": "Main bedroom · old picture, to be replaced",
+        "fr": "Chambre · ancienne image"
+      },
+      "src": "media/panos/07-master.webp"
+    },
+    {
+      "id": "shower",
+      "name": {
+        "he": "חדר רחצה · תמונה ישנה, תוחלף",
+        "en": "Shower room · old picture, to be replaced",
+        "fr": "Salle de bain · ancienne image"
+      },
+      "src": "media/panos/08-shower.webp"
+    },
+    {
+      "id": "bed1",
+      "name": {
+        "he": "חדר שינה · תמונה ישנה, תוחלף",
+        "en": "Bedroom · old picture, to be replaced",
+        "fr": "Chambre · ancienne image"
+      },
+      "src": "media/panos/09-bed1.webp"
+    },
+    {
+      "id": "bed2",
+      "name": {
+        "he": "חדר שינה · תמונה ישנה, תוחלף",
+        "en": "Bedroom 2 · old picture, to be replaced",
+        "fr": "Chambre · ancienne image"
+      },
+      "src": "media/panos/10-bed2.webp"
+    },
+    {
+      "id": "bath",
+      "name": {
+        "he": "חדר אמבטיה · תמונה ישנה, תוחלף",
+        "en": "Bathroom · old picture, to be replaced",
+        "fr": "Salle de bain · ancienne image"
+      },
+      "src": "media/panos/11-bath.webp"
+    },
+    {
+      "id": "mamad",
+      "name": {
+        "he": "ממ\"ד חדר שינה · תמונה ישנה, תוחלף",
+        "en": "Safe room bedroom · old picture, to be replaced",
+        "fr": "Safe room bedroom · ancienne image"
+      },
+      "src": "media/panos/12-mamad.webp"
+    },
+    {
+      "id": "balcony",
+      "name": {
+        "he": "מרפסת · תמונה ישנה, תוחלף",
+        "en": "Balcony · old picture, to be replaced",
+        "fr": "Terrasse · ancienne image"
+      },
+      "src": "media/panos/13-balcony.webp"
+    }
+  ],
+  "stills": [
+    {
+      "id": "kitchen",
+      "name": {
+        "he": "מטבח",
+        "en": "Kitchen",
+        "fr": "Cuisine"
+      },
+      "src": "media/stills/01-kitchen.jpg",
+      "yaw": 15,
+      "source": "full"
+    },
+    {
+      "id": "pantry",
+      "name": {
+        "he": "מזווה · תמונה ישנה, תוחלף",
+        "en": "Pantry · old picture, to be replaced",
+        "fr": "Dressing · ancienne image"
+      },
+      "src": "media/stills/02-pantry.jpg",
+      "yaw": 90,
+      "source": "full"
+    },
+    {
+      "id": "living",
+      "name": {
+        "he": "חדר דיור · תמונה ישנה, תוחלף",
+        "en": "Living room · old picture, to be replaced",
+        "fr": "Séjour · ancienne image"
+      },
+      "src": "media/stills/03-living.jpg",
+      "yaw": 165,
+      "source": "full"
+    },
+    {
+      "id": "dining",
+      "name": {
+        "he": "כניסה ופינת אוכל · תמונה ישנה, תוחלף",
+        "en": "Entrance and dining · old picture, to be replaced",
+        "fr": "Entrée · ancienne image"
+      },
+      "src": "media/stills/04-dining.jpg",
+      "yaw": -120,
+      "source": "full"
+    },
+    {
+      "id": "family",
+      "name": {
+        "he": "חדר משפחה · תמונה ישנה, תוחלף",
+        "en": "Family room · old picture, to be replaced",
+        "fr": "Séjour · ancienne image"
+      },
+      "src": "media/stills/05-family.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "corridor",
+      "name": {
+        "he": "מסדרון · תמונה ישנה, תוחלף",
+        "en": "Corridor · old picture, to be replaced",
+        "fr": "Couloir · ancienne image"
+      },
+      "src": "media/stills/06-corridor.jpg",
+      "yaw": 90,
+      "source": "full"
+    },
+    {
+      "id": "master",
+      "name": {
+        "he": "חדר שינה הורים · תמונה ישנה, תוחלף",
+        "en": "Main bedroom · old picture, to be replaced",
+        "fr": "Chambre · ancienne image"
+      },
+      "src": "media/stills/07-master.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "shower",
+      "name": {
+        "he": "חדר רחצה · תמונה ישנה, תוחלף",
+        "en": "Shower room · old picture, to be replaced",
+        "fr": "Salle de bain · ancienne image"
+      },
+      "src": "media/stills/08-shower.jpg",
+      "yaw": -30,
+      "source": "full"
+    },
+    {
+      "id": "bed1",
+      "name": {
+        "he": "חדר שינה · תמונה ישנה, תוחלף",
+        "en": "Bedroom · old picture, to be replaced",
+        "fr": "Chambre · ancienne image"
+      },
+      "src": "media/stills/09-bed1.jpg",
+      "yaw": -15,
+      "source": "full"
+    },
+    {
+      "id": "bed2",
+      "name": {
+        "he": "חדר שינה · תמונה ישנה, תוחלף",
+        "en": "Bedroom 2 · old picture, to be replaced",
+        "fr": "Chambre · ancienne image"
+      },
+      "src": "media/stills/10-bed2.jpg",
+      "yaw": -15,
+      "source": "full"
+    },
+    {
+      "id": "bath",
+      "name": {
+        "he": "חדר אמבטיה · תמונה ישנה, תוחלף",
+        "en": "Bathroom · old picture, to be replaced",
+        "fr": "Salle de bain · ancienne image"
+      },
+      "src": "media/stills/11-bath.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "mamad",
+      "name": {
+        "he": "ממ\"ד חדר שינה · תמונה ישנה, תוחלף",
+        "en": "Safe room bedroom · old picture, to be replaced",
+        "fr": "Safe room bedroom · ancienne image"
+      },
+      "src": "media/stills/12-mamad.jpg",
+      "yaw": 0,
+      "source": "full"
+    },
+    {
+      "id": "balcony",
+      "name": {
+        "he": "מרפסת · תמונה ישנה, תוחלף",
+        "en": "Balcony · old picture, to be replaced",
+        "fr": "Terrasse · ancienne image"
+      },
+      "src": "media/stills/13-balcony.jpg",
+      "yaw": 75,
+      "source": "full"
+    }
+  ],
+  "glb": {
+    "src": "media/apt1.glb",
+    "html": "media/dollhouse.html",
+    "bytes": 932932,
+    "sha256": "2956812425fb5d5f8e0ca1e73e9568ee45256a97fa2060d0383e4f0edd2449ec",
+    "placeholder": false,
+    "source": "c:/RnD/.wt/kedma-d1/Projects/3Dengine/pipeline/Habait/engine/_local/apt1/dollhouse/apt1.glb",
+    "floors": null,
+    "default_floor": null,
+    "floor_note": null,
+    "light": {
+      "src": "light.webp",
+      "bytes": 252836,
+      "phone_bytes": 0,
+      "scale": 0.308157
+    },
+    "rooms": 15
+  },
+  "minimap": {
+    "schema": "habait.minimap.v0",
+    "img": "media/top.webp",
+    "w": 640,
+    "h": 536,
+    "affine": {
+      "ax": 0.4136812854068127,
+      "bx": -87.12127777869247,
+      "ay": 0.4136812854068134,
+      "by": -86.69890280006553
+    },
+    "top": {
+      "W": 2048,
+      "H": 2048,
+      "cx": 9.841423630714417,
+      "cy": -8.57449984550476,
+      "s": 15.986021838188172
+    },
+    "crop": {
+      "x0": 33,
+      "y0": 194,
+      "k": 0.3229061553985873
+    },
+    "points": {
+      "kitchen": {
+        "x_cm": 946.7,
+        "y_cm": 393.8,
+        "u": 304.5,
+        "v": 76.2,
+        "bearing0": 270,
+        "name": {
+          "he": "מטבח",
+          "en": "Kitchen",
+          "fr": "Cuisine"
+        }
+      },
+      "pantry": {
+        "x_cm": 1151.6,
+        "y_cm": 365.3,
+        "u": 389.26,
+        "v": 64.43,
+        "bearing0": 267,
+        "name": {
+          "he": "מזווה · תמונה ישנה, תוחלף",
+          "en": "Pantry · old picture, to be replaced",
+          "fr": "Dressing · ancienne image"
+        }
+      },
+      "living": {
+        "x_cm": 937.8,
+        "y_cm": 779.1,
+        "u": 300.82,
+        "v": 235.6,
+        "bearing0": 75,
+        "name": {
+          "he": "חדר דיור · תמונה ישנה, תוחלף",
+          "en": "Living room · old picture, to be replaced",
+          "fr": "Séjour · ancienne image"
+        }
+      },
+      "dining": {
+        "x_cm": 1127.1,
+        "y_cm": 653.3,
+        "u": 379.14,
+        "v": 183.57,
+        "bearing0": 44,
+        "name": {
+          "he": "כניסה ופינת אוכל · תמונה ישנה, תוחלף",
+          "en": "Entrance and dining · old picture, to be replaced",
+          "fr": "Entrée · ancienne image"
+        }
+      },
+      "family": {
+        "x_cm": 1464.4,
+        "y_cm": 679.6,
+        "u": 518.69,
+        "v": 194.42,
+        "bearing0": 98,
+        "name": {
+          "he": "חדר משפחה · תמונה ישנה, תוחלף",
+          "en": "Family room · old picture, to be replaced",
+          "fr": "Séjour · ancienne image"
+        }
+      },
+      "corridor": {
+        "x_cm": 955.1,
+        "y_cm": 972.9,
+        "u": 307.99,
+        "v": 315.77,
+        "bearing0": 264,
+        "name": {
+          "he": "מסדרון · תמונה ישנה, תוחלף",
+          "en": "Corridor · old picture, to be replaced",
+          "fr": "Couloir · ancienne image"
+        }
+      },
+      "master": {
+        "x_cm": 543.6,
+        "y_cm": 976,
+        "u": 137.74,
+        "v": 317.05,
+        "bearing0": 248,
+        "name": {
+          "he": "חדר שינה הורים · תמונה ישנה, תוחלף",
+          "en": "Main bedroom · old picture, to be replaced",
+          "fr": "Chambre · ancienne image"
+        }
+      },
+      "shower": {
+        "x_cm": 447.1,
+        "y_cm": 1291.1,
+        "u": 97.84,
+        "v": 447.41,
+        "bearing0": 115.10000000000002,
+        "name": {
+          "he": "חדר רחצה · תמונה ישנה, תוחלף",
+          "en": "Shower room · old picture, to be replaced",
+          "fr": "Salle de bain · ancienne image"
+        }
+      },
+      "bed1": {
+        "x_cm": 787.1,
+        "y_cm": 1178.2,
+        "u": 238.49,
+        "v": 400.71,
+        "bearing0": 185,
+        "name": {
+          "he": "חדר שינה · תמונה ישנה, תוחלף",
+          "en": "Bedroom · old picture, to be replaced",
+          "fr": "Chambre · ancienne image"
+        }
+      },
+      "bed2": {
+        "x_cm": 1057.3,
+        "y_cm": 1181.8,
+        "u": 350.28,
+        "v": 402.18,
+        "bearing0": 193,
+        "name": {
+          "he": "חדר שינה · תמונה ישנה, תוחלף",
+          "en": "Bedroom 2 · old picture, to be replaced",
+          "fr": "Chambre · ancienne image"
+        }
+      },
+      "bath": {
+        "x_cm": 1271.1,
+        "y_cm": 1139.6,
+        "u": 438.71,
+        "v": 384.71,
+        "bearing0": 167,
+        "name": {
+          "he": "חדר אמבטיה · תמונה ישנה, תוחלף",
+          "en": "Bathroom · old picture, to be replaced",
+          "fr": "Salle de bain · ancienne image"
+        }
+      },
+      "mamad": {
+        "x_cm": 1530.2,
+        "y_cm": 1081.8,
+        "u": 545.9,
+        "v": 360.81,
+        "bearing0": 175,
+        "name": {
+          "he": "ממ\"ד חדר שינה · תמונה ישנה, תוחלף",
+          "en": "Safe room bedroom · old picture, to be replaced",
+          "fr": "Safe room bedroom · ancienne image"
+        }
+      },
+      "balcony": {
+        "x_cm": 317.3,
+        "y_cm": 326.7,
+        "u": 44.15,
+        "v": 48.44,
+        "bearing0": 211,
+        "name": {
+          "he": "מרפסת · תמונה ישנה, תוחלף",
+          "en": "Balcony · old picture, to be replaced",
+          "fr": "Terrasse · ancienne image"
+        }
+      }
+    },
+    "source": {
+      "top": "GLB bounds (report.json top agrees to <1e-3 m, exact value kept)",
+      "alpha_check_px": 0.96,
+      "cameras": "cameras.json at / 2.25 = plan cm"
+    },
+    "bytes": 21298
+  },
+  "legal": {
+    "short": {
+      "he": "הדמיה להמחשה בלבד. הופקה בסיוע בינה מלאכותית מתכנית המכר של דירה 1, קדמא · בניין ד, מיום {PLAN_DATE}. המסמכים המחייבים הם המפרט והתכניות החתומים. ריהוט, גימורים ונוף להמחשה.",
+      "en": "Illustration only. Generated with AI assistance from the sales plan of unit 1, קדמא · בניין ד, dated {PLAN_DATE}. The binding documents are the signed specification and plans. Furniture, finishes and views are illustrative."
+    },
+    "full": {
+      "he": "הדמיה להמחשה בלבד.\nההדמיה הופקה על ידי Habait עבור {DEVELOPER} בסיוע כלי בינה מלאכותית, על בסיס תכנית המכר של דירה 1 בפרויקט קדמא · בניין ד מיום {PLAN_DATE} (אדריכל: {ARCHITECT}). הגאומטריה של הדירה (חדרים, קירות, פתחים) נגזרה מתכנית המכר; מראה החומרים, התאורה, הריהוט, האביזרים, הצמחייה, האנשים והנוף הם פרשנות חזותית ואינם חלק מהממכר.\nהמסמכים המחייבים הם אך ורק המפרט הטכני (לפי חוק המכר (דירות), תשל\"ג-1973, וצו מכר דירות (טופס של מפרט), תשל\"ד-1974) והתכניות החתומות המצורפות לחוזה המכר. בכל סתירה בין ההדמיה לבין המפרט והתכניות, המפרט והתכניות גוברים.\nריהוט, גימורים, כלים סניטריים, מטבח, ארונות, תאורה ואביזרים אינם כלולים בדירה אלא אם נאמר במפורש במפרט. גוונים, חומרים ופריטים שמופיעים בהדמיה עשויים להיות שונים מאלה שיסופקו בפועל.\nשטחים ומידות הם לפי תכניות היזם והמפרט; המידות בהדמיה מוצגות באופן מקורב ואינן מהוות מדידה. מיקום עמודים, קורות, פירים ומערכות עשוי להשתנות בהתאם לתכנון המפורט ולהוראות כל דין.\nהסביבה, הבניינים השכנים, הנוף והתאורה הטבעית מוצגים להמחשה בלבד ואינם מתחייבים.\nהופק: 2026-11-17, גרסה 0.1.20261117. גילוי: חלקים מההדמיה נוצרו או עובדו באמצעות בינה מלאכותית.",
+      "en": "Illustration only.\nThis visualization was produced by Habait for {DEVELOPER} with the assistance of artificial-intelligence tools, based on the sales plan of unit 1 in קדמא · בניין ד dated {PLAN_DATE} (architect: {ARCHITECT}). The apartment geometry (rooms, walls, openings) is derived from the sales plan; materials, lighting, furniture, accessories, vegetation, people and views are a visual interpretation and are not part of the property sold.\nThe binding documents are solely the technical specification (under the Sale (Apartments) Law, 5733-1973, and the Sale (Apartments) (Specification Form) Order, 5734-1974) and the signed plans attached to the sale agreement. In any discrepancy between this visualization and the specification and plans, the specification and plans prevail.\nFurniture, finishes, sanitary fixtures, kitchen, closets, lighting and accessories are not included unless expressly stated in the specification. Colours, materials and items shown may differ from those actually supplied.\nAreas and dimensions are per the developer's plans and specification; dimensions in the visualization are approximate and do not constitute a measurement. The location of columns, beams, shafts and building systems may change according to the detailed design and applicable law.\nSurroundings, neighbouring buildings, views and natural light are shown for illustration only and are not guaranteed.\nProduced 2026-11-17, version 0.1.20261117. Disclosure: parts of this visualization were created or processed using artificial intelligence."
+    },
+    "status": "DRAFT v0 (2026-11-02), ממתין לחוות דעת עו״ד / pending legal review",
+    "source": "C:/RnD/.wt/kedma-d1/Projects/3Dengine/house/legal/disclaimer-he-en.md"
+  },
+  "zip": {
+    "src": "1.zip",
+    "name": "kedma-d1-1.zip",
+    "bytes": 7242929,
+    "files": 31,
+    "sha256": "c1f4cc75fcbaec2bcc8d68e9bca4b73916787781b884c75eb0c1a546b8686b88"
+  }
+}

@@ -1,0 +1,7 @@
+{
+ "answer": "05-terrace-living__seam3__s7__82330adac606.png",
+ "source": "05-terrace-living__seam3__s7__82330adac606.png",
+ "mode": "floor-composite --whole",
+ "composite": "05-terrace-living__floorcomp-concrete__82330adac606.png",
+ "floor_from": "05-terrace-living.answer-05-terrace-living__seam3__s7__82330adac606.webp"
+}

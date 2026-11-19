@@ -1,0 +1,84 @@
+{
+ "name": "transition-rise",
+ "purpose": "option 3 in the product: rise out of the 360 into the dollhouse, dive back (board transition-rise, Eliran 2026-11-04, no deploy)",
+ "opened": "2026-11-04T06:42:19",
+ "files": [
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/js/apartment-3d.js",
+   "sha256_at_open": "c0715eb16434521882140feb3e97fec1e6e5cf4dfcc446a6ec0b7850e76c2bed",
+   "sha256_at_close": "f161662cf0ef4ff561f7052e1fb52e44d9845a0e416f846b8dbde55944c26613"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/tools/build_zip.mjs",
+   "sha256_at_open": "a96b7df33e767d66a8ab3171a8baf28b905879037b29b35ec84f22ec1e97cddf",
+   "sha256_at_close": "455010b43e7aadbadc421129e414c1fde36582302ce9d149e071583f76cadde8"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/tour.js",
+   "sha256_at_open": "735a52f210a26eeeca89ccfb16db6e02190872fcfe0c8393d3dc1f280e91abdd",
+   "sha256_at_close": "db06c0d6ebaf5d324bb8b3c824d28cecdbdfc7255f37ef85acf4132f648c9068"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/846.zip",
+   "sha256_at_open": "41333384b9cded1df7db3068bc6d1d9538d273e3aea6532978735179c878c76b",
+   "resnap": [
+    {
+     "from": "adc4859b3a3716c1a47c3d228bbf68f77f2c6be1ed03476e94f7de587854b1fe",
+     "to": "41333384b9cded1df7db3068bc6d1d9538d273e3aea6532978735179c878c76b",
+     "why": "rnd-23 rebuilt platform 846 on live 2026-11-04 07:14 (platform-ui-ux apartment.css fix); our rebuild carries it (gate N4)"
+    }
+   ],
+   "sha256_at_close": "f25d9ce835100ebfe92cfdcf521ccbe9ce4b2c6e5dfdc9bd7558046cea265888"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/apartment.json",
+   "sha256_at_open": "61379ea6a5d9d23592e4fae394f079a6a23ce351e5fcbe8c7fdcb337fec87513",
+   "resnap": [
+    {
+     "from": "9d4b931dda62e0c087d428e543bbf9b47eede8bd9ba03fddd3e50014299b4976",
+     "to": "61379ea6a5d9d23592e4fae394f079a6a23ce351e5fcbe8c7fdcb337fec87513",
+     "why": "rnd-23 rebuilt platform 846 on live 2026-11-04 07:14 (platform-ui-ux apartment.css fix); our rebuild carries it (gate N4)"
+    }
+   ],
+   "sha256_at_close": "b3ec97170fa72fd8cba38a94379338dd14ab60dfeaf2b79fa250fa61cf14eb67"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/media/dollhouse.html",
+   "sha256_at_open": "329e533e9a710c29445f71ff1a58d7674b5e8c6b3ba4b7f77479aa5afdcffb15",
+   "resnap": [
+    {
+     "from": "1b8941e8d5249e37085c6ca2f57d7f38a9eca49a7673430708a27272f33e8c89",
+     "to": "329e533e9a710c29445f71ff1a58d7674b5e8c6b3ba4b7f77479aa5afdcffb15",
+     "why": "rnd-23 rebuilt platform 846 on live 2026-11-04 07:14 (platform-ui-ux apartment.css fix); our rebuild carries it (gate N4)"
+    }
+   ],
+   "sha256_at_close": "cb209927e631b624ced7fe7025e65f0936874f767cc127b22965b86f1e47aefa"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/platform/_local/dist/rainbow/846/index.html",
+   "sha256_at_open": "a215f9864e78a4ea11e11d6bcf849594edafb1baaba21ec6c0529b3e187869ae",
+   "sha256_at_close": "a215f9864e78a4ea11e11d6bcf849594edafb1baaba21ec6c0529b3e187869ae"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/index.html",
+   "sha256_at_open": "d81fade2e8a192e78cb866e85231b41328545b1db8ae2fa81a2b8626061ed2eb",
+   "sha256_at_close": "78f975b455965b98a6628589606241d3a6b33fc199608d1f0b68d033f3f90ae3"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/dist/apt846/3d/dollhouse.html",
+   "sha256_at_open": "1b8941e8d5249e37085c6ca2f57d7f38a9eca49a7673430708a27272f33e8c89",
+   "sha256_at_close": "cb209927e631b624ced7fe7025e65f0936874f767cc127b22965b86f1e47aefa"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/template.html",
+   "sha256_at_open": "c42e200ec2156dbc8ddd48b0758a4dacbaa8f9f7b023aa688c47310c7ac2a41c",
+   "sha256_at_close": "4e741cb6abe353dfa713c0f8cb5370982c871b4dbd27ac017610efffcb309c9a"
+  },
+  {
+   "path": "Projects/Habait/habait-walkaround/Habait/tour360/viewer/tour.css",
+   "sha256_at_open": "bb1473ec95739de86ca00c34ae498097a77fa0f00aded3b98770f97429961d79",
+   "sha256_at_close": "61bb70de51e423e2cc01ab5be5c0f7b1f084b1b6f10b87a5640365ed8750fc82"
+  }
+ ],
+ "closed": "2026-11-04T08:11:28"
+}

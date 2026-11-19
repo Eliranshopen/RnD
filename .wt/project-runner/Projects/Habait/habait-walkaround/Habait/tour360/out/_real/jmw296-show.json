@@ -1,0 +1,207 @@
+<claude-code-hint v="1" type="plugin" value="vercel@claude-plugins-official" />
+{
+ "id": "jmw296xof74ed6e",
+ "project": "pmw28yq6b52b7ed",
+ "state": "review",
+ "stage": "review",
+ "percent": 10,
+ "needs": {
+  "type": "habait_review",
+  "stage": "trace",
+  "count": 34
+ },
+ "check": {
+  "verdict": "FAIL",
+  "summary": "107 מתוך 127 בדיקות עברו · 2 קומות: קומה א' FAIL, קומת קרקע FAIL",
+  "floors": [
+   {
+    "floor": "קומה א'",
+    "dwelling": "דגם שור",
+    "verdict": "FAIL",
+    "summary": "57 מתוך 71 בדיקות עברו (סבב 2)",
+    "overlay": "trace/overlay-1.png"
+   },
+   {
+    "floor": "קומת קרקע",
+    "dwelling": "דגם שור",
+    "verdict": "FAIL",
+    "summary": "50 מתוך 56 בדיקות עברו (סבב 2)",
+    "overlay": "trace/overlay-2.png"
+   }
+  ],
+  "failing_rows": [
+   {
+    "label": "קומה א' · חדר שינה · dims",
+    "printed_cm": "330 × 280",
+    "traced_cm": "284 × 264",
+    "delta_cm": 46,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · חדר שינה · dims",
+    "printed_cm": "330 × 300",
+    "traced_cm": "321 × 303",
+    "delta_cm": 9,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · חדר שינה הורים · dims",
+    "printed_cm": "390 × 345",
+    "traced_cm": "356 × 349",
+    "delta_cm": 34,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · r-corridor-1 · room_has_label",
+    "printed_cm": "a printed label",
+    "traced_cm": "מעבר",
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · r-corridor-7 · room_has_label",
+    "printed_cm": "a printed label",
+    "traced_cm": "מעבר",
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · r-corridor-8 · room_has_label",
+    "printed_cm": "a printed label",
+    "traced_cm": "מעבר",
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · room_count",
+    "printed_cm": 7,
+    "traced_cm": 10,
+    "delta_cm": 3,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · door_arc",
+    "printed_cm": "an opening between two rooms",
+    "traced_cm": "both sides of the door lie in the same traced room (a wrong split or a missing room)",
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · חדר שינה · shape_iou",
+    "printed_cm": ">= 0.85 with the printed rectangle",
+    "traced_cm": 0.812,
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · חדר שינה · shape_iou",
+    "printed_cm": ">= 0.85 with the printed rectangle",
+    "traced_cm": 0.746,
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · פטיו בקומת קרקע · orthogonal",
+    "printed_cm": "no non-axis edge > 30 cm off a diagonal/curved wall",
+    "traced_cm": "45 × 40 × 65 × 144 × 97",
+    "delta_cm": null,
+    "ok": false
+   },
+   {
+    "label": "קומה א' · פטיו בקומת קרקע · label_in_room",
+    "printed_cm": "the printed label inside its room (<= 50 cm)",
+    "traced_cm": "74 cm away",
+    "delta_cm": null,
+    "ok": false
+   }
+  ]
+ },
+ "review": {
+  "stage": "trace",
+  "mismatches": 34,
+  "first": [
+   {
+    "floor": "קומה א'",
+    "check": "dims",
+    "room": "r-bedroom",
+    "name": "חדר שינה",
+    "expected": [
+     330,
+     280
+    ],
+    "got": [
+     284,
+     264
+    ],
+    "tol": "max(2 %, 5 cm) per side",
+    "pass": false
+   },
+   {
+    "floor": "קומה א'",
+    "check": "dims",
+    "room": "r-bedroom-2",
+    "name": "חדר שינה",
+    "expected": [
+     330,
+     300
+    ],
+    "got": [
+     321,
+     303
+    ],
+    "tol": "max(2 %, 5 cm) per side",
+    "pass": false
+   },
+   {
+    "floor": "קומה א'",
+    "check": "dims",
+    "room": "r-master-bedroom",
+    "name": "חדר שינה הורים",
+    "expected": [
+     390,
+     345
+    ],
+    "got": [
+     356,
+     349
+    ],
+    "tol": "max(2 %, 5 cm) per side",
+    "pass": false
+   },
+   {
+    "floor": "קומה א'",
+    "check": "room_has_label",
+    "room": "r-corridor-1",
+    "expected": "a printed label",
+    "got": "מעבר",
+    "pass": false
+   },
+   {
+    "floor": "קומה א'",
+    "check": "room_has_label",
+    "room": "r-corridor-7",
+    "expected": "a printed label",
+    "got": "מעבר",
+    "pass": false
+   },
+   {
+    "floor": "קומה א'",
+    "check": "room_has_label",
+    "room": "r-corridor-8",
+    "expected": "a printed label",
+    "got": "מעבר",
+    "pass": false
+   }
+  ]
+ },
+ "log": [
+  "הסוכן משרטט את הדירה מתוך תכנית המכר ובודק אותה מול התכנית",
+  "ההדמיה לא עברה בדיקת התאמה אוטומטית לתכנית המכר והועברה לבדיקה של Habait",
+  "Habait החזירה את הבנייה לתור לבדיקה חוזרת",
+  "הורדו 1 קבצים והקריאה המאושרת",
+  "הסוכן משרטט את הדירה מתוך תכנית המכר ובודק אותה מול התכנית",
+  "ההדמיה לא עברה בדיקת התאמה אוטומטית לתכנית המכר והועברה לבדיקה של Habait"
+ ],
+ "heartbeat": "2026-11-05T09:22:06.677Z",
+ "executor": "EliranPC:4932"
+}

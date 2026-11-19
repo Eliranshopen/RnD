@@ -1,0 +1,107 @@
+{
+ "worktree": "C:\\RnD\\.wt\\rainbow-sim-fixes",
+ "made": "2026-11-10T11:07:25",
+ "links": [
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\_local",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\plan\\floorplan.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\apt846\\plan\\floorplan.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\demo-01\\plan\\floorplan.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\apartments\\demo-01\\plan\\floorplan.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\platform\\_local",
+   "kind": "copydir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\platform\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\engine\\_local",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\engine\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\_local"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\platform\\node_modules",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\platform\\node_modules"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\studio\\node_modules",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\studio\\node_modules"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\Habait\\tour360\\engine\\node_modules",
+   "kind": "dir",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\Habait\\tour360\\engine\\node_modules"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-entrance\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-entrance\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-kitchen\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-kitchen\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-dining\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-dining\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-living\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-living\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-terraceLiving\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-terraceLiving\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-terraceBedroom\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-terraceBedroom\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bedroomMain\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bedroomMain\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-wardrobe\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-wardrobe\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bathMain\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bathMain\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bedroom2\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bedroom2\\pano.webp"
+  },
+  {
+   "path": "Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bathguest\\pano.webp",
+   "kind": "file",
+   "source": "C:\\RnD\\Projects\\Habait\\habait-walkaround\\360walkaround\\tours\\apt846-furnished\\renders\\cp-bathguest\\pano.webp"
+  }
+ ],
+ "note": "run `python scripts/media_pull.py rainbow-sim-fixes --unlink --go` BEFORE removing this worktree"
+}
